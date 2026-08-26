@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { createJSONStorage, persist, type StateStorage } from "zustand/middleware";
-import { nextUnit, openRankIndex, TRACKS, unitIdsInRank, units, type Word } from "@/lib/units";
+import { nextUnit, openRankIndex, isUnitUnlocked, TRACKS, unitIdsInRank, units, type Word } from "@/lib/units";
 
 export const DAY_MS = 86_400_000;
 export const REVIEW_LADDER = [1, 3, 7, 14, 30] as const;
@@ -32,6 +32,7 @@ type ProgressState = {
   isUnlocked: (unitId: string) => boolean;
   isComplete: (unitId: string) => boolean;
   completeUnit: (unitId: string) => void;
+  touchUnit: (unitId: string) => void;
   recordMiss: (word: Word, unitId: string) => void;
   addToNotebook: (word: Word, unitId: string) => void;
   recordHit: (seq: string) => void;
@@ -153,7 +154,8 @@ export const useProgress = create<ProgressState>()(
       wrongBySeq: {},
       markHydrated: () => set({ hydrated: true }),
       isComplete: (unitId) => get().completedUnitIds.includes(unitId),
-      isUnlocked: () => true,
+      isUnlocked: (unitId) =>
+        get().completedUnitIds.includes(unitId) || isUnitUnlocked(unitId, get().completedUnitIds),
       completeUnit: (unitId) =>
         set((state) => ({
           lastPlayedUnitId: unitId,
@@ -161,6 +163,7 @@ export const useProgress = create<ProgressState>()(
             ? state.completedUnitIds
             : [...state.completedUnitIds, unitId],
         })),
+      touchUnit: (unitId) => set({ lastPlayedUnitId: unitId }),
       addToNotebook: (word, unitId) =>
         set((state) => {
           const current = state.wrongBySeq[word.seq];
