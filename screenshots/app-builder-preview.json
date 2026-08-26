@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "제주말",
+      "hasCanvas": false,
+      "bodyTextLen": 774,
+      "bodyTextHash": "7d798208ac1b9b816c4156114f049ed612175e179b5341184e7d07515f7574ac",
+      "bodyTextPrefix": "소리로 배우는 제주어 제주말 진행 0 / 40 유닛 0 / 400 단어 이어서 배우기 01 가족과 사람 오답 카드 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "제주말",
+      "hasCanvas": false,
+      "bodyTextLen": 774,
+      "bodyTextHash": "7d798208ac1b9b816c4156114f049ed612175e179b5341184e7d07515f7574ac",
+      "bodyTextPrefix": "소리로 배우는 제주어 제주말 진행 0 / 40 유닛 0 / 400 단어 이어서 배우기 01 가족과 사람 오답 카드 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
