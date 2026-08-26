@@ -13,6 +13,8 @@ export type Question = {
   choices: string[];
 };
 
+const allWords: Word[] = units.flatMap((unit) => unit.words);
+
 function shuffle<T>(items: T[]): T[] {
   const next = [...items];
   for (let i = next.length - 1; i > 0; i -= 1) {
@@ -50,42 +52,57 @@ function tooSimilar(a: string, b: string): boolean {
   return levenshtein(a, b) / max <= 0.34;
 }
 
-function pickDistractors(
-  answer: string,
-  preferred: string[],
-  fallback: string[],
-  count: number,
-): string[] {
+function uniqueTexts(words: Word[], field: "jeju" | "standard", exceptSeq: string): string[] {
+  const seen = new Set<string>();
+  const texts: string[] = [];
+  for (const word of words) {
+    if (word.seq === exceptSeq) continue;
+    const text = word[field];
+    if (seen.has(text)) continue;
+    seen.add(text);
+    texts.push(text);
+  }
+  return texts;
+}
+
+function pickDistractors(answer: string, pools: string[][], count: number): string[] {
   const chosen: string[] = [];
   const seen = new Set<string>([answer]);
 
-  const take = (pool: string[]) => {
-    for (const option of shuffle(pool)) {
-      if (chosen.length >= count) return;
-      if (seen.has(option)) continue;
-      if (tooSimilar(option, answer)) continue;
-      if (chosen.some((item) => tooSimilar(item, option))) continue;
-      seen.add(option);
-      chosen.push(option);
+  const take = (strict: boolean) => {
+    for (const pool of pools) {
+      for (const option of shuffle(pool)) {
+        if (chosen.length >= count) return;
+        if (!option || seen.has(option)) continue;
+        if (strict && tooSimilar(option, answer)) continue;
+        if (strict && chosen.some((item) => tooSimilar(item, option))) continue;
+        seen.add(option);
+        chosen.push(option);
+      }
     }
   };
 
-  take(preferred);
-  take(fallback);
+  take(true);
+  if (chosen.length < count) take(false);
   return chosen;
+}
+
+function distractorPools(word: Word, preferred: Word[], field: "jeju" | "standard"): string[][] {
+  const samePos = allWords.filter(
+    (item) => item.seq !== word.seq && item.partOfSpeech === word.partOfSpeech,
+  );
+  return [
+    uniqueTexts(preferred, field, word.seq),
+    uniqueTexts(samePos, field, word.seq),
+    uniqueTexts(allWords, field, word.seq),
+  ];
 }
 
 export function buildLesson(unit: Unit): Question[] {
   const sameUnit = unit.words;
-  const samePos = (word: Word) =>
-    units
-      .flatMap((item) => item.words)
-      .filter((item) => item.seq !== word.seq && item.partOfSpeech === word.partOfSpeech);
 
   const listen: Question[] = sameUnit.map((word) => {
-    const preferred = sameUnit.filter((item) => item.seq !== word.seq).map((item) => item.standard);
-    const fallback = samePos(word).map((item) => item.standard);
-    const distractors = pickDistractors(word.standard, preferred, fallback, 3);
+    const distractors = pickDistractors(word.standard, distractorPools(word, sameUnit, "standard"), 3);
     return {
       id: `${word.seq}-listen`,
       kind: "listen" as const,
@@ -98,9 +115,7 @@ export function buildLesson(unit: Unit): Question[] {
   });
 
   const read: Question[] = sameUnit.map((word) => {
-    const preferred = sameUnit.filter((item) => item.seq !== word.seq).map((item) => item.jeju);
-    const fallback = samePos(word).map((item) => item.jeju);
-    const distractors = pickDistractors(word.jeju, preferred, fallback, 3);
+    const distractors = pickDistractors(word.jeju, distractorPools(word, sameUnit, "jeju"), 3);
     return {
       id: `${word.seq}-read`,
       kind: "read" as const,
@@ -117,21 +132,9 @@ export function buildLesson(unit: Unit): Question[] {
 
 export function buildReviewQuiz(words: Word[], unitIdBySeq: Record<string, string>): Question[] {
   if (words.length === 0) return [];
-  const pool = units.flatMap((unit) => unit.words);
   return shuffle(words).flatMap((word) => {
-    const others = pool.filter((item) => item.seq !== word.seq);
-    const meaningChoices = pickDistractors(
-      word.standard,
-      others.map((item) => item.standard),
-      [],
-      3,
-    );
-    const jejuChoices = pickDistractors(
-      word.jeju,
-      others.map((item) => item.jeju),
-      [],
-      3,
-    );
+    const meaningChoices = pickDistractors(word.standard, distractorPools(word, words, "standard"), 3);
+    const jejuChoices = pickDistractors(word.jeju, distractorPools(word, words, "jeju"), 3);
     const unitId = unitIdBySeq[word.seq] ?? "";
     return [
       {
