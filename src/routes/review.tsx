@@ -68,7 +68,7 @@ export function ReviewPage() {
         <h1 className="font-display text-2xl font-semibold tracking-tight">복습노트</h1>
       </header>
       <Flashcard
-        key={current.seq}
+        key={`${current.seq}-${current.lastReviewedAt}-${current.intervalDays}`}
         card={current}
         dueCount={dueCount}
         total={total}
