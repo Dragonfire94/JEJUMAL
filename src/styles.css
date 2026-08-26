@@ -1,0 +1,230 @@
+@import "tailwindcss";
+@import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
+
+@theme {
+  --color-background: #f4efe6;
+  --color-foreground: #1c1915;
+  --color-card: #fffaf3;
+  --color-card-foreground: #1c1915;
+  --color-muted: #ece4d6;
+  --color-muted-foreground: #6f675c;
+  --color-border: color-mix(in oklab, #1c1915 12%, transparent);
+  --color-primary: #0f5c5c;
+  --color-primary-foreground: #f4efe6;
+  --color-secondary: #ece4d6;
+  --color-secondary-foreground: #1c1915;
+  --color-accent: #0f5c5c;
+  --color-accent-foreground: #f4efe6;
+  --color-ring: #0f5c5c;
+  --color-success: #2f6b4f;
+  --color-success-foreground: #f4efe6;
+  --color-danger: #9b3a32;
+  --color-danger-foreground: #f4efe6;
+
+  --font-sans: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", sans-serif;
+  --font-display: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 28px;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-smooth-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-stagger: 40ms;
+  --motion-quick: 150ms;
+  --motion-fast: 250ms;
+  --motion-slow: 400ms;
+  --motion-y-small: 6px;
+  --motion-y-base: 8px;
+  --motion-blur-sm: 2px;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  @keyframes rise-in {
+    from {
+      opacity: 0;
+      transform: translateY(var(--motion-y-base));
+      filter: blur(var(--motion-blur-sm));
+    }
+    to {
+      opacity: 1;
+      transform: none;
+      filter: blur(0);
+    }
+  }
+
+  @keyframes slide-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(12px);
+      filter: blur(var(--motion-blur-sm));
+    }
+    to {
+      opacity: 1;
+      transform: none;
+      filter: blur(0);
+    }
+  }
+
+  @keyframes slide-in-left {
+    from {
+      opacity: 0;
+      transform: translateX(-12px);
+      filter: blur(var(--motion-blur-sm));
+    }
+    to {
+      opacity: 1;
+      transform: none;
+      filter: blur(0);
+    }
+  }
+
+  @keyframes shake-x {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-4px);
+    }
+    40% {
+      transform: translateX(4px);
+    }
+    60% {
+      transform: translateX(-3px);
+    }
+    80% {
+      transform: translateX(2px);
+    }
+  }
+
+  @keyframes badge-in {
+    from {
+      opacity: 0;
+      transform: scale(0.92) translateY(2px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .anim-rise {
+    animation: rise-in var(--motion-slow) var(--ease-smooth-out) both;
+  }
+
+  .anim-in-right {
+    animation: slide-in-right var(--motion-fast) var(--ease-smooth-out) both;
+  }
+
+  .anim-in-left {
+    animation: slide-in-left var(--motion-fast) var(--ease-smooth-out) both;
+  }
+
+  .anim-shake {
+    animation: shake-x 320ms var(--ease-out);
+  }
+
+  .anim-badge {
+    animation: badge-in var(--motion-fast) var(--ease-out) both;
+  }
+
+  .stagger-board > * {
+    animation: rise-in var(--motion-slow) var(--ease-smooth-out) both;
+  }
+
+  .stagger-board > *:nth-child(1) {
+    animation-delay: 0ms;
+  }
+  .stagger-board > *:nth-child(2) {
+    animation-delay: 40ms;
+  }
+  .stagger-board > *:nth-child(3) {
+    animation-delay: 80ms;
+  }
+  .stagger-board > *:nth-child(4) {
+    animation-delay: 120ms;
+  }
+  .stagger-board > *:nth-child(5) {
+    animation-delay: 160ms;
+  }
+  .stagger-board > *:nth-child(6) {
+    animation-delay: 200ms;
+  }
+  .stagger-board > *:nth-child(7) {
+    animation-delay: 240ms;
+  }
+  .stagger-board > *:nth-child(8) {
+    animation-delay: 280ms;
+  }
+  .stagger-board > *:nth-child(9) {
+    animation-delay: 320ms;
+  }
+  .stagger-board > *:nth-child(10) {
+    animation-delay: 360ms;
+  }
+  .stagger-board > *:nth-child(11) {
+    animation-delay: 400ms;
+  }
+  .stagger-board > *:nth-child(12) {
+    animation-delay: 440ms;
+  }
+
+  .stagger-list > * {
+    animation: rise-in var(--motion-fast) var(--ease-smooth-out) both;
+  }
+  .stagger-list > *:nth-child(1) {
+    animation-delay: 0ms;
+  }
+  .stagger-list > *:nth-child(2) {
+    animation-delay: 40ms;
+  }
+  .stagger-list > *:nth-child(3) {
+    animation-delay: 80ms;
+  }
+  .stagger-list > *:nth-child(4) {
+    animation-delay: 120ms;
+  }
+  .stagger-list > *:nth-child(5) {
+    animation-delay: 160ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

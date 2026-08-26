@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="제주말">
+  <rect width="32" height="32" rx="7" fill="#1C1915"/>
+  <path fill="#0F5C5C" d="M2 21.5c3.2-3.4 5.4 1.1 8.4-2 3-3.1 5.4 1.6 8.6-1.2 3.2-2.8 5.4 1.8 9-1.6V30H2z"/>
+  <text x="16" y="14.5" text-anchor="middle" dominant-baseline="middle"
+    font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
+    font-size="15" font-weight="800" fill="#FFFAF3">말</text>
+</svg>

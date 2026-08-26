@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "family",
+    "title": "가족과 사람",
+    "icon": "👪",
+    "order": 1,
+    "words": [
+      {
+        "seq": "702",
+        "jeju": "아방",
+        "standard": "아버지",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=702",
+        "eng": "father",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "713",
+        "jeju": "어멍",
+        "standard": "어머니",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=713",
+        "eng": "mother",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7568",
+        "jeju": "하르방",
+        "standard": "할아버지",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7568",
+        "eng": "Grandfather",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7569",
+        "jeju": "할망",
+        "standard": "할머니",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7569",
+        "eng": "Grandmother",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2695",
+        "jeju": "오라방",
+        "standard": "오빠",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2695",
+        "eng": "brother",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "544",
+        "jeju": "성",
+        "standard": "형",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=544",
+        "eng": "older brother",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "581",
+        "jeju": "아시",
+        "standard": "동생",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=581",
+        "eng": "younger sister or brother",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2748",
+        "jeju": "조캐",
+        "standard": "조카",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2748",
+        "eng": "nephew",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6729",
+        "jeju": "큰아방",
+        "standard": "큰아버지",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6729",
+        "eng": "The eldest uncle in father side",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "372",
+        "jeju": "각씨",
+        "standard": "아내",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=372",
+        "eng": "the previous year",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "body",
+    "title": "몸",
+    "icon": "🧍",
+    "order": 2,
+    "words": [
+      {
+        "seq": "2775",
+        "jeju": "가심",
+        "standard": "가슴",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2775",
+        "eng": "breast",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3139",
+        "jeju": "손콥",
+        "standard": "손톱",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3139",
+        "eng": "fingernail",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3138",
+        "jeju": "발콥",
+        "standard": "발톱",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3138",
+        "eng": "toenail",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3089",
+        "jeju": "입바위",
+        "standard": "입술",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3089",
+        "eng": "lips",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2914",
+        "jeju": "멘손",
+        "standard": "맨손",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2914",
+        "eng": "hands",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2913",
+        "jeju": "멘발",
+        "standard": "맨발",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2913",
+        "eng": "feet",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2778",
+        "jeju": "갈리",
+        "standard": "갈비",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2778",
+        "eng": "rib",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2828",
+        "jeju": "귓밥",
+        "standard": "귀지",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2828",
+        "eng": "ear wax",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3001",
+        "jeju": "세깍",
+        "standard": "혀끝",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3001",
+        "eng": "end of tongue",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2917",
+        "jeju": "모감지",
+        "standard": "멱살",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2917",
+        "eng": "neck fat",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "title": "음식",
+    "icon": "🍚",
+    "order": 3,
+    "words": [
+      {
+        "seq": "6775",
+        "jeju": "옛",
+        "standard": "엿",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6775",
+        "eng": "Yeot, Korean bon bon",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3544",
+        "jeju": "청",
+        "standard": "꿀",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3544",
+        "eng": "honey",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6747",
+        "jeju": "소곰",
+        "standard": "소금",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6747",
+        "eng": "Salt",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3451",
+        "jeju": "둠비",
+        "standard": "두부",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3451",
+        "eng": "tofu",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4300",
+        "jeju": "고치",
+        "standard": "고추",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4300",
+        "eng": "chilli",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6762",
+        "jeju": "시리떡",
+        "standard": "시루떡",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6762",
+        "eng": "Siruddeok, Korean rice cake",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3419",
+        "jeju": "곤죽",
+        "standard": "쌀죽",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3419",
+        "eng": "rice porridge",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3433",
+        "jeju": "넹수",
+        "standard": "냉수",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3433",
+        "eng": "water",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3525",
+        "jeju": "조축",
+        "standard": "조죽",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3525",
+        "eng": "millet porridge",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6750",
+        "jeju": "소쥐",
+        "standard": "소주",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6750",
+        "eng": "Soju, Korean distilled liquor",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "verbs",
+    "title": "움직임 (동사 기초)",
+    "icon": "🏃",
+    "order": 4,
+    "words": [
+      {
+        "seq": "6892",
+        "jeju": "놓이다",
+        "standard": "놓다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6892",
+        "eng": "Put",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7144",
+        "jeju": "페우다",
+        "standard": "펴다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7144",
+        "eng": "Unfold",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7085",
+        "jeju": "익다",
+        "standard": "읽다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7085",
+        "eng": "Read",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7073",
+        "jeju": "앚다",
+        "standard": "앉다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7073",
+        "eng": "Sit down",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7071",
+        "jeju": "씨다",
+        "standard": "쓰다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7071",
+        "eng": "Use",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7061",
+        "jeju": "싯다",
+        "standard": "씻다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7061",
+        "eng": "Wash",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6980",
+        "jeju": "무끄다",
+        "standard": "묶다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6980",
+        "eng": "Tie",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6967",
+        "jeju": "메다",
+        "standard": "매다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6967",
+        "eng": "Fasten",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6930",
+        "jeju": "들르다",
+        "standard": "들다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6930",
+        "eng": "Lift",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6919",
+        "jeju": "도왜다",
+        "standard": "돕다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6919",
+        "eng": "Help",
+        "partOfSpeech": "verb",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "adjectives",
+    "title": "상태 (형용사 기초)",
+    "icon": "✨",
+    "order": 5,
+    "words": [
+      {
+        "seq": "7157",
+        "jeju": "히다",
+        "standard": "희다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7157",
+        "eng": "White",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7329",
+        "jeju": "하다",
+        "standard": "많다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7329",
+        "eng": "Many",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7299",
+        "jeju": "지프다",
+        "standard": "깊다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7299",
+        "eng": "Deep",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7170",
+        "jeju": "넙다",
+        "standard": "넓다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7170",
+        "eng": "Large",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7256",
+        "jeju": "알리다",
+        "standard": "아프다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7256",
+        "eng": "Sick",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7288",
+        "jeju": "조랍다",
+        "standard": "졸리다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7288",
+        "eng": "Sleepy",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7192",
+        "jeju": "물르다",
+        "standard": "무르다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7192",
+        "eng": "Soft",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7279",
+        "jeju": "요망지다",
+        "standard": "똑똑하다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7279",
+        "eng": "Smart",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7235",
+        "jeju": "서느럽다",
+        "standard": "선선하다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7235",
+        "eng": "Cool",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7296",
+        "jeju": "지껍다",
+        "standard": "기쁘다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7296",
+        "eng": "Delightful",
+        "partOfSpeech": "adjective",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "house_clothes",
+    "title": "집과 생활",
+    "icon": "🏠",
+    "order": 6,
+    "words": [
+      {
+        "seq": "3372",
+        "jeju": "초집",
+        "standard": "초가집",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3372",
+        "eng": "thatched cottage",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3296",
+        "jeju": "안거리",
+        "standard": "안채",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3296",
+        "eng": "inner house",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3356",
+        "jeju": "지엣장",
+        "standard": "기왓장",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3356",
+        "eng": "tiled roof",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3373",
+        "jeju": "추년",
+        "standard": "추녀",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3373",
+        "eng": "protruding corners of Korean eaves",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3301",
+        "jeju": "알녁거리",
+        "standard": "앞채",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3301",
+        "eng": "front house",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6783",
+        "jeju": "우티",
+        "standard": "웃옷",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6783",
+        "eng": "Upper garment",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6782",
+        "jeju": "우투",
+        "standard": "외투",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6782",
+        "eng": "Jacket",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6780",
+        "jeju": "옷짓",
+        "standard": "옷깃",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6780",
+        "eng": "Collar",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "807",
+        "jeju": "빈네",
+        "standard": "비녀",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=807",
+        "eng": "ornamental hairpin",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6786",
+        "jeju": "이불자리",
+        "standard": "이불요",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6786",
+        "eng": "Bedding",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "animals",
+    "title": "동물",
+    "icon": "🐾",
+    "order": 7,
+    "words": [
+      {
+        "seq": "1957",
+        "jeju": "강생이",
+        "standard": "강아지",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1957",
+        "eng": "dog",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2020",
+        "jeju": "도새기",
+        "standard": "돼지",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2020",
+        "eng": "pig",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1969",
+        "jeju": "고냉이",
+        "standard": "고양이",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1969",
+        "eng": "cat",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2493",
+        "jeju": "청벌",
+        "standard": "꿀벌",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2493",
+        "eng": "honey bee",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2471",
+        "jeju": "불한듸",
+        "standard": "반디",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2471",
+        "eng": "firefy",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2468",
+        "jeju": "베록",
+        "standard": "벼룩",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2468",
+        "eng": "flea",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2275",
+        "jeju": "물이실",
+        "standard": "해파리",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2275",
+        "eng": "jellyfish",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1879",
+        "jeju": "그레기",
+        "standard": "기러기",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1879",
+        "eng": "goose",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1987",
+        "jeju": "납",
+        "standard": "나비",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1987",
+        "eng": "butterfly",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "2452",
+        "jeju": "베염",
+        "standard": "뱀",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=2452",
+        "eng": "snake",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "nature_plants",
+    "title": "자연과 식물",
+    "icon": "🌿",
+    "order": 8,
+    "words": [
+      {
+        "seq": "3955",
+        "jeju": "신속",
+        "standard": "쑥",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3955",
+        "eng": "sagebrush",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4188",
+        "jeju": "강낭대죽",
+        "standard": "옥수수",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4188",
+        "eng": "corn",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4230",
+        "jeju": "사당대죽",
+        "standard": "사탕수수",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4230",
+        "eng": "sugar sorguhm",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4163",
+        "jeju": "곡석",
+        "standard": "곡식",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4163",
+        "eng": "crops",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4316",
+        "jeju": "드룻마농",
+        "standard": "달래",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4316",
+        "eng": "wild garlic",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4348",
+        "jeju": "짐",
+        "standard": "김",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4348",
+        "eng": "seawead",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4317",
+        "jeju": "들굽",
+        "standard": "두릅",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4317",
+        "eng": "shoots of a fatsia",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3958",
+        "jeju": "베",
+        "standard": "배",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3958",
+        "eng": "pear",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4464",
+        "jeju": "포두",
+        "standard": "포도",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4464",
+        "eng": "grape",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4465",
+        "jeju": "피파",
+        "standard": "비파",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4465",
+        "eng": "loquat",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "farming_sky",
+    "title": "농사와 하늘",
+    "icon": "🌾",
+    "order": 9,
+    "words": [
+      {
+        "seq": "1553",
+        "jeju": "물밭",
+        "standard": "논",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1553",
+        "eng": "field",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1583",
+        "jeju": "조팥",
+        "standard": "조밭",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1583",
+        "eng": "millet field",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1380",
+        "jeju": "걸름",
+        "standard": "거름",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1380",
+        "eng": "fertilizer",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1655",
+        "jeju": "밭갊",
+        "standard": "밭갈이",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1655",
+        "eng": "plowing",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1524",
+        "jeju": "메터",
+        "standard": "모판",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1524",
+        "eng": "seedbed",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "52",
+        "jeju": "언비",
+        "standard": "찬비",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=52",
+        "eng": "cold rain",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "42",
+        "jeju": "새벨",
+        "standard": "샛별",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=42",
+        "eng": "morning star",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "31",
+        "jeju": "베락",
+        "standard": "벼락",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=31",
+        "eng": "thunder",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "266",
+        "jeju": "하늬",
+        "standard": "북",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=266",
+        "eng": "north",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "258",
+        "jeju": "앞",
+        "standard": "남쪽",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=258",
+        "eng": "south",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "expressions",
+    "title": "표현",
+    "icon": "💬",
+    "order": 10,
+    "words": [
+      {
+        "seq": "7557",
+        "jeju": "무사",
+        "standard": "왜",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7557",
+        "eng": "Why",
+        "partOfSpeech": "adverb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7496",
+        "jeju": "하영",
+        "standard": "많이",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7496",
+        "eng": "Much",
+        "partOfSpeech": "adverb",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7564",
+        "jeju": "옵서",
+        "standard": "오다",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7564",
+        "eng": "Come",
+        "partOfSpeech": "interjection",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7554",
+        "jeju": "기여",
+        "standard": "그래",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7554",
+        "eng": "OK",
+        "partOfSpeech": "interjection",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "5707",
+        "jeju": "이디",
+        "standard": "여기",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=5707",
+        "eng": "here",
+        "partOfSpeech": "pronoun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "5709",
+        "jeju": "저디",
+        "standard": "저기",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=5709",
+        "eng": "there",
+        "partOfSpeech": "pronoun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "5704",
+        "jeju": "이거",
+        "standard": "이것",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=5704",
+        "eng": "this",
+        "partOfSpeech": "pronoun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "5696",
+        "jeju": "누게",
+        "standard": "누구",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=5696",
+        "eng": "who",
+        "partOfSpeech": "pronoun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "5718",
+        "jeju": "싯",
+        "standard": "셋",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=5718",
+        "eng": "three",
+        "partOfSpeech": "number",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "5721",
+        "jeju": "여답",
+        "standard": "여덟",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=5721",
+        "eng": "eight",
+        "partOfSpeech": "number",
+        "audioQuality": "pending"
+      }
+    ]
+  },
+  {
+    "id": "culture",
+    "title": "문화",
+    "icon": "⛩️",
+    "order": 11,
+    "words": [
+      {
+        "seq": "6067",
+        "jeju": "허재비",
+        "standard": "허수아비",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6067",
+        "eng": "a straw-toy",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1857",
+        "jeju": "코시",
+        "standard": "고사",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1857",
+        "eng": "service",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "6073",
+        "jeju": "개당",
+        "standard": "바닷가에 있는 당",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=6073",
+        "eng": "a shrine by the seashore",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "3335",
+        "jeju": "정낭",
+        "standard": "제주식 나무 대문",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=3335",
+        "eng": "tree that crosses the garden instead of gate",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "5137",
+        "jeju": "불턱",
+        "standard": "해녀들의 불 피우는 쉼터",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=5137",
+        "eng": "stack of stones for making a fire",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1862",
+        "jeju": "할망당",
+        "standard": "여신을 모신 당",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1862",
+        "eng": "temple that worships female god",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "662",
+        "jeju": "새서방",
+        "standard": "신랑",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=662",
+        "eng": "groom",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "7530",
+        "jeju": "새각시",
+        "standard": "신부",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=7530",
+        "eng": "Bride",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "4066",
+        "jeju": "촐",
+        "standard": "꼴",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=4066",
+        "eng": "like something",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      },
+      {
+        "seq": "1649",
+        "jeju": "휨",
+        "standard": "헤엄",
+        "soundUrl": "https://www.jeju.go.kr/api/culture/dialect?dialect=1649",
+        "eng": "swimming",
+        "partOfSpeech": "noun",
+        "audioQuality": "pending"
+      }
+    ]
+  }
+]
