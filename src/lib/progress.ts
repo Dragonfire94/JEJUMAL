@@ -104,6 +104,10 @@ export function cardIsDue(card: WrongCard, now = Date.now()): boolean {
   return cardDueAt(card) <= now;
 }
 
+export function dueCount(wrongBySeq: Record<string, WrongCard>, now = Date.now()): number {
+  return Object.values(wrongBySeq).filter((card) => cardIsDue(card, now)).length;
+}
+
 export function sortWrongCards(wrongBySeq: Record<string, WrongCard>, now = Date.now()): WrongCard[] {
   return Object.values(wrongBySeq).sort((a, b) => {
     const dueA = cardIsDue(a, now);
