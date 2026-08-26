@@ -11,7 +11,7 @@ import {
   quizAccuracy,
   reviewsDone,
   studyStreak,
-  trackMastery,
+  rankMastery,
 } from "@/lib/stats";
 import { TOTAL_WORDS, nextUnlockStatus, progressPercent } from "@/lib/units";
 import { cn } from "@/lib/utils";
@@ -33,7 +33,7 @@ function StatsPage() {
   const streak = useMemo(() => studyStreak(dailyStats, todayKey), [dailyStats, todayKey]);
   const days = useMemo(() => chartDays(dailyStats, todayKey), [dailyStats, todayKey]);
   const hasChart = chartHasActivity(days);
-  const tracks = useMemo(() => trackMastery(completed), [completed]);
+  const ranks = useMemo(() => rankMastery(completed), [completed]);
   const dueCards = useProgress((state) => dueCount(state.wrongBySeq));
   const notebookCount = Object.keys(wrongBySeq).length;
   const weekReviews = days.reduce((sum, day) => sum + reviewsDone(day), 0);
@@ -101,17 +101,17 @@ function StatsPage() {
       </section>
 
       <section className="flex flex-col gap-3">
-        <h2 className="font-medium">주제별</h2>
+        <h2 className="font-medium">등급별</h2>
         <div className="flex flex-col gap-2.5 rounded-2xl border border-border bg-card p-4">
-          {tracks.map((track) => (
-            <div key={track.id} className="flex flex-col gap-1">
+          {ranks.map((rank) => (
+            <div key={rank.id} className={cn("flex flex-col gap-1", !rank.open && "opacity-50")}>
               <div className="flex items-baseline justify-between gap-2 text-sm">
-                <span>{track.title}</span>
+                <span>{rank.title}</span>
                 <span className="text-xs tabular-nums text-muted-foreground">
-                  {track.percent === null ? "—" : `${track.completed}/${track.unlocked}`}
+                  {rank.wordsDone}/{rank.wordsTotal} · {rank.percent}%
                 </span>
               </div>
-              <Progress value={track.percent ?? 0} />
+              <Progress value={rank.percent} />
             </div>
           ))}
         </div>
