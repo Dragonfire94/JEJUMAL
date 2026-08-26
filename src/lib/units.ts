@@ -42,11 +42,11 @@ export type Track = {
 export const units = rawUnits as Unit[];
 
 export const RANKS: Rank[] = [
-  { id: "baby", title: "애기해녀", subtitle: "이제 막 시작", minPercent: 0 },
-  { id: "ha", title: "하군", subtitle: "기본기", minPercent: 20 },
-  { id: "jung", title: "중군", subtitle: "일상 표현", minPercent: 40 },
-  { id: "sang", title: "상군", subtitle: "자유롭게 구사", minPercent: 60 },
-  { id: "dae", title: "대상군", subtitle: "제주어 마스터", minPercent: 80 },
+  { id: "baby", title: "애기해녀", subtitle: "혼저옵서예. 발만 적신 날", minPercent: 0 },
+  { id: "ha", title: "하군", subtitle: "얕은 바당, 숨 맞춰 봅주", minPercent: 20 },
+  { id: "jung", title: "중군", subtitle: "놀멍 배우멍, 말이 붙었수다", minPercent: 40 },
+  { id: "sang", title: "상군", subtitle: "숨비소리 한 번, 깊게 잠수멍", minPercent: 60 },
+  { id: "dae", title: "대상군", subtitle: "이 바당의 대상군이우다", minPercent: 80 },
 ];
 
 export const TRACKS: Track[] = [
