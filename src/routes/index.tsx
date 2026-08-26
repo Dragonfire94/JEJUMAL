@@ -41,7 +41,6 @@ function Home() {
   const selected = RANKS[selectedRank]!;
   const rankUnits = unitsInRank(selectedRank);
   const rankDone = rankUnits.filter((unit) => completed.includes(unit.id)).length;
-  const rankOpen = rankUnits[0] ? isUnlocked(rankUnits[0].id) : false;
 
   return (
     <div className="flex flex-col gap-5">
