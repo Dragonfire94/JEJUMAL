@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft, Volume2 } from "lucide-react";
 import { useState } from "react";
 import { QuizView } from "@/components/quiz-view";
@@ -32,6 +32,8 @@ function LearnPage() {
   const recordQuiz = useProgress((state) => state.recordQuiz);
   const isUnlocked = useProgress((state) => state.isUnlocked);
   const completed = useProgress((state) => state.completedUnitIds);
+  const addToNotebook = useProgress((state) => state.addToNotebook);
+  const navigate = useNavigate();
   const [phase, setPhase] = useState<Phase>("intro");
   const [round, setRound] = useState<"main" | "retry">("main");
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -147,6 +149,12 @@ function LearnPage() {
     const savedCount = score.savedSeqs.length;
     const percent = score.total ? Math.round((score.correct / score.total) * 100) : 0;
     const need = Math.ceil((score.total * PASS_PERCENT) / 100);
+    const stuck = !score.passed && round === "retry";
+
+    function leaveToReview() {
+      for (const word of missedWords) addToNotebook(word, currentUnit.id);
+      void navigate({ to: missedWords.length > 0 || savedCount > 0 ? "/review" : "/" });
+    }
     return (
       <div className="flex flex-col gap-6">
         <PageHeader kicker={currentUnit.title} title="결과" />
@@ -184,12 +192,20 @@ function LearnPage() {
           <p className="text-center text-sm text-muted-foreground">이 유닛은 전부 맞혔습니다.</p>
         )}
         <div className="grid gap-2">
+          {stuck ? (
+            <>
+              <Button size="lg" onClick={leaveToReview}>
+                복습노트에서 이어서
+              </Button>
+              <p className="text-center text-xs text-muted-foreground">이 유닛은 나중에 다시 열 수 있습니다</p>
+            </>
+          ) : null}
           {score.missedQuestions.length > 0 ? (
-            <Button size="lg" variant={score.passed ? "outline" : "default"} onClick={retryMissed}>
+            <Button size="lg" variant={score.passed || stuck ? "outline" : "default"} onClick={retryMissed}>
               틀린 것만 다시 · {score.missedQuestions.length}문제
             </Button>
           ) : null}
-          {savedCount > 0 ? (
+          {!stuck && savedCount > 0 ? (
             <Button asChild size="lg" variant={score.passed && score.missedQuestions.length === 0 ? "default" : "outline"}>
               <Link to="/review">복습노트 보기</Link>
             </Button>
@@ -202,7 +218,7 @@ function LearnPage() {
                   : `${rankFromWave(following.rankIndex).title} 시작`}
               </Link>
             </Button>
-          ) : following && !score.passed ? (
+          ) : following && !score.passed && !stuck ? (
             <p className="text-center text-sm text-muted-foreground">
               {PASS_PERCENT}%를 넘기면 다음으로 갈 수 있습니다
             </p>
@@ -219,7 +235,7 @@ function LearnPage() {
             </p>
           ) : null}
           <Button asChild variant="outline" size="lg">
-            <Link to="/">유닛 목록</Link>
+            <Link to="/">{stuck ? "오늘은 여기까지" : "유닛 목록"}</Link>
           </Button>
         </div>
       </div>

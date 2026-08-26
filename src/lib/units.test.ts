@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { test } from "node:test";
+import { test } from "vitest";
 import {
   LAST_RANK_INDEX,
   RANK_ADVANCE_UNITS,
