@@ -148,18 +148,6 @@ function UnlockPanel({ hint, locked }: { hint: RankUnlockHint | null; locked: bo
           지금 {Math.min(hint.haveWords, hint.needWords)}/{hint.needWords}단어
         </p>
       ) : null}
-      {hint.kind === "locked-master" ? (
-        <ul className="mt-2 grid gap-1">
-          {hint.ranks.map((item) => (
-            <li key={item.title} className="flex justify-between text-xs tabular-nums">
-              <span>{item.title}</span>
-              <span className={item.haveWords >= item.totalWords ? "text-primary" : "text-muted-foreground"}>
-                {item.haveWords}/{item.totalWords}
-              </span>
-            </li>
-          ))}
-        </ul>
-      ) : null}
     </div>
   );
 }
