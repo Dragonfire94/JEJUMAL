@@ -12,7 +12,7 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: APP_NAME },
-      { name: "description", content: "소리로 배우는 제주어. 400단어, 복습노트로 반복 학습." },
+      { name: "description", content: "소리로 배우는 제주어. 1,000단어, 복습노트로 반복 학습." },
       { name: "theme-color", content: "#f4efe6" },
     ],
     links: [
