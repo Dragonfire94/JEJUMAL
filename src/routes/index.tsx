@@ -16,6 +16,8 @@ import {
   unitsInRank,
   unitsToNextRank,
   WORDS_PER_RANK,
+  formatRankUnlockHint,
+  rankUnlockHint,
   type Unit,
 } from "@/lib/units";
 import { cn } from "@/lib/utils";
@@ -129,17 +131,12 @@ function Home() {
             />
           ))}
         </div>
-        {rankOpen ? (
-          selectedRank < RANKS.length - 1 ? (
-            <p className="text-center text-xs text-muted-foreground">
-              이 200단어를 모두 마치면 {RANKS[selectedRank + 1]?.title}이 열립니다
-            </p>
-          ) : null
-        ) : (
-          <p className="text-center text-xs text-muted-foreground">
-            {RANKS[selectedRank - 1]?.title} 200단어를 마치면 열립니다
-          </p>
-        )}
+        {(() => {
+          const hint = rankUnlockHint(selectedRank, completed);
+          return hint ? (
+            <p className="text-center text-xs text-muted-foreground">{formatRankUnlockHint(hint)}</p>
+          ) : null;
+        })()}
       </section>
     </div>
   );
