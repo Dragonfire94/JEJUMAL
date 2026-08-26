@@ -1845,10 +1845,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "2827",
-        "jeju": "귀창",
-        "standard": "귀청",
-        "soundUrl": "/audio/2827.mp3",
+        "seq": "3096",
+        "jeju": "장목",
+        "standard": "손목",
+        "soundUrl": "/audio/3096.mp3",
         "partOfSpeech": "noun"
       },
       {
@@ -2175,10 +2175,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "3164",
-        "jeju": "큰한집",
-        "standard": "마마",
-        "soundUrl": "/audio/3164.mp3",
+        "seq": "2972",
+        "jeju": "부스름",
+        "standard": "부스럼",
+        "soundUrl": "/audio/2972.mp3",
         "partOfSpeech": "noun"
       },
       {
@@ -2793,10 +2793,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "4871",
-        "jeju": "니껍",
-        "standard": "미끼",
-        "soundUrl": "/audio/4871.mp3",
+        "seq": "3457",
+        "jeju": "뒨술",
+        "standard": "막걸리",
+        "soundUrl": "/audio/3457.mp3",
         "partOfSpeech": "noun"
       },
       {
@@ -3590,10 +3590,10 @@
         "partOfSpeech": "verb"
       },
       {
-        "seq": "7097",
-        "jeju": "제기다",
-        "standard": "쌓다",
-        "soundUrl": "/audio/7097.mp3",
+        "seq": "6890",
+        "jeju": "넬리다",
+        "standard": "던지다",
+        "soundUrl": "/audio/6890.mp3",
         "partOfSpeech": "verb"
       },
       {
@@ -5047,10 +5047,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "6692",
-        "jeju": "돌하르방",
-        "standard": "돌하르방",
-        "soundUrl": "/audio/6692.mp3",
+        "seq": "230",
+        "jeju": "한질",
+        "standard": "큰길",
+        "soundUrl": "/audio/230.mp3",
         "partOfSpeech": "noun"
       }
     ]
@@ -5386,10 +5386,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "1356",
-        "jeju": "푸는체",
-        "standard": "키",
-        "soundUrl": "/audio/1356.mp3",
+        "seq": "1118",
+        "jeju": "드레",
+        "standard": "두레박",
+        "soundUrl": "/audio/1118.mp3",
         "partOfSpeech": "noun"
       },
       {
@@ -6311,10 +6311,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "4869",
-        "jeju": "늬귀",
-        "standard": "네모",
-        "soundUrl": "/audio/4869.mp3",
+        "seq": "3347",
+        "jeju": "지둥",
+        "standard": "기둥",
+        "soundUrl": "/audio/3347.mp3",
         "partOfSpeech": "noun"
       }
     ]
@@ -7475,10 +7475,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "4184",
-        "jeju": "땅콩",
-        "standard": "땅콩",
-        "soundUrl": "/audio/4184.mp3",
+        "seq": "4297",
+        "jeju": "감제",
+        "standard": "고구마",
+        "soundUrl": "/audio/4297.mp3",
         "partOfSpeech": "noun"
       },
       {
@@ -7496,10 +7496,10 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "4152",
-        "jeju": "강낭콩",
-        "standard": "강낭콩",
-        "soundUrl": "/audio/4152.mp3",
+        "seq": "1553",
+        "jeju": "물밭",
+        "standard": "논",
+        "soundUrl": "/audio/1553.mp3",
         "partOfSpeech": "noun"
       }
     ]
@@ -7598,17 +7598,17 @@
         "partOfSpeech": "noun"
       },
       {
-        "seq": "6112",
-        "jeju": "너솜",
-        "standard": "고삼",
-        "soundUrl": "/audio/6112.mp3",
+        "seq": "4445",
+        "jeju": "전기꼿",
+        "standard": "진달래",
+        "soundUrl": "/audio/4445.mp3",
         "partOfSpeech": "noun"
       },
       {
-        "seq": "6111",
-        "jeju": "쓴너삼",
-        "standard": "고삼",
-        "soundUrl": "/audio/6111.mp3",
+        "seq": "4471",
+        "jeju": "헤바래기",
+        "standard": "해바라기",
+        "soundUrl": "/audio/4471.mp3",
         "partOfSpeech": "noun"
       },
       {
