@@ -5,6 +5,7 @@ import {
   RANK_ADVANCE_UNITS,
   isRankOpen,
   isUnitUnlocked,
+  nextUnlockStatus,
   rankUnlockHint,
   unitIdsInRank,
 } from "./units";
@@ -44,6 +45,26 @@ test("unlock copy counts remaining words to 120, then names 대상군 as a full 
   assert.deepEqual(rankUnlockHint(0, eleven), { kind: "advance", remainWords: 10, nextTitle: "하군" });
   const twelve = firstN(0, RANK_ADVANCE_UNITS);
   assert.deepEqual(rankUnlockHint(0, twelve), { kind: "opened", nextTitle: "하군" });
-  assert.deepEqual(rankUnlockHint(LAST_RANK_INDEX, twelve), { kind: "locked-master" });
-  assert.deepEqual(rankUnlockHint(3, twelve), { kind: "locked-advance", prevTitle: "중군" });
+  const master = rankUnlockHint(LAST_RANK_INDEX, twelve);
+  assert.equal(master?.kind, "locked-master");
+  if (master?.kind === "locked-master") {
+    assert.equal(master.ranks[0]?.haveWords, 120);
+    assert.equal(master.ranks[1]?.haveWords, 0);
+  }
+  assert.deepEqual(rankUnlockHint(3, twelve), {
+    kind: "locked-advance",
+    prevTitle: "중군",
+    haveWords: 0,
+    needWords: 120,
+  });
+});
+
+test("status line uses 120 words to the next open rank, not 200", () => {
+  assert.equal(nextUnlockStatus([]), "하군까지 120단어");
+  assert.equal(nextUnlockStatus(firstN(0, 4)), "하군까지 80단어");
+  assert.equal(nextUnlockStatus(firstN(0, RANK_ADVANCE_UNITS)), "중군까지 120단어");
+  const almostMaster = [0, 1, 2, 3].flatMap((rank) => unitIdsInRank(rank));
+  almostMaster.pop();
+  assert.equal(nextUnlockStatus(almostMaster), "대상군까지 10단어");
+  assert.equal(nextUnlockStatus([0, 1, 2, 3, 4].flatMap((rank) => unitIdsInRank(rank))), "대상군 마스터");
 });

@@ -212,6 +212,8 @@ function LearnPage() {
                 rankUnlockHint(rankIndexOfWave(currentUnit.rankIndex), completed) ?? {
                   kind: "locked-advance",
                   prevTitle: pack?.title ?? "이전 등급",
+                  haveWords: 0,
+                  needWords: 120,
                 },
               )}
             </p>
