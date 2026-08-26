@@ -13,6 +13,15 @@ export type Question = {
   choices: string[];
 };
 
+export type QuizResult = {
+  correct: number;
+  missedSeqs: string[];
+  savedSeqs: string[];
+  missedQuestions: Question[];
+};
+
+export const PASS_PERCENT = 70;
+
 const allWords: Word[] = units.flatMap((unit) => unit.words);
 
 function shuffle<T>(items: T[]): T[] {
@@ -85,6 +94,15 @@ function pickDistractors(answer: string, pools: string[][], count: number): stri
   take(true);
   if (chosen.length < count) take(false);
   return chosen;
+}
+
+export function hasPassed(correct: number, total: number): boolean {
+  if (total <= 0) return false;
+  return correct * 100 >= total * PASS_PERCENT;
+}
+
+export function shuffleQuestions(questions: Question[]): Question[] {
+  return shuffle(questions);
 }
 
 function distractorPools(word: Word, preferred: Word[], field: "jeju" | "standard"): string[][] {
