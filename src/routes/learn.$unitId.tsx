@@ -14,7 +14,7 @@ import {
   type Question,
   type QuizResult,
 } from "@/lib/quiz";
-import { formatUnitNumber, getUnit, nextUnit, progressPercent, rankFromPercent, rankFromWave, formatRankUnlockHint, rankUnlockHint, rankIndexOfWave, type Word } from "@/lib/units";
+import { formatUnitNumber, getUnit, nextUnit, currentRank, rankFromWave, formatRankUnlockHint, rankUnlockHint, rankIndexOfWave, type Word } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/learn/$unitId")({
@@ -101,8 +101,9 @@ function LearnPage() {
 
     if (passed && !already) {
       completeUnit(currentUnit.id);
-      const prev = rankFromPercent(progressPercent(before.length));
-      const next = rankFromPercent(progressPercent(before.length + 1));
+      const after = [...before, currentUnit.id];
+      const prev = currentRank(before);
+      const next = currentRank(after);
       if (prev.id !== next.id) setPromotedTo(next.title);
     } else if (passed) {
       completeUnit(currentUnit.id);
