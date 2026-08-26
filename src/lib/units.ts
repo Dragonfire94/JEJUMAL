@@ -136,6 +136,18 @@ export function openRankIndex(completedIds: string[]): number {
   return LAST_RANK_INDEX;
 }
 
+export function currentRankIndex(completedIds: string[]): number {
+  let index = 0;
+  for (let rankIndex = 0; rankIndex < RANKS.length; rankIndex += 1) {
+    if (isRankOpen(rankIndex, completedIds)) index = rankIndex;
+  }
+  return index;
+}
+
+export function currentRank(completedIds: string[]): Rank {
+  return RANKS[currentRankIndex(completedIds)]!;
+}
+
 const byId = new Map(units.map((unit) => [unit.id, unit]));
 const wordIndex = new Map<string, { word: Word; unit: Unit }>();
 const trackByUnit = new Map<string, Track>();

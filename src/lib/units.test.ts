@@ -3,6 +3,7 @@ import { test } from "vitest";
 import {
   LAST_RANK_INDEX,
   RANK_ADVANCE_UNITS,
+  currentRank,
   isRankOpen,
   isUnitUnlocked,
   nextUnlockStatus,
@@ -67,4 +68,13 @@ test("status line uses 120 words to the next open rank, not 200", () => {
   almostMaster.pop();
   assert.equal(nextUnlockStatus(almostMaster), "대상군까지 10단어");
   assert.equal(nextUnlockStatus([0, 1, 2, 3, 4].flatMap((rank) => unitIdsInRank(rank))), "대상군 마스터");
+});
+
+test("title follows the highest open rank, not overall percent", () => {
+  assert.equal(currentRank([]).id, "baby");
+  assert.equal(currentRank(firstN(0, RANK_ADVANCE_UNITS)).id, "ha");
+  assert.equal(currentRank([...firstN(0, RANK_ADVANCE_UNITS), ...firstN(1, RANK_ADVANCE_UNITS)]).id, "jung");
+  const skipped = [0, 1, 2, 3].flatMap((rank) => firstN(rank, RANK_ADVANCE_UNITS));
+  assert.equal(currentRank(skipped).id, "sang");
+  assert.equal(currentRank([0, 1, 2, 3].flatMap((rank) => unitIdsInRank(rank))).id, "dae");
 });

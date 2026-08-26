@@ -10,7 +10,7 @@ import {
   openRankIndex,
   progressPercent,
   RANKS,
-  rankFromPercent,
+  currentRank,
   TOTAL_WORDS,
   unitsInRank,
   WORDS_PER_RANK,
@@ -33,7 +33,7 @@ function Home() {
   const doneCount = completed.length;
   const learnedWords = doneCount * 10;
   const percent = progressPercent(doneCount);
-  const rank = rankFromPercent(percent);
+  const rank = currentRank(completed);
   const unlockStatus = nextUnlockStatus(completed);
   const openRank = openRankIndex(completed);
   const [previewRank, setPreviewRank] = useState(openRank);
@@ -59,25 +59,7 @@ function Home() {
             </div>
             <p className="font-display text-2xl font-semibold tabular-nums">{percent}%</p>
           </div>
-          <div className="relative">
-            <Progress value={percent} />
-            <div className="pointer-events-none absolute inset-0 flex">
-              {RANKS.slice(1).map((item) => (
-                <span
-                  key={item.id}
-                  className="absolute top-0 h-full w-px bg-background/80"
-                  style={{ left: `${item.minPercent}%` }}
-                />
-              ))}
-            </div>
-          </div>
-          <div className="flex justify-between text-[11px] text-muted-foreground">
-            {RANKS.map((item) => (
-              <span key={item.id} className={cn(item.id === rank.id && "font-medium text-foreground")}>
-                {item.title}
-              </span>
-            ))}
-          </div>
+          <Progress value={percent} />
           <p className="text-xs tabular-nums text-muted-foreground">
             {learnedWords}/{TOTAL_WORDS} 단어 · {unlockStatus}
           </p>
