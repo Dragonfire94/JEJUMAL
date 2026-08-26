@@ -1,23 +1,24 @@
-import { ChevronLeft, ChevronRight, Volume2 } from "lucide-react";
+import { Volume2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { playWord, stopAudio } from "@/lib/audio";
-import type { WrongCard } from "@/lib/progress";
+import { nextIntervalDays, type WrongCard } from "@/lib/progress";
 import { getUnit } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 type FlashcardProps = {
   card: WrongCard;
-  index: number;
+  dueCount: number;
   total: number;
-  onPrev: () => void;
-  onNext: () => void;
+  onForgot: () => void;
+  onRemembered: () => void;
   onRemove: () => void;
 };
 
-export function Flashcard({ card, index, total, onPrev, onNext, onRemove }: FlashcardProps) {
+export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRemove }: FlashcardProps) {
   const [flipped, setFlipped] = useState(false);
   const unitTitle = getUnit(card.unitId)?.title;
+  const laterDays = nextIntervalDays(card.intervalDays);
 
   useEffect(() => {
     setFlipped(false);
@@ -29,7 +30,7 @@ export function Flashcard({ card, index, total, onPrev, onNext, onRemove }: Flas
     <div className="anim-rise flex flex-col gap-5">
       <div className="flex items-end justify-between gap-3">
         <p className="text-xs font-medium tabular-nums text-muted-foreground">
-          {index + 1} / {total}
+          오늘 {dueCount} · 전체 {total}
         </p>
         <p className="text-xs text-muted-foreground">{unitTitle ?? "복습노트"}</p>
       </div>
@@ -66,20 +67,19 @@ export function Flashcard({ card, index, total, onPrev, onNext, onRemove }: Flas
         className="w-full"
         onClick={() => void playWord(card).catch(() => undefined)}
       >
-        <Volume2 className="size-4" />
+        <Volume2 className="size-4" aria-hidden />
         발음 듣기
       </Button>
 
       <div className="grid grid-cols-2 gap-2">
-        <Button type="button" variant="outline" size="lg" onClick={onPrev} disabled={total <= 1}>
-          <ChevronLeft className="size-4" />
-          이전
+        <Button type="button" variant="outline" size="lg" onClick={onForgot}>
+          아직
         </Button>
-        <Button type="button" size="lg" onClick={onNext}>
-          다음
-          <ChevronRight className="size-4" />
+        <Button type="button" size="lg" onClick={onRemembered}>
+          알아요
         </Button>
       </div>
+      <p className="text-center text-xs text-muted-foreground">아직: 오늘 큐 뒤로 · 알아요: {laterDays}일 뒤</p>
       <button
         type="button"
         onClick={onRemove}
