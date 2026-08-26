@@ -3,25 +3,22 @@ import { BookOpen } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Flashcard } from "@/components/flashcard";
 import { Button } from "@/components/ui/button";
-import { useProgress, type WrongCard } from "@/lib/progress";
+import { cardIsDue, sortWrongCards, useProgress } from "@/lib/progress";
+import { playSfx } from "@/lib/sfx";
 
 export const Route = createFileRoute("/review")({
   component: ReviewPage,
 });
 
-function sortCards(wrongBySeq: Record<string, WrongCard>): WrongCard[] {
-  return Object.values(wrongBySeq).sort((a, b) => {
-    if (b.timesMissed !== a.timesMissed) return b.timesMissed - a.timesMissed;
-    return b.addedAt - a.addedAt;
-  });
-}
-
 export function ReviewPage() {
   const wrongBySeq = useProgress((state) => state.wrongBySeq);
+  const markForgot = useProgress((state) => state.markForgot);
+  const markRemembered = useProgress((state) => state.markRemembered);
   const dismissWrong = useProgress((state) => state.dismissWrong);
   const [index, setIndex] = useState(0);
 
-  const cards = useMemo(() => sortCards(wrongBySeq), [wrongBySeq]);
+  const cards = useMemo(() => sortWrongCards(wrongBySeq), [wrongBySeq]);
+  const dueCount = useMemo(() => cards.filter((card) => cardIsDue(card)).length, [cards]);
   const total = cards.length;
   const current = total ? cards[Math.min(index, total - 1)] : undefined;
 
@@ -42,37 +39,41 @@ export function ReviewPage() {
     );
   }
 
-  function prev() {
-    setIndex((value) => (value - 1 + total) % total);
+  function forgot() {
+    if (!current) return;
+    playSfx("wrong");
+    markForgot(current.seq);
+    setIndex(0);
   }
 
-  function next() {
-    setIndex((value) => (value + 1) % total);
+  function remembered() {
+    if (!current) return;
+    playSfx("correct");
+    markRemembered(current.seq);
+    setIndex(0);
   }
 
   function remove() {
     if (!current) return;
     dismissWrong(current.seq);
-    setIndex((value) => {
-      const nextLength = total - 1;
-      if (nextLength <= 0) return 0;
-      return Math.min(value, nextLength - 1);
-    });
+    setIndex(0);
   }
 
   return (
     <div className="flex flex-col gap-6">
       <header>
-        <p className="text-xs text-muted-foreground">카드를 눌러 뜻을 보고, 다음으로 반복합니다</p>
+        <p className="text-xs text-muted-foreground">
+          {dueCount > 0 ? "오늘 볼 카드부터 나옵니다. 알아도 노트에 남습니다." : "오늘은 다 봤습니다. 더 돌리거나 빼면 됩니다."}
+        </p>
         <h1 className="font-display text-2xl font-semibold tracking-tight">복습노트</h1>
       </header>
       <Flashcard
         key={current.seq}
         card={current}
-        index={Math.min(index, total - 1)}
+        dueCount={dueCount}
         total={total}
-        onPrev={prev}
-        onNext={next}
+        onForgot={forgot}
+        onRemembered={remembered}
         onRemove={remove}
       />
     </div>
