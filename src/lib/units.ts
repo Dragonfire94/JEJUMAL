@@ -145,6 +145,12 @@ export function getTrack(unitId: string): Track | undefined {
   return trackByUnit.get(unitId);
 }
 
+export function isUnitUnlocked(unitId: string, completedIds: string[]): boolean {
+  const unit = byId.get(unitId);
+  if (!unit) return false;
+  return rankIndexOfWave(unit.rankIndex) <= openRankIndex(completedIds);
+}
+
 export function unitsInTrack(track: Track): Unit[] {
   return track.unitIds.map((id) => byId.get(id)).filter((unit): unit is Unit => Boolean(unit));
 }
