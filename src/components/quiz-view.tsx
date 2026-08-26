@@ -1,5 +1,5 @@
 import { BookmarkMinus, BookmarkPlus, Check, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AudioButton } from "@/components/audio-button";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -22,13 +22,27 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
   const [correctCount, setCorrectCount] = useState(0);
   const [missed, setMissed] = useState<string[]>([]);
   const [saved, setSaved] = useState<string[]>([]);
+  const [focusIndex, setFocusIndex] = useState(0);
+  const nextRef = useRef<HTMLButtonElement>(null);
+  const choiceRefs = useRef<Array<HTMLButtonElement | null>>([]);
   const question = questions[index];
+  const answered = Boolean(question) && picked !== null;
+
+  useEffect(() => {
+    setFocusIndex(0);
+  }, [index]);
+
+  useEffect(() => {
+    if (!answered) return;
+    nextRef.current?.focus();
+  }, [answered, index]);
+
   if (!question) return null;
 
-  const answered = picked !== null;
   const progress = ((index + (answered ? 1 : 0)) / questions.length) * 100;
   const isLast = index + 1 >= questions.length;
   const inNotebook = Boolean(notebook[question.word.seq]);
+  const groupLabel = question.kind === "listen" ? "소리를 듣고 뜻을 고르세요" : question.prompt;
 
   function choose(choice: string) {
     if (picked) return;
@@ -40,6 +54,16 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
       return;
     }
     setMissed((value) => (value.includes(question.word.seq) ? value : [...value, question.word.seq]));
+  }
+
+  function moveChoice(delta: number) {
+    if (answered) return;
+    const count = question.choices.length;
+    const active = document.activeElement;
+    const current = choiceRefs.current.findIndex((node) => node === active);
+    const nextIndex = current < 0 ? 0 : (current + delta + count) % count;
+    setFocusIndex(nextIndex);
+    choiceRefs.current[nextIndex]?.focus();
   }
 
   function toggleNotebook() {
@@ -73,7 +97,7 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
           {question.kind === "listen" ? "듣고 고르기" : "읽고 고르기"}
         </p>
       </div>
-      <Progress value={progress} />
+      <Progress value={progress} aria-label={`퀴즈 진행 ${index + 1} / ${questions.length}`} />
 
       <div
         key={question.id}
@@ -98,39 +122,73 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
         )}
       </div>
 
-      <div className="grid gap-2">
-        {question.choices.map((choice) => {
+      <div
+        className="grid gap-2"
+        role="radiogroup"
+        aria-label={groupLabel}
+        aria-disabled={answered || undefined}
+        onKeyDown={(event) => {
+          if (event.key === "ArrowDown" || event.key === "ArrowRight") {
+            event.preventDefault();
+            moveChoice(1);
+          } else if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
+            event.preventDefault();
+            moveChoice(-1);
+          }
+        }}
+      >
+        {question.choices.map((choice, choiceIndex) => {
           const showCorrect = answered && choice === question.answer;
           const showWrong = answered && choice === picked && choice !== question.answer;
+          const tabStop = !answered && choiceIndex === focusIndex;
           return (
             <button
               key={choice}
               type="button"
+              role="radio"
+              aria-checked={picked === choice}
+              aria-disabled={answered || undefined}
+              tabIndex={answered ? -1 : tabStop ? 0 : -1}
+              ref={(node) => {
+                choiceRefs.current[choiceIndex] = node;
+              }}
               onClick={() => choose(choice)}
-              disabled={answered}
               className={cn(
                 "flex min-h-12 items-center justify-between rounded-xl border px-4 py-3 text-left text-base transition-[transform,background-color,border-color,color,opacity] duration-[var(--motion-quick)] ease-[var(--ease-out)] active:scale-[0.96]",
                 !answered && "border-border bg-card hover:bg-muted",
                 showCorrect && "border-success bg-success/10 text-success",
                 showWrong && "anim-shake border-danger bg-danger/10 text-danger",
                 answered && !showCorrect && !showWrong && "border-border bg-card opacity-50",
+                answered && "pointer-events-none",
               )}
             >
-              <span>{choice}</span>
-              {showCorrect ? <Check className="size-4" /> : null}
-              {showWrong ? <X className="size-4" /> : null}
+              <span>
+                {choice}
+                {showCorrect ? <span className="sr-only"> 정답</span> : null}
+                {showWrong ? <span className="sr-only"> 내가 고른 오답</span> : null}
+              </span>
+              {showCorrect ? <Check className="size-4" aria-hidden /> : null}
+              {showWrong ? <X className="size-4" aria-hidden /> : null}
             </button>
           );
         })}
       </div>
 
+      <p className="sr-only" role="status">
+        {answered
+          ? picked === question.answer
+            ? "정답입니다"
+            : `오답입니다. 정답은 ${question.answer}입니다`
+          : ""}
+      </p>
+
       {answered ? (
         <div className="anim-rise flex flex-col gap-2">
-          <Button size="lg" className="w-full" onClick={next}>
+          <Button ref={nextRef} size="lg" className="w-full" onClick={next}>
             {isLast ? "결과 보기" : "다음"}
           </Button>
           <Button type="button" variant="outline" size="lg" className="w-full" onClick={toggleNotebook}>
-            {inNotebook ? <BookmarkMinus className="size-4" /> : <BookmarkPlus className="size-4" />}
+            {inNotebook ? <BookmarkMinus className="size-4" aria-hidden /> : <BookmarkPlus className="size-4" aria-hidden />}
             {inNotebook ? "넣음 · 취소" : "복습노트에 넣기"}
           </Button>
         </div>
