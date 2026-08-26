@@ -13,7 +13,7 @@ import {
   studyStreak,
   trackMastery,
 } from "@/lib/stats";
-import { TOTAL_WORDS, progressPercent } from "@/lib/units";
+import { TOTAL_WORDS, nextUnlockStatus, progressPercent } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/stats")({
@@ -29,6 +29,7 @@ function StatsPage() {
   const newWords = today?.wordsStudied ?? 0;
   const reviews = today ? reviewsDone(today) : 0;
   const percent = progressPercent(completed.length);
+  const unlockStatus = nextUnlockStatus(completed);
   const streak = useMemo(() => studyStreak(dailyStats, todayKey), [dailyStats, todayKey]);
   const days = useMemo(() => chartDays(dailyStats, todayKey), [dailyStats, todayKey]);
   const hasChart = chartHasActivity(days);
@@ -48,8 +49,9 @@ function StatsPage() {
       <section className="grid grid-cols-3 gap-2">
         <SummaryCard label="오늘" value={`${newWords}`} hint={`신규 ${newWords} · 복습 ${reviews}`} />
         <SummaryCard label="연속" value={`${streak}`} hint="일" />
-        <SummaryCard label="진행" value={`${percent}%`} hint={`${completed.length * 10}/${TOTAL_WORDS}`} />
+        <SummaryCard label="진행" value={`${percent}%`} hint={`${completed.length * 10}/${TOTAL_WORDS}단어`} />
       </section>
+      <p className="text-center text-xs tabular-nums text-muted-foreground">{unlockStatus}</p>
 
       <section className="flex flex-col gap-3">
         <h2 className="font-medium">최근 {STATS_CHART_DAYS}일 학습량</h2>
