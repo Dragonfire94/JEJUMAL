@@ -29,6 +29,7 @@ function LearnPage() {
   const unlocked = useProgress((state) => state.isUnlocked(unitId));
   const completeUnit = useProgress((state) => state.completeUnit);
   const touchUnit = useProgress((state) => state.touchUnit);
+  const recordQuiz = useProgress((state) => state.recordQuiz);
   const isUnlocked = useProgress((state) => state.isUnlocked);
   const [phase, setPhase] = useState<Phase>("intro");
   const [round, setRound] = useState<"main" | "retry">("main");
@@ -91,6 +92,7 @@ function LearnPage() {
     const correct = round === "main" ? result.correct : score.correct + result.correct;
     const passed = hasPassed(correct, total);
     const savedSeqs = [...new Set([...score.savedSeqs, ...result.savedSeqs])];
+    recordQuiz(result.correct, questions.length);
     const before = useProgress.getState().completedUnitIds;
     const already = before.includes(currentUnit.id);
 
