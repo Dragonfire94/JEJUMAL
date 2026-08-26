@@ -177,8 +177,11 @@ export type RankUnlockHint =
   | { kind: "advance"; remainWords: number; nextTitle: string }
   | { kind: "opened"; nextTitle: string }
   | { kind: "master" }
-  | { kind: "locked-advance"; prevTitle: string }
-  | { kind: "locked-master" };
+  | { kind: "locked-advance"; prevTitle: string; haveWords: number; needWords: number }
+  | {
+      kind: "locked-master";
+      ranks: { title: string; haveWords: number; totalWords: number }[];
+    };
 
 export function rankUnlockHint(rankIndex: number, completedIds: string[]): RankUnlockHint | null {
   const next = RANKS[rankIndex + 1];
@@ -191,9 +194,23 @@ export function rankUnlockHint(rankIndex: number, completedIds: string[]): RankU
     const remain = Math.max(0, RANK_ADVANCE_UNITS - rankCompletedCount(rankIndex, completedIds));
     return { kind: "advance", remainWords: remain * 10, nextTitle: next.title };
   }
-  if (rankIndex === LAST_RANK_INDEX) return { kind: "locked-master" };
+  if (rankIndex === LAST_RANK_INDEX) {
+    return {
+      kind: "locked-master",
+      ranks: RANKS.slice(0, LAST_RANK_INDEX).map((item, index) => ({
+        title: item.title,
+        haveWords: rankCompletedCount(index, completedIds) * 10,
+        totalWords: WORDS_PER_RANK,
+      })),
+    };
+  }
   if (!prev) return null;
-  return { kind: "locked-advance", prevTitle: prev.title };
+  return {
+    kind: "locked-advance",
+    prevTitle: prev.title,
+    haveWords: rankCompletedCount(rankIndex - 1, completedIds) * 10,
+    needWords: RANK_ADVANCE_WORDS,
+  };
 }
 
 export function formatRankUnlockHint(hint: RankUnlockHint): string {
@@ -205,10 +222,26 @@ export function formatRankUnlockHint(hint: RankUnlockHint): string {
     case "master":
       return "애기해녀부터 상군까지 모두 마치면 대상군이 열립니다";
     case "locked-advance":
-      return `${hint.prevTitle}에서 ${RANK_ADVANCE_WORDS}단어를 마치면 열립니다`;
+      return `${hint.prevTitle}에서 ${hint.needWords}단어를 마치면 열립니다`;
     case "locked-master":
       return "애기해녀부터 상군까지 모두 마치면 열립니다";
   }
+}
+
+export function nextUnlockStatus(completedIds: string[]): string {
+  for (let rankIndex = 1; rankIndex < RANKS.length; rankIndex += 1) {
+    if (isRankOpen(rankIndex, completedIds)) continue;
+    if (rankIndex === LAST_RANK_INDEX) {
+      const remain = RANKS.slice(0, LAST_RANK_INDEX).reduce(
+        (sum, _, index) => sum + (UNITS_PER_RANK - rankCompletedCount(index, completedIds)) * 10,
+        0,
+      );
+      return `대상군까지 ${remain}단어`;
+    }
+    const remain = Math.max(0, RANK_ADVANCE_WORDS - rankCompletedCount(rankIndex - 1, completedIds) * 10);
+    return `${RANKS[rankIndex]!.title}까지 ${remain}단어`;
+  }
+  return "대상군 마스터";
 }
 
 export function unitsInTrack(track: Track): Unit[] {

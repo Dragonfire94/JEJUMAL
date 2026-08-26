@@ -7,17 +7,17 @@ import { Progress } from "@/components/ui/progress";
 import { useProgress } from "@/lib/progress";
 import {
   getUnit,
-  nextRank,
   openRankIndex,
   progressPercent,
   RANKS,
   rankFromPercent,
   TOTAL_WORDS,
   unitsInRank,
-  unitsToNextRank,
   WORDS_PER_RANK,
   formatRankUnlockHint,
+  nextUnlockStatus,
   rankUnlockHint,
+  type RankUnlockHint,
   type Unit,
 } from "@/lib/units";
 import { cn } from "@/lib/utils";
@@ -33,8 +33,7 @@ function Home() {
   const learnedWords = doneCount * 10;
   const percent = progressPercent(doneCount);
   const rank = rankFromPercent(percent);
-  const following = nextRank(percent);
-  const remain = unitsToNextRank(doneCount);
+  const unlockStatus = nextUnlockStatus(completed);
   const openRank = openRankIndex(completed);
   const [previewRank, setPreviewRank] = useState(openRank);
   const selectedRank = previewRank;
@@ -79,8 +78,7 @@ function Home() {
             ))}
           </div>
           <p className="text-xs tabular-nums text-muted-foreground">
-            {learnedWords}/{TOTAL_WORDS} 단어
-            {following ? ` · ${following.title}까지 ${remain * 10}단어` : " · 대상군 마스터"}
+            {learnedWords}/{TOTAL_WORDS} 단어 · {unlockStatus}
           </p>
           <Button asChild size="lg" className="w-full justify-between">
             <Link to="/learn/$unitId" params={{ unitId: continueUnit.id }}>
@@ -120,6 +118,7 @@ function Home() {
           </p>
         </div>
         <p className="text-xs text-muted-foreground">{selected.subtitle}</p>
+        <UnlockPanel hint={rankUnlockHint(selectedRank, completed)} locked={!isUnlocked(rankUnits[0]?.id ?? "")} />
         <div className="stagger-board grid grid-cols-4 gap-2">
           {rankUnits.map((unit) => (
             <UnitTile
@@ -130,13 +129,37 @@ function Home() {
             />
           ))}
         </div>
-        {(() => {
-          const hint = rankUnlockHint(selectedRank, completed);
-          return hint ? (
-            <p className="text-center text-xs text-muted-foreground">{formatRankUnlockHint(hint)}</p>
-          ) : null;
-        })()}
       </section>
+    </div>
+  );
+}
+
+function UnlockPanel({ hint, locked }: { hint: RankUnlockHint | null; locked: boolean }) {
+  if (!hint) return null;
+  if (!locked) {
+    return <p className="text-center text-xs text-muted-foreground">{formatRankUnlockHint(hint)}</p>;
+  }
+  return (
+    <div className="rounded-2xl border border-border bg-card px-4 py-3">
+      <p className="text-[11px] font-medium tracking-wide text-muted-foreground">해금 조건</p>
+      <p className="mt-1 text-sm font-medium">{formatRankUnlockHint(hint)}</p>
+      {hint.kind === "locked-advance" ? (
+        <p className="mt-1 text-xs tabular-nums text-muted-foreground">
+          지금 {Math.min(hint.haveWords, hint.needWords)}/{hint.needWords}단어
+        </p>
+      ) : null}
+      {hint.kind === "locked-master" ? (
+        <ul className="mt-2 grid gap-1">
+          {hint.ranks.map((item) => (
+            <li key={item.title} className="flex justify-between text-xs tabular-nums">
+              <span>{item.title}</span>
+              <span className={item.haveWords >= item.totalWords ? "text-primary" : "text-muted-foreground"}>
+                {item.haveWords}/{item.totalWords}
+              </span>
+            </li>
+          ))}
+        </ul>
+      ) : null}
     </div>
   );
 }
