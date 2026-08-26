@@ -11,9 +11,10 @@ import {
   quizAccuracy,
   shiftLocalDateKey,
   studyStreak,
-  trackMastery,
+  rankMastery,
   type DailyStat,
 } from "./stats";
+import { RANK_ADVANCE_UNITS, unitIdsInRank } from "./units";
 
 function stat(date: string, patch: Partial<DailyStat> = {}): DailyStat {
   return { ...emptyDailyStat(date), ...patch, date };
@@ -57,17 +58,20 @@ test("masteryPercent guards 0/0", () => {
   assert.equal(masteryPercent(1, 2), 50);
 });
 
-test("trackMastery uses unlocked units in the open rank, not the full 10", () => {
-  const empty = trackMastery([]);
-  const people = empty.find((item) => item.id === "people")!;
-  assert.equal(people.unlocked, 2);
-  assert.equal(people.completed, 0);
-  assert.equal(people.percent, 0);
+test("rankMastery reports each haenyeo rank against its own 200 words", () => {
+  const empty = rankMastery([]);
+  assert.equal(empty[0]?.id, "baby");
+  assert.equal(empty[0]?.percent, 0);
+  assert.equal(empty[0]?.open, true);
+  assert.equal(empty[1]?.open, false);
 
-  const half = trackMastery(["people-0"]).find((item) => item.id === "people")!;
-  assert.equal(half.completed, 1);
-  assert.equal(half.unlocked, 2);
-  assert.equal(half.percent, 50);
+  const twelve = rankMastery(unitIdsInRank(0).slice(0, RANK_ADVANCE_UNITS));
+  const baby = twelve.find((item) => item.id === "baby")!;
+  const ha = twelve.find((item) => item.id === "ha")!;
+  assert.equal(baby.wordsDone, 120);
+  assert.equal(baby.percent, 60);
+  assert.equal(ha.open, true);
+  assert.equal(ha.percent, 0);
 });
 
 test("pruneDailyStats drops rows older than 90 local days", () => {

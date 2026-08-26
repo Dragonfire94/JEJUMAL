@@ -1,4 +1,4 @@
-import { TRACKS, isUnitUnlocked } from "@/lib/units";
+import { RANKS, UNITS_PER_RANK, WORDS_PER_RANK, isRankOpen, rankCompletedCount } from "@/lib/units";
 
 export const STATS_KEEP_DAYS = 90;
 export const STATS_CHART_DAYS = 14;
@@ -12,12 +12,15 @@ export type DailyStat = {
   reviewsRemembered: number;
 };
 
-export type TrackMastery = {
+export type RankMastery = {
   id: string;
   title: string;
   completed: number;
-  unlocked: number;
-  percent: number | null;
+  total: number;
+  wordsDone: number;
+  wordsTotal: number;
+  percent: number;
+  open: boolean;
 };
 
 export function localDateKey(now: Date = new Date()): string {
@@ -118,19 +121,18 @@ export function masteryPercent(completed: number, unlocked: number): number | nu
   return Math.round((completed / unlocked) * 100);
 }
 
-export function trackMastery(completedIds: string[]): TrackMastery[] {
-  return TRACKS.map((track) => {
-    const unlockedIds = track.unitIds.filter(
-      (id) => completedIds.includes(id) || isUnitUnlocked(id, completedIds),
-    );
-    const completed = track.unitIds.filter((id) => completedIds.includes(id)).length;
-    const unlocked = unlockedIds.length;
+export function rankMastery(completedIds: string[]): RankMastery[] {
+  return RANKS.map((rank, index) => {
+    const completed = rankCompletedCount(index, completedIds);
     return {
-      id: track.id,
-      title: track.title,
+      id: rank.id,
+      title: rank.title,
       completed,
-      unlocked,
-      percent: masteryPercent(completed, unlocked),
+      total: UNITS_PER_RANK,
+      wordsDone: completed * 10,
+      wordsTotal: WORDS_PER_RANK,
+      percent: Math.round((completed / UNITS_PER_RANK) * 100),
+      open: isRankOpen(index, completedIds),
     };
   });
 }
