@@ -67,6 +67,9 @@ export const UNITS_PER_WAVE = 10;
 export const WORDS_PER_WAVE = 100;
 export const UNITS_PER_RANK = 20;
 export const WORDS_PER_RANK = 200;
+export const RANK_ADVANCE_UNITS = 12;
+export const RANK_ADVANCE_WORDS = 120;
+export const LAST_RANK_INDEX = RANKS.length - 1;
 
 export function unitIdsInWave(waveIndex: number): string[] {
   return TRACKS.map((track) => track.unitIds[waveIndex]!);
@@ -107,11 +110,30 @@ export function isRankComplete(rankIndex: number, completedIds: string[]): boole
   return unitIdsInRank(rankIndex).every((id) => completedIds.includes(id));
 }
 
+export function rankCompletedCount(rankIndex: number, completedIds: string[]): number {
+  return unitIdsInRank(rankIndex).filter((id) => completedIds.includes(id)).length;
+}
+
+export function isRankAdvanceReady(rankIndex: number, completedIds: string[]): boolean {
+  return rankCompletedCount(rankIndex, completedIds) >= RANK_ADVANCE_UNITS;
+}
+
+export function isRankOpen(rankIndex: number, completedIds: string[]): boolean {
+  if (rankIndex <= 0) return true;
+  if (rankIndex >= RANKS.length) return false;
+  if (rankIndex === LAST_RANK_INDEX) {
+    return Array.from({ length: LAST_RANK_INDEX }, (_, index) => index).every((index) =>
+      isRankComplete(index, completedIds),
+    );
+  }
+  return isRankAdvanceReady(rankIndex - 1, completedIds);
+}
+
 export function openRankIndex(completedIds: string[]): number {
   for (let rankIndex = 0; rankIndex < RANKS.length; rankIndex += 1) {
-    if (!isRankComplete(rankIndex, completedIds)) return rankIndex;
+    if (isRankOpen(rankIndex, completedIds) && !isRankComplete(rankIndex, completedIds)) return rankIndex;
   }
-  return RANKS.length - 1;
+  return LAST_RANK_INDEX;
 }
 
 const byId = new Map(units.map((unit) => [unit.id, unit]));
@@ -148,7 +170,45 @@ export function getTrack(unitId: string): Track | undefined {
 export function isUnitUnlocked(unitId: string, completedIds: string[]): boolean {
   const unit = byId.get(unitId);
   if (!unit) return false;
-  return rankIndexOfWave(unit.rankIndex) <= openRankIndex(completedIds);
+  return isRankOpen(rankIndexOfWave(unit.rankIndex), completedIds);
+}
+
+export type RankUnlockHint =
+  | { kind: "advance"; remainWords: number; nextTitle: string }
+  | { kind: "opened"; nextTitle: string }
+  | { kind: "master" }
+  | { kind: "locked-advance"; prevTitle: string }
+  | { kind: "locked-master" };
+
+export function rankUnlockHint(rankIndex: number, completedIds: string[]): RankUnlockHint | null {
+  const next = RANKS[rankIndex + 1];
+  const prev = RANKS[rankIndex - 1];
+  const open = isRankOpen(rankIndex, completedIds);
+  if (open) {
+    if (!next) return null;
+    if (isRankOpen(rankIndex + 1, completedIds)) return { kind: "opened", nextTitle: next.title };
+    if (rankIndex === LAST_RANK_INDEX - 1) return { kind: "master" };
+    const remain = Math.max(0, RANK_ADVANCE_UNITS - rankCompletedCount(rankIndex, completedIds));
+    return { kind: "advance", remainWords: remain * 10, nextTitle: next.title };
+  }
+  if (rankIndex === LAST_RANK_INDEX) return { kind: "locked-master" };
+  if (!prev) return null;
+  return { kind: "locked-advance", prevTitle: prev.title };
+}
+
+export function formatRankUnlockHint(hint: RankUnlockHint): string {
+  switch (hint.kind) {
+    case "advance":
+      return `${hint.remainWords}단어 더 마치면 ${hint.nextTitle}이 열립니다`;
+    case "opened":
+      return `${hint.nextTitle}이 열렸습니다. 남은 단어도 이어서 배울 수 있습니다`;
+    case "master":
+      return "애기해녀부터 상군까지 모두 마치면 대상군이 열립니다";
+    case "locked-advance":
+      return `${hint.prevTitle}에서 ${RANK_ADVANCE_WORDS}단어를 마치면 열립니다`;
+    case "locked-master":
+      return "애기해녀부터 상군까지 모두 마치면 열립니다";
+  }
 }
 
 export function unitsInTrack(track: Track): Unit[] {

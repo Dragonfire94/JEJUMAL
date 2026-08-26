@@ -14,7 +14,7 @@ import {
   type Question,
   type QuizResult,
 } from "@/lib/quiz";
-import { formatUnitNumber, getUnit, nextUnit, progressPercent, rankFromPercent, rankFromWave, type Word } from "@/lib/units";
+import { formatUnitNumber, getUnit, nextUnit, progressPercent, rankFromPercent, rankFromWave, formatRankUnlockHint, rankUnlockHint, rankIndexOfWave, type Word } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/learn/$unitId")({
@@ -31,6 +31,7 @@ function LearnPage() {
   const touchUnit = useProgress((state) => state.touchUnit);
   const recordQuiz = useProgress((state) => state.recordQuiz);
   const isUnlocked = useProgress((state) => state.isUnlocked);
+  const completed = useProgress((state) => state.completedUnitIds);
   const [phase, setPhase] = useState<Phase>("intro");
   const [round, setRound] = useState<"main" | "retry">("main");
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -207,7 +208,12 @@ function LearnPage() {
             </p>
           ) : following && !isUnlocked(following.id) ? (
             <p className="text-center text-sm text-muted-foreground">
-              이 200단어를 모두 마치면 {rankFromWave(following.rankIndex).title}이 열립니다
+              {formatRankUnlockHint(
+                rankUnlockHint(rankIndexOfWave(currentUnit.rankIndex), completed) ?? {
+                  kind: "locked-advance",
+                  prevTitle: pack?.title ?? "이전 등급",
+                },
+              )}
             </p>
           ) : null}
           <Button asChild variant="outline" size="lg">
