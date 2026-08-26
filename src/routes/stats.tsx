@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { cardIsDue, useProgress } from "@/lib/progress";
+import { dueCount, useProgress } from "@/lib/progress";
 import {
   STATS_CHART_DAYS,
   chartDays,
@@ -34,7 +34,7 @@ function StatsPage() {
   const days = useMemo(() => chartDays(dailyStats, todayKey), [dailyStats, todayKey]);
   const hasChart = chartHasActivity(days);
   const tracks = useMemo(() => trackMastery(completed), [completed]);
-  const dueCount = useMemo(() => Object.values(wrongBySeq).filter((card) => cardIsDue(card)).length, [wrongBySeq]);
+  const dueCards = useProgress((state) => dueCount(state.wrongBySeq));
   const notebookCount = Object.keys(wrongBySeq).length;
   const weekReviews = days.reduce((sum, day) => sum + reviewsDone(day), 0);
   const maxWords = Math.max(10, ...days.map((day) => day.wordsStudied));
@@ -122,7 +122,7 @@ function StatsPage() {
         <Card>
           <CardContent className="flex items-center justify-between gap-3 p-4">
             <div>
-              <p className="text-sm">대기 {dueCount}장 · 노트 {notebookCount}장</p>
+              <p className="text-sm">대기 {dueCards}장 · 노트 {notebookCount}장</p>
               <p className="text-xs text-muted-foreground">최근 {STATS_CHART_DAYS}일 복습 {weekReviews}회</p>
             </div>
             <Link to="/review" className="text-sm font-medium text-primary">

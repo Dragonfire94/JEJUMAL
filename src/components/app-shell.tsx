@@ -1,12 +1,12 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { BookOpen, ChartColumn, Notebook } from "lucide-react";
 import { useEffect } from "react";
-import { hydrateProgress, useProgress } from "@/lib/progress";
+import { dueCount, hydrateProgress, useProgress } from "@/lib/progress";
 import { cn } from "@/lib/utils";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname });
-  const wrongCount = useProgress((state) => Object.keys(state.wrongBySeq).length);
+  const reviewDue = useProgress((state) => dueCount(state.wrongBySeq));
 
   useEffect(() => {
     hydrateProgress();
@@ -24,7 +24,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               active={pathname.startsWith("/review")}
               icon={<Notebook className="size-4" />}
               label="복습"
-              count={wrongCount}
+              count={reviewDue}
             />
             <TabLink
               to="/stats"

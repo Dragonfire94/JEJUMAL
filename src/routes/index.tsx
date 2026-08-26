@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { useProgress } from "@/lib/progress";
+import { dueCount, useProgress } from "@/lib/progress";
 import {
   getUnit,
   openRankIndex,
@@ -29,6 +29,7 @@ function Home() {
   const isUnlocked = useProgress((state) => state.isUnlocked);
   const continueId = useProgress((state) => state.continueUnitId());
   const continueUnit = getUnit(continueId) ?? getUnit("people-0")!;
+  const reviewDue = useProgress((state) => dueCount(state.wrongBySeq));
   const doneCount = completed.length;
   const learnedWords = doneCount * 10;
   const percent = progressPercent(doneCount);
@@ -86,6 +87,14 @@ function Home() {
               <span className="max-w-[45%] truncate font-normal opacity-80">{continueUnit.title}</span>
             </Link>
           </Button>
+          {reviewDue > 0 ? (
+            <Button asChild size="lg" variant="outline" className="w-full justify-between">
+              <Link to="/review">
+                <span>복습 {reviewDue}장</span>
+                <span className="font-normal opacity-80">오늘 볼 카드</span>
+              </Link>
+            </Button>
+          ) : null}
         </CardContent>
       </Card>
 
