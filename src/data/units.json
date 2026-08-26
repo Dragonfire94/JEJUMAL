@@ -813,7 +813,7 @@
       {
         "seq": "7564",
         "jeju": "옵서",
-        "standard": "오다",
+        "standard": "오세요",
         "soundUrl": "/audio/7564.mp3",
         "partOfSpeech": "interjection"
       },
@@ -2084,7 +2084,7 @@
       {
         "seq": "3148",
         "jeju": "팔",
-        "standard": "삼",
+        "standard": "눈의 삼",
         "soundUrl": "/audio/3148.mp3",
         "partOfSpeech": "noun"
       },
@@ -3722,7 +3722,7 @@
       {
         "seq": "6909",
         "jeju": "담다",
-        "standard": "김치",
+        "standard": "담그다",
         "soundUrl": "/audio/6909.mp3",
         "partOfSpeech": "verb"
       },
