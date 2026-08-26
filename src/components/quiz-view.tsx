@@ -4,13 +4,13 @@ import { AudioButton } from "@/components/audio-button";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { useProgress } from "@/lib/progress";
-import type { Question } from "@/lib/quiz";
+import type { Question, QuizResult } from "@/lib/quiz";
 import { playSfx } from "@/lib/sfx";
 import { cn } from "@/lib/utils";
 
 type QuizViewProps = {
   questions: Question[];
-  onFinished: (result: { correct: number; missedSeqs: string[]; savedSeqs: string[] }) => void;
+  onFinished: (result: QuizResult) => void;
 };
 
 export function QuizView({ questions, onFinished }: QuizViewProps) {
@@ -21,6 +21,7 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
   const [picked, setPicked] = useState<string | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [missed, setMissed] = useState<string[]>([]);
+  const [missedQuestions, setMissedQuestions] = useState<Question[]>([]);
   const [saved, setSaved] = useState<string[]>([]);
   const [focusIndex, setFocusIndex] = useState(0);
   const nextRef = useRef<HTMLButtonElement>(null);
@@ -54,6 +55,7 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
       return;
     }
     setMissed((value) => (value.includes(question.word.seq) ? value : [...value, question.word.seq]));
+    setMissedQuestions((value) => (value.some((item) => item.id === question.id) ? value : [...value, question]));
   }
 
   function moveChoice(delta: number) {
@@ -80,7 +82,7 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
     if (isLast) {
       playSfx("fanfare");
       const savedSeqs = inNotebook && !saved.includes(question.word.seq) ? [...saved, question.word.seq] : saved;
-      onFinished({ correct: correctCount, missedSeqs: missed, savedSeqs });
+      onFinished({ correct: correctCount, missedSeqs: missed, savedSeqs, missedQuestions });
       return;
     }
     setIndex((value) => value + 1);
