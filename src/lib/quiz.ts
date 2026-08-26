@@ -147,32 +147,3 @@ export function buildLesson(unit: Unit): Question[] {
 
   return [...shuffle(listen), ...shuffle(read)];
 }
-
-export function buildReviewQuiz(words: Word[], unitIdBySeq: Record<string, string>): Question[] {
-  if (words.length === 0) return [];
-  return shuffle(words).flatMap((word) => {
-    const meaningChoices = pickDistractors(word.standard, distractorPools(word, words, "standard"), 3);
-    const jejuChoices = pickDistractors(word.jeju, distractorPools(word, words, "jeju"), 3);
-    const unitId = unitIdBySeq[word.seq] ?? "";
-    return [
-      {
-        id: `${word.seq}-review-listen`,
-        kind: "listen" as const,
-        word,
-        unitId,
-        prompt: "이 말의 뜻은 무엇일까요?",
-        answer: word.standard,
-        choices: shuffle([word.standard, ...meaningChoices]),
-      },
-      {
-        id: `${word.seq}-review-read`,
-        kind: "read" as const,
-        word,
-        unitId,
-        prompt: "이 뜻을 제주말로 하면?",
-        answer: word.jeju,
-        choices: shuffle([word.jeju, ...jejuChoices]),
-      },
-    ];
-  });
-}

@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ReviewRouteImport } from './routes/review'
+import { Route as StatsRouteImport } from './routes/stats'
 import { Route as LearnUnitIdRouteImport } from './routes/learn.$unitId'
 
 const IndexRoute = IndexRouteImport.update({
@@ -23,6 +24,11 @@ const ReviewRoute = ReviewRouteImport.update({
   path: '/review',
   getParentRoute: () => rootRouteImport,
 } as any)
+const StatsRoute = StatsRouteImport.update({
+  id: '/stats',
+  path: '/stats',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LearnUnitIdRoute = LearnUnitIdRouteImport.update({
   id: '/learn/$unitId',
   path: '/learn/$unitId',
@@ -32,30 +38,34 @@ const LearnUnitIdRoute = LearnUnitIdRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/review': typeof ReviewRoute
+  '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/review': typeof ReviewRoute
+  '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/review': typeof ReviewRoute
+  '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/review' | '/learn/$unitId'
+  fullPaths: '/' | '/review' | '/stats' | '/learn/$unitId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/review' | '/learn/$unitId'
-  id: '__root__' | '/' | '/review' | '/learn/$unitId'
+  to: '/' | '/review' | '/stats' | '/learn/$unitId'
+  id: '__root__' | '/' | '/review' | '/stats' | '/learn/$unitId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ReviewRoute: typeof ReviewRoute
+  StatsRoute: typeof StatsRoute
   LearnUnitIdRoute: typeof LearnUnitIdRoute
 }
 
@@ -75,6 +85,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ReviewRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/stats': {
+      id: '/stats'
+      path: '/stats'
+      fullPath: '/stats'
+      preLoaderRoute: typeof StatsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/learn/$unitId': {
       id: '/learn/$unitId'
       path: '/learn/$unitId'
@@ -88,6 +105,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ReviewRoute: ReviewRoute,
+  StatsRoute: StatsRoute,
   LearnUnitIdRoute: LearnUnitIdRoute,
 }
 export const routeTree = rootRouteImport

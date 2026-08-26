@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { createJSONStorage, persist, type StateStorage } from "zustand/middleware";
-import { nextUnit, openRankIndex, isUnitUnlocked, TRACKS, unitIdsInRank, units, type Word } from "@/lib/units";
+import { nextUnit, openRankIndex, isUnitUnlocked, TRACKS, unitIdsInRank, units, getUnit, type Word } from "@/lib/units";
+import { patchDailyStat, type DailyStat } from "@/lib/stats";
 
 export const DAY_MS = 86_400_000;
 export const REVIEW_LADDER = [1, 3, 7, 14, 30] as const;
@@ -21,6 +22,7 @@ type PersistedProgress = {
   completedUnitIds: string[];
   lastPlayedUnitId: string | null;
   wrongBySeq: Record<string, WrongCard>;
+  dailyStats: Record<string, DailyStat>;
 };
 
 type ProgressState = {
@@ -28,14 +30,14 @@ type ProgressState = {
   completedUnitIds: string[];
   lastPlayedUnitId: string | null;
   wrongBySeq: Record<string, WrongCard>;
+  dailyStats: Record<string, DailyStat>;
   markHydrated: () => void;
   isUnlocked: (unitId: string) => boolean;
   isComplete: (unitId: string) => boolean;
   completeUnit: (unitId: string) => void;
   touchUnit: (unitId: string) => void;
-  recordMiss: (word: Word, unitId: string) => void;
+  recordQuiz: (correct: number, total: number) => void;
   addToNotebook: (word: Word, unitId: string) => void;
-  recordHit: (seq: string) => void;
   markForgot: (seq: string) => void;
   markRemembered: (seq: string) => void;
   dismissWrong: (seq: string) => void;
@@ -142,6 +144,7 @@ function migrateProgress(persisted: unknown, version: number): PersistedProgress
     completedUnitIds: state.completedUnitIds ?? [],
     lastPlayedUnitId: state.lastPlayedUnitId ?? null,
     wrongBySeq,
+    dailyStats: version >= 4 ? (state.dailyStats ?? {}) : {},
   };
 }
 
@@ -152,18 +155,28 @@ export const useProgress = create<ProgressState>()(
       completedUnitIds: [],
       lastPlayedUnitId: null,
       wrongBySeq: {},
+      dailyStats: {},
       markHydrated: () => set({ hydrated: true }),
       isComplete: (unitId) => get().completedUnitIds.includes(unitId),
       isUnlocked: (unitId) =>
         get().completedUnitIds.includes(unitId) || isUnitUnlocked(unitId, get().completedUnitIds),
       completeUnit: (unitId) =>
-        set((state) => ({
-          lastPlayedUnitId: unitId,
-          completedUnitIds: state.completedUnitIds.includes(unitId)
-            ? state.completedUnitIds
-            : [...state.completedUnitIds, unitId],
-        })),
+        set((state) => {
+          if (state.completedUnitIds.includes(unitId)) {
+            return { lastPlayedUnitId: unitId };
+          }
+          const words = getUnit(unitId)?.words.length ?? 10;
+          return {
+            lastPlayedUnitId: unitId,
+            completedUnitIds: [...state.completedUnitIds, unitId],
+            dailyStats: patchDailyStat(state.dailyStats, { wordsStudied: words }),
+          };
+        }),
       touchUnit: (unitId) => set({ lastPlayedUnitId: unitId }),
+      recordQuiz: (correct, total) =>
+        set((state) => ({
+          dailyStats: patchDailyStat(state.dailyStats, { quizCorrect: correct, quizTotal: total }),
+        })),
       addToNotebook: (word, unitId) =>
         set((state) => {
           const current = state.wrongBySeq[word.seq];
@@ -185,16 +198,18 @@ export const useProgress = create<ProgressState>()(
             },
           };
         }),
-      recordMiss: (word, unitId) => get().addToNotebook(word, unitId),
-      recordHit: (seq) => get().markRemembered(seq),
       markForgot: (seq) =>
-        set((state) => ({
-          wrongBySeq: patchCard(state.wrongBySeq, seq, {
-            timesMissed: (state.wrongBySeq[seq]?.timesMissed ?? 1) + 1,
-            lastReviewedAt: Date.now(),
-            intervalDays: 0,
-          }),
-        })),
+        set((state) => {
+          if (!state.wrongBySeq[seq]) return state;
+          return {
+            wrongBySeq: patchCard(state.wrongBySeq, seq, {
+              timesMissed: (state.wrongBySeq[seq]?.timesMissed ?? 1) + 1,
+              lastReviewedAt: Date.now(),
+              intervalDays: 0,
+            }),
+            dailyStats: patchDailyStat(state.dailyStats, { reviewsForgot: 1 }),
+          };
+        }),
       markRemembered: (seq) =>
         set((state) => {
           const current = state.wrongBySeq[seq];
@@ -204,6 +219,7 @@ export const useProgress = create<ProgressState>()(
               lastReviewedAt: Date.now(),
               intervalDays: nextIntervalDays(current.intervalDays),
             }),
+            dailyStats: patchDailyStat(state.dailyStats, { reviewsRemembered: 1 }),
           };
         }),
       dismissWrong: (seq) =>
@@ -236,7 +252,7 @@ export const useProgress = create<ProgressState>()(
     }),
     {
       name: "jeju-mal:v2",
-      version: 3,
+      version: 4,
       skipHydration: true,
       storage: createJSONStorage(() => safeStorage),
       migrate: migrateProgress,
@@ -244,6 +260,7 @@ export const useProgress = create<ProgressState>()(
         completedUnitIds: state.completedUnitIds,
         lastPlayedUnitId: state.lastPlayedUnitId,
         wrongBySeq: state.wrongBySeq,
+        dailyStats: state.dailyStats,
       }),
     },
   ),
