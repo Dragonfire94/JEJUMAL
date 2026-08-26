@@ -46,6 +46,7 @@ function Home() {
       <header className="anim-rise pt-1">
         <p className="text-xs font-medium tracking-wide text-muted-foreground">소리로 배우는 제주어</p>
         <h1 className="mt-1 font-display text-4xl font-bold tracking-tight">제주말</h1>
+        <p className="mt-2 text-[11px] text-muted-foreground">발음 출처 · 제주특별자치도 제주어 사전</p>
       </header>
 
       <Card className="anim-rise" style={{ animationDelay: "80ms" }}>
