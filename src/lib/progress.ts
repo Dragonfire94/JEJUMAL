@@ -3,6 +3,7 @@ import { createJSONStorage, persist, type StateStorage } from "zustand/middlewar
 import { nextUnit, openRankIndex, isUnitUnlocked, TRACKS, unitIdsInRank, units, getUnit, type Word } from "@/lib/units";
 import { patchDailyStat, type DailyStat } from "@/lib/stats";
 import { reportError } from "@/lib/report";
+import { track } from "@/lib/track";
 
 export const DAY_MS = 86_400_000;
 export const REVIEW_LADDER = [1, 3, 7, 14, 30] as const;
@@ -183,7 +184,8 @@ export const useProgress = create<ProgressState>()(
         set((state) => ({
           dailyStats: patchDailyStat(state.dailyStats, { quizCorrect: correct, quizTotal: total }),
         })),
-      addToNotebook: (word, unitId) =>
+      addToNotebook: (word, unitId) => {
+        const isNew = !get().wrongBySeq[word.seq];
         set((state) => {
           const current = state.wrongBySeq[word.seq];
           return {
@@ -203,31 +205,33 @@ export const useProgress = create<ProgressState>()(
               },
             },
           };
-        }),
-      markForgot: (seq) =>
-        set((state) => {
-          if (!state.wrongBySeq[seq]) return state;
-          return {
-            wrongBySeq: patchCard(state.wrongBySeq, seq, {
-              timesMissed: (state.wrongBySeq[seq]?.timesMissed ?? 1) + 1,
-              lastReviewedAt: Date.now(),
-              intervalDays: 0,
-            }),
-            dailyStats: patchDailyStat(state.dailyStats, { reviewsForgot: 1 }),
-          };
-        }),
-      markRemembered: (seq) =>
-        set((state) => {
-          const current = state.wrongBySeq[seq];
-          if (!current) return state;
-          return {
-            wrongBySeq: patchCard(state.wrongBySeq, seq, {
-              lastReviewedAt: Date.now(),
-              intervalDays: nextIntervalDays(current.intervalDays),
-            }),
-            dailyStats: patchDailyStat(state.dailyStats, { reviewsRemembered: 1 }),
-          };
-        }),
+        });
+        if (isNew) track("notebook_add", { unitId });
+      },
+      markForgot: (seq) => {
+        if (!get().wrongBySeq[seq]) return;
+        set((state) => ({
+          wrongBySeq: patchCard(state.wrongBySeq, seq, {
+            timesMissed: (state.wrongBySeq[seq]?.timesMissed ?? 1) + 1,
+            lastReviewedAt: Date.now(),
+            intervalDays: 0,
+          }),
+          dailyStats: patchDailyStat(state.dailyStats, { reviewsForgot: 1 }),
+        }));
+        track("review_done", { remembered: false });
+      },
+      markRemembered: (seq) => {
+        const current = get().wrongBySeq[seq];
+        if (!current) return;
+        set((state) => ({
+          wrongBySeq: patchCard(state.wrongBySeq, seq, {
+            lastReviewedAt: Date.now(),
+            intervalDays: nextIntervalDays(current.intervalDays),
+          }),
+          dailyStats: patchDailyStat(state.dailyStats, { reviewsRemembered: 1 }),
+        }));
+        track("review_done", { remembered: true });
+      },
       dismissWrong: (seq) =>
         set((state) => {
           const next = { ...state.wrongBySeq };
