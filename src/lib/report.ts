@@ -1,3 +1,5 @@
+import { isLiveHost } from "@/lib/live";
+
 const GITHUB_ISSUE = "https://github.com/Dragonfire94/JEJUMAL/issues/new";
 const LAST_ERROR_KEY = "jeju-mal:last-error";
 const LAST_WORD_KEY = "jeju-mal:last-word";
@@ -26,6 +28,13 @@ export function reportError(error: unknown, context: Record<string, string> = {}
   } catch {
     /* ignore */
   }
+  if (!isLiveHost()) return;
+  emitCrash(error, context);
+}
+
+function emitCrash(_error: unknown, _context: Record<string, string>) {
+  // Fill LIVE_HOSTS and VITE_SENTRY_DSN, then load Sentry here.
+  // Do not install the SDK until those exist.
 }
 
 export function readLastError(): LastError | null {
