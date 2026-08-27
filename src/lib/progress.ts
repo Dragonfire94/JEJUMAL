@@ -2,6 +2,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist, type StateStorage } from "zustand/middleware";
 import { nextUnit, openRankIndex, isUnitUnlocked, TRACKS, unitIdsInRank, units, getUnit, type Word } from "@/lib/units";
 import { patchDailyStat, type DailyStat } from "@/lib/stats";
+import { reportError } from "@/lib/report";
 
 export const DAY_MS = 86_400_000;
 export const REVIEW_LADDER = [1, 3, 7, 14, 30] as const;
@@ -277,10 +278,13 @@ export function hydrateProgress() {
       useProgress.getState().markHydrated();
       return;
     }
-    void Promise.resolve(rehydrate()).finally(() => {
-      useProgress.getState().markHydrated();
-    });
-  } catch {
+    void Promise.resolve(rehydrate())
+      .catch((error) => reportError(error, { where: "hydrateProgress" }))
+      .finally(() => {
+        useProgress.getState().markHydrated();
+      });
+  } catch (error) {
+    reportError(error, { where: "hydrateProgress" });
     useProgress.getState().markHydrated();
   }
 }

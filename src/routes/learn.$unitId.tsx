@@ -2,6 +2,7 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft, Volume2 } from "lucide-react";
 import { useState } from "react";
 import { QuizView } from "@/components/quiz-view";
+import { ReportWordLink } from "@/components/report-word-link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { playWord } from "@/lib/audio";
@@ -187,7 +188,7 @@ function LearnPage() {
               <h2 className="font-medium">틀린 말</h2>
               <Badge variant="danger">{missedWords.length}개</Badge>
             </div>
-            <WordList words={missedWords} />
+            <WordList words={missedWords} unitId={currentUnit.id} />
           </div>
         ) : (
           <p className="text-center text-sm text-muted-foreground">이 유닛은 전부 맞혔습니다.</p>
@@ -249,7 +250,7 @@ function LearnPage() {
       <p className="text-sm text-muted-foreground">
         단어를 들어 본 뒤 듣기 10문제, 읽기 10문제를 풉니다. {PASS_PERCENT}% 이상이면 클리어입니다. 틀리면 그 문제만 다시 풀 수 있습니다.
       </p>
-      <WordList words={currentUnit.words} />
+      <WordList words={currentUnit.words} unitId={currentUnit.id} />
       <Button size="lg" className="w-full" onClick={start}>
         퀴즈 시작
       </Button>
@@ -257,7 +258,7 @@ function LearnPage() {
   );
 }
 
-function WordList({ words }: { words: Word[] }) {
+function WordList({ words, unitId }: { words: Word[]; unitId?: string }) {
   const [playingSeq, setPlayingSeq] = useState<string | null>(null);
   const [failedSeq, setFailedSeq] = useState<string | null>(null);
 
@@ -286,9 +287,12 @@ function WordList({ words }: { words: Word[] }) {
             <Volume2 className={cn("size-4", playingSeq === word.seq && "animate-pulse text-primary")} />
           </button>
           <span className="min-w-0 flex-1 font-medium">{word.jeju}</span>
-          <span className="text-sm text-muted-foreground">
-            {failedSeq === word.seq ? "재생 안 됨" : word.standard}
-          </span>
+          <div className="flex shrink-0 flex-col items-end gap-0.5">
+            <span className="text-sm text-muted-foreground">
+              {failedSeq === word.seq ? "재생 안 됨" : word.standard}
+            </span>
+            <ReportWordLink seq={word.seq} jeju={word.jeju} standard={word.standard} unitId={unitId} />
+          </div>
         </li>
       ))}
     </ul>
