@@ -12,7 +12,7 @@
 | 원본 파일 | 5,638개 (DZES 1,366 · DZHF 2,396 · DZJD 1,876) |
 | 중복 제거한 예문 | **524,406** |
 | 방언 토큰 | **223,067** |
-| 앱에 붙인 예문 | 1,000단어 중 244개 (445문장, 가짜 없음) |
+| 앱에 붙인 예문 | 1,000단어 중 452개 (653문장). 실사용 244 + 명사 치환 208. 가짜 템플릿 없음 |
 | 말뭉치에 표제어가 그대로 나옴 | 281개 |
 | 조사·어미 붙은 형태로 나옴 | +77개 (예: 각씨 → 각씨가) |
 | 대화에 거의 안 나옴 | 642개 |
@@ -26,6 +26,7 @@ data/aihub/
   README.md                 이 파일
   meta.json                 규모·필터·라이선스 메모
   coverage.json             우리 1,000단어가 말뭉치에 있는지
+  assembled.json            명사 치환 조립 감사 로그
   sample.json               눈으로 훑어볼 짧은 예문 240개
   tokens.json               방언 토큰 → 표준어 + 횟수
   utterances/
@@ -65,8 +66,9 @@ python scripts/search_aihub.py 하르방 --limit 20
 python scripts/build_aihub_corpus.py
 ```
 
-앱에 붙이는 고품질 2개 한도는 별도 스크립트입니다.
+앱에 붙이는 스크립트입니다.
 
 ```bash
-python scripts/extract_aihub_examples.py
+python scripts/extract_aihub_examples.py   # 표제어가 실제로 나온 발화
+python scripts/assemble_examples.py        # 표준어 자리에 제주 표제어 치환. 뼈대는 단어당 1회
 ```
