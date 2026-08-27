@@ -2,6 +2,7 @@ import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-r
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { AppShell } from "@/components/app-shell";
+import { THEME_BOOT } from "@/lib/theme";
 import appCss from "../styles.css?url";
 
 const APP_NAME = "제주말";
@@ -21,6 +22,7 @@ export const Route = createRootRoute({
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
     ],
+    scripts: [{ children: THEME_BOOT }],
   }),
   component: () => (
     <html lang="ko" suppressHydrationWarning>
