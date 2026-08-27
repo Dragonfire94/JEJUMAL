@@ -130,10 +130,37 @@ test("clean examples cover every word and stay readable", () => {
   assert.equal(much.some((example) => /드르쓰|마시/.test(example.jeju)), true);
   assert.equal(much.some((example) => example.jeju.includes("대변")), false);
 
+  const father = byJeju.get("아방")?.examples ?? [];
+  assert.ok(father.some((example) => example.jeju.includes("짓") && example.standard.includes("집")));
+  const come = byJeju.get("옵서")?.examples ?? [];
+  assert.ok(come.some((example) => example.jeju.includes("옵서") && example.jeju.includes("앚읍서") && !example.jeju.includes("일희")));
+
   const texts = units.flatMap((unit) =>
     unit.words.flatMap((word) => (word.examples ?? []).map((example) => example.jeju)),
   );
   assert.equal(texts.some((text) => /기\?/.test(text)), false);
   assert.equal(texts.some((text) => /대변/.test(text)), false);
   assert.equal(new Set(texts).size, texts.length);
+});
+
+test("example jeju lines convert the whole sentence", () => {
+  for (const unit of units) {
+    for (const word of unit.words) {
+      const jeju = word.examples?.[0]?.jeju ?? "";
+      if (word.jeju !== "짓") {
+        assert.equal(/집에서/.test(jeju), false, jeju);
+      }
+      assert.equal(jeju.includes("부엌"), false, jeju);
+      if (word.jeju !== "질") {
+        assert.equal(/길을/.test(jeju), false, jeju);
+      }
+      if (word.jeju !== "경") {
+        assert.equal(jeju.includes("그렇게"), false, jeju);
+      }
+      for (const token of jeju.match(/[가-힣]+/g) ?? []) {
+        if (token === word.jeju) continue;
+        assert.equal(token.endsWith("요"), false, `${word.jeju} ${jeju}`);
+      }
+    }
+  }
 });

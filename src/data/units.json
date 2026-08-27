@@ -14,7 +14,7 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "느는 내 책우다.",
+            "jeju": "느는 내 척우다.",
             "standard": "너는 내 책이에요."
           }
         ]
@@ -66,7 +66,7 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "무스거는 같이 갑수다.",
+            "jeju": "무스거는 가치 갑수다.",
             "standard": "무엇은 같이 가요."
           }
         ]
@@ -79,7 +79,7 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "무신은 이름이 뭐우다.",
+            "jeju": "무신은 이름이 무신거우다.",
             "standard": "무슨은 이름이 뭐예요."
           }
         ]
@@ -153,7 +153,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "아방은 오늘 집에서 그냥 지드리엄수다.",
+            "jeju": "아방은 오늘 짓에서 그냥 지드리엄수다.",
             "standard": "아버지는 오늘 집에서 그냥 기다려요."
           }
         ]
@@ -179,8 +179,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "하르방은 마루에서 신문을 봄수다.",
-            "standard": "할아버지는 마루에서 신문을 봐요."
+            "jeju": "하르방은 마루에서 척을 봄수다.",
+            "standard": "할아버지는 마루에서 책을 봐요."
           }
         ]
       },
@@ -192,7 +192,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "할망은 오늘 집에서 그냥 말허엄수다.",
+            "jeju": "할망은 오늘 짓에서 그냥 말허엄수다.",
             "standard": "할머니는 오늘 집에서 그냥 말해요."
           }
         ]
@@ -205,7 +205,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "오라방은 오늘 집에서 그냥 쉬고 싯엄수다.",
+            "jeju": "오라방은 오늘 짓에서 그냥 쉬고 싯엄수다.",
             "standard": "오빠는 오늘 집에서 그냥 쉬고 있어요."
           }
         ]
@@ -218,7 +218,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "성은 오늘 집에서 그냥 일을 도왜엄수다.",
+            "jeju": "성은 오늘 짓에서 그냥 일을 도왜엄수다.",
             "standard": "형은 오늘 집에서 그냥 일을 도와요."
           }
         ]
@@ -231,7 +231,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "아시는 오늘 집에서 그냥 차를 드르쓰엄수다.",
+            "jeju": "아시는 오늘 짓에서 그냥 차를 드르쓰엄수다.",
             "standard": "동생은 오늘 집에서 그냥 차를 마셔요."
           }
         ]
@@ -244,7 +244,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조캐는 오늘 집에서 그냥 밥을 먹엄수다.",
+            "jeju": "조캐는 오늘 짓에서 그냥 밥을 먹엄수다.",
             "standard": "조카는 오늘 집에서 그냥 밥을 먹어요."
           }
         ]
@@ -257,7 +257,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰아방은 오늘 집에서 잠깐 지드리엄수다.",
+            "jeju": "큰아방은 오늘 짓에서 잠깐 지드리엄수다.",
             "standard": "큰아버지는 오늘 집에서 잠깐 기다려요."
           }
         ]
@@ -292,7 +292,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "사름은 오늘 집에서 잠깐 말허엄수다.",
+            "jeju": "사름은 오늘 짓에서 잠깐 말허엄수다.",
             "standard": "사람은 오늘 집에서 잠깐 말해요."
           }
         ]
@@ -305,7 +305,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "메누리는 오늘 집에서 잠깐 쉬고 싯엄수다.",
+            "jeju": "메누리는 오늘 짓에서 잠깐 쉬고 싯엄수다.",
             "standard": "며느리는 오늘 집에서 잠깐 쉬고 있어요."
           }
         ]
@@ -318,7 +318,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "씨어멍은 오늘 집에서 잠깐 일을 도왜엄수다.",
+            "jeju": "씨어멍은 오늘 짓에서 잠깐 일을 도왜엄수다.",
             "standard": "시어머니는 오늘 집에서 잠깐 일을 도와요."
           }
         ]
@@ -331,7 +331,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "씨아방은 오늘 집에서 잠깐 차를 드르쓰엄수다.",
+            "jeju": "씨아방은 오늘 짓에서 잠깐 차를 드르쓰엄수다.",
             "standard": "시아버지는 오늘 집에서 잠깐 차를 마셔요."
           }
         ]
@@ -344,7 +344,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손지는 오늘 집에서 잠깐 밥을 먹엄수다.",
+            "jeju": "손지는 오늘 짓에서 잠깐 밥을 먹엄수다.",
             "standard": "손자는 오늘 집에서 잠깐 밥을 먹어요."
           }
         ]
@@ -357,7 +357,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "부미는 오늘 집에서 오래 지드리엄수다.",
+            "jeju": "부미는 오늘 짓에서 오라 지드리엄수다.",
             "standard": "부모는 오늘 집에서 오래 기다려요."
           }
         ]
@@ -370,7 +370,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "성제는 오늘 집에서 오래 말허엄수다.",
+            "jeju": "성제는 오늘 짓에서 오라 말허엄수다.",
             "standard": "형제는 오늘 집에서 오래 말해요."
           }
         ]
@@ -383,7 +383,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나그네는 오늘 집에서 오래 쉬고 싯엄수다.",
+            "jeju": "나그네는 오늘 짓에서 오라 쉬고 싯엄수다.",
             "standard": "손님은 오늘 집에서 오래 쉬고 있어요."
           }
         ]
@@ -396,7 +396,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "예식은 오늘 집에서 오래 일을 도왜엄수다.",
+            "jeju": "예식은 오늘 짓에서 오라 일을 도왜엄수다.",
             "standard": "딸은 오늘 집에서 오래 일을 도와요."
           }
         ]
@@ -409,7 +409,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "물애기는 오늘 집에서 오래 차를 드르쓰엄수다.",
+            "jeju": "물애기는 오늘 짓에서 오라 차를 드르쓰엄수다.",
             "standard": "갓난아이는 오늘 집에서 오래 차를 마셔요."
           }
         ]
@@ -444,7 +444,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "늑신이는 오늘 집에서 오래 밥을 먹엄수다.",
+            "jeju": "늑신이는 오늘 짓에서 오라 밥을 먹엄수다.",
             "standard": "늙은이는 오늘 집에서 오래 밥을 먹어요."
           }
         ]
@@ -457,7 +457,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "씨누이는 오늘 집에서 같이 지드리엄수다.",
+            "jeju": "씨누이는 오늘 짓에서 가치 지드리엄수다.",
             "standard": "시누이는 오늘 집에서 같이 기다려요."
           }
         ]
@@ -470,7 +470,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "방세임은 오늘 집에서 같이 말허엄수다.",
+            "jeju": "방세임은 오늘 짓에서 가치 말허엄수다.",
             "standard": "아가씨는 오늘 집에서 같이 말해요."
           }
         ]
@@ -483,7 +483,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "으른은 오늘 집에서 같이 쉬고 싯엄수다.",
+            "jeju": "으른은 오늘 짓에서 가치 쉬고 싯엄수다.",
             "standard": "어른은 오늘 집에서 같이 쉬고 있어요."
           }
         ]
@@ -496,7 +496,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "얼애는 오늘 집에서 같이 일을 도왜엄수다.",
+            "jeju": "얼애는 오늘 짓에서 가치 일을 도왜엄수다.",
             "standard": "어린애는 오늘 집에서 같이 일을 도와요."
           }
         ]
@@ -509,7 +509,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "비바리는 오늘 집에서 같이 차를 드르쓰엄수다.",
+            "jeju": "비바리는 오늘 짓에서 가치 차를 드르쓰엄수다.",
             "standard": "처녀는 오늘 집에서 같이 차를 마셔요."
           }
         ]
@@ -522,7 +522,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쥐인은 오늘 집에서 같이 밥을 먹엄수다.",
+            "jeju": "쥐인은 오늘 짓에서 가치 밥을 먹엄수다.",
             "standard": "주인은 오늘 집에서 같이 밥을 먹어요."
           }
         ]
@@ -535,7 +535,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "처아주망은 오늘 집에서 혼자 지드리엄수다.",
+            "jeju": "처아주망은 오늘 짓에서 혼자 지드리엄수다.",
             "standard": "처제는 오늘 집에서 혼자 기다려요."
           }
         ]
@@ -548,7 +548,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "처아주마님은 오늘 집에서 혼자 말허엄수다.",
+            "jeju": "처아주마님은 오늘 짓에서 혼자 말허엄수다.",
             "standard": "처형은 오늘 집에서 혼자 말해요."
           }
         ]
@@ -583,7 +583,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "족은각씨는 오늘 집에서 혼자 쉬고 싯엄수다.",
+            "jeju": "족은각씨는 오늘 짓에서 혼자 쉬고 싯엄수다.",
             "standard": "첩은 오늘 집에서 혼자 쉬고 있어요."
           }
         ]
@@ -596,7 +596,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "놈은 오늘 집에서 혼자 일을 도왜엄수다.",
+            "jeju": "놈은 오늘 짓에서 혼자 일을 도왜엄수다.",
             "standard": "남은 오늘 집에서 혼자 일을 도와요."
           }
         ]
@@ -609,7 +609,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "구중은 오늘 집에서 혼자 차를 드르쓰엄수다.",
+            "jeju": "구중은 오늘 짓에서 혼자 차를 드르쓰엄수다.",
             "standard": "종은 오늘 집에서 혼자 차를 마셔요."
           }
         ]
@@ -622,7 +622,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰어멍은 오늘 집에서 혼자 밥을 먹엄수다.",
+            "jeju": "큰어멍은 오늘 짓에서 혼자 밥을 먹엄수다.",
             "standard": "백모는 오늘 집에서 혼자 밥을 먹어요."
           }
         ]
@@ -635,7 +635,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제집은 오늘 집에서 또 지드리엄수다.",
+            "jeju": "제집은 오늘 짓에서 또 지드리엄수다.",
             "standard": "지집은 오늘 집에서 또 기다려요."
           }
         ]
@@ -648,7 +648,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "저기는 오늘 집에서 또 말허엄수다.",
+            "jeju": "저기는 오늘 짓에서 또 말허엄수다.",
             "standard": "지대는 오늘 집에서 또 말해요."
           }
         ]
@@ -661,7 +661,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장남은 오늘 집에서 또 쉬고 싯엄수다.",
+            "jeju": "장남은 오늘 짓에서 또 쉬고 싯엄수다.",
             "standard": "작자는 오늘 집에서 또 쉬고 있어요."
           }
         ]
@@ -674,7 +674,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "운상군은 오늘 집에서 또 일을 도왜엄수다.",
+            "jeju": "운상군은 오늘 짓에서 또 일을 도왜엄수다.",
             "standard": "상군은 오늘 집에서 또 일을 도와요."
           }
         ]
@@ -687,7 +687,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "솥밑할망은 오늘 집에서 또 차를 드르쓰엄수다.",
+            "jeju": "솥밑할망은 오늘 짓에서 또 차를 드르쓰엄수다.",
             "standard": "숙수는 오늘 집에서 또 차를 마셔요."
           }
         ]
@@ -709,7 +709,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "서패는 오늘 집에서 또 밥을 먹엄수다.",
+            "jeju": "서패는 오늘 짓에서 또 밥을 먹엄수다.",
             "standard": "서파는 오늘 집에서 또 밥을 먹어요."
           }
         ]
@@ -887,7 +887,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "텟도독은 오늘 마당에서 오래 지드리엄수다.",
+            "jeju": "텟도독은 오늘 마당에서 오라 지드리엄수다.",
             "standard": "떼도적은 오늘 마당에서 오래 기다려요."
           }
         ]
@@ -900,7 +900,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰성은 오늘 마당에서 오래 말허엄수다.",
+            "jeju": "큰성은 오늘 마당에서 오라 말허엄수다.",
             "standard": "맏형님은 오늘 마당에서 오래 말해요."
           }
         ]
@@ -913,7 +913,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰사위는 오늘 마당에서 오래 쉬고 싯엄수다.",
+            "jeju": "큰사위는 오늘 마당에서 오라 쉬고 싯엄수다.",
             "standard": "맏사위는 오늘 마당에서 오래 쉬고 있어요."
           }
         ]
@@ -926,7 +926,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰누이는 오늘 마당에서 오래 일을 도왜엄수다.",
+            "jeju": "큰누이는 오늘 마당에서 오라 일을 도왜엄수다.",
             "standard": "맏누이는 오늘 마당에서 오래 일을 도와요."
           }
         ]
@@ -939,7 +939,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "촐람생이는 오늘 마당에서 오래 차를 드르쓰엄수다.",
+            "jeju": "촐람생이는 오늘 마당에서 오라 차를 드르쓰엄수다.",
             "standard": "초라니는 오늘 마당에서 오래 차를 마셔요."
           }
         ]
@@ -952,8 +952,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "촐-놉은 오늘 마당에서 오래 밥을 먹엄수다.",
-            "standard": "촐-놉은 오늘 마당에서 오래 밥을 먹어요."
+            "jeju": "촐군은 오늘 마당에서 오라 밥을 먹엄수다.",
+            "standard": "촐놉은 오늘 마당에서 오래 밥을 먹어요."
           }
         ]
       },
@@ -965,7 +965,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "처가칩은 오늘 마당에서 같이 지드리엄수다.",
+            "jeju": "처가칩은 오늘 마당에서 가치 지드리엄수다.",
             "standard": "처갓집은 오늘 마당에서 같이 기다려요."
           }
         ]
@@ -987,7 +987,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "질동무는 오늘 마당에서 같이 말허엄수다.",
+            "jeju": "질동무는 오늘 마당에서 가치 말허엄수다.",
             "standard": "길동무는 오늘 마당에서 같이 말해요."
           }
         ]
@@ -1000,7 +1000,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "할마님은 오늘 마당에서 같이 쉬고 싯엄수다.",
+            "jeju": "할마님은 오늘 마당에서 가치 쉬고 싯엄수다.",
             "standard": "할머니는 오늘 마당에서 같이 쉬고 있어요."
           }
         ]
@@ -1013,7 +1013,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "하리비는 오늘 마당에서 같이 일을 도왜엄수다.",
+            "jeju": "하리비는 오늘 마당에서 가치 일을 도왜엄수다.",
             "standard": "할애비는 오늘 마당에서 같이 일을 도와요."
           }
         ]
@@ -1026,7 +1026,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "하님은 오늘 마당에서 같이 차를 드르쓰엄수다.",
+            "jeju": "하님은 오늘 마당에서 가치 차를 드르쓰엄수다.",
             "standard": "계집종은 오늘 마당에서 같이 차를 마셔요."
           }
         ]
@@ -1039,7 +1039,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "지관>는 오늘 마당에서 같이 밥을 먹엄수다.",
+            "jeju": "정시는 오늘 마당에서 가치 밥을 먹엄수다.",
             "standard": "지관>는 오늘 마당에서 같이 밥을 먹어요."
           }
         ]
@@ -1230,8 +1230,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰-아방은 오늘 부엌에서 그냥 말햄수다.",
-            "standard": "큰-아방은 오늘 부엌에서 그냥 말해요."
+            "jeju": "큰삼춘은 오늘 정지에서 그냥 말허엄수다.",
+            "standard": "큰아방은 오늘 부엌에서 그냥 말해요."
           }
         ]
       },
@@ -1343,7 +1343,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "작은 놈은 오늘 부엌에서 잠깐 일을 도옵수다.",
+            "jeju": "족은놈은 오늘 정지에서 잠깐 일을 도왜엄수다.",
             "standard": "작은 놈은 오늘 부엌에서 잠깐 일을 도와요."
           }
         ]
@@ -1356,8 +1356,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "작산-놈은 오늘 부엌에서 잠깐 차를 마심수다.",
-            "standard": "작산-놈은 오늘 부엌에서 잠깐 차를 마셔요."
+            "jeju": "작산놈은 오늘 정지에서 잠깐 차를 드르쓰엄수다.",
+            "standard": "작산놈은 오늘 부엌에서 잠깐 차를 마셔요."
           }
         ]
       },
@@ -1382,7 +1382,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "오라비님은 오늘 정지에서 오래 지드리엄수다.",
+            "jeju": "오라비님은 오늘 정지에서 오라 지드리엄수다.",
             "standard": "오라버님은 오늘 부엌에서 오래 기다려요."
           }
         ]
@@ -1404,7 +1404,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "무사 경 급하게 귿엄수다?",
+            "jeju": "무사 경 급허게 귿엄수다?",
             "standard": "왜 그렇게 급하게 걸어요?"
           }
         ]
@@ -1430,7 +1430,7 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "옵서, 이쪽으로 앚읍서.",
+            "jeju": "옵서, 이디로 앚읍서.",
             "standard": "오세요, 이쪽으로 앉으세요."
           }
         ]
@@ -1443,7 +1443,7 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "기여, 이쪽으로 옵서.",
+            "jeju": "기여, 이디로 옵서.",
             "standard": "그래, 이쪽으로 오세요."
           }
         ]
@@ -1495,7 +1495,7 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "누게는 천천히 말허엄수다.",
+            "jeju": "누게는 슬슬 말허엄수다.",
             "standard": "누구는 천천히 말해요."
           }
         ]
@@ -1543,8 +1543,8 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "날봅서, 잠깐만 기다려 보십서.",
-            "standard": "여보세요, 잠깐만 기다려 보세요."
+            "jeju": "날봅서, 잠깐만 지드리엄수다.",
+            "standard": "여보세요, 잠깐만 기다려요."
           }
         ]
       },
@@ -1556,8 +1556,8 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "양, 제가 도와드릴게요.",
-            "standard": "예, 제가 도와드릴게요."
+            "jeju": "양, 내가 도왜엄수다.",
+            "standard": "예, 내가 도와요."
           }
         ]
       },
@@ -1582,7 +1582,7 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "어이, 닐 다시 만나요.",
+            "jeju": "어이, 닐 다시 만남수다.",
             "standard": "여보게, 내일 다시 만나요."
           }
         ]
@@ -1873,7 +1873,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 훈적을 지금 불라요.",
+            "jeju": "나는 훈적을 지금 불람수다.",
             "standard": "나는 거짓말을 지금 불러요."
           }
         ]
@@ -1886,7 +1886,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 간세를 지금 적어 둬요.",
+            "jeju": "나는 간세를 지금 적어 둼수다.",
             "standard": "나는 게으름을 지금 적어 둬요."
           }
         ]
@@ -1899,7 +1899,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 서베를 지금 회계나요.",
+            "jeju": "나는 서베를 지금 회계남수다.",
             "standard": "나는 세배를 지금 생각나요."
           }
         ]
@@ -1912,7 +1912,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 밥방울을 지금 들려줘요.",
+            "jeju": "나는 밥방울을 지금 들려줨수다.",
             "standard": "나는 밥알을 지금 들려줘요."
           }
         ]
@@ -2177,7 +2177,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 곤을 아까 불라요.",
+            "jeju": "나는 곤을 아까 불람수다.",
             "standard": "나는 고운을 아까 불러요."
           }
         ]
@@ -2442,7 +2442,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 다못 허언.",
+            "jeju": "오늘은 질을 다못 허언.",
             "standard": "오늘은 길을 다만 했어요."
           }
         ]
@@ -2455,7 +2455,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 늦이 드르쓰언.",
+            "jeju": "오늘은 질을 늦이 드르쓰언.",
             "standard": "오늘은 길을 늦게 마셨어요."
           }
         ]
@@ -2468,7 +2468,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 너미 먹언.",
+            "jeju": "오늘은 질을 너미 먹언.",
             "standard": "오늘은 길을 너무 먹었어요."
           }
         ]
@@ -2481,7 +2481,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 그자 욜언.",
+            "jeju": "오늘은 질을 그자 욜언.",
             "standard": "오늘은 길을 기자 열었어요."
           }
         ]
@@ -2494,7 +2494,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 거저 닫안.",
+            "jeju": "오늘은 질을 거저 닫안.",
             "standard": "오늘은 길을 거줌 닫았어요."
           }
         ]
@@ -2516,7 +2516,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 날 것을 아까 적어 둬요.",
+            "jeju": "나는 셍거를 아까 적어 둼수다.",
             "standard": "나는 날 것을 아까 적어 둬요."
           }
         ]
@@ -2529,7 +2529,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 흰 밥을 아까 생각나요.",
+            "jeju": "나는 곤밥을 아까 회계남수다.",
             "standard": "나는 흰 밥을 아까 생각나요."
           }
         ]
@@ -2542,7 +2542,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 천성 닦안.",
+            "jeju": "오늘은 질을 천성 닦안.",
             "standard": "오늘은 길을 언제나 닦았어요."
           }
         ]
@@ -2555,7 +2555,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 죽게 익언.",
+            "jeju": "오늘은 질을 죽게 익언.",
             "standard": "오늘은 길을 죽도록 읽었어요."
           }
         ]
@@ -2568,7 +2568,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 잇당 기다렸엄수다.",
+            "jeju": "오늘은 질을 잇당 기다렸엄수다.",
             "standard": "오늘은 길을 있다가 기다렸어요."
           }
         ]
@@ -2581,7 +2581,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 이시커니 만났엄수다.",
+            "jeju": "오늘은 질을 이시커니 만났엄수다.",
             "standard": "오늘은 길을 이식이 만났어요."
           }
         ]
@@ -2594,7 +2594,7 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 길을 으레 고쳤엄수다.",
+            "jeju": "오늘은 질을 으레 고쳤엄수다.",
             "standard": "오늘은 길을 의례히 고쳤어요."
           }
         ]
@@ -2759,7 +2759,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 햇 곡식을 아까 들려줘요.",
+            "jeju": "나는 새곡석을 아까 들려줨수다.",
             "standard": "나는 햇 곡식을 아까 들려줘요."
           }
         ]
@@ -2772,7 +2772,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 셋째 집을 아까 적어 보냈엄수다.",
+            "jeju": "나는 말젯집을 아까 적어 보냈엄수다.",
             "standard": "나는 셋째 집을 아까 적어 보냈어요."
           }
         ]
@@ -2794,7 +2794,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가심을 언물에 싯엄수다.",
+            "jeju": "가심을 언물에 씻엄수다.",
             "standard": "가슴을 찬물에 씻어요."
           }
         ]
@@ -2820,7 +2820,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "발콥을 언물에 말려요.",
+            "jeju": "발콥을 언물에 말렴수다.",
             "standard": "발톱을 찬물에 말려요."
           }
         ]
@@ -2833,7 +2833,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "입바위를 언물에 주물러요.",
+            "jeju": "입바위를 언물에 주물럼수다.",
             "standard": "입술을 찬물에 주물러요."
           }
         ]
@@ -2885,7 +2885,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "귓밥을 언물에 가려요.",
+            "jeju": "귓밥을 언물에 가렴수다.",
             "standard": "귀지를 찬물에 가려요."
           }
         ]
@@ -2911,7 +2911,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "모감지를 언물에 감싸요.",
+            "jeju": "모감지를 언물에 감쌈수다.",
             "standard": "멱살을 찬물에 감싸요."
           }
         ]
@@ -2933,7 +2933,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈방울을 따뜻한 물에 싯엄수다.",
+            "jeju": "눈방울을 따뜻한 물에 씻엄수다.",
             "standard": "눈동자를 따뜻한 물에 씻어요."
           }
         ]
@@ -2959,7 +2959,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈깍을 따뜻한 물에 말려요.",
+            "jeju": "눈깍을 따뜻한 물에 말렴수다.",
             "standard": "눈초리를 따뜻한 물에 말려요."
           }
         ]
@@ -2972,7 +2972,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "종애를 따뜻한 물에 주물러요.",
+            "jeju": "종애를 따뜻한 물에 주물럼수다.",
             "standard": "종아리를 따뜻한 물에 주물러요."
           }
         ]
@@ -3024,7 +3024,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "입개미를 따뜻한 물에 가려요.",
+            "jeju": "입개미를 따뜻한 물에 가렴수다.",
             "standard": "입아귀를 따뜻한 물에 가려요."
           }
         ]
@@ -3050,7 +3050,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손등어리를 따뜻한 물에 감싸요.",
+            "jeju": "손등어리를 따뜻한 물에 감쌈수다.",
             "standard": "손등을 따뜻한 물에 감싸요."
           }
         ]
@@ -3072,7 +3072,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조롬을 비누로 싯엄수다.",
+            "jeju": "조롬을 비누로 씻엄수다.",
             "standard": "밑을 비누로 씻어요."
           }
         ]
@@ -3098,7 +3098,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "곱을 비누로 말려요.",
+            "jeju": "곱을 비누로 말렴수다.",
             "standard": "콥을 비누로 말려요."
           }
         ]
@@ -3111,7 +3111,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가달을 비누로 주물러요.",
+            "jeju": "가달을 비누로 주물럼수다.",
             "standard": "각을 비누로 주물러요."
           }
         ]
@@ -3163,7 +3163,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "아옴내를 비누로 가려요.",
+            "jeju": "아옴내를 비누로 가렴수다.",
             "standard": "암내를 비누로 가려요."
           }
         ]
@@ -3189,7 +3189,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "버줌을 비누로 감싸요.",
+            "jeju": "버줌을 비누로 감쌈수다.",
             "standard": "버짐을 비누로 감싸요."
           }
         ]
@@ -3211,7 +3211,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "독을 수건으로 싯엄수다.",
+            "jeju": "독을 수건으로 씻엄수다.",
             "standard": "무립을 수건으로 씻어요."
           }
         ]
@@ -3237,7 +3237,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "급기를 수건으로 말려요.",
+            "jeju": "급기를 수건으로 말렴수다.",
             "standard": "급병을 수건으로 말려요."
           }
         ]
@@ -3250,7 +3250,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장목을 수건으로 주물러요.",
+            "jeju": "장목을 수건으로 주물럼수다.",
             "standard": "손목을 수건으로 주물러요."
           }
         ]
@@ -3289,7 +3289,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "천식>를 수건으로 들여다봄수다.",
+            "jeju": "천징을 수건으로 들여다봄수다.",
             "standard": "천식>를 수건으로 들여다봐요."
           }
         ]
@@ -3302,7 +3302,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "졉을 수건으로 가려요.",
+            "jeju": "졉을 수건으로 가렴수다.",
             "standard": "주걱뼈를 수건으로 가려요."
           }
         ]
@@ -3328,8 +3328,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "씸-줄을 수건으로 감싸요.",
-            "standard": "씸-줄을 수건으로 감싸요."
+            "jeju": "심줄을 수건으로 감쌈수다.",
+            "standard": "씸줄을 수건으로 감싸요."
           }
         ]
       }
@@ -3350,7 +3350,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손거슴을 살살 싯엄수다.",
+            "jeju": "손거슴을 살살 씻엄수다.",
             "standard": "손거심을 살살 씻어요."
           }
         ]
@@ -3376,7 +3376,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "붕에눈을 살살 말려요.",
+            "jeju": "붕에눈을 살살 말렴수다.",
             "standard": "거적눈을 살살 말려요."
           }
         ]
@@ -3389,7 +3389,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "미주를 살살 주물러요.",
+            "jeju": "미주를 살살 주물럼수다.",
             "standard": "꽁무니를 살살 주물러요."
           }
         ]
@@ -3415,8 +3415,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "덧-니를 살살 만져 봄수다.",
-            "standard": "덧-니를 살살 만져 봐요."
+            "jeju": "덧을 살살 만져 봄수다.",
+            "standard": "덧니를 살살 만져 봐요."
           }
         ]
       },
@@ -3441,7 +3441,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈사투리를 살살 가려요.",
+            "jeju": "눈사투리를 살살 가렴수다.",
             "standard": "사투리를 살살 가려요."
           }
         ]
@@ -3467,7 +3467,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "검은동자를 살살 감싸요.",
+            "jeju": "검은동자를 살살 감쌈수다.",
             "standard": "검은자를 살살 감싸요."
           }
         ]
@@ -3489,7 +3489,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "콥을 깨끗이 싯엄수다.",
+            "jeju": "콥을 깨끗이 씻엄수다.",
             "standard": "눈꼽자기를 깨끗이 씻어요."
           }
         ]
@@ -3502,8 +3502,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "코-핀작을 깨끗이 닦암수다.",
-            "standard": "코-핀작을 깨끗이 닦아요."
+            "jeju": "코페렝이를 깨끗이 닦암수다.",
+            "standard": "코핀작을 깨끗이 닦아요."
           }
         ]
       },
@@ -3515,8 +3515,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "어껭-이를 깨끗이 말려요.",
-            "standard": "어껭-이를 깨끗이 말려요."
+            "jeju": "어께를 깨끗이 말렴수다.",
+            "standard": "어껭이를 깨끗이 말려요."
           }
         ]
       },
@@ -3528,7 +3528,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손아우생이를 깨끗이 주물러요.",
+            "jeju": "손아우생이를 깨끗이 주물럼수다.",
             "standard": "안주외기를 깨끗이 주물러요."
           }
         ]
@@ -3541,8 +3541,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "절변-꽝을 깨끗이 펴요.",
-            "standard": "절변-꽝을 깨끗이 펴요."
+            "jeju": "독머리꽝을 깨끗이 페우엄수다.",
+            "standard": "절변꽝을 깨끗이 펴요."
           }
         ]
       },
@@ -3554,8 +3554,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "귀뚱-이를 깨끗이 만져 봄수다.",
-            "standard": "귀뚱-이를 깨끗이 만져 봐요."
+            "jeju": "귀뚱을 깨끗이 만져 봄수다.",
+            "standard": "귀뚱이를 깨끗이 만져 봐요."
           }
         ]
       },
@@ -3580,8 +3580,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조종-패기를 깨끗이 가려요.",
-            "standard": "조종-패기를 깨끗이 가려요."
+            "jeju": "조종머리를 깨끗이 가렴수다.",
+            "standard": "조종패기를 깨끗이 가려요."
           }
         ]
       },
@@ -3593,8 +3593,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈-콥재기를 깨끗이 적심수다.",
-            "standard": "눈-콥재기를 깨끗이 적셔요."
+            "jeju": "눈콥을 깨끗이 적지엄수다.",
+            "standard": "눈콥재기를 깨끗이 적셔요."
           }
         ]
       },
@@ -3606,7 +3606,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "등 아랫쪽을 깨끗이 감싸요.",
+            "jeju": "구불을 깨끗이 감쌈수다.",
             "standard": "등 아랫쪽을 깨끗이 감싸요."
           }
         ]
@@ -3628,7 +3628,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "둘째 손가락을 오늘따라 씻엄수다.",
+            "jeju": "안주외기손가락을 오늘따라 씻엄수다.",
             "standard": "둘째 손가락을 오늘따라 씻어요."
           }
         ]
@@ -3641,7 +3641,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "넓적다리 안쪽을 오늘따라 닦암수다.",
+            "jeju": "안잠지를 오늘따라 닦암수다.",
             "standard": "넓적다리 안쪽을 오늘따라 닦아요."
           }
         ]
@@ -3654,7 +3654,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "부스럼 껍질이 굳은것을 오늘따라 말려요.",
+            "jeju": "쐬닥지를 오늘따라 말렴수다.",
             "standard": "부스럼 껍질이 굳은것을 오늘따라 말려요."
           }
         ]
@@ -3667,7 +3667,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈의 삼을 오늘따라 주물러요.",
+            "jeju": "팔을 오늘따라 주물럼수다.",
             "standard": "눈의 삼을 오늘따라 주물러요."
           }
         ]
@@ -3719,7 +3719,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꿈을 오늘따라 가려요.",
+            "jeju": "꿈을 오늘따라 가렴수다.",
             "standard": "춤을 오늘따라 가려요."
           }
         ]
@@ -3745,7 +3745,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "골치를 오늘따라 감싸요.",
+            "jeju": "골치를 오늘따라 감쌈수다.",
             "standard": "골을 오늘따라 감싸요."
           }
         ]
@@ -3767,7 +3767,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꺼럭을 조금 싯엄수다.",
+            "jeju": "꺼럭을 조금 씻엄수다.",
             "standard": "껄을 조금 씻어요."
           }
         ]
@@ -3793,7 +3793,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "활게를 조금 말려요.",
+            "jeju": "활게를 조금 말렴수다.",
             "standard": "활개를 조금 말려요."
           }
         ]
@@ -3806,7 +3806,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "허멀을 조금 주물러요.",
+            "jeju": "허멀을 조금 주물럼수다.",
             "standard": "허물을 조금 주물러요."
           }
         ]
@@ -3858,7 +3858,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "퀴눈이를 조금 가려요.",
+            "jeju": "퀴눈이를 조금 가렴수다.",
             "standard": "티눈을 조금 가려요."
           }
         ]
@@ -3884,7 +3884,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "지질을 조금 감싸요.",
+            "jeju": "지질을 조금 감쌈수다.",
             "standard": "치질을 조금 감싸요."
           }
         ]
@@ -3906,7 +3906,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조쟁이를 양손으로 싯엄수다.",
+            "jeju": "조쟁이를 양손으로 씻엄수다.",
             "standard": "자지를 양손으로 씻어요."
           }
         ]
@@ -3932,7 +3932,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "언딘피를 양손으로 말려요.",
+            "jeju": "언딘피를 양손으로 말렴수다.",
             "standard": "선지를 양손으로 말려요."
           }
         ]
@@ -3945,7 +3945,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "양지를 양손으로 주물러요.",
+            "jeju": "양지를 양손으로 주물럼수다.",
             "standard": "얼굴을 양손으로 주물러요."
           }
         ]
@@ -3997,7 +3997,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쉬염을 양손으로 가려요.",
+            "jeju": "쉬염을 양손으로 가렴수다.",
             "standard": "수염을 양손으로 가려요."
           }
         ]
@@ -4023,7 +4023,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손그뭇을 양손으로 감싸요.",
+            "jeju": "손그뭇을 양손으로 감쌈수다.",
             "standard": "손금을 양손으로 감싸요."
           }
         ]
@@ -4045,7 +4045,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손거림을 섹경 앞에서 싯엄수다.",
+            "jeju": "손거림을 섹경 앞에서 씻엄수다.",
             "standard": "손샅을 거울 앞에서 씻어요."
           }
         ]
@@ -4071,7 +4071,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상퉁이자리를 섹경 앞에서 말려요.",
+            "jeju": "상퉁이자리를 섹경 앞에서 말렴수다.",
             "standard": "배코를 거울 앞에서 말려요."
           }
         ]
@@ -4084,7 +4084,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상퉁이를 섹경 앞에서 주물러요.",
+            "jeju": "상퉁이를 섹경 앞에서 주물럼수다.",
             "standard": "상투를 거울 앞에서 주물러요."
           }
         ]
@@ -4136,7 +4136,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "몽섹을 섹경 앞에서 가려요.",
+            "jeju": "몽섹을 섹경 앞에서 가렴수다.",
             "standard": "몽설을 거울 앞에서 가려요."
           }
         ]
@@ -4162,7 +4162,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멘몸을 섹경 앞에서 감싸요.",
+            "jeju": "멘몸을 섹경 앞에서 감쌈수다.",
             "standard": "알몸을 거울 앞에서 감싸요."
           }
         ]
@@ -4223,7 +4223,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "둠비를 냄비에 올려요.",
+            "jeju": "둠비를 냄비에 올렴수다.",
             "standard": "두부를 냄비에 올려요."
           }
         ]
@@ -4262,7 +4262,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "곤죽을 냄비에 간을 맞춰요.",
+            "jeju": "곤죽을 냄비에 간을 맞췀수다.",
             "standard": "쌀죽을 냄비에 간을 맞춰요."
           }
         ]
@@ -4288,7 +4288,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조축을 냄비에 식혀요.",
+            "jeju": "조축을 냄비에 식험수다.",
             "standard": "조죽을 냄비에 식혀요."
           }
         ]
@@ -4362,7 +4362,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "물장을 그릇에 올려요.",
+            "jeju": "물장을 그릇에 올렴수다.",
             "standard": "간장을 그릇에 올려요."
           }
         ]
@@ -4401,7 +4401,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "된술을 그릇에 간을 맞춰요.",
+            "jeju": "된술을 그릇에 간을 맞췀수다.",
             "standard": "막걸리를 그릇에 간을 맞춰요."
           }
         ]
@@ -4427,7 +4427,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수에를 그릇에 식혀요.",
+            "jeju": "수에를 그릇에 식험수다.",
             "standard": "순대를 그릇에 식혀요."
           }
         ]
@@ -4501,7 +4501,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "숟구락을 상에 올려요.",
+            "jeju": "숟구락을 상에 올렴수다.",
             "standard": "숟가락을 상에 올려요."
           }
         ]
@@ -4540,7 +4540,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "솥덕을 상에 간을 맞춰요.",
+            "jeju": "솥덕을 상에 간을 맞췀수다.",
             "standard": "부뚜막을 상에 간을 맞춰요."
           }
         ]
@@ -4566,7 +4566,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "언물을 상에 식혀요.",
+            "jeju": "언물을 상에 식험수다.",
             "standard": "찬물을 상에 식혀요."
           }
         ]
@@ -4640,7 +4640,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "우방을 아적에 올려요.",
+            "jeju": "우방을 아적에 올렴수다.",
             "standard": "우웡을 아침에 올려요."
           }
         ]
@@ -4679,8 +4679,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "메-종을 아적에 간을 맞춰요.",
-            "standard": "메-종을 아침에 간을 맞춰요."
+            "jeju": "메를 아적에 간을 맞췀수다.",
+            "standard": "메종을 아침에 간을 맞춰요."
           }
         ]
       },
@@ -4705,8 +4705,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "풀-탁을 아침에 식혀요.",
-            "standard": "풀-탁을 아침에 식혀요."
+            "jeju": "푸레죽을 아적에 식험수다.",
+            "standard": "풀탁을 아침에 식혀요."
           }
         ]
       },
@@ -4740,7 +4740,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "남남을 점심에 끓염수다.",
+            "jeju": "남남을 낮밥에 끓염수다.",
             "standard": "냠냠이를 점심에 끓여요."
           }
         ]
@@ -4753,7 +4753,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "오매기를 점심에 볶암수다.",
+            "jeju": "오매기를 낮밥에 볶암수다.",
             "standard": "술오매기를 점심에 볶아요."
           }
         ]
@@ -4766,7 +4766,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "벡토란을 점심에 담엄수다.",
+            "jeju": "벡토란을 낮밥에 담엄수다.",
             "standard": "백도라지를 점심에 담가요."
           }
         ]
@@ -4779,7 +4779,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쌀 뜨물을 점심에 올려요.",
+            "jeju": "팃물을 낮밥에 올렴수다.",
             "standard": "쌀 뜨물을 점심에 올려요."
           }
         ]
@@ -4792,7 +4792,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "먹는 것을 점심에 먹엄수다.",
+            "jeju": "먹을커를 낮밥에 먹엄수다.",
             "standard": "먹는 것을 점심에 먹어요."
           }
         ]
@@ -4805,7 +4805,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "들깨 기름을 점심에 나눠 먹엄수다.",
+            "jeju": "유지름을 낮밥에 나눠 먹엄수다.",
             "standard": "들깨 기름을 점심에 나눠 먹어요."
           }
         ]
@@ -4818,7 +4818,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "마지막 호박을 점심에 간을 맞춰요.",
+            "jeju": "막물호박을 낮밥에 간을 맞췀수다.",
             "standard": "마지막 호박을 점심에 간을 맞춰요."
           }
         ]
@@ -4831,7 +4831,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "고구마 찌기를 점심에 한 입 베어 물엄수다.",
+            "jeju": "감제주시를 낮밥에 한 입 베어 묻치엄수다.",
             "standard": "고구마 찌기를 점심에 한 입 베어 물어요."
           }
         ]
@@ -4844,7 +4844,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "먹이의 흔적을 점심에 식혀요.",
+            "jeju": "것계를 낮밥에 식험수다.",
             "standard": "먹이의 흔적을 점심에 식혀요."
           }
         ]
@@ -4857,7 +4857,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "감주 찌꺼기를 점심에 담암수다.",
+            "jeju": "감쥐주시를 낮밥에 담암수다.",
             "standard": "감주 찌꺼기를 점심에 담아요."
           }
         ]
@@ -4879,7 +4879,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "네모 난 약과를 저녁에 끓염수다.",
+            "jeju": "약괴를 저냑에 끓염수다.",
             "standard": "네모 난 약과를 저녁에 끓여요."
           }
         ]
@@ -4918,7 +4918,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뒨술을 저냑에 올려요.",
+            "jeju": "뒨술을 저냑에 올렴수다.",
             "standard": "막걸리를 저녁에 올려요."
           }
         ]
@@ -4957,7 +4957,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "먹거리를 저냑에 간을 맞춰요.",
+            "jeju": "먹거리를 저냑에 간을 맞췀수다.",
             "standard": "음식을 저녁에 간을 맞춰요."
           }
         ]
@@ -4983,7 +4983,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "탕수를 저냑에 식혀요.",
+            "jeju": "탕수를 저냑에 식험수다.",
             "standard": "탕쉬를 저녁에 식혀요."
           }
         ]
@@ -5057,7 +5057,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "지이를 찬으로 올려요.",
+            "jeju": "지이를 찬으로 올렴수다.",
             "standard": "마늘을 찬으로 올려요."
           }
         ]
@@ -5096,7 +5096,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제숙을 찬으로 간을 맞춰요.",
+            "jeju": "제숙을 찬으로 간을 맞췀수다.",
             "standard": "지숙을 찬으로 간을 맞춰요."
           }
         ]
@@ -5122,7 +5122,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "젓국을 찬으로 식혀요.",
+            "jeju": "젓국을 찬으로 식험수다.",
             "standard": "전국을 찬으로 식혀요."
           }
         ]
@@ -5196,7 +5196,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "밥솥읫물을 군것으로 올려요.",
+            "jeju": "밥솥읫물을 군것으로 올렴수다.",
             "standard": "숭눙을 간식으로 올려요."
           }
         ]
@@ -5235,7 +5235,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "둠빗물을 군것으로 간을 맞춰요.",
+            "jeju": "둠빗물을 군것으로 간을 맞췀수다.",
             "standard": "순물을 간식으로 간을 맞춰요."
           }
         ]
@@ -5261,7 +5261,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "넹멘을 군것으로 식혀요.",
+            "jeju": "넹멘을 군것으로 식험수다.",
             "standard": "냉면을 간식으로 식혀요."
           }
         ]
@@ -5322,8 +5322,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "전-내를 불에 담갑수다.",
-            "standard": "전-내를 불에 담가요."
+            "jeju": "저린내를 불에 담엄수다.",
+            "standard": "전내를 불에 담가요."
           }
         ]
       },
@@ -5335,8 +5335,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뿜-기를 불에 올려요.",
-            "standard": "뿜-기를 불에 올려요."
+            "jeju": "뿜게를 불에 올렴수다.",
+            "standard": "뿜기를 불에 올려요."
           }
         ]
       },
@@ -5374,7 +5374,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "물둠비를 불에 간을 맞춰요.",
+            "jeju": "물둠비를 불에 간을 맞췀수다.",
             "standard": "순두부를 불에 간을 맞춰요."
           }
         ]
@@ -5400,7 +5400,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "콩지이를 불에 식혀요.",
+            "jeju": "콩지이를 불에 식험수다.",
             "standard": "콩자반을 불에 식혀요."
           }
         ]
@@ -5413,8 +5413,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "젯-국을 불에 담암수다.",
-            "standard": "젯-국을 불에 담아요."
+            "jeju": "젓물을 불에 담암수다.",
+            "standard": "젯국을 불에 담아요."
           }
         ]
       }
@@ -5474,8 +5474,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "밥-적을 소금만으로 올려요.",
-            "standard": "밥-적을 소금만으로 올려요."
+            "jeju": "밥숟가락을 소곰만으로 올렴수다.",
+            "standard": "밥적을 소금만으로 올려요."
           }
         ]
       },
@@ -5513,7 +5513,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "골을 소곰만으로 간을 맞춰요.",
+            "jeju": "골을 소곰만으로 간을 맞췀수다.",
             "standard": "엿기름을 소금만으로 간을 맞춰요."
           }
         ]
@@ -5539,7 +5539,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "거스름떡을 소곰만으로 식혀요.",
+            "jeju": "거스름떡을 소곰만으로 식험수다.",
             "standard": "폐백떡을 소금만으로 식혀요."
           }
         ]
@@ -5574,7 +5574,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아적에 책을 놓이엄수다.",
+            "jeju": "아적에 척을 놓이엄수다.",
             "standard": "아침에 책을 놓아요."
           }
         ]
@@ -5639,7 +5639,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아적에 밥을 싯엄수다.",
+            "jeju": "아적에 밥을 씻엄수다.",
             "standard": "아침에 밥을 씻어요."
           }
         ]
@@ -5678,7 +5678,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 길을 들엄수다.",
+            "jeju": "아적에 질을 들람수다.",
             "standard": "아침에 길을 들어요."
           }
         ]
@@ -5739,7 +5739,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 머리를 불러요.",
+            "jeju": "아적에 머력을 불람수다.",
             "standard": "아침에 머리를 불러요."
           }
         ]
@@ -5765,7 +5765,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 편지를 몰라요.",
+            "jeju": "아적에 편지를 몰람수다.",
             "standard": "아침에 편지를 몰라요."
           }
         ]
@@ -5852,7 +5852,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 약속을 깨요.",
+            "jeju": "아적에 약속을 벌람수다.",
             "standard": "아침에 약속을 깨요."
           }
         ]
@@ -5878,7 +5878,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 일을 날라요.",
+            "jeju": "아적에 일을 날람수다.",
             "standard": "아침에 일을 날라요."
           }
         ]
@@ -5956,7 +5956,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 책을 어우러지엄수다.",
+            "jeju": "낮에 척을 어우러지엄수다.",
             "standard": "낮에 책을 넘어지어요."
           }
         ]
@@ -6004,7 +6004,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 옷을 머물르러요.",
+            "jeju": "낮에 옷을 머물르럼수다.",
             "standard": "낮에 옷을 머물러요."
           }
         ]
@@ -6056,7 +6056,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 방을 모암수다.",
+            "jeju": "낮에 방을 메움수다.",
             "standard": "낮에 방을 모아요."
           }
         ]
@@ -6069,7 +6069,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 길을 되쓰엄수다.",
+            "jeju": "낮에 질을 되쓰엄수다.",
             "standard": "낮에 길을 뒤집어요."
           }
         ]
@@ -6182,7 +6182,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 이불을 발라요.",
+            "jeju": "낮에 이불을 졸바람수다.",
             "standard": "낮에 이불을 발라요."
           }
         ]
@@ -6195,7 +6195,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 빨래를 베엄수다.",
+            "jeju": "낮에 빨래를 비엄수다.",
             "standard": "낮에 빨래를 베어요."
           }
         ]
@@ -6334,7 +6334,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 설거지를 주움수다.",
+            "jeju": "낮에 설거지를 봉그엄수다.",
             "standard": "낮에 설거지를 주워요."
           }
         ]
@@ -6347,7 +6347,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저냑에 책을 얼리엄수다.",
+            "jeju": "저냑에 척을 얼리엄수다.",
             "standard": "저녁에 책을 얼어요."
           }
         ]
@@ -6408,7 +6408,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 손을 쇠엄수다.",
+            "jeju": "저냑에 손을 십서.",
             "standard": "저녁에 손을 쇠어요."
           }
         ]
@@ -6460,7 +6460,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저냑에 길을 봉그엄수다.",
+            "jeju": "저냑에 질을 봉그엄수다.",
             "standard": "저녁에 길을 주워요."
           }
         ]
@@ -6473,7 +6473,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 아이를 깨요.",
+            "jeju": "저냑에 아이를 벌람수다.",
             "standard": "저녁에 아이를 깨요."
           }
         ]
@@ -6625,7 +6625,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 약속을 흘러요.",
+            "jeju": "저냑에 약속을 흘람수다.",
             "standard": "저녁에 약속을 흘러요."
           }
         ]
@@ -6686,7 +6686,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 노래를 끌러요.",
+            "jeju": "저냑에 노래를 클람수다.",
             "standard": "저녁에 노래를 끌러요."
           }
         ]
@@ -6738,7 +6738,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 책을 기뻐요.",
+            "jeju": "지금 척을 지껍엄수다.",
             "standard": "지금 책을 기뻐요."
           }
         ]
@@ -6803,7 +6803,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 밥을 용심내요.",
+            "jeju": "지금 밥을 용심냄수다.",
             "standard": "지금 밥을 성내요."
           }
         ]
@@ -6825,7 +6825,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 물을 용심나요.",
+            "jeju": "지금 물을 용심남수다.",
             "standard": "지금 물을 성나요."
           }
         ]
@@ -6838,7 +6838,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 방을 올라요.",
+            "jeju": "지금 방을 올람수다.",
             "standard": "지금 방을 올라요."
           }
         ]
@@ -6851,7 +6851,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 길을 업지엄수다.",
+            "jeju": "지금 질을 업지엄수다.",
             "standard": "지금 길을 업혀요."
           }
         ]
@@ -6864,7 +6864,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 아이를 얼러요.",
+            "jeju": "지금 아이를 어람수다.",
             "standard": "지금 아이를 얼러요."
           }
         ]
@@ -6916,7 +6916,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 머력을 썽내요.",
+            "jeju": "지금 머력을 썽냄수다.",
             "standard": "지금 머리를 성내요."
           }
         ]
@@ -6942,7 +6942,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 편지를 서러요.",
+            "jeju": "지금 편지를 설람수다.",
             "standard": "지금 편지를 서러요."
           }
         ]
@@ -6977,7 +6977,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 마음이 많암수다.",
+            "jeju": "오늘 섬이 많암수다.",
             "standard": "오늘 마음이 많아요."
           }
         ]
@@ -7042,7 +7042,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 날씨가 물러요.",
+            "jeju": "오늘 날씨가 물람수다.",
             "standard": "오늘 날씨가 물러요."
           }
         ]
@@ -7081,7 +7081,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 바람이 지껍엄수다.",
+            "jeju": "오늘 바름이 지껍엄수다.",
             "standard": "오늘 바람이 기뻐요."
           }
         ]
@@ -7116,7 +7116,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 길이 멥엄수다.",
+            "jeju": "오늘 질이 멥엄수다.",
             "standard": "오늘 길이 매워요."
           }
         ]
@@ -7129,7 +7129,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 집이 얼엄수다.",
+            "jeju": "오늘 짓이 얼엄수다.",
             "standard": "오늘 집이 추워요."
           }
         ]
@@ -7207,7 +7207,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 기분이 달라요.",
+            "jeju": "오늘 기분이 달람수다.",
             "standard": "오늘 기분이 달라요."
           }
         ]
@@ -7281,7 +7281,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 성격이 모지래요.",
+            "jeju": "지금 성격이 모지램수다.",
             "standard": "지금 성격이 모자라요."
           }
         ]
@@ -7359,7 +7359,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 바람이 보미엄수다.",
+            "jeju": "지금 바름이 보미엄수다.",
             "standard": "지금 바람이 낡아요."
           }
         ]
@@ -7394,7 +7394,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 길이 질엄수다.",
+            "jeju": "지금 질이 질엄수다.",
             "standard": "지금 길이 길어요."
           }
         ]
@@ -7407,7 +7407,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 집이 역엄수다.",
+            "jeju": "지금 짓이 역엄수다.",
             "standard": "지금 집이 욕어요."
           }
         ]
@@ -7472,7 +7472,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 빛이 발라요.",
+            "jeju": "지금 빛이 졸바람수다.",
             "standard": "지금 빛이 발라요."
           }
         ]
@@ -7520,7 +7520,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아적부터 그 사름이 벨나요.",
+            "jeju": "아적부터 그 사름이 벨남수다.",
             "standard": "아침부터 그 사람이 별나요."
           }
         ]
@@ -7624,7 +7624,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아적부터 바당이 추접스럽엄수다.",
+            "jeju": "아적부터 바당이 추접스럼수다.",
             "standard": "아침부터 바다가 추잡스러워요."
           }
         ]
@@ -7637,7 +7637,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아적부터 바람이 야드락지엄수다.",
+            "jeju": "아적부터 바름이 야드락지엄수다.",
             "standard": "아침부터 바람이 자지러지어요."
           }
         ]
@@ -7672,7 +7672,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아적부터 길이 궁상스럽엄수다.",
+            "jeju": "아적부터 질이 궁상스럼수다.",
             "standard": "아침부터 길이 이상스러워요."
           }
         ]
@@ -7685,7 +7685,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그 사람은 꼴이 흉하다.",
+            "jeju": "그 사름은 험상스럼수다.",
             "standard": "그 사람은 꼴이 흉하다."
           }
         ]
@@ -7698,7 +7698,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그런 일은 담력이 없다.",
+            "jeju": "그런 일은 미죽엄수다.",
             "standard": "그런 일은 담력이 없다."
           }
         ]
@@ -7711,7 +7711,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그 모양은 너그럽지 못하다.",
+            "jeju": "그 모양은 조라지엄수다.",
             "standard": "그 모양은 너그럽지 못하다."
           }
         ]
@@ -7724,7 +7724,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "마음이 지나치게 아니꼽다.",
+            "jeju": "섬이 아니꼽상스럼수다.",
             "standard": "마음이 지나치게 아니꼽다."
           }
         ]
@@ -7737,7 +7737,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그 말은 그만한 가치가 있다.",
+            "jeju": "그 말은 싸암수다.",
             "standard": "그 말은 그만한 가치가 있다."
           }
         ]
@@ -7750,8 +7750,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "의-새끼는 마을에서 그렇게 불려요.",
-            "standard": "의-새끼는 마을에서 그렇게 불려요."
+            "jeju": "에새끼는 마을에서 경 불렴수다.",
+            "standard": "의새끼는 마을에서 그렇게 불려요."
           }
         ]
       },
@@ -7763,8 +7763,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "씨-방상은 마을에서 자주 보염수다.",
-            "standard": "씨-방상은 마을에서 자주 보여요."
+            "jeju": "씨방답은 마을에서 자주 베우엄수다.",
+            "standard": "씨방상은 마을에서 자주 보여요."
           }
         ]
       },
@@ -7811,8 +7811,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "셋-아방은 마을에서 먼저 인사햄수다.",
-            "standard": "셋-아방은 마을에서 먼저 인사해요."
+            "jeju": "셋삼촌은 마을에서 먼젓 인세햄수다.",
+            "standard": "셋아방은 마을에서 먼저 인사해요."
           }
         ]
       },
@@ -7837,7 +7837,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "세째 놈은 마을에서 웃음을 줘요.",
+            "jeju": "말젯놈은 마을에서 웃음을 줨수다.",
             "standard": "세째 놈은 마을에서 웃음을 줘요."
           }
         ]
@@ -7850,8 +7850,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "처-할망은 마을에서 일이 많암수다.",
-            "standard": "처-할망은 마을에서 일이 많아요."
+            "jeju": "가시할망은 마을에서 일이 많암수다.",
+            "standard": "처할망은 마을에서 일이 많아요."
           }
         ]
       },
@@ -7863,7 +7863,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "셋째 삼촌은 마을에서 말이 적엄수다.",
+            "jeju": "말젯삼춘은 마을에서 말이 적엄수다.",
             "standard": "셋째 삼촌은 마을에서 말이 적어요."
           }
         ]
@@ -7876,8 +7876,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "고집-쟁이는 마을에서 조심해야 햄수다.",
-            "standard": "고집-쟁이는 마을에서 조심해야 해요."
+            "jeju": "판고집다리는 마을에서 조심해야 햄수다.",
+            "standard": "고집쟁이는 마을에서 조심해야 해요."
           }
         ]
       },
@@ -7889,8 +7889,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "족은-아방은 이웃들 사이에 그렇게 불려요.",
-            "standard": "족은-아방은 이웃들 사이에 그렇게 불려요."
+            "jeju": "족은삼촌은 이웃들 사이에 경 불렴수다.",
+            "standard": "족은아방은 이웃들 사이에 그렇게 불려요."
           }
         ]
       },
@@ -7902,8 +7902,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수양-어멍은 이웃들 사이에 자주 보염수다.",
-            "standard": "수양-어멍은 이웃들 사이에 자주 보여요."
+            "jeju": "세양어멍은 이웃들 사이에 자주 베우엄수다.",
+            "standard": "수양어멍은 이웃들 사이에 자주 보여요."
           }
         ]
       },
@@ -7915,8 +7915,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "세깃-서방은 이웃들 사이에 잘 도옵수다.",
-            "standard": "세깃-서방은 이웃들 사이에 잘 도와요."
+            "jeju": "세곗서방은 이웃들 사이에 잘 도왜엄수다.",
+            "standard": "세깃서방은 이웃들 사이에 잘 도와요."
           }
         ]
       }
@@ -7937,7 +7937,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "세째 상제는 이웃들 사이에 이야기를 잘햄수다.",
+            "jeju": "말젯상제는 이웃들 사이에 이야기를 잘햄수다.",
             "standard": "세째 상제는 이웃들 사이에 이야기를 잘해요."
           }
         ]
@@ -7950,7 +7950,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "세째 사위는 이웃들 사이에 먼저 인사햄수다.",
+            "jeju": "말젯사위는 이웃들 사이에 먼젓 인세햄수다.",
             "standard": "세째 사위는 이웃들 사이에 먼저 인사해요."
           }
         ]
@@ -7963,8 +7963,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뜬-부룽이는 이웃들 사이에 약속을 지켬수다.",
-            "standard": "뜬-부룽이는 이웃들 사이에 약속을 지켜요."
+            "jeju": "느렁테는 이웃들 사이에 약속을 지켬수다.",
+            "standard": "뜬부룽이는 이웃들 사이에 약속을 지켜요."
           }
         ]
       },
@@ -7976,8 +7976,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈-펄룽이는 이웃들 사이에 웃음을 줘요.",
-            "standard": "눈-펄룽이는 이웃들 사이에 웃음을 줘요."
+            "jeju": "눈펄렝이는 이웃들 사이에 웃음을 줨수다.",
+            "standard": "눈펄룽이는 이웃들 사이에 웃음을 줘요."
           }
         ]
       },
@@ -7989,7 +7989,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "네 딸중 세째는 이웃들 사이에 일이 많암수다.",
+            "jeju": "큰말젯년은 이웃들 사이에 일이 많암수다.",
             "standard": "네 딸중 세째는 이웃들 사이에 일이 많아요."
           }
         ]
@@ -8002,7 +8002,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "다섯형제중 네째는 이웃들 사이에 말이 적엄수다.",
+            "jeju": "족은말젯놈은 이웃들 사이에 말이 적엄수다.",
             "standard": "다섯형제중 네째는 이웃들 사이에 말이 적어요."
           }
         ]
@@ -8015,7 +8015,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "애기 보는 아이는 이웃들 사이에 조심해야 햄수다.",
+            "jeju": "애기업게는 이웃들 사이에 조심해야 햄수다.",
             "standard": "애기 보는 아이는 이웃들 사이에 조심해야 해요."
           }
         ]
@@ -8028,7 +8028,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "네놈중 세째 놈은 집에서 그렇게 불려요.",
+            "jeju": "큰말젯놈은 짓에서 경 불렴수다.",
             "standard": "네놈중 세째 놈은 집에서 그렇게 불려요."
           }
         ]
@@ -8041,7 +8041,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "마지막 낳은 것은 집에서 자주 보염수다.",
+            "jeju": "망싱은 짓에서 자주 베우엄수다.",
             "standard": "마지막 낳은 것은 집에서 자주 보여요."
           }
         ]
@@ -8054,7 +8054,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "아주 이악한 사람은 집에서 잘 도옵수다.",
+            "jeju": "욕은아기는 짓에서 잘 도왜엄수다.",
             "standard": "아주 이악한 사람은 집에서 잘 도와요."
           }
         ]
@@ -8076,7 +8076,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "다섯 중 셋째 상제는 집에서 이야기를 잘햄수다.",
+            "jeju": "큰말젯상제는 짓에서 이야기를 잘햄수다.",
             "standard": "다섯 중 셋째 상제는 집에서 이야기를 잘해요."
           }
         ]
@@ -8089,7 +8089,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "다섯 중 셋째 사위는 집에서 먼저 인사햄수다.",
+            "jeju": "큰말젯사위는 짓에서 먼젓 인세햄수다.",
             "standard": "다섯 중 셋째 사위는 집에서 먼저 인사해요."
           }
         ]
@@ -8102,7 +8102,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "다섯 중 넷째 상제는 집에서 약속을 지켬수다.",
+            "jeju": "족은말젯상제는 짓에서 약속을 지켬수다.",
             "standard": "다섯 중 넷째 상제는 집에서 약속을 지켜요."
           }
         ]
@@ -8115,7 +8115,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "다섯 중 넷째 사위는 집에서 웃음을 줘요.",
+            "jeju": "족은말젯사위는 짓에서 웃음을 줨수다.",
             "standard": "다섯 중 넷째 사위는 집에서 웃음을 줘요."
           }
         ]
@@ -8128,7 +8128,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "어린애를 업어주는 사람은 집에서 일이 많암수다.",
+            "jeju": "업게는 짓에서 일이 많암수다.",
             "standard": "어린애를 업어주는 사람은 집에서 일이 많아요."
           }
         ]
@@ -8141,7 +8141,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "풍치고 돌아다니는 사람은 집에서 말이 적엄수다.",
+            "jeju": "건달놈은 짓에서 말이 적엄수다.",
             "standard": "풍치고 돌아다니는 사람은 집에서 말이 적어요."
           }
         ]
@@ -8154,7 +8154,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "거리는 집에서 조심해야 햄수다.",
+            "jeju": "거리는 짓에서 조심해야 햄수다.",
             "standard": "걸은 집에서 조심해야 해요."
           }
         ]
@@ -8167,7 +8167,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "사름친명은 일터에서 경 불려요.",
+            "jeju": "사름친명은 일터에서 경 불렴수다.",
             "standard": "사람은 일터에서 그렇게 불려요."
           }
         ]
@@ -8228,7 +8228,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제미는 일터에서 먼저 인세햄수다.",
+            "jeju": "제미는 일터에서 먼젓 인세햄수다.",
             "standard": "지미는 일터에서 먼저 인사해요."
           }
         ]
@@ -8254,7 +8254,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장돌뱅이는 일터에서 웃음을 줘요.",
+            "jeju": "장돌뱅이는 일터에서 웃음을 줨수다.",
             "standard": "머슴은 일터에서 웃음을 줘요."
           }
         ]
@@ -8267,7 +8267,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "으원은 일터에서 일이 햄수다.",
+            "jeju": "으원은 일터에서 일이 많암수다.",
             "standard": "이원은 일터에서 일이 많아요."
           }
         ]
@@ -8306,7 +8306,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "괴움은 사름들 앞에서 경 불려요.",
+            "jeju": "괴움은 사름들 앞에서 경 불렴수다.",
             "standard": "고임은 사람들 앞에서 그렇게 불려요."
           }
         ]
@@ -8458,7 +8458,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "빈네를 마루에 말려요.",
+            "jeju": "빈네를 마루에 말렴수다.",
             "standard": "비녀를 마루에 말려요."
           }
         ]
@@ -8471,7 +8471,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "이불자리를 마루에 옮겨요.",
+            "jeju": "이불자리를 마루에 옮겸수다.",
             "standard": "이불요를 마루에 옮겨요."
           }
         ]
@@ -8597,7 +8597,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "게화를 방에 말려요.",
+            "jeju": "게화를 방에 말렴수다.",
             "standard": "호주머니를 방에 말려요."
           }
         ]
@@ -8610,7 +8610,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "고운 옷을 방에 옮겨요.",
+            "jeju": "곤옷을 방에 옮겸수다.",
             "standard": "고운 옷을 방에 옮겨요."
           }
         ]
@@ -8749,7 +8749,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "이사를 정지에 말려요.",
+            "jeju": "이사를 정지에 말렴수다.",
             "standard": "의사를 부엌에 말려요."
           }
         ]
@@ -8771,7 +8771,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "집 가는 길을 부엌에 옮겨요.",
+            "jeju": "올래를 정지에 옮겸수다.",
             "standard": "집 가는 길을 부엌에 옮겨요."
           }
         ]
@@ -8810,7 +8810,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "덤불 숲을 창고에 쌓아 두언.",
+            "jeju": "자왈을 창고에 쌓아 두언.",
             "standard": "덤불 숲을 창고에 쌓아 두었어요."
           }
         ]
@@ -8910,7 +8910,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "소개를 창고에 말려요.",
+            "jeju": "소개를 창고에 말렴수다.",
             "standard": "솜을 창고에 말려요."
           }
         ]
@@ -8923,7 +8923,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "추년서리를 창고에 옮겨요.",
+            "jeju": "추년서리를 창고에 옮겸수다.",
             "standard": "충혀를 창고에 옮겨요."
           }
         ]
@@ -9049,7 +9049,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "털렝이를 마당에 말려요.",
+            "jeju": "털렝이를 마당에 말렴수다.",
             "standard": "절치를 마당에 말려요."
           }
         ]
@@ -9062,7 +9062,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "소갯장을 마당에 옮겨요.",
+            "jeju": "소갯장을 마당에 옮겸수다.",
             "standard": "솜반을 마당에 옮겨요."
           }
         ]
@@ -9188,7 +9188,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "설렝이를 벽에 말려요.",
+            "jeju": "설렝이를 벽에 말렴수다.",
             "standard": "메투리를 벽에 말려요."
           }
         ]
@@ -9201,7 +9201,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "이불요를 벽에 옮겨요.",
+            "jeju": "이불요를 벽에 옮겸수다.",
             "standard": "이불자리를 벽에 옮겨요."
           }
         ]
@@ -9214,8 +9214,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "지에-집을 창가에 두언.",
-            "standard": "지에-집을 창가에 두었어요."
+            "jeju": "지새집을 창가에 두언.",
+            "standard": "지에집을 창가에 두었어요."
           }
         ]
       },
@@ -9240,8 +9240,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "집-서리를 창가에 쌓아 두언.",
-            "standard": "집-서리를 창가에 쌓아 두었어요."
+            "jeju": "서리를 창가에 쌓아 두언.",
+            "standard": "집서리를 창가에 쌓아 두었어요."
           }
         ]
       },
@@ -9266,8 +9266,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손-뚜메를 창가에 닦암수다.",
-            "standard": "손-뚜메를 창가에 닦아요."
+            "jeju": "손또매를 창가에 닦암수다.",
+            "standard": "손뚜메를 창가에 닦아요."
           }
         ]
       },
@@ -9279,7 +9279,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "신의 감개를 창가에 열어 두언.",
+            "jeju": "갱기를 창가에 열어 두언.",
             "standard": "신의 감개를 창가에 열어 두었어요."
           }
         ]
@@ -9292,7 +9292,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "이불 보자기를 창가에 정리햄수다.",
+            "jeju": "이불포를 창가에 정리햄수다.",
             "standard": "이불 보자기를 창가에 정리해요."
           }
         ]
@@ -9305,7 +9305,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "보랏빛 물감을 창가에 새로 샀엄수다.",
+            "jeju": "갈매물을 창가에 새로 샀엄수다.",
             "standard": "보랏빛 물감을 창가에 새로 샀어요."
           }
         ]
@@ -9327,7 +9327,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "커다란 건물을 창가에 말려요.",
+            "jeju": "와그래를 창가에 말렴수다.",
             "standard": "커다란 건물을 창가에 말려요."
           }
         ]
@@ -9340,7 +9340,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "지붕의 경사를 창가에 옮겨요.",
+            "jeju": "밀문을 창가에 옮겸수다.",
             "standard": "지붕의 경사를 창가에 옮겨요."
           }
         ]
@@ -9353,7 +9353,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "비올때 둘러쓰는 것을 문 앞에 두언.",
+            "jeju": "우장을 문 앞에 두언.",
             "standard": "비올때 둘러쓰는 것을 문 앞에 두었어요."
           }
         ]
@@ -9466,7 +9466,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "징을 문 앞에 말려요.",
+            "jeju": "징을 문 앞에 말렴수다.",
             "standard": "정을 문 앞에 말려요."
           }
         ]
@@ -9479,7 +9479,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "드레를 문 앞에 옮겨요.",
+            "jeju": "드레를 문 앞에 옮겸수다.",
             "standard": "두레박을 문 앞에 옮겨요."
           }
         ]
@@ -9605,7 +9605,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "돔배를 선반에 말려요.",
+            "jeju": "돔배를 선반에 말렴수다.",
             "standard": "도마를 선반에 말려요."
           }
         ]
@@ -9618,7 +9618,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수리를 선반에 옮겨요.",
+            "jeju": "수리를 선반에 옮겸수다.",
             "standard": "술리를 선반에 옮겨요."
           }
         ]
@@ -9744,7 +9744,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 아적을 아적에 만나요.",
+            "jeju": "나는 아적을 아적에 만남수다.",
             "standard": "나는 아침을 아침에 만나요."
           }
         ]
@@ -9757,7 +9757,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 저냑을 아적에 바빠요.",
+            "jeju": "나는 저냑을 아적에 바빰수다.",
             "standard": "나는 저녁을 아침에 바빠요."
           }
         ]
@@ -9909,7 +9909,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 바닷가에 있는 당을 아침에 다녀옵수다.",
+            "jeju": "나는 개당을 아적에 다녀옵수다.",
             "standard": "나는 바닷가에 있는 당을 아침에 다녀와요."
           }
         ]
@@ -9922,7 +9922,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 제주식 나무 대문을 아침에 챙기겠엄수다.",
+            "jeju": "나는 정낭을 아적에 챙기겠엄수다.",
             "standard": "나는 제주식 나무 대문을 아침에 챙기겠어요."
           }
         ]
@@ -9935,7 +9935,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 여신을 모신 당을 낮에 만나요.",
+            "jeju": "나는 할망당을 낮에 만남수다.",
             "standard": "나는 여신을 모신 당을 낮에 만나요."
           }
         ]
@@ -9948,7 +9948,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 새서방을 낮에 바빠요.",
+            "jeju": "나는 새서방을 낮에 바빰수다.",
             "standard": "나는 신랑을 낮에 바빠요."
           }
         ]
@@ -10074,7 +10074,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 듸를 저냑에 만나요.",
+            "jeju": "나는 듸를 저냑에 만남수다.",
             "standard": "나는 데를 저녁에 만나요."
           }
         ]
@@ -10087,7 +10087,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 긋을 저냑에 바빠요.",
+            "jeju": "나는 긋을 저냑에 바빰수다.",
             "standard": "나는 끗을 저녁에 바빠요."
           }
         ]
@@ -10213,7 +10213,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 소도를 밤에 만나요.",
+            "jeju": "나는 소도를 밤에 만남수다.",
             "standard": "나는 효도를 밤에 만나요."
           }
         ]
@@ -10226,7 +10226,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 소관을 밤에 바빠요.",
+            "jeju": "나는 소관을 밤에 바빰수다.",
             "standard": "나는 소견을 밤에 바빠요."
           }
         ]
@@ -10352,7 +10352,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 피상을 닐 만나요.",
+            "jeju": "나는 피상을 닐 만남수다.",
             "standard": "나는 비상을 내일 만나요."
           }
         ]
@@ -10365,7 +10365,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 펜리를 닐 바빠요.",
+            "jeju": "나는 펜리를 닐 바빰수다.",
             "standard": "나는 편리를 내일 바빠요."
           }
         ]
@@ -10491,7 +10491,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 정찰을 내중에 만나요.",
+            "jeju": "나는 정찰을 내중에 만남수다.",
             "standard": "나는 경찰을 나중에 만나요."
           }
         ]
@@ -10504,7 +10504,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 전체를 내중에 바빠요.",
+            "jeju": "나는 전체를 내중에 바빰수다.",
             "standard": "나는 까닭을 나중에 바빠요."
           }
         ]
@@ -10630,7 +10630,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 이향을 주말에 만나요.",
+            "jeju": "나는 이향을 주말에 만남수다.",
             "standard": "나는 의향을 주말에 만나요."
           }
         ]
@@ -10643,7 +10643,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 이심을 주말에 바빠요.",
+            "jeju": "나는 이심을 주말에 바빰수다.",
             "standard": "나는 의심을 주말에 바빠요."
           }
         ]
@@ -10769,7 +10769,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 알착을 명절에 만나요.",
+            "jeju": "나는 알착을 명절에 만남수다.",
             "standard": "나는 알짝을 명절에 만나요."
           }
         ]
@@ -10782,7 +10782,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 신립을 명절에 바빠요.",
+            "jeju": "나는 신립을 명절에 바빰수다.",
             "standard": "나는 신입을 명절에 바빠요."
           }
         ]
@@ -10908,7 +10908,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 불펜을 예전에 만나요.",
+            "jeju": "나는 불펜을 예전에 만남수다.",
             "standard": "나는 불편을 예전에 만나요."
           }
         ]
@@ -10921,7 +10921,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 분시를 예전에 바빠요.",
+            "jeju": "나는 분시를 예전에 바빰수다.",
             "standard": "나는 분수를 예전에 바빠요."
           }
         ]
@@ -11047,7 +11047,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 매기를 요즘은 만나요.",
+            "jeju": "나는 매기를 요즘은 만남수다.",
             "standard": "나는 매미를 요즘은 만나요."
           }
         ]
@@ -11060,7 +11060,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나는 뜨집을 요즘은 바빠요.",
+            "jeju": "나는 뜨집을 요즘은 바빰수다.",
             "standard": "나는 의향을 요즘은 바빠요."
           }
         ]
@@ -11173,7 +11173,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "청벌이 마당에서 소리를 내요.",
+            "jeju": "청벌이 마당에서 소리를 냄수다.",
             "standard": "꿀벌이 마당에서 소리를 내요."
           }
         ]
@@ -11199,7 +11199,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "베록이 마당에서 달려요.",
+            "jeju": "베록이 마당에서 달렴수다.",
             "standard": "벼룩이 마당에서 달려요."
           }
         ]
@@ -11238,7 +11238,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "납이 마당에서 휨쳐요.",
+            "jeju": "납이 마당에서 휨쳠수다.",
             "standard": "나비가 마당에서 헤엄쳐요."
           }
         ]
@@ -11312,7 +11312,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수코냉이가 들에서 소리를 내요.",
+            "jeju": "수코냉이가 들에서 소리를 냄수다.",
             "standard": "수고양이가 들에서 소리를 내요."
           }
         ]
@@ -11338,7 +11338,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수톳이 들에서 달려요.",
+            "jeju": "수톳이 들에서 달렴수다.",
             "standard": "수퇘지가 들에서 달려요."
           }
         ]
@@ -11377,7 +11377,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "땅강생이가 들에서 휨쳐요.",
+            "jeju": "땅강생이가 들에서 휨쳠수다.",
             "standard": "발바리가 들에서 헤엄쳐요."
           }
         ]
@@ -11412,7 +11412,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "물쇠가 바닷가에서 놀암수다.",
+            "jeju": "물쇠가 바당가에서 놀암수다.",
             "standard": "물소가 바닷가에서 놀아요."
           }
         ]
@@ -11425,7 +11425,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "검은 돼지가 바닷가에서 먹이를 먹엄수다.",
+            "jeju": "검은돗이 바당가에서 것을 먹엄수다.",
             "standard": "검은 돼지가 바닷가에서 먹이를 먹어요."
           }
         ]
@@ -11438,7 +11438,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "어럭돗이 바닷가에서 지나갑수다.",
+            "jeju": "어럭돗이 바당가에서 지나갑수다.",
             "standard": "얼룩돼지가 바닷가에서 지나가요."
           }
         ]
@@ -11451,7 +11451,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "검은 소가 바닷가에서 소리를 내요.",
+            "jeju": "검은쇠가 바당가에서 소리를 냄수다.",
             "standard": "검은 소가 바닷가에서 소리를 내요."
           }
         ]
@@ -11464,7 +11464,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "술래미가 바닷가에서 숨어 싯엄수다.",
+            "jeju": "술래미가 바당가에서 숨어 싯엄수다.",
             "standard": "가자미가 바닷가에서 숨어 있어요."
           }
         ]
@@ -11477,7 +11477,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "검은 도미가 바닷가에서 달려요.",
+            "jeju": "흑돔이 바당가에서 달렴수다.",
             "standard": "검은 도미가 바닷가에서 달려요."
           }
         ]
@@ -11490,7 +11490,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "메홍이가 바닷가에서 날아갑수다.",
+            "jeju": "메홍이가 바당가에서 날아갑수다.",
             "standard": "주리고둥이 바닷가에서 날아가요."
           }
         ]
@@ -11503,7 +11503,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "서미역이 바닷가에서 자고 싯엄수다.",
+            "jeju": "서미역이 바당가에서 자고 싯엄수다.",
             "standard": "진디가 바닷가에서 자고 있어요."
           }
         ]
@@ -11516,7 +11516,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수펄이 바닷가에서 휨쳐요.",
+            "jeju": "수펄이 바당가에서 휨쳠수다.",
             "standard": "숫벌이 바닷가에서 헤엄쳐요."
           }
         ]
@@ -11529,7 +11529,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "섞인 돼지가 바닷가에서 따라옵수다.",
+            "jeju": "슥돗이 바당가에서 따라옵수다.",
             "standard": "섞인 돼지가 바닷가에서 따라와요."
           }
         ]
@@ -11590,7 +11590,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "여시가 산에서 소리를 내요.",
+            "jeju": "여시가 산에서 소리를 냄수다.",
             "standard": "여히가 산에서 소리를 내요."
           }
         ]
@@ -11616,7 +11616,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "주넹이가 산에서 달려요.",
+            "jeju": "주넹이가 산에서 달렴수다.",
             "standard": "지넹이가 산에서 달려요."
           }
         ]
@@ -11629,8 +11629,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "솔-충이 산에서 날아갑수다.",
-            "standard": "솔-충이 산에서 날아가요."
+            "jeju": "소낭버렝이가 산에서 날아갑수다.",
+            "standard": "솔충이 산에서 날아가요."
           }
         ]
       },
@@ -11655,8 +11655,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "염-쇠가 산에서 헤엄쳐요.",
-            "standard": "염-쇠가 산에서 헤엄쳐요."
+            "jeju": "염송애기가 산에서 휨쳠수다.",
+            "standard": "염쇠가 산에서 헤엄쳐요."
           }
         ]
       },
@@ -11729,7 +11729,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "밭갈쇠가 우리에서 소리를 내요.",
+            "jeju": "밭갈쇠가 우리에서 소리를 냄수다.",
             "standard": "밭갈이가 우리에서 소리를 내요."
           }
         ]
@@ -11755,7 +11755,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쾨끼리가 우리에서 달려요.",
+            "jeju": "쾨끼리가 우리에서 달렴수다.",
             "standard": "쾨키리가 우리에서 달려요."
           }
         ]
@@ -11794,7 +11794,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "총아락쇠가 우리에서 휨쳐요.",
+            "jeju": "총아락쇠가 우리에서 휨쳠수다.",
             "standard": "총알락소가 우리에서 헤엄쳐요."
           }
         ]
@@ -11807,7 +11807,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "짜른 뿔이 우리에서 따라옵수다.",
+            "jeju": "묘족뿔이 우리에서 따라옵수다.",
             "standard": "짜른 뿔이 우리에서 따라와요."
           }
         ]
@@ -11829,8 +11829,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "산-고냉이가 물가에서 놀암수다.",
-            "standard": "산-고냉이가 물가에서 놀아요."
+            "jeju": "드릇고냉이가 물가에서 놀암수다.",
+            "standard": "산고냉이가 물가에서 놀아요."
           }
         ]
       },
@@ -11842,8 +11842,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "대엽-조갱이가 물가에서 것을 먹엄수다.",
-            "standard": "대엽-조갱이가 물가에서 먹이를 먹어요."
+            "jeju": "대엽이 물가에서 것을 먹엄수다.",
+            "standard": "대엽조갱이가 물가에서 먹이를 먹어요."
           }
         ]
       },
@@ -11855,8 +11855,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "어금-조개기가 물가에서 지나갑수다.",
-            "standard": "어금-조개기가 물가에서 지나가요."
+            "jeju": "어금이 물가에서 지나갑수다.",
+            "standard": "어금조개기가 물가에서 지나가요."
           }
         ]
       },
@@ -11868,7 +11868,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "방장물꾸럭이 물가에서 소리를 내요.",
+            "jeju": "방장물꾸럭이 물가에서 소리를 냄수다.",
             "standard": "거미불가사리가 물가에서 소리를 내요."
           }
         ]
@@ -11894,7 +11894,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쉬가 물가에서 달려요.",
+            "jeju": "쉬가 물가에서 달렴수다.",
             "standard": "쒸가 물가에서 달려요."
           }
         ]
@@ -11933,7 +11933,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "발통이 물가에서 휨쳐요.",
+            "jeju": "발통이 물가에서 휨쳠수다.",
             "standard": "굽이 물가에서 헤엄쳐요."
           }
         ]
@@ -11968,7 +11968,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "진독이 남 알에서 놀암수다.",
+            "jeju": "진독이 낭 알에서 놀암수다.",
             "standard": "진둑이 나무 아래에서 놀아요."
           }
         ]
@@ -11981,7 +11981,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "주얼이 남 알에서 것을 먹엄수다.",
+            "jeju": "주얼이 낭 알에서 것을 먹엄수다.",
             "standard": "등애가 나무 아래에서 먹이를 먹어요."
           }
         ]
@@ -11994,7 +11994,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "자최가 남 알에서 지나갑수다.",
+            "jeju": "자최가 낭 알에서 지나갑수다.",
             "standard": "자치가 나무 아래에서 지나가요."
           }
         ]
@@ -12007,7 +12007,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "송벡충이 남 알에서 소리를 내요.",
+            "jeju": "송벡충이 낭 알에서 소리를 냄수다.",
             "standard": "촌충이 나무 아래에서 소리를 내요."
           }
         ]
@@ -12020,7 +12020,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "흘이 남 알에서 숨어 싯엄수다.",
+            "jeju": "흘이 낭 알에서 숨어 싯엄수다.",
             "standard": "허물이 나무 아래에서 숨어 있어요."
           }
         ]
@@ -12033,7 +12033,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쉿버렝이가 남 알에서 달려요.",
+            "jeju": "쉿버렝이가 낭 알에서 달렴수다.",
             "standard": "가시가 나무 아래에서 달려요."
           }
         ]
@@ -12046,7 +12046,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멜뤼가 남 알에서 날아갑수다.",
+            "jeju": "멜뤼가 낭 알에서 날아갑수다.",
             "standard": "진쉬가 나무 아래에서 날아가요."
           }
         ]
@@ -12059,7 +12059,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "굼벵이가 남 알에서 자고 싯엄수다.",
+            "jeju": "굼벵이가 낭 알에서 자고 싯엄수다.",
             "standard": "지충이 나무 아래에서 자고 있어요."
           }
         ]
@@ -12072,7 +12072,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "홍에가 남 알에서 휨쳐요.",
+            "jeju": "홍에가 낭 알에서 휨쳠수다.",
             "standard": "홍어가 나무 아래에서 헤엄쳐요."
           }
         ]
@@ -12085,7 +12085,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조우럭이 남 알에서 따라옵수다.",
+            "jeju": "조우럭이 낭 알에서 따라옵수다.",
             "standard": "졸락이 나무 아래에서 따라와요."
           }
         ]
@@ -12107,7 +12107,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "웽이가 길에서 놀암수다.",
+            "jeju": "웽이가 질에서 놀암수다.",
             "standard": "흑돔이 길에서 놀아요."
           }
         ]
@@ -12120,7 +12120,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "붕에가 길에서 것을 먹엄수다.",
+            "jeju": "붕에가 질에서 것을 먹엄수다.",
             "standard": "장이가 길에서 먹이를 먹어요."
           }
         ]
@@ -12133,7 +12133,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나부복쟁이가 길에서 지나갑수다.",
+            "jeju": "나부복쟁이가 질에서 지나갑수다.",
             "standard": "나비가 길에서 지나가요."
           }
         ]
@@ -12146,7 +12146,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "보건치가 길에서 소리를 내요.",
+            "jeju": "보건치가 질에서 소리를 냄수다.",
             "standard": "조기가 길에서 소리를 내요."
           }
         ]
@@ -12159,7 +12159,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멩태가 길에서 숨어 싯엄수다.",
+            "jeju": "멩태가 질에서 숨어 싯엄수다.",
             "standard": "명태가 길에서 숨어 있어요."
           }
         ]
@@ -12172,7 +12172,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "닥살이 길에서 달려요.",
+            "jeju": "닥살이 질에서 달렴수다.",
             "standard": "딱살이 길에서 달려요."
           }
         ]
@@ -12185,7 +12185,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "거펑이 길에서 날아갑수다.",
+            "jeju": "거펑이 질에서 날아갑수다.",
             "standard": "검넝이 길에서 날아가요."
           }
         ]
@@ -12198,7 +12198,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "갈치가 길에서 자고 싯엄수다.",
+            "jeju": "갈치가 질에서 자고 싯엄수다.",
             "standard": "칼치가 길에서 자고 있어요."
           }
         ]
@@ -12211,7 +12211,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가다리가 길에서 휨쳐요.",
+            "jeju": "가다리가 질에서 휨쳠수다.",
             "standard": "저립이 길에서 헤엄쳐요."
           }
         ]
@@ -12224,7 +12224,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "황쇠가 길에서 따라옵수다.",
+            "jeju": "황쇠가 질에서 따라옵수다.",
             "standard": "황소가 길에서 따라와요."
           }
         ]
@@ -12246,7 +12246,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "귀막쉬가 돌 틈에서 놀암수다.",
+            "jeju": "귀막쉬가 돗 틈에서 놀암수다.",
             "standard": "벙추가 돌 틈에서 놀아요."
           }
         ]
@@ -12259,7 +12259,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "코토대기가 돌 틈에서 것을 먹엄수다.",
+            "jeju": "코토대기가 돗 틈에서 것을 먹엄수다.",
             "standard": "담치가 돌 틈에서 먹이를 먹어요."
           }
         ]
@@ -12272,7 +12272,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "은에가 돌 틈에서 지나갑수다.",
+            "jeju": "은에가 돗 틈에서 지나갑수다.",
             "standard": "은어가 돌 틈에서 지나가요."
           }
         ]
@@ -12285,7 +12285,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상의가 돌 틈에서 소리를 내요.",
+            "jeju": "상의가 돗 틈에서 소리를 냄수다.",
             "standard": "상어가 돌 틈에서 소리를 내요."
           }
         ]
@@ -12298,7 +12298,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "비늘이 돌 틈에서 숨어 싯엄수다.",
+            "jeju": "비늘이 돗 틈에서 숨어 싯엄수다.",
             "standard": "비눌이 돌 틈에서 숨어 있어요."
           }
         ]
@@ -12311,7 +12311,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멜이 돌 틈에서 달려요.",
+            "jeju": "멜이 돗 틈에서 달렴수다.",
             "standard": "멸치가 돌 틈에서 달려요."
           }
         ]
@@ -12324,7 +12324,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "돔이 돌 틈에서 날아갑수다.",
+            "jeju": "돔이 돗 틈에서 날아갑수다.",
             "standard": "도미가 돌 틈에서 날아가요."
           }
         ]
@@ -12337,7 +12337,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "구루찌가 돌 틈에서 자고 싯엄수다.",
+            "jeju": "구루찌가 돗 틈에서 자고 싯엄수다.",
             "standard": "구룻이 돌 틈에서 자고 있어요."
           }
         ]
@@ -12350,7 +12350,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제마가 돌 틈에서 휨쳐요.",
+            "jeju": "제마가 돗 틈에서 휨쳠수다.",
             "standard": "준마가 돌 틈에서 헤엄쳐요."
           }
         ]
@@ -12363,7 +12363,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "우매가 돌 틈에서 따라옵수다.",
+            "jeju": "우매가 돗 틈에서 따라옵수다.",
             "standard": "웅매가 돌 틈에서 따라와요."
           }
         ]
@@ -12385,7 +12385,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쇠니치름이 풀밭에서 놀암수다.",
+            "jeju": "쇠니치름이 쿨밧에서 놀암수다.",
             "standard": "쇠침이 풀밭에서 놀아요."
           }
         ]
@@ -12398,7 +12398,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "송애기새끼가 풀밭에서 것을 먹엄수다.",
+            "jeju": "송애기새끼가 쿨밧에서 것을 먹엄수다.",
             "standard": "송치가 풀밭에서 먹이를 먹어요."
           }
         ]
@@ -12411,7 +12411,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "산매가 풀밭에서 지나갑수다.",
+            "jeju": "산매가 쿨밧에서 지나갑수다.",
             "standard": "산말이 풀밭에서 지나가요."
           }
         ]
@@ -12424,7 +12424,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "네복이 풀밭에서 소리를 내요.",
+            "jeju": "네복이 쿨밧에서 소리를 냄수다.",
             "standard": "내장이 풀밭에서 소리를 내요."
           }
         ]
@@ -12437,7 +12437,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "당나귀가 풀밭에서 숨어 싯엄수다.",
+            "jeju": "당나귀가 쿨밧에서 숨어 싯엄수다.",
             "standard": "나귀가 풀밭에서 숨어 있어요."
           }
         ]
@@ -12450,7 +12450,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "노리가 풀밭에서 달려요.",
+            "jeju": "노리가 쿨밧에서 달렴수다.",
             "standard": "노루가 풀밭에서 달려요."
           }
         ]
@@ -12463,7 +12463,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "퇴께가 풀밭에서 날아갑수다.",
+            "jeju": "퇴께가 쿨밧에서 날아갑수다.",
             "standard": "퇴끼가 풀밭에서 날아가요."
           }
         ]
@@ -12476,7 +12476,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "중숭이 풀밭에서 자고 싯엄수다.",
+            "jeju": "중숭이 쿨밧에서 자고 싯엄수다.",
             "standard": "짐승이 풀밭에서 자고 있어요."
           }
         ]
@@ -12489,7 +12489,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "서미역본대기가 풀밭에서 휨쳐요.",
+            "jeju": "서미역본대기가 쿨밧에서 휨쳠수다.",
             "standard": "진딧물이 풀밭에서 헤엄쳐요."
           }
         ]
@@ -12502,7 +12502,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "붉은게염지가 풀밭에서 따라옵수다.",
+            "jeju": "붉은게염지가 쿨밧에서 따라옵수다.",
             "standard": "불개미가 풀밭에서 따라와요."
           }
         ]
@@ -12550,7 +12550,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "노대가 벡토에 내려요.",
+            "jeju": "노대가 벡토에 내렴수다.",
             "standard": "태풍이 새벽에 내려요."
           }
         ]
@@ -12602,7 +12602,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상고지가 벡토에 빛나요.",
+            "jeju": "상고지가 벡토에 빛남수다.",
             "standard": "무지개가 새벽에 빛나요."
           }
         ]
@@ -12689,7 +12689,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "빗살이 낮에 내려요.",
+            "jeju": "빗살이 낮에 내렴수다.",
             "standard": "빗방울이 낮에 내려요."
           }
         ]
@@ -12728,7 +12728,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "갑작 폭풍이 낮에 가득햄수다.",
+            "jeju": "강쳉이가 낮에 가득햄수다.",
             "standard": "갑작 폭풍이 낮에 가득해요."
           }
         ]
@@ -12741,7 +12741,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "우녁이 낮에 빛나요.",
+            "jeju": "우녁이 낮에 빛남수다.",
             "standard": "위쪽이 낮에 빛나요."
           }
         ]
@@ -12815,7 +12815,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "해녀 잠수가 저녁에 지나갑수다.",
+            "jeju": "물질이 저냑에 지나갑수다.",
             "standard": "해녀 잠수가 저녁에 지나가요."
           }
         ]
@@ -12828,7 +12828,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "구제기가 저냑에 내려요.",
+            "jeju": "구제기가 저냑에 내렴수다.",
             "standard": "소라가 저녁에 내려요."
           }
         ]
@@ -12880,7 +12880,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "오징에가 저냑에 빛나요.",
+            "jeju": "오징에가 저냑에 빛남수다.",
             "standard": "오징어가 저녁에 빛나요."
           }
         ]
@@ -12967,7 +12967,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "사당대죽이 밤에 내려요.",
+            "jeju": "사당대죽이 밤에 내렴수다.",
             "standard": "사탕수수가 밤에 내려요."
           }
         ]
@@ -13019,7 +13019,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "들굽이 밤에 빛나요.",
+            "jeju": "들굽이 밤에 빛남수다.",
             "standard": "두릅이 밤에 빛나요."
           }
         ]
@@ -13106,7 +13106,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "고베기가 여름에 내려요.",
+            "jeju": "고베기가 여름에 내렴수다.",
             "standard": "고비가 여름에 내려요."
           }
         ]
@@ -13158,7 +13158,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "감제가 여름에 빛나요.",
+            "jeju": "감제가 여름에 빛남수다.",
             "standard": "고구마가 여름에 빛나요."
           }
         ]
@@ -13245,7 +13245,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "푸십세가 겨울에 내려요.",
+            "jeju": "푸십세가 겨울에 내렴수다.",
             "standard": "풀이 겨울에 내려요."
           }
         ]
@@ -13297,7 +13297,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나록찍이 겨울에 빛나요.",
+            "jeju": "나록찍이 겨울에 빛남수다.",
             "standard": "찝이 겨울에 빛나요."
           }
         ]
@@ -13358,7 +13358,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "고소가 비 온 뒤에 베우엄수다.",
+            "jeju": "고소가 주제 온 뒤에 베우엄수다.",
             "standard": "고삼이 비 온 뒤에 보여요."
           }
         ]
@@ -13371,7 +13371,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "전기꼿이 비 온 뒤에 지나갑수다.",
+            "jeju": "전기꼿이 주제 온 뒤에 지나갑수다.",
             "standard": "진달래가 비 온 뒤에 지나가요."
           }
         ]
@@ -13384,7 +13384,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "헤바래기가 비 온 뒤에 내려요.",
+            "jeju": "헤바래기가 주제 온 뒤에 내렴수다.",
             "standard": "해바라기가 비 온 뒤에 내려요."
           }
         ]
@@ -13397,7 +13397,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "안자리쿨이 비 온 뒤에 그쳤엄수다.",
+            "jeju": "안자리쿨이 주제 온 뒤에 그쳤엄수다.",
             "standard": "갯취가 비 온 뒤에 그쳤어요."
           }
         ]
@@ -13410,7 +13410,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "돌쌔기가 비 온 뒤에 시원햄수다.",
+            "jeju": "돌쌔기가 주제 온 뒤에 시원햄수다.",
             "standard": "잔돌이 비 온 뒤에 시원해요."
           }
         ]
@@ -13423,7 +13423,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "켄밤이 비 온 뒤에 가득햄수다.",
+            "jeju": "켄밤이 주제 온 뒤에 가득햄수다.",
             "standard": "아람이 비 온 뒤에 가득해요."
           }
         ]
@@ -13436,7 +13436,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "유지가 비 온 뒤에 빛나요.",
+            "jeju": "유지가 주제 온 뒤에 빛남수다.",
             "standard": "유자가 비 온 뒤에 빛나요."
           }
         ]
@@ -13449,7 +13449,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "벵귤이 비 온 뒤에 밀려옵수다.",
+            "jeju": "벵귤이 주제 온 뒤에 밀려옵수다.",
             "standard": "병귤이 비 온 뒤에 밀려와요."
           }
         ]
@@ -13462,7 +13462,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멀뤼가 비 온 뒤에 잦아점수다.",
+            "jeju": "멀뤼가 주제 온 뒤에 잦아점수다.",
             "standard": "멀리가 비 온 뒤에 잦아져요."
           }
         ]
@@ -13475,7 +13475,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "드릇국화가 비 온 뒤에 더 짙어점수다.",
+            "jeju": "드릇국화가 주제 온 뒤에 더 짙어점수다.",
             "standard": "산국이 비 온 뒤에 더 짙어져요."
           }
         ]
@@ -13497,7 +13497,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꽝베가 바람이 불면 베우엄수다.",
+            "jeju": "꽝베가 바름이 불면 베우엄수다.",
             "standard": "똘배가 바람이 불면 보여요."
           }
         ]
@@ -13510,7 +13510,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "보리콩이 바람이 불면 지나갑수다.",
+            "jeju": "보리콩이 바름이 불면 지나갑수다.",
             "standard": "완두가 바람이 불면 지나가요."
           }
         ]
@@ -13523,7 +13523,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "곡석방울이 바람이 불면 내려요.",
+            "jeju": "곡석방울이 바름이 불면 내렴수다.",
             "standard": "낟알이 바람이 불면 내려요."
           }
         ]
@@ -13536,7 +13536,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "회양이 바람이 불면 그쳤엄수다.",
+            "jeju": "회양이 바름이 불면 그쳤엄수다.",
             "standard": "회향이 바람이 불면 그쳤어요."
           }
         ]
@@ -13549,7 +13549,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "팔각낭이 바람이 불면 시원햄수다.",
+            "jeju": "팔각낭이 바름이 불면 시원햄수다.",
             "standard": "붓순이 바람이 불면 시원해요."
           }
         ]
@@ -13562,7 +13562,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "칠비가 바람이 불면 가득햄수다.",
+            "jeju": "칠비가 바름이 불면 가득햄수다.",
             "standard": "부들이 바람이 불면 가득해요."
           }
         ]
@@ -13575,7 +13575,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "청조쿨이 바람이 불면 빛나요.",
+            "jeju": "청조쿨이 바름이 불면 빛남수다.",
             "standard": "망초가 바람이 불면 빛나요."
           }
         ]
@@ -13588,7 +13588,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제피가 바람이 불면 밀려옵수다.",
+            "jeju": "제피가 바름이 불면 밀려옵수다.",
             "standard": "계피가 바람이 불면 밀려와요."
           }
         ]
@@ -13601,7 +13601,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "잔뒤역이 바람이 불면 잦아점수다.",
+            "jeju": "잔뒤역이 바름이 불면 잦아점수다.",
             "standard": "퇴역이 바람이 불면 잦아져요."
           }
         ]
@@ -13614,7 +13614,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "자굴이 바람이 불면 더 짙어점수다.",
+            "jeju": "자굴이 바름이 불면 더 짙어점수다.",
             "standard": "차풀이 바람이 불면 더 짙어져요."
           }
         ]
@@ -13662,7 +13662,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "유룸줄이 아적에 내려요.",
+            "jeju": "유룸줄이 아적에 내렴수다.",
             "standard": "조령이 아침에 내려요."
           }
         ]
@@ -13714,7 +13714,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "소낭초기가 아적에 빛나요.",
+            "jeju": "소낭초기가 아적에 빛남수다.",
             "standard": "송이가 아침에 빛나요."
           }
         ]
@@ -13801,7 +13801,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "메마가 헤 질 녘에 내려요.",
+            "jeju": "메마가 헤 질 녘에 내렴수다.",
             "standard": "메꽃이 해 질 녘에 내려요."
           }
         ]
@@ -13853,7 +13853,7 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "개성게가 헤 질 녘에 빛나요.",
+            "jeju": "개성게가 헤 질 녘에 빛남수다.",
             "standard": "수영이 해 질 녘에 빛나요."
           }
         ]
