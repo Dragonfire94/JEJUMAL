@@ -2,7 +2,9 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { BookOpen, ChartColumn, Notebook, Settings } from "lucide-react";
 import { useEffect } from "react";
 import { dueCount, hydrateProgress, useProgress } from "@/lib/progress";
+import { maybeRemind } from "@/lib/notify";
 import { reportError } from "@/lib/report";
+import { applyTheme, readTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
@@ -11,6 +13,12 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     hydrateProgress();
+    applyTheme(readTheme());
+    const media = window.matchMedia("(prefers-color-scheme: dark)");
+    function onScheme() {
+      if (readTheme() === "system") applyTheme("system");
+    }
+    media.addEventListener("change", onScheme);
     function onError(event: ErrorEvent) {
       reportError(event.error ?? event.message, { where: "window.onerror" });
     }
@@ -20,10 +28,20 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     window.addEventListener("error", onError);
     window.addEventListener("unhandledrejection", onRejected);
     return () => {
+      media.removeEventListener("change", onScheme);
       window.removeEventListener("error", onError);
       window.removeEventListener("unhandledrejection", onRejected);
     };
   }, []);
+
+  useEffect(() => {
+    maybeRemind(reviewDue);
+    function onVisible() {
+      if (document.visibilityState === "visible") maybeRemind(reviewDue);
+    }
+    document.addEventListener("visibilitychange", onVisible);
+    return () => document.removeEventListener("visibilitychange", onVisible);
+  }, [reviewDue]);
 
   return (
     <div className="min-h-dvh bg-background text-foreground">

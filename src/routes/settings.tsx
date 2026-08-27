@@ -1,9 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { isNotifyOn, notificationsSupported, setNotifyOn } from "@/lib/notify";
 import { useProgress } from "@/lib/progress";
 import { githubIssueUrl } from "@/lib/report";
 import { isSfxOn, setSfxOn } from "@/lib/sfx";
+import { applyTheme, readTheme, type Theme } from "@/lib/theme";
+import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/settings")({
   component: SettingsPage,
@@ -12,6 +15,9 @@ export const Route = createFileRoute("/settings")({
 function SettingsPage() {
   const resetProgress = useProgress((state) => state.resetProgress);
   const [sfx, setSfx] = useState(() => isSfxOn());
+  const [theme, setTheme] = useState<Theme>(() => readTheme());
+  const [notify, setNotify] = useState(() => isNotifyOn());
+  const [notifyHint, setNotifyHint] = useState("");
   const [jeju, setJeju] = useState("");
   const [standard, setStandard] = useState("");
   const [contentNote, setContentNote] = useState("");
@@ -31,15 +37,61 @@ function SettingsPage() {
     resetProgress();
   }
 
+  function pickTheme(next: Theme) {
+    setTheme(next);
+    applyTheme(next);
+  }
+
+  async function toggleNotify(on: boolean) {
+    if (!on) {
+      await setNotifyOn(false);
+      setNotify(false);
+      setNotifyHint("");
+      return;
+    }
+    if (!notificationsSupported()) {
+      setNotifyHint("이 브라우저는 알림을 지원하지 않습니다.");
+      return;
+    }
+    const granted = await setNotifyOn(true);
+    setNotify(granted);
+    setNotifyHint(granted ? "오늘 볼 카드가 있으면 알려 드립니다. 앱을 연 상태에서만 갑니다." : "알림 권한이 꺼져 있습니다. 브라우저 설정에서 허용해 주세요.");
+  }
+
   return (
     <div className="flex flex-col gap-8">
       <header className="anim-rise pt-1">
         <h1 className="font-display text-2xl font-semibold tracking-tight">설정</h1>
-        <p className="mt-1 text-xs text-muted-foreground">소리, 제보, 이 기기의 기록</p>
+        <p className="mt-1 text-xs text-muted-foreground">화면, 소리, 제보, 이 기기의 기록</p>
       </header>
 
       <section className="flex flex-col gap-3">
-        <h2 className="font-medium">소리</h2>
+        <h2 className="font-medium">화면</h2>
+        <div className="grid grid-cols-3 gap-2">
+          {(
+            [
+              ["light", "밝게"],
+              ["dark", "어둡게"],
+              ["system", "시스템"],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              onClick={() => pickTheme(value)}
+              className={cn(
+                "rounded-xl border px-3 py-2 text-sm",
+                theme === value ? "border-foreground bg-card font-medium" : "border-border bg-card text-muted-foreground",
+              )}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="font-medium">소리 · 알림</h2>
         <label className="flex items-center justify-between rounded-2xl border border-border bg-card px-4 py-3 text-sm">
           <span>퀴즈 효과음</span>
           <input
@@ -52,6 +104,16 @@ function SettingsPage() {
             className="size-4 accent-primary"
           />
         </label>
+        <label className="flex items-center justify-between rounded-2xl border border-border bg-card px-4 py-3 text-sm">
+          <span>복습 알림</span>
+          <input
+            type="checkbox"
+            checked={notify}
+            onChange={(event) => void toggleNotify(event.target.checked)}
+            className="size-4 accent-primary"
+          />
+        </label>
+        {notifyHint ? <p className="text-xs text-muted-foreground">{notifyHint}</p> : null}
       </section>
 
       <section className="flex flex-col gap-3">
