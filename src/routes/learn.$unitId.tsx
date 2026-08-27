@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { playWord } from "@/lib/audio";
 import { rememberLastWord } from "@/lib/report";
+import { track } from "@/lib/track";
 import { useProgress } from "@/lib/progress";
 import {
   buildLesson,
@@ -89,6 +90,7 @@ function LearnPage() {
       missedQuestions: [],
     });
     setPhase("quiz");
+    track("unit_start", { unitId: currentUnit.id, rank: pack?.id ?? "" });
   }
 
   function finish(result: QuizResult) {
@@ -105,12 +107,22 @@ function LearnPage() {
       const after = [...before, currentUnit.id];
       const prev = currentRank(before);
       const next = currentRank(after);
-      if (prev.id !== next.id) setPromotedTo(next.title);
+      if (prev.id !== next.id) {
+        setPromotedTo(next.title);
+        track("rank_open", { rank: next.id, unitId: currentUnit.id });
+      }
     } else if (passed) {
       completeUnit(currentUnit.id);
     } else {
       touchUnit(currentUnit.id);
     }
+
+    track(passed ? "unit_pass" : "unit_fail", {
+      unitId: currentUnit.id,
+      rank: pack?.id ?? "",
+      round,
+      percent: total ? Math.round((correct / total) * 100) : 0,
+    });
 
     setScore({
       correct,
@@ -128,6 +140,7 @@ function LearnPage() {
     setQuestions(shuffleQuestions(score.missedQuestions));
     setRound("retry");
     setPhase("quiz");
+    track("retry_start", { unitId: currentUnit.id, missed: score.missedQuestions.length });
   }
 
   if (phase === "quiz") {
