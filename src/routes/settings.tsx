@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { isNotifyOn, notificationsSupported, setNotifyOn } from "@/lib/notify";
 import { useProgress } from "@/lib/progress";
-import { githubIssueUrl } from "@/lib/report";
+import { githubIssueUrl, clearLastError, lastErrorIssueUrl, readLastError, readLastWord } from "@/lib/report";
 import { isSfxOn, setSfxOn } from "@/lib/sfx";
 import { applyTheme, readTheme, type Theme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
@@ -18,14 +18,32 @@ function SettingsPage() {
   const [theme, setTheme] = useState<Theme>(() => readTheme());
   const [notify, setNotify] = useState(() => isNotifyOn());
   const [notifyHint, setNotifyHint] = useState("");
-  const [jeju, setJeju] = useState("");
-  const [standard, setStandard] = useState("");
+  const lastWord = readLastWord();
+  const [lastError, setLastError] = useState(() => readLastError());
+  const [jeju, setJeju] = useState(() => lastWord?.jeju ?? "");
+  const [standard, setStandard] = useState(() => lastWord?.standard ?? "");
   const [contentNote, setContentNote] = useState("");
   const [bugNote, setBugNote] = useState("");
 
   function sendContent() {
-    const body = [`제주어: ${jeju || "(없음)"}`, `표준어: ${standard || "(없음)"}`, "", contentNote || "(설명 없음)"].join("\n");
+    const body = [
+      lastWord?.seq ? `seq: ${lastWord.seq}` : "",
+      `제주어: ${jeju || "(없음)"}`,
+      `표준어: ${standard || "(없음)"}`,
+      lastWord?.unitId ? `유닛: ${lastWord.unitId}` : "",
+      "",
+      contentNote || "(설명 없음)",
+    ]
+      .filter((line, index, all) => line !== "" || all[index + 1] === "")
+      .join("\n");
     window.open(githubIssueUrl(`[콘텐츠] ${jeju || "제보"}`, body), "_blank", "noopener");
+  }
+
+  function sendLastError() {
+    if (!lastError) return;
+    window.open(lastErrorIssueUrl(lastError), "_blank", "noopener");
+    clearLastError();
+    setLastError(null);
   }
 
   function sendBug() {
@@ -64,6 +82,16 @@ function SettingsPage() {
         <h1 className="font-display text-2xl font-semibold tracking-tight">설정</h1>
         <p className="mt-1 text-xs text-muted-foreground">화면, 소리, 제보, 이 기기의 기록</p>
       </header>
+
+      {lastError ? (
+        <section className="flex flex-col gap-2 rounded-2xl border border-danger/40 bg-card p-4">
+          <h2 className="font-medium">최근 오류</h2>
+          <p className="text-xs break-words text-muted-foreground">{lastError.message}</p>
+          <Button type="button" onClick={sendLastError}>
+            이 오류 제보하기
+          </Button>
+        </section>
+      ) : null}
 
       <section className="flex flex-col gap-3">
         <h2 className="font-medium">화면</h2>
@@ -118,7 +146,9 @@ function SettingsPage() {
 
       <section className="flex flex-col gap-3">
         <h2 className="font-medium">콘텐츠 제보</h2>
-        <p className="text-xs text-muted-foreground">번역이 이상하거나 안 맞는 말이 있으면 알려 주세요.</p>
+        <p className="text-xs text-muted-foreground">
+          {lastWord?.jeju ? `방금 본 말(${lastWord.jeju})을 채워 두었습니다. 고쳐 쓰셔도 됩니다.` : "번역이 이상하거나 안 맞는 말이 있으면 알려 주세요."}
+        </p>
         <input
           value={jeju}
           onChange={(event) => setJeju(event.target.value)}

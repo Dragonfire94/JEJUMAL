@@ -6,6 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { useProgress } from "@/lib/progress";
 import type { Question, QuizResult } from "@/lib/quiz";
 import { playSfx } from "@/lib/sfx";
+import { rememberLastWord } from "@/lib/report";
 import { cn } from "@/lib/utils";
 
 type QuizViewProps = {
@@ -31,6 +32,7 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
 
   useEffect(() => {
     setFocusIndex(0);
+    if (question) rememberLastWord({ ...question.word, unitId: question.unitId });
   }, [index]);
 
   useEffect(() => {

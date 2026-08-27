@@ -5,6 +5,7 @@ import { QuizView } from "@/components/quiz-view";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { playWord } from "@/lib/audio";
+import { rememberLastWord } from "@/lib/report";
 import { useProgress } from "@/lib/progress";
 import {
   buildLesson,
@@ -264,6 +265,7 @@ function WordList({ words }: { words: Word[] }) {
   async function play(word: Word) {
     setFailedSeq(null);
     setPlayingSeq(word.seq);
+    rememberLastWord({ seq: word.seq, jeju: word.jeju, standard: word.standard });
     try {
       await playWord(word);
     } catch {
