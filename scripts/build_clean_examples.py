@@ -302,6 +302,10 @@ EXTRA_LEXICON = {
     "어디": "어디",
     "누구": "누게",
     "뭐": "무신거",
+    "오늘": "오널",
+    "아이": "아이",
+    "물": "물",
+    "밥": "밥",
     "하다": "허다",
     "있다": "싯다",
     "없다": "엇다",
@@ -383,7 +387,7 @@ MIEUM = 16
 
 
 def display_std(std: str) -> str:
-    return std.replace("-", "")
+    return std.replace("-", "").replace(">", "").replace("<", "").strip()
 
 
 def apply_phrases(text: str) -> str:
@@ -495,6 +499,14 @@ def build_lexicon(words: list[dict]) -> dict[str, str]:
     return lex
 
 
+def jeju_particle(lemma: str, particle: str) -> str:
+    if particle == "에서":
+        return "이서"
+    if particle in {"이에요", "예요"}:
+        return "우다" if has_batchim(lemma) else "우다"
+    return particle_for(lemma, particle)
+
+
 def replace_token(token: str, lex: dict[str, str]) -> str:
     if token in lex:
         return lex[token]
@@ -508,7 +520,7 @@ def replace_token(token: str, lex: dict[str, str]) -> str:
         lemma, part = token, ""
     if lemma in lex and part:
         jeju = lex[lemma]
-        return jeju + particle_for(jeju, part)
+        return jeju + jeju_particle(jeju, part)
     particles = {
         "은",
         "는",
@@ -538,7 +550,7 @@ def replace_token(token: str, lex: dict[str, str]) -> str:
         rest = token[len(key) :]
         jeju = lex[key]
         if rest in particles:
-            return jeju + (rest if rest in {"이에요", "예요"} else particle_for(jeju, rest))
+            return jeju + (rest if rest in {"이에요", "예요"} else jeju_particle(jeju, rest))
         if len(key) >= 2 and len(rest) <= 4:
             return jeju + rest
     return token
@@ -567,7 +579,7 @@ def replace_head(text: str, head_std: str, head_jeju: str) -> str:
                 part = particle
                 rest = after[len(particle) :]
                 break
-        swapped = head_jeju + (particle_for(head_jeju, part) if part else "")
+        swapped = head_jeju + (jeju_particle(head_jeju, part) if part else "")
         return text[:idx] + swapped + rest
     if head_std.endswith("다") and len(head_std) >= 3:
         stem = head_std[:-1]

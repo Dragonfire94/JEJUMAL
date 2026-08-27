@@ -135,6 +135,14 @@ test("clean examples cover every word and stay readable", () => {
   const come = byJeju.get("옵서")?.examples ?? [];
   assert.ok(come.some((example) => example.jeju.includes("옵서") && example.jeju.includes("앚읍서") && !example.jeju.includes("일희")));
 
+  for (const unit of units) {
+    for (const word of unit.words) {
+      if (word.partOfSpeech !== "noun" && word.partOfSpeech !== "pronoun") continue;
+      const jeju = word.examples?.[0]?.jeju ?? "";
+      assert.equal(jeju.includes(word.jeju), true, `${word.jeju} ${jeju}`);
+    }
+  }
+
   const texts = units.flatMap((unit) =>
     unit.words.flatMap((word) => (word.examples ?? []).map((example) => example.jeju)),
   );
@@ -163,4 +171,14 @@ test("example jeju lines convert the whole sentence", () => {
       }
     }
   }
+});
+
+test("examples stay Jeju and skip empty templates", () => {
+  const texts = units.flatMap((unit) =>
+    unit.words.flatMap((word) => (word.examples ?? []).map((example) => `${example.jeju}\n${example.standard}`)),
+  );
+  assert.equal(texts.some((text) => text.includes("마씸")), false);
+  assert.equal(texts.some((text) => /잘 몰라|처음 들어봤|뭔지 궁금|대해 이야기/.test(text)), false);
+  assert.equal(texts.some((text) => /손주 공책/.test(text)), false);
+  assert.equal(texts.some((text) => /그 말을 써/.test(text)), false);
 });
