@@ -4,7 +4,8 @@
 Reads unzipped txt under /tmp/aihub plus JSON samples, matches them against
 the 1,000 words in src/data/units.json, writes src/data/examples.json.
 
-Does not copy raw conversations. AI Hub full data must stay off git.
+The full cleaned utterance pool lives in data/aihub/ (see scripts/build_aihub_corpus.py).
+Raw zip/txt stay off git.
 """
 
 from __future__ import annotations

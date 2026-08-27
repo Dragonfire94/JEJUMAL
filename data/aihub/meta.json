@@ -1,0 +1,48 @@
+{
+  "source": "AI-HUB 한국어 방언 발화(제주도)",
+  "url": "https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=121",
+  "filesScanned": 5638,
+  "filesByPrefix": {
+    "DZES": 1366,
+    "DZHF": 2396,
+    "DZJD": 1876
+  },
+  "uniqueUtterances": 531249,
+  "utterancesByPrefix": {
+    "DZES": 111120,
+    "DZHF": 260064,
+    "DZJD": 160065
+  },
+  "uniqueDialectTokens": 226600,
+  "duplicatesSkipped": 6722,
+  "filters": [
+    "dialect/standard pair present",
+    "no # / @ / * markers",
+    "hangul length 4–80",
+    "unique jeju sentence",
+    "token kept only when dialect ≠ standard"
+  ],
+  "notInGit": [
+    "raw zip",
+    "raw txt",
+    "speaker ids",
+    "PII placeholders"
+  ],
+  "files": {
+    "utterances": {
+      "dzes.jsonl.gz": 5737328,
+      "dzhf.jsonl.gz": 12851839,
+      "dzjd.jsonl.gz": 8567641
+    },
+    "tokens.json": 9470017,
+    "coverage.json": 38787,
+    "sample.json": 69701,
+    "README.md": 2485
+  },
+  "vocabCoverage": {
+    "attachedToApp": 241,
+    "exactTokenInCorpus": 284,
+    "inflectedTokenInCorpus": 77,
+    "absentAsToken": 639
+  }
+}
