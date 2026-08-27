@@ -1,6 +1,6 @@
 {
   "vocab": 1000,
-  "attachedToApp": 244,
+  "attachedToApp": 452,
   "exactTokenInCorpus": 281,
   "inflectedTokenInCorpus": 77,
   "absentAsToken": 642,
@@ -2010,5 +2010,6 @@
       "jeju": "셍거",
       "standard": "날 것"
     }
-  ]
+  ],
+  "assembledNouns": 208
 }

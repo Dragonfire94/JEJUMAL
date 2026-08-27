@@ -96,7 +96,7 @@ test("spoken examples only attach to real words and stay short", () => {
       }
     }
   }
-  assert.ok(count >= 200);
+  assert.ok(count >= 500);
 });
 
 test("spoken examples are not dictionary glosses or cut-off fragments", () => {
@@ -117,4 +117,18 @@ test("homographs keep the dictionary meaning", () => {
   assert.ok(shop.some((example) => example.standard.includes("가게")));
   const cause = byJeju.get("시기다")?.examples ?? [];
   assert.ok(cause.some((example) => example.standard.includes("시키")));
+});
+
+test("assembled noun examples swap a real frame once and keep the headword", () => {
+  const byJeju = new Map(units.flatMap((unit) => unit.words.map((word) => [word.jeju, word])));
+  const wife = byJeju.get("각씨")?.examples ?? [];
+  assert.ok(wife.some((example) => example.jeju.includes("각씨")));
+  const husband = byJeju.get("냄편")?.examples ?? [];
+  assert.ok(husband.some((example) => example.jeju.includes("냄편")));
+
+  const assembled = units.flatMap((unit) =>
+    unit.words.flatMap((word) => (word.examples ?? []).map((example) => example.jeju)),
+  );
+  assert.equal(assembled.some((text) => /기러기 아빠/.test(text)), false);
+  assert.equal(assembled.some((text) => /이르는 말/.test(text)), false);
 });

@@ -333,7 +333,13 @@
         "jeju": "각씨",
         "standard": "아내",
         "soundUrl": "/audio/372.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그런 각씨가 어디이서?",
+            "standard": "그런 와이프가 어디있어?"
+          }
+        ]
       }
     ]
   },
@@ -434,7 +440,13 @@
         "jeju": "부미",
         "standard": "부모",
         "soundUrl": "/audio/646.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "부미의 꿈은 뭐였을까?",
+            "standard": "부모님의 꿈은 뭐였을까?"
+          }
+        ]
       },
       {
         "seq": "664",
@@ -458,7 +470,13 @@
         "jeju": "나그네",
         "standard": "손님",
         "soundUrl": "/audio/424.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이선? 그런 나그네도 많았지",
+            "standard": "있었어? 그런 손님도 많았지"
+          }
+        ]
       },
       {
         "seq": "725",
@@ -498,14 +516,26 @@
         "jeju": "냄편",
         "standard": "남편",
         "soundUrl": "/audio/432.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "냄편을 너무 사랑햄신게",
+            "standard": "남편을 너무 사랑한다"
+          }
+        ]
       },
       {
         "seq": "448",
         "jeju": "늑신이",
         "standard": "늙은이",
         "soundUrl": "/audio/448.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "게난 그 늑신이가 빨리도 나아서",
+            "standard": "그러게 그 늙은이가 빨리도 나았어"
+          }
+        ]
       },
       {
         "seq": "690",
@@ -525,7 +555,13 @@
         "jeju": "방세임",
         "standard": "아가씨",
         "soundUrl": "/audio/636.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "둘 다 방세임을 안본 상태연?",
+            "standard": "둘 다 아가씨를 안본 상태였어?"
+          }
+        ]
       },
       {
         "seq": "2710",
@@ -549,7 +585,13 @@
         "jeju": "얼애",
         "standard": "어린애",
         "soundUrl": "/audio/718.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "얼애가 골 넣었다고 화난",
+            "standard": "어린애가 골 넣었다고 화났어"
+          }
+        ]
       },
       {
         "seq": "653",
@@ -573,21 +615,39 @@
         "jeju": "쥐인",
         "standard": "주인",
         "soundUrl": "/audio/2770.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "거 쥐인이 겅 했나부다이",
+            "standard": "거 주인이 그렇게 했나보다"
+          }
+        ]
       },
       {
         "seq": "6706",
         "jeju": "처아주망",
         "standard": "처제",
         "soundUrl": "/audio/6706.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "근데 그 처아주망 살인한 게 그 앞부분 인지 뒤 인지 모를쿠라 연쇄살인이니까",
+            "standard": "근데 그 처제 살인한 게 그 앞부분 인지 뒤 인지 모르겠다 연쇄살인이니까"
+          }
+        ]
       },
       {
         "seq": "6705",
         "jeju": "처아주마님",
         "standard": "처형",
         "soundUrl": "/audio/6705.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "뭐 처아주마님도 전화온거 닮아라마는",
+            "standard": "뭐 처형도 전화온거 같았는데"
+          }
+        ]
       }
     ]
   },
@@ -655,7 +715,13 @@
         "jeju": "저기",
         "standard": "지대",
         "soundUrl": "/audio/2737.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "저기로 업데이트 해야한다던디",
+            "standard": "지대로 업데이트 해야한다던데"
+          }
+        ]
       },
       {
         "seq": "2730",
@@ -669,7 +735,13 @@
         "jeju": "운상군",
         "standard": "상군",
         "soundUrl": "/audio/2706.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "저기 중군 하군 거기서 우두머리 운상군을 뭐랜고른다?",
+            "standard": "저기 중군 하군 거기서 우두머리 상군을 뭐라고한다?"
+          }
+        ]
       },
       {
         "seq": "682",
@@ -747,7 +819,13 @@
         "jeju": "소자",
         "standard": "효자",
         "soundUrl": "/audio/559.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "소자가 살 찔 틈을 안 주는 거야.",
+            "standard": "효자가 살 찔 틈을 안 주는 거야."
+          }
+        ]
       },
       {
         "seq": "555",
@@ -761,14 +839,26 @@
         "jeju": "벡성",
         "standard": "백성",
         "soundUrl": "/audio/519.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "어디고 벡성을 잘 배불리게 잘 살면 되는거야 그게 정치 잘하는 거 아니?",
+            "standard": "어디고 백성을 잘 배불리게 잘 살면 되는거야 그게 정치 잘하는 거 아니야?"
+          }
+        ]
       },
       {
         "seq": "504",
         "jeju": "목쉬",
         "standard": "목수",
         "soundUrl": "/audio/504.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "돈 올리믄 목쉬가 돈 다 가져가고",
+            "standard": "돈 올리면 목수가 돈 다 가져가고"
+          }
+        ]
       },
       {
         "seq": "472",
@@ -864,7 +954,13 @@
         "jeju": "처가칩",
         "standard": "처갓집",
         "soundUrl": "/audio/6703.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "근데 무사 처가칩은 가젠 햄수과?",
+            "standard": "근데 왜 처갓집은 가려고 하십니까?"
+          }
+        ]
       }
     ]
   },
@@ -959,7 +1055,13 @@
         "jeju": "목쟁이",
         "standard": "피쟁이",
         "soundUrl": "/audio/624.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이제 목쟁이 제일이주게",
+            "standard": "이제 피쟁이 제일이지요"
+          }
+        ]
       }
     ]
   },
@@ -1024,7 +1126,13 @@
         "jeju": "털북새기",
         "standard": "털북숭이",
         "soundUrl": "/audio/6732.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "털북새기는 제모를 못하네. 털복숭이는 어느정도 털복숭이? 온몸의 털이 인? 아니면",
+            "standard": "털북숭이는 제모를 못하네. 털복숭이는 어느정도 털복숭이? 온몸의 털이 있어? 아니면"
+          }
+        ]
       },
       {
         "seq": "6726",
@@ -1054,7 +1162,13 @@
         "jeju": "코홀채기",
         "standard": "코흘리개",
         "soundUrl": "/audio/6720.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "코홀채기의 뜻과 지역별 사투리 이런거 나오맨 이게 맞아?",
+            "standard": "코흘리개의 뜻과 지역별 사투리 이런거 나와 이게 맞아?"
+          }
+        ]
       },
       {
         "seq": "6711",
@@ -1133,7 +1247,13 @@
         "jeju": "오라비님",
         "standard": "오라버님",
         "soundUrl": "/audio/2694.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이거 뭐냐 하면은 아까 저 오라비님이 저 모물 모물죽이 아니고 모물",
+            "standard": "이거 뭐냐 하면은 아까 저 오라버님이 저 메밀 메밀죽이 아니고 메밀"
+          }
+        ]
       }
     ]
   },
@@ -1582,35 +1702,65 @@
         "jeju": "부끌래기",
         "standard": "거품",
         "soundUrl": "/audio/5100.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "근데 부끌래기가 좀 빠져야 되는디",
+            "standard": "근데 거품이 좀 빠져야 되는데"
+          }
+        ]
       },
       {
         "seq": "877",
         "jeju": "뱅고리",
         "standard": "가락",
         "soundUrl": "/audio/877.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "거기에 보면 더럭이라는 머을 이름이 뱅고리 썼다고",
+            "standard": "거기에 보면 더럭이라는 마을 이름이 가락 썼다고"
+          }
+        ]
       },
       {
         "seq": "4546",
         "jeju": "거레",
         "standard": "거래",
         "soundUrl": "/audio/4546.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그런 거레를 성공했다는 게?",
+            "standard": "그런 거래를 성공했다는 게?"
+          }
+        ]
       },
       {
         "seq": "4553",
         "jeju": "거짓거",
         "standard": "가짜",
         "soundUrl": "/audio/4553.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그래서 거짓거에게 복수를 하러 간 거네?",
+            "standard": "그래서 가짜에게 복수를 하러 간 거잖아?"
+          }
+        ]
       },
       {
         "seq": "5675",
         "jeju": "훈적",
         "standard": "거짓말",
         "soundUrl": "/audio/5675.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "땅은 훈적을 안허난이",
+            "standard": "땅은 거짓말을 안하니까"
+          }
+        ]
       },
       {
         "seq": "4531",
@@ -1634,28 +1784,52 @@
         "jeju": "서베",
         "standard": "세배",
         "soundUrl": "/audio/5188.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "응 코로나때문에 저기 서베도 허지말겐하멍 전화와서라게",
+            "standard": "응 코로나때문에 저기 세배도 하지 말자면서 전화왔더라고"
+          }
+        ]
       },
       {
         "seq": "3478",
         "jeju": "밥방울",
         "standard": "밥알",
         "soundUrl": "/audio/3478.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "겡 밥방울도 엄청 크겠네?",
+            "standard": "그러면 밥알도 엄청 크겠네?"
+          }
+        ]
       },
       {
         "seq": "1285",
         "jeju": "우굼",
         "standard": "밥주걱",
         "soundUrl": "/audio/1285.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아 밥 요즘 말로 하면 우굼 닮은건디",
+            "standard": "아 밥 요즘 말로 하면 밥주걱 닮은건데"
+          }
+        ]
       },
       {
         "seq": "3707",
         "jeju": "수제",
         "standard": "수저",
         "soundUrl": "/audio/3707.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그것도 우리 수제도 아니 귤수저좀 뺏은 거",
+            "standard": "그것도 우리 수저도 아냐 귤수저좀 뺏은 거야"
+          }
+        ]
       }
     ]
   },
@@ -1831,7 +2005,13 @@
         "jeju": "세양",
         "standard": "수양",
         "soundUrl": "/audio/7534.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "참 그런게 스트 가진 가진 사람이 건 세양이 덜 된 사람이지 건",
+            "standard": "참 그런게 스트 가진 가진 사람이 건 수양이 덜 된 사람이지 그 것은"
+          }
+        ]
       },
       {
         "seq": "7519",
@@ -2359,21 +2539,39 @@
         "jeju": "멘손",
         "standard": "맨손",
         "soundUrl": "/audio/2914.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "놔그내 멘손으로 것도 하나는 뿌려",
+            "standard": "놔서 맨손으로 그것도 하나는 뿌려"
+          }
+        ]
       },
       {
         "seq": "2913",
         "jeju": "멘발",
         "standard": "맨발",
         "soundUrl": "/audio/2913.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "비 와도 멘발로 걷는 거라.",
+            "standard": "비 와도 맨발로 걷는 거야."
+          }
+        ]
       },
       {
         "seq": "2778",
         "jeju": "갈리",
         "standard": "갈비",
         "soundUrl": "/audio/2778.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "저 엘에이 갈리도 맛 좋지 않옌?",
+            "standard": "저 엘에이 갈비도 맛 좋지 않았니?"
+          }
+        ]
       },
       {
         "seq": "2828",
@@ -2426,21 +2624,39 @@
         "jeju": "눈방울",
         "standard": "눈동자",
         "soundUrl": "/audio/2842.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "걔들 그 그 눈방울은 알앙 바껴",
+            "standard": "걔들 그 그 눈동자는 알아서 바껴"
+          }
+        ]
       },
       {
         "seq": "2839",
         "jeju": "눈두께",
         "standard": "눈꺼풀",
         "soundUrl": "/audio/2839.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이렇게 이마 주름으로 눈두께가 올라가는 이거 장애거든 마심",
+            "standard": "이렇게 이마 주름으로 눈꺼풀이 올라가는 이거 장애거든 요"
+          }
+        ]
       },
       {
         "seq": "2836",
         "jeju": "눈깍",
         "standard": "눈초리",
         "soundUrl": "/audio/2836.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그런 눈깍 때문에 퇴사하는 사람들이 완전 많댄",
+            "standard": "그런 눈초리 때문에 퇴사하는 사람들이 완전 많아"
+          }
+        ]
       },
       {
         "seq": "3109",
@@ -2499,7 +2715,13 @@
         "jeju": "손등어리",
         "standard": "손등",
         "soundUrl": "/audio/3011.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "손등어리에 난 거뭇거뭇헌거 말햄수과",
+            "standard": "손등에 난 거뭇거뭇한거 말하나요?"
+          }
+        ]
       }
     ]
   },
@@ -2550,21 +2772,39 @@
         "jeju": "족은한집",
         "standard": "홍역",
         "soundUrl": "/audio/3165.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "우리 때는 족은한집이 큰 거라나서이",
+            "standard": "우리 때는 홍역이 큰 거였었지"
+          }
+        ]
       },
       {
         "seq": "3075",
         "jeju": "오좀",
         "standard": "오줌",
         "soundUrl": "/audio/3075.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그걸 오좀도 쎄와야돼마씸?",
+            "standard": "그걸 오줌도 누게해야돼요?"
+          }
+        ]
       },
       {
         "seq": "3046",
         "jeju": "아옴내",
         "standard": "암내",
         "soundUrl": "/audio/3046.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "나도 안 가봤는데 막 문화권이 있네 같은 종교만의 그 음식을 파네 아옴내가 날까",
+            "standard": "나도 안 가봤는데 막 문화권이 있어 같은 종교만의 그 음식을 팔아 암내가 날까"
+          }
+        ]
       },
       {
         "seq": "3025",
@@ -2601,7 +2841,13 @@
         "jeju": "늬활게",
         "standard": "사지",
         "soundUrl": "/audio/2848.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "게난 내가 늬활게를 못하는 거.",
+            "standard": "그니까 내가 사지를 못하는 거야."
+          }
+        ]
       },
       {
         "seq": "2830",
@@ -2615,7 +2861,13 @@
         "jeju": "장목",
         "standard": "손목",
         "soundUrl": "/audio/3096.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "장목에 무리가 안가마씨 그거",
+            "standard": "손목에 무리가 안가요 그거"
+          }
+        ]
       },
       {
         "seq": "2803",
@@ -2629,7 +2881,13 @@
         "jeju": "간세터럭",
         "standard": "솜털",
         "soundUrl": "/audio/2777.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "거난 그쪽에 간세터럭도 완전 세네. 시커멍 있네",
+            "standard": "그러니까 그쪽에 솜털도 완전 세네. 시커멓게 있네"
+          }
+        ]
       },
       {
         "seq": "3123",
@@ -2660,7 +2918,13 @@
         "jeju": "오좀푸께",
         "standard": "오줌통",
         "soundUrl": "/audio/3076.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "야 그때 통소 뭐냐 -우리- 우리 난 찝놔난 거 닮은디 우리 자네는 무시거 저 저 오좀푸께 속에 무신거 담안 그때 공 허였어게?",
+            "standard": "야 그때 통소 뭐냐 -우리- 우리 난 짚 넣었던 거 같은데 우리 자네는 어떤 거 저 저 오줌통 속에 어떤 거 담아서 그때 공 했어?"
+          }
+        ]
       },
       {
         "seq": "3027",
@@ -2704,7 +2968,13 @@
         "jeju": "미주",
         "standard": "꽁무니",
         "soundUrl": "/audio/2929.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "들어 올 수가 어서 게난 오빠 그냥 심엉 미주만 따라 댕긴거라.",
+            "standard": "들어 올 수가 없어 그러니까 오빠 그냥 잡고 꽁무니만 따라 다닌거야."
+          }
+        ]
       },
       {
         "seq": "2915",
@@ -2731,21 +3001,39 @@
         "jeju": "눈퉁이",
         "standard": "눈망울",
         "soundUrl": "/audio/2847.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "또 거기 가면 또 애들 그 순진한 눈퉁이에 술을 뺄 수 없을 거 닮아",
+            "standard": "또 거기 가면 또 애들 그 순진한 눈망울에 술을 뺄 수 없을 거 같아"
+          }
+        ]
       },
       {
         "seq": "2843",
         "jeju": "눈사투리",
         "standard": "사투리",
         "soundUrl": "/audio/2843.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "눈사투리로 읽어 봅서 삼춘",
+            "standard": "사투리로 읽어 보세요 삼춘"
+          }
+        ]
       },
       {
         "seq": "2793",
         "jeju": "게춤",
         "standard": "가래침",
         "soundUrl": "/audio/2793.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "합당이 고추마요 게춤 배틀거라 긇어 올람서",
+            "standard": "합당이 고추마요 가래침 뱉을거야 끓어 오르고 있어"
+          }
+        ]
       },
       {
         "seq": "2792",
@@ -2949,21 +3237,39 @@
         "jeju": "머력",
         "standard": "머리",
         "soundUrl": "/audio/4964.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "머력에 뭐 좀 해야 되는디",
+            "standard": "머리에 뭐 좀 해야 되는데"
+          }
+        ]
       },
       {
         "seq": "3176",
         "jeju": "활게",
         "standard": "활개",
         "soundUrl": "/audio/3176.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "야 너 같은 아이들 때문에 코로나가 활게를 치는거라",
+            "standard": "야 너 같은 아이들 때문에 코로나가 활개를 치는거야"
+          }
+        ]
       },
       {
         "seq": "3168",
         "jeju": "허멀",
         "standard": "허물",
         "soundUrl": "/audio/3168.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "허멀만 쏙 벗고 몸만 쏙 나와 가지고이",
+            "standard": "허물만 쏙 벗고 몸만 쏙 나와 가지고"
+          }
+        ]
       },
       {
         "seq": "3167",
@@ -2977,7 +3283,13 @@
         "jeju": "부스름",
         "standard": "부스럼",
         "soundUrl": "/audio/2972.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "자꾸 손대다 보니까 이제 긁어 부스름이 되불어가지고예.",
+            "standard": "자꾸 손대다 보니까 이제 긁어 부스럼이 되버려서요."
+          }
+        ]
       },
       {
         "seq": "3162",
@@ -2991,7 +3303,13 @@
         "jeju": "퀴눈이",
         "standard": "티눈",
         "soundUrl": "/audio/3143.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "야이 맨날 이거 발 치료해주러 오고 집이. 너 퀴눈이 몇 개였더라?",
+            "standard": "얘 맨날 이거 발 치료해주러 오고 집에. 너 티눈 몇 개였더라?"
+          }
+        ]
       },
       {
         "seq": "3142",
@@ -3005,7 +3323,13 @@
         "jeju": "지질",
         "standard": "치질",
         "soundUrl": "/audio/3113.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "난 지질은 하나도 어서",
+            "standard": "난 치질은 하나도 없어"
+          }
+        ]
       }
     ]
   },
@@ -3021,21 +3345,39 @@
         "jeju": "조쟁이",
         "standard": "자지",
         "soundUrl": "/audio/3105.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "근데 지금은 내가 첨에 물어봔 잔? 이러니까 조쟁이는 않았댄?",
+            "standard": "근데 지금은 내가 첨에 물어봤어 잤어? 이러니까 자지는 않았데?"
+          }
+        ]
       },
       {
         "seq": "3070",
         "jeju": "영장",
         "standard": "송장",
         "soundUrl": "/audio/3070.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그믄 그 피 그 저 썩은 그 영장 만지던 손으로 또",
+            "standard": "그러면 그 피 그 저 썩은 그 송장 만지던 손으로 또"
+          }
+        ]
       },
       {
         "seq": "3063",
         "jeju": "언딘피",
         "standard": "선지",
         "soundUrl": "/audio/3063.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "간은 먹어도 언딘피는 못 먹겐",
+            "standard": "간은 먹어도 선지는 못 먹겠어"
+          }
+        ]
       },
       {
         "seq": "3056",
@@ -3066,7 +3408,13 @@
         "jeju": "안창",
         "standard": "내장",
         "soundUrl": "/audio/3050.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "게믄 것이 안창에 신가 그믄",
+            "standard": "그럼 그것이 내장에 있는가 그럼"
+          }
+        ]
       },
       {
         "seq": "3023",
@@ -3080,7 +3428,13 @@
         "jeju": "쉬염",
         "standard": "수염",
         "soundUrl": "/audio/3022.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "언제 겅 많이 길런? 쉬염도?",
+            "standard": "언제 그렇게 많이 길렀어? 수염도?"
+          }
+        ]
       },
       {
         "seq": "3017",
@@ -3094,7 +3448,13 @@
         "jeju": "손그뭇",
         "standard": "손금",
         "soundUrl": "/audio/3010.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "경행 제를 허래 가난에 하도 못살아 허난 여 손그뭇을 봐주켄 허난 영 행 봔.",
+            "standard": "그렇게해서 제를 하러 가니까 너무 못살아 하니까 여기 손금을 봐주겠다고 하니까 이렇게 해서 봤어."
+          }
+        ]
       }
     ]
   },
@@ -3117,7 +3477,13 @@
         "jeju": "설세",
         "standard": "설사",
         "soundUrl": "/audio/2997.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "설세도 안 허고 탈도 안 나고",
+            "standard": "설사도 안 하고 탈도 안 나고요"
+          }
+        ]
       },
       {
         "seq": "2993",
@@ -3145,14 +3511,26 @@
         "jeju": "벵신",
         "standard": "빙신",
         "soundUrl": "/audio/2962.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "우리 집 벵신 하나 이실거우다 허난 건 무신 말이고?",
+            "standard": "우리 집 빙신 하나 있을거예요 하니까 그건 무슨 말이니?"
+          }
+        ]
       },
       {
         "seq": "2946",
         "jeju": "베설",
         "standard": "창지",
         "soundUrl": "/audio/2946.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "막 이상한거 막 세제 닮은 걸 놩도 씻어분댄 헙디다. 베설 냄새 안 나게",
+            "standard": "막 이상한거 막 세제 같은 걸 놓아서도 씻어버린다고 하더라. 창지 냄새 안 나게"
+          }
+        ]
       },
       {
         "seq": "2925",
@@ -3166,14 +3544,26 @@
         "jeju": "몸짐",
         "standard": "체온",
         "soundUrl": "/audio/2924.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아니 겅 하난 맨날 몸짐 재고 소독하고 햄네",
+            "standard": "아니 그렇게 하니까 매일 체온 재고 소독하고 하잖아"
+          }
+        ]
       },
       {
         "seq": "2912",
         "jeju": "멘몸",
         "standard": "알몸",
         "soundUrl": "/audio/2912.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "영 해보라 나도 한 번 때려보게 아 내일 내 멘몸을 때렸구나",
+            "standard": "이렇게 해보라 나도 한 번 때려보게 아 내일 내 알몸을 때렸구나"
+          }
+        ]
       }
     ]
   },
@@ -3203,7 +3593,13 @@
         "jeju": "소곰",
         "standard": "소금",
         "soundUrl": "/audio/6747.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "싱싱하게 소곰만 잘 쓰믄",
+            "standard": "싱싱하게 소금만 잘 쓰면"
+          }
+        ]
       },
       {
         "seq": "3451",
@@ -3261,14 +3657,26 @@
         "jeju": "곤죽",
         "standard": "쌀죽",
         "soundUrl": "/audio/3419.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "주루룩 주루룩허멍 죽쓰면 그 아플 때 그거 잘 써줘났주게 겡해그넹 그거 허면예 지금은 곤죽 써 가지고 허주만은",
+            "standard": "주루룩 주루룩 하면서 죽쓰면 그 아플 때 그거 잘 써줬었거든 그래서 그거 허하면 지금은 쌀죽 써 가지고 하지만"
+          }
+        ]
       },
       {
         "seq": "3433",
         "jeju": "넹수",
         "standard": "냉수",
         "soundUrl": "/audio/3433.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "먼저 사우나가 넹수에 가만히 컹앉아이시면 지금저녁까지 시려운데",
+            "standard": "먼저 사우나가 냉수에 가만히 담겨앉아있으면 지금저녁까지 시려운데"
+          }
+        ]
       },
       {
         "seq": "3525",
@@ -3282,7 +3690,13 @@
         "jeju": "소쥐",
         "standard": "소주",
         "soundUrl": "/audio/6750.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "강 소쥐도 한 잔 먹고 싶고",
+            "standard": "가서 소주도 한 잔 먹고 싶고"
+          }
+        ]
       }
     ]
   },
@@ -3315,7 +3729,13 @@
         "jeju": "짐끼",
         "standard": "김치",
         "soundUrl": "/audio/3536.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "짐끼에 어떤걸 담과보카",
+            "standard": "김치에 어떤걸 담굴까"
+          }
+        ]
       },
       {
         "seq": "4345",
@@ -3339,7 +3759,13 @@
         "jeju": "물장",
         "standard": "간장",
         "soundUrl": "/audio/3473.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "물장에 담강 먹었잖우꽈게",
+            "standard": "간장에 담궈서 먹었었잖아요"
+          }
+        ]
       },
       {
         "seq": "4607",
@@ -3380,14 +3806,26 @@
         "jeju": "된술",
         "standard": "막걸리",
         "soundUrl": "/audio/3449.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "하니까 된술을 마신댄",
+            "standard": "하니까 막걸리를 마신대"
+          }
+        ]
       },
       {
         "seq": "6763",
         "jeju": "식게",
         "standard": "식혜",
         "soundUrl": "/audio/6763.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "거기 식게도 이천 원 이라마씀 비싸",
+            "standard": "거기 식혜도 이천 원 이에요 비싸"
+          }
+        ]
       },
       {
         "seq": "6756",
@@ -3411,7 +3849,13 @@
         "jeju": "군것",
         "standard": "간식",
         "soundUrl": "/audio/3425.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "군것으로 우린 거 먹었주게",
+            "standard": "간식으로 우린 그거 먹었지"
+          }
+        ]
       }
     ]
   },
@@ -3485,28 +3929,52 @@
         "jeju": "추니",
         "standard": "항아리",
         "soundUrl": "/audio/1333.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "추니만 이시면 되주게",
+            "standard": "항아리만 있으면 되지"
+          }
+        ]
       },
       {
         "seq": "1222",
         "jeju": "섹경",
         "standard": "거울",
         "soundUrl": "/audio/1222.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "섹경으로 계속 째려보는 거 나를.",
+            "standard": "거울로 계속 째려보는 거 나를."
+          }
+        ]
       },
       {
         "seq": "3284",
         "jeju": "솥덕",
         "standard": "부뚜막",
         "soundUrl": "/audio/3284.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "시어멍은 솥덕에 앉아서도 며느리한테 영허라정허라 한댄말입주",
+            "standard": "시어머니은 부뚜막에 앉아서도 며느리한테 이렇게하라저렇게하라 한다는말이지요"
+          }
+        ]
       },
       {
         "seq": "6770",
         "jeju": "안쥐",
         "standard": "안주",
         "soundUrl": "/audio/6770.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "괘 괜히 맥주 안쥐가 아니",
+            "standard": "괘 괜히 맥주 안주가 아니야"
+          }
+        ]
       },
       {
         "seq": "6774",
@@ -3556,14 +4024,26 @@
         "jeju": "고비리",
         "standard": "중석",
         "soundUrl": "/audio/3410.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "경 해그네양 그거 끓여그네게 주믄양 막 고비리로 먹어 나수다",
+            "standard": "그렇게 해서요 그거 끓여가지고 주면요 막 중석으로 먹어 었어요"
+          }
+        ]
       },
       {
         "seq": "2685",
         "jeju": "우방",
         "standard": "우웡",
         "soundUrl": "/audio/2685.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "원래는 짖음 짖는 법을 몰라서 우방 했는데 지금은 귀 귀청이 찢어질거 닮아 짖는거 보면",
+            "standard": "원래는 짖음 짖는 법을 몰라서 우웡 했는데 지금은 귀 귀청이 찢어질거 같아 짖는거 보면"
+          }
+        ]
       },
       {
         "seq": "6758",
@@ -3727,35 +4207,65 @@
         "jeju": "뒨술",
         "standard": "막걸리",
         "soundUrl": "/audio/3457.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "뒨술은 하나의 인생이야.",
+            "standard": "막걸리는 하나의 인생이야."
+          }
+        ]
       },
       {
         "seq": "3591",
         "jeju": "멘물",
         "standard": "맹물",
         "soundUrl": "/audio/3591.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "경 합니까? 난 멘물이 끌립니다",
+            "standard": "그렇게 합니까? 난 맹물이 끓입니다"
+          }
+        ]
       },
       {
         "seq": "3590",
         "jeju": "멘국",
         "standard": "냉국",
         "soundUrl": "/audio/3590.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "멘국은 끓영 먹고 무쳥 먹어",
+            "standard": "냉국은 끓여서 먹고 무쳐서 먹어"
+          }
+        ]
       },
       {
         "seq": "3588",
         "jeju": "먹거리",
         "standard": "음식",
         "soundUrl": "/audio/3588.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "멸치도 먹거리는 좋은거주",
+            "standard": "멸치도 음식은 좋은거지"
+          }
+        ]
       },
       {
         "seq": "3572",
         "jeju": "피창",
         "standard": "순대",
         "soundUrl": "/audio/3572.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "피창도 넣고 막 겅하잖아",
+            "standard": "순대도 넣고 막 그렇게 하잖아"
+          }
+        ]
       },
       {
         "seq": "3565",
@@ -3819,14 +4329,26 @@
         "jeju": "집장",
         "standard": "찌개",
         "soundUrl": "/audio/3538.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아니 집장으로 말고 졸여그네 콩나물놩",
+            "standard": "아니 찌개로 말고 조려서 콩나물놔서"
+          }
+        ]
       },
       {
         "seq": "3535",
         "jeju": "지이",
         "standard": "마늘",
         "soundUrl": "/audio/3535.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "나 지이를 마농 완전 잘 까",
+            "standard": "나 마늘을 마늘 완전 잘 까"
+          }
+        ]
       },
       {
         "seq": "3527",
@@ -3850,7 +4372,13 @@
         "jeju": "조개송편",
         "standard": "송편",
         "soundUrl": "/audio/3519.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "조개송편도 어서나서 시리떡",
+            "standard": "송편도 없었어 시루떡"
+          }
+        ]
       },
       {
         "seq": "3514",
@@ -3871,7 +4399,13 @@
         "jeju": "젓국",
         "standard": "전국",
         "soundUrl": "/audio/3509.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "걍 젓국에서 일 위 찍었네.",
+            "standard": "걍 전국에서 일 위 찍었잖아."
+          }
+        ]
       },
       {
         "seq": "3506",
@@ -3918,7 +4452,13 @@
         "jeju": "상기",
         "standard": "고명",
         "soundUrl": "/audio/3496.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "상기는 뭘로 썸싱고?",
+            "standard": "고명은 뭘로 쓰는가?"
+          }
+        ]
       },
       {
         "seq": "3479",
@@ -3932,7 +4472,13 @@
         "jeju": "밀팝",
         "standard": "밀밥",
         "soundUrl": "/audio/3475.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그런데 실망행으네 막 안 가커구나게 아 밀팝 먹고 싶다고 그냥 먹으면 안 되냐고",
+            "standard": "그런데 실망해서 막 안 갈꺼구나 아 밀밥 먹고 싶다고 그냥 먹으면 안 되냐고"
+          }
+        ]
       },
       {
         "seq": "3460",
@@ -3960,14 +4506,26 @@
         "jeju": "넹멘",
         "standard": "냉면",
         "soundUrl": "/audio/3432.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "넹멘만 전문 하주게 거면",
+            "standard": "냉면만 전문 하지 그러면"
+          }
+        ]
       },
       {
         "seq": "3429",
         "jeju": "날밥",
         "standard": "정심",
         "soundUrl": "/audio/3429.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "뭐야 이거? 막 할망 이거 막 뼈도 뽀사 눈 도시려와 날밥도 오락가락해. 또 막 -뭐래- 뭐핸- 뭐핸 막 아까 해신디게",
+            "standard": "뭐야 이거? 아주 할머니 이거 막 뼈도 부수었어 눈 도시려워 정심도 오락가락해. 또 막 -뭐래- 뭐핸- 뭐핸 막 아까 했는데"
+          }
+        ]
       }
     ]
   },
@@ -4035,7 +4593,13 @@
         "jeju": "물둠비",
         "standard": "순두부",
         "soundUrl": "/audio/3600.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "내가 해도 물둠비는 그것보다 맛있게 할켜.",
+            "standard": "내가 해도 순두부는 그것보다 맛있게 할거야."
+          }
+        ]
       },
       {
         "seq": "3598",
@@ -4049,7 +4613,13 @@
         "jeju": "콩지이",
         "standard": "콩자반",
         "soundUrl": "/audio/3563.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그때 뭐 콩지이도 되게 맛있게 한댄행게",
+            "standard": "그때 뭐 콩자반도 되게 맛있게 한다고하던데"
+          }
+        ]
       },
       {
         "seq": "3510",
@@ -4079,7 +4649,13 @@
         "jeju": "보리압",
         "standard": "보리밥",
         "soundUrl": "/audio/3487.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "우리는 기냥 맨날 보리압만 먹었는데도",
+            "standard": "우리는 그냥 맨날 보리밥만 먹었는데도"
+          }
+        ]
       },
       {
         "seq": "3483",
@@ -6190,7 +6766,13 @@
         "jeju": "사름친명",
         "standard": "사람",
         "soundUrl": "/audio/5162.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "어순 사름친명은 못 입었거든?",
+            "standard": "없는 사람은 못 입었거든?"
+          }
+        ]
       },
       {
         "seq": "2766",
@@ -6204,7 +6786,13 @@
         "jeju": "족은어멍",
         "standard": "숙모",
         "soundUrl": "/audio/2761.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아 족은어멍도 겅 기도했수과?",
+            "standard": "아 숙모도 그렇게 기도했어요?"
+          }
+        ]
       }
     ]
   },
@@ -6234,28 +6822,52 @@
         "jeju": "장쉬",
         "standard": "장수",
         "soundUrl": "/audio/2732.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그니깐 시험지 장쉬가 너무 많아",
+            "standard": "그러니까 시험지 장수가 너무 많아"
+          }
+        ]
       },
       {
         "seq": "2731",
         "jeju": "장돌뱅이",
         "standard": "머슴",
         "soundUrl": "/audio/2731.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "느가 곯지 않아서냐? 장돌뱅이 살았댄",
+            "standard": "네가 말하지 않았어? 머슴 살았다고"
+          }
+        ]
       },
       {
         "seq": "2711",
         "jeju": "으원",
         "standard": "이원",
         "soundUrl": "/audio/2711.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "화폐하멍 일원 으원 나왔지",
+            "standard": "화폐하면서 일원 이원 나왔지"
+          }
+        ]
       },
       {
         "seq": "2708",
         "jeju": "유우리",
         "standard": "고아",
         "soundUrl": "/audio/2708.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그래서 유우리가 된거야.",
+            "standard": "그래서 고아가 된거야."
+          }
+        ]
       },
       {
         "seq": "2697",
@@ -6283,7 +6895,13 @@
         "jeju": "에미",
         "standard": "어미",
         "soundUrl": "/audio/722.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "에미는 조그맣고 새끼 크고 그니까마씸",
+            "standard": "어미는 조그맣고 새끼 크고 그러니까요"
+          }
+        ]
       }
     ]
   },
@@ -6333,7 +6951,13 @@
         "jeju": "지엣장",
         "standard": "기왓장",
         "soundUrl": "/audio/3356.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "막 지엣장이 쌓여이서",
+            "standard": "막 기왓장이 쌓여있어"
+          }
+        ]
       },
       {
         "seq": "3373",
@@ -6361,14 +6985,26 @@
         "jeju": "우투",
         "standard": "외투",
         "soundUrl": "/audio/6782.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이 우투는 이런 검은색 옷걸이에 통일성을 하라고 핸 정리의 아줌마가",
+            "standard": "이 외투는 이런 검은색 옷걸이에 통일성을 하라고 했어 정리의 아줌마가"
+          }
+        ]
       },
       {
         "seq": "6780",
         "jeju": "옷짓",
         "standard": "옷깃",
         "soundUrl": "/audio/6780.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그냥 안경을 그래서 급하게 꺼내야 되기 때문에 이 옷짓 있잖아 넥라인 여기 다가 딱 끼워 놓고이",
+            "standard": "그냥 안경을 그래서 급하게 꺼내야 되기 때문에 이 옷깃 있잖아 넥라인 여기 다가 딱 끼워 놓고"
+          }
+        ]
       },
       {
         "seq": "807",
@@ -6404,21 +7040,39 @@
         "jeju": "와채",
         "standard": "기와집",
         "soundUrl": "/audio/3312.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "와채 안살앙 초가집 살앙 모를꺼우다",
+            "standard": "기와집 안살아서 초가집 살아서 모를겁니다"
+          }
+        ]
       },
       {
         "seq": "3242",
         "jeju": "벌름",
         "standard": "방앗간",
         "soundUrl": "/audio/3242.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "겅해연 깬 거를 벌름에 강",
+            "standard": "그렇게 깬 거를 방앗간에 가서"
+          }
+        ]
       },
       {
         "seq": "3274",
         "jeju": "상자리",
         "standard": "정자",
         "soundUrl": "/audio/3274.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "상자리가 약해부니까 뭐 어떵",
+            "standard": "정자가 약해서 뭐 어떻게"
+          }
+        ]
       },
       {
         "seq": "3333",
@@ -6432,14 +7086,26 @@
         "jeju": "사포",
         "standard": "모자",
         "soundUrl": "/audio/808.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "거기도 사포도 비싸지예",
+            "standard": "거기도 모자도 비싸죠"
+          }
+        ]
       },
       {
         "seq": "838",
         "jeju": "치메",
         "standard": "치마",
         "soundUrl": "/audio/838.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "치메는 그럴 건디 모르겐.",
+            "standard": "치마는 그럴 건데 모르겠어."
+          }
+        ]
       },
       {
         "seq": "1421",
@@ -6463,7 +7129,13 @@
         "jeju": "단취",
         "standard": "단추",
         "soundUrl": "/audio/776.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "처음에이 단취가 일단 잘못 끼워진 것도 있언",
+            "standard": "처음에 단추가 일단 잘못 끼워진 것도 있었어"
+          }
+        ]
       },
       {
         "seq": "753",
@@ -6592,7 +7264,13 @@
         "jeju": "이사",
         "standard": "의사",
         "soundUrl": "/audio/2718.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이사가 몇년 안남아신게",
+            "standard": "의사가 몇년 안남았네"
+          }
+        ]
       }
     ]
   },
@@ -6731,7 +7409,13 @@
         "jeju": "한질",
         "standard": "큰길",
         "soundUrl": "/audio/230.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "한질로 가민 겁나 빡빡해",
+            "standard": "큰길로 가면 겁나 빡빡해"
+          }
+        ]
       }
     ]
   },
@@ -6825,7 +7509,13 @@
         "jeju": "벡토",
         "standard": "새벽",
         "soundUrl": "/audio/3247.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아 나는 벡토에 안 해봔. 딱",
+            "standard": "아 나는 새벽에 안 해봤어. 딱"
+          }
+        ]
       },
       {
         "seq": "3206",
@@ -7098,7 +7788,13 @@
         "jeju": "드레",
         "standard": "두레박",
         "soundUrl": "/audio/1118.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "저 드레로 영 질엉 올령하는 거는 쏘록 하면 톡 올리면 어떵안한디 아니 그게 약허지않허고 돌에 톡만 하면",
+            "standard": "저 두레박으로 이렇게 질어서 올령하는 거는 쏘록 하면 톡 올리면 괜찮은데 아니 그게 약하지 않고 돌에 톡만 하면"
+          }
+        ]
       },
       {
         "seq": "1337",
@@ -7224,7 +7920,13 @@
         "jeju": "생이집",
         "standard": "새장",
         "soundUrl": "/audio/3692.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그 뭐 청소도 그 저 집에 저 보통때는 그저 뭐라 그 저 뭐랜하니 케이지 그 생이집 안에서",
+            "standard": "그 뭐 청소도 그 저 집에 저 보통때는 그저 뭐야 그 저 뭐라고하니 케이지 그 새장 안에서"
+          }
+        ]
       },
       {
         "seq": "3690",
@@ -7259,7 +7961,13 @@
         "jeju": "부쇠",
         "standard": "부시",
         "soundUrl": "/audio/3671.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "오메오메 너 겅 사사 때려도 될크냐 이리 줘보라 나 부쇠 때려질켜",
+            "standard": "오메오메 너 그렇게 사서 때려도 되겠냐 이리 줘봐라 나 부시 떄려지겠네"
+          }
+        ]
       }
     ]
   },
@@ -7364,7 +8072,13 @@
         "jeju": "가온대",
         "standard": "가운데",
         "soundUrl": "/audio/235.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "여기 가온대만 영 볼랑이네",
+            "standard": "여기 가운데만 이렇게 발라서"
+          }
+        ]
       },
       {
         "seq": "4536",
@@ -7404,7 +8118,13 @@
         "jeju": "허재비",
         "standard": "허수아비",
         "soundUrl": "/audio/6067.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "어떵 경 해? 허재비처럼 나온 거라고?",
+            "standard": "어떻게 그렇게 해? 허수아비처럼 나온 거라고?"
+          }
+        ]
       },
       {
         "seq": "1857",
@@ -7635,7 +8355,13 @@
         "jeju": "손메",
         "standard": "솜씨",
         "soundUrl": "/audio/6853.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "엄마가 손메가 좋으난예",
+            "standard": "엄마가 솜씨가 좋으니까요"
+          }
+        ]
       },
       {
         "seq": "6850",
@@ -7649,49 +8375,91 @@
         "jeju": "소본",
         "standard": "벌초",
         "soundUrl": "/audio/6844.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "우린 소본도 안핸 이번에",
+            "standard": "우린 벌초도 안했어 이번에"
+          }
+        ]
       },
       {
         "seq": "6837",
         "jeju": "소도",
         "standard": "효도",
         "soundUrl": "/audio/6837.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "자식이 소도를 하는 사주마씨",
+            "standard": "자식이 효도를 하는 사주입니다"
+          }
+        ]
       },
       {
         "seq": "6836",
         "jeju": "소관",
         "standard": "소견",
         "soundUrl": "/audio/6836.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이상 소관이 있다하믄 그때 이제 내시경하랜한다고",
+            "standard": "이상 소견이 있다하면 그때 이제 내시경하라고한다고"
+          }
+        ]
       },
       {
         "seq": "6835",
         "jeju": "셍작",
         "standard": "생판",
         "soundUrl": "/audio/6835.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "맛나겠어요 영하고 누가 보면 셍작 모르는 남이라니까?",
+            "standard": "맛나겠어요 이러고 누가 보면 생판 모르는 남이라니까?"
+          }
+        ]
       },
       {
         "seq": "6834",
         "jeju": "셍일",
         "standard": "생일",
         "soundUrl": "/audio/6834.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "너 아방 셍일도 모르느냐",
+            "standard": "너 아버지 생일도 모르느냐"
+          }
+        ]
       },
       {
         "seq": "6101",
         "jeju": "돈짓당",
         "standard": "어부",
         "soundUrl": "/audio/6101.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "잡앙 와야 되고 장만해야 되고 요즘에야 다 장만 되고 뭐 돈짓당이 잡아오고 돈만 주면 탁탁 행 오지만은",
+            "standard": "잡아서 와야 되고 장만해야 되고 요즘에야 다 장만 되고 뭐 어부가 잡아오고 돈만 주면 탁탁 해서 오지만은"
+          }
+        ]
       },
       {
         "seq": "5678",
         "jeju": "훗맛",
         "standard": "뒷맛",
         "soundUrl": "/audio/5678.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "안돼여 안돼. 이거 막 맛좋수다. 돌코롱한게 훗맛이",
+            "standard": "안돼 안돼. 이거 막 맛있어요. 달콤한 것이 뒷맛이"
+          }
+        ]
       }
     ]
   },
@@ -7720,7 +8488,13 @@
         "jeju": "활롱",
         "standard": "유통",
         "soundUrl": "/audio/5668.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그러니까 활롱 구조두 문제라",
+            "standard": "그러니까 유통 구조도 문제라"
+          }
+        ]
       },
       {
         "seq": "5623",
@@ -7751,21 +8525,39 @@
         "jeju": "피상",
         "standard": "비상",
         "soundUrl": "/audio/5612.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "상가 피상이 이거 이서게",
+            "standard": "상가 비상가 이거 있더라"
+          }
+        ]
       },
       {
         "seq": "5598",
         "jeju": "펜리",
         "standard": "편리",
         "soundUrl": "/audio/5598.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "한국이 펜리 그 물도 되게 사기 사기 힘들었던 거 닮은디",
+            "standard": "한국이 편리 그 물도 되게 사기 사기 힘들었던 거 같은데"
+          }
+        ]
       },
       {
         "seq": "5581",
         "jeju": "테도리",
         "standard": "바위",
         "soundUrl": "/audio/5581.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "용두암 그 테도리가 깨져불지않앤?",
+            "standard": "용두암 그 바위가 께져버리지 않았어요?"
+          }
+        ]
       },
       {
         "seq": "5572",
@@ -7829,7 +8621,13 @@
         "jeju": "조통",
         "standard": "교통",
         "soundUrl": "/audio/5466.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "진짜 조통은 짱인 거 같애",
+            "standard": "진짜 교통은 짱인 거 같아"
+          }
+        ]
       },
       {
         "seq": "5465",
@@ -7843,14 +8641,26 @@
         "jeju": "조데",
         "standard": "교대",
         "soundUrl": "/audio/5460.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그런데 지보다 형도 많고게 그래. 조데는",
+            "standard": "그런데 지보다 형도 많고 그래. 교대는"
+          }
+        ]
       },
       {
         "seq": "5446",
         "jeju": "정찰",
         "standard": "경찰",
         "soundUrl": "/audio/5446.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "백인 정찰이 그런 말하맨?",
+            "standard": "백인 경찰이 그런 말해?"
+          }
+        ]
       },
       {
         "seq": "5428",
@@ -7871,7 +8681,13 @@
         "jeju": "저제",
         "standard": "저자",
         "soundUrl": "/audio/5419.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "근데 다음주에 이제 책 저제가 와가지고",
+            "standard": "근데 다음주에 이제 책 저자가 와가지고"
+          }
+        ]
       },
       {
         "seq": "5410",
@@ -7921,7 +8737,13 @@
         "jeju": "일전",
         "standard": "이전",
         "soundUrl": "/audio/5380.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "근데 여기에 주차장 일전에 뭐연?",
+            "standard": "근데 여기에 주차장 이전에 뭐였어?"
+          }
+        ]
       },
       {
         "seq": "5376",
@@ -7935,35 +8757,65 @@
         "jeju": "인싱",
         "standard": "인생",
         "soundUrl": "/audio/5375.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "인싱은 육십부터잖아게",
+            "standard": "인생은 육십부터잖아요"
+          }
+        ]
       },
       {
         "seq": "5374",
         "jeju": "인세",
         "standard": "인사",
         "soundUrl": "/audio/5374.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아 내가 인세도 안 했거든",
+            "standard": "아 내가 인사도 안 했거든"
+          }
+        ]
       },
       {
         "seq": "5370",
         "jeju": "이향",
         "standard": "의향",
         "soundUrl": "/audio/5370.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "나는 다시 찍을 이향도 어서부난",
+            "standard": "나는 다시 찍을 의향도 없어서"
+          }
+        ]
       },
       {
         "seq": "5367",
         "jeju": "이심",
         "standard": "의심",
         "soundUrl": "/audio/5367.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "내 선택에 이심을 하기 시작한대.",
+            "standard": "내 선택에 의심을 하기 시작한대."
+          }
+        ]
       },
       {
         "seq": "5362",
         "jeju": "이녁거",
         "standard": "내것",
         "soundUrl": "/audio/5362.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "응 이녁거도 똑같은 내용만 인",
+            "standard": "응 내것도 똑같은 내용만 있어"
+          }
+        ]
       },
       {
         "seq": "5359",
@@ -8007,7 +8859,13 @@
         "jeju": "예상",
         "standard": "예사",
         "soundUrl": "/audio/5324.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "맞아 근데 예상 꺼는 싸지 안? 십 얼마면 사던데?",
+            "standard": "맞아 근데 예사 꺼는 싸지 않아? 십 얼마면 사던데?"
+          }
+        ]
       },
       {
         "seq": "5319",
@@ -8021,7 +8879,13 @@
         "jeju": "여고",
         "standard": "예고",
         "soundUrl": "/audio/5307.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이거 여고가 어서 내가 그냥 어느 순간 꼴릴 때 하는 거라 내",
+            "standard": "이거 예고가 없어 내가 그냥 어느 순간 마음 내킬 때 하는 거야 내"
+          }
+        ]
       },
       {
         "seq": "5274",
@@ -8035,7 +8899,13 @@
         "jeju": "신립",
         "standard": "신입",
         "soundUrl": "/audio/5248.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "모르지. 신립이랑 할거라?",
+            "standard": "모르지. 신입이랑 할거야?"
+          }
+        ]
       },
       {
         "seq": "5242",
@@ -8089,7 +8959,13 @@
         "jeju": "선체",
         "standard": "선가",
         "soundUrl": "/audio/5198.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "요새 엄마 걷는 운동 안해 마씀? 그 동사무소 에 선체 뭐하는 거 다 끝난?",
+            "standard": "요새 엄마 걷는 운동 안하 세요? 그 동사무소 에 선가 뭐하는 거야 다 끝났어?"
+          }
+        ]
       },
       {
         "seq": "5196",
@@ -8117,7 +8993,13 @@
         "jeju": "불펜",
         "standard": "불편",
         "soundUrl": "/audio/5138.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "같이 살면 잘도 불펜 할 거잖아",
+            "standard": "같이 살면 완전 불편 할 거잖아"
+          }
+        ]
       },
       {
         "seq": "5117",
@@ -8195,21 +9077,39 @@
         "jeju": "멩함",
         "standard": "명함",
         "soundUrl": "/audio/4984.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "멩함을 못 내미는 거 달마 그런디 강",
+            "standard": "명함을 못 내미는 거 같아 그런 곳에 가서"
+          }
+        ]
       },
       {
         "seq": "4980",
         "jeju": "멩령",
         "standard": "명령",
         "soundUrl": "/audio/4980.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "소집 멩령만 허면 아무 대라도",
+            "standard": "소집 명령만 하면 아무 대라도"
+          }
+        ]
       },
       {
         "seq": "4975",
         "jeju": "멘제",
         "standard": "면제",
         "soundUrl": "/audio/4975.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "군 멘제도 그 상당히 유혹적인 말입니다게",
+            "standard": "군 면제도 그 상당히 유혹적인 말입니다"
+          }
+        ]
       },
       {
         "seq": "4962",
@@ -8229,7 +9129,13 @@
         "jeju": "뜨집",
         "standard": "의향",
         "soundUrl": "/audio/4932.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "기분 나빠하지 않고 자기는 다시 애프터가 오면 만날 뜨집이 충분하댄",
+            "standard": "기분 나빠하지 않고 자기는 다시 애프터가 오면 만날 의향이 충분하대"
+          }
+        ]
       },
       {
         "seq": "4922",
@@ -8348,14 +9254,26 @@
         "jeju": "베록",
         "standard": "벼룩",
         "soundUrl": "/audio/2468.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "야 베록에 간을 내 먹어라. 거 나 며칠 햄땐",
+            "standard": "야 벼룩에 간을 내 먹어라. 그거 나 며칠 한다고"
+          }
+        ]
       },
       {
         "seq": "2275",
         "jeju": "물이실",
         "standard": "해파리",
         "soundUrl": "/audio/2275.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "난 뜰 수만 인. 물이실처럼",
+            "standard": "난 뜰 수만 있어. 해파리처럼"
+          }
+        ]
       },
       {
         "seq": "1879",
@@ -8408,7 +9326,13 @@
         "jeju": "산톳",
         "standard": "멧돼지",
         "soundUrl": "/audio/2126.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "산톳이 눈이 안 좋주게 눈이 안 좋아서 도망가는 게 제일 좋긴 하지",
+            "standard": "멧돼지가 눈이 안 좋지 눈이 안 좋아서 도망가는 게 제일 좋긴 하지"
+          }
+        ]
       },
       {
         "seq": "2154",
@@ -8491,7 +9415,13 @@
         "jeju": "가냐귀",
         "standard": "까마귀",
         "soundUrl": "/audio/1752.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아이고 참 가냐귀까지 간시네",
+            "standard": "아이고 참 까마귀까지 갔다"
+          }
+        ]
       }
     ]
   },
@@ -8507,7 +9437,13 @@
         "jeju": "물쇠",
         "standard": "물소",
         "soundUrl": "/audio/2056.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "무사 너 무사 아프리카 물쇠 같은 거 무사 뿔 막 크지 않으냐?",
+            "standard": "왜 너 왜 아프리카 물소 같은 거 왜 뿔 막 크지 않으냐?"
+          }
+        ]
       },
       {
         "seq": "2022",
@@ -8624,7 +9560,13 @@
         "jeju": "돗지름",
         "standard": "비계",
         "soundUrl": "/audio/2026.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "돗지름은 조금 니글거리던디",
+            "standard": "비계는 조금 니글거리던데"
+          }
+        ]
       },
       {
         "seq": "2488",
@@ -8734,7 +9676,13 @@
         "jeju": "가마귀물꾸럭",
         "standard": "불가사리",
         "soundUrl": "/audio/2238.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "가마귀물꾸럭 아니우다 불가사의주",
+            "standard": "불가사리 아닙니다 불가사의지"
+          }
+        ]
       },
       {
         "seq": "2226",
@@ -8869,14 +9817,26 @@
         "jeju": "자최",
         "standard": "자치",
         "soundUrl": "/audio/2587.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "응. 아이스팩에 당겨져 가지고 근데 너 주변에 마트가 없언? 너 자최 했었을때?",
+            "standard": "응. 아이스팩에 당겨져 가지고 근데 너 주변에 마트가 없었어? 너 자치 했었을때?"
+          }
+        ]
       },
       {
         "seq": "2581",
         "jeju": "송벡충",
         "standard": "촌충",
         "soundUrl": "/audio/2581.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "송벡충 구제 약이라",
+            "standard": "촌충 구제 약이다"
+          }
+        ]
       },
       {
         "seq": "2496",
@@ -8890,7 +9850,13 @@
         "jeju": "쉿버렝이",
         "standard": "가시",
         "soundUrl": "/audio/2480.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "굿가시낭이 쉿버렝이가 커 커",
+            "standard": "꾸지뽕나무이 가시가 커 커"
+          }
+        ]
       },
       {
         "seq": "2459",
@@ -8911,7 +9877,13 @@
         "jeju": "홍에",
         "standard": "홍어",
         "soundUrl": "/audio/2415.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "도 그 썩힌 홍에를 꼭 가졍오더라고 밤이 막걸리",
+            "standard": "도 그 썩힌 홍어를 꼭 가지고오더라고 밤이 막걸리"
+          }
+        ]
       },
       {
         "seq": "2409",
@@ -8941,35 +9913,65 @@
         "jeju": "붕에",
         "standard": "장이",
         "soundUrl": "/audio/2389.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "헬스 헬스 붕에 어디 이서?",
+            "standard": "헬스 헬스 장이 어디 있어?"
+          }
+        ]
       },
       {
         "seq": "2386",
         "jeju": "나부복쟁이",
         "standard": "나비",
         "soundUrl": "/audio/2386.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "나부복쟁이처럼 날아부넨 벌처럼 쏘라 거 아니냐게",
+            "standard": "나비처럼 날아서 벌처럼 쏘라 그거 아니냐"
+          }
+        ]
       },
       {
         "seq": "2383",
         "jeju": "보건치",
         "standard": "조기",
         "soundUrl": "/audio/2383.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "노란 보건치가 맛있지 않애?",
+            "standard": "노란 조기가 맛있지 않아?"
+          }
+        ]
       },
       {
         "seq": "2371",
         "jeju": "멩태",
         "standard": "명태",
         "soundUrl": "/audio/2371.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아침에 출근할 때 이 멩태 껍질 티가 이것도 맛있네.",
+            "standard": "아침에 출근할 때 이 명태 껍질 티가 이것도 맛있네."
+          }
+        ]
       },
       {
         "seq": "2360",
         "jeju": "닥살",
         "standard": "딱살",
         "soundUrl": "/audio/2360.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그 위에 닥살 그 동그란 건 완전 쓰네. 어른들 또 그런 거 좋아하고",
+            "standard": "그 위에 딱살 그 동그란 건 완전 쓰잖아. 어른들 또 그런 거 좋아하고"
+          }
+        ]
       },
       {
         "seq": "2344",
@@ -8997,7 +9999,13 @@
         "jeju": "황쇠",
         "standard": "황소",
         "soundUrl": "/audio/2337.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "약간 그런 느낌이연 그니까 육대육하면 황쇠 오대오 하는 느낌이고 약간 그런 느낌 일단 개인적으로 좁은 게 더 좋아부난",
+            "standard": "약간 그런 느낌이었어 그러니까 육대육하면 황소 오대오 하는 느낌이고 약간 그런 느낌 일단 개인적으로 좁은 게 더 좋기때문에"
+          }
+        ]
       }
     ]
   },
@@ -9027,7 +10035,13 @@
         "jeju": "은에",
         "standard": "은어",
         "soundUrl": "/audio/2303.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "중 고등학교 애들 은에를 다 쓰잖아예",
+            "standard": "중 고등학교 애들 은어를 다 쓰잖아요"
+          }
+        ]
       },
       {
         "seq": "2291",
@@ -9133,7 +10147,13 @@
         "jeju": "네복",
         "standard": "내장",
         "soundUrl": "/audio/2039.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "겡 이 네복을 다 떼내잖아마씨",
+            "standard": "그래서 이 내장을 다 떼내잖아요"
+          }
+        ]
       },
       {
         "seq": "2015",
@@ -9181,14 +10201,26 @@
         "jeju": "중숭",
         "standard": "짐승",
         "soundUrl": "/audio/1755.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그래서 이 머리 검은 중숭을 어쩐단말이꽈",
+            "standard": "그래서 이 머리 검은 짐승을 어쩐단말이에요"
+          }
+        ]
       },
       {
         "seq": "2578",
         "jeju": "서미역본대기",
         "standard": "진딧물",
         "soundUrl": "/audio/2578.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "오만 거 다 죽는댄. 그 디디티란 약이 서미역본대기도 죽고",
+            "standard": "오만 거 다 죽는대. 그 디디티란 약이 진딧물도 죽고"
+          }
+        ]
       },
       {
         "seq": "2575",
@@ -9245,7 +10277,13 @@
         "jeju": "노대",
         "standard": "태풍",
         "soundUrl": "/audio/6.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "노대가 잘 막 올나올때 아니?",
+            "standard": "태풍이 잘 막 올나올때 잖아?"
+          }
+        ]
       },
       {
         "seq": "61",
@@ -9259,14 +10297,26 @@
         "jeju": "쐬내기",
         "standard": "소나기",
         "soundUrl": "/audio/48.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "날래 널엉 쐬내기 나와봐 아이고",
+            "standard": "날래 널고 소나기 내려봐 아이고"
+          }
+        ]
       },
       {
         "seq": "53",
         "jeju": "으남",
         "standard": "안개",
         "soundUrl": "/audio/53.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이건 안 나오고 그냥 으남만 보앙 왔구나",
+            "standard": "이건 안 나오고 그냥 안개만 보고 왔구나"
+          }
+        ]
       },
       {
         "seq": "41",
@@ -9290,7 +10340,13 @@
         "jeju": "펀개",
         "standard": "번개",
         "soundUrl": "/audio/64.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "천둥만 펀개를 쳐가면 경 허여?",
+            "standard": "천둥만 번개를 쳐가면 그렇게 해?"
+          }
+        ]
       },
       {
         "seq": "36",
@@ -9326,28 +10382,52 @@
         "jeju": "험벅눈",
         "standard": "함박눈",
         "soundUrl": "/audio/70.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "험벅눈이 뱃넘엉 내렴져 뱃넘어랑 북같 야 진짜 겨울맛 나긴 나네",
+            "standard": "함박눈이 뱃넘엉 내리네 뱃넘어랑 북같 야 진짜 겨울맛 나긴 나네"
+          }
+        ]
       },
       {
         "seq": "72",
         "jeju": "헤돋이",
         "standard": "해돋이",
         "soundUrl": "/audio/72.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그래서 군산 에 헤돋이를 보러간",
+            "standard": "그래서 군산 에 해돋이를 보러갔어"
+          }
+        ]
       },
       {
         "seq": "35",
         "jeju": "빗살",
         "standard": "빗방울",
         "soundUrl": "/audio/35.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "일단 빗살을 허고 그다음",
+            "standard": "일단 빗방울을 하고 그다음"
+          }
+        ]
       },
       {
         "seq": "28",
         "jeju": "무눈",
         "standard": "눈비",
         "soundUrl": "/audio/28.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "걸 태워부러야 되는데 안 태우니까 그냥 묻었잖아 무눈 비와가민 다 내려올 거 아니 물로 바다로",
+            "standard": "그걸 태워버려야 되는데 안 태우니까 그냥 묻었잖아 눈비 비오면 다 내려올 거 아니야? 물로 바다로"
+          }
+        ]
       },
       {
         "seq": "62",
@@ -9368,7 +10448,13 @@
         "jeju": "우녁",
         "standard": "위쪽",
         "soundUrl": "/audio/261.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "바리메 우녁으로 지들커허래 댕겨나서?",
+            "standard": "바리메 위쪽으로 땔감하러 다녔었나?"
+          }
+        ]
       },
       {
         "seq": "257",
@@ -9392,7 +10478,13 @@
         "jeju": "미릿내",
         "standard": "은하수",
         "soundUrl": "/audio/29.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "나 처음으로 미릿내를 봤다마씨",
+            "standard": "나 처음으로 은하수를 봤어요"
+          }
+        ]
       },
       {
         "seq": "73",
@@ -9500,7 +10592,13 @@
         "jeju": "새위",
         "standard": "새우",
         "soundUrl": "/audio/2393.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "거기 새위도 잘한다던디",
+            "standard": "거기 새우도 잘한다던데"
+          }
+        ]
       },
       {
         "seq": "2300",
@@ -9531,14 +10629,26 @@
         "jeju": "셍성",
         "standard": "옥돔",
         "soundUrl": "/audio/2394.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "셍성도 십만원 조사되어",
+            "standard": "옥돔도 십만원 줘야되"
+          }
+        ]
       },
       {
         "seq": "81",
         "jeju": "개맡",
         "standard": "포구",
         "soundUrl": "/audio/81.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "개맡에 이선. 그래서 나는 그때",
+            "standard": "포구에 있언. 그래서 나는 그때"
+          }
+        ]
       }
     ]
   },
@@ -9561,14 +10671,26 @@
         "jeju": "강낭대죽",
         "standard": "옥수수",
         "soundUrl": "/audio/4188.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "강낭대죽은 잘 만들 수 있을 거 닮",
+            "standard": "옥수수는 잘 만들 수 있을 거 같아"
+          }
+        ]
       },
       {
         "seq": "4230",
         "jeju": "사당대죽",
         "standard": "사탕수수",
         "soundUrl": "/audio/4230.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그러면은 아 금 아이들 먹이젠 그걸 사당대죽을 키워서?",
+            "standard": "그러면은 아 그러면 아이들 먹이려고 그걸 사탕수수를 키웠어요?"
+          }
+        ]
       },
       {
         "seq": "4163",
@@ -9592,7 +10714,13 @@
         "jeju": "드룻마농",
         "standard": "달래",
         "soundUrl": "/audio/4316.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "드룻마농이 꿩마늘 아니꽝 아이고 이 할망은 쓰믄 안 되켜",
+            "standard": "달래가 달래 아냐 아이고 이 할머니은 쓰면 안 되겠다"
+          }
+        ]
       },
       {
         "seq": "4348",
@@ -9616,7 +10744,13 @@
         "jeju": "들굽",
         "standard": "두릅",
         "soundUrl": "/audio/4317.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "예 자생하는 고사리밭 있듯이 들굽 이 또 있나봐마씨",
+            "standard": "예 자생하는 고사리밭 있듯이 두릅 이 또 있나봐요"
+          }
+        ]
       },
       {
         "seq": "3958",
@@ -9630,7 +10764,13 @@
         "jeju": "포두",
         "standard": "포도",
         "soundUrl": "/audio/4464.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "저건 포두처럼 생겨신디",
+            "standard": "저건 포도처럼 생겼는데"
+          }
+        ]
       },
       {
         "seq": "4465",
@@ -9653,42 +10793,78 @@
         "jeju": "게가비",
         "standard": "개나리",
         "soundUrl": "/audio/6052.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "게가비도 피고 뭐 철쭉은 이제도 피어있고.",
+            "standard": "개나리도 피고 뭐 철쭉은 이제도 피어있고."
+          }
+        ]
       },
       {
         "seq": "4447",
         "jeju": "제지",
         "standard": "겨자",
         "soundUrl": "/audio/4447.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그니까 제지도 막좋아하는사람 많네 식초 진짜",
+            "standard": "그니까 겨자도 막좋아하는사람 많잖아 식초 진짜"
+          }
+        ]
       },
       {
         "seq": "6108",
         "jeju": "고베기",
         "standard": "고비",
         "soundUrl": "/audio/6108.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아휴 게난 맨날 고베기도 일이여",
+            "standard": "아휴 그러니깐 맨날 고비도 일이야"
+          }
+        ]
       },
       {
         "seq": "6025",
         "jeju": "돔박낭",
         "standard": "동백나무",
         "soundUrl": "/audio/6025.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그 옛날에는 돔박낭 떨어지면 주우러 할망들 많이 다녔지",
+            "standard": "그 옛날에는 동백나무 떨어지면 주우러 할머니들 많이 다녔지"
+          }
+        ]
       },
       {
         "seq": "2679",
         "jeju": "넙곽",
         "standard": "다시마",
         "soundUrl": "/audio/2679.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그 우에 또 넙곽을 덮으는거야.",
+            "standard": "그 위에 또 다시마를 덮는거야."
+          }
+        ]
       },
       {
         "seq": "2561",
         "jeju": "남초",
         "standard": "담배",
         "soundUrl": "/audio/2561.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "맞네 남초도 엄청 피지이?",
+            "standard": "맞네 담배도 엄청 피우지?"
+          }
+        ]
       },
       {
         "seq": "4297",
@@ -9712,14 +10888,26 @@
         "jeju": "지장",
         "standard": "기장",
         "soundUrl": "/audio/4266.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "지장은 심기 싫고 검질이 너무",
+            "standard": "기장은 심기 싫고 김이 너무"
+          }
+        ]
       },
       {
         "seq": "2672",
         "jeju": "낭쎂",
         "standard": "나뭇잎",
         "soundUrl": "/audio/2672.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "게난 낭쎂이 지듯이 어.",
+            "standard": "그러니까 나뭇잎이 지듯이 어."
+          }
+        ]
       },
       {
         "seq": "1553",
@@ -9815,7 +11003,13 @@
         "jeju": "솔낭",
         "standard": "곰솔",
         "soundUrl": "/audio/6121.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아 그려? 국민학교 솔낭 뒤로 저 홍리 그 옛날 운동장 아니고 창고 우리 옛날 살아난 집 이신데 까진디?",
+            "standard": "아 그래? 국민학교 곰솔 뒤로 저 홍리 그 옛날 운동장 아니고 창고 우리 옛날 살았던 집 있는 곳 까진데?"
+          }
+        ]
       }
     ]
   },
@@ -9831,21 +11025,39 @@
         "jeju": "고소",
         "standard": "고삼",
         "soundUrl": "/audio/6114.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "고소만 생각해도 벌써 힘들어.",
+            "standard": "고삼만 생각해도 벌써 힘들어."
+          }
+        ]
       },
       {
         "seq": "4445",
         "jeju": "전기꼿",
         "standard": "진달래",
         "soundUrl": "/audio/4445.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그래서 전기꼿 밭까지 올라 간.",
+            "standard": "그래서 진달래 밭까지 올라 갔어."
+          }
+        ]
       },
       {
         "seq": "4471",
         "jeju": "헤바래기",
         "standard": "해바라기",
         "soundUrl": "/audio/4471.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "그냥 바라기연 헤바래기",
+            "standard": "그냥 바라기여서 해바라기"
+          }
+        ]
       },
       {
         "seq": "6086",
@@ -9969,7 +11181,13 @@
         "jeju": "제피",
         "standard": "계피",
         "soundUrl": "/audio/4021.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "커피에 왜 제피를 타마씸?",
+            "standard": "커피에 왜 계피를 타요?"
+          }
+        ]
       },
       {
         "seq": "4005",
@@ -10013,7 +11231,13 @@
         "jeju": "유룸줄",
         "standard": "조령",
         "soundUrl": "/audio/3988.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "몰른거 해그네 두개 잘라 그네 조려 주랜말이주 유룸줄",
+            "standard": "마른거 해서 두개 잘라 서 조려 주라고말이주 조령"
+          }
+        ]
       },
       {
         "seq": "3975",
@@ -10041,7 +11265,13 @@
         "jeju": "소낭초기",
         "standard": "송이",
         "soundUrl": "/audio/3908.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "아이고 거 비싸주게게 거 포도 소낭초기에 헌 만오천 원 하는 거",
+            "standard": "아이고 거 비싸지 거 포도 송이에 한 만오천 원 하는 거"
+          }
+        ]
       },
       {
         "seq": "3905",
@@ -10105,7 +11335,13 @@
         "jeju": "고배기",
         "standard": "고비",
         "soundUrl": "/audio/2636.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "이 고배기를 어떵 잘들 지내사 될 건디",
+            "standard": "이 고비를 어떻게 잘들 지내야 될 건데"
+          }
+        ]
       },
       {
         "seq": "2547",
@@ -10126,14 +11362,26 @@
         "jeju": "개성게",
         "standard": "수영",
         "soundUrl": "/audio/2520.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "어 맞아 개성게가 짱인디게",
+            "standard": "어 맞아 수영이 짱인데"
+          }
+        ]
       },
       {
         "seq": "2499",
         "jeju": "가마귀숟가락",
         "standard": "살마",
         "soundUrl": "/audio/2499.mp3",
-        "partOfSpeech": "noun"
+        "partOfSpeech": "noun",
+        "examples": [
+          {
+            "jeju": "언니 그리고 그리고 가마귀숟가락 알아?",
+            "standard": "언니 그리고 그리고 살마 알아?"
+          }
+        ]
       },
       {
         "seq": "1694",
