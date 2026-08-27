@@ -105,4 +105,16 @@ test("spoken examples are not dictionary glosses or cut-off fragments", () => {
   );
   assert.equal(texts.some((text) => text.startsWith("봉그다.")), false);
   assert.equal(texts.some((text) => /갑자기 막 어$/.test(text)), false);
+  assert.equal(texts.some((text) => /^이거 .+우다/.test(text)), false);
+  assert.equal(texts.some((text) => /응 줍다 봉그다/.test(text)), false);
+});
+
+test("homographs keep the dictionary meaning", () => {
+  const byJeju = new Map(units.flatMap((unit) => unit.words.map((word) => [word.jeju, word])));
+  const flower = byJeju.get("고장")?.examples ?? [];
+  assert.ok(flower.some((example) => example.standard.includes("꽃")));
+  const shop = byJeju.get("절간")?.examples ?? [];
+  assert.ok(shop.some((example) => example.standard.includes("가게")));
+  const cause = byJeju.get("시기다")?.examples ?? [];
+  assert.ok(cause.some((example) => example.standard.includes("시키")));
 });
