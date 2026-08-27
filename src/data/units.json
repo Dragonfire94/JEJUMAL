@@ -14,8 +14,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "느는 내 책이에요.",
-            "standard": "너는 내 책이에요."
+            "jeju": "느는 밥 먹었어요?",
+            "standard": "너는 밥 먹었어요?"
           }
         ]
       },
@@ -27,8 +27,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "너내는 네가 말한 거예요.",
-            "standard": "너희는 네가 말한 거예요."
+            "jeju": "너내는 언제 왔어요?",
+            "standard": "너희는 언제 왔어요?"
           }
         ]
       },
@@ -66,8 +66,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "무스거는 같이 가요.",
-            "standard": "무엇은 같이 가요."
+            "jeju": "무스거를 사고 싶어요?",
+            "standard": "무엇을 사고 싶어요?"
           }
         ]
       },
@@ -79,8 +79,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "무신은 이름이 뭐예요.",
-            "standard": "무슨은 이름이 뭐예요."
+            "jeju": "무신 책을 읽었어요?",
+            "standard": "무슨 책을 읽었어요?"
           }
         ]
       },
@@ -92,8 +92,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "선매는 얼마예요.",
-            "standard": "얼마는 얼마예요."
+            "jeju": "이 옷 값이 선매예요?",
+            "standard": "이 옷 값이 얼마예요?"
           }
         ]
       },
@@ -105,8 +105,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "그디는 잘 모르겠어요.",
-            "standard": "거기는 잘 모르겠어요."
+            "jeju": "그디는 가 본 적 없어요.",
+            "standard": "거기는 가 본 적 없어요."
           }
         ]
       },
@@ -118,8 +118,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "요디는 여기 있어요.",
-            "standard": "요기는 여기 있어요."
+            "jeju": "책은 요디 있어요.",
+            "standard": "책은 요기 있어요."
           }
         ]
       },
@@ -131,8 +131,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "멧이 명이 모였어요.",
-            "standard": "몇이 명이 모였어요."
+            "jeju": "사름이 멧 명 왔어요?",
+            "standard": "사람이 몇 명 왔어요?"
           }
         ]
       }
@@ -570,8 +570,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "이녁은 저기 보여요.",
-            "standard": "지는 저기 보여요."
+            "jeju": "그건 이녁이 알앙 해요.",
+            "standard": "그건 지가 알아서 해요."
           }
         ]
       },
@@ -1456,8 +1456,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "이디는 누구 거예요.",
-            "standard": "여기는 누구 거예요."
+            "jeju": "이디 있는 책은 누구 거예요?",
+            "standard": "여기 있는 책은 누구 거예요?"
           }
         ]
       },
@@ -1469,8 +1469,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "저디는 그게 맞아요.",
-            "standard": "저기는 그게 맞아요."
+            "jeju": "저디까지 걸어갔어요.",
+            "standard": "저기까지 걸어갔어요."
           }
         ]
       },
@@ -1482,8 +1482,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "이거는 한번 봐요.",
-            "standard": "이것은 한번 봐요."
+            "jeju": "이거 한번 먹어 봐요.",
+            "standard": "이것 한번 먹어 봐요."
           }
         ]
       },
@@ -1495,8 +1495,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "누게는 천천히 말해요.",
-            "standard": "누구는 천천히 말해요."
+            "jeju": "누게가 그 말을 했어요?",
+            "standard": "누가 그 말을 했어요?"
           }
         ]
       },
@@ -1508,8 +1508,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "싯이 개가 남았어요.",
-            "standard": "셋이 개가 남았어요."
+            "jeju": "그중에 싯이 남았어요.",
+            "standard": "그중에 셋이 남았어요."
           }
         ]
       },
@@ -1521,8 +1521,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "여답이 번 읽었어요.",
-            "standard": "여덟이 번 읽었어요."
+            "jeju": "그 책을 여답 번 읽었어요.",
+            "standard": "그 책을 여덟 번 읽었어요."
           }
         ]
       }
@@ -5587,8 +5587,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 문을 페우어요.",
-            "standard": "아침에 문을 펴요."
+            "jeju": "아침에 이불을 페우어요.",
+            "standard": "아침에 이불을 펴요."
           }
         ]
       },
@@ -5600,8 +5600,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 창문을 익어요.",
-            "standard": "아침에 창문을 읽어요."
+            "jeju": "아침에 책을 익어요.",
+            "standard": "아침에 책을 읽어요."
           }
         ]
       },
@@ -5613,8 +5613,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 옷을 앚어요.",
-            "standard": "아침에 옷을 앉아요."
+            "jeju": "아침에 의자에 앚어요.",
+            "standard": "아침에 의자에 앉아요."
           }
         ]
       },
@@ -5626,8 +5626,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 손을 씨어요.",
-            "standard": "아침에 손을 써요."
+            "jeju": "아침에 편지를 씨어요.",
+            "standard": "아침에 편지를 써요."
           }
         ]
       },
@@ -5639,8 +5639,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 밥을 싯어요.",
-            "standard": "아침에 밥을 씻어요."
+            "jeju": "아침에 손을 싯어요.",
+            "standard": "아침에 손을 씻어요."
           }
         ]
       },
@@ -5652,8 +5652,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 물을 무끄어요.",
-            "standard": "아침에 물을 묶어요."
+            "jeju": "아침에 머리를 무끄어요.",
+            "standard": "아침에 머리를 묶어요."
           }
         ]
       },
@@ -5665,8 +5665,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 방을 메어요.",
-            "standard": "아침에 방을 매요."
+            "jeju": "아침에 신발끈을 메어요.",
+            "standard": "아침에 신발끈을 매요."
           }
         ]
       },
@@ -5678,8 +5678,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 길을 들라요.",
-            "standard": "아침에 길을 들어요."
+            "jeju": "아침에 가방을 들라요.",
+            "standard": "아침에 가방을 들어요."
           }
         ]
       },
@@ -5713,8 +5713,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 가방을 귿어요.",
-            "standard": "아침에 가방을 걸어요."
+            "jeju": "아침에 길을 귿어요.",
+            "standard": "아침에 길을 걸어요."
           }
         ]
       },
@@ -5726,8 +5726,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 불을 드르쓰어요.",
-            "standard": "아침에 불을 마셔요."
+            "jeju": "아침에 물을 드르쓰어요.",
+            "standard": "아침에 물을 마셔요."
           }
         ]
       },
@@ -5739,8 +5739,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 머리를 불라요.",
-            "standard": "아침에 머리를 불러요."
+            "jeju": "아침에 노래를 불라요.",
+            "standard": "아침에 노래를 불러요."
           }
         ]
       },
@@ -5752,8 +5752,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 신발을 지드리어요.",
-            "standard": "아침에 신발을 기다려요."
+            "jeju": "아침에 버스를 지드리어요.",
+            "standard": "아침에 버스를 기다려요."
           }
         ]
       },
@@ -5765,8 +5765,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 편지를 몰라요.",
-            "standard": "아침에 편지를 몰라요."
+            "jeju": "아침에 답을 몰라요.",
+            "standard": "아침에 답을 몰라요."
           }
         ]
       },
@@ -5778,8 +5778,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 그릇을 욜어요.",
-            "standard": "아침에 그릇을 열어요."
+            "jeju": "아침에 문을 욜어요.",
+            "standard": "아침에 문을 열어요."
           }
         ]
       },
@@ -5804,8 +5804,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 빨래를 쌉어요.",
-            "standard": "아침에 빨래를 싸워요."
+            "jeju": "아침에 동생과 쌉어요.",
+            "standard": "아침에 동생과 싸워요."
           }
         ]
       },
@@ -5830,8 +5830,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 약을 묻치어요.",
-            "standard": "아침에 약을 물어요."
+            "jeju": "아침에 길을 묻치어요.",
+            "standard": "아침에 길을 물어요."
           }
         ]
       }
@@ -5865,8 +5865,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 숙제를 께우어요.",
-            "standard": "아침에 숙제를 깨워요."
+            "jeju": "아침에 동생을 께우어요.",
+            "standard": "아침에 동생을 깨워요."
           }
         ]
       },
@@ -5878,8 +5878,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 일을 날라요.",
-            "standard": "아침에 일을 날라요."
+            "jeju": "아침에 짐을 날라요.",
+            "standard": "아침에 짐을 날라요."
           }
         ]
       },
@@ -5891,8 +5891,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 이야기를 나무래어요.",
-            "standard": "아침에 이야기를 나무래요."
+            "jeju": "아침에 아이를 나무래어요.",
+            "standard": "아침에 아이를 나무래요."
           }
         ]
       },
@@ -5904,8 +5904,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 노래를 냉기어요.",
-            "standard": "아침에 노래를 남겨요."
+            "jeju": "아침에 밥을 냉기어요.",
+            "standard": "아침에 밥을 남겨요."
           }
         ]
       },
@@ -5930,8 +5930,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 자리를 내불어요.",
-            "standard": "아침에 자리를 내버려요."
+            "jeju": "아침에 쓰레기를 내불어요.",
+            "standard": "아침에 쓰레기를 내버려요."
           }
         ]
       },
@@ -5956,8 +5956,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 책을 어우러지어요.",
-            "standard": "낮에 책을 넘어지어요."
+            "jeju": "낮에 아이가 어우러지어요.",
+            "standard": "낮에 아이가 넘어져요."
           }
         ]
       },
@@ -5969,8 +5969,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 문을 늘루어요.",
-            "standard": "낮에 문을 늘려요."
+            "jeju": "낮에 시간을 늘루어요.",
+            "standard": "낮에 시간을 늘려요."
           }
         ]
       }
@@ -5991,8 +5991,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 창문을 맽기어요.",
-            "standard": "낮에 창문을 맡겨요."
+            "jeju": "낮에 아이를 맽기어요.",
+            "standard": "낮에 아이를 맡겨요."
           }
         ]
       },
@@ -6004,8 +6004,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 옷을 머물라요.",
-            "standard": "낮에 옷을 머물러요."
+            "jeju": "낮에 집에 머물라요.",
+            "standard": "낮에 집에 머물러요."
           }
         ]
       },
@@ -6030,8 +6030,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 밥을 메꾸어요.",
-            "standard": "낮에 밥을 메워요."
+            "jeju": "낮에 구멍을 메꾸어요.",
+            "standard": "낮에 구멍을 메워요."
           }
         ]
       },
@@ -6043,8 +6043,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 물을 몯어요.",
-            "standard": "낮에 물을 모여요."
+            "jeju": "낮에 사람들이 몯어요.",
+            "standard": "낮에 사람들이 모여요."
           }
         ]
       },
@@ -6056,8 +6056,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 방을 메워요.",
-            "standard": "낮에 방을 모아요."
+            "jeju": "낮에 돈을 메워요.",
+            "standard": "낮에 돈을 모아요."
           }
         ]
       },
@@ -6069,8 +6069,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 길을 되쓰어요.",
-            "standard": "낮에 길을 뒤집어요."
+            "jeju": "낮에 이불을 되쓰어요.",
+            "standard": "낮에 이불을 뒤집어요."
           }
         ]
       },
@@ -6082,8 +6082,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 아이를 둥글어요.",
-            "standard": "낮에 아이를 뒹굴어요."
+            "jeju": "낮에 아이가 둥글어요.",
+            "standard": "낮에 아이가 뒹굴어요."
           }
         ]
       },
@@ -6095,8 +6095,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 가방을 털어지어요.",
-            "standard": "낮에 가방을 떨어져요."
+            "jeju": "낮에 가방이 털어져요.",
+            "standard": "낮에 가방이 떨어져요."
           }
         ]
       },
@@ -6108,8 +6108,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 불을 벳기어요.",
-            "standard": "낮에 불을 벗겨요."
+            "jeju": "낮에 옷을 벳기어요.",
+            "standard": "낮에 옷을 벗겨요."
           }
         ]
       }
@@ -6130,8 +6130,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 머리를 베우어요.",
-            "standard": "낮에 머리를 보여요."
+            "jeju": "낮에 산이 베우어요.",
+            "standard": "낮에 산이 보여요."
           }
         ]
       },
@@ -6143,8 +6143,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 신발을 부찌어요.",
-            "standard": "낮에 신발을 붙여요."
+            "jeju": "낮에 우표를 부찌어요.",
+            "standard": "낮에 우표를 붙여요."
           }
         ]
       },
@@ -6156,8 +6156,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 편지를 비끼어요.",
-            "standard": "낮에 편지를 비켜요."
+            "jeju": "낮에 길에서 비끼어요.",
+            "standard": "낮에 길에서 비켜요."
           }
         ]
       },
@@ -6182,8 +6182,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 이불을 발라요.",
-            "standard": "낮에 이불을 발라요."
+            "jeju": "낮에 약을 발라요.",
+            "standard": "낮에 약을 발라요."
           }
         ]
       },
@@ -6195,8 +6195,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 빨래를 버이어요.",
-            "standard": "낮에 빨래를 베어요."
+            "jeju": "낮에 나무를 버이어요.",
+            "standard": "낮에 나무를 베어요."
           }
         ]
       },
@@ -6221,8 +6221,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 약을 고찌어요.",
-            "standard": "낮에 약을 고쳐요."
+            "jeju": "낮에 시계를 고찌어요.",
+            "standard": "낮에 시계를 고쳐요."
           }
         ]
       },
@@ -6234,8 +6234,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 약속을 질들이어요.",
-            "standard": "낮에 약속을 길들여요."
+            "jeju": "낮에 강아지를 질들이어요.",
+            "standard": "낮에 강아지를 길들여요."
           }
         ]
       },
@@ -6248,7 +6248,7 @@
         "examples": [
           {
             "jeju": "낮에 숙제를 파장치어요.",
-            "standard": "낮에 숙제를 끝나요."
+            "standard": "낮에 숙제를 끝내요."
           }
         ]
       }
@@ -6269,8 +6269,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 일을 페어요.",
-            "standard": "낮에 일을 패요."
+            "jeju": "낮에 장작을 페어요.",
+            "standard": "낮에 장작을 패요."
           }
         ]
       },
@@ -6282,8 +6282,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 이야기를 지프(짚으)어요.",
-            "standard": "낮에 이야기를 짚어요."
+            "jeju": "낮에 지팡이를 짚어요.",
+            "standard": "낮에 지팡이를 짚어요."
           }
         ]
       },
@@ -6295,8 +6295,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 노래를 죄어요.",
-            "standard": "낮에 노래를 쥐어요."
+            "jeju": "낮에 연필을 죄어요.",
+            "standard": "낮에 연필을 쥐어요."
           }
         ]
       },
@@ -6321,8 +6321,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 자리를 넬리어요.",
-            "standard": "낮에 자리를 던져요."
+            "jeju": "낮에 공을 넬리어요.",
+            "standard": "낮에 공을 던져요."
           }
         ]
       },
@@ -6334,8 +6334,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 설거지를 잣어요.",
-            "standard": "낮에 설거지를 주워요."
+            "jeju": "낮에 돈을 잣어요.",
+            "standard": "낮에 돈을 주워요."
           }
         ]
       },
@@ -6347,8 +6347,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 책을 얼리어요.",
-            "standard": "저녁에 책을 얼어요."
+            "jeju": "저녁에 물이 얼리어요.",
+            "standard": "저녁에 물이 얼어요."
           }
         ]
       },
@@ -6360,8 +6360,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 문을 쏙어요.",
-            "standard": "저녁에 문을 속아요."
+            "jeju": "저녁에 그 말에 쏙어요.",
+            "standard": "저녁에 그 말에 속아요."
           }
         ]
       },
@@ -6373,8 +6373,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 창문을 심어요.",
-            "standard": "저녁에 창문을 잡아요."
+            "jeju": "저녁에 손을 심어요.",
+            "standard": "저녁에 손을 잡아요."
           }
         ]
       },
@@ -6386,8 +6386,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 옷을 시끄어요.",
-            "standard": "저녁에 옷을 실어요."
+            "jeju": "저녁에 짐을 시끄어요.",
+            "standard": "저녁에 짐을 실어요."
           }
         ]
       }
@@ -6408,8 +6408,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 손을 세요.",
-            "standard": "저녁에 손을 쇠어요."
+            "jeju": "저녁에 명절을 세요.",
+            "standard": "저녁에 명절을 쇠어요."
           }
         ]
       },
@@ -6421,8 +6421,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 밥을 비우어요.",
-            "standard": "저녁에 밥을 부어요."
+            "jeju": "저녁에 물을 비우어요.",
+            "standard": "저녁에 물을 부어요."
           }
         ]
       },
@@ -6434,8 +6434,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 물을 비어요.",
-            "standard": "저녁에 물을 베어요."
+            "jeju": "저녁에 벼를 비어요.",
+            "standard": "저녁에 벼를 베어요."
           }
         ]
       },
@@ -6447,8 +6447,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 방을 부트(붙으)어요.",
-            "standard": "저녁에 방을 붙어요."
+            "jeju": "저녁에 종이가 붙어요.",
+            "standard": "저녁에 종이가 붙어요."
           }
         ]
       },
@@ -6460,8 +6460,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 길을 봉그어요.",
-            "standard": "저녁에 길을 주워요."
+            "jeju": "저녁에 동전을 봉그어요.",
+            "standard": "저녁에 동전을 주워요."
           }
         ]
       },
@@ -6473,8 +6473,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 아이를 벌라요.",
-            "standard": "저녁에 아이를 깨요."
+            "jeju": "저녁에 그릇을 벌라요.",
+            "standard": "저녁에 그릇을 깨요."
           }
         ]
       },
@@ -6486,8 +6486,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 가방을 벋어요.",
-            "standard": "저녁에 가방을 뻗어요."
+            "jeju": "저녁에 팔을 벋어요.",
+            "standard": "저녁에 팔을 뻗어요."
           }
         ]
       },
@@ -6499,8 +6499,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 불을 멎어요.",
-            "standard": "저녁에 불을 묵어요."
+            "jeju": "저녁에 여관에서 멎어요.",
+            "standard": "저녁에 여관에서 묵어요."
           }
         ]
       },
@@ -6512,8 +6512,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 머리를 마트(맡으)어요.",
-            "standard": "저녁에 머리를 맡아요."
+            "jeju": "저녁에 냄새를 맡아요.",
+            "standard": "저녁에 냄새를 맡아요."
           }
         ]
       },
@@ -6525,8 +6525,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 신발을 더끄어요.",
-            "standard": "저녁에 신발을 덮어요."
+            "jeju": "저녁에 이불을 더끄어요.",
+            "standard": "저녁에 이불을 덮어요."
           }
         ]
       }
@@ -6547,8 +6547,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 편지를 담어요.",
-            "standard": "저녁에 편지를 담가요."
+            "jeju": "저녁에 김치를 담어요.",
+            "standard": "저녁에 김치를 담가요."
           }
         ]
       },
@@ -6560,8 +6560,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 그릇을 내치어요.",
-            "standard": "저녁에 그릇을 뱉어요."
+            "jeju": "저녁에 가시를 내치어요.",
+            "standard": "저녁에 가시를 뱉어요."
           }
         ]
       },
@@ -6573,8 +6573,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 이불을 나끄(낚으)어요.",
-            "standard": "저녁에 이불을 낚아요."
+            "jeju": "저녁에 물고기를 낚아요.",
+            "standard": "저녁에 물고기를 낚아요."
           }
         ]
       },
@@ -6586,8 +6586,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 빨래를 뀌어요.",
-            "standard": "저녁에 빨래를 꿰요."
+            "jeju": "저녁에 실을 뀌어요.",
+            "standard": "저녁에 실을 꿰요."
           }
         ]
       },
@@ -6599,8 +6599,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 야채를 흥글어요.",
-            "standard": "저녁에 야채를 흔들어요."
+            "jeju": "저녁에 머리를 흥글어요.",
+            "standard": "저녁에 머리를 흔들어요."
           }
         ]
       },
@@ -6625,8 +6625,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 약속을 흘라요.",
-            "standard": "저녁에 약속을 흘러요."
+            "jeju": "저녁에 시간이 흘라요.",
+            "standard": "저녁에 시간이 흘러요."
           }
         ]
       },
@@ -6638,8 +6638,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 숙제를 후리대기어요.",
-            "standard": "저녁에 숙제를 후려요."
+            "jeju": "저녁에 그물을 후리대기어요.",
+            "standard": "저녁에 그물을 후려요."
           }
         ]
       },
@@ -6651,8 +6651,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 일을 헤우어요.",
-            "standard": "저녁에 일을 헹궈요."
+            "jeju": "저녁에 그릇을 헤우어요.",
+            "standard": "저녁에 그릇을 헹궈요."
           }
         ]
       },
@@ -6664,8 +6664,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 이야기를 피우어요.",
-            "standard": "저녁에 이야기를 풍겨요."
+            "jeju": "저녁에 냄새를 피우어요.",
+            "standard": "저녁에 냄새를 풍겨요."
           }
         ]
       }
@@ -6686,8 +6686,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 노래를 클라요.",
-            "standard": "저녁에 노래를 끌러요."
+            "jeju": "저녁에 매듭을 클라요.",
+            "standard": "저녁에 매듭을 끌러요."
           }
         ]
       },
@@ -6712,8 +6712,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 자리를 처받어요.",
-            "standard": "저녁에 자리를 치받아요."
+            "jeju": "저녁에 차를 처받어요.",
+            "standard": "저녁에 차를 치받아요."
           }
         ]
       },
@@ -6725,8 +6725,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 설거지를 질루어요.",
-            "standard": "저녁에 설거지를 길러요."
+            "jeju": "저녁에 강아지를 질루어요.",
+            "standard": "저녁에 강아지를 길러요."
           }
         ]
       },
@@ -6738,8 +6738,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 책을 지끄어요.",
-            "standard": "지금 책을 기뻐요."
+            "jeju": "지금 마음이 지끄어요.",
+            "standard": "지금 마음이 기뻐요."
           }
         ]
       },
@@ -6764,8 +6764,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 창문을 정글어요.",
-            "standard": "지금 창문을 저물어요."
+            "jeju": "지금 해가 정글어요.",
+            "standard": "지금 해가 저물어요."
           }
         ]
       },
@@ -6777,7 +6777,7 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 옷을 적지어요.",
+            "jeju": "지금 옷을 적져요.",
             "standard": "지금 옷을 적셔요."
           }
         ]
@@ -6790,8 +6790,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 손을 입지어요.",
-            "standard": "지금 손을 입혀요."
+            "jeju": "지금 아이에게 옷을 입지어요.",
+            "standard": "지금 아이에게 옷을 입혀요."
           }
         ]
       },
@@ -6803,8 +6803,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 밥을 용심내어요.",
-            "standard": "지금 밥을 성내요."
+            "jeju": "지금 괜히 용심내어요.",
+            "standard": "지금 괜히 성내요."
           }
         ]
       }
@@ -6825,8 +6825,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 물을 용심나아요.",
-            "standard": "지금 물을 성나요."
+            "jeju": "지금 자꾸 용심나요.",
+            "standard": "지금 자꾸 성나요."
           }
         ]
       },
@@ -6838,8 +6838,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 방을 올라요.",
-            "standard": "지금 방을 올라요."
+            "jeju": "지금 산에 올라요.",
+            "standard": "지금 산에 올라요."
           }
         ]
       },
@@ -6851,8 +6851,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 길을 업지어요.",
-            "standard": "지금 길을 업혀요."
+            "jeju": "지금 아기가 업지어요.",
+            "standard": "지금 아기가 업혀요."
           }
         ]
       },
@@ -6877,8 +6877,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 가방을 앵기어요.",
-            "standard": "지금 가방을 잡혀요."
+            "jeju": "지금 도둑이 앵기어요.",
+            "standard": "지금 도둑이 잡혀요."
           }
         ]
       },
@@ -6890,8 +6890,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 불을 심들어요.",
-            "standard": "지금 불을 힘들어요."
+            "jeju": "지금 일이 심들어요.",
+            "standard": "지금 일이 힘들어요."
           }
         ]
       },
@@ -6904,7 +6904,7 @@
         "examples": [
           {
             "jeju": "엄마가 숙제를 시기어요.",
-            "standard": "엄마가 숙제를 시키려고 해요."
+            "standard": "엄마가 숙제를 시키어요."
           }
         ]
       },
@@ -6916,8 +6916,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 머리를 썽내어요.",
-            "standard": "지금 머리를 성내요."
+            "jeju": "지금 자꾸 썽내어요.",
+            "standard": "지금 자꾸 성내요."
           }
         ]
       },
@@ -6929,8 +6929,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 신발을 셍기어요.",
-            "standard": "지금 신발을 섬겨요."
+            "jeju": "지금 부모를 셍기어요.",
+            "standard": "지금 부모를 섬겨요."
           }
         ]
       },
@@ -6942,8 +6942,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 편지를 설라요.",
-            "standard": "지금 편지를 서러요."
+            "jeju": "지금 마음이 설라요.",
+            "standard": "지금 마음이 서러요."
           }
         ]
       }
@@ -6964,8 +6964,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 그 사람이 히어요.",
-            "standard": "오늘 그 사람이 희어요."
+            "jeju": "오늘 구름이 히어요.",
+            "standard": "오늘 구름이 희어요."
           }
         ]
       },
@@ -6977,8 +6977,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 마음이 해요.",
-            "standard": "오늘 마음이 많아요."
+            "jeju": "오늘 사람이 해요.",
+            "standard": "오늘 사람이 많아요."
           }
         ]
       },
@@ -6990,8 +6990,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 표정이 지프어요.",
-            "standard": "오늘 표정이 깊어요."
+            "jeju": "오늘 물이 지프어요.",
+            "standard": "오늘 물이 깊어요."
           }
         ]
       },
@@ -7003,8 +7003,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 성격이 넙어요.",
-            "standard": "오늘 성격이 넓어요."
+            "jeju": "오늘 마음이 넙어요.",
+            "standard": "오늘 마음이 넓어요."
           }
         ]
       },
@@ -7016,8 +7016,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 목소리가 알리어요.",
-            "standard": "오늘 목소리가 아파요."
+            "jeju": "오늘 목이 알리어요.",
+            "standard": "오늘 목이 아파요."
           }
         ]
       },
@@ -7029,8 +7029,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 일이 조랍어요.",
-            "standard": "오늘 일이 졸려요."
+            "jeju": "오늘 나는 조랍어요.",
+            "standard": "오늘 나는 졸려요."
           }
         ]
       },
@@ -7042,8 +7042,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 날씨가 물라요.",
-            "standard": "오늘 날씨가 물러요."
+            "jeju": "오늘 감이 물라요.",
+            "standard": "오늘 감이 물러요."
           }
         ]
       },
@@ -7055,8 +7055,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 방이 요망지어요.",
-            "standard": "오늘 방이 똑똑해요."
+            "jeju": "오늘 아이가 요망지어요.",
+            "standard": "오늘 아이가 똑똑해요."
           }
         ]
       },
@@ -7068,8 +7068,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 바다가 서느럽어요.",
-            "standard": "오늘 바다가 선선해요."
+            "jeju": "오늘 바람이 서느럽어요.",
+            "standard": "오늘 바람이 선선해요."
           }
         ]
       },
@@ -7081,8 +7081,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 바람이 지껍어요.",
-            "standard": "오늘 바람이 기뻐요."
+            "jeju": "오늘 마음이 지껍어요.",
+            "standard": "오늘 마음이 기뻐요."
           }
         ]
       }
@@ -7116,8 +7116,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 길이 멥어요.",
-            "standard": "오늘 길이 매워요."
+            "jeju": "오늘 음식이 멥어요.",
+            "standard": "오늘 음식이 매워요."
           }
         ]
       },
@@ -7155,8 +7155,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 공기가 훍어요.",
-            "standard": "오늘 공기가 굵어요."
+            "jeju": "오늘 빗줄기가 훍어요.",
+            "standard": "오늘 빗줄기가 굵어요."
           }
         ]
       },
@@ -7168,8 +7168,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 하늘이 지접어요.",
-            "standard": "오늘 하늘이 뜨거워요."
+            "jeju": "오늘 물이 지접어요.",
+            "standard": "오늘 물이 뜨거워요."
           }
         ]
       },
@@ -7181,8 +7181,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 아침이 아깝어요.",
-            "standard": "오늘 아침이 귀여워요."
+            "jeju": "오늘 강아지가 아깝어요.",
+            "standard": "오늘 강아지가 귀여워요."
           }
         ]
       },
@@ -7194,8 +7194,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 빛이 실프어요.",
-            "standard": "오늘 빛이 싫어요."
+            "jeju": "오늘 공부가 실프어요.",
+            "standard": "오늘 공부가 싫어요."
           }
         ]
       },
@@ -7242,8 +7242,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 그 사람이 가벱어요.",
-            "standard": "지금 그 사람이 가벼워요."
+            "jeju": "지금 가방이 가벱어요.",
+            "standard": "지금 가방이 가벼워요."
           }
         ]
       },
@@ -7255,8 +7255,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 마음이 여데어요.",
-            "standard": "지금 마음이 같아요."
+            "jeju": "지금 마음이 전과 여데어요.",
+            "standard": "지금 마음이 전과 같아요."
           }
         ]
       },
@@ -7320,8 +7320,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 날씨가 야리어요.",
-            "standard": "지금 날씨가 여려요."
+            "jeju": "지금 마음이 야리어요.",
+            "standard": "지금 마음이 여려요."
           }
         ]
       },
@@ -7333,8 +7333,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 방이 싸무랍어요.",
-            "standard": "지금 방이 사나워요."
+            "jeju": "지금 날씨가 싸무랍어요.",
+            "standard": "지금 날씨가 사나워요."
           }
         ]
       },
@@ -7359,8 +7359,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 바람이 보미어요.",
-            "standard": "지금 바람이 낡아요."
+            "jeju": "지금 집이 보미어요.",
+            "standard": "지금 집이 낡아요."
           }
         ]
       }
@@ -7381,8 +7381,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 손이 초랍어요.",
-            "standard": "지금 손이 떫어요."
+            "jeju": "지금 감이 초랍어요.",
+            "standard": "지금 감이 떫어요."
           }
         ]
       },
@@ -7407,8 +7407,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 집이 역어요.",
-            "standard": "지금 집이 욕어요."
+            "jeju": "지금 냄새가 역어요.",
+            "standard": "지금 냄새가 욕어요."
           }
         ]
       },
@@ -7420,8 +7420,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 물이 엇어요.",
-            "standard": "지금 물이 웃어요."
+            "jeju": "지금 아기가 엇어요.",
+            "standard": "지금 아기가 웃어요."
           }
         ]
       },
@@ -7433,8 +7433,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 공기가 노프(높으)어요.",
-            "standard": "지금 공기가 높아요."
+            "jeju": "지금 산이 높아요.",
+            "standard": "지금 산이 높아요."
           }
         ]
       },
@@ -7446,8 +7446,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 하늘이 호되어요.",
-            "standard": "지금 하늘이 엄해요."
+            "jeju": "지금 아버지가 호되어요.",
+            "standard": "지금 아버지가 엄해요."
           }
         ]
       },
@@ -7459,8 +7459,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 아침이 줄어요.",
-            "standard": "지금 아침이 여위어요."
+            "jeju": "지금 몸이 줄어요.",
+            "standard": "지금 몸이 여위어요."
           }
         ]
       },
@@ -7472,8 +7472,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 빛이 졸바라요.",
-            "standard": "지금 빛이 발라요."
+            "jeju": "지금 자세가 졸바라요.",
+            "standard": "지금 자세가 발라요."
           }
         ]
       },
@@ -7485,8 +7485,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 기분이 엉기어요.",
-            "standard": "지금 기분이 성겨요."
+            "jeju": "지금 그물이 엉기어요.",
+            "standard": "지금 그물이 성겨요."
           }
         ]
       },
@@ -7498,8 +7498,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 어깨가 실렵어요.",
-            "standard": "지금 어깨가 실립어요."
+            "jeju": "지금 손이 실렵어요.",
+            "standard": "지금 손이 실립어요."
           }
         ]
       }
@@ -7520,7 +7520,7 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 그 사람이 벨나아요.",
+            "jeju": "아침부터 그 사람이 벨나요.",
             "standard": "아침부터 그 사람이 별나요."
           }
         ]
@@ -7533,8 +7533,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 마음이 버치어요.",
-            "standard": "아침부터 마음이 제우어요."
+            "jeju": "아침부터 일이 버치어요.",
+            "standard": "아침부터 일이 제우어요."
           }
         ]
       },
@@ -7559,8 +7559,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 성격이 누리어요.",
-            "standard": "아침부터 성격이 눌러요."
+            "jeju": "아침부터 벨을 누리어요.",
+            "standard": "아침부터 벨을 눌러요."
           }
         ]
       },
@@ -7572,8 +7572,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 목소리가 푸지어요.",
-            "standard": "아침부터 목소리가 푸짐해요."
+            "jeju": "아침부터 음식이 푸지어요.",
+            "standard": "아침부터 음식이 푸짐해요."
           }
         ]
       },
@@ -7598,8 +7598,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 날씨가 부치럽어요.",
-            "standard": "아침부터 날씨가 비끄럽어요."
+            "jeju": "아침부터 내가 부치럽어요.",
+            "standard": "아침부터 내가 비끄럽어요."
           }
         ]
       },
@@ -7611,8 +7611,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 방이 미럽어요.",
-            "standard": "아침부터 방이 미끈해요."
+            "jeju": "아침부터 바닥이 미럽어요.",
+            "standard": "아침부터 바닥이 미끈해요."
           }
         ]
       },
@@ -7624,8 +7624,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 바다가 추접스럽어요.",
-            "standard": "아침부터 바다가 추잡스러워요."
+            "jeju": "아침부터 그 말이 추접스럽어요.",
+            "standard": "아침부터 그 말이 추잡스러워요."
           }
         ]
       },
@@ -7637,8 +7637,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 바람이 야드락지어요.",
-            "standard": "아침부터 바람이 자지러지어요."
+            "jeju": "아침부터 아기가 야드락지어요.",
+            "standard": "아침부터 아기가 자지러져요."
           }
         ]
       }
@@ -7660,7 +7660,7 @@
         "examples": [
           {
             "jeju": "아침부터 손이 버물어요.",
-            "standard": "아침부터 손이 더러워지어요."
+            "standard": "아침부터 손이 더러워져요."
           }
         ]
       },
@@ -7698,8 +7698,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그런 일은 미죽다.",
-            "standard": "그런 일은 담력이 없다."
+            "jeju": "그 사람은 미죽다.",
+            "standard": "그 사람은 담력이 없다."
           }
         ]
       },
@@ -7711,8 +7711,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그 모양은 조라지다.",
-            "standard": "그 모양은 너그럽지 못하다."
+            "jeju": "그 사람은 조라지다.",
+            "standard": "그 사람은 너그럽지 못하다."
           }
         ]
       },
@@ -7724,8 +7724,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "마음이 아니꼽상스럽다.",
-            "standard": "마음이 지나치게 아니꼽다."
+            "jeju": "그 태도가 아니꼽상스럽다.",
+            "standard": "그 태도가 지나치게 아니꼽다."
           }
         ]
       },
@@ -9783,8 +9783,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "벡이 시가 되었어요.",
-            "standard": "백이 시가 되었어요."
+            "jeju": "벡 살까지 살고 싶어요.",
+            "standard": "백 살까지 살고 싶어요."
           }
         ]
       },
@@ -9796,8 +9796,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "쑤물이 살이에요.",
-            "standard": "스물이 살이에요."
+            "jeju": "나이가 벌써 쑤물이 넘었어요.",
+            "standard": "나이가 벌써 스물이 넘었어요."
           }
         ]
       },
@@ -9809,8 +9809,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "여쉰이 권이 있어요.",
-            "standard": "예순이 권이 있어요."
+            "jeju": "이제 여쉰이 다 되었어요.",
+            "standard": "이제 예순이 다 되었어요."
           }
         ]
       },
