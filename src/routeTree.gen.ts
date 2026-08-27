@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ReviewRouteImport } from './routes/review'
+import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as StatsRouteImport } from './routes/stats'
 import { Route as LearnUnitIdRouteImport } from './routes/learn.$unitId'
 
@@ -22,6 +23,11 @@ const IndexRoute = IndexRouteImport.update({
 const ReviewRoute = ReviewRouteImport.update({
   id: '/review',
   path: '/review',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SettingsRoute = SettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
   getParentRoute: () => rootRouteImport,
 } as any)
 const StatsRoute = StatsRouteImport.update({
@@ -38,12 +44,14 @@ const LearnUnitIdRoute = LearnUnitIdRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/review': typeof ReviewRoute
+  '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/review': typeof ReviewRoute
+  '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
 }
@@ -51,20 +59,22 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/review': typeof ReviewRoute
+  '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/review' | '/stats' | '/learn/$unitId'
+  fullPaths: '/' | '/review' | '/settings' | '/stats' | '/learn/$unitId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/review' | '/stats' | '/learn/$unitId'
-  id: '__root__' | '/' | '/review' | '/stats' | '/learn/$unitId'
+  to: '/' | '/review' | '/settings' | '/stats' | '/learn/$unitId'
+  id: '__root__' | '/' | '/review' | '/settings' | '/stats' | '/learn/$unitId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ReviewRoute: typeof ReviewRoute
+  SettingsRoute: typeof SettingsRoute
   StatsRoute: typeof StatsRoute
   LearnUnitIdRoute: typeof LearnUnitIdRoute
 }
@@ -83,6 +93,13 @@ declare module '@tanstack/react-router' {
       path: '/review'
       fullPath: '/review'
       preLoaderRoute: typeof ReviewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/settings': {
+      id: '/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof SettingsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/stats': {
@@ -105,6 +122,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ReviewRoute: ReviewRoute,
+  SettingsRoute: SettingsRoute,
   StatsRoute: StatsRoute,
   LearnUnitIdRoute: LearnUnitIdRoute,
 }

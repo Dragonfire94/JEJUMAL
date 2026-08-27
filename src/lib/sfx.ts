@@ -1,4 +1,25 @@
 let ctx: AudioContext | null = null;
+const SFX_KEY = "jeju-mal:sfx";
+
+function sfxEnabled(): boolean {
+  try {
+    return localStorage.getItem(SFX_KEY) !== "0";
+  } catch {
+    return true;
+  }
+}
+
+export function isSfxOn(): boolean {
+  return sfxEnabled();
+}
+
+export function setSfxOn(on: boolean) {
+  try {
+    localStorage.setItem(SFX_KEY, on ? "1" : "0");
+  } catch {
+    /* ignore */
+  }
+}
 
 function getCtx(): AudioContext | null {
   if (typeof window === "undefined") return null;
@@ -33,6 +54,7 @@ function tone(
 export type SfxKind = "correct" | "wrong" | "fanfare";
 
 export function playSfx(kind: SfxKind) {
+  if (!sfxEnabled()) return;
   const context = getCtx();
   if (!context) return;
   const t = context.currentTime + 0.01;
