@@ -1,19 +1,22 @@
 #!/usr/bin/env python3
-"""Build short textbook examples: Korean sentence, then swap the headword to Jeju.
+"""Build short textbook examples.
 
-Does not read the spoken corpus. One unique sentence body per word.
+Write a clear standard-Korean sentence, then render the same sentence in Jeju:
+every dictionary word plus 해요체 endings (수다/우다/옵서). The Korean line
+stays next to it as the meaning.
 """
 
 from __future__ import annotations
 
 import json
+import re
 import sys
 from itertools import product
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from assemble_examples import has_batchim, particle_for  # noqa: E402
+from assemble_examples import has_batchim, particle_for, split_noun_particle  # noqa: E402
 from extract_aihub_examples import UNITS_PATH, OUT_PATH  # noqa: E402
 
 POLITE = {
@@ -252,14 +255,204 @@ def attach(lemma: str, kind: str) -> str:
     return lemma + particle_for(lemma, particle)
 
 
-def pair(std: str, jeju: str, kind: str | None, template: str) -> dict:
+EXTRA_LEXICON = {
+    "엄마": "어멍",
+    "아버지": "아방",
+    "어머니": "어멍",
+    "부엌": "정지",
+    "물": "물",
+    "밥": "밥",
+    "차": "차",
+    "마당": "마당",
+    "오늘": "오늘",
+    "어제": "어제",
+    "지금": "지금",
+    "조금": "조금",
+    "같이": "같이",
+    "혼자": "혼자",
+    "또": "또",
+    "그냥": "그냥",
+    "잠깐": "잠깐",
+    "오래": "오래",
+    "학교": "학교",
+    "나": "나",
+    "내": "내",
+    "우리": "우리",
+    "잘": "잘",
+    "먼저": "먼저",
+    "다시": "다시",
+    "갑자기": "갑자기",
+    "천천히": "천천히",
+    "그렇게": "경",
+    "이렇게": "영",
+    "하다": "허다",
+    "있다": "싯다",
+    "먹다": "먹다",
+    "보다": "보다",
+    "가다": "가다",
+    "오다": "오다",
+    "말하다": "말허다",
+}
+
+ENDING_SUBS = [
+    ("갔어요", "가언"),
+    ("왔어요", "오언"),
+    ("했어요", "핸"),
+    ("었어요", "언"),
+    ("았어요", "안"),
+    ("였어요", "연"),
+    ("이에요", "우다"),
+    ("예요", "우다"),
+    ("하세요", "허십서"),
+    ("으세요", "읍서"),
+    ("세요", "십서"),
+    ("있어요", "이심수다"),
+    ("없어요", "엇수다"),
+    ("해요", "햄수다"),
+    ("가요", "갑수다"),
+    ("와요", "옵수다"),
+    ("봐요", "봄수다"),
+    ("셔요", "심수다"),
+    ("져요", "점수다"),
+    ("켜요", "켬수다"),
+    ("여요", "염수다"),
+    ("워요", "움수다"),
+    ("어요", "엄수다"),
+    ("아요", "암수다"),
+]
+
+
+def convert_endings(text: str) -> str:
+    for old, new in ENDING_SUBS:
+        if old in text:
+            text = text.replace(old, new)
+    return text
+
+
+def to_past_surface(polite_form: str) -> str:
+    for now, past in (
+        ("해요", "했어요"),
+        ("어요", "었어요"),
+        ("아요", "았어요"),
+        ("여요", "였어요"),
+        ("워요", "웠어요"),
+        ("셔요", "셨어요"),
+        ("가요", "갔어요"),
+        ("와요", "왔어요"),
+        ("봐요", "봤어요"),
+        ("요", "었어요"),
+    ):
+        if polite_form.endswith(now):
+            return polite_form[: -len(now)] + past
+    return polite_form
+
+
+def pick_jeju(std: str, cands: list[str]) -> str:
+    filtered = [item for item in cands if len(item) >= 2] or list(cands)
+    return sorted(filtered, key=lambda item: (len(item), item))[0]
+
+
+def build_lexicon(words: list[dict]) -> dict[str, str]:
+    grouped: dict[str, list[str]] = {}
+    for word in words:
+        grouped.setdefault(word["standard"], []).append(word["jeju"])
+    lex = dict(EXTRA_LEXICON)
+    for std, cands in grouped.items():
+        if std in {"것", "거", "때", "곳", "중", "앞", "뒤", "위"}:
+            continue
+        if len(std) < 2 and std not in {"너", "해"}:
+            continue
+        lex[std] = pick_jeju(std, cands)
+    for word in words:
+        if word["partOfSpeech"] not in {"verb", "adjective"}:
+            continue
+        std, jeju = word["standard"], word["jeju"]
+        if " " in std:
+            continue
+        ko_p = polite(std)
+        je_p = convert_endings(polite(jeju))
+        if ko_p not in {"해요", "아요", "어요"}:
+            lex[ko_p] = je_p
+        lex[to_past_surface(ko_p)] = convert_endings(to_past_surface(polite(jeju)))
+    for std, jeju in list(EXTRA_LEXICON.items()):
+        if std.endswith("다"):
+            ko_p = polite(std)
+            je_p = convert_endings(polite(jeju))
+            if ko_p not in {"해요", "아요", "어요"}:
+                lex[ko_p] = je_p
+            lex[to_past_surface(ko_p)] = convert_endings(to_past_surface(polite(jeju)))
+    lex["앉으세요"] = "앚읍서"
+    lex["앉으십시오"] = "앚읍서"
+    return lex
+
+
+def replace_token(token: str, lex: dict[str, str], head_std: str, head_jeju: str) -> str:
+    if token == head_std:
+        return head_jeju
+    if head_std.endswith("다") and len(head_std) >= 3:
+        stem, je_stem = head_std[:-1], head_jeju[:-1] if head_jeju.endswith("다") else head_jeju
+        if token.startswith(stem) and token != stem:
+            return je_stem + token[len(stem) :]
+    lemma, part = split_noun_particle(token, min_lemma=1)
+    if part == "요":
+        lemma, part = token, ""
+    if lemma == head_std:
+        return head_jeju + (particle_for(head_jeju, part) if part else "")
+    if token in lex:
+        return lex[token]
+    if lemma in lex and part:
+        jeju = lex[lemma]
+        return jeju + particle_for(jeju, part)
+    for key in sorted(lex, key=len, reverse=True):
+        if len(key) < 2 or not token.startswith(key) or token == key:
+            continue
+        rest = token[len(key) :]
+        jeju = lex[key]
+        if rest in {"은", "는", "이", "가", "을", "를", "의", "도", "만", "과", "와", "에", "에서", "마다", "부터", "까지", "처럼"}:
+            return jeju + particle_for(jeju, rest)
+        if len(rest) <= 4:
+            return jeju + rest
+    return token
+
+
+ATOM_RE = re.compile(r"[가-힣A-Za-z0-9]+")
+
+
+def jejuize(korean: str, lex: dict[str, str], head_std: str, head_jeju: str) -> str:
+    bits = ATOM_RE.split(korean)
+    tokens = ATOM_RE.findall(korean)
+    out: list[str] = []
+    idx = 0
+    for bit in bits:
+        out.append(bit)
+        if idx < len(tokens):
+            out.append(replace_token(tokens[idx], lex, head_std, head_jeju))
+            idx += 1
+    text = convert_endings("".join(out))
+    head_hit = head_jeju in text or (len(head_jeju) >= 2 and head_jeju.rstrip("다") in text)
+    if not head_hit:
+        rebuilt: list[str] = []
+        idx = 0
+        bits = ATOM_RE.split(korean)
+        tokens = ATOM_RE.findall(korean)
+        for bit in bits:
+            rebuilt.append(bit)
+            if idx < len(tokens):
+                tok = tokens[idx]
+                lemma, particle = split_noun_particle(tok, 1)
+                if lemma == head_std or tok == head_std:
+                    rebuilt.append(head_jeju + (particle_for(head_jeju, particle) if particle else ""))
+                else:
+                    rebuilt.append(tok)
+                idx += 1
+        text = convert_endings("".join(rebuilt))
+    return text
+
+
+def korean(std: str, kind: str | None, template: str) -> str:
     if kind:
-        s = template.format(w=attach(std, kind))
-        j = template.format(w=attach(jeju, kind))
-    else:
-        s = template.format(w=std)
-        j = template.format(w=jeju)
-    return {"jeju": j, "standard": s}
+        return template.format(w=attach(std, kind))
+    return template.format(w=std)
 
 
 def take(pool: list[str], used: set[str]) -> str:
@@ -426,10 +619,7 @@ def adj_pool() -> list[str]:
 
 
 CUSTOM = {
-    "시기다": {
-        "jeju": "엄마가 숙제를 시기어요.",
-        "standard": "엄마가 숙제를 시키려고 해요.",
-    },
+    "시기다": "엄마가 숙제를 시키려고 해요.",
 }
 
 SPECIAL = {
@@ -445,7 +635,7 @@ SPECIAL = {
 }
 
 
-def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dict) -> dict:
+def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dict) -> str:
     jeju, std, pos = word["jeju"], word["standard"], word["partOfSpeech"]
     theme = unit["themeId"]
 
@@ -455,22 +645,15 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
     if jeju in SPECIAL:
         kind, template = SPECIAL[jeju]
         if pos in {"verb", "adjective"} and "{w}" in template:
-            return {
-                "jeju": template.format(w=polite(jeju)),
-                "standard": template.format(w=polite(std)),
-            }
-        return pair(std, jeju, kind, template)
+            return template.format(w=polite(std))
+        return korean(std, kind, template)
 
     if pos == "noun":
         pred = take(pools["noun"].get(theme, pools["noun"]["talk"]), used.setdefault(f"noun-{theme}", set()))
-        # body/food/home often object or subject
         if theme in {"body", "food", "home"}:
             kind = "obj"
             template = f"{{w}} {pred}."
-        elif theme == "adj":
-            kind = "top"
-            template = f"{{w}} {pred}."
-        elif theme in {"people"}:
+        elif theme in {"adj", "people"}:
             kind = "top"
             template = f"{{w}} {pred}."
         elif theme in {"animals", "nature"}:
@@ -479,7 +662,7 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
         else:
             kind = "obj"
             template = f"나는 {{w}} {pred}."
-        return pair(std, jeju, kind, template)
+        return korean(std, kind, template)
 
     if pos == "pronoun":
         pred = take(
@@ -504,7 +687,7 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
             ],
             used["pronoun"],
         )
-        return pair(std, jeju, "top", f"{{w}} {pred}.")
+        return korean(std, "top", f"{{w}} {pred}.")
 
     if pos == "number":
         pred = take(
@@ -520,12 +703,12 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
             ],
             used["number"],
         )
-        return pair(std, jeju, "subj", f"{{w}} {pred}.")
+        return korean(std, "subj", f"{{w}} {pred}.")
 
     if pos == "adverb":
         pred = take(pools["adverb"], used["adverb"])
         obj, verb = pred.rsplit(" ", 1)
-        return pair(std, jeju, None, f"오늘은 {obj} {{w}} {verb}.")
+        return korean(std, None, f"오늘은 {obj} {{w}} {verb}.")
 
     if pos == "interjection":
         pred = take(
@@ -546,14 +729,11 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
             ],
             used["intj"],
         )
-        return pair(std, jeju, None, f"{{w}}, {pred}.")
+        return korean(std, None, f"{{w}}, {pred}.")
 
     if pos == "verb":
         pred = take(pools["verb"], used["verb"])
-        return {
-            "jeju": pred.format(w=polite(jeju)) + ".",
-            "standard": pred.format(w=polite(std)) + ".",
-        }
+        return pred.format(w=polite(std)) + "."
 
     if pos == "adjective":
         if " " in std:
@@ -568,18 +748,17 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
                 ],
                 used["adj-phrase"],
             )
-            return {"jeju": pred.format(w=jeju), "standard": pred.format(w=std)}
+            return pred.format(w=std)
         pred = take(pools["adj"], used["adj"])
-        return {
-            "jeju": pred.format(w=polite(jeju)) + ".",
-            "standard": pred.format(w=polite(std)) + ".",
-        }
+        return pred.format(w=polite(std)) + "."
 
-    return pair(std, jeju, "ie", "이것은 {w}.")
+    return korean(std, "ie", "이것은 {w}.")
 
 
 def main() -> None:
     units = json.loads(UNITS_PATH.read_text(encoding="utf-8"))
+    words = [word for unit in units for word in unit["words"]]
+    lex = build_lexicon(words)
     pools = {
         "noun": noun_pools(),
         "adverb": adverb_pool(),
@@ -603,7 +782,11 @@ def main() -> None:
         next_words = []
         for word in unit["words"]:
             item = dict(word)
-            example = build_for_word(word, unit, used, pools)
+            standard = build_for_word(word, unit, used, pools)
+            example = {
+                "jeju": jejuize(standard, lex, word["standard"], word["jeju"]),
+                "standard": standard,
+            }
             item["examples"] = [example]
             out[word["seq"]] = [example]
             next_words.append(item)

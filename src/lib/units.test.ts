@@ -124,9 +124,10 @@ test("clean examples cover every word and stay readable", () => {
   assert.equal(units.every((unit) => unit.words.every((word) => (word.examples?.length ?? 0) >= 1)), true);
 
   const wife = byJeju.get("각씨")?.examples ?? [];
-  assert.ok(wife.some((example) => example.jeju.includes("각씨") && example.standard.includes("아내")));
+  assert.ok(wife.some((example) => example.jeju.includes("각씨") && example.jeju.includes("정지") && example.standard.includes("아내")));
   const much = byJeju.get("하영")?.examples ?? [];
   assert.ok(much.some((example) => example.jeju.includes("하영") && example.standard.includes("많이")));
+  assert.equal(much.some((example) => /드르쓰|마시/.test(example.jeju)), true);
   assert.equal(much.some((example) => example.jeju.includes("대변")), false);
 
   const texts = units.flatMap((unit) =>
