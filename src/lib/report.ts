@@ -74,10 +74,13 @@ export function githubIssueUrl(title: string, body: string): string {
   return `${GITHUB_ISSUE}?${params.toString()}`;
 }
 
-export function lastErrorIssueUrl(error: LastError): string {
+export function lastErrorIssueUrl(error: LastError, note = ""): string {
   const when = new Date(error.at).toISOString();
   const extra = Object.entries(error.context)
     .map(([key, value]) => `${key}: ${value}`)
     .join("\n");
-  return githubIssueUrl("[버그] 앱 오류", [`시간: ${when}`, `메시지: ${error.message}`, extra].filter(Boolean).join("\n"));
+  return githubIssueUrl(
+    "[버그] 앱 오류",
+    [note, note ? "---" : "", `시간: ${when}`, `메시지: ${error.message}`, extra].filter(Boolean).join("\n"),
+  );
 }

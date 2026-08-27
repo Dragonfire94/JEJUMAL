@@ -20,6 +20,7 @@ function SettingsPage() {
   const [notifyHint, setNotifyHint] = useState("");
   const lastWord = readLastWord();
   const [lastError, setLastError] = useState(() => readLastError());
+  const [attachError, setAttachError] = useState(() => Boolean(readLastError()));
   const [jeju, setJeju] = useState(() => lastWord?.jeju ?? "");
   const [standard, setStandard] = useState(() => lastWord?.standard ?? "");
   const [contentNote, setContentNote] = useState("");
@@ -39,14 +40,14 @@ function SettingsPage() {
     window.open(githubIssueUrl(`[콘텐츠] ${jeju || "제보"}`, body), "_blank", "noopener");
   }
 
-  function sendLastError() {
-    if (!lastError) return;
-    window.open(lastErrorIssueUrl(lastError), "_blank", "noopener");
-    clearLastError();
-    setLastError(null);
-  }
-
   function sendBug() {
+    if (attachError && lastError) {
+      window.open(lastErrorIssueUrl(lastError, bugNote), "_blank", "noopener");
+      clearLastError();
+      setLastError(null);
+      setAttachError(false);
+      return;
+    }
     window.open(githubIssueUrl("[버그] 앱 오류", bugNote || "(설명 없음)"), "_blank", "noopener");
   }
 
@@ -82,16 +83,6 @@ function SettingsPage() {
         <h1 className="font-display text-2xl font-semibold tracking-tight">설정</h1>
         <p className="mt-1 text-xs text-muted-foreground">화면, 소리, 제보, 이 기기의 기록</p>
       </header>
-
-      {lastError ? (
-        <section className="flex flex-col gap-2 rounded-2xl border border-danger/40 bg-card p-4">
-          <h2 className="font-medium">최근 오류</h2>
-          <p className="text-xs break-words text-muted-foreground">{lastError.message}</p>
-          <Button type="button" onClick={sendLastError}>
-            이 오류 제보하기
-          </Button>
-        </section>
-      ) : null}
 
       <section className="flex flex-col gap-3">
         <h2 className="font-medium">화면</h2>
@@ -174,7 +165,8 @@ function SettingsPage() {
       </section>
 
       <section className="flex flex-col gap-3">
-        <h2 className="font-medium">앱 오류</h2>
+        <h2 className="font-medium">앱이 이상할 때</h2>
+        <p className="text-xs text-muted-foreground">멈췄거나 버튼이 안 먹으면 알려 주세요.</p>
         <textarea
           value={bugNote}
           onChange={(event) => setBugNote(event.target.value)}
@@ -182,6 +174,17 @@ function SettingsPage() {
           rows={3}
           className="resize-none rounded-xl border border-border bg-card px-3 py-2 text-sm outline-none focus:border-foreground"
         />
+        {lastError ? (
+          <label className="flex items-center gap-2 text-sm text-muted-foreground">
+            <input
+              type="checkbox"
+              checked={attachError}
+              onChange={(event) => setAttachError(event.target.checked)}
+              className="size-4 accent-primary"
+            />
+            방금 멈춘 기록도 같이 보내기
+          </label>
+        ) : null}
         <Button type="button" variant="outline" onClick={sendBug}>
           오류 제보하기
         </Button>
