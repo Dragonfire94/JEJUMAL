@@ -1,12 +1,14 @@
 import { BookmarkMinus, BookmarkPlus, Check, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { AudioButton } from "@/components/audio-button";
+import { ExampleLine } from "@/components/example-line";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { useProgress } from "@/lib/progress";
 import type { Question, QuizResult } from "@/lib/quiz";
 import { playSfx } from "@/lib/sfx";
 import { rememberLastWord } from "@/lib/report";
+import { firstExample } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 type QuizViewProps = {
@@ -46,6 +48,7 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
   const isLast = index + 1 >= questions.length;
   const inNotebook = Boolean(notebook[question.word.seq]);
   const groupLabel = question.kind === "listen" ? "소리를 듣고 뜻을 고르세요" : question.prompt;
+  const example = firstExample(question.word);
 
   function choose(choice: string) {
     if (picked) return;
@@ -188,6 +191,12 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
 
       {answered ? (
         <div className="anim-rise flex flex-col gap-2">
+          {example ? (
+            <div className="rounded-xl border border-border bg-card px-4 py-3 text-left">
+              <p className="mb-1 text-[11px] text-muted-foreground">이렇게 씁니다</p>
+              <ExampleLine example={example} />
+            </div>
+          ) : null}
           <Button ref={nextRef} size="lg" className="w-full" onClick={next}>
             {isLast ? "결과 보기" : "다음"}
           </Button>

@@ -1,6 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft, Volume2 } from "lucide-react";
 import { useState } from "react";
+import { ExampleLine } from "@/components/example-line";
 import { QuizView } from "@/components/quiz-view";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -16,7 +17,7 @@ import {
   type Question,
   type QuizResult,
 } from "@/lib/quiz";
-import { formatUnitNumber, getUnit, nextUnit, currentRank, rankFromWave, formatRankUnlockHint, rankUnlockHint, rankIndexOfWave, type Word } from "@/lib/units";
+import { formatUnitNumber, getUnit, nextUnit, currentRank, rankFromWave, firstExample, formatRankUnlockHint, rankUnlockHint, rankIndexOfWave, type Word } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/learn/$unitId")({
@@ -290,22 +291,30 @@ function WordList({ words }: { words: Word[] }) {
 
   return (
     <ul className="stagger-list divide-y divide-border rounded-2xl border border-border bg-card">
-      {words.map((word) => (
-        <li key={word.seq} className="flex items-center gap-3 px-3 py-2">
+      {words.map((word) => {
+        const example = firstExample(word);
+        return (
+        <li key={word.seq} className="flex items-start gap-3 px-3 py-2.5">
           <button
             type="button"
-            className="flex size-10 shrink-0 items-center justify-center rounded-lg text-foreground transition-colors duration-[var(--motion-quick)] hover:bg-muted"
+            className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-lg text-foreground transition-colors duration-[var(--motion-quick)] hover:bg-muted"
             onClick={() => void play(word)}
             aria-label={`${word.jeju} 발음 듣기`}
           >
             <Volume2 className={cn("size-4", playingSeq === word.seq && "animate-pulse text-primary")} />
           </button>
-          <span className="min-w-0 flex-1 font-medium">{word.jeju}</span>
-          <span className="text-sm text-muted-foreground">
-            {failedSeq === word.seq ? "재생 안 됨" : word.standard}
-          </span>
+          <div className="min-w-0 flex-1">
+            <div className="flex items-baseline justify-between gap-3">
+              <span className="font-medium">{word.jeju}</span>
+              <span className="shrink-0 text-sm text-muted-foreground">
+                {failedSeq === word.seq ? "재생 안 됨" : word.standard}
+              </span>
+            </div>
+            {example ? <div className="mt-1"><ExampleLine example={example} /></div> : null}
+          </div>
         </li>
-      ))}
+        );
+      })}
     </ul>
   );
 }

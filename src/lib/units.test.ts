@@ -9,6 +9,7 @@ import {
   nextUnlockStatus,
   rankUnlockHint,
   unitIdsInRank,
+  units,
 } from "./units";
 
 function firstN(rankIndex: number, count: number): string[] {
@@ -77,4 +78,20 @@ test("title follows the highest open rank, not overall percent", () => {
   const skipped = [0, 1, 2, 3].flatMap((rank) => firstN(rank, RANK_ADVANCE_UNITS));
   assert.equal(currentRank(skipped).id, "sang");
   assert.equal(currentRank([0, 1, 2, 3].flatMap((rank) => unitIdsInRank(rank))).id, "dae");
+});
+
+test("spoken examples only attach to real words and stay short", () => {
+  const seqs = new Set(units.flatMap((unit) => unit.words.map((word) => word.seq)));
+  let count = 0;
+  for (const unit of units) {
+    for (const word of unit.words) {
+      for (const example of word.examples ?? []) {
+        count += 1;
+        assert.equal(seqs.has(word.seq), true);
+        assert.ok(example.jeju.length >= 4 && example.jeju.length <= 80);
+        assert.ok(example.standard.length >= 2);
+      }
+    }
+  }
+  assert.ok(count >= 200);
 });

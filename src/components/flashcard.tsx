@@ -1,10 +1,11 @@
 import { Volume2 } from "lucide-react";
 import { useEffect, useState } from "react";
+import { ExampleLine } from "@/components/example-line";
 import { Button } from "@/components/ui/button";
 import { playWord, stopAudio } from "@/lib/audio";
 import { nextIntervalDays, type WrongCard } from "@/lib/progress";
 import { rememberLastWord } from "@/lib/report";
-import { getUnit } from "@/lib/units";
+import { firstExample, getUnit } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 type FlashcardProps = {
@@ -18,8 +19,11 @@ type FlashcardProps = {
 
 export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRemove }: FlashcardProps) {
   const [flipped, setFlipped] = useState(false);
-  const unitTitle = getUnit(card.unitId)?.title;
+  const unit = getUnit(card.unitId);
+  const unitTitle = unit?.title;
   const laterDays = nextIntervalDays(card.intervalDays);
+  const word = unit?.words.find((item) => item.seq === card.seq);
+  const example = word ? firstExample(word) : undefined;
 
   useEffect(() => {
     setFlipped(false);
@@ -40,7 +44,7 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
       <button
         type="button"
         onClick={() => setFlipped((value) => !value)}
-        className="group relative h-64 w-full rounded-2xl border border-border bg-card text-left [perspective:1200px]"
+        className="group relative h-72 w-full rounded-2xl border border-border bg-card text-left [perspective:1200px]"
         aria-label={flipped ? "앞면 보기" : "뒷면 보기"}
       >
         <div
@@ -58,7 +62,13 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 rounded-2xl px-6 [backface-visibility:hidden] [transform:rotateY(180deg)]">
             <p className="text-xs text-muted-foreground">표준어</p>
             <p className="font-display text-4xl font-semibold tracking-tight">{card.standard}</p>
-            <span className="text-xs text-muted-foreground">다시 누르면 제주말로 돌아갑니다</span>
+            {example ? (
+              <div className="mt-1 max-w-sm text-center">
+                <ExampleLine example={example} />
+              </div>
+            ) : (
+              <span className="text-xs text-muted-foreground">다시 누르면 제주말로 돌아갑니다</span>
+            )}
           </div>
         </div>
       </button>
