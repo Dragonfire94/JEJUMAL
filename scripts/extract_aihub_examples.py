@@ -84,6 +84,10 @@ ENDINGS = sorted(
 )
 
 SKIP_MARKERS = ("#", "@", "*")
+REDACT_RE = re.compile(r"(?<![A-Za-z])x{1,10}(?![A-Za-z])", re.I)
+GLOSS_RE = re.compile(r"(란 말|라는 말|라는 뜻|무슨 뜻)")
+ASK_GLOSS_RE = re.compile(r"(뭐꽈|뜻이)")
+DANGLE_TOKENS = {"막", "그", "이", "저", "뭐", "어", "좀", "아", "음", "응"}
 DEICTIC = {
     "그것",
     "이것",
@@ -125,6 +129,39 @@ def hangul_count(text: str) -> int:
 def compact(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip(" \t-.,")
     return re.sub(r"[()]", "", text)
+
+
+def is_redacted(text: str) -> bool:
+    return bool(REDACT_RE.search(text))
+
+
+def last_token(text: str) -> str:
+    tokens = re.findall(r"[가-힣A-Za-z0-9]+", text)
+    return tokens[-1] if tokens else ""
+
+
+def is_dangling(text: str) -> bool:
+    stripped = text.strip()
+    if re.search(r"[.?!]$", stripped):
+        return False
+    return last_token(stripped) in DANGLE_TOKENS
+
+
+def is_gloss(word: dict, jeju: str) -> bool:
+    head = word["jeju"]
+    if GLOSS_RE.search(jeju):
+        return True
+    if re.match(rf"^{re.escape(head)}\.\s*", jeju):
+        return True
+    tokens = re.findall(r"[가-힣]+", jeju)
+    if tokens.count(head) >= 3:
+        return True
+    if tokens.count(head) >= 2 and ASK_GLOSS_RE.search(jeju):
+        return True
+    standard = word["standard"]
+    if standard and re.search(rf"{re.escape(head)}\.\s*{re.escape(standard)}", jeju):
+        return True
+    return False
 
 
 def strip_endings(token: str) -> str:
@@ -221,6 +258,10 @@ def parse_txt(path: Path) -> list[tuple[str, str, list[tuple[str, str]]]]:
         std_sent = compact(PAIR_RE.sub(r"\2", line))
         if any(mark in jeju_sent or mark in std_sent for mark in SKIP_MARKERS):
             continue
+        if is_redacted(jeju_sent) or is_redacted(std_sent):
+            continue
+        if is_dangling(jeju_sent):
+            continue
         n = hangul_count(jeju_sent)
         if n < 6 or n > 40:
             continue
@@ -238,6 +279,10 @@ def parse_json(path: Path) -> list[tuple[str, str, list[tuple[str, str]]]]:
         dialect = compact(str(utt.get("dialect_form") or utt.get("form") or ""))
         standard = compact(str(utt.get("standard_form") or dialect))
         if any(mark in dialect or mark in standard for mark in SKIP_MARKERS):
+            continue
+        if is_redacted(dialect) or is_redacted(standard):
+            continue
+        if is_dangling(dialect):
             continue
         n = hangul_count(dialect)
         if n < 6 or n > 40:
@@ -338,6 +383,8 @@ def main() -> None:
                 std_ok = related(re.sub(r"\s+", "", standard_side), word["standard"])
                 sc = score_example(kind, jeju_sent, std_sent, dialect, standard_side, std_ok)
                 if sc < 10:
+                    continue
+                if is_gloss(word, jeju_sent):
                     continue
                 bucket[seq].append((sc, {"jeju": jeju_sent, "standard": std_sent}))
                 used.add(seq)

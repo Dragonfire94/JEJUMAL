@@ -90,8 +90,19 @@ test("spoken examples only attach to real words and stay short", () => {
         assert.equal(seqs.has(word.seq), true);
         assert.ok(example.jeju.length >= 4 && example.jeju.length <= 80);
         assert.ok(example.standard.length >= 2);
+        assert.equal(/x{2,}/i.test(example.jeju), false);
+        assert.equal(/x{2,}/i.test(example.standard), false);
+        assert.equal(/란 말|라는 뜻/.test(example.jeju), false);
       }
     }
   }
   assert.ok(count >= 200);
+});
+
+test("spoken examples are not dictionary glosses or cut-off fragments", () => {
+  const texts = units.flatMap((unit) =>
+    unit.words.flatMap((word) => (word.examples ?? []).map((example) => example.jeju)),
+  );
+  assert.equal(texts.some((text) => text.startsWith("봉그다.")), false);
+  assert.equal(texts.some((text) => /갑자기 막 어$/.test(text)), false);
 });

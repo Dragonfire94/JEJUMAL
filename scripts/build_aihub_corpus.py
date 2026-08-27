@@ -28,6 +28,7 @@ PAIR_RE = re.compile(r"\(([^()/]+)\)/\(([^()/]+)\)")
 LINE_RE = re.compile(r"^(\d+)\s*:\s*(.*)$")
 SKIP_MARKERS = ("#", "@", "*")
 PUNCT_RE = re.compile(r"[.?!…,~]+$")
+REDACT_RE = re.compile(r"(?<![A-Za-z])x{1,10}(?![A-Za-z])", re.I)
 
 
 def hangul_count(text: str) -> int:
@@ -93,6 +94,8 @@ def parse_file(path: Path) -> list[tuple[str, str, list[tuple[str, str]]]]:
         jeju = compact(PAIR_RE.sub(r"\1", line))
         standard = compact(PAIR_RE.sub(r"\2", line))
         if any(mark in jeju or mark in standard for mark in SKIP_MARKERS):
+            continue
+        if REDACT_RE.search(jeju) or REDACT_RE.search(standard):
             continue
         n = hangul_count(jeju)
         if n < 4 or n > 80:
@@ -273,6 +276,7 @@ def main() -> None:
         "filters": [
             "dialect/standard pair present",
             "no # / @ / * markers",
+            "no xx / xxx redaction leftovers",
             "hangul length 4–80",
             "unique jeju sentence",
             "token kept only when dialect ≠ standard",
