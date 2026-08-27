@@ -133,7 +133,11 @@
 
 `unit_start` `unit_pass` `unit_fail` `retry_start` `notebook_add` `review_done` `rank_open`
 
-단어 텍스트는 안 넣습니다. 지금은 `console.info`. 공개 주소가 생기면 Plausible 등으로 바꿉니다.
+그래서 `track()`만 심었습니다. 이벤트:
+
+`unit_start` `unit_pass` `unit_fail` `retry_start` `notebook_add` `review_done` `rank_open`
+
+단어 텍스트는 안 넣습니다. 지금은 `console.info`이고, `LIVE_HOSTS`가 비어 있어 외부로 안 나갑니다. 공개 주소가 생기면 호스트를 목록에 넣고 PostHog(`autocapture`·세션 리플레이 끔)와 Sentry를 그때 설치합니다.
 
 ---
 
