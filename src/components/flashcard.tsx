@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { playWord, stopAudio } from "@/lib/audio";
 import { nextIntervalDays, type WrongCard } from "@/lib/progress";
+import { rememberLastWord } from "@/lib/report";
 import { getUnit } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
@@ -22,6 +23,7 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
 
   useEffect(() => {
     setFlipped(false);
+    rememberLastWord({ seq: card.seq, jeju: card.jeju, standard: card.standard, unitId: card.unitId });
     void playWord(card).catch(() => undefined);
     return () => stopAudio();
   }, [card.seq, card.soundUrl, card.jeju]);
