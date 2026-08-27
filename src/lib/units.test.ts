@@ -96,7 +96,7 @@ test("spoken examples only attach to real words and stay short", () => {
       }
     }
   }
-  assert.ok(count >= 500);
+  assert.ok(count >= 900);
 });
 
 test("spoken examples are not dictionary glosses or cut-off fragments", () => {
@@ -119,16 +119,20 @@ test("homographs keep the dictionary meaning", () => {
   assert.ok(cause.some((example) => example.standard.includes("시키")));
 });
 
-test("assembled noun examples swap a real frame once and keep the headword", () => {
+test("clean examples cover every word and stay readable", () => {
   const byJeju = new Map(units.flatMap((unit) => unit.words.map((word) => [word.jeju, word])));
-  const wife = byJeju.get("각씨")?.examples ?? [];
-  assert.ok(wife.some((example) => example.jeju.includes("각씨")));
-  const husband = byJeju.get("냄편")?.examples ?? [];
-  assert.ok(husband.some((example) => example.jeju.includes("냄편")));
+  assert.equal(units.every((unit) => unit.words.every((word) => (word.examples?.length ?? 0) >= 1)), true);
 
-  const assembled = units.flatMap((unit) =>
+  const wife = byJeju.get("각씨")?.examples ?? [];
+  assert.ok(wife.some((example) => example.jeju.includes("각씨") && example.standard.includes("아내")));
+  const much = byJeju.get("하영")?.examples ?? [];
+  assert.ok(much.some((example) => example.jeju.includes("하영") && example.standard.includes("많이")));
+  assert.equal(much.some((example) => example.jeju.includes("대변")), false);
+
+  const texts = units.flatMap((unit) =>
     unit.words.flatMap((word) => (word.examples ?? []).map((example) => example.jeju)),
   );
-  assert.equal(assembled.some((text) => /기러기 아빠/.test(text)), false);
-  assert.equal(assembled.some((text) => /이르는 말/.test(text)), false);
+  assert.equal(texts.some((text) => /기\?/.test(text)), false);
+  assert.equal(texts.some((text) => /대변/.test(text)), false);
+  assert.equal(new Set(texts).size, texts.length);
 });

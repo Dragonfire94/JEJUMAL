@@ -12,7 +12,7 @@
 | 원본 파일 | 5,638개 (DZES 1,366 · DZHF 2,396 · DZJD 1,876) |
 | 중복 제거한 예문 | **524,406** |
 | 방언 토큰 | **223,067** |
-| 앱에 붙인 예문 | 1,000단어 중 452개 (653문장). 실사용 244 + 명사 치환 208. 가짜 템플릿 없음 |
+| 앱에 붙인 예문 | 말뭉치는 앱에 안 씀. 앱 예문은 `scripts/build_clean_examples.py` 가 표준어 문장을 만들어 표제어만 제주어로 바꿈 (1,000개) |
 | 말뭉치에 표제어가 그대로 나옴 | 281개 |
 | 조사·어미 붙은 형태로 나옴 | +77개 (예: 각씨 → 각씨가) |
 | 대화에 거의 안 나옴 | 642개 |
@@ -66,9 +66,8 @@ python scripts/search_aihub.py 하르방 --limit 20
 python scripts/build_aihub_corpus.py
 ```
 
-앱에 붙이는 스크립트입니다.
+앱 예문은 말뭉치에서 안 가져갑니다. 대화 조각이 학습용으로 안 맞아서, 표준어 문장을 만든 뒤 표제어만 바꿉니다.
 
 ```bash
-python scripts/extract_aihub_examples.py   # 표제어가 실제로 나온 발화
-python scripts/assemble_examples.py        # 표준어 자리에 제주 표제어 치환. 뼈대는 단어당 1회
+python scripts/build_clean_examples.py
 ```
