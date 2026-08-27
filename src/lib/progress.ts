@@ -45,6 +45,7 @@ type ProgressState = {
   wrongCards: () => WrongCard[];
   wrongCount: () => number;
   continueUnitId: () => string;
+  resetProgress: () => void;
 };
 
 const memory: Record<string, string> = {};
@@ -254,6 +255,13 @@ export const useProgress = create<ProgressState>()(
         }
         return units[0]!.id;
       },
+      resetProgress: () =>
+        set({
+          completedUnitIds: [],
+          lastPlayedUnitId: null,
+          wrongBySeq: {},
+          dailyStats: {},
+        }),
     }),
     {
       name: "jeju-mal:v2",
