@@ -16,7 +16,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from assemble_examples import has_batchim, particle_for, split_noun_particle  # noqa: E402
+from assemble_examples import (  # noqa: E402
+    NOUN_PARTICLES,
+    has_batchim,
+    particle_for,
+    split_noun_particle,
+)
 from extract_aihub_examples import UNITS_PATH, OUT_PATH  # noqa: E402
 
 POLITE = {
@@ -84,11 +89,9 @@ POLITE = {
     "쓰다": "써요",
     "켜다": "켜요",
     "켜지다": "켜져요",
-    "자르다": "잘라요",
     "펴다": "펴요",
     "씻다": "씻어요",
     "걷다": "걸어요",
-    "듣다": "들어요",
     "닫다": "닫아요",
     "붙다": "붙어요",
     "붙이다": "붙여요",
@@ -97,7 +100,6 @@ POLITE = {
     "깨우다": "깨워요",
     "시키다": "시켜요",
     "담그다": "담가요",
-    "오르다": "올라요",
     "넘기다": "넘겨요",
     "남기다": "남겨요",
     "늘리다": "늘려요",
@@ -161,7 +163,6 @@ POLITE = {
     "맡다": "맡아요",
     "맡기다": "맡겨요",
     "묵다": "묵어요",
-    "펴다": "펴요",
     "묶다": "묶어요",
     "매다": "매요",
     "들다": "들어요",
@@ -195,7 +196,6 @@ POLITE = {
     "높다": "높아요",
     "엄하다": "엄해요",
     "여위다": "여위어요",
-    "바르다": "발라요",
     "성기다": "성겨요",
     "별나다": "별나요",
     "푸짐하다": "푸짐해요",
@@ -212,6 +212,8 @@ def polite(lemma: str) -> str:
     lemma = lemma.strip()
     if lemma in POLITE:
         return POLITE[lemma]
+    if lemma.endswith("스럽다"):
+        return lemma[:-3] + "스러워요"
     if " " in lemma or len(lemma) > 8:
         return lemma
     if not lemma.endswith("다"):
@@ -255,78 +257,178 @@ def attach(lemma: str, kind: str) -> str:
     return lemma + particle_for(lemma, particle)
 
 
+# Glue that the 1,000-word reverse lexicon misses, plus 1-character headwords
+# skipped by default. EXTRA wins over the reverse lexicon for these keys.
 EXTRA_LEXICON = {
     "엄마": "어멍",
     "아버지": "아방",
     "어머니": "어멍",
+    "할아버지": "하르방",
+    "할머니": "할망",
+    "아내": "각씨",
+    "남편": "냄편",
     "부엌": "정지",
-    "물": "물",
-    "밥": "밥",
-    "차": "차",
-    "마당": "마당",
-    "오늘": "오늘",
-    "어제": "어제",
-    "지금": "지금",
-    "조금": "조금",
-    "같이": "같이",
-    "혼자": "혼자",
-    "또": "또",
-    "그냥": "그냥",
-    "잠깐": "잠깐",
-    "오래": "오래",
-    "학교": "학교",
-    "나": "나",
-    "내": "내",
-    "우리": "우리",
-    "잘": "잘",
-    "먼저": "먼저",
-    "다시": "다시",
-    "갑자기": "갑자기",
-    "천천히": "천천히",
+    "집": "짓",
+    "길": "질",
+    "꽃": "고장",
+    "가게": "절간",
+    "사람": "사름",
+    "아침": "아적",
+    "저녁": "저냑",
+    "점심": "낮밥",
+    "내일": "닐",
+    "바다": "바당",
+    "나무": "낭",
+    "돌": "돗",
+    "책": "척",
+    "손님": "나그네",
+    "왜": "무사",
+    "너": "느",
+    "비": "주제",
+    "해": "헤",
+    "풀": "쿨",
+    "바람": "바름",
+    "오래": "오라",
+    "같이": "가치",
+    "먼저": "먼젓",
+    "천천히": "슬슬",
+    "급하게": "급허게",
     "그렇게": "경",
     "이렇게": "영",
+    "이쪽으로": "이디로",
+    "여기": "이디",
+    "거기": "그디",
+    "저기": "저디",
+    "어디": "어디",
+    "누구": "누게",
+    "뭐": "무신거",
     "하다": "허다",
     "있다": "싯다",
+    "없다": "엇다",
     "먹다": "먹다",
     "보다": "보다",
     "가다": "가다",
     "오다": "오다",
     "말하다": "말허다",
+    "마시다": "드르쓰다",
+    "기다리다": "지드리다",
+    "돕다": "도왜다",
+    "씻다": "싯다",
+    "걷다": "귿다",
+    "열다": "욜다",
+    "앉다": "앚다",
+    "시키다": "시기다",
 }
 
-ENDING_SUBS = [
+# Longest first. Applied before token split so multi-word Korean is Jeju too.
+PHRASE_PAIRS = [
+    ("이쪽으로", "이디로"),
+    ("해 질 녘에", "헤 질 녘에"),
+    ("비 온 뒤에", "주제 온 뒤에"),
+    ("나무 아래에서", "낭 아래에서"),
+    ("사람들 앞에서", "사름들 앞에서"),
+    ("바닷가에서", "바당가에서"),
+    ("풀밭에서", "쿨밧에서"),
+    ("뭐예요", "무신거우다"),
+    ("누구 거예요", "누게 거우다"),
+    ("얼마예요", "얼마우다"),
+    ("돌 틈에서", "돗 틈에서"),
+    ("급하게", "급허게"),
+    ("그렇게", "경"),
+    ("이렇게", "영"),
+]
+
+# Token suffixes, longest first. Never substring-replace across a whole sentence
+# (도와요 contains 와요).
+ENDING_RULES = [
+    ("으세요", "읍서"),
+    ("십시오", "십서"),
+    ("보세요", "봅서"),
+    ("오세요", "옵서"),
+    ("가세요", "갑서"),
+    ("세요", "십서"),
+    ("았어요", "안"),
+    ("었어요", "언"),
+    ("였어요", "연"),
+    ("했어요", "핸"),
     ("갔어요", "가언"),
     ("왔어요", "오언"),
-    ("했어요", "핸"),
-    ("었어요", "언"),
-    ("았어요", "안"),
-    ("였어요", "연"),
     ("이에요", "우다"),
     ("예요", "우다"),
-    ("하세요", "허십서"),
-    ("으세요", "읍서"),
-    ("세요", "십서"),
     ("있어요", "이심수다"),
     ("없어요", "엇수다"),
+    ("도와요", "도왜암수다"),
+    ("스러워요", "스럼수다"),
     ("해요", "햄수다"),
     ("가요", "갑수다"),
     ("와요", "옵수다"),
     ("봐요", "봄수다"),
-    ("셔요", "심수다"),
     ("져요", "점수다"),
     ("켜요", "켬수다"),
+    ("셔요", "심수다"),
+    ("혀요", "험수다"),
+    ("려요", "렴수다"),
+    ("러요", "럼수다"),
     ("여요", "염수다"),
     ("워요", "움수다"),
     ("어요", "엄수다"),
     ("아요", "암수다"),
 ]
 
+KEEP_YO = {"아니요", "요"}
+ALLOW_ONE = {"너", "해", "집", "길", "꽃", "책", "돌", "왜", "비", "풀"}
+SKIP_STD = {"것", "거", "때", "곳", "중", "앞", "뒤", "위"}
+ATOM_RE = re.compile(r"[가-힣A-Za-z0-9]+")
+MIEUM = 16
 
-def convert_endings(text: str) -> str:
-    for old, new in ENDING_SUBS:
+
+def display_std(std: str) -> str:
+    return std.replace("-", "")
+
+
+def apply_phrases(text: str) -> str:
+    for old, new in PHRASE_PAIRS:
         if old in text:
             text = text.replace(old, new)
     return text
+
+
+def with_mieum_suda(stem: str) -> str:
+    if not stem:
+        return "수다"
+    last = stem[-1]
+    code = ord(last)
+    if not (0xAC00 <= code <= 0xD7A3):
+        return stem + "수다"
+    base = code - 0xAC00
+    cho, jung, jong = base // 588, (base % 588) // 28, base % 28
+    if jong == 0:
+        return stem[:-1] + chr(0xAC00 + cho * 588 + jung * 28 + MIEUM) + "수다"
+    return stem + "엄수다"
+
+
+def convert_token_ending(token: str) -> str:
+    if token in KEEP_YO:
+        return token
+    for old, new in ENDING_RULES:
+        if token.endswith(old):
+            return token[: -len(old)] + new
+    if token.endswith("요") and len(token) >= 2:
+        return with_mieum_suda(token[:-1])
+    return token
+
+
+def convert_endings(text: str) -> str:
+    bits = ATOM_RE.split(text)
+    tokens = ATOM_RE.findall(text)
+    out: list[str] = []
+    idx = 0
+    for bit in bits:
+        out.append(bit)
+        if idx < len(tokens):
+            out.append(convert_token_ending(tokens[idx]))
+            idx += 1
+    return "".join(out)
 
 
 def to_past_surface(polite_form: str) -> str:
@@ -347,112 +449,165 @@ def to_past_surface(polite_form: str) -> str:
     return polite_form
 
 
-def pick_jeju(std: str, cands: list[str]) -> str:
+def pick_jeju(cands: list[str]) -> str:
     filtered = [item for item in cands if len(item) >= 2] or list(cands)
     return sorted(filtered, key=lambda item: (len(item), item))[0]
+
+
+GENERIC_JEJU = {"하다", "허다", "있다", "싯다", "되다"}
+
+
+def add_verb_forms(lex: dict[str, str], std: str, jeju: str) -> None:
+    if " " in std or not std.endswith("다"):
+        return
+    ko_p = polite(std)
+    je_p = convert_endings(polite(jeju))
+    if jeju in GENERIC_JEJU and std not in {"하다", "있다"}:
+        return
+    if ko_p not in {"해요", "아요", "어요"}:
+        lex[ko_p] = je_p
+    lex[to_past_surface(ko_p)] = convert_endings(to_past_surface(polite(jeju)))
 
 
 def build_lexicon(words: list[dict]) -> dict[str, str]:
     grouped: dict[str, list[str]] = {}
     for word in words:
         grouped.setdefault(word["standard"], []).append(word["jeju"])
-    lex = dict(EXTRA_LEXICON)
+    lex: dict[str, str] = {}
     for std, cands in grouped.items():
-        if std in {"것", "거", "때", "곳", "중", "앞", "뒤", "위"}:
+        if std in SKIP_STD:
             continue
-        if len(std) < 2 and std not in {"너", "해"}:
+        if len(std) < 2 and std not in ALLOW_ONE:
             continue
-        lex[std] = pick_jeju(std, cands)
+        jeju = pick_jeju(cands)
+        if jeju in GENERIC_JEJU and std not in {"하다", "있다"}:
+            continue
+        lex[std] = jeju
     for word in words:
         if word["partOfSpeech"] not in {"verb", "adjective"}:
             continue
-        std, jeju = word["standard"], word["jeju"]
-        if " " in std:
-            continue
-        ko_p = polite(std)
-        je_p = convert_endings(polite(jeju))
-        if ko_p not in {"해요", "아요", "어요"}:
-            lex[ko_p] = je_p
-        lex[to_past_surface(ko_p)] = convert_endings(to_past_surface(polite(jeju)))
-    for std, jeju in list(EXTRA_LEXICON.items()):
-        if std.endswith("다"):
-            ko_p = polite(std)
-            je_p = convert_endings(polite(jeju))
-            if ko_p not in {"해요", "아요", "어요"}:
-                lex[ko_p] = je_p
-            lex[to_past_surface(ko_p)] = convert_endings(to_past_surface(polite(jeju)))
+        add_verb_forms(lex, word["standard"], word["jeju"])
+    lex.update(EXTRA_LEXICON)
+    for std, jeju in EXTRA_LEXICON.items():
+        add_verb_forms(lex, std, jeju)
     lex["앉으세요"] = "앚읍서"
     lex["앉으십시오"] = "앚읍서"
     return lex
 
 
-def replace_token(token: str, lex: dict[str, str], head_std: str, head_jeju: str) -> str:
-    if token == head_std:
-        return head_jeju
-    if head_std.endswith("다") and len(head_std) >= 3:
-        stem, je_stem = head_std[:-1], head_jeju[:-1] if head_jeju.endswith("다") else head_jeju
-        if token.startswith(stem) and token != stem:
-            return je_stem + token[len(stem) :]
+def replace_token(token: str, lex: dict[str, str]) -> str:
+    if token in lex:
+        return lex[token]
+    for suf in ("이에요", "예요"):
+        if token.endswith(suf) and len(token) > len(suf):
+            lemma = token[: -len(suf)]
+            if lemma in lex:
+                return lex[lemma] + suf
     lemma, part = split_noun_particle(token, min_lemma=1)
     if part == "요":
         lemma, part = token, ""
-    if lemma == head_std:
-        return head_jeju + (particle_for(head_jeju, part) if part else "")
-    if token in lex:
-        return lex[token]
     if lemma in lex and part:
         jeju = lex[lemma]
         return jeju + particle_for(jeju, part)
+    particles = {
+        "은",
+        "는",
+        "이",
+        "가",
+        "을",
+        "를",
+        "의",
+        "도",
+        "만",
+        "과",
+        "와",
+        "에",
+        "에서",
+        "마다",
+        "부터",
+        "까지",
+        "처럼",
+        "으로",
+        "로",
+        "이에요",
+        "예요",
+    }
     for key in sorted(lex, key=len, reverse=True):
-        if len(key) < 2 or not token.startswith(key) or token == key:
+        if not token.startswith(key) or token == key:
             continue
         rest = token[len(key) :]
         jeju = lex[key]
-        if rest in {"은", "는", "이", "가", "을", "를", "의", "도", "만", "과", "와", "에", "에서", "마다", "부터", "까지", "처럼"}:
-            return jeju + particle_for(jeju, rest)
-        if len(rest) <= 4:
+        if rest in particles:
+            return jeju + (rest if rest in {"이에요", "예요"} else particle_for(jeju, rest))
+        if len(key) >= 2 and len(rest) <= 4:
             return jeju + rest
     return token
 
 
-ATOM_RE = re.compile(r"[가-힣A-Za-z0-9]+")
+def head_variants(head_std: str) -> list[str]:
+    out: list[str] = []
+    for item in (head_std, display_std(head_std), head_std.replace("-", " ")):
+        if item and item not in out:
+            out.append(item)
+    out.sort(key=len, reverse=True)
+    return out
 
 
-def jejuize(korean: str, lex: dict[str, str], head_std: str, head_jeju: str) -> str:
-    bits = ATOM_RE.split(korean)
-    tokens = ATOM_RE.findall(korean)
+def replace_head(text: str, head_std: str, head_jeju: str) -> str:
+    """Put the Jeju headword in before converting the rest of the sentence."""
+    for variant in head_variants(head_std):
+        idx = text.find(variant)
+        if idx < 0:
+            continue
+        after = text[idx + len(variant) :]
+        part = ""
+        rest = after
+        for particle in NOUN_PARTICLES:
+            if after.startswith(particle):
+                part = particle
+                rest = after[len(particle) :]
+                break
+        swapped = head_jeju + (particle_for(head_jeju, part) if part else "")
+        return text[:idx] + swapped + rest
+    if head_std.endswith("다") and len(head_std) >= 3:
+        stem = head_std[:-1]
+        je_stem = head_jeju[:-1] if head_jeju.endswith("다") else head_jeju
+        if stem and stem in text:
+            return text.replace(stem, je_stem, 1)
+    return text
+
+
+def jejuize(
+    korean: str,
+    lex: dict[str, str],
+    head_std: str,
+    head_jeju: str,
+    pos: str = "",
+) -> str:
+    text = replace_head(korean, head_std, head_jeju)
+    text = apply_phrases(text)
+    bits = ATOM_RE.split(text)
+    tokens = ATOM_RE.findall(text)
     out: list[str] = []
     idx = 0
     for bit in bits:
         out.append(bit)
         if idx < len(tokens):
-            out.append(replace_token(tokens[idx], lex, head_std, head_jeju))
+            tok = tokens[idx]
+            if tok == head_jeju and pos in {"verb", "adjective"} and tok.endswith("다"):
+                out.append(convert_endings(polite(tok)))
+            elif tok == head_jeju or (head_jeju and tok.startswith(head_jeju)):
+                out.append(tok)
+            else:
+                out.append(replace_token(tok, lex))
             idx += 1
-    text = convert_endings("".join(out))
-    head_hit = head_jeju in text or (len(head_jeju) >= 2 and head_jeju.rstrip("다") in text)
-    if not head_hit:
-        rebuilt: list[str] = []
-        idx = 0
-        bits = ATOM_RE.split(korean)
-        tokens = ATOM_RE.findall(korean)
-        for bit in bits:
-            rebuilt.append(bit)
-            if idx < len(tokens):
-                tok = tokens[idx]
-                lemma, particle = split_noun_particle(tok, 1)
-                if lemma == head_std or tok == head_std:
-                    rebuilt.append(head_jeju + (particle_for(head_jeju, particle) if particle else ""))
-                else:
-                    rebuilt.append(tok)
-                idx += 1
-        text = convert_endings("".join(rebuilt))
-    return text
+    return convert_endings("".join(out))
 
 
 def korean(std: str, kind: str | None, template: str) -> str:
     if kind:
-        return template.format(w=attach(std, kind))
-    return template.format(w=std)
+        return template.format(w=attach(display_std(std), kind))
+    return template.format(w=display_std(std))
 
 
 def take(pool: list[str], used: set[str]) -> str:
@@ -628,7 +783,7 @@ SPECIAL = {
     "하영": (None, "오늘은 물을 {w} 마셨어요."),
     "각씨": ("top", "{w} 부엌에서 차를 끓여요."),
     "냄편": ("obj", "나는 {w} 저녁마다 기다려요."),
-    "하르방": ("top", "{w} 마루에서 신문을 봐요."),
+    "하르방": ("top", "{w} 마루에서 책을 봐요."),
     "어멍": ("top", "{w} 부엌에서 밥을 지어요."),
     "옵서": (None, "{w}, 이쪽으로 앉으세요."),
     "무사": (None, "{w} 그렇게 급하게 걸어요?"),
@@ -714,8 +869,8 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
         pred = take(
             [
                 "이쪽으로 오세요",
-                "잠깐만 기다려 보세요",
-                "제가 도와드릴게요",
+                "잠깐만 기다려요",
+                "내가 도와요",
                 "지금은 괜찮아요",
                 "내일 다시 만나요",
                 "잘 부탁해요",
@@ -725,7 +880,7 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
                 "큰일 날 뻔했어요",
                 "깜짝 놀랐어요",
                 "천천히 다시 말해요",
-                "제가 먼저 갈게요",
+                "내가 먼저 가요",
             ],
             used["intj"],
         )
@@ -736,7 +891,7 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
         return pred.format(w=polite(std)) + "."
 
     if pos == "adjective":
-        if " " in std:
+        if " " in std or "-" in std:
             pred = take(
                 [
                     "그 사람은 {w}.",
@@ -748,11 +903,37 @@ def build_for_word(word: dict, unit: dict, used: dict[str, set[str]], pools: dic
                 ],
                 used["adj-phrase"],
             )
-            return pred.format(w=std)
+            return pred.format(w=display_std(std))
         pred = take(pools["adj"], used["adj"])
         return pred.format(w=polite(std)) + "."
 
     return korean(std, "ie", "이것은 {w}.")
+
+
+def leftover_report(merged: list[dict]) -> None:
+    yo = []
+    house = []
+    kitchen = []
+    road = []
+    so = []
+    for unit in merged:
+        for word in unit["words"]:
+            text = word["examples"][0]["jeju"]
+            tokens = ATOM_RE.findall(text)
+            if any(tok.endswith("요") and tok != word["jeju"] for tok in tokens):
+                yo.append((word["jeju"], text))
+            if word["jeju"] != "짓" and "집에서" in text:
+                house.append((word["jeju"], text))
+            if "부엌" in text:
+                kitchen.append((word["jeju"], text))
+            if word["jeju"] != "질" and "길을" in text:
+                road.append((word["jeju"], text))
+            if word["jeju"] != "경" and "그렇게" in text:
+                so.append((word["jeju"], text))
+    print(f"leftover 요={len(yo)} 집에서={len(house)} 부엌={len(kitchen)} 길을={len(road)} 그렇게={len(so)}")
+    for label, rows in (("요", yo), ("집", house), ("부엌", kitchen), ("길", road), ("그렇게", so)):
+        for row in rows[:8]:
+            print(f"  {label} {row[0]}: {row[1]}")
 
 
 def main() -> None:
@@ -784,7 +965,9 @@ def main() -> None:
             item = dict(word)
             standard = build_for_word(word, unit, used, pools)
             example = {
-                "jeju": jejuize(standard, lex, word["standard"], word["jeju"]),
+                "jeju": jejuize(
+                    standard, lex, word["standard"], word["jeju"], word["partOfSpeech"]
+                ),
                 "standard": standard,
             }
             item["examples"] = [example]
@@ -796,11 +979,12 @@ def main() -> None:
     UNITS_PATH.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"words {len(out)}  sentences {sum(len(v) for v in out.values())}")
 
-    watch = ["하영", "각씨", "냄편", "옵서", "무사", "고장", "절간", "시기다", "하르방", "어멍"]
+    watch = ["하영", "각씨", "냄편", "옵서", "무사", "고장", "절간", "시기다", "하르방", "어멍", "아방", "사름"]
     by = {w["jeju"]: w for u in merged for w in u["words"]}
     for name in watch:
         w = by.get(name)
         print(f"  {name}: {w['examples'][0] if w else 'n/a'}")
+    leftover_report(merged)
 
 
 if __name__ == "__main__":
