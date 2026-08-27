@@ -1,80 +1,87 @@
 {
   "vocab": 1000,
-  "attachedToApp": 241,
-  "exactTokenInCorpus": 284,
+  "attachedToApp": 237,
+  "exactTokenInCorpus": 281,
   "inflectedTokenInCorpus": 77,
-  "absentAsToken": 639,
-  "note": "exact는 표제어와 토큰이 완전히 같음. inflected는 각씨/각씨가처럼 어미·조사가 붙은 형태. 짧은 한 글자(상, 애, 코)는 동형이의어가 많아 앱 예문에는 안 붙임.",
+  "absentAsToken": 642,
+  "note": "exact는 표제어와 토큰이 같음. inflected는 각씨/각씨가처럼 조사·어미가 붙은 형태. 짧은 한 글자는 동형이의어가 많아 앱 예문에는 안 붙임.",
   "presentNotAttached": [
     {
       "seq": "5177",
       "jeju": "상",
       "standard": "향",
-      "exactHits": 518,
+      "exactHits": 523,
       "inflectedHits": 0
     },
     {
       "seq": "7365",
       "jeju": "그자",
       "standard": "기자",
-      "exactHits": 463,
-      "inflectedHits": 341
+      "exactHits": 452,
+      "inflectedHits": 390
     },
     {
       "seq": "6763",
       "jeju": "식게",
       "standard": "식혜",
-      "exactHits": 307,
-      "inflectedHits": 97
+      "exactHits": 304,
+      "inflectedHits": 95
     },
     {
       "seq": "5706",
       "jeju": "이녁",
       "standard": "지",
-      "exactHits": 132,
-      "inflectedHits": 177
+      "exactHits": 136,
+      "inflectedHits": 169
     },
     {
       "seq": "3052",
       "jeju": "애",
       "standard": "창자",
-      "exactHits": 96,
+      "exactHits": 97,
       "inflectedHits": 0
     },
     {
       "seq": "2872",
       "jeju": "독",
       "standard": "무립",
-      "exactHits": 79,
+      "exactHits": 78,
+      "inflectedHits": 0
+    },
+    {
+      "seq": "5354",
+      "jeju": "원",
+      "standard": "제언",
+      "exactHits": 73,
       "inflectedHits": 0
     },
     {
       "seq": "2811",
       "jeju": "꽝",
       "standard": "뻬",
-      "exactHits": 63,
+      "exactHits": 61,
       "inflectedHits": 0
     },
     {
       "seq": "3407",
       "jeju": "게영",
       "standard": "겡",
-      "exactHits": 56,
+      "exactHits": 59,
       "inflectedHits": 1
-    },
-    {
-      "seq": "5354",
-      "jeju": "원",
-      "standard": "제언",
-      "exactHits": 54,
-      "inflectedHits": 0
     },
     {
       "seq": "7459",
       "jeju": "어서라",
       "standard": "어서",
-      "exactHits": 50,
+      "exactHits": 49,
       "inflectedHits": 20
+    },
+    {
+      "seq": "424",
+      "jeju": "나그네",
+      "standard": "손님",
+      "exactHits": 42,
+      "inflectedHits": 1
     },
     {
       "seq": "7535",
@@ -87,15 +94,8 @@
       "seq": "3162",
       "jeju": "하매",
       "standard": "입병",
-      "exactHits": 38,
+      "exactHits": 37,
       "inflectedHits": 2
-    },
-    {
-      "seq": "424",
-      "jeju": "나그네",
-      "standard": "손님",
-      "exactHits": 35,
-      "inflectedHits": 1
     },
     {
       "seq": "6967",
@@ -103,6 +103,13 @@
       "standard": "매다",
       "exactHits": 29,
       "inflectedHits": 2
+    },
+    {
+      "seq": "5701",
+      "jeju": "무스거",
+      "standard": "무엇",
+      "exactHits": 22,
+      "inflectedHits": 4
     },
     {
       "seq": "7207",
@@ -147,20 +154,6 @@
       "inflectedHits": 0
     },
     {
-      "seq": "3916",
-      "jeju": "속",
-      "standard": "숙",
-      "exactHits": 15,
-      "inflectedHits": 0
-    },
-    {
-      "seq": "3544",
-      "jeju": "청",
-      "standard": "꿀",
-      "exactHits": 15,
-      "inflectedHits": 0
-    },
-    {
       "seq": "5367",
       "jeju": "이심",
       "standard": "의심",
@@ -168,11 +161,25 @@
       "inflectedHits": 22
     },
     {
+      "seq": "3544",
+      "jeju": "청",
+      "standard": "꿀",
+      "exactHits": 14,
+      "inflectedHits": 0
+    },
+    {
       "seq": "2772",
       "jeju": "가달",
       "standard": "각",
       "exactHits": 13,
       "inflectedHits": 2
+    },
+    {
+      "seq": "3916",
+      "jeju": "속",
+      "standard": "숙",
+      "exactHits": 13,
+      "inflectedHits": 0
     },
     {
       "seq": "2450",
@@ -193,14 +200,14 @@
       "jeju": "이사",
       "standard": "의사",
       "exactHits": 12,
-      "inflectedHits": 89
+      "inflectedHits": 88
     },
     {
-      "seq": "1118",
-      "jeju": "드레",
-      "standard": "두레박",
-      "exactHits": 11,
-      "inflectedHits": 3
+      "seq": "1298",
+      "jeju": "제",
+      "standard": "젓가락",
+      "exactHits": 12,
+      "inflectedHits": 0
     },
     {
       "seq": "5046",
@@ -217,18 +224,18 @@
       "inflectedHits": 10
     },
     {
-      "seq": "1298",
-      "jeju": "제",
-      "standard": "젓가락",
-      "exactHits": 11,
-      "inflectedHits": 0
+      "seq": "1118",
+      "jeju": "드레",
+      "standard": "두레박",
+      "exactHits": 10,
+      "inflectedHits": 2
     },
     {
       "seq": "2405",
       "jeju": "자리",
       "standard": "자돔",
       "exactHits": 10,
-      "inflectedHits": 51
+      "inflectedHits": 50
     },
     {
       "seq": "3379",
@@ -252,13 +259,6 @@
       "inflectedHits": 0
     },
     {
-      "seq": "7453",
-      "jeju": "아명",
-      "standard": "아미영",
-      "exactHits": 8,
-      "inflectedHits": 7
-    },
-    {
       "seq": "2819",
       "jeju": "꿈",
       "standard": "춤",
@@ -280,6 +280,13 @@
       "inflectedHits": 3
     },
     {
+      "seq": "7453",
+      "jeju": "아명",
+      "standard": "아미영",
+      "exactHits": 7,
+      "inflectedHits": 7
+    },
+    {
       "seq": "6783",
       "jeju": "우티",
       "standard": "웃옷",
@@ -290,8 +297,15 @@
       "seq": "5376",
       "jeju": "일름",
       "standard": "일홈",
-      "exactHits": 7,
+      "exactHits": 6,
       "inflectedHits": 7
+    },
+    {
+      "seq": "7422",
+      "jeju": "바락",
+      "standard": "바락이",
+      "exactHits": 5,
+      "inflectedHits": 9
     },
     {
       "seq": "5211",
@@ -319,7 +333,7 @@
       "jeju": "그냥",
       "standard": "그대로",
       "exactHits": 4,
-      "inflectedHits": 229
+      "inflectedHits": 227
     },
     {
       "seq": "7354",
@@ -411,20 +425,6 @@
       "standard": "다심",
       "exactHits": 3,
       "inflectedHits": 3
-    },
-    {
-      "seq": "108",
-      "jeju": "따",
-      "standard": "땅",
-      "exactHits": 3,
-      "inflectedHits": 0
-    },
-    {
-      "seq": "5040",
-      "jeju": "반지기",
-      "standard": "상반",
-      "exactHits": 3,
-      "inflectedHits": 4
     }
   ],
   "inflectedNotAttached": [
@@ -432,7 +432,7 @@
       "seq": "1857",
       "jeju": "코시",
       "standard": "고사",
-      "inflectedHits": 53,
+      "inflectedHits": 52,
       "examples": [
         {
           "token": "코시롱",
@@ -452,7 +452,7 @@
         },
         {
           "token": "코시롱하다",
-          "hits": 5,
+          "hits": 4,
           "standards": [
             "고소하다"
           ]
@@ -463,7 +463,7 @@
       "seq": "6114",
       "jeju": "고소",
       "standard": "고삼",
-      "inflectedHits": 35,
+      "inflectedHits": 34,
       "examples": [
         {
           "token": "고소행",
@@ -524,22 +524,21 @@
       "seq": "2965",
       "jeju": "보태",
       "standard": "삼",
-      "inflectedHits": 25,
+      "inflectedHits": 24,
       "examples": [
-        {
-          "token": "보태켄",
-          "hits": 3,
-          "standards": [
-            "보탠대",
-            "보탠다네요",
-            "보태겠다고"
-          ]
-        },
         {
           "token": "보태주난",
           "hits": 2,
           "standards": [
             "보태주니까"
+          ]
+        },
+        {
+          "token": "보태켄",
+          "hits": 2,
+          "standards": [
+            "보탠대",
+            "보탠다네요"
           ]
         },
         {
@@ -919,28 +918,6 @@
       ]
     },
     {
-      "seq": "2427",
-      "jeju": "굼벵이",
-      "standard": "지충",
-      "inflectedHits": 3,
-      "examples": [
-        {
-          "token": "굼벵이라",
-          "hits": 2,
-          "standards": [
-            "굼벵이야"
-          ]
-        },
-        {
-          "token": "굼벵이식이라",
-          "hits": 1,
-          "standards": [
-            "굼벵이식이야"
-          ]
-        }
-      ]
-    },
-    {
       "seq": "5428",
       "jeju": "전체",
       "standard": "까닭",
@@ -1058,6 +1035,28 @@
       ]
     },
     {
+      "seq": "2427",
+      "jeju": "굼벵이",
+      "standard": "지충",
+      "inflectedHits": 2,
+      "examples": [
+        {
+          "token": "굼벵이라",
+          "hits": 1,
+          "standards": [
+            "굼벵이야"
+          ]
+        },
+        {
+          "token": "굼벵이식이라",
+          "hits": 1,
+          "standards": [
+            "굼벵이식이야"
+          ]
+        }
+      ]
+    },
+    {
       "seq": "3430",
       "jeju": "남남",
       "standard": "냠냠이",
@@ -1068,28 +1067,6 @@
           "hits": 2,
           "standards": [
             "남남이니까"
-          ]
-        }
-      ]
-    },
-    {
-      "seq": "4957",
-      "jeju": "말쩨",
-      "standard": "끝",
-      "inflectedHits": 2,
-      "examples": [
-        {
-          "token": "말쩨는양",
-          "hits": 1,
-          "standards": [
-            "나중에는요"
-          ]
-        },
-        {
-          "token": "말쩨에는",
-          "hits": 1,
-          "standards": [
-            "나중에는"
           ]
         }
       ]
@@ -1302,6 +1279,21 @@
       ]
     },
     {
+      "seq": "4957",
+      "jeju": "말쩨",
+      "standard": "끝",
+      "inflectedHits": 1,
+      "examples": [
+        {
+          "token": "말쩨에는",
+          "hits": 1,
+          "standards": [
+            "나중에는"
+          ]
+        }
+      ]
+    },
+    {
       "seq": "3461",
       "jeju": "먹을커",
       "standard": "먹는 것",
@@ -1417,21 +1409,6 @@
           "hits": 1,
           "standards": [
             "부끄러워"
-          ]
-        }
-      ]
-    },
-    {
-      "seq": "3496",
-      "jeju": "상기",
-      "standard": "고명",
-      "inflectedHits": 1,
-      "examples": [
-        {
-          "token": "상기시키잰",
-          "hits": 1,
-          "standards": [
-            "상기시키려고"
           ]
         }
       ]

@@ -7,17 +7,18 @@
     "DZHF": 2396,
     "DZJD": 1876
   },
-  "uniqueUtterances": 531249,
+  "uniqueUtterances": 524406,
   "utterancesByPrefix": {
-    "DZES": 111120,
-    "DZHF": 260064,
-    "DZJD": 160065
+    "DZES": 109750,
+    "DZHF": 256659,
+    "DZJD": 157997
   },
-  "uniqueDialectTokens": 226600,
-  "duplicatesSkipped": 6722,
+  "uniqueDialectTokens": 223067,
+  "duplicatesSkipped": 6721,
   "filters": [
     "dialect/standard pair present",
     "no # / @ / * markers",
+    "no xx / xxx redaction leftovers",
     "hangul length 4–80",
     "unique jeju sentence",
     "token kept only when dialect ≠ standard"
@@ -30,19 +31,12 @@
   ],
   "files": {
     "utterances": {
-      "dzes.jsonl.gz": 5737328,
-      "dzhf.jsonl.gz": 12851839,
-      "dzjd.jsonl.gz": 8567641
+      "dzes.jsonl.gz": 5637737,
+      "dzhf.jsonl.gz": 12605754,
+      "dzjd.jsonl.gz": 8414239
     },
-    "tokens.json": 9470017,
-    "coverage.json": 38787,
-    "sample.json": 69701,
-    "README.md": 2485
-  },
-  "vocabCoverage": {
-    "attachedToApp": 241,
-    "exactTokenInCorpus": 284,
-    "inflectedTokenInCorpus": 77,
-    "absentAsToken": 639
+    "tokens.json": 9314145,
+    "coverage.json": 38309,
+    "sample.json": 69561
   }
 }
