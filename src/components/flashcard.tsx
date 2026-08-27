@@ -1,6 +1,7 @@
 import { Volume2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { ReportWordLink } from "@/components/report-word-link";
 import { playWord, stopAudio } from "@/lib/audio";
 import { nextIntervalDays, type WrongCard } from "@/lib/progress";
 import { getUnit } from "@/lib/units";
@@ -87,6 +88,9 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
       >
         노트에서 빼기
       </button>
+      <p className="text-center">
+        <ReportWordLink seq={card.seq} jeju={card.jeju} standard={card.standard} unitId={card.unitId} />
+      </p>
     </div>
   );
 }

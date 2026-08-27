@@ -1,3 +1,5 @@
+import { reportError } from "@/lib/report";
+
 export type Speakable = {
   seq?: string;
   soundUrl: string;
@@ -101,15 +103,24 @@ function speakKorean(text: string): Promise<void> {
 export async function playWord(word: Speakable): Promise<void> {
   stopAudio();
   const src = localSrc(word);
+  let fileError: unknown = null;
   if (src) {
     try {
       await playFile(src);
       return;
-    } catch {
-      /* fall through to spoken backup */
+    } catch (error) {
+      fileError = error;
     }
   }
-  if (word.jeju) await speakKorean(word.jeju);
+  const canSpeak = typeof window !== "undefined" && Boolean(window.speechSynthesis) && Boolean(word.jeju);
+  if (canSpeak) {
+    await speakKorean(word.jeju);
+    return;
+  }
+  if (fileError) {
+    reportError(fileError, { seq: word.seq ?? "", src: src ?? "", reason: "audio-and-tts-failed" });
+    throw fileError instanceof Error ? fileError : new Error("audio failed");
+  }
 }
 
 export function playAudio(src: string, speak = ""): Promise<void> {

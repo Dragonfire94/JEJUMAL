@@ -2,6 +2,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { BookOpen, ChartColumn, Notebook } from "lucide-react";
 import { useEffect } from "react";
 import { dueCount, hydrateProgress, useProgress } from "@/lib/progress";
+import { reportError } from "@/lib/report";
 import { cn } from "@/lib/utils";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
@@ -10,6 +11,18 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     hydrateProgress();
+    function onError(event: ErrorEvent) {
+      reportError(event.error ?? event.message, { where: "window.onerror" });
+    }
+    function onRejected(event: PromiseRejectionEvent) {
+      reportError(event.reason, { where: "unhandledrejection" });
+    }
+    window.addEventListener("error", onError);
+    window.addEventListener("unhandledrejection", onRejected);
+    return () => {
+      window.removeEventListener("error", onError);
+      window.removeEventListener("unhandledrejection", onRejected);
+    };
   }, []);
 
   return (
