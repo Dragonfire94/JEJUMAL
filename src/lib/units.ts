@@ -9,12 +9,18 @@ export type PartOfSpeech =
   | "number"
   | "interjection";
 
+export type Example = {
+  jeju: string;
+  standard: string;
+};
+
 export type Word = {
   seq: string;
   jeju: string;
   standard: string;
   soundUrl: string;
   partOfSpeech: PartOfSpeech;
+  examples?: Example[];
 };
 
 export type Unit = {
@@ -40,6 +46,10 @@ export type Track = {
 };
 
 export const units = rawUnits as Unit[];
+
+export function firstExample(word: Word): Example | undefined {
+  return word.examples?.[0];
+}
 
 export const RANKS: Rank[] = [
   { id: "baby", title: "애기해녀", subtitle: "혼저옵서예. 발만 적신 날", minPercent: 0 },

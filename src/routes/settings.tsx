@@ -200,6 +200,7 @@ function SettingsPage() {
       <section className="flex flex-col gap-2 text-xs text-muted-foreground">
         <h2 className="text-sm font-medium text-foreground">정보</h2>
         <p>발음 출처 · 제주특별자치도 제주어 사전</p>
+        <p>예문 출처 · AI-HUB 한국어 방언 발화(제주도)에서 짧은 말만 골랐습니다</p>
         <a className="text-primary underline-offset-4 hover:underline" href="https://github.com/Dragonfire94/JEJUMAL" target="_blank" rel="noreferrer">
           GitHub
         </a>
