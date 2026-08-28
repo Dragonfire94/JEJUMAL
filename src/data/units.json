@@ -496,8 +496,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "얼애를 잘 몰라마씸.",
-            "standard": "어린애를 잘 몰라요."
+            "jeju": "얼애가 안부를 물었어마씸.",
+            "standard": "어린애가 안부를 물었어요."
           }
         ]
       },
@@ -596,8 +596,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "놈이 뭔지 궁금해마씸.",
-            "standard": "남이 뭔지 궁금해요."
+            "jeju": "놈을 오랜만에 만났어마씸.",
+            "standard": "남을 오랜만에 만났어요."
           }
         ]
       },
@@ -648,8 +648,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "저기에 대해 이야기했어마씸.",
-            "standard": "지대에 대해 이야기했어요."
+            "jeju": "저기를 마중 나갔어마씸.",
+            "standard": "지대를 마중 나갔어요."
           }
         ]
       },
@@ -848,8 +848,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "갓을 잘 몰라마씸.",
-            "standard": "각세를 잘 몰라요."
+            "jeju": "갓이 안부를 물었어마씸.",
+            "standard": "각세가 안부를 물었어요."
           }
         ]
       },
@@ -1052,8 +1052,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "음골을 잘 몰라마씸.",
-            "standard": "탐음가를 잘 몰라요."
+            "jeju": "음골이 안부를 물었어마씸.",
+            "standard": "탐음가가 안부를 물었어요."
           }
         ]
       },
@@ -1091,8 +1091,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "빈복다리를 잘 몰라마씸.",
-            "standard": "복처리를 잘 몰라요."
+            "jeju": "빈복다리가 안부를 물었어마씸.",
+            "standard": "복처리가 안부를 물었어요."
           }
         ]
       },
@@ -1139,8 +1139,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "삼할망이 뭔지 궁금해마씸.",
-            "standard": "삼할미가 뭔지 궁금해요."
+            "jeju": "삼할망을 오랜만에 만났어마씸.",
+            "standard": "삼할미를 오랜만에 만났어요."
           }
         ]
       },
@@ -1178,8 +1178,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "덮개가 뭔지 궁금해마씸.",
-            "standard": "더퍼리가 뭔지 궁금해요."
+            "jeju": "덮개를 오랜만에 만났어마씸.",
+            "standard": "더퍼리를 오랜만에 만났어요."
           }
         ]
       },
@@ -1217,8 +1217,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "털북새기를 잘 몰라마씸.",
-            "standard": "털북숭이를 잘 몰라요."
+            "jeju": "털북새기가 안부를 물었어마씸.",
+            "standard": "털북숭이가 안부를 물었어요."
           }
         ]
       },
@@ -1243,8 +1243,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰메누리를 처음 들어봤어마씸.",
-            "standard": "맏며누리를 처음 들어봤어요."
+            "jeju": "큰메누리가 집에 왔어마씸.",
+            "standard": "맏며누리가 집에 왔어요."
           }
         ]
       }
@@ -1317,8 +1317,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "불미대장에 대해 이야기했어마씸.",
-            "standard": "풀무장이에 대해 이야기했어요."
+            "jeju": "불미대장을 마중 나갔어마씸.",
+            "standard": "풀무장이를 마중 나갔어요."
           }
         ]
       },
@@ -1912,8 +1912,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "밥방울이 뭔지 궁금해마씸.",
-            "standard": "밥알이 뭔지 궁금해요."
+            "jeju": "밥방울을 맛있게 먹었어마씸.",
+            "standard": "밥알을 맛있게 먹었어요."
           }
         ]
       },
@@ -1925,8 +1925,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "우굼이 뭔지 궁금해마씸.",
-            "standard": "밥주걱이 뭔지 궁금해요."
+            "jeju": "우굼을 새로 샀어마씸.",
+            "standard": "밥주걱을 새로 샀어요."
           }
         ]
       },
@@ -1938,8 +1938,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수제에 대해 이야기했어마씸.",
-            "standard": "수저에 대해 이야기했어요."
+            "jeju": "수제를 빌려줬어마씸.",
+            "standard": "수저를 빌려줬어요."
           }
         ]
       }
@@ -3085,8 +3085,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "보태가 뭔지 궁금해마씸.",
-            "standard": "삼이 뭔지 궁금해요."
+            "jeju": "보태가 가려워마씸.",
+            "standard": "삼이 가려워요."
           }
         ]
       },
@@ -3098,8 +3098,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "곱이 뭔지 궁금해마씸.",
-            "standard": "콥이 뭔지 궁금해요."
+            "jeju": "곱이 아파마씸.",
+            "standard": "콥이 아파요."
           }
         ]
       },
@@ -3111,8 +3111,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가달에 대해 이야기했어마씸.",
-            "standard": "각에 대해 이야기했어요."
+            "jeju": "가달을 다쳤어마씸.",
+            "standard": "각을 다쳤어요."
           }
         ]
       },
@@ -3124,8 +3124,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "환잣부리를 잘 몰라마씸.",
-            "standard": "부리를 잘 몰라요."
+            "jeju": "환잣부리를 다쳤어마씸.",
+            "standard": "부리를 다쳤어요."
           }
         ]
       },
@@ -3137,8 +3137,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "족은한집이 뭔지 궁금해마씸.",
-            "standard": "홍역이 뭔지 궁금해요."
+            "jeju": "족은한집이 가려워마씸.",
+            "standard": "홍역이 가려워요."
           }
         ]
       },
@@ -3263,8 +3263,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꼴랑지에 대해 이야기했어마씸.",
-            "standard": "총지에 대해 이야기했어요."
+            "jeju": "꼴랑지가 가려워마씸.",
+            "standard": "총지가 가려워요."
           }
         ]
       },
@@ -3289,8 +3289,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "천징이 뭔지 궁금해마씸.",
-            "standard": "천식이 뭔지 궁금해요."
+            "jeju": "천징이 가려워마씸.",
+            "standard": "천식이 가려워요."
           }
         ]
       },
@@ -3441,8 +3441,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈사투리에 대해 이야기했어마씸.",
-            "standard": "사투리에 대해 이야기했어요."
+            "jeju": "눈사투리가 아파마씸.",
+            "standard": "사투리가 아파요."
           }
         ]
       },
@@ -3502,8 +3502,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "코페렝이를 잘 몰라마씸.",
-            "standard": "코핀작을 잘 몰라요."
+            "jeju": "코페렝이를 다쳤어마씸.",
+            "standard": "코핀작을 다쳤어요."
           }
         ]
       },
@@ -3554,8 +3554,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "귀뚱을 처음 들어봤어마씸.",
-            "standard": "귀뚱이를 처음 들어봤어요."
+            "jeju": "귀뚱이 가려워마씸.",
+            "standard": "귀뚱이가 가려워요."
           }
         ]
       },
@@ -3719,8 +3719,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꿈이 뭔지 궁금해마씸.",
-            "standard": "춤이 뭔지 궁금해요."
+            "jeju": "꿈이 많이 나와마씸.",
+            "standard": "춤이 많이 나와요."
           }
         ]
       },
@@ -3793,8 +3793,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "활게를 처음 들어봤어마씸.",
-            "standard": "활개를 처음 들어봤어요."
+            "jeju": "활게가 가려워마씸.",
+            "standard": "활개가 가려워요."
           }
         ]
       },
@@ -3984,8 +3984,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "슬게에 대해 이야기했어마씸.",
-            "standard": "실게에 대해 이야기했어요."
+            "jeju": "슬게가 가려워마씸.",
+            "standard": "실게가 가려워요."
           }
         ]
       },
@@ -4097,8 +4097,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "살작을 잘 몰라마씸.",
-            "standard": "살쩍을 잘 몰라요."
+            "jeju": "살작을 다쳤어마씸.",
+            "standard": "살쩍을 다쳤어요."
           }
         ]
       },
@@ -4614,8 +4614,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "보육을 처음 들어봤어마씸.",
-            "standard": "표육을 처음 들어봤어요."
+            "jeju": "보육을 맛있게 먹었어마씸.",
+            "standard": "표육을 맛있게 먹었어요."
           }
         ]
       },
@@ -4705,8 +4705,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "푸레죽을 잘 몰라마씸.",
-            "standard": "풀탁을 잘 몰라요."
+            "jeju": "푸레죽을 맛있게 먹었어마씸.",
+            "standard": "풀탁을 맛있게 먹었어요."
           }
         ]
       },
@@ -4792,8 +4792,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "먹을커를 잘 몰라마씸.",
-            "standard": "먹는 것을 잘 몰라요."
+            "jeju": "먹을커를 만들었어마씸.",
+            "standard": "먹는 것을 만들었어요."
           }
         ]
       },
@@ -5335,8 +5335,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뿜게에 대해 이야기했어마씸.",
-            "standard": "뿜기에 대해 이야기했어요."
+            "jeju": "뿜게를 빌려줬어마씸.",
+            "standard": "뿜기를 빌려줬어요."
           }
         ]
       },
@@ -5500,8 +5500,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "누넹이를 잘 몰라마씸.",
-            "standard": "누렝이를 잘 몰라요."
+            "jeju": "누넹이를 만들었어마씸.",
+            "standard": "누렝이를 만들었어요."
           }
         ]
       },
@@ -7750,8 +7750,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "에새끼가 뭔지 궁금해마씸.",
-            "standard": "의새끼가 뭔지 궁금해요."
+            "jeju": "에새끼를 오랜만에 만났어마씸.",
+            "standard": "의새끼를 오랜만에 만났어요."
           }
         ]
       },
@@ -7763,8 +7763,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "씨방답에 대해 이야기했어마씸.",
-            "standard": "씨방상에 대해 이야기했어요."
+            "jeju": "씨방답을 마중 나갔어마씸.",
+            "standard": "씨방상을 마중 나갔어요."
           }
         ]
       },
@@ -7776,8 +7776,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "술푸데에 대해 이야기했어마씸.",
-            "standard": "술꾸러기에 대해 이야기했어요."
+            "jeju": "술푸데를 마중 나갔어마씸.",
+            "standard": "술꾸러기를 마중 나갔어요."
           }
         ]
       }
@@ -7798,8 +7798,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "술광질다리를 처음 들어봤어마씸.",
-            "standard": "술망나니를 처음 들어봤어요."
+            "jeju": "술광질다리가 집에 왔어마씸.",
+            "standard": "술망나니가 집에 왔어요."
           }
         ]
       },
@@ -7850,8 +7850,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가시할망을 처음 들어봤어마씸.",
-            "standard": "처할망을 처음 들어봤어요."
+            "jeju": "가시할망이 집에 왔어마씸.",
+            "standard": "처할망이 집에 왔어요."
           }
         ]
       },
@@ -7902,8 +7902,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "세양어멍이 뭔지 궁금해마씸.",
-            "standard": "수양어멍이 뭔지 궁금해요."
+            "jeju": "세양어멍을 오랜만에 만났어마씸.",
+            "standard": "수양어멍을 오랜만에 만났어요."
           }
         ]
       },
@@ -7976,8 +7976,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "눈펄렝이가 뭔지 궁금해마씸.",
-            "standard": "눈펄룽이가 뭔지 궁금해요."
+            "jeju": "눈펄렝이를 오랜만에 만났어마씸.",
+            "standard": "눈펄룽이를 오랜만에 만났어요."
           }
         ]
       },
@@ -7989,8 +7989,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "큰말젯년을 잘 몰라마씸.",
-            "standard": "네 딸중 세째를 잘 몰라요."
+            "jeju": "큰말젯년이 안부를 물었어마씸.",
+            "standard": "네 딸중 세째가 안부를 물었어요."
           }
         ]
       },
@@ -8041,8 +8041,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "망싱을 잘 몰라마씸.",
-            "standard": "마지막 낳은 것을 잘 몰라요."
+            "jeju": "망싱이 안부를 물었어마씸.",
+            "standard": "마지막 낳은 것이 안부를 물었어요."
           }
         ]
       },
@@ -8228,8 +8228,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제미를 처음 들어봤어마씸.",
-            "standard": "지미를 처음 들어봤어요."
+            "jeju": "제미가 집에 왔어마씸.",
+            "standard": "지미가 집에 왔어요."
           }
         ]
       },
@@ -8241,8 +8241,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장쉬를 잘 몰라마씸.",
-            "standard": "장수를 잘 몰라요."
+            "jeju": "장쉬가 안부를 물었어마씸.",
+            "standard": "장수가 안부를 물었어요."
           }
         ]
       },
@@ -8445,8 +8445,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "옷짓을 처음 들어봤어마씸.",
-            "standard": "옷깃을 처음 들어봤어요."
+            "jeju": "옷짓을 새로 샀어마씸.",
+            "standard": "옷깃을 새로 샀어요."
           }
         ]
       },
@@ -8810,8 +8810,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "자왈에 대해 이야기했어마씸.",
-            "standard": "덤불 숲에 대해 이야기했어요."
+            "jeju": "자왈이서 놀았어마씸.",
+            "standard": "덤불 숲에서 놀았어요."
           }
         ]
       },
@@ -9266,8 +9266,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손또매가 뭔지 궁금해마씸.",
-            "standard": "손뚜메가 뭔지 궁금해요."
+            "jeju": "손또매를 빌려줬어마씸.",
+            "standard": "손뚜메를 빌려줬어요."
           }
         ]
       },
@@ -9305,8 +9305,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "갈매물을 처음 들어봤어마씸.",
-            "standard": "보랏빛 물감을 처음 들어봤어요."
+            "jeju": "갈매물이 낡았어마씸.",
+            "standard": "보랏빛 물감이 낡았어요."
           }
         ]
       }
@@ -9405,8 +9405,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "봉을 처음 들어봤어마씸.",
-            "standard": "촉을 처음 들어봤어요."
+            "jeju": "봉을 새로 샀어마씸.",
+            "standard": "촉을 새로 샀어요."
           }
         ]
       },
@@ -9431,8 +9431,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "퇴기에 대해 이야기했어마씸.",
-            "standard": "외에 대해 이야기했어요."
+            "jeju": "퇴기가 보여마씸.",
+            "standard": "외가 보여요."
           }
         ]
       },
@@ -9444,8 +9444,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "포를 잘 몰라마씸.",
-            "standard": "보를 잘 몰라요."
+            "jeju": "포를 새로 샀어마씸.",
+            "standard": "보를 새로 샀어요."
           }
         ]
       }
@@ -9492,8 +9492,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "코를 잘 몰라마씸.",
-            "standard": "고를 잘 몰라요."
+            "jeju": "코를 새로 샀어마씸.",
+            "standard": "고를 새로 샀어요."
           }
         ]
       },
@@ -9531,8 +9531,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뽀롱이에 대해 이야기했어마씸.",
-            "standard": "알에 대해 이야기했어요."
+            "jeju": "뽀롱이가 낡았어마씸.",
+            "standard": "알이 낡았어요."
           }
         ]
       },
@@ -9670,8 +9670,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상제를 잘 몰라마씸.",
-            "standard": "상지를 잘 몰라요."
+            "jeju": "상제를 새로 샀어마씸.",
+            "standard": "상지를 새로 샀어요."
           }
         ]
       },
@@ -10035,8 +10035,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상을 잘 몰라마씸.",
-            "standard": "향을 잘 몰라요."
+            "jeju": "상을 새로 샀어마씸.",
+            "standard": "향을 새로 샀어요."
           }
         ]
       },
@@ -10326,8 +10326,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "한지를 처음 들어봤어마씸.",
-            "standard": "한데를 처음 들어봤어요."
+            "jeju": "한지이서 놀았어마씸.",
+            "standard": "한데에서 놀았어요."
           }
         ]
       },
@@ -10491,8 +10491,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "정찰이 뭔지 궁금해마씸.",
-            "standard": "경찰이 뭔지 궁금해요."
+            "jeju": "정찰을 오랜만에 만났어마씸.",
+            "standard": "경찰을 오랜만에 만났어요."
           }
         ]
       },
@@ -10543,8 +10543,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장밭을 잘 몰라마씸.",
-            "standard": "장지를 잘 몰라요."
+            "jeju": "장밭이서 놀았어마씸.",
+            "standard": "장지에서 놀았어요."
           }
         ]
       },
@@ -10947,8 +10947,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "방둥이를 처음 들어봤어마씸.",
-            "standard": "방뒤를 처음 들어봤어요."
+            "jeju": "방둥이가 낡았어마씸.",
+            "standard": "방뒤가 낡았어요."
           }
         ]
       },
@@ -11008,8 +11008,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멩함이 뭔지 궁금해마씸.",
-            "standard": "명함이 뭔지 궁금해요."
+            "jeju": "멩함이 낡았어마씸.",
+            "standard": "명함이 낡았어요."
           }
         ]
       },
@@ -11099,8 +11099,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "도에 대해 이야기했어마씸.",
-            "standard": "어구에 대해 이야기했어요."
+            "jeju": "도를 빌려줬어마씸.",
+            "standard": "어구를 빌려줬어요."
           }
         ]
       },
@@ -11551,8 +11551,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "버렝이에 대해 이야기했어마씸.",
-            "standard": "티에 대해 이야기했어요."
+            "jeju": "버렝이를 산이서 봤어마씸.",
+            "standard": "티를 산에서 봤어요."
           }
         ]
       },
@@ -11577,8 +11577,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "거말을 잘 몰라마씸.",
-            "standard": "거멀을 잘 몰라요."
+            "jeju": "거말이 소리를 냈어마씸.",
+            "standard": "거멀이 소리를 냈어요."
           }
         ]
       },
@@ -11729,8 +11729,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "밭갈쇠를 잘 몰라마씸.",
-            "standard": "밭갈이를 잘 몰라요."
+            "jeju": "밭갈쇠가 소리를 냈어마씸.",
+            "standard": "밭갈이가 소리를 냈어요."
           }
         ]
       },
@@ -11755,8 +11755,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쾨끼리에 대해 이야기했어마씸.",
-            "standard": "쾨키리에 대해 이야기했어요."
+            "jeju": "쾨끼리를 산이서 봤어마씸.",
+            "standard": "쾨키리를 산에서 봤어요."
           }
         ]
       },
@@ -11768,8 +11768,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장콜래비를 처음 들어봤어마씸.",
-            "standard": "강베록2를 처음 들어봤어요."
+            "jeju": "장콜래비가 소리를 냈어마씸.",
+            "standard": "강베록2가 소리를 냈어요."
           }
         ]
       },
@@ -11881,8 +11881,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "재에 대해 이야기했어마씸.",
-            "standard": "잴에 대해 이야기했어요."
+            "jeju": "재가 마당이서 놀고 있어마씸.",
+            "standard": "잴이 마당에서 놀고 있어요."
           }
         ]
       },
@@ -11968,8 +11968,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "진독이 뭔지 궁금해마씸.",
-            "standard": "진둑이 뭔지 궁금해요."
+            "jeju": "진독이 마당이서 놀고 있어마씸.",
+            "standard": "진둑이 마당에서 놀고 있어요."
           }
         ]
       },
@@ -11994,8 +11994,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "자최에 대해 이야기했어마씸.",
-            "standard": "자치에 대해 이야기했어요."
+            "jeju": "자최가 소리를 냈어마씸.",
+            "standard": "자치가 소리를 냈어요."
           }
         ]
       },
@@ -12033,8 +12033,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쉿버렝이가 뭔지 궁금해마씸.",
-            "standard": "가시가 뭔지 궁금해요."
+            "jeju": "쉿버렝이를 산이서 봤어마씸.",
+            "standard": "가시를 산에서 봤어요."
           }
         ]
       },
@@ -12185,8 +12185,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "거펑을 잘 몰라마씸.",
-            "standard": "검넝을 잘 몰라요."
+            "jeju": "거펑을 그물로 건졌어마씸.",
+            "standard": "검넝을 그물로 건졌어요."
           }
         ]
       },
@@ -13232,8 +13232,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "방울에 대해 이야기했어마씸.",
-            "standard": "알에 대해 이야기했어요."
+            "jeju": "방울을 만들었어마씸.",
+            "standard": "알을 만들었어요."
           }
         ]
       },
@@ -13258,8 +13258,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "속을 잘 몰라마씸.",
-            "standard": "숙을 잘 몰라요."
+            "jeju": "속이 마당에 피었어마씸.",
+            "standard": "숙이 마당에 피었어요."
           }
         ]
       },
@@ -13297,8 +13297,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나록찍이 뭔지 궁금해마씸.",
-            "standard": "찝이 뭔지 궁금해요."
+            "jeju": "나록찍이 잘 자랐어마씸.",
+            "standard": "찝이 잘 자랐어요."
           }
         ]
       },
@@ -13423,8 +13423,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "켄밤에 대해 이야기했어마씸.",
-            "standard": "아람에 대해 이야기했어요."
+            "jeju": "켄밤이 잘 자랐어마씸.",
+            "standard": "아람이 잘 자랐어요."
           }
         ]
       },
@@ -13462,8 +13462,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멀뤼를 처음 들어봤어마씸.",
-            "standard": "멀리를 처음 들어봤어요."
+            "jeju": "멀뤼를 뜯어 왔어마씸.",
+            "standard": "멀리를 뜯어 왔어요."
           }
         ]
       },
@@ -13601,8 +13601,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "잔뒤역을 처음 들어봤어마씸.",
-            "standard": "퇴역을 처음 들어봤어요."
+            "jeju": "잔뒤역이 마당에 피었어마씸.",
+            "standard": "퇴역이 마당에 피었어요."
           }
         ]
       },
@@ -13701,8 +13701,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수승에 대해 이야기했어마씸.",
-            "standard": "추승에 대해 이야기했어요."
+            "jeju": "수승을 뜯어 왔어마씸.",
+            "standard": "추승을 뜯어 왔어요."
           }
         ]
       },
@@ -13788,8 +13788,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멘네를 처음 들어봤어마씸.",
-            "standard": "멘헤를 처음 들어봤어요."
+            "jeju": "멘네를 뜯어 왔어마씸.",
+            "standard": "멘헤를 뜯어 왔어요."
           }
         ]
       },
@@ -13853,8 +13853,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "개성게에 대해 이야기했어마씸.",
-            "standard": "수영에 대해 이야기했어요."
+            "jeju": "개성게를 뜯어 왔어마씸.",
+            "standard": "수영을 뜯어 왔어요."
           }
         ]
       },
@@ -13866,8 +13866,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가마귀숟가락을 잘 몰라마씸.",
-            "standard": "살마를 잘 몰라요."
+            "jeju": "가마귀숟가락이 잘 자랐어마씸.",
+            "standard": "살마가 잘 자랐어요."
           }
         ]
       },
