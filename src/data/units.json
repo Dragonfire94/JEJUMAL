@@ -648,8 +648,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "저기를 마중 나갔어마씸.",
-            "standard": "지대를 마중 나갔어요."
+            "jeju": "저기는 바람이 센 지대마씸.",
+            "standard": "저곳은 바람이 센 지대예요."
           }
         ]
       },
@@ -1634,8 +1634,8 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "그거무사, 정말 경마씸.",
-            "standard": "아뿔싸, 정말 그래요."
+            "jeju": "그거무사, 지갑을 두고 왔수다!",
+            "standard": "아뿔싸, 지갑을 두고 왔어요!"
           }
         ]
       },
@@ -2112,8 +2112,8 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "에게, 큰일 날 뻔했수다.",
-            "standard": "이끼, 큰일 날 뻔했어요."
+            "jeju": "에게, 이게 무신 일이우꽈!",
+            "standard": "이끼, 이게 무슨 일이에요!"
           }
         ]
       },
@@ -2164,8 +2164,8 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "히뜨거니 쳐다봤어마씸.",
-            "standard": "히뜩 쳐다봤어요."
+            "jeju": "동틀 무렵 하늘이 히뜨거니 밝아왔어마씸.",
+            "standard": "동틀 무렵 하늘이 희끄무레 밝아왔어요."
           }
         ]
       },
@@ -2203,8 +2203,8 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "이칙 일어났어마씸.",
-            "standard": "인칙 일어났어요."
+            "jeju": "이칙 일어나 시장에 갔어마씸.",
+            "standard": "일찍 일어나 시장에 갔어요."
           }
         ]
       },
@@ -2482,7 +2482,7 @@
         "examples": [
           {
             "jeju": "그자 앉아 있었어마씸.",
-            "standard": "기자 앉아 있었어요."
+            "standard": "그저 앉아 있었어요."
           }
         ]
       },
@@ -2495,7 +2495,7 @@
         "examples": [
           {
             "jeju": "일이 거저 끝났어마씸.",
-            "standard": "일이 거줌 끝났어요."
+            "standard": "일이 거의 끝났어요."
           }
         ]
       }
@@ -2655,8 +2655,8 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "아명 애써도 안 돼마씸.",
-            "standard": "아미영 애써도 안 돼요."
+            "jeju": "아명 애써도 안 되어마씸.",
+            "standard": "아무리 애써도 안 돼요."
           }
         ]
       },
@@ -2846,8 +2846,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멘손이 아파마씸.",
-            "standard": "맨손이 아파요."
+            "jeju": "장갑이 어서난 멘손으로 일했어마씸.",
+            "standard": "장갑이 없어서 맨손으로 일했어요."
           }
         ]
       },
@@ -2885,8 +2885,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "귓밥이 아파마씸.",
-            "standard": "귀지가 아파요."
+            "jeju": "귀가 답답해 귓밥을 팠어마씸.",
+            "standard": "귀가 답답해 귀지를 팠어요."
           }
         ]
       },
@@ -3072,8 +3072,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조롬이 아파마씸.",
-            "standard": "밑이 아파요."
+            "jeju": "상자 조롬을 살펴봤어마씸.",
+            "standard": "상자 밑을 살펴봤어요."
           }
         ]
       },
@@ -3150,8 +3150,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "오좀이 아파마씸.",
-            "standard": "오줌이 아파요."
+            "jeju": "아이가 밤에 오좀을 눴어마씸.",
+            "standard": "아이가 밤에 오줌을 누었어요."
           }
         ]
       },
@@ -3176,8 +3176,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "시드렁똥이 아파마씸.",
-            "standard": "된똥이 아파요."
+            "jeju": "변비가 이시난 시드렁똥을 눴어마씸.",
+            "standard": "변비가 있어서 된똥을 누었어요."
           }
         ]
       },
@@ -3402,8 +3402,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멘주먹이 아파마씸.",
-            "standard": "맨주먹이 아파요."
+            "jeju": "둘이 멘주먹으로 싸우민 위험해마씸.",
+            "standard": "둘이 맨주먹으로 싸우면 위험해요."
           }
         ]
       },
@@ -3454,8 +3454,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "게춤이 아파마씸.",
-            "standard": "가래침이 아파요."
+            "jeju": "목에 걸린 게춤을 뱉었어마씸.",
+            "standard": "목에 걸린 가래침을 뱉었어요."
           }
         ]
       },
@@ -3732,8 +3732,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꽝이 가려워마씸.",
-            "standard": "뻬가 가려워요."
+            "jeju": "넘어져 꽝이 부러졌어마씸.",
+            "standard": "넘어져 뼈가 부러졌어요."
           }
         ]
       },
@@ -3780,8 +3780,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "머력을 다쳤어마씸.",
-            "standard": "머리를 다쳤어요."
+            "jeju": "머력이 길어져서 잘랐어마씸.",
+            "standard": "머리가 길어져서 잘랐어요."
           }
         ]
       },
@@ -3871,8 +3871,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "콧짐이 아파마씸.",
-            "standard": "콧김이 아파요."
+            "jeju": "추운 날 숨을 쉬난 콧짐이 보였어마씸.",
+            "standard": "추운 날 숨을 쉬니 콧김이 보였어요."
           }
         ]
       },
@@ -3997,8 +3997,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쉬염이 아파마씸.",
-            "standard": "수염이 아파요."
+            "jeju": "할아버지 쉬염이 길게 자랐어마씸.",
+            "standard": "할아버지 수염이 길게 자랐어요."
           }
         ]
       },
@@ -4023,8 +4023,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "손그뭇을 다쳤어마씸.",
-            "standard": "손금을 다쳤어요."
+            "jeju": "손그뭇이 선명하게 보였어마씸.",
+            "standard": "손금이 선명하게 보였어요."
           }
         ]
       }
@@ -4058,8 +4058,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "설세가 아파마씸.",
-            "standard": "설사가 아파요."
+            "jeju": "배탈이 나서 설세로 고생했어마씸.",
+            "standard": "배탈이 나서 설사로 고생했어요."
           }
         ]
       },
@@ -4084,8 +4084,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상퉁이를 다쳤어마씸.",
-            "standard": "상투를 다쳤어요."
+            "jeju": "상퉁이가 풀려 다시 틀었어마씸.",
+            "standard": "상투가 풀려 다시 틀었어요."
           }
         ]
       },
@@ -4162,8 +4162,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멘몸을 다쳤어마씸.",
-            "standard": "알몸을 다쳤어요."
+            "jeju": "아이를 씻기려고 멘몸으로 세웠어마씸.",
+            "standard": "아이를 씻기려고 알몸으로 세웠어요."
           }
         ]
       }
@@ -4301,8 +4301,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "소쥐를 맛있게 먹었어마씸.",
-            "standard": "소주를 맛있게 먹었어요."
+            "jeju": "저녁에 소쥐를 한 잔 마셨어마씸.",
+            "standard": "저녁에 소주를 한 잔 마셨어요."
           }
         ]
       }
@@ -4401,8 +4401,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "된술을 맛있게 먹었어마씸.",
-            "standard": "막걸리를 맛있게 먹었어요."
+            "jeju": "잔칫날 된술을 마셨어마씸.",
+            "standard": "잔칫날 막걸리를 마셨어요."
           }
         ]
       },
@@ -4540,8 +4540,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "솥덕이서 놀았어마씸.",
-            "standard": "부뚜막에서 놀았어요."
+            "jeju": "추운 날 솥덕 옆에 앉았어마씸.",
+            "standard": "추운 날 부뚜막 옆에 앉았어요."
           }
         ]
       },
@@ -4679,8 +4679,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "메를 마중 나갔어마씸.",
-            "standard": "메종을 마중 나갔어요."
+            "jeju": "메는 옛말로 메종을 이르는 말이우다.",
+            "standard": "메는 옛말로 메종을 이르는 말이에요."
           }
         ]
       },
@@ -4779,8 +4779,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "팃물을 맛있게 먹었어마씸.",
-            "standard": "쌀 뜨물을 맛있게 먹었어요."
+            "jeju": "팃물로 채소를 씻었어마씸.",
+            "standard": "쌀뜨물로 채소를 씻었어요."
           }
         ]
       },
@@ -4983,8 +4983,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "탕수를 산이서 봤어마씸.",
-            "standard": "탕쉬를 산에서 봤어요."
+            "jeju": "제사상에 탕수를 올렸어마씸.",
+            "standard": "제사상에 탕쉬를 올렸어요."
           }
         ]
       },
@@ -5322,8 +5322,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "저린내가 다 떨어졌어마씸.",
-            "standard": "전내가 다 떨어졌어요."
+            "jeju": "오래 둔 기름에서 저린내가 났어마씸.",
+            "standard": "오래 둔 기름에서 전내가 났어요."
           }
         ]
       },
@@ -5474,8 +5474,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "밥숟가락을 맛있게 먹었어마씸.",
-            "standard": "밥적을 맛있게 먹었어요."
+            "jeju": "밥숟가락으로 밥을 떠먹었어마씸.",
+            "standard": "밥숟가락으로 밥을 떠먹었어요."
           }
         ]
       },
@@ -5487,8 +5487,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "누린물을 맛있게 먹었어마씸.",
-            "standard": "누렁물을 맛있게 먹었어요."
+            "jeju": "그릇에서 누린물이 흘러나왔어마씸.",
+            "standard": "그릇에서 누런 물이 흘러나왔어요."
           }
         ]
       },
@@ -5852,8 +5852,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 약속을 께어마씸.",
-            "standard": "아침에 약속을 깨요."
+            "jeju": "오늘 아침 잠에서 일찍 께어마씸.",
+            "standard": "오늘 아침 잠에서 일찍 깼어요."
           }
         ]
       },
@@ -5943,8 +5943,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 설거지를 넹기어마씸.",
-            "standard": "아침에 설거지를 넘겨요."
+            "jeju": "바쁜 설거지를 아시한테 넹기었어마씸.",
+            "standard": "바쁜 설거지를 동생에게 넘겼어요."
           }
         ]
       },
@@ -6017,8 +6017,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 손을 머추어마씸.",
-            "standard": "낮에 손을 멈춰요."
+            "jeju": "움직이던 손을 잠깐 머추어마씸.",
+            "standard": "움직이던 손을 잠깐 멈췄어요."
           }
         ]
       },
@@ -6156,8 +6156,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 길이서 비끼어마씸.",
-            "standard": "낮에 길에서 비켜요."
+            "jeju": "사름이 지나가게 질에서 비끼어마씸.",
+            "standard": "사람이 지나가도록 길에서 비켰어요."
           }
         ]
       },
@@ -6308,8 +6308,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 사진을 죄기어마씸.",
-            "standard": "낮에 사진을 쌓아요."
+            "jeju": "창고에 장작을 차곡차곡 죄기어마씸.",
+            "standard": "창고에 장작을 차곡차곡 쌓았어요."
           }
         ]
       },
@@ -6586,8 +6586,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 실을 뀌어마씸.",
-            "standard": "저녁에 실을 꿰요."
+            "jeju": "바농에 실을 뀌어마씸.",
+            "standard": "바늘에 실을 꿰었어요."
           }
         ]
       },
@@ -6712,8 +6712,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 차를 처받어마씸.",
-            "standard": "저녁에 차를 치받아요."
+            "jeju": "성난 소가 울타리를 처받어마씸.",
+            "standard": "성난 소가 울타리를 치받았어요."
           }
         ]
       },
@@ -6751,8 +6751,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 문을 주꾸어마씸.",
-            "standard": "지금 문을 주쳐요."
+            "jeju": "밤새 개가 주꾸어마씸.",
+            "standard": "밤새 개가 짖었어요."
           }
         ]
       },
@@ -6864,8 +6864,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 아이를 어라마씸.",
-            "standard": "지금 아이를 얼러요."
+            "jeju": "일터를 어르멍 상황을 살폈어마씸.",
+            "standard": "일터를 돌아다니며 상황을 살폈어요."
           }
         ]
       },
@@ -6942,8 +6942,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 마음이 설라마씸.",
-            "standard": "지금 마음이 서러요."
+            "jeju": "하던 일을 설러마씸.",
+            "standard": "하던 일을 그만두었어요."
           }
         ]
       }
@@ -7220,8 +7220,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "오늘 어깨가 두덥어마씸.",
-            "standard": "오늘 어깨가 두꺼워요."
+            "jeju": "겨울옷이 두덥어마씸.",
+            "standard": "겨울옷이 두꺼워요."
           }
         ]
       }
@@ -7281,8 +7281,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 성격이 모지래어마씸.",
-            "standard": "지금 성격이 모자라요."
+            "jeju": "준비한 돈이 모지래어마씸.",
+            "standard": "준비한 돈이 모자라요."
           }
         ]
       },
@@ -7407,8 +7407,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 냄새가 역어마씸.",
-            "standard": "지금 냄새가 욕어요."
+            "jeju": "아이가 나이에 비해 역어마씸.",
+            "standard": "아이가 나이에 비해 약아요."
           }
         ]
       },
@@ -7533,8 +7533,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 일이 버치어마씸.",
-            "standard": "아침부터 일이 제우어요."
+            "jeju": "혼자 하기엔 일이 버치어마씸.",
+            "standard": "혼자 하기에는 일이 버거워요."
           }
         ]
       },
@@ -7546,8 +7546,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 표정이 몹쓸어마씸.",
-            "standard": "아침부터 표정이 몹씰어요."
+            "jeju": "그 사람 마음씨가 몹쓸어마씸.",
+            "standard": "그 사람 마음씨가 악독해요."
           }
         ]
       },
@@ -7559,8 +7559,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 벨을 누리어마씸.",
-            "standard": "아침부터 벨을 눌러요."
+            "jeju": "가을 들판이 누리어마씸.",
+            "standard": "가을 들판이 누래요."
           }
         ]
       },
@@ -7585,8 +7585,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 일이 지치어마씸.",
-            "standard": "아침부터 일이 고단해요."
+            "jeju": "아침부터 몸이 지치어마씸.",
+            "standard": "아침부터 몸이 고단해요."
           }
         ]
       },
@@ -7737,8 +7737,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그 말은 싸다.",
-            "standard": "그 말은 그만한 가치가 있다."
+            "jeju": "이 물건은 그 깝을 주어도 싸마씸.",
+            "standard": "이 물건은 그 값을 주어도 아깝지 않아요."
           }
         ]
       },
@@ -8632,8 +8632,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "돗에 가 봤어마씸.",
-            "standard": "돌에 가 봤어요."
+            "jeju": "길에서 돗 하나를 주웠어마씸.",
+            "standard": "길에서 돌 하나를 주웠어요."
           }
         ]
       },
@@ -8875,8 +8875,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "모살에 가 봤어마씸.",
-            "standard": "모래에 가 봤어요."
+            "jeju": "모살밭을 맨발로 걸었어마씸.",
+            "standard": "모래밭을 맨발로 걸었어요."
           }
         ]
       },
@@ -9366,8 +9366,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "봉애기를 만들었어마씸.",
-            "standard": "깨를 만들었어요."
+            "jeju": "밭에서 봉애기를 거뒀어마씸.",
+            "standard": "밭에서 깨를 거두었어요."
           }
         ]
       },
@@ -9531,8 +9531,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뽀롱이가 낡았어마씸.",
-            "standard": "알이 낡았어요."
+            "jeju": "오래 둔 뽀롱이가 상했어마씸.",
+            "standard": "오래 둔 알이 상했어요."
           }
         ]
       },
@@ -9583,8 +9583,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "죽젓광이를 맛있게 먹었어마씸.",
-            "standard": "남죽을 맛있게 먹었어요."
+            "jeju": "죽젓광이로 죽을 저었어마씸.",
+            "standard": "남죽으로 죽을 저었어요."
           }
         ]
       }
@@ -10439,8 +10439,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "지침이 아파마씸.",
-            "standard": "기침이 아파요."
+            "jeju": "감기에 걸려 지침이 계속 났어마씸.",
+            "standard": "감기에 걸려 기침이 계속 났어요."
           }
         ]
       },
@@ -10543,8 +10543,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장밭이서 놀았어마씸.",
-            "standard": "장지에서 놀았어요."
+            "jeju": "마을 장밭을 지나갔어마씸.",
+            "standard": "마을 장지를 지나갔어요."
           }
         ]
       },
@@ -11008,8 +11008,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멩함이 낡았어마씸.",
-            "standard": "명함이 낡았어요."
+            "jeju": "주소가 바뀌어 옛 멩함을 새로 만들었어마씸.",
+            "standard": "주소가 바뀌어 옛 명함을 새로 만들었어요."
           }
         ]
       },
@@ -11503,8 +11503,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "서미역이 마당이서 놀고 있어마씸.",
-            "standard": "진디가 마당에서 놀고 있어요."
+            "jeju": "서미역이 잎에 달라붙었어마씸.",
+            "standard": "진딧물이 잎에 달라붙었어요."
           }
         ]
       },
@@ -11768,8 +11768,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "장콜래비가 소리를 냈어마씸.",
-            "standard": "강베록2가 소리를 냈어요."
+            "jeju": "장콜래비에 물려 가려웠어마씸.",
+            "standard": "강벼룩에 물려 가려웠어요."
           }
         ]
       },
@@ -11807,8 +11807,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "묘족뿔을 다쳤어마씸.",
-            "standard": "짜른 뿔을 다쳤어요."
+            "jeju": "염소 묘족뿔이 부러졌어마씸.",
+            "standard": "염소의 짧은 뿔이 부러졌어요."
           }
         ]
       }
@@ -11894,8 +11894,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쉬가 마당이서 놀고 있어마씸.",
-            "standard": "쒸가 마당에서 놀고 있어요."
+            "jeju": "옷에 쉬가 붙어 기어다녔어마씸.",
+            "standard": "옷에 이가 붙어 기어 다녔어요."
           }
         ]
       },
@@ -11968,8 +11968,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "진독이 마당이서 놀고 있어마씸.",
-            "standard": "진둑이 마당에서 놀고 있어요."
+            "jeju": "진독이 피부에 붙었어마씸.",
+            "standard": "진드기가 피부에 붙었어요."
           }
         ]
       },
@@ -12046,8 +12046,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "멜뤼가 마당이서 놀고 있어마씸.",
-            "standard": "진쉬가 마당에서 놀고 있어요."
+            "jeju": "멜뤼가 잎사귀 우를 기어갔어마씸.",
+            "standard": "진이가 잎사귀 위를 기어갔어요."
           }
         ]
       },
@@ -12059,8 +12059,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "굼벵이가 마당이서 놀고 있어마씸.",
-            "standard": "지충이 마당에서 놀고 있어요."
+            "jeju": "굼벵이가 흙 속에서 나왔어마씸.",
+            "standard": "굼벵이가 흙 속에서 나왔어요."
           }
         ]
       },
@@ -12211,8 +12211,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가다리가 마당이서 놀고 있어마씸.",
-            "standard": "저립이 마당에서 놀고 있어요."
+            "jeju": "가다리가 돌 밑으로 기어갔어마씸.",
+            "standard": "지네가 돌 밑으로 기어갔어요."
           }
         ]
       },
@@ -12489,8 +12489,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "서미역본대기가 마당이서 놀고 있어마씸.",
-            "standard": "진딧물이 마당에서 놀고 있어요."
+            "jeju": "서미역본대기가 잎에 붙었어마씸.",
+            "standard": "진딧물이 잎에 붙었어요."
           }
         ]
       },
@@ -13171,8 +13171,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "지장이 마당에 피었어마씸.",
-            "standard": "기장이 마당에 피었어요."
+            "jeju": "밭에서 지장이 잘 자랐어마씸.",
+            "standard": "밭에서 기장이 잘 자랐어요."
           }
         ]
       },
@@ -13197,8 +13197,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "물밭이서 놀았어마씸.",
-            "standard": "논에서 놀았어요."
+            "jeju": "봄에 물밭을 갈았어마씸.",
+            "standard": "봄에 논을 갈았어요."
           }
         ]
       }
@@ -13219,8 +13219,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쌍콩이 마당에 피었어마씸.",
-            "standard": "콩이 마당에 피었어요."
+            "jeju": "올해 쌍콩이 잘 자랐어마씸.",
+            "standard": "올해 콩이 잘 자랐어요."
           }
         ]
       },
@@ -13232,8 +13232,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "방울을 만들었어마씸.",
-            "standard": "알을 만들었어요."
+            "jeju": "꼬투리 안에 방울이 여물었어마씸.",
+            "standard": "꼬투리 안에 알이 여물었어요."
           }
         ]
       },
@@ -13497,8 +13497,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꽝베를 뜯어 왔어마씸.",
-            "standard": "똘배를 뜯어 왔어요."
+            "jeju": "나무에서 꽝베를 따 왔어마씸.",
+            "standard": "나무에서 돌배를 따 왔어요."
           }
         ]
       },
@@ -13523,8 +13523,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "곡석방울을 만들었어마씸.",
-            "standard": "낟알을 만들었어요."
+            "jeju": "가을이 되난 곡석방울이 여물었어마씸.",
+            "standard": "가을이 되니 낟알이 여물었어요."
           }
         ]
       },
@@ -13588,8 +13588,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제피를 만들었어마씸.",
-            "standard": "계피를 만들었어요."
+            "jeju": "음식에 제피를 조금 넣었어마씸.",
+            "standard": "음식에 계피를 조금 넣었어요."
           }
         ]
       },
@@ -13601,8 +13601,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "잔뒤역이 마당에 피었어마씸.",
-            "standard": "퇴역이 마당에 피었어요."
+            "jeju": "마당에 잔뒤역이 푸르게 자랐어마씸.",
+            "standard": "마당에 잔디가 푸르게 자랐어요."
           }
         ]
       },
@@ -13714,8 +13714,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "소낭초기를 뜯어 왔어마씸.",
-            "standard": "송이를 뜯어 왔어요."
+            "jeju": "소낭초기를 주워 왔어마씸.",
+            "standard": "솔방울을 주워 왔어요."
           }
         ]
       },
@@ -13740,8 +13740,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "불리를 뜯어 왔어마씸.",
-            "standard": "불휘를 뜯어 왔어요."
+            "jeju": "땅을 파서 불리를 캐 왔어마씸.",
+            "standard": "땅을 파서 뿌리를 캐 왔어요."
           }
         ]
       },
