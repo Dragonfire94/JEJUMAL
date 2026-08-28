@@ -565,13 +565,13 @@
       {
         "seq": "5706",
         "jeju": "이녁",
-        "standard": "지",
+        "standard": "그대",
         "soundUrl": "/audio/5706.mp3",
         "partOfSpeech": "pronoun",
         "examples": [
           {
             "jeju": "그건 이녁이 알앙 해마씸.",
-            "standard": "그건 지가 알아서 해요."
+            "standard": "그건 그대가 알아서 해요."
           }
         ]
       },
@@ -630,26 +630,26 @@
       {
         "seq": "2745",
         "jeju": "제집",
-        "standard": "지집",
+        "standard": "계집",
         "soundUrl": "/audio/2745.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "제집이 안부를 물었어마씸.",
-            "standard": "지집이 안부를 물었어요."
+            "standard": "계집이 안부를 물었어요."
           }
         ]
       },
       {
         "seq": "2737",
         "jeju": "저기",
-        "standard": "지대",
+        "standard": "기생",
         "soundUrl": "/audio/2737.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "저기는 바람이 센 지대마씸.",
-            "standard": "저곳은 바람이 센 지대예요."
+            "jeju": "그 마을에서 저기를 만났어마씸.",
+            "standard": "그 마을에서 기생을 만났어요."
           }
         ]
       },
@@ -756,13 +756,13 @@
       {
         "seq": "573",
         "jeju": "식귀",
-        "standard": "식술",
+        "standard": "식구",
         "soundUrl": "/audio/573.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "식귀가 다 떨어졌어마씸.",
-            "standard": "식술이 다 떨어졌어요."
+            "jeju": "이번 멩질엔 식귀가 다 모여수다.",
+            "standard": "이번 명절엔 식구가 다 모였습니다."
           }
         ]
       },
@@ -843,39 +843,39 @@
       {
         "seq": "378",
         "jeju": "갓",
-        "standard": "각세",
+        "standard": "배우자",
         "soundUrl": "/audio/378.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "갓이 안부를 물었어마씸.",
-            "standard": "각세가 안부를 물었어요."
+            "standard": "배우자가 안부를 물었어요."
           }
         ]
       },
       {
         "seq": "369",
         "jeju": "가시어멍",
-        "standard": "처모",
+        "standard": "장모",
         "soundUrl": "/audio/369.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "가시어멍이 집에 왔어마씸.",
-            "standard": "처모가 집에 왔어요."
+            "standard": "장모가 집에 왔어요."
           }
         ]
       },
       {
         "seq": "368",
         "jeju": "가시아방",
-        "standard": "처부",
+        "standard": "장인",
         "soundUrl": "/audio/368.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "가시아방이 안부를 물었어마씸.",
-            "standard": "처부가 안부를 물었어요."
+            "standard": "장인이 안부를 물었어요."
           }
         ]
       },
@@ -947,13 +947,13 @@
       {
         "seq": "6712",
         "jeju": "촐군",
-        "standard": "촐-놉",
+        "standard": "꼴꾼",
         "soundUrl": "/audio/6712.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "촐군이 안부를 물었어마씸.",
-            "standard": "촐놉이 안부를 물었어요."
+            "standard": "꼴꾼이 안부를 물었어요."
           }
         ]
       },
@@ -1099,13 +1099,13 @@
       {
         "seq": "624",
         "jeju": "목쟁이",
-        "standard": "피쟁이",
+        "standard": "백장",
         "soundUrl": "/audio/624.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "목쟁이를 오랜만에 만났어마씸.",
-            "standard": "피쟁이를 오랜만에 만났어요."
+            "standard": "백장을 오랜만에 만났어요."
           }
         ]
       }
@@ -1225,13 +1225,13 @@
       {
         "seq": "6726",
         "jeju": "큰삼춘",
-        "standard": "큰-아방",
+        "standard": "큰아버지",
         "soundUrl": "/audio/6726.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "큰삼춘을 오랜만에 만났어마씸.",
-            "standard": "큰아방을 오랜만에 만났어요."
+            "standard": "큰아버지를 오랜만에 만났어요."
           }
         ]
       },
@@ -1286,13 +1286,13 @@
       {
         "seq": "6710",
         "jeju": "초라니",
-        "standard": "촐람생이",
+        "standard": "까불이",
         "soundUrl": "/audio/6710.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "초라니를 오랜만에 만났어마씸.",
-            "standard": "촐람생이를 오랜만에 만났어요."
+            "standard": "까불이를 오랜만에 만났어요."
           }
         ]
       },
@@ -1351,13 +1351,13 @@
       {
         "seq": "2728",
         "jeju": "작산놈",
-        "standard": "작산-놈",
+        "standard": "어른",
         "soundUrl": "/audio/2728.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "작산놈이 집에 왔어마씸.",
-            "standard": "작산놈이 집에 왔어요."
+            "standard": "어른이 집에 왔어요."
           }
         ]
       },
@@ -2146,20 +2146,20 @@
       {
         "seq": "7519",
         "jeju": "다슴",
-        "standard": "다심",
+        "standard": "의붓",
         "soundUrl": "/audio/7519.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "피는 안 섞여도 다슴성제로 지냅주.",
-            "standard": "피는 섞이지 않았어도 의형제로 지냅니다."
+            "jeju": "다슴아방이라도 우리 아방이우다.",
+            "standard": "의붓아버지라도 우리 아버지입니다."
           }
         ]
       },
       {
         "seq": "7502",
         "jeju": "히뜨거니",
-        "standard": "히뜩",
+        "standard": "희끄무레",
         "soundUrl": "/audio/7502.mp3",
         "partOfSpeech": "adverb",
         "examples": [
@@ -2311,13 +2311,13 @@
       {
         "seq": "7435",
         "jeju": "빈싹",
-        "standard": "빙싹",
+        "standard": "빙그레",
         "soundUrl": "/audio/7435.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
             "jeju": "빈싹 웃었어마씸.",
-            "standard": "빙싹 웃었어요."
+            "standard": "빙그레 웃었어요."
           }
         ]
       },
@@ -2337,13 +2337,13 @@
       {
         "seq": "7427",
         "jeju": "번뜩",
-        "standard": "펀뜩",
+        "standard": "번쩍",
         "soundUrl": "/audio/7427.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "번뜩 생각났어마씸.",
-            "standard": "펀뜩 생각났어요."
+            "jeju": "번개가 번뜩 쳤어마씸.",
+            "standard": "번개가 번쩍 쳤어요."
           }
         ]
       },
@@ -2372,13 +2372,13 @@
       {
         "seq": "7417",
         "jeju": "미릇",
-        "standard": "미릿",
+        "standard": "미리",
         "soundUrl": "/audio/7417.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
             "jeju": "미릇 준비해마씸.",
-            "standard": "미릿 준비해요."
+            "standard": "미리 준비해요."
           }
         ]
       },
@@ -2476,7 +2476,7 @@
       {
         "seq": "7365",
         "jeju": "그자",
-        "standard": "기자",
+        "standard": "그저",
         "soundUrl": "/audio/7365.mp3",
         "partOfSpeech": "adverb",
         "examples": [
@@ -2489,7 +2489,7 @@
       {
         "seq": "7349",
         "jeju": "거저",
-        "standard": "거줌",
+        "standard": "거의",
         "soundUrl": "/audio/7349.mp3",
         "partOfSpeech": "adverb",
         "examples": [
@@ -2602,13 +2602,13 @@
       {
         "seq": "7461",
         "jeju": "어잉간이",
-        "standard": "엥간이",
+        "standard": "어지간히",
         "soundUrl": "/audio/7461.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
             "jeju": "어잉간이 컸어마씸.",
-            "standard": "엥간이 컸어요."
+            "standard": "어지간히 컸어요."
           }
         ]
       },
@@ -2650,39 +2650,39 @@
       {
         "seq": "7453",
         "jeju": "아명",
-        "standard": "아미영",
+        "standard": "아무렇게",
         "soundUrl": "/audio/7453.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "아명 애써도 안 되어마씸.",
-            "standard": "아무리 애써도 안 돼요."
+            "jeju": "아명 해도 상관없어마씸.",
+            "standard": "아무렇게 해도 상관없어요."
           }
         ]
       },
       {
         "seq": "7422",
         "jeju": "바락",
-        "standard": "바락이",
+        "standard": "벌컥",
         "soundUrl": "/audio/7422.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
             "jeju": "바락 소리를 질렀어마씸.",
-            "standard": "바락이 소리를 질렀어요."
+            "standard": "벌컥 소리를 질렀어요."
           }
         ]
       },
       {
         "seq": "7418",
         "jeju": "밀꺼니",
-        "standard": "밀껑이",
+        "standard": "괜히",
         "soundUrl": "/audio/7418.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
             "jeju": "밀꺼니 걸었어마씸.",
-            "standard": "밀껑이 걸었어요."
+            "standard": "괜히 걸었어요."
           }
         ]
       },
@@ -2702,13 +2702,13 @@
       {
         "seq": "7391",
         "jeju": "데번에",
-        "standard": "뎁번에",
+        "standard": "한번에",
         "soundUrl": "/audio/7391.mp3",
         "partOfSpeech": "adverb",
         "examples": [
           {
             "jeju": "데번에 다 먹었어마씸.",
-            "standard": "뎁번에 다 먹었어요."
+            "standard": "한번에 다 먹었어요."
           }
         ]
       },
@@ -3345,13 +3345,13 @@
       {
         "seq": "3008",
         "jeju": "손거슴",
-        "standard": "손거심",
+        "standard": "손거스러미",
         "soundUrl": "/audio/3008.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "손거슴이 아파마씸.",
-            "standard": "손거심이 아파요."
+            "standard": "손거스러미가 아파요."
           }
         ]
       },
@@ -3410,7 +3410,7 @@
       {
         "seq": "2865",
         "jeju": "덧",
-        "standard": "덧-니",
+        "standard": "덧니",
         "soundUrl": "/audio/2865.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -3436,13 +3436,13 @@
       {
         "seq": "2843",
         "jeju": "눈사투리",
-        "standard": "사투리",
+        "standard": "사팔눈",
         "soundUrl": "/audio/2843.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "눈사투리가 아파마씸.",
-            "standard": "사투리가 아파요."
+            "standard": "사팔눈이 아파요."
           }
         ]
       },
@@ -3497,65 +3497,65 @@
       {
         "seq": "3132",
         "jeju": "코페렝이",
-        "standard": "코-핀작",
+        "standard": "코딱지",
         "soundUrl": "/audio/3132.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "코페렝이를 다쳤어마씸.",
-            "standard": "코핀작을 다쳤어요."
+            "jeju": "코페렝이를 팠어마씸.",
+            "standard": "코딱지를 팠어요."
           }
         ]
       },
       {
         "seq": "3058",
         "jeju": "어께",
-        "standard": "어껭-이",
+        "standard": "어깨",
         "soundUrl": "/audio/3058.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "어께를 다쳤어마씸.",
-            "standard": "어껭이를 다쳤어요."
+            "standard": "어깨를 다쳤어요."
           }
         ]
       },
       {
         "seq": "3015",
         "jeju": "손아우생이",
-        "standard": "안주외기",
+        "standard": "손아귀",
         "soundUrl": "/audio/3015.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "손아우생이를 다쳤어마씸.",
-            "standard": "안주외기를 다쳤어요."
+            "standard": "손아귀를 다쳤어요."
           }
         ]
       },
       {
         "seq": "2874",
         "jeju": "독머리꽝",
-        "standard": "절변-꽝",
+        "standard": "무릎뼈",
         "soundUrl": "/audio/2874.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "독머리꽝이 아파마씸.",
-            "standard": "절변꽝이 아파요."
+            "standard": "무릎뼈가 아파요."
           }
         ]
       },
       {
         "seq": "2820",
         "jeju": "귀뚱",
-        "standard": "귀뚱-이",
+        "standard": "귀밑",
         "soundUrl": "/audio/2820.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "귀뚱이 가려워마씸.",
-            "standard": "귀뚱이가 가려워요."
+            "standard": "귀밑이 가려워요."
           }
         ]
       },
@@ -3575,26 +3575,26 @@
       {
         "seq": "3106",
         "jeju": "조종머리",
-        "standard": "조종-패기",
+        "standard": "상투",
         "soundUrl": "/audio/3106.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조종머리를 다쳤어마씸.",
-            "standard": "조종패기를 다쳤어요."
+            "jeju": "조종머리가 흐트러졌어마씸.",
+            "standard": "상투가 흐트러졌어요."
           }
         ]
       },
       {
         "seq": "2844",
         "jeju": "눈콥",
-        "standard": "눈-콥재기",
+        "standard": "눈곱",
         "soundUrl": "/audio/2844.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "눈콥이 가려워마씸.",
-            "standard": "눈콥재기가 가려워요."
+            "standard": "눈곱이 가려워요."
           }
         ]
       },
@@ -3688,46 +3688,46 @@
       {
         "seq": "2961",
         "jeju": "벵",
-        "standard": "빙",
+        "standard": "병",
         "soundUrl": "/audio/2961.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "물이 꽁꽁 얼어 벵이 졌수다.",
-            "standard": "물이 꽁꽁 얼어 얼음이 생겼습니다."
+            "jeju": "몸에 이상헌 벵이 걸려수다.",
+            "standard": "몸에 이상한 병에 걸렸습니다."
           }
         ]
       },
       {
         "seq": "2923",
         "jeju": "몸엣거",
-        "standard": "몸",
+        "standard": "월경",
         "soundUrl": "/audio/2923.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "몸엣거가 아파마씸.",
-            "standard": "몸이 아파요."
+            "jeju": "몸엣거 때문에 배가 아파마씸.",
+            "standard": "월경 때문에 배가 아파요."
           }
         ]
       },
       {
         "seq": "2819",
         "jeju": "꿈",
-        "standard": "춤",
+        "standard": "침",
         "soundUrl": "/audio/2819.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "꿈이 많이 나와마씸.",
-            "standard": "춤이 많이 나와요."
+            "standard": "침이 많이 나와요."
           }
         ]
       },
       {
         "seq": "2811",
         "jeju": "꽝",
-        "standard": "뻬",
+        "standard": "뼈",
         "soundUrl": "/audio/2811.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -3762,13 +3762,13 @@
       {
         "seq": "2787",
         "jeju": "꺼럭",
-        "standard": "껄",
+        "standard": "터럭",
         "soundUrl": "/audio/2787.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "꺼럭을 다쳤어마씸.",
-            "standard": "껄을 다쳤어요."
+            "jeju": "꺼럭이 빠졌어마씸.",
+            "standard": "터럭이 빠졌어요."
           }
         ]
       },
@@ -3801,13 +3801,13 @@
       {
         "seq": "3168",
         "jeju": "허멀",
-        "standard": "허물",
+        "standard": "부스럼",
         "soundUrl": "/audio/3168.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "허멀을 다쳤어마씸.",
-            "standard": "허물을 다쳤어요."
+            "jeju": "허멀이 났어마씸.",
+            "standard": "부스럼이 났어요."
           }
         ]
       },
@@ -3979,13 +3979,13 @@
       {
         "seq": "3023",
         "jeju": "슬게",
-        "standard": "실게",
+        "standard": "쓸개",
         "soundUrl": "/audio/3023.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "슬게가 가려워마씸.",
-            "standard": "실게가 가려워요."
+            "jeju": "슬게가 아파마씸.",
+            "standard": "쓸개가 아파요."
           }
         ]
       },
@@ -4103,28 +4103,28 @@
         ]
       },
       {
-        "seq": "2962",
-        "jeju": "벵신",
-        "standard": "빙신",
-        "soundUrl": "/audio/2962.mp3",
+        "seq": "3016",
+        "jeju": "손콥",
+        "standard": "손톱",
+        "soundUrl": "/audio/3016.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "남을 벵신이라 놀리민 안 됩주.",
-            "standard": "남을 바보라고 놀리면 안 됩니다."
+            "jeju": "손콥이 질게 자랐어마씸.",
+            "standard": "손톱이 길게 자랐어요."
           }
         ]
       },
       {
         "seq": "2946",
         "jeju": "베설",
-        "standard": "창지",
+        "standard": "창자",
         "soundUrl": "/audio/2946.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "베설이 아파마씸.",
-            "standard": "창지가 아파요."
+            "standard": "창자가 아파요."
           }
         ]
       },
@@ -4900,13 +4900,13 @@
       {
         "seq": "3407",
         "jeju": "게영",
-        "standard": "겡",
+        "standard": "제사용 국",
         "soundUrl": "/audio/3407.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "게영이 다 떨어졌어마씸.",
-            "standard": "겡이 다 떨어졌어요."
+            "standard": "제사용 국이 다 떨어졌어요."
           }
         ]
       },
@@ -4978,13 +4978,13 @@
       {
         "seq": "3565",
         "jeju": "탕수",
-        "standard": "탕쉬",
+        "standard": "잡채",
         "soundUrl": "/audio/3565.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제사상에 탕수를 올렸어마씸.",
-            "standard": "제사상에 탕쉬를 올렸어요."
+            "jeju": "멩질마다 탕수를 맹글엄수다.",
+            "standard": "명절마다 제사용 잡채를 만듭니다."
           }
         ]
       },
@@ -5091,26 +5091,26 @@
       {
         "seq": "3514",
         "jeju": "제숙",
-        "standard": "지숙",
+        "standard": "제사용 고기",
         "soundUrl": "/audio/3514.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "제숙을 맛있게 먹었어마씸.",
-            "standard": "지숙을 맛있게 먹었어요."
+            "standard": "제사용 고기를 맛있게 먹었어요."
           }
         ]
       },
       {
         "seq": "3513",
         "jeju": "제물",
-        "standard": "지물",
+        "standard": "제사떡",
         "soundUrl": "/audio/3513.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "제물을 만들었어마씸.",
-            "standard": "지물을 만들었어요."
+            "standard": "제사떡을 만들었어요."
           }
         ]
       },
@@ -5130,13 +5130,13 @@
       {
         "seq": "3506",
         "jeju": "전",
-        "standard": "전기",
+        "standard": "메밀전병",
         "soundUrl": "/audio/3506.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "전이 나갔어마씸.",
-            "standard": "전기가 나갔어요."
+            "jeju": "잔치 때 전을 부쪘어마씸.",
+            "standard": "잔치 때 메밀전병을 부쳤어요."
           }
         ]
       }
@@ -5165,13 +5165,13 @@
       {
         "seq": "3498",
         "jeju": "선밥",
-        "standard": "셍밥",
+        "standard": "고두밥",
         "soundUrl": "/audio/3498.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "선밥을 만들었어마씸.",
-            "standard": "셍밥을 만들었어요."
+            "standard": "고두밥을 만들었어요."
           }
         ]
       },
@@ -5191,13 +5191,13 @@
       {
         "seq": "3479",
         "jeju": "밥솥읫물",
-        "standard": "숭눙",
+        "standard": "숭늉",
         "soundUrl": "/audio/3479.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "밥솥읫물이 다 떨어졌어마씸.",
-            "standard": "숭눙이 다 떨어졌어요."
+            "standard": "숭늉이 다 떨어졌어요."
           }
         ]
       },
@@ -5217,13 +5217,13 @@
       {
         "seq": "3460",
         "jeju": "맴매",
-        "standard": "엄매",
+        "standard": "맘마",
         "soundUrl": "/audio/3460.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "맴매가 가려워마씸.",
-            "standard": "엄매가 가려워요."
+            "jeju": "아기 맴매 먹을 시간이우다.",
+            "standard": "아기 맘마 먹을 시간이에요."
           }
         ]
       },
@@ -5243,13 +5243,13 @@
       {
         "seq": "3446",
         "jeju": "동그랑곤떡",
-        "standard": "젤벤",
+        "standard": "절편",
         "soundUrl": "/audio/3446.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "동그랑곤떡을 맛있게 먹었어마씸.",
-            "standard": "젤벤을 맛있게 먹었어요."
+            "standard": "절편을 맛있게 먹었어요."
           }
         ]
       },
@@ -5269,13 +5269,13 @@
       {
         "seq": "3429",
         "jeju": "날밥",
-        "standard": "정심",
+        "standard": "점심",
         "soundUrl": "/audio/3429.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "날밥이 다 떨어졌어마씸.",
-            "standard": "정심이 다 떨어졌어요."
+            "standard": "점심이 다 떨어졌어요."
           }
         ]
       }
@@ -5317,26 +5317,26 @@
       {
         "seq": "5418",
         "jeju": "저린내",
-        "standard": "전-내",
+        "standard": "누린내",
         "soundUrl": "/audio/5418.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "오래 둔 기름에서 저린내가 났어마씸.",
-            "standard": "오래 둔 기름에서 전내가 났어요."
+            "jeju": "오래 둔 지름에서 저린내가 나수다.",
+            "standard": "오래 둔 기름에서 누린내가 났어요."
           }
         ]
       },
       {
         "seq": "5141",
         "jeju": "뿜게",
-        "standard": "뿜-기",
+        "standard": "고기밥",
         "soundUrl": "/audio/5141.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뿜게를 빌려줬어마씸.",
-            "standard": "뿜기를 빌려줬어요."
+            "jeju": "뿜게를 나눠줬어마씸.",
+            "standard": "고기밥을 나눠줬어요."
           }
         ]
       },
@@ -5408,13 +5408,13 @@
       {
         "seq": "3510",
         "jeju": "젓물",
-        "standard": "젯-국",
+        "standard": "젓국",
         "soundUrl": "/audio/3510.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "젓물을 맛있게 먹었어마씸.",
-            "standard": "젯국을 맛있게 먹었어요."
+            "standard": "젓국을 맛있게 먹었어요."
           }
         ]
       }
@@ -5469,13 +5469,13 @@
       {
         "seq": "3480",
         "jeju": "밥숟가락",
-        "standard": "밥-적",
+        "standard": "밥술",
         "soundUrl": "/audio/3480.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "밥숟가락으로 밥을 떠먹었어마씸.",
-            "standard": "밥숟가락으로 밥을 떠먹었어요."
+            "standard": "밥술로 밥을 떠먹었어요."
           }
         ]
       },
@@ -5495,13 +5495,13 @@
       {
         "seq": "3434",
         "jeju": "누넹이",
-        "standard": "누렝이",
+        "standard": "누룽지",
         "soundUrl": "/audio/3434.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "누넹이를 만들었어마씸.",
-            "standard": "누렝이를 만들었어요."
+            "standard": "누룽지를 만들었어요."
           }
         ]
       },
@@ -6746,7 +6746,7 @@
       {
         "seq": "7102",
         "jeju": "주꾸다",
-        "standard": "주치다",
+        "standard": "짖다",
         "soundUrl": "/audio/7102.mp3",
         "partOfSpeech": "verb",
         "examples": [
@@ -6859,7 +6859,7 @@
       {
         "seq": "7077",
         "jeju": "어르다",
-        "standard": "얼르다",
+        "standard": "돌아다니다",
         "soundUrl": "/audio/7077.mp3",
         "partOfSpeech": "verb",
         "examples": [
@@ -7528,7 +7528,7 @@
       {
         "seq": "7207",
         "jeju": "버치다",
-        "standard": "제우다",
+        "standard": "버겁다",
         "soundUrl": "/audio/7207.mp3",
         "partOfSpeech": "adjective",
         "examples": [
@@ -7541,7 +7541,7 @@
       {
         "seq": "7189",
         "jeju": "몹쓸다",
-        "standard": "몹씰다",
+        "standard": "악독하다",
         "soundUrl": "/audio/7189.mp3",
         "partOfSpeech": "adjective",
         "examples": [
@@ -7593,13 +7593,13 @@
       {
         "seq": "7220",
         "jeju": "부치럽다",
-        "standard": "비끄럽다",
+        "standard": "부끄럽다",
         "soundUrl": "/audio/7220.mp3",
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아침부터 내가 부치럽어마씸.",
-            "standard": "아침부터 내가 비끄럽어요."
+            "jeju": "아척부터 내가 부치럽어마씸.",
+            "standard": "아침부터 내가 부끄러워요."
           }
         ]
       },
@@ -7745,26 +7745,26 @@
       {
         "seq": "728",
         "jeju": "에새끼",
-        "standard": "의-새끼",
+        "standard": "어미와 새끼",
         "soundUrl": "/audio/728.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "에새끼를 오랜만에 만났어마씸.",
-            "standard": "의새끼를 오랜만에 만났어요."
+            "standard": "어미와 새끼를 오랜만에 만났어요."
           }
         ]
       },
       {
         "seq": "691",
         "jeju": "씨방답",
-        "standard": "씨-방상",
+        "standard": "시일가",
         "soundUrl": "/audio/691.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "씨방답을 마중 나갔어마씸.",
-            "standard": "씨방상을 마중 나갔어요."
+            "standard": "시일가를 마중 나갔어요."
           }
         ]
       },
@@ -7806,26 +7806,26 @@
       {
         "seq": "673",
         "jeju": "셋삼촌",
-        "standard": "셋-아방",
+        "standard": "중부",
         "soundUrl": "/audio/673.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "셋삼촌이 집에 왔어마씸.",
-            "standard": "셋아방이 집에 왔어요."
+            "standard": "중부가 집에 왔어요."
           }
         ]
       },
       {
         "seq": "582",
         "jeju": "아주마님",
-        "standard": "아지마님",
+        "standard": "아주머님",
         "soundUrl": "/audio/582.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "아주마님을 마중 나갔어마씸.",
-            "standard": "아지마님을 마중 나갔어요."
+            "standard": "아주머님을 마중 나갔어요."
           }
         ]
       },
@@ -7845,13 +7845,13 @@
       {
         "seq": "370",
         "jeju": "가시할망",
-        "standard": "처-할망",
+        "standard": "장조모",
         "soundUrl": "/audio/370.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "가시할망이 집에 왔어마씸.",
-            "standard": "처할망이 집에 왔어요."
+            "standard": "장조모가 집에 왔어요."
           }
         ]
       },
@@ -7884,39 +7884,39 @@
       {
         "seq": "2758",
         "jeju": "족은삼촌",
-        "standard": "족은-아방",
+        "standard": "숙부",
         "soundUrl": "/audio/2758.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "족은삼촌을 오랜만에 만났어마씸.",
-            "standard": "족은아방을 오랜만에 만났어요."
+            "standard": "숙부를 오랜만에 만났어요."
           }
         ]
       },
       {
         "seq": "669",
         "jeju": "세양어멍",
-        "standard": "수양-어멍",
+        "standard": "수양모",
         "soundUrl": "/audio/669.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "세양어멍을 오랜만에 만났어마씸.",
-            "standard": "수양어멍을 오랜만에 만났어요."
+            "standard": "수양모를 오랜만에 만났어요."
           }
         ]
       },
       {
         "seq": "546",
         "jeju": "세곗서방",
-        "standard": "세깃-서방",
+        "standard": "샛서방",
         "soundUrl": "/audio/546.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "세곗서방을 마중 나갔어마씸.",
-            "standard": "세깃서방을 마중 나갔어요."
+            "standard": "샛서방을 마중 나갔어요."
           }
         ]
       }
@@ -7958,26 +7958,26 @@
       {
         "seq": "447",
         "jeju": "느렁테",
-        "standard": "뜬-부룽이",
+        "standard": "느림보",
         "soundUrl": "/audio/447.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "느렁테를 산이서 봤어마씸.",
-            "standard": "뜬부룽이를 산에서 봤어요."
+            "standard": "느림보를 산에서 봤어요."
           }
         ]
       },
       {
         "seq": "445",
         "jeju": "눈펄렝이",
-        "standard": "눈-펄룽이",
+        "standard": "왕눈이",
         "soundUrl": "/audio/445.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "눈펄렝이를 오랜만에 만났어마씸.",
-            "standard": "눈펄룽이를 오랜만에 만났어요."
+            "standard": "왕눈이를 오랜만에 만났어요."
           }
         ]
       },
@@ -8149,13 +8149,13 @@
       {
         "seq": "4547",
         "jeju": "거리",
-        "standard": "걸",
+        "standard": "부부의 연",
         "soundUrl": "/audio/4547.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "거리가 참 좋아마씸.",
-            "standard": "걸이 참 좋아요."
+            "standard": "부부의 연이 참 좋아요."
           }
         ]
       },
@@ -8210,26 +8210,26 @@
       {
         "seq": "2747",
         "jeju": "젯군",
-        "standard": "곗군",
+        "standard": "계원",
         "soundUrl": "/audio/2747.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "젯군을 마중 나갔어마씸.",
-            "standard": "곗군을 마중 나갔어요."
+            "standard": "계원을 마중 나갔어요."
           }
         ]
       },
       {
-        "seq": "2744",
-        "jeju": "제미",
-        "standard": "지미",
-        "soundUrl": "/audio/2744.mp3",
+        "seq": "611",
+        "jeju": "막동이",
+        "standard": "막내둥이",
+        "soundUrl": "/audio/611.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "제미가 집에 왔어마씸.",
-            "standard": "지미가 집에 왔어요."
+            "jeju": "막동이가 집에 왔어마씸.",
+            "standard": "막내둥이가 집에 왔어요."
           }
         ]
       },
@@ -8262,13 +8262,13 @@
       {
         "seq": "2711",
         "jeju": "으원",
-        "standard": "이원",
+        "standard": "의원",
         "soundUrl": "/audio/2711.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "으원이 안부를 물었어마씸.",
-            "standard": "이원이 안부를 물었어요."
+            "standard": "의원이 안부를 물었어요."
           }
         ]
       },
@@ -8944,26 +8944,26 @@
       {
         "seq": "3345",
         "jeju": "지동",
-        "standard": "지둥",
+        "standard": "기둥",
         "soundUrl": "/audio/3345.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "지동이 흔들려마씸.",
-            "standard": "지둥이 흔들려요."
+            "standard": "기둥이 흔들려요."
           }
         ]
       },
       {
         "seq": "3319",
         "jeju": "우영",
-        "standard": "위영",
+        "standard": "채전",
         "soundUrl": "/audio/3319.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "우영에 가 봤어마씸.",
-            "standard": "위영에 가 봤어요."
+            "standard": "채전에 가 봤어요."
           }
         ]
       },
@@ -8983,13 +8983,13 @@
       {
         "seq": "3313",
         "jeju": "외",
-        "standard": "지에",
+        "standard": "기와",
         "soundUrl": "/audio/3313.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "외가 흔들려마씸.",
-            "standard": "지에가 흔들려요."
+            "standard": "기와가 흔들려요."
           }
         ]
       },
@@ -9022,13 +9022,13 @@
       {
         "seq": "3206",
         "jeju": "널마리",
-        "standard": "마리",
+        "standard": "마루",
         "soundUrl": "/audio/3206.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "널마리가 보여마씸.",
-            "standard": "마리가 보여요."
+            "standard": "마루가 보여요."
           }
         ]
       }
@@ -9196,26 +9196,26 @@
       {
         "seq": "6785",
         "jeju": "이불요",
-        "standard": "이불자리",
+        "standard": "이부자리",
         "soundUrl": "/audio/6785.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "이불요가 낡았어마씸.",
-            "standard": "이불자리가 낡았어요."
+            "standard": "이부자리가 낡았어요."
           }
         ]
       },
       {
         "seq": "3350",
         "jeju": "지새집",
-        "standard": "지에-집",
+        "standard": "기와집",
         "soundUrl": "/audio/3350.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "지새집이 참 좋아마씸.",
-            "standard": "지에집이 참 좋아요."
+            "standard": "기와집이 참 좋아요."
           }
         ]
       },
@@ -9235,13 +9235,13 @@
       {
         "seq": "3278",
         "jeju": "서리",
-        "standard": "집-서리",
+        "standard": "서까래",
         "soundUrl": "/audio/3278.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "서리 때문에 힘들었어마씸.",
-            "standard": "집서리 때문에 힘들었어요."
+            "standard": "서까래 때문에 힘들었어요."
           }
         ]
       },
@@ -9261,13 +9261,13 @@
       {
         "seq": "821",
         "jeju": "손또매",
-        "standard": "손-뚜메",
+        "standard": "토수",
         "soundUrl": "/audio/821.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "손또매를 빌려줬어마씸.",
-            "standard": "손뚜메를 빌려줬어요."
+            "standard": "토수를 빌려줬어요."
           }
         ]
       },
@@ -9413,13 +9413,13 @@
       {
         "seq": "3656",
         "jeju": "뱅이혹",
-        "standard": "혹",
+        "standard": "확",
         "soundUrl": "/audio/3656.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "뱅이혹이 가려워마씸.",
-            "standard": "혹이 가려워요."
+            "jeju": "뱅이혹에 곡석을 놓앙 짛엇수다.",
+            "standard": "확에 곡식을 놓고 찧었습니다."
           }
         ]
       },
@@ -9552,13 +9552,13 @@
       {
         "seq": "759",
         "jeju": "골롬",
-        "standard": "곰",
+        "standard": "고름",
         "soundUrl": "/audio/759.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "골롬을 산이서 봤어마씸.",
-            "standard": "곰을 산에서 봤어요."
+            "jeju": "상처에 골롬이 고여수다.",
+            "standard": "상처에 고름이 고였습니다."
           }
         ]
       },
@@ -9613,13 +9613,13 @@
       {
         "seq": "3705",
         "jeju": "수리",
-        "standard": "술리",
+        "standard": "수레",
         "soundUrl": "/audio/3705.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "수리가 다 떨어졌어마씸.",
-            "standard": "술리가 다 떨어졌어요."
+            "jeju": "수리가 다 망가졌어마씸.",
+            "standard": "수레가 다 망가졌어요."
           }
         ]
       },
@@ -9665,13 +9665,13 @@
       {
         "seq": "3690",
         "jeju": "상제",
-        "standard": "상지",
+        "standard": "상자",
         "soundUrl": "/audio/3690.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "상제를 새로 샀어마씸.",
-            "standard": "상지를 새로 샀어요."
+            "standard": "상자를 새로 샀어요."
           }
         ]
       },
@@ -9704,13 +9704,13 @@
       {
         "seq": "3672",
         "jeju": "부체",
-        "standard": "선제",
+        "standard": "부채",
         "soundUrl": "/audio/3672.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "부체가 낡았어마씸.",
-            "standard": "선제가 낡았어요."
+            "standard": "부채가 낡았어요."
           }
         ]
       },
@@ -10586,7 +10586,7 @@
       {
         "seq": "5376",
         "jeju": "일름",
-        "standard": "일홈",
+        "standard": "이름",
         "soundUrl": "/audio/5376.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -10690,13 +10690,13 @@
       {
         "seq": "5350",
         "jeju": "우전",
-        "standard": "운가",
+        "standard": "웃돈",
         "soundUrl": "/audio/5350.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "바람이 부는 형세를 우전이라 했수다.",
-            "standard": "바람이 부는 형세를 운가라고 했습니다."
+            "jeju": "물건 값에 우전을 더 줬수다.",
+            "standard": "물건 값에 웃돈을 더 줬습니다."
           }
         ]
       }
@@ -10803,13 +10803,13 @@
       {
         "seq": "5211",
         "jeju": "세",
-        "standard": "중진",
+        "standard": "거간",
         "soundUrl": "/audio/5211.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "마을의 세들이 모여 일을 의논했수다.",
-            "standard": "마을의 중진들이 모여 일을 의논했습니다."
+            "jeju": "마을 세들이 모여수다.",
+            "standard": "마을 거간들이 모였습니다."
           }
         ]
       },
@@ -10942,13 +10942,13 @@
       {
         "seq": "5046",
         "jeju": "방둥이",
-        "standard": "방뒤",
+        "standard": "장난감",
         "soundUrl": "/audio/5046.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "방둥이가 낡았어마씸.",
-            "standard": "방뒤가 낡았어요."
+            "standard": "장난감이 낡았어요."
           }
         ]
       },
@@ -11068,13 +11068,13 @@
       {
         "seq": "4922",
         "jeju": "두끼",
-        "standard": "두티",
+        "standard": "두께",
         "soundUrl": "/audio/4922.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "두끼를 맞대어 단단히 묶었수다.",
-            "standard": "두티를 맞대어 단단히 묶었습니다."
+            "jeju": "두끼를 재 봤수다.",
+            "standard": "두께를 재 봤습니다."
           }
         ]
       },
@@ -11698,65 +11698,65 @@
       {
         "seq": "2136",
         "jeju": "송애기",
-        "standard": "쇠아지",
+        "standard": "송아지",
         "soundUrl": "/audio/2136.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "송애기를 산이서 봤어마씸.",
-            "standard": "쇠아지를 산에서 봤어요."
+            "standard": "송아지를 산에서 봤어요."
           }
         ]
       },
       {
         "seq": "2109",
         "jeju": "부렝이",
-        "standard": "부룽이",
+        "standard": "수소",
         "soundUrl": "/audio/2109.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "부렝이를 산이서 봤어마씸.",
-            "standard": "부룽이를 산에서 봤어요."
+            "standard": "수소를 산에서 봤어요."
           }
         ]
       },
       {
         "seq": "2087",
         "jeju": "밭갈쇠",
-        "standard": "밭갈이",
+        "standard": "밭갈이소",
         "soundUrl": "/audio/2087.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "밭갈쇠가 소리를 냈어마씸.",
-            "standard": "밭갈이가 소리를 냈어요."
+            "standard": "밭갈이소가 소리를 냈어요."
           }
         ]
       },
       {
         "seq": "1891",
         "jeju": "똥소레기",
-        "standard": "소로기",
+        "standard": "솔개",
         "soundUrl": "/audio/1891.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "똥소레기를 산이서 봤어마씸.",
-            "standard": "소로기를 산에서 봤어요."
+            "standard": "솔개를 산에서 봤어요."
           }
         ]
       },
       {
         "seq": "1765",
         "jeju": "쾨끼리",
-        "standard": "쾨키리",
+        "standard": "코끼리",
         "soundUrl": "/audio/1765.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "쾨끼리를 산이서 봤어마씸.",
-            "standard": "쾨키리를 산에서 봤어요."
+            "standard": "코끼리를 산에서 봤어요."
           }
         ]
       },
@@ -11824,39 +11824,39 @@
       {
         "seq": "2043",
         "jeju": "드릇고냉이",
-        "standard": "산-고냉이",
+        "standard": "산고양이",
         "soundUrl": "/audio/2043.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "드릇고냉이를 산이서 봤어마씸.",
-            "standard": "산고냉이를 산에서 봤어요."
+            "standard": "산고양이를 산에서 봤어요."
           }
         ]
       },
       {
         "seq": "2361",
         "jeju": "대엽",
-        "standard": "대엽-조갱이",
+        "standard": "대합",
         "soundUrl": "/audio/2361.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "대엽을 그물로 건졌어마씸.",
-            "standard": "대엽조갱이를 그물로 건졌어요."
+            "standard": "대합을 그물로 건졌어요."
           }
         ]
       },
       {
         "seq": "2297",
         "jeju": "어금",
-        "standard": "어금-조개기",
+        "standard": "바지락",
         "soundUrl": "/audio/2297.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "어금을 그물로 건졌어마씸.",
-            "standard": "어금조개기를 그물로 건졌어요."
+            "standard": "바지락을 그물로 건졌어요."
           }
         ]
       },
@@ -11876,26 +11876,26 @@
       {
         "seq": "2589",
         "jeju": "재",
-        "standard": "잴",
+        "standard": "매미",
         "soundUrl": "/audio/2589.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "재가 마당이서 놀고 있어마씸.",
-            "standard": "잴이 마당에서 놀고 있어요."
+            "jeju": "재가 마당이서 놀고 이서마씸.",
+            "standard": "매미가 마당에서 놀고 있어요."
           }
         ]
       },
       {
         "seq": "2479",
         "jeju": "쉬",
-        "standard": "쒸",
+        "standard": "서캐",
         "soundUrl": "/audio/2479.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "옷에 쉬가 붙어 기어다녔어마씸.",
-            "standard": "옷에 이가 붙어 기어 다녔어요."
+            "jeju": "머리에 쉬가 잔뜩 슬었어마씸.",
+            "standard": "머리에 서캐가 잔뜩 슬었어요."
           }
         ]
       },
@@ -11963,7 +11963,7 @@
       {
         "seq": "2594",
         "jeju": "진독",
-        "standard": "진둑",
+        "standard": "진드기",
         "soundUrl": "/audio/2594.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -11989,13 +11989,13 @@
       {
         "seq": "2587",
         "jeju": "자최",
-        "standard": "자치",
+        "standard": "자벌레",
         "soundUrl": "/audio/2587.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "자최가 소리를 냈어마씸.",
-            "standard": "자치가 소리를 냈어요."
+            "jeju": "자최가 낭가지를 기어갔어마씸.",
+            "standard": "자벌레가 나뭇가지를 기어갔어요."
           }
         ]
       },
@@ -12028,33 +12028,33 @@
       {
         "seq": "2480",
         "jeju": "쉿버렝이",
-        "standard": "가시",
+        "standard": "구더기",
         "soundUrl": "/audio/2480.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "쉿버렝이를 산이서 봤어마씸.",
-            "standard": "가시를 산에서 봤어요."
+            "jeju": "쉿버렝이가 궤기에 셍겼어마씸.",
+            "standard": "구더기가 고기에 생겼어요."
           }
         ]
       },
       {
         "seq": "2459",
         "jeju": "멜뤼",
-        "standard": "진쉬",
+        "standard": "멸구",
         "soundUrl": "/audio/2459.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "멜뤼가 잎사귀 우를 기어갔어마씸.",
-            "standard": "진이가 잎사귀 위를 기어갔어요."
+            "standard": "멸구가 잎사귀 위를 기어갔어요."
           }
         ]
       },
       {
         "seq": "2427",
         "jeju": "굼벵이",
-        "standard": "지충",
+        "standard": "굼벵이",
         "soundUrl": "/audio/2427.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -12080,13 +12080,13 @@
       {
         "seq": "2409",
         "jeju": "조우럭",
-        "standard": "졸락",
+        "standard": "노래미",
         "soundUrl": "/audio/2409.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "조우럭을 그물로 건졌어마씸.",
-            "standard": "졸락을 그물로 건졌어요."
+            "standard": "노래미를 그물로 건졌어요."
           }
         ]
       }
@@ -12115,26 +12115,26 @@
       {
         "seq": "2389",
         "jeju": "붕에",
-        "standard": "장이",
+        "standard": "뱀장어",
         "soundUrl": "/audio/2389.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "붕에를 냇가이서 잡았어마씸.",
-            "standard": "장이를 냇가에서 잡았어요."
+            "standard": "뱀장어를 냇가에서 잡았어요."
           }
         ]
       },
       {
         "seq": "2386",
         "jeju": "나부복쟁이",
-        "standard": "나비",
+        "standard": "나비복",
         "soundUrl": "/audio/2386.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나부복쟁이가 마당이서 놀고 있어마씸.",
-            "standard": "나비가 마당에서 놀고 있어요."
+            "jeju": "나부복쟁이를 바당이서 잡았어마씸.",
+            "standard": "나비복을 바다에서 잡았어요."
           }
         ]
       },
@@ -12167,26 +12167,26 @@
       {
         "seq": "2360",
         "jeju": "닥살",
-        "standard": "딱살",
+        "standard": "소라껍질",
         "soundUrl": "/audio/2360.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "닥살이 아파마씸.",
-            "standard": "딱살이 아파요."
+            "jeju": "닥살을 주웠어마씸.",
+            "standard": "소라껍질을 주웠어요."
           }
         ]
       },
       {
         "seq": "2344",
         "jeju": "거펑",
-        "standard": "검넝",
+        "standard": "전복껍질",
         "soundUrl": "/audio/2344.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "거펑을 그물로 건졌어마씸.",
-            "standard": "검넝을 그물로 건졌어요."
+            "standard": "전복껍질을 그물로 건졌어요."
           }
         ]
       },
@@ -12206,13 +12206,13 @@
       {
         "seq": "2338",
         "jeju": "가다리",
-        "standard": "저립",
+        "standard": "재방어",
         "soundUrl": "/audio/2338.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가다리가 돌 밑으로 기어갔어마씸.",
-            "standard": "지네가 돌 밑으로 기어갔어요."
+            "jeju": "가다리를 바당이서 잡았어마씸.",
+            "standard": "재방어를 바다에서 잡았어요."
           }
         ]
       },
@@ -12241,13 +12241,13 @@
       {
         "seq": "2325",
         "jeju": "귀막쉬",
-        "standard": "벙추",
+        "standard": "울지 않는 매미",
         "soundUrl": "/audio/2325.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "귀막쉬가 안부를 물었어마씸.",
-            "standard": "벙추가 안부를 물었어요."
+            "jeju": "여름에 귀막쉬를 잡았어마씸.",
+            "standard": "여름에 울지 않는 매미를 잡았어요."
           }
         ]
       },
@@ -12332,13 +12332,13 @@
       {
         "seq": "2251",
         "jeju": "구루찌",
-        "standard": "구룻",
+        "standard": "감성돔",
         "soundUrl": "/audio/2251.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "구루찌를 그물로 건졌어마씸.",
-            "standard": "구룻을 그물로 건졌어요."
+            "standard": "감성돔을 그물로 건졌어요."
           }
         ]
       },
@@ -12358,13 +12358,13 @@
       {
         "seq": "2185",
         "jeju": "우매",
-        "standard": "웅매",
+        "standard": "수말",
         "soundUrl": "/audio/2185.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "우매가 소리를 냈어마씸.",
-            "standard": "웅매가 소리를 냈어요."
+            "standard": "수말이 소리를 냈어요."
           }
         ]
       }
@@ -12458,13 +12458,13 @@
       {
         "seq": "1767",
         "jeju": "퇴께",
-        "standard": "퇴끼",
+        "standard": "토끼",
         "soundUrl": "/audio/1767.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "퇴께가 소리를 냈어마씸.",
-            "standard": "퇴끼가 소리를 냈어요."
+            "standard": "토끼가 소리를 냈어요."
           }
         ]
       },
@@ -13253,13 +13253,13 @@
       {
         "seq": "3916",
         "jeju": "속",
-        "standard": "숙",
+        "standard": "쑥",
         "soundUrl": "/audio/3916.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "속이 마당에 피었어마씸.",
-            "standard": "숙이 마당에 피었어요."
+            "standard": "쑥이 마당에 피었어요."
           }
         ]
       },
@@ -13279,39 +13279,39 @@
       {
         "seq": "3753",
         "jeju": "뒤",
-        "standard": "새",
+        "standard": "띠",
         "soundUrl": "/audio/3753.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "뒤를 산이서 봤어마씸.",
-            "standard": "새를 산에서 봤어요."
+            "standard": "띠를 산에서 봤어요."
           }
         ]
       },
       {
         "seq": "2557",
         "jeju": "나록찍",
-        "standard": "찝",
+        "standard": "짚",
         "soundUrl": "/audio/2557.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "나록찍이 잘 자랐어마씸.",
-            "standard": "찝이 잘 자랐어요."
+            "jeju": "나록찍을 마당에 쌓았수다.",
+            "standard": "짚을 마당에 쌓았습니다."
           }
         ]
       },
       {
         "seq": "125",
         "jeju": "물절",
-        "standard": "절",
+        "standard": "물결",
         "soundUrl": "/audio/125.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "물절에 가 봤어마씸.",
-            "standard": "절에 가 봤어요."
+            "jeju": "물절이 세게 쳤어마씸.",
+            "standard": "물결이 세게 쳤어요."
           }
         ]
       },
@@ -13457,13 +13457,13 @@
       {
         "seq": "4393",
         "jeju": "멀뤼",
-        "standard": "멀리",
+        "standard": "머루",
         "soundUrl": "/audio/4393.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "멀뤼를 뜯어 왔어마씸.",
-            "standard": "멀리를 뜯어 왔어요."
+            "standard": "머루를 뜯어 왔어요."
           }
         ]
       },
@@ -13596,7 +13596,7 @@
       {
         "seq": "4005",
         "jeju": "잔뒤역",
-        "standard": "퇴역",
+        "standard": "잔디",
         "soundUrl": "/audio/4005.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -13657,13 +13657,13 @@
       {
         "seq": "3988",
         "jeju": "유룸줄",
-        "standard": "조령",
+        "standard": "으름덩굴",
         "soundUrl": "/audio/3988.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "유룸줄을 뜯어 왔어마씸.",
-            "standard": "조령을 뜯어 왔어요."
+            "standard": "으름덩굴을 뜯어 왔어요."
           }
         ]
       },
@@ -13696,13 +13696,13 @@
       {
         "seq": "3937",
         "jeju": "수승",
-        "standard": "추승",
+        "standard": "율무",
         "soundUrl": "/audio/3937.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "수승을 뜯어 왔어마씸.",
-            "standard": "추승을 뜯어 왔어요."
+            "standard": "율무를 뜯어 왔어요."
           }
         ]
       },
@@ -13735,7 +13735,7 @@
       {
         "seq": "3850",
         "jeju": "불리",
-        "standard": "불휘",
+        "standard": "뿌리",
         "soundUrl": "/audio/3850.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -13748,13 +13748,13 @@
       {
         "seq": "3813",
         "jeju": "반초",
-        "standard": "반치",
+        "standard": "파초",
         "soundUrl": "/audio/3813.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "반초가 마당에 피었어마씸.",
-            "standard": "반치가 마당에 피었어요."
+            "standard": "파초가 마당에 피었어요."
           }
         ]
       }
@@ -13783,13 +13783,13 @@
       {
         "seq": "3767",
         "jeju": "멘네",
-        "standard": "멘헤",
+        "standard": "면화",
         "soundUrl": "/audio/3767.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "멘네를 뜯어 왔어마씸.",
-            "standard": "멘헤를 뜯어 왔어요."
+            "standard": "면화를 뜯어 왔어요."
           }
         ]
       },
@@ -13822,13 +13822,13 @@
       {
         "seq": "2547",
         "jeju": "꿀",
-        "standard": "너출",
+        "standard": "덩굴",
         "soundUrl": "/audio/2547.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "꿀을 뜯어 왔어마씸.",
-            "standard": "너출을 뜯어 왔어요."
+            "standard": "덩굴을 뜯어 왔어요."
           }
         ]
       },
@@ -13861,13 +13861,13 @@
       {
         "seq": "2499",
         "jeju": "가마귀숟가락",
-        "standard": "살마",
+        "standard": "반하",
         "soundUrl": "/audio/2499.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
             "jeju": "가마귀숟가락이 잘 자랐어마씸.",
-            "standard": "살마가 잘 자랐어요."
+            "standard": "반하가 잘 자랐어요."
           }
         ]
       },
@@ -13887,13 +13887,13 @@
       {
         "seq": "1691",
         "jeju": "지메",
-        "standard": "지미",
+        "standard": "조마름병",
         "soundUrl": "/audio/1691.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "논밭의 지메를 잘 살펴 농사를 지었수다.",
-            "standard": "논밭의 지미를 잘 살펴 농사를 지었습니다."
+            "jeju": "논밭의 지메를 잘 살펴 농사를 지어수다.",
+            "standard": "논밭의 조마름병을 잘 살펴 농사를 지었습니다."
           }
         ]
       }
