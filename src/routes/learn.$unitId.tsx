@@ -12,6 +12,7 @@ import { useProgress } from "@/lib/progress";
 import {
   buildLesson,
   hasPassed,
+  lessonQuestionCounts,
   PASS_PERCENT,
   shuffleQuestions,
   type Question,
@@ -64,6 +65,7 @@ function LearnPage() {
   }
 
   const currentUnit = unit;
+  const questionCounts = lessonQuestionCounts(currentUnit);
 
   if (!unlocked) {
     return (
@@ -262,7 +264,8 @@ function LearnPage() {
     <div className="flex flex-col gap-6">
       <PageHeader kicker={pack ? `${pack.title} · 200단어` : `유닛 ${formatUnitNumber(currentUnit.order)}`} title={currentUnit.title} />
       <p className="text-sm text-muted-foreground">
-        단어를 들어 본 뒤 듣기 10문제, 읽기 10문제를 풉니다. {PASS_PERCENT}% 이상이면 클리어입니다. 틀리면 그 문제만 다시 풀 수 있습니다.
+        단어를 들어 본 뒤 듣기 {questionCounts.listen}문제, 읽기 {questionCounts.read}문제를 풉니다. {PASS_PERCENT}% 이상이면
+        클리어입니다. 틀리면 그 문제만 다시 풀 수 있습니다.
       </p>
       <WordList words={currentUnit.words} />
       <Button size="lg" className="w-full" onClick={start}>
