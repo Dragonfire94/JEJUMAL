@@ -1119,15 +1119,15 @@
     "order": 9,
     "words": [
       {
-        "seq": "548",
-        "jeju": "섹골",
-        "standard": "호색가",
-        "soundUrl": "/audio/548.mp3",
+        "seq": "574",
+        "jeju": "심술다리",
+        "standard": "심술꾸러기",
+        "soundUrl": "/audio/574.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "섹골이 안부를 물었어마씸.",
-            "standard": "호색가가 안부를 물었어요."
+            "jeju": "심술다리가 자꾸 트집을 잡아마씸.",
+            "standard": "심술꾸러기가 자꾸 트집을 잡아요."
           }
         ]
       },
@@ -1158,15 +1158,15 @@
         ]
       },
       {
-        "seq": "505",
-        "jeju": "개목쟁이",
-        "standard": "개백장",
-        "soundUrl": "/audio/505.mp3",
+        "seq": "470",
+        "jeju": "뗑뗑이",
+        "standard": "구두쇠",
+        "soundUrl": "/audio/470.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "개목쟁이를 오랜만에 만났어마씸.",
-            "standard": "개백장을 오랜만에 만났어요."
+            "jeju": "뗑뗑이는 돈을 혼 푼도 안 써마씸.",
+            "standard": "구두쇠는 돈을 한 푼도 안 써요."
           }
         ]
       },
@@ -3899,15 +3899,15 @@
     "order": 29,
     "words": [
       {
-        "seq": "3105",
-        "jeju": "조쟁이",
-        "standard": "자지",
-        "soundUrl": "/audio/3105.mp3",
+        "seq": "2827",
+        "jeju": "귀창",
+        "standard": "귀청",
+        "soundUrl": "/audio/2827.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "조쟁이가 아파마씸.",
-            "standard": "자지가 아파요."
+            "jeju": "귀창이 아파마씸.",
+            "standard": "귀청이 아파요."
           }
         ]
       },

@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Check, Lock } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -30,6 +30,7 @@ function Home() {
   const continueId = useProgress((state) => state.continueUnitId());
   const continueUnit = getUnit(continueId) ?? getUnit("people-0")!;
   const reviewDue = useProgress((state) => dueCount(state.wrongBySeq));
+  const hydrated = useProgress((state) => state.hydrated);
   const doneCount = completed.length;
   const learnedWords = doneCount * 10;
   const percent = progressPercent(doneCount);
@@ -37,6 +38,12 @@ function Home() {
   const unlockStatus = nextUnlockStatus(completed);
   const openRank = openRankIndex(completed);
   const [previewRank, setPreviewRank] = useState(openRank);
+  const userPickedRank = useRef(false);
+  useEffect(() => {
+    if (hydrated && !userPickedRank.current) {
+      setPreviewRank(openRank);
+    }
+  }, [hydrated, openRank]);
   const selectedRank = previewRank;
   const selected = RANKS[selectedRank]!;
   const rankUnits = unitsInRank(selectedRank);
@@ -90,7 +97,10 @@ function Home() {
               <button
                 key={item.id}
                 type="button"
-                onClick={() => setPreviewRank(index)}
+                onClick={() => {
+                  userPickedRank.current = true;
+                  setPreviewRank(index);
+                }}
                 className={cn(
                   "flex shrink-0 items-center gap-1 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors",
                   active ? "border-foreground bg-foreground text-background" : "border-border bg-card text-foreground",
