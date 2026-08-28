@@ -116,21 +116,6 @@ function distractorPools(word: Word, preferred: Word[], field: "jeju" | "standar
   ];
 }
 
-// 제주어 표기가 표준어 표기와 너무 닮은 단어("씨누이"/"시누이" 등)는 읽기 문제에서 뺀다.
-// 뜻(표준어)을 보고 제주말 표기를 고르는 문제라, 정답이 프롬프트 글자와 눈에 띄게
-// 닮아 있으면 제주말을 몰라도 생김새만 보고 찍을 수 있기 때문이다. 듣기 문제는
-// 소리로 듣고 뜻을 고르는 방향이라 이 문제가 없어 그대로 둔다.
-function readEligible(word: Word): boolean {
-  return !tooSimilar(word.jeju, word.standard);
-}
-
-export function lessonQuestionCounts(unit: Unit): { listen: number; read: number } {
-  return {
-    listen: unit.words.length,
-    read: unit.words.filter(readEligible).length,
-  };
-}
-
 export function buildLesson(unit: Unit): Question[] {
   const sameUnit = unit.words;
 
@@ -147,7 +132,7 @@ export function buildLesson(unit: Unit): Question[] {
     };
   });
 
-  const read: Question[] = sameUnit.filter(readEligible).map((word) => {
+  const read: Question[] = sameUnit.map((word) => {
     const distractors = pickDistractors(word.jeju, distractorPools(word, sameUnit, "jeju"), 3);
     return {
       id: `${word.seq}-read`,
