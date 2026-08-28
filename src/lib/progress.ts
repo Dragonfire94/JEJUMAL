@@ -158,7 +158,7 @@ function migrateProgress(persisted: unknown, version: number): PersistedProgress
 export const useProgress = create<ProgressState>()(
   persist(
     (set, get) => ({
-      hydrated: true,
+      hydrated: false,
       completedUnitIds: [],
       lastPlayedUnitId: null,
       wrongBySeq: {},
