@@ -2094,7 +2094,7 @@
       {
         "seq": "7535",
         "jeju": "셋",
-        "standard": "샛",
+        "standard": "가운데",
         "soundUrl": "/audio/7535.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -2511,7 +2511,7 @@
       {
         "seq": "7543",
         "jeju": "셍거",
-        "standard": "날 것",
+        "standard": "날것",
         "soundUrl": "/audio/7543.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -3649,7 +3649,7 @@
       {
         "seq": "3018",
         "jeju": "쐬닥지",
-        "standard": "부스럼 껍질이 굳은것",
+        "standard": "굳은 부스럼 딱지",
         "soundUrl": "/audio/3018.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -4635,7 +4635,7 @@
       {
         "seq": "2685",
         "jeju": "우방",
-        "standard": "우웡",
+        "standard": "우엉",
         "soundUrl": "/audio/2685.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -4774,7 +4774,7 @@
       {
         "seq": "3568",
         "jeju": "팃물",
-        "standard": "쌀 뜨물",
+        "standard": "쌀뜨물",
         "soundUrl": "/audio/3568.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -4787,7 +4787,7 @@
       {
         "seq": "3461",
         "jeju": "먹을커",
-        "standard": "먹는 것",
+        "standard": "먹을 것",
         "soundUrl": "/audio/3461.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -5482,7 +5482,7 @@
       {
         "seq": "3436",
         "jeju": "누린물",
-        "standard": "누렁물",
+        "standard": "누런 물",
         "soundUrl": "/audio/3436.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -10334,7 +10334,7 @@
       {
         "seq": "5622",
         "jeju": "하찔",
-        "standard": "하낄",
+        "standard": "하등품",
         "soundUrl": "/audio/5622.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -10651,7 +10651,7 @@
       {
         "seq": "5362",
         "jeju": "이녁거",
-        "standard": "내것",
+        "standard": "자기 것",
         "soundUrl": "/audio/5362.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -10764,7 +10764,7 @@
       {
         "seq": "5274",
         "jeju": "알착",
-        "standard": "알짝",
+        "standard": "살짝",
         "soundUrl": "/audio/5274.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -10777,7 +10777,7 @@
       {
         "seq": "5248",
         "jeju": "신립",
-        "standard": "신입",
+        "standard": "신청",
         "soundUrl": "/audio/5248.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -10864,7 +10864,7 @@
       {
         "seq": "5196",
         "jeju": "선용",
-        "standard": "현용",
+        "standard": "현재 사용하는",
         "soundUrl": "/audio/5196.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -10955,7 +10955,7 @@
       {
         "seq": "5040",
         "jeju": "반지기",
-        "standard": "상반",
+        "standard": "절반씩",
         "soundUrl": "/audio/5040.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -11498,7 +11498,7 @@
       {
         "seq": "2474",
         "jeju": "서미역",
-        "standard": "진디",
+        "standard": "진딧물",
         "soundUrl": "/audio/2474.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -11763,7 +11763,7 @@
       {
         "seq": "2485",
         "jeju": "장콜래비",
-        "standard": "강베록2",
+        "standard": "강벼룩",
         "soundUrl": "/audio/2485.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -11802,7 +11802,7 @@
       {
         "seq": "2004",
         "jeju": "묘족뿔",
-        "standard": "짜른 뿔",
+        "standard": "짧은 뿔",
         "soundUrl": "/audio/2004.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -11946,8 +11946,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "어른 공상으로 마련한 자리우다.",
-            "standard": "어른을 위하여 마련한 자리입니다."
+            "jeju": "이 자리는 어른 공상이우다.",
+            "standard": "이 자리는 어른을 위함입니다."
           }
         ]
       }
@@ -13492,7 +13492,7 @@
       {
         "seq": "4377",
         "jeju": "꽝베",
-        "standard": "똘배",
+        "standard": "돌배",
         "soundUrl": "/audio/4377.mp3",
         "partOfSpeech": "noun",
         "examples": [
@@ -13709,13 +13709,13 @@
       {
         "seq": "3908",
         "jeju": "소낭초기",
-        "standard": "송이",
+        "standard": "송이버섯",
         "soundUrl": "/audio/3908.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "숲길에서 떨어진 소낭초기를 주워 왔어마씸.",
-            "standard": "숲길에서 떨어진 솔방울을 주워 왔어요."
+            "jeju": "숲길에서 소낭초기를 캐 왔어마씸.",
+            "standard": "숲길에서 송이버섯을 캐 왔어요."
           }
         ]
       },
