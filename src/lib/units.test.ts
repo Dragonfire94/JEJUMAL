@@ -116,7 +116,7 @@ test("homographs keep the dictionary meaning", () => {
   const shop = byJeju.get("절간")?.examples ?? [];
   assert.ok(shop.some((example) => example.standard.includes("가게")));
   const cause = byJeju.get("시기다")?.examples ?? [];
-  assert.ok(cause.some((example) => example.standard.includes("시키")));
+  assert.ok(cause.some((example) => /시키|시켰/.test(example.standard)));
 });
 
 test("clean examples cover every word and stay readable", () => {
