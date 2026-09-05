@@ -223,10 +223,15 @@ export const useProgress = create<ProgressState>()(
       markRemembered: (seq) => {
         const current = get().wrongBySeq[seq];
         if (!current) return;
+        const now = Date.now();
+        // 예정일(dueAt)에 도달한 경우에만 간격을 다음 단계로 승급한다.
+        // 아직 도래하지 않았는데 반복 클릭하면 간격은 그대로 두고 마지막 복습 시각만 갱신해서,
+        // 같은 날 여러 번 눌러도 한 번에 30일까지 건너뛰지 않게 한다.
+        const isDue = cardIsDue(current, now);
         set((state) => ({
           wrongBySeq: patchCard(state.wrongBySeq, seq, {
-            lastReviewedAt: Date.now(),
-            intervalDays: nextIntervalDays(current.intervalDays),
+            lastReviewedAt: now,
+            intervalDays: isDue ? nextIntervalDays(current.intervalDays) : current.intervalDays,
           }),
           dailyStats: patchDailyStat(state.dailyStats, { reviewsRemembered: 1 }),
         }));
