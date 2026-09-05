@@ -14,6 +14,8 @@ export type Example = {
   standard: string;
 };
 
+export type ReviewStatus = "approved" | "provisional" | "blocked";
+
 export type Word = {
   seq: string;
   jeju: string;
@@ -21,6 +23,10 @@ export type Word = {
   soundUrl: string;
   partOfSpeech: PartOfSpeech;
   examples?: Example[];
+  /** 뜻 확정 상태. 없으면 approved(승인됨)로 간주한다. */
+  reviewStatus?: ReviewStatus;
+  /** 공식 발음 파일이 실제로 존재하는지. 없으면 듣기 문제를 만들지 않는다. */
+  hasAudio?: boolean;
 };
 
 export type Unit = {
