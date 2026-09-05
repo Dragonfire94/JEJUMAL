@@ -20,6 +20,7 @@
     "format": "prettier --write .",
     "build:content": "node scripts/build-content.mjs",
     "build:word-frequency": "node scripts/build-word-frequency.mjs",
+    "build:life-dialect": "node scripts/build-life-dialect.mjs",
     "qc:check": "node scripts/qc-check.mjs"
   },
   "dependencies": {
