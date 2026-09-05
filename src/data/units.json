@@ -1266,8 +1266,8 @@
             "standard": "덜렁대는 사람이 남의 일에 함부로 나섰다가 핀잔을 들었어요."
           }
         ],
-        "hasAudio": true,
-        "reviewStatus": "provisional"
+        "reviewStatus": "provisional",
+        "hasAudio": true
       },
       {
         "seq": "402",
@@ -2529,8 +2529,8 @@
             "standard": "어느새 다 컸네요."
           }
         ],
-        "hasAudio": true,
-        "reviewStatus": "provisional"
+        "reviewStatus": "provisional",
+        "hasAudio": true
       }
     ]
   },
@@ -3312,8 +3312,8 @@
             "standard": "산모가 아기를 낳은 뒤 태반이 온전히 나왔는지 살폈어요."
           }
         ],
-        "hasAudio": true,
-        "reviewStatus": "provisional"
+        "reviewStatus": "provisional",
+        "hasAudio": true
       },
       {
         "seq": "2808",
@@ -5185,8 +5185,8 @@
             "standard": "아궁이 불이 고르니 찐 고구마가 포슬포슬하게 되었어요."
           }
         ],
-        "hasAudio": true,
-        "reviewStatus": "provisional"
+        "reviewStatus": "provisional",
+        "hasAudio": true
       },
       {
         "seq": "3405",
@@ -10862,8 +10862,8 @@
             "standard": "왜 늦었는지 이유나 말해 보세요."
           }
         ],
-        "hasAudio": true,
-        "reviewStatus": "provisional"
+        "reviewStatus": "provisional",
+        "hasAudio": true
       },
       {
         "seq": "4561",
@@ -11659,8 +11659,8 @@
             "standard": "사용 중인 도구는 작업이 끝날 때까지 그대로 두세요."
           }
         ],
-        "hasAudio": true,
-        "reviewStatus": "blocked"
+        "reviewStatus": "blocked",
+        "hasAudio": true
       },
       {
         "seq": "5165",

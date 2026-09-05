@@ -17,7 +17,10 @@
     "test": "vitest run",
     "test:scripts": "node --test 'scripts/**/*.test.mjs'",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build:content": "node scripts/build-content.mjs",
+    "build:word-frequency": "node scripts/build-word-frequency.mjs",
+    "qc:check": "node scripts/qc-check.mjs"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.4",
