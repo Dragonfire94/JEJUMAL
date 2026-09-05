@@ -8,6 +8,14 @@
 - 규모: 학습용으로 고른 1,000개 (100유닛 × 10단어)
 - 발음 파일은 `public/audio/{seq}.mp3`에 받아 두었습니다. 앱은 도청 서버를 부르지 않습니다.
 
+## 생활방언 (대화 100편)
+
+- 출처: 제주특별자치도 [생활제주어](https://www.jeju.go.kr/culture/dialect/lifeDialect.htm) OpenAPI B02
+- 규모: 인사·일상·결혼·관광·철학·민요·기타 **100편** + 원본 발음 MP3
+- 파일: `data/life-dialect/items.json`, `data/life-dialect/audio/{seq}.mp3`
+- 다시 받기: `python scripts/fetch_life_dialect.py`
+- 앱 학습 화면에는 아직 넣지 않았습니다. 사전 1,000단어와는 별개입니다.
+
 ## 예문
 
 - 1,000단어 모두 예문 1개. 뜻(사람·동물·식물·몸·음식·장소·도구·날씨·추상)별로 문형을 여러 개 두어 같은 카테고리 안에서도 반복되지 않게 했습니다.
