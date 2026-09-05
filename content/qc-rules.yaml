@@ -1,0 +1,103 @@
+# JEJUMAL 콘텐츠 QC 규칙 카탈로그
+#
+# scripts/qc-check.mjs가 이 문서에 나열된 규칙들을 코드로 실행하고, 결과를
+# 여기 적힌 id/설명과 함께 보고서로 출력한다. 규칙 자체(패턴 매칭 로직)는
+# 아직 이 YAML에서 직접 실행되지 않고 스크립트 안에 구현되어 있다 — 전용
+# 규칙 엔진을 먼저 만들 필요는 없다는 판단에서다(개선안 문서 참고). 이 파일은
+# "무슨 규칙이 왜 있는지"를 사람이 읽고 고칠 수 있는 단일 카탈로그 역할을 한다.
+#
+# 새 규칙을 추가하면: 여기 항목을 추가하고, qc-check.mjs에 같은 id로 검사
+# 함수를 구현한다.
+
+rules:
+  - id: DUPLICATE_SEQ
+    severity: error
+    scope: lexeme
+    description: 표제어 seq가 중복되면 안 된다.
+    evidence: 데이터 정합성의 기본 전제.
+
+  - id: BLOCKED_NOT_QUIZZED
+    severity: error
+    scope: lexeme
+    description: reviewStatus가 blocked인 표제어는 퀴즈에 출제되지 않아야 한다.
+    evidence: seq 5196(선용) — 뜻 근거가 상충해 비노출 처리됨.
+    check: quiz.ts의 buildLesson()이 blocked 표제어를 걸러내는지 확인.
+
+  - id: EXAMPLE_REVIEW_MATCHES_LEXEME
+    severity: error
+    scope: example
+    description: 표제어가 blocked면 그 예문의 review.meaning도 blocked여야 한다.
+    evidence: 표제어와 예문의 검수 상태가 따로 놀면 표시되는 정보가 어긋난다.
+
+  - id: HEADWORD_IN_EXAMPLE
+    severity: warn
+    scope: example
+    description: 예문 안에 표제어(또는 그 활용형)가 실제로 등장해야 한다.
+    evidence: >
+      과거 "시기다"의 예문이 축약형 "시켰어요"로 바뀌며 리터럴 "시키"가
+      사라진 사례처럼, 단순 부분 문자열 검사는 오탐이 있어 warn으로 둔다.
+
+  - id: POLITE_ENDING
+    severity: error
+    scope: example
+    description: >
+      표준어 예문은 사전 인용형("-다.")이 아니라 자연스러운 구어체
+      종결("-요"/"-습니다")로 끝나야 한다.
+    evidence: 초기 라운드에 사전 뜻풀이를 그대로 예문으로 쓴 사례들.
+
+  - id: NO_FORMATTING_ARTIFACTS
+    severity: error
+    scope: example
+    description: >
+      이중 공백, 앞뒤 공백, 마침표/물음표/느낌표로 끝나지 않는 문장, 데이터
+      가공 흔적(>, =, ⇒, 선행/후행 -) 이 없어야 한다.
+    evidence: 사전 원문 크롤링·가공 과정에서 반복적으로 섞여 들어간 오염.
+
+  - id: PARTICLE_AGREEMENT
+    severity: error
+    scope: example
+    description: 이/가, 을/를, 은/는, 과/와, 으로/로 조사가 앞말과 맞아야 한다.
+    evidence: ㄹ받침 예외(으로/로)를 포함해 여러 차례 QC에서 잡힌 유형.
+
+  - id: NO_EXACT_DUPLICATE_EXAMPLES
+    severity: error
+    scope: example
+    description: 서로 다른 표제어가 완전히 동일한 예문 텍스트를 쓰면 안 된다.
+
+  - id: NO_TEMPLATE_COLLISION_IN_UNIT
+    severity: warn
+    scope: unit
+    description: >
+      같은 유닛 안에서 표제어 자리만 바꾼 동일한 문형("<X>는 오늘 좋아요"
+      같은 틀)이 반복되면 학습자가 붕어빵 문장으로 느낀다.
+
+  - id: NO_ADJACENT_WORD_DUPLICATION
+    severity: error
+    scope: example
+    description: >
+      "지붕 지붕의 경사"처럼 표제어가 문장 안에서 의미 없이 중복 등장하는
+      조합 버그가 없어야 한다.
+
+  - id: ENDING_DIVERSITY_PER_UNIT
+    severity: warn
+    scope: unit
+    description: 유닛 10문장은 최소 4종 이상의 종결어미를 가져야 한다.
+    evidence: >
+      "-마씸"(46.9%)과 "-수다"(43.6%)가 전체의 90.5%를 차지해, 100유닛 중
+      56개가 종결어미 2종 이하였다(2026-09 계측). 아직 해소되지 않은
+      전사적 문제라 error가 아니라 warn으로 두되, 최다 종결형 비율이
+      25%를 넘으면 error로 올린다(TOP_ENDING_SHARE 규칙).
+
+  - id: TOP_ENDING_SHARE
+    severity: warn
+    scope: global
+    description: 전체 예문 중 가장 많이 쓰인 종결어미 하나의 비율이 25%를 넘지 않는 것이 목표다.
+    evidence: >
+      목표 분포(개선안 문서 P1-2). 현재는 46.9%로 아직 목표에 크게 못 미치며,
+      900여 문장의 전면 재작성이 필요한 4차 작업 대상이라 warn으로 두고
+      추이만 추적한다. error로 올리는 것은 4차 작업이 끝난 뒤로 미룬다.
+
+  - id: UNIT_SIZE
+    severity: error
+    scope: unit
+    description: 모든 유닛은 정확히 10개의 표제어를 가져야 한다.

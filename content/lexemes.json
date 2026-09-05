@@ -1,0 +1,6008 @@
+[
+  {
+    "seq": "5697",
+    "jeju": "느",
+    "standard": "너",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5694",
+    "jeju": "너내",
+    "standard": "너희",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5691",
+    "jeju": "거",
+    "standard": "그것",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5708",
+    "jeju": "저거",
+    "standard": "저것",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5701",
+    "jeju": "무스거",
+    "standard": "무엇",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "7528",
+    "jeju": "무신",
+    "standard": "무슨",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5716",
+    "jeju": "선매",
+    "standard": "얼마",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5693",
+    "jeju": "그디",
+    "standard": "거기",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5703",
+    "jeju": "요디",
+    "standard": "요기",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5714",
+    "jeju": "멧",
+    "standard": "몇",
+    "partOfSpeech": "number"
+  },
+  {
+    "seq": "702",
+    "jeju": "아방",
+    "standard": "아버지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "713",
+    "jeju": "어멍",
+    "standard": "어머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7568",
+    "jeju": "하르방",
+    "standard": "할아버지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7569",
+    "jeju": "할망",
+    "standard": "할머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2695",
+    "jeju": "오라방",
+    "standard": "오빠",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "544",
+    "jeju": "성",
+    "standard": "형",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "581",
+    "jeju": "아시",
+    "standard": "동생",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2748",
+    "jeju": "조캐",
+    "standard": "조카",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6729",
+    "jeju": "큰아방",
+    "standard": "큰아버지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "372",
+    "jeju": "각씨",
+    "standard": "아내",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "537",
+    "jeju": "사름",
+    "standard": "사람",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "502",
+    "jeju": "메누리",
+    "standard": "며느리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "693",
+    "jeju": "씨어멍",
+    "standard": "시어머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "692",
+    "jeju": "씨아방",
+    "standard": "시아버지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "681",
+    "jeju": "손지",
+    "standard": "손자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "646",
+    "jeju": "부미",
+    "standard": "부모",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "664",
+    "jeju": "성제",
+    "standard": "형제",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "424",
+    "jeju": "나그네",
+    "standard": "손님",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "725",
+    "jeju": "예식",
+    "standard": "딸",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "628",
+    "jeju": "물애기",
+    "standard": "갓난아이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "432",
+    "jeju": "냄편",
+    "standard": "남편",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "448",
+    "jeju": "늑신이",
+    "standard": "늙은이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "690",
+    "jeju": "씨누이",
+    "standard": "시누이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "636",
+    "jeju": "방세임",
+    "standard": "아가씨",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2710",
+    "jeju": "으른",
+    "standard": "어른",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "718",
+    "jeju": "얼애",
+    "standard": "어린애",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "653",
+    "jeju": "비바리",
+    "standard": "처녀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2770",
+    "jeju": "쥐인",
+    "standard": "주인",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6706",
+    "jeju": "처아주망",
+    "standard": "처제",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6705",
+    "jeju": "처아주마님",
+    "standard": "처형",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5706",
+    "jeju": "이녁",
+    "standard": "그대",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "439",
+    "jeju": "놈",
+    "standard": "남",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6730",
+    "jeju": "큰어멍",
+    "standard": "큰어머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2745",
+    "jeju": "제집",
+    "standard": "계집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "704",
+    "jeju": "아주망",
+    "standard": "아주머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "679",
+    "jeju": "소나이",
+    "standard": "사내",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "404",
+    "jeju": "괸당",
+    "standard": "친척",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "705",
+    "jeju": "아주방",
+    "standard": "아저씨",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5404",
+    "jeju": "자파리",
+    "standard": "장난",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2733",
+    "jeju": "장시",
+    "standard": "장수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "663",
+    "jeju": "서패",
+    "standard": "서파",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "647",
+    "jeju": "부제",
+    "standard": "부자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "579",
+    "jeju": "아기",
+    "standard": "아기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "573",
+    "jeju": "식귀",
+    "standard": "식구",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "559",
+    "jeju": "소자",
+    "standard": "효자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "555",
+    "jeju": "셍질",
+    "standard": "생질",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "504",
+    "jeju": "목쉬",
+    "standard": "목수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "472",
+    "jeju": "돌챙이",
+    "standard": "석수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2705",
+    "jeju": "우시",
+    "standard": "들러리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5407",
+    "jeju": "장게",
+    "standard": "장가",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "378",
+    "jeju": "갓",
+    "standard": "배우자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "369",
+    "jeju": "가시어멍",
+    "standard": "장모",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "368",
+    "jeju": "가시아방",
+    "standard": "장인",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6733",
+    "jeju": "텟도독",
+    "standard": "떼도적",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6727",
+    "jeju": "큰성",
+    "standard": "맏형님",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6725",
+    "jeju": "큰사위",
+    "standard": "맏사위",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6722",
+    "jeju": "큰누이",
+    "standard": "맏누이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6715",
+    "jeju": "촐람생이",
+    "standard": "까불이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6712",
+    "jeju": "촐군",
+    "standard": "꼴꾼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6703",
+    "jeju": "처가칩",
+    "standard": "처갓집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6694",
+    "jeju": "질동무",
+    "standard": "길동무",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6679",
+    "jeju": "할마님",
+    "standard": "할머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6676",
+    "jeju": "하리비",
+    "standard": "할애비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "731",
+    "jeju": "예청네",
+    "standard": "아낙네",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "709",
+    "jeju": "앙토쟁이",
+    "standard": "미장이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "654",
+    "jeju": "빈복다리",
+    "standard": "복점 있는 사람",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "374",
+    "jeju": "간세다리",
+    "standard": "게으름뱅이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "601",
+    "jeju": "두갓",
+    "standard": "부부",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1817",
+    "jeju": "심방",
+    "standard": "무당",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6692",
+    "jeju": "돌하르방",
+    "standard": "돌하르방",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "574",
+    "jeju": "심술다리",
+    "standard": "심술꾸러기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "539",
+    "jeju": "삼할망",
+    "standard": "삼할미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "509",
+    "jeju": "물애비",
+    "standard": "물아범",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "470",
+    "jeju": "뗑뗑이",
+    "standard": "구두쇠",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "467",
+    "jeju": "덮개",
+    "standard": "덜렁대는 사람",
+    "partOfSpeech": "noun",
+    "reviewStatus": "provisional"
+  },
+  {
+    "seq": "402",
+    "jeju": "괴벤자",
+    "standard": "익살꾼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6732",
+    "jeju": "털북새기",
+    "standard": "털북숭이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6726",
+    "jeju": "큰삼춘",
+    "standard": "큰아버지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6724",
+    "jeju": "큰메누리",
+    "standard": "맏며느리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "324",
+    "jeju": "아시날",
+    "standard": "그전 날",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6720",
+    "jeju": "코홀채기",
+    "standard": "코흘리개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6711",
+    "jeju": "촌놈",
+    "standard": "시골뜨기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6710",
+    "jeju": "초라니",
+    "standard": "까불이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6675",
+    "jeju": "하르바님",
+    "standard": "할아버지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2751",
+    "jeju": "족은놈",
+    "standard": "작은 놈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2728",
+    "jeju": "작산놈",
+    "standard": "어른",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2696",
+    "jeju": "오좀쌔기",
+    "standard": "오줌싸개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2694",
+    "jeju": "오라비님",
+    "standard": "오라버님",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4983",
+    "jeju": "멩질",
+    "standard": "명절",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4923",
+    "jeju": "두린때",
+    "standard": "어린 때",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7557",
+    "jeju": "무사",
+    "standard": "왜",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7496",
+    "jeju": "하영",
+    "standard": "많이",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7564",
+    "jeju": "옵서",
+    "standard": "오세요",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7554",
+    "jeju": "기여",
+    "standard": "그래",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "5707",
+    "jeju": "이디",
+    "standard": "여기",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5709",
+    "jeju": "저디",
+    "standard": "저기",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5704",
+    "jeju": "이거",
+    "standard": "이것",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5696",
+    "jeju": "누게",
+    "standard": "누구",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5718",
+    "jeju": "싯",
+    "standard": "셋",
+    "partOfSpeech": "number"
+  },
+  {
+    "seq": "5721",
+    "jeju": "여답",
+    "standard": "여덟",
+    "partOfSpeech": "number"
+  },
+  {
+    "seq": "7555",
+    "jeju": "날봅서",
+    "standard": "여보세요",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7560",
+    "jeju": "양",
+    "standard": "예",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7563",
+    "jeju": "예게",
+    "standard": "예예",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7561",
+    "jeju": "어이",
+    "standard": "여보게",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7552",
+    "jeju": "겔쎄",
+    "standard": "글쎄",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7551",
+    "jeju": "게메",
+    "standard": "그러게",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7550",
+    "jeju": "게",
+    "standard": "그래",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7553",
+    "jeju": "그거무사",
+    "standard": "아뿔싸",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7466",
+    "jeju": "영판",
+    "standard": "아주",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "295",
+    "jeju": "닐",
+    "standard": "내일",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7462",
+    "jeju": "역부로",
+    "standard": "일부러",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7477",
+    "jeju": "제나",
+    "standard": "제발",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7482",
+    "jeju": "진직",
+    "standard": "진작",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7463",
+    "jeju": "영",
+    "standard": "이렇게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7362",
+    "jeju": "그냥저냥",
+    "standard": "그럭저럭",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7364",
+    "jeju": "그마니",
+    "standard": "그만큼",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7472",
+    "jeju": "이레저레",
+    "standard": "이리저리",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7480",
+    "jeju": "졸바로",
+    "standard": "올바르게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7432",
+    "jeju": "부끄러이",
+    "standard": "부끄럽게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7383",
+    "jeju": "느런이",
+    "standard": "나란히",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "5100",
+    "jeju": "부끌래기",
+    "standard": "거품",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "877",
+    "jeju": "뱅고리",
+    "standard": "가락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4546",
+    "jeju": "거레",
+    "standard": "거래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4553",
+    "jeju": "거짓거",
+    "standard": "가짜",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5675",
+    "jeju": "훈적",
+    "standard": "거짓말",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4531",
+    "jeju": "간세",
+    "standard": "게으름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5188",
+    "jeju": "서베",
+    "standard": "세배",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3478",
+    "jeju": "밥방울",
+    "standard": "밥알",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1285",
+    "jeju": "우굼",
+    "standard": "밥주걱",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3707",
+    "jeju": "수제",
+    "standard": "수저",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7353",
+    "jeju": "깜째기",
+    "standard": "갑자기",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7347",
+    "jeju": "거꿀로",
+    "standard": "거꾸로",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7348",
+    "jeju": "거쓴",
+    "standard": "얼른",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7358",
+    "jeju": "곧작",
+    "standard": "곧장",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7355",
+    "jeju": "게민",
+    "standard": "그러면",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7351",
+    "jeju": "게난",
+    "standard": "그러니까",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7361",
+    "jeju": "그냥",
+    "standard": "그대로",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7357",
+    "jeju": "경",
+    "standard": "그렇게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7393",
+    "jeju": "똑",
+    "standard": "꼭",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7354",
+    "jeju": "깨",
+    "standard": "꽤",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7535",
+    "jeju": "셋",
+    "standard": "가운데",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7562",
+    "jeju": "에게",
+    "standard": "생각한 바와 다를 때 내는 감탄사",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "seq": "7519",
+    "jeju": "다슴",
+    "standard": "의붓",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7502",
+    "jeju": "히뜨거니",
+    "standard": "희끄무레",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7498",
+    "jeju": "곤",
+    "standard": "고운",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7493",
+    "jeju": "페삭",
+    "standard": "바삭",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7474",
+    "jeju": "이칙",
+    "standard": "일찍",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7469",
+    "jeju": "원체",
+    "standard": "본디",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "5692",
+    "jeju": "그거",
+    "standard": "그것",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "seq": "5071",
+    "jeju": "벨거",
+    "standard": "별것",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7459",
+    "jeju": "어서라",
+    "standard": "어서",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7454",
+    "jeju": "어그레",
+    "standard": "얼른",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7447",
+    "jeju": "심껏",
+    "standard": "힘껏",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7446",
+    "jeju": "실피",
+    "standard": "슬피",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7444",
+    "jeju": "쉬이",
+    "standard": "쉽게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7443",
+    "jeju": "소소",
+    "standard": "약간",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7435",
+    "jeju": "빈싹",
+    "standard": "빙그레",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7428",
+    "jeju": "베량",
+    "standard": "별로",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7427",
+    "jeju": "번뜩",
+    "standard": "번쩍",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7424",
+    "jeju": "배량",
+    "standard": "어느새",
+    "partOfSpeech": "adverb",
+    "reviewStatus": "provisional"
+  },
+  {
+    "seq": "7417",
+    "jeju": "미릇",
+    "standard": "미리",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7407",
+    "jeju": "막상",
+    "standard": "기껏",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7406",
+    "jeju": "막",
+    "standard": "아주",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7390",
+    "jeju": "덜싹",
+    "standard": "털썩",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7388",
+    "jeju": "대걸롱",
+    "standard": "대강",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7386",
+    "jeju": "다못",
+    "standard": "다만",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7384",
+    "jeju": "늦이",
+    "standard": "늦게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7379",
+    "jeju": "너미",
+    "standard": "너무",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7365",
+    "jeju": "그자",
+    "standard": "그저",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7349",
+    "jeju": "거저",
+    "standard": "거의",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7543",
+    "jeju": "셍거",
+    "standard": "날것",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7499",
+    "jeju": "곤밥",
+    "standard": "흰 밥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7490",
+    "jeju": "천성",
+    "standard": "언제나",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7481",
+    "jeju": "죽게",
+    "standard": "죽도록",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7476",
+    "jeju": "잇당",
+    "standard": "있다가",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7473",
+    "jeju": "이시커니",
+    "standard": "한참동안",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7470",
+    "jeju": "으레",
+    "standard": "의례히",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7461",
+    "jeju": "어잉간이",
+    "standard": "어지간히",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7456",
+    "jeju": "어떵",
+    "standard": "어떻게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7455",
+    "jeju": "어떠난",
+    "standard": "어째서",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7453",
+    "jeju": "아명",
+    "standard": "아무렇게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7422",
+    "jeju": "바락",
+    "standard": "벌컥",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7418",
+    "jeju": "밀꺼니",
+    "standard": "괜히",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7394",
+    "jeju": "두물이",
+    "standard": "드물게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7391",
+    "jeju": "데번에",
+    "standard": "한번에",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7389",
+    "jeju": "더레이",
+    "standard": "더럽게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7359",
+    "jeju": "괴로이",
+    "standard": "괴롭게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7346",
+    "jeju": "간대로",
+    "standard": "함부로",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7531",
+    "jeju": "새곡석",
+    "standard": "햇 곡식",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5229",
+    "jeju": "숭시",
+    "standard": "이상한 일",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2775",
+    "jeju": "가심",
+    "standard": "가슴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3139",
+    "jeju": "손콥",
+    "standard": "손톱",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3138",
+    "jeju": "발콥",
+    "standard": "발톱",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3089",
+    "jeju": "입바위",
+    "standard": "입술",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2914",
+    "jeju": "멘손",
+    "standard": "맨손",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2913",
+    "jeju": "멘발",
+    "standard": "맨발",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2778",
+    "jeju": "갈리",
+    "standard": "갈비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2828",
+    "jeju": "귓밥",
+    "standard": "귀지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3001",
+    "jeju": "세깍",
+    "standard": "혀끝",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2917",
+    "jeju": "모감지",
+    "standard": "멱살",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2842",
+    "jeju": "눈방울",
+    "standard": "눈동자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2839",
+    "jeju": "눈두께",
+    "standard": "눈꺼풀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2836",
+    "jeju": "눈깍",
+    "standard": "눈초리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3109",
+    "jeju": "종애",
+    "standard": "종아리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2829",
+    "jeju": "귓자락",
+    "standard": "귓방울",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3003",
+    "jeju": "세덩치",
+    "standard": "혀뿌리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3171",
+    "jeju": "허벅다리",
+    "standard": "넓적다리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3088",
+    "jeju": "입개미",
+    "standard": "입꼬리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2885",
+    "jeju": "뒷고개",
+    "standard": "뒷덜미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3011",
+    "jeju": "손등어리",
+    "standard": "손등",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3104",
+    "jeju": "조롬",
+    "standard": "엉덩이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2965",
+    "jeju": "보태",
+    "standard": "태반",
+    "partOfSpeech": "noun",
+    "reviewStatus": "provisional"
+  },
+  {
+    "seq": "2808",
+    "jeju": "곱",
+    "standard": "소기름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2772",
+    "jeju": "가달",
+    "standard": "다리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3175",
+    "jeju": "환잣부리",
+    "standard": "입",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3165",
+    "jeju": "족은한집",
+    "standard": "홍역",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3075",
+    "jeju": "오좀",
+    "standard": "오줌",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3046",
+    "jeju": "아옴내",
+    "standard": "암내",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3025",
+    "jeju": "시드렁똥",
+    "standard": "된똥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2944",
+    "jeju": "버줌",
+    "standard": "버짐",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2872",
+    "jeju": "독",
+    "standard": "무릎",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2848",
+    "jeju": "늬활게",
+    "standard": "사지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2830",
+    "jeju": "급기",
+    "standard": "급병",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3096",
+    "jeju": "장목",
+    "standard": "손목",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2803",
+    "jeju": "꼴랑지",
+    "standard": "꼬리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2777",
+    "jeju": "간세터럭",
+    "standard": "솜털",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3123",
+    "jeju": "천징",
+    "standard": "천식",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3103",
+    "jeju": "졉",
+    "standard": "어깨뼈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3076",
+    "jeju": "오좀푸께",
+    "standard": "방광",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3027",
+    "jeju": "심줄",
+    "standard": "힘줄",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3008",
+    "jeju": "손거슴",
+    "standard": "손거스러미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2991",
+    "jeju": "상손가락",
+    "standard": "가운뎃손가락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2981",
+    "jeju": "붕에눈",
+    "standard": "처진 눈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2929",
+    "jeju": "미주",
+    "standard": "꽁무니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2915",
+    "jeju": "멘주먹",
+    "standard": "맨주먹",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2865",
+    "jeju": "덧",
+    "standard": "덧니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2847",
+    "jeju": "눈퉁이",
+    "standard": "눈망울",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2843",
+    "jeju": "눈사투리",
+    "standard": "사팔눈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2793",
+    "jeju": "게춤",
+    "standard": "가래침",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2792",
+    "jeju": "검은동자",
+    "standard": "검은자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3136",
+    "jeju": "콥",
+    "standard": "눈곱",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3132",
+    "jeju": "코페렝이",
+    "standard": "코딱지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3058",
+    "jeju": "어께",
+    "standard": "어깨",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3015",
+    "jeju": "손아우생이",
+    "standard": "손아귀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2874",
+    "jeju": "독머리꽝",
+    "standard": "무릎뼈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2820",
+    "jeju": "귀뚱",
+    "standard": "귀밑",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2785",
+    "jeju": "거슴",
+    "standard": "거스러미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3106",
+    "jeju": "조종머리",
+    "standard": "상투",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2844",
+    "jeju": "눈콥",
+    "standard": "눈곱",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2814",
+    "jeju": "구불",
+    "standard": "등 아랫쪽",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3049",
+    "jeju": "안주외기손가락",
+    "standard": "둘째 손가락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3047",
+    "jeju": "안잠지",
+    "standard": "허벅지 안쪽",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3018",
+    "jeju": "쐬닥지",
+    "standard": "상처 딱지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2982",
+    "jeju": "비리",
+    "standard": "옴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2961",
+    "jeju": "벵",
+    "standard": "병",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2923",
+    "jeju": "몸엣거",
+    "standard": "월경",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2819",
+    "jeju": "꿈",
+    "standard": "침",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2811",
+    "jeju": "꽝",
+    "standard": "뼈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2802",
+    "jeju": "골치",
+    "standard": "골",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3087",
+    "jeju": "임댕이",
+    "standard": "이마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2787",
+    "jeju": "꺼럭",
+    "standard": "터럭",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4964",
+    "jeju": "머력",
+    "standard": "머리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3176",
+    "jeju": "활게",
+    "standard": "활개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3168",
+    "jeju": "허멀",
+    "standard": "부스럼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3167",
+    "jeju": "항긋",
+    "standard": "마마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2972",
+    "jeju": "부스름",
+    "standard": "부스럼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3162",
+    "jeju": "하매",
+    "standard": "입병",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3143",
+    "jeju": "퀴눈이",
+    "standard": "티눈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3142",
+    "jeju": "콧짐",
+    "standard": "콧김",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3113",
+    "jeju": "지질",
+    "standard": "치질",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2827",
+    "jeju": "귀창",
+    "standard": "귀청",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3070",
+    "jeju": "영장",
+    "standard": "송장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3063",
+    "jeju": "언딘피",
+    "standard": "선지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3056",
+    "jeju": "양지",
+    "standard": "얼굴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3052",
+    "jeju": "애",
+    "standard": "창자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3050",
+    "jeju": "안창",
+    "standard": "내장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3023",
+    "jeju": "슬게",
+    "standard": "쓸개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3022",
+    "jeju": "쉬염",
+    "standard": "수염",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3017",
+    "jeju": "송인",
+    "standard": "콧병",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3010",
+    "jeju": "손그뭇",
+    "standard": "손금",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3007",
+    "jeju": "손거림",
+    "standard": "손가락 사이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2997",
+    "jeju": "설세",
+    "standard": "설사",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2992",
+    "jeju": "상퉁이",
+    "standard": "상투",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2988",
+    "jeju": "살작",
+    "standard": "살쩍",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2946",
+    "jeju": "베설",
+    "standard": "창자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2925",
+    "jeju": "몽섹",
+    "standard": "목젖",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2924",
+    "jeju": "몸짐",
+    "standard": "체온",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2912",
+    "jeju": "멘몸",
+    "standard": "알몸",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2822",
+    "jeju": "귀뚱배기",
+    "standard": "뺨",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5331",
+    "jeju": "오몽",
+    "standard": "움직임",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6775",
+    "jeju": "옛",
+    "standard": "엿",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3544",
+    "jeju": "청",
+    "standard": "꿀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6747",
+    "jeju": "소곰",
+    "standard": "소금",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3451",
+    "jeju": "둠비",
+    "standard": "두부",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4300",
+    "jeju": "고치",
+    "standard": "고추",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6762",
+    "jeju": "시리떡",
+    "standard": "시루떡",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3419",
+    "jeju": "곤죽",
+    "standard": "쌀죽",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3433",
+    "jeju": "넹수",
+    "standard": "냉수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3525",
+    "jeju": "조축",
+    "standard": "조죽",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6750",
+    "jeju": "소쥐",
+    "standard": "소주",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3423",
+    "jeju": "괴기",
+    "standard": "고기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3536",
+    "jeju": "짐끼",
+    "standard": "김치",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4345",
+    "jeju": "지슬",
+    "standard": "감자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3473",
+    "jeju": "물장",
+    "standard": "간장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4607",
+    "jeju": "지름",
+    "standard": "기름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6761",
+    "jeju": "쉰다리",
+    "standard": "단술",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3449",
+    "jeju": "된술",
+    "standard": "막걸리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6763",
+    "jeju": "식게",
+    "standard": "식혜",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6756",
+    "jeju": "수에",
+    "standard": "순대",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3425",
+    "jeju": "군것",
+    "standard": "간식",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3640",
+    "jeju": "바농",
+    "standard": "바늘",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1265",
+    "jeju": "씰",
+    "standard": "실",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1309",
+    "jeju": "주전지",
+    "standard": "주전자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1232",
+    "jeju": "숟구락",
+    "standard": "숟가락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1333",
+    "jeju": "추니",
+    "standard": "항아리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1222",
+    "jeju": "섹경",
+    "standard": "거울",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3284",
+    "jeju": "솥덕",
+    "standard": "부뚜막",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6770",
+    "jeju": "안쥐",
+    "standard": "안주",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6774",
+    "jeju": "언물",
+    "standard": "찬물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6749",
+    "jeju": "소곰쿡",
+    "standard": "소금국",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6746",
+    "jeju": "셍밥",
+    "standard": "선밥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3488",
+    "jeju": "보육",
+    "standard": "육포",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3410",
+    "jeju": "고비리",
+    "standard": "새참",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2685",
+    "jeju": "우방",
+    "standard": "우엉",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6758",
+    "jeju": "술오매기",
+    "standard": "조떡",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4329",
+    "jeju": "멘내기",
+    "standard": "미나리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4326",
+    "jeju": "메",
+    "standard": "모종",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4302",
+    "jeju": "곱대사니",
+    "standard": "마늘",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3570",
+    "jeju": "푸레죽",
+    "standard": "죽",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3452",
+    "jeju": "둠비비제기",
+    "standard": "비지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3430",
+    "jeju": "남남",
+    "standard": "간식",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6776",
+    "jeju": "오매기",
+    "standard": "떡",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4333",
+    "jeju": "벡토란",
+    "standard": "백도라지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3568",
+    "jeju": "팃물",
+    "standard": "쌀뜨물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3461",
+    "jeju": "먹을커",
+    "standard": "먹을 것",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3501",
+    "jeju": "유지름",
+    "standard": "들깨 기름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4325",
+    "jeju": "막물호박",
+    "standard": "끝물 호박",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4298",
+    "jeju": "감제주시",
+    "standard": "찐 고구마",
+    "partOfSpeech": "noun",
+    "reviewStatus": "provisional"
+  },
+  {
+    "seq": "3405",
+    "jeju": "것계",
+    "standard": "먹이의 흔적",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3395",
+    "jeju": "감쥐주시",
+    "standard": "감주 찌꺼기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6771",
+    "jeju": "약괴",
+    "standard": "약과",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3462",
+    "jeju": "멘",
+    "standard": "면",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3407",
+    "jeju": "게영",
+    "standard": "제사용 국",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3457",
+    "jeju": "뒨술",
+    "standard": "막걸리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3591",
+    "jeju": "멘물",
+    "standard": "맹물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3590",
+    "jeju": "멘국",
+    "standard": "냉국",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3588",
+    "jeju": "먹거리",
+    "standard": "음식",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3572",
+    "jeju": "피창",
+    "standard": "순대",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3565",
+    "jeju": "탕수",
+    "standard": "잡채",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3564",
+    "jeju": "탄약",
+    "standard": "탕약",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3549",
+    "jeju": "침떡",
+    "standard": "설기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3545",
+    "jeju": "청묵",
+    "standard": "청포",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3538",
+    "jeju": "집장",
+    "standard": "찌개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3535",
+    "jeju": "지이",
+    "standard": "절인 마늘",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3527",
+    "jeju": "조팝",
+    "standard": "조밥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3519",
+    "jeju": "조개송편",
+    "standard": "송편",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3514",
+    "jeju": "제숙",
+    "standard": "제사용 고기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3509",
+    "jeju": "젓국",
+    "standard": "젓국",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3506",
+    "jeju": "전",
+    "standard": "메밀전병",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3399",
+    "jeju": "개역",
+    "standard": "미숫가루",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3499",
+    "jeju": "월미",
+    "standard": "원미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3498",
+    "jeju": "선밥",
+    "standard": "고두밥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3496",
+    "jeju": "상기",
+    "standard": "고명",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3479",
+    "jeju": "밥솥읫물",
+    "standard": "숭늉",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3475",
+    "jeju": "밀팝",
+    "standard": "밀밥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3460",
+    "jeju": "맴매",
+    "standard": "맘마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3454",
+    "jeju": "둠빗물",
+    "standard": "순물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3446",
+    "jeju": "동그랑곤떡",
+    "standard": "절편",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3432",
+    "jeju": "넹멘",
+    "standard": "냉면",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3429",
+    "jeju": "날밥",
+    "standard": "점심",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3421",
+    "jeju": "골년",
+    "standard": "궐련",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3404",
+    "jeju": "것",
+    "standard": "먹이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5418",
+    "jeju": "저린내",
+    "standard": "누린내",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5141",
+    "jeju": "뿜게",
+    "standard": "미끼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3770",
+    "jeju": "멧순",
+    "standard": "밀나물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3603",
+    "jeju": "밀펌벅",
+    "standard": "밀범벅",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3600",
+    "jeju": "물둠비",
+    "standard": "순두부",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3598",
+    "jeju": "무은침떡",
+    "standard": "쌀설기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3563",
+    "jeju": "콩지이",
+    "standard": "콩자반",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3510",
+    "jeju": "젓물",
+    "standard": "젓국",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3505",
+    "jeju": "적갈",
+    "standard": "고기적",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3487",
+    "jeju": "보리압",
+    "standard": "보리밥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3483",
+    "jeju": "방시리떡",
+    "standard": "부럼떡",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3480",
+    "jeju": "밥숟가락",
+    "standard": "밥숟가락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3436",
+    "jeju": "누린물",
+    "standard": "누런 물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3434",
+    "jeju": "누넹이",
+    "standard": "누룽지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3420",
+    "jeju": "골",
+    "standard": "엿기름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3415",
+    "jeju": "고치장",
+    "standard": "고추장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3401",
+    "jeju": "거스름떡",
+    "standard": "폐백떡",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3400",
+    "jeju": "개장쿡",
+    "standard": "개장국",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6892",
+    "jeju": "놓이다",
+    "standard": "놓다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7144",
+    "jeju": "페우다",
+    "standard": "펴다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7085",
+    "jeju": "익다",
+    "standard": "읽다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7073",
+    "jeju": "앚다",
+    "standard": "앉다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7071",
+    "jeju": "씨다",
+    "standard": "쓰다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7061",
+    "jeju": "싯다",
+    "standard": "씻다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6980",
+    "jeju": "무끄다",
+    "standard": "묶다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6967",
+    "jeju": "메다",
+    "standard": "매다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6930",
+    "jeju": "들르다",
+    "standard": "들다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6919",
+    "jeju": "도왜다",
+    "standard": "돕다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "5916",
+    "jeju": "귿다",
+    "standard": "걷다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6928",
+    "jeju": "드르쓰다",
+    "standard": "마시다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7026",
+    "jeju": "불르다",
+    "standard": "부르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7107",
+    "jeju": "지드리다",
+    "standard": "기다리다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6977",
+    "jeju": "몰르다",
+    "standard": "모르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7087",
+    "jeju": "욜다",
+    "standard": "열다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6969",
+    "jeju": "멘들다",
+    "standard": "만들다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7052",
+    "jeju": "쌉다",
+    "standard": "싸우다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7130",
+    "jeju": "케다",
+    "standard": "캐다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6983",
+    "jeju": "묻치다",
+    "standard": "묻다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "5827",
+    "jeju": "께다",
+    "standard": "깨다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "5830",
+    "jeju": "께우다",
+    "standard": "깨우다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6881",
+    "jeju": "날르다",
+    "standard": "나르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6879",
+    "jeju": "나무래다",
+    "standard": "나무라다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6886",
+    "jeju": "냉기다",
+    "standard": "남기다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6884",
+    "jeju": "내앋다",
+    "standard": "내놓다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6883",
+    "jeju": "내불다",
+    "standard": "내버리다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6891",
+    "jeju": "넹기다",
+    "standard": "넘기다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7079",
+    "jeju": "어우러지다",
+    "standard": "넘어지다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6894",
+    "jeju": "늘루다",
+    "standard": "늘리다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6960",
+    "jeju": "맽기다",
+    "standard": "맡기다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6961",
+    "jeju": "머물르다",
+    "standard": "머물다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6962",
+    "jeju": "머추다",
+    "standard": "멈추다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6966",
+    "jeju": "메꾸다",
+    "standard": "메우다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6975",
+    "jeju": "몯다",
+    "standard": "모이다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6968",
+    "jeju": "메우다",
+    "standard": "모으다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6923",
+    "jeju": "되쓰다",
+    "standard": "뒤집다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6926",
+    "jeju": "둥글다",
+    "standard": "뒹굴다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7134",
+    "jeju": "털어지다",
+    "standard": "떨어지다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7014",
+    "jeju": "벳기다",
+    "standard": "벗기다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7011",
+    "jeju": "베우다",
+    "standard": "보이다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7022",
+    "jeju": "부찌다",
+    "standard": "붙이다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7029",
+    "jeju": "비끼다",
+    "standard": "비키다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6987",
+    "jeju": "밀리다",
+    "standard": "밀다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7001",
+    "jeju": "발르다",
+    "standard": "바르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7006",
+    "jeju": "버이다",
+    "standard": "베다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6918",
+    "jeju": "데우치다",
+    "standard": "데치다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "5845",
+    "jeju": "고찌다",
+    "standard": "고치다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7111",
+    "jeju": "질들이다",
+    "standard": "길들이다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7139",
+    "jeju": "파장치다",
+    "standard": "끝내다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7143",
+    "jeju": "페다",
+    "standard": "패다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7108",
+    "jeju": "지프(짚으)다",
+    "standard": "짚다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7101",
+    "jeju": "죄다",
+    "standard": "쥐다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7100",
+    "jeju": "죄기다",
+    "standard": "쌓다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6890",
+    "jeju": "넬리다",
+    "standard": "던지다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7088",
+    "jeju": "잣다",
+    "standard": "줍다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7080",
+    "jeju": "얼리다",
+    "standard": "얼다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7070",
+    "jeju": "쏙다",
+    "standard": "속다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7057",
+    "jeju": "심다",
+    "standard": "잡다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7056",
+    "jeju": "시끄다",
+    "standard": "싣다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7048",
+    "jeju": "세다",
+    "standard": "쇠다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7033",
+    "jeju": "비우다",
+    "standard": "붓다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7030",
+    "jeju": "비다",
+    "standard": "베다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7024",
+    "jeju": "부트(붙으)다",
+    "standard": "붙다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7017",
+    "jeju": "봉그다",
+    "standard": "줍다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7009",
+    "jeju": "벌르다",
+    "standard": "깨다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7007",
+    "jeju": "벋다",
+    "standard": "뻗다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6963",
+    "jeju": "멎다",
+    "standard": "묵다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6956",
+    "jeju": "마트(맡으)다",
+    "standard": "맡다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6912",
+    "jeju": "더끄다",
+    "standard": "덮다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6909",
+    "jeju": "담다",
+    "standard": "담그다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6885",
+    "jeju": "내치다",
+    "standard": "뱉다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "6878",
+    "jeju": "나끄(낚으)다",
+    "standard": "낚다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "5903",
+    "jeju": "뀌다",
+    "standard": "꿰다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7156",
+    "jeju": "흥글다",
+    "standard": "흔든다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7154",
+    "jeju": "흘치다",
+    "standard": "흘리다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7153",
+    "jeju": "흘르다",
+    "standard": "흐르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7151",
+    "jeju": "후리대기다",
+    "standard": "후리다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7149",
+    "jeju": "헤우다",
+    "standard": "헹구다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7145",
+    "jeju": "피우다",
+    "standard": "풍기다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7133",
+    "jeju": "클르다",
+    "standard": "끄르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7131",
+    "jeju": "케우다",
+    "standard": "태우다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7124",
+    "jeju": "처받다",
+    "standard": "치받다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7112",
+    "jeju": "질루다",
+    "standard": "기르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7105",
+    "jeju": "지끄다",
+    "standard": "기쁘다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7102",
+    "jeju": "주꾸다",
+    "standard": "짖다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7096",
+    "jeju": "정글다",
+    "standard": "저물다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7094",
+    "jeju": "적지다",
+    "standard": "적시다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7086",
+    "jeju": "입지다",
+    "standard": "입히다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7084",
+    "jeju": "용심내다",
+    "standard": "성내다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7083",
+    "jeju": "용심나다",
+    "standard": "성나다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7082",
+    "jeju": "올르다",
+    "standard": "오르다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7081",
+    "jeju": "업지다",
+    "standard": "업히다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7077",
+    "jeju": "어르다",
+    "standard": "돌아다니다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7076",
+    "jeju": "앵기다",
+    "standard": "잡히다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7058",
+    "jeju": "심들다",
+    "standard": "힘들다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7055",
+    "jeju": "시기다",
+    "standard": "시키다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7053",
+    "jeju": "썽내다",
+    "standard": "성내다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7050",
+    "jeju": "셍기다",
+    "standard": "섬기다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7046",
+    "jeju": "설르다",
+    "standard": "그만두다",
+    "partOfSpeech": "verb"
+  },
+  {
+    "seq": "7157",
+    "jeju": "히다",
+    "standard": "희다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7329",
+    "jeju": "하다",
+    "standard": "많다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7299",
+    "jeju": "지프다",
+    "standard": "깊다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7170",
+    "jeju": "넙다",
+    "standard": "넓다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7256",
+    "jeju": "알리다",
+    "standard": "아프다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7288",
+    "jeju": "조랍다",
+    "standard": "졸리다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7192",
+    "jeju": "물르다",
+    "standard": "무르다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7279",
+    "jeju": "요망지다",
+    "standard": "똑똑하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7235",
+    "jeju": "서느럽다",
+    "standard": "선선하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7296",
+    "jeju": "지껍다",
+    "standard": "기쁘다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7289",
+    "jeju": "족다",
+    "standard": "작다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7187",
+    "jeju": "멥다",
+    "standard": "맵다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7263",
+    "jeju": "얼다",
+    "standard": "춥다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7165",
+    "jeju": "궂다",
+    "standard": "나쁘다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7338",
+    "jeju": "훍다",
+    "standard": "굵다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7297",
+    "jeju": "지접다",
+    "standard": "뜨겁다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7253",
+    "jeju": "아깝다",
+    "standard": "귀엽다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7248",
+    "jeju": "실프다",
+    "standard": "싫다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7174",
+    "jeju": "달르다",
+    "standard": "다르다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7175",
+    "jeju": "두덥다",
+    "standard": "두껍다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7158",
+    "jeju": "가벱다",
+    "standard": "가볍다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7267",
+    "jeju": "여데다",
+    "standard": "같다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7209",
+    "jeju": "베다",
+    "standard": "무겁다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7188",
+    "jeju": "모지래다",
+    "standard": "모자라다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7214",
+    "jeju": "보드랍다",
+    "standard": "부드럽다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7179",
+    "jeju": "두물다",
+    "standard": "드물다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7258",
+    "jeju": "야리다",
+    "standard": "여리다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7239",
+    "jeju": "싸무랍다",
+    "standard": "사납다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7242",
+    "jeju": "쎄다",
+    "standard": "세다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7215",
+    "jeju": "보미다",
+    "standard": "낡다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7311",
+    "jeju": "초랍다",
+    "standard": "떫다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7302",
+    "jeju": "질다",
+    "standard": "길다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7268",
+    "jeju": "역다",
+    "standard": "약다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7264",
+    "jeju": "엇다",
+    "standard": "없다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7171",
+    "jeju": "노프(높으)다",
+    "standard": "높다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7336",
+    "jeju": "호되다",
+    "standard": "엄하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7294",
+    "jeju": "줄다",
+    "standard": "여위다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7292",
+    "jeju": "졸바르다",
+    "standard": "바르다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7265",
+    "jeju": "엉기다",
+    "standard": "성기다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7247",
+    "jeju": "실렵다",
+    "standard": "차갑다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7211",
+    "jeju": "벨나다",
+    "standard": "별나다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7207",
+    "jeju": "버치다",
+    "standard": "버겁다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7189",
+    "jeju": "몹쓸다",
+    "standard": "악독하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7172",
+    "jeju": "누리다",
+    "standard": "노랗다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7327",
+    "jeju": "푸지다",
+    "standard": "푸짐하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7298",
+    "jeju": "지치다",
+    "standard": "고단하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7220",
+    "jeju": "부치럽다",
+    "standard": "부끄럽다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7195",
+    "jeju": "미럽다",
+    "standard": "미끈하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7312",
+    "jeju": "추접스럽다",
+    "standard": "추잡스럽다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7257",
+    "jeju": "야드락지다",
+    "standard": "자지러지다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7206",
+    "jeju": "버물다",
+    "standard": "더러워지다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7164",
+    "jeju": "궁상스럽다",
+    "standard": "이상스럽다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7334",
+    "jeju": "험상스럽다",
+    "standard": "꼴이 흉하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7198",
+    "jeju": "미죽다",
+    "standard": "담력이 없다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7287",
+    "jeju": "조라지다",
+    "standard": "너그럽지 못하다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7255",
+    "jeju": "아니꼽상스럽다",
+    "standard": "지나치게 아니꼽다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "7238",
+    "jeju": "싸다",
+    "standard": "그만한 가치가 있다",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "seq": "687",
+    "jeju": "술푸데",
+    "standard": "술꾸러기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7467",
+    "jeju": "오고생이",
+    "standard": "고스란히",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7492",
+    "jeju": "팰롱팰롱",
+    "standard": "빤짝빤짝",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "686",
+    "jeju": "술광질다리",
+    "standard": "술망나니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "582",
+    "jeju": "아주마님",
+    "standard": "아주머님",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6743",
+    "jeju": "판고집다리",
+    "standard": "고집쟁이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2758",
+    "jeju": "족은삼촌",
+    "standard": "숙부",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7465",
+    "jeju": "영정",
+    "standard": "이리저리",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7479",
+    "jeju": "족족",
+    "standard": "조금씩",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7501",
+    "jeju": "흥창망창",
+    "standard": "흥청망청",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "7363",
+    "jeju": "그득",
+    "standard": "가득",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "5004",
+    "jeju": "문세",
+    "standard": "문서",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5173",
+    "jeju": "살렴",
+    "standard": "살림",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "447",
+    "jeju": "느렁테",
+    "standard": "느림보",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "445",
+    "jeju": "눈펄렝이",
+    "standard": "왕눈이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "710",
+    "jeju": "애기업게",
+    "standard": "애기 보는 아이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2725",
+    "jeju": "욕은아기",
+    "standard": "약삭빠른 사람",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4342",
+    "jeju": "양애",
+    "standard": "양하",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4186",
+    "jeju": "대우리",
+    "standard": "귀리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4295",
+    "jeju": "흐린조",
+    "standard": "차조",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4187",
+    "jeju": "대죽",
+    "standard": "수수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4334",
+    "jeju": "부루",
+    "standard": "상추",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4336",
+    "jeju": "성키",
+    "standard": "푸성귀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "721",
+    "jeju": "업게",
+    "standard": "어린애를 업어주는 사람",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4547",
+    "jeju": "거리",
+    "standard": "부부의 연",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5162",
+    "jeju": "사름친명",
+    "standard": "사람",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2761",
+    "jeju": "족은어멍",
+    "standard": "숙모",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4593",
+    "jeju": "곱을락",
+    "standard": "숨바꼭질",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "303",
+    "jeju": "메날",
+    "standard": "매일",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5157",
+    "jeju": "사농",
+    "standard": "사냥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3689",
+    "jeju": "상삐",
+    "standard": "행주",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4609",
+    "jeju": "지성기",
+    "standard": "기저귀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3435",
+    "jeju": "누렝이",
+    "standard": "누룽지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "611",
+    "jeju": "막동이",
+    "standard": "막내둥이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2732",
+    "jeju": "장쉬",
+    "standard": "장수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2731",
+    "jeju": "장돌뱅이",
+    "standard": "머슴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2711",
+    "jeju": "으원",
+    "standard": "의원",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2708",
+    "jeju": "유우리",
+    "standard": "고아",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2697",
+    "jeju": "왈캐기",
+    "standard": "왈패",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2692",
+    "jeju": "괴움",
+    "standard": "고임",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2691",
+    "jeju": "괴벤",
+    "standard": "익살",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "722",
+    "jeju": "에미",
+    "standard": "어미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7468",
+    "jeju": "와싹",
+    "standard": "강하게",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "3372",
+    "jeju": "초집",
+    "standard": "초가집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3296",
+    "jeju": "안거리",
+    "standard": "안채",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3356",
+    "jeju": "지엣장",
+    "standard": "기왓장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3373",
+    "jeju": "추년",
+    "standard": "추녀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3301",
+    "jeju": "알녁거리",
+    "standard": "앞채",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6783",
+    "jeju": "우티",
+    "standard": "웃옷",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6782",
+    "jeju": "우투",
+    "standard": "외투",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6780",
+    "jeju": "옷짓",
+    "standard": "옷깃",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "807",
+    "jeju": "빈네",
+    "standard": "비녀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6786",
+    "jeju": "이불자리",
+    "standard": "이불요",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3312",
+    "jeju": "와채",
+    "standard": "기와집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3242",
+    "jeju": "벌름",
+    "standard": "방앗간",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3274",
+    "jeju": "상자리",
+    "standard": "정자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3333",
+    "jeju": "접담",
+    "standard": "절",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "808",
+    "jeju": "사포",
+    "standard": "모자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "838",
+    "jeju": "치메",
+    "standard": "치마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1421",
+    "jeju": "주멩기",
+    "standard": "주머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "776",
+    "jeju": "단취",
+    "standard": "단추",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "753",
+    "jeju": "게화",
+    "standard": "호주머니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "757",
+    "jeju": "곤옷",
+    "standard": "고운 옷",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "299",
+    "jeju": "돗",
+    "standard": "돌",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4624",
+    "jeju": "짓",
+    "standard": "집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1914",
+    "jeju": "생이",
+    "standard": "새",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1465",
+    "jeju": "펭",
+    "standard": "병",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1361",
+    "jeju": "호미",
+    "standard": "낫",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "926",
+    "jeju": "갈퀴",
+    "standard": "갈고리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1005",
+    "jeju": "남푸등",
+    "standard": "남포등",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3332",
+    "jeju": "절간",
+    "standard": "가게",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1298",
+    "jeju": "제",
+    "standard": "젓가락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2718",
+    "jeju": "이사",
+    "standard": "의사",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3310",
+    "jeju": "올래",
+    "standard": "집 어귀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "215",
+    "jeju": "질",
+    "standard": "길",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "958",
+    "jeju": "구덕",
+    "standard": "바구니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4004",
+    "jeju": "자왈",
+    "standard": "덤불 숲",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2560",
+    "jeju": "남",
+    "standard": "나무",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4089",
+    "jeju": "쿨",
+    "standard": "풀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4370",
+    "jeju": "고장",
+    "standard": "꽃",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "108",
+    "jeju": "따",
+    "standard": "땅",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4484",
+    "jeju": "모살",
+    "standard": "모래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "230",
+    "jeju": "한질",
+    "standard": "큰길",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "815",
+    "jeju": "소개",
+    "standard": "솜",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3374",
+    "jeju": "추년서리",
+    "standard": "처마받침",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3366",
+    "jeju": "처나반",
+    "standard": "반자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3345",
+    "jeju": "지동",
+    "standard": "기둥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3319",
+    "jeju": "우영",
+    "standard": "채전",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3316",
+    "jeju": "우녁거리",
+    "standard": "뒤채",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3313",
+    "jeju": "외",
+    "standard": "기와",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3275",
+    "jeju": "새집",
+    "standard": "띠집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3247",
+    "jeju": "벡토",
+    "standard": "새벽",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3206",
+    "jeju": "널마리",
+    "standard": "마루",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "843",
+    "jeju": "털렝이",
+    "standard": "앞니",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "816",
+    "jeju": "소갯장",
+    "standard": "솜 펴는 판",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "798",
+    "jeju": "방긋",
+    "standard": "방갓",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "775",
+    "jeju": "단불",
+    "standard": "단벌",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "758",
+    "jeju": "곤풀",
+    "standard": "풀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3379",
+    "jeju": "클방",
+    "standard": "기곗방",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3303",
+    "jeju": "암치에",
+    "standard": "암키와",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3281",
+    "jeju": "서향터",
+    "standard": "서향 벽면",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "832",
+    "jeju": "앞섭",
+    "standard": "앞자락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "813",
+    "jeju": "세깍신",
+    "standard": "상중에 신는 짚신",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "812",
+    "jeju": "설렝이",
+    "standard": "미투리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6785",
+    "jeju": "이불요",
+    "standard": "이부자리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3350",
+    "jeju": "지새집",
+    "standard": "기와집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3298",
+    "jeju": "안집",
+    "standard": "뒷골목집",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3278",
+    "jeju": "서리",
+    "standard": "서까래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3226",
+    "jeju": "모진서리",
+    "standard": "모서까래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "821",
+    "jeju": "손또매",
+    "standard": "토시",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "748",
+    "jeju": "갱기",
+    "standard": "헝겊",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6787",
+    "jeju": "이불포",
+    "standard": "이불 보자기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4576",
+    "jeju": "고망",
+    "standard": "구멍",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3311",
+    "jeju": "와그래",
+    "standard": "커다란 건물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3235",
+    "jeju": "밀문",
+    "standard": "지붕의 경사",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6781",
+    "jeju": "우장",
+    "standard": "우비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6036",
+    "jeju": "봉애기",
+    "standard": "깨",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3694",
+    "jeju": "성외",
+    "standard": "채",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3685",
+    "jeju": "쌀",
+    "standard": "살",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3668",
+    "jeju": "봉",
+    "standard": "촉",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3656",
+    "jeju": "뱅이혹",
+    "standard": "확",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3382",
+    "jeju": "퇴기",
+    "standard": "마룻대",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1467",
+    "jeju": "포",
+    "standard": "들보",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1429",
+    "jeju": "징",
+    "standard": "정",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1118",
+    "jeju": "드레",
+    "standard": "두레박",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1337",
+    "jeju": "코",
+    "standard": "고리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1335",
+    "jeju": "친",
+    "standard": "끈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1334",
+    "jeju": "치",
+    "standard": "키",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1191",
+    "jeju": "뽀롱이",
+    "standard": "알",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1006",
+    "jeju": "남푸벙것",
+    "standard": "등",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "759",
+    "jeju": "골롬",
+    "standard": "고름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6057",
+    "jeju": "글갱이",
+    "standard": "갈퀴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6049",
+    "jeju": "죽젓광이",
+    "standard": "나무 주걱",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6041",
+    "jeju": "돔배",
+    "standard": "도마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3705",
+    "jeju": "수리",
+    "standard": "수레",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3703",
+    "jeju": "쐬손",
+    "standard": "흙손",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3699",
+    "jeju": "소굴레",
+    "standard": "재갈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3692",
+    "jeju": "생이집",
+    "standard": "새장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3690",
+    "jeju": "상제",
+    "standard": "상자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3682",
+    "jeju": "사올대",
+    "standard": "삿대",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3679",
+    "jeju": "빗첩",
+    "standard": "빗접",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3672",
+    "jeju": "부체",
+    "standard": "부채",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3671",
+    "jeju": "부쇠",
+    "standard": "부시",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "327",
+    "jeju": "아적",
+    "standard": "아침",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "350",
+    "jeju": "저냑",
+    "standard": "저녁",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4837",
+    "jeju": "내중",
+    "standard": "나중",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5715",
+    "jeju": "벡",
+    "standard": "백",
+    "partOfSpeech": "number"
+  },
+  {
+    "seq": "5717",
+    "jeju": "쑤물",
+    "standard": "스물",
+    "partOfSpeech": "number"
+  },
+  {
+    "seq": "5722",
+    "jeju": "여쉰",
+    "standard": "예순",
+    "partOfSpeech": "number"
+  },
+  {
+    "seq": "7471",
+    "jeju": "이디저디",
+    "standard": "여기저기",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "seq": "235",
+    "jeju": "가온대",
+    "standard": "가운데",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4536",
+    "jeju": "깝",
+    "standard": "값",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1641",
+    "jeju": "척",
+    "standard": "책",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3335",
+    "jeju": "정낭",
+    "standard": "대문 대신 뜰 어귀에 가로지르는 나무",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1862",
+    "jeju": "할망당",
+    "standard": "여자신을 모신 당",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "662",
+    "jeju": "새서방",
+    "standard": "신랑",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "7530",
+    "jeju": "새각시",
+    "standard": "신부",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4066",
+    "jeju": "촐",
+    "standard": "꼴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5502",
+    "jeju": "중메",
+    "standard": "중매",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1380",
+    "jeju": "걸름",
+    "standard": "거름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5345",
+    "jeju": "용심",
+    "standard": "성",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4219",
+    "jeju": "보리낭",
+    "standard": "밀짚",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4284",
+    "jeju": "콩꼬질",
+    "standard": "콩깍지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5305",
+    "jeju": "엑",
+    "standard": "액",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5177",
+    "jeju": "상",
+    "standard": "향",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5121",
+    "jeju": "불껑",
+    "standard": "재",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4957",
+    "jeju": "말쩨",
+    "standard": "끝",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4936",
+    "jeju": "듸",
+    "standard": "데",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4792",
+    "jeju": "긋",
+    "standard": "끝",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4686",
+    "jeju": "패",
+    "standard": "파",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4673",
+    "jeju": "테",
+    "standard": "때",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4672",
+    "jeju": "턱사가리",
+    "standard": "이유",
+    "partOfSpeech": "noun",
+    "reviewStatus": "provisional"
+  },
+  {
+    "seq": "4561",
+    "jeju": "껀",
+    "standard": "건",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4529",
+    "jeju": "깍",
+    "standard": "끝",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6853",
+    "jeju": "손메",
+    "standard": "솜씨",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6850",
+    "jeju": "쏙",
+    "standard": "여물",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6844",
+    "jeju": "소본",
+    "standard": "벌초",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6837",
+    "jeju": "소도",
+    "standard": "효도",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6836",
+    "jeju": "소관",
+    "standard": "소견",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6835",
+    "jeju": "셍작",
+    "standard": "생판",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6834",
+    "jeju": "셍일",
+    "standard": "생일",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5678",
+    "jeju": "훗맛",
+    "standard": "뒷맛",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1680",
+    "jeju": "용시",
+    "standard": "농사",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5670",
+    "jeju": "회계",
+    "standard": "생각",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5668",
+    "jeju": "활롱",
+    "standard": "유통",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5623",
+    "jeju": "한지",
+    "standard": "한데",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5622",
+    "jeju": "하찔",
+    "standard": "하등품",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5612",
+    "jeju": "피상",
+    "standard": "비상",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5598",
+    "jeju": "펜리",
+    "standard": "편리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5581",
+    "jeju": "테도리",
+    "standard": "바위",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5572",
+    "jeju": "쿰일",
+    "standard": "삯일",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5552",
+    "jeju": "초리",
+    "standard": "표류",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5549",
+    "jeju": "체얌",
+    "standard": "처음",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5519",
+    "jeju": "지침",
+    "standard": "기침",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5466",
+    "jeju": "조통",
+    "standard": "교통",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5465",
+    "jeju": "조지",
+    "standard": "묶음",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5460",
+    "jeju": "조데",
+    "standard": "교대",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5446",
+    "jeju": "정찰",
+    "standard": "경찰",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5428",
+    "jeju": "전체",
+    "standard": "까닭",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5425",
+    "jeju": "전장",
+    "standard": "전쟁",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5419",
+    "jeju": "저제",
+    "standard": "시장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5410",
+    "jeju": "장밭",
+    "standard": "장지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5383",
+    "jeju": "일후",
+    "standard": "이후",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5380",
+    "jeju": "일전",
+    "standard": "이전",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5376",
+    "jeju": "일름",
+    "standard": "이름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5375",
+    "jeju": "인싱",
+    "standard": "인생",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5374",
+    "jeju": "인세",
+    "standard": "인사",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5370",
+    "jeju": "이향",
+    "standard": "의향",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5367",
+    "jeju": "이심",
+    "standard": "의심",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5362",
+    "jeju": "이녁거",
+    "standard": "자기 것",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5359",
+    "jeju": "은뜸",
+    "standard": "으뜸",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5354",
+    "jeju": "원",
+    "standard": "둑",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5350",
+    "jeju": "우전",
+    "standard": "웃돈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5340",
+    "jeju": "외곳",
+    "standard": "한 방향",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5324",
+    "jeju": "예상",
+    "standard": "예사",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5319",
+    "jeju": "열헹",
+    "standard": "갈행",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5307",
+    "jeju": "여고",
+    "standard": "예고",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5274",
+    "jeju": "알착",
+    "standard": "아래짝",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5248",
+    "jeju": "신립",
+    "standard": "신청",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5242",
+    "jeju": "시상",
+    "standard": "세상",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5211",
+    "jeju": "세",
+    "standard": "중매",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5208",
+    "jeju": "성방",
+    "standard": "형방",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5203",
+    "jeju": "섬",
+    "standard": "마음",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5198",
+    "jeju": "선체",
+    "standard": "배값",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5196",
+    "jeju": "선용",
+    "standard": "사용 중",
+    "partOfSpeech": "noun",
+    "reviewStatus": "blocked"
+  },
+  {
+    "seq": "5165",
+    "jeju": "산역시",
+    "standard": "산일",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5144",
+    "jeju": "비역",
+    "standard": "부역",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5138",
+    "jeju": "불펜",
+    "standard": "불편",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5117",
+    "jeju": "분시",
+    "standard": "분수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5095",
+    "jeju": "봉불",
+    "standard": "봉화",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5046",
+    "jeju": "방둥이",
+    "standard": "장난감",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5040",
+    "jeju": "반지기",
+    "standard": "절반씩",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5014",
+    "jeju": "밀세",
+    "standard": "밀고",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5000",
+    "jeju": "무기",
+    "standard": "무게",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4984",
+    "jeju": "멩함",
+    "standard": "명함",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4980",
+    "jeju": "멩령",
+    "standard": "명령",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4975",
+    "jeju": "멘제",
+    "standard": "면제",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4962",
+    "jeju": "매기",
+    "standard": "매미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4932",
+    "jeju": "뜨집",
+    "standard": "의향",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4922",
+    "jeju": "두끼",
+    "standard": "두께",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4912",
+    "jeju": "도장밥",
+    "standard": "인주",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4906",
+    "jeju": "도",
+    "standard": "출입구",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3347",
+    "jeju": "지둥",
+    "standard": "기둥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1957",
+    "jeju": "강생이",
+    "standard": "강아지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2020",
+    "jeju": "도새기",
+    "standard": "돼지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1969",
+    "jeju": "고냉이",
+    "standard": "고양이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1987",
+    "jeju": "납",
+    "standard": "나비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2452",
+    "jeju": "베염",
+    "standard": "뱀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3869",
+    "jeju": "삭다리",
+    "standard": "삭정이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4449",
+    "jeju": "졸갱이",
+    "standard": "으름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "205",
+    "jeju": "웃드르",
+    "standard": "산간지대",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "160",
+    "jeju": "빌레",
+    "standard": "반석",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "351",
+    "jeju": "저슬",
+    "standard": "겨울",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1752",
+    "jeju": "가냐귀",
+    "standard": "까마귀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "736",
+    "jeju": "굴묵",
+    "standard": "아궁이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3196",
+    "jeju": "고팡",
+    "standard": "광",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5136",
+    "jeju": "불치",
+    "standard": "재",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3228",
+    "jeju": "무뚱",
+    "standard": "곁채",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1360",
+    "jeju": "허벅",
+    "standard": "물동이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1011",
+    "jeju": "낭푼이",
+    "standard": "양푼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4735",
+    "jeju": "구둠",
+    "standard": "먼지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "873",
+    "jeju": "미녕",
+    "standard": "무명",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1545",
+    "jeju": "망탱이",
+    "standard": "망태기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2022",
+    "jeju": "검은돗",
+    "standard": "검은 돼지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2140",
+    "jeju": "검은쇠",
+    "standard": "검은 소",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2295",
+    "jeju": "술래미",
+    "standard": "가자미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2416",
+    "jeju": "흑돔",
+    "standard": "검은 도미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4109",
+    "jeju": "폭낭",
+    "standard": "팽나무",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2611",
+    "jeju": "가쟁이",
+    "standard": "가지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5938",
+    "jeju": "먹돌",
+    "standard": "차돌",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3874",
+    "jeju": "살마",
+    "standard": "반하",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4507",
+    "jeju": "작지",
+    "standard": "돌자갈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4384",
+    "jeju": "돔박",
+    "standard": "동백",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2138",
+    "jeju": "쇠",
+    "standard": "소",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2179",
+    "jeju": "여시",
+    "standard": "여우",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2026",
+    "jeju": "돗지름",
+    "standard": "비계",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2181",
+    "jeju": "염송애기",
+    "standard": "염소",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1909",
+    "jeju": "빙애기",
+    "standard": "병아리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1533",
+    "jeju": "눌굽",
+    "standard": "낟가리 자리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "260",
+    "jeju": "어염",
+    "standard": "곁",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "335",
+    "jeju": "엿날",
+    "standard": "옛날",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4169",
+    "jeju": "나록",
+    "standard": "벼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "77",
+    "jeju": "동카름",
+    "standard": "동쪽 동네",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2136",
+    "jeju": "송애기",
+    "standard": "송아지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "739",
+    "jeju": "갈중이",
+    "standard": "갈옷 바지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3609",
+    "jeju": "덩드렁마께",
+    "standard": "짚방망이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1096",
+    "jeju": "도치",
+    "standard": "도끼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "950",
+    "jeju": "곽살",
+    "standard": "성냥개비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1069",
+    "jeju": "대배기",
+    "standard": "물동이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "814",
+    "jeju": "세답",
+    "standard": "빨래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4591",
+    "jeju": "곰생이",
+    "standard": "곰팡이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1003",
+    "jeju": "남죽",
+    "standard": "밥주걱",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5981",
+    "jeju": "물팡",
+    "standard": "받침대",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2361",
+    "jeju": "대엽",
+    "standard": "대합",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2297",
+    "jeju": "어금",
+    "standard": "바지락",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2589",
+    "jeju": "재",
+    "standard": "매미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2375",
+    "jeju": "물꾸럭",
+    "standard": "문어",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2340",
+    "jeju": "각제기",
+    "standard": "전갱이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3985",
+    "jeju": "우미",
+    "standard": "우뭇가사리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4063",
+    "jeju": "초기",
+    "standard": "표고버섯",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3537",
+    "jeju": "짐치",
+    "standard": "김치",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4206",
+    "jeju": "모멀",
+    "standard": "메밀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4382",
+    "jeju": "댕유지",
+    "standard": "당유자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2594",
+    "jeju": "진독",
+    "standard": "진드기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2427",
+    "jeju": "굼벵이",
+    "standard": "굼벵이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2415",
+    "jeju": "홍에",
+    "standard": "홍어",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2409",
+    "jeju": "조우럭",
+    "standard": "노래미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2420",
+    "jeju": "게여미",
+    "standard": "개미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4640",
+    "jeju": "발창",
+    "standard": "발바닥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2882",
+    "jeju": "둑지",
+    "standard": "어깻죽지",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4992",
+    "jeju": "모욕",
+    "standard": "목욕",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4998",
+    "jeju": "몸질",
+    "standard": "몸 뒤척임",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4972",
+    "jeju": "멕사리",
+    "standard": "힘",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2404",
+    "jeju": "웽이",
+    "standard": "흑돔",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2389",
+    "jeju": "붕에",
+    "standard": "뱀장어",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2386",
+    "jeju": "나부복쟁이",
+    "standard": "나비복",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2383",
+    "jeju": "보건치",
+    "standard": "조기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2371",
+    "jeju": "멩태",
+    "standard": "명태",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2360",
+    "jeju": "닥살",
+    "standard": "소라껍질",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2344",
+    "jeju": "거펑",
+    "standard": "전복껍질",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2341",
+    "jeju": "갈치",
+    "standard": "칼치",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2338",
+    "jeju": "가다리",
+    "standard": "재방어",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2337",
+    "jeju": "황쇠",
+    "standard": "황소",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2311",
+    "jeju": "코토대기",
+    "standard": "담치",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2303",
+    "jeju": "은에",
+    "standard": "은어",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2291",
+    "jeju": "상의",
+    "standard": "상어",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2289",
+    "jeju": "비늘",
+    "standard": "낟가리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2269",
+    "jeju": "멜",
+    "standard": "멸치",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2265",
+    "jeju": "돔",
+    "standard": "도미",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2251",
+    "jeju": "구루찌",
+    "standard": "감성돔",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1354",
+    "jeju": "펭풍",
+    "standard": "병풍",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1110",
+    "jeju": "두껑",
+    "standard": "뚜껑",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3614",
+    "jeju": "망대기",
+    "standard": "작은 항아리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2147",
+    "jeju": "쇠니치름",
+    "standard": "쇠침",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2039",
+    "jeju": "네복",
+    "standard": "내장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2015",
+    "jeju": "당나귀",
+    "standard": "나귀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2005",
+    "jeju": "노리",
+    "standard": "노루",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1767",
+    "jeju": "퇴께",
+    "standard": "토끼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1755",
+    "jeju": "중숭",
+    "standard": "짐승",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5420",
+    "jeju": "적시",
+    "standard": "몫",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4827",
+    "jeju": "날래",
+    "standard": "볕 말림",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "76",
+    "jeju": "가름",
+    "standard": "동네",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6300",
+    "jeju": "몰질",
+    "standard": "말 길",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "71",
+    "jeju": "헤",
+    "standard": "해",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "32",
+    "jeju": "벨",
+    "standard": "별",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6",
+    "jeju": "노대",
+    "standard": "태풍",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "48",
+    "jeju": "쐬내기",
+    "standard": "소나기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "53",
+    "jeju": "으남",
+    "standard": "안개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "41",
+    "jeju": "상고지",
+    "standard": "무지개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "64",
+    "jeju": "펀개",
+    "standard": "번개",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "36",
+    "jeju": "빗주제",
+    "standard": "소나기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "19",
+    "jeju": "동곳",
+    "standard": "고드름",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2628",
+    "jeju": "검질",
+    "standard": "잡초",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "70",
+    "jeju": "험벅눈",
+    "standard": "함박눈",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "72",
+    "jeju": "헤돋이",
+    "standard": "해돋이",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "35",
+    "jeju": "빗살",
+    "standard": "빗방울",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "28",
+    "jeju": "무눈",
+    "standard": "눈비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "62",
+    "jeju": "진벵이",
+    "standard": "진눈깨비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2",
+    "jeju": "강쳉이",
+    "standard": "돌풍",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "261",
+    "jeju": "우녁",
+    "standard": "위쪽",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "257",
+    "jeju": "알",
+    "standard": "아래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3907",
+    "jeju": "소낭",
+    "standard": "소나무",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3920",
+    "jeju": "솔똥",
+    "standard": "솔방울",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "148",
+    "jeju": "바당",
+    "standard": "바다",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "5009",
+    "jeju": "물질",
+    "standard": "물질",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2254",
+    "jeju": "구제기",
+    "standard": "소라",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2253",
+    "jeju": "구살",
+    "standard": "성게",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2347",
+    "jeju": "겡이",
+    "standard": "게",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2393",
+    "jeju": "새위",
+    "standard": "새우",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2300",
+    "jeju": "오징에",
+    "standard": "오징어",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2405",
+    "jeju": "자리",
+    "standard": "자리돔",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2394",
+    "jeju": "셍성",
+    "standard": "옥돔",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "81",
+    "jeju": "개맡",
+    "standard": "포구",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3955",
+    "jeju": "신속",
+    "standard": "쑥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4188",
+    "jeju": "강낭대죽",
+    "standard": "옥수수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4230",
+    "jeju": "사당대죽",
+    "standard": "사탕수수",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4163",
+    "jeju": "곡석",
+    "standard": "곡식",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4316",
+    "jeju": "드룻마농",
+    "standard": "달래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4348",
+    "jeju": "짐",
+    "standard": "김",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4317",
+    "jeju": "들굽",
+    "standard": "두릅",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3958",
+    "jeju": "베",
+    "standard": "배",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4464",
+    "jeju": "포두",
+    "standard": "포도",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4465",
+    "jeju": "피파",
+    "standard": "비파",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6052",
+    "jeju": "게가비",
+    "standard": "개나리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4447",
+    "jeju": "제지",
+    "standard": "겨자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6108",
+    "jeju": "고베기",
+    "standard": "고비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6025",
+    "jeju": "돔박낭",
+    "standard": "동백나무",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2679",
+    "jeju": "넙곽",
+    "standard": "다시마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2561",
+    "jeju": "남초",
+    "standard": "담배",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4297",
+    "jeju": "감제",
+    "standard": "고구마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4266",
+    "jeju": "지장",
+    "standard": "기장",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2672",
+    "jeju": "낭쎂",
+    "standard": "나뭇잎",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1553",
+    "jeju": "물밭",
+    "standard": "논",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4235",
+    "jeju": "쌍콩",
+    "standard": "콩",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4218",
+    "jeju": "방울",
+    "standard": "알",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4112",
+    "jeju": "푸십세",
+    "standard": "풀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3916",
+    "jeju": "속",
+    "standard": "쑥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3885",
+    "jeju": "새삼",
+    "standard": "마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3753",
+    "jeju": "뒤",
+    "standard": "띠풀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2557",
+    "jeju": "나록찍",
+    "standard": "짚",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "125",
+    "jeju": "물절",
+    "standard": "물결",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "56",
+    "jeju": "주제",
+    "standard": "비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6121",
+    "jeju": "솔낭",
+    "standard": "곰솔",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6114",
+    "jeju": "고소",
+    "standard": "고삼",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4445",
+    "jeju": "전기꼿",
+    "standard": "진달래",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4471",
+    "jeju": "헤바래기",
+    "standard": "해바라기",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "6086",
+    "jeju": "안자리쿨",
+    "standard": "갯취",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4477",
+    "jeju": "돌쌔기",
+    "standard": "잔돌",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4458",
+    "jeju": "켄밤",
+    "standard": "아람",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4443",
+    "jeju": "유지",
+    "standard": "유자",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4408",
+    "jeju": "벵귤",
+    "standard": "병귤",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4393",
+    "jeju": "멀뤼",
+    "standard": "머루",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4387",
+    "jeju": "드릇국화",
+    "standard": "산국",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4377",
+    "jeju": "꽝베",
+    "standard": "돌배",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4223",
+    "jeju": "보리콩",
+    "standard": "완두",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4164",
+    "jeju": "곡석방울",
+    "standard": "낟알",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4143",
+    "jeju": "회양",
+    "standard": "회향",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4103",
+    "jeju": "팔각낭",
+    "standard": "붓순",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4079",
+    "jeju": "칠비",
+    "standard": "부들",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4060",
+    "jeju": "청조쿨",
+    "standard": "망초",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4021",
+    "jeju": "제피",
+    "standard": "계피",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4005",
+    "jeju": "잔뒤역",
+    "standard": "잔디",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "4001",
+    "jeju": "자굴",
+    "standard": "차풀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3997",
+    "jeju": "입초",
+    "standard": "엽초",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3996",
+    "jeju": "일본반치",
+    "standard": "칸나",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3988",
+    "jeju": "유룸줄",
+    "standard": "으름덩굴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3975",
+    "jeju": "열씨",
+    "standard": "삼씨",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3963",
+    "jeju": "어욱삥이",
+    "standard": "억새",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3937",
+    "jeju": "수승",
+    "standard": "율무",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3908",
+    "jeju": "소낭초기",
+    "standard": "송이버섯",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3905",
+    "jeju": "셍지속",
+    "standard": "떡쑥",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3850",
+    "jeju": "불리",
+    "standard": "뿌리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3813",
+    "jeju": "반초",
+    "standard": "파초",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3777",
+    "jeju": "못꼿",
+    "standard": "꿀풀",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3767",
+    "jeju": "멘네",
+    "standard": "면화",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "3764",
+    "jeju": "메마",
+    "standard": "메꽃",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2636",
+    "jeju": "고배기",
+    "standard": "고비",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2547",
+    "jeju": "꿀",
+    "standard": "덩굴",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2535",
+    "jeju": "곤저리쿨",
+    "standard": "싸리",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2520",
+    "jeju": "개성게",
+    "standard": "수영",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "2499",
+    "jeju": "가마귀숟가락",
+    "standard": "반하",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1694",
+    "jeju": "질메",
+    "standard": "길마",
+    "partOfSpeech": "noun"
+  },
+  {
+    "seq": "1691",
+    "jeju": "지메",
+    "standard": "조마름병",
+    "partOfSpeech": "noun"
+  }
+]

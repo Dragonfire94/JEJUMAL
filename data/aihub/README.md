@@ -29,6 +29,8 @@ data/aihub/
   assembled.json            명사 치환 조립 감사 로그
   sample.json               눈으로 훑어볼 짧은 예문 240개
   tokens.json               방언 토큰 → 표준어 + 횟수
+  word-frequency.json       tokens.json을 제주어사전 표제어와 대조해 만든
+                            버전 있는 빈도 순위 (scripts/build-word-frequency.mjs)
   utterances/
     dzes.jsonl.gz
     dzhf.jsonl.gz
