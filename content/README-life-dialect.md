@@ -74,12 +74,24 @@ jeju.go.kr 접속을 차단해 실제 공공누리 유형 번호, 상업적 이�
 사람이 직접 확인하고 이 필드를 갱신할 것.** 계획서도 이 항목을 "반드시
 선행할 것"으로 못박아 두었다.
 
+## P2-2: 단어 카드 ↔ 생활방언 역방향 링크
+
+`src/lib/life-dialect.ts`의 `appearancesForSeq`/`firstAppearanceForAnySeq`가
+`wordLinks`(candidate)로 역인덱스를 만든다. 전부 후보 상태 그대로 노출한다 —
+"자동 후보·검수 전"이라고 항상 같이 표시한다(`src/components/word-appearance-links.tsx`).
+
+- 단어 카드(유닛 학습 화면 `WordList`): 예문 아래 후보 링크 최대 3개
+- 퀴즈 결과: 틀린 단어 중 하나라도 후보가 있으면 편 1개 추천
+  (`MissedWordRecommendation`, `learn.$unitId.tsx`)
+- 복습노트 카드(`Flashcard`): 후보 문장 + 표준어 번역, "편 전체로 듣기"
+  버튼(문장 단위 음원이 없어 편 전체 재생임을 숨기지 않음)
+
 ## 아직 안 한 것
 
-- 단어 카드 쪽에서 "이 단어가 나오는 대화" 역방향 링크, 퀴즈 오답 → 생활방언
-  추천, 복습 카드 뒤 실제 문장 음원 재생 (P2-2, 아직 시작 안 함)
 - 문장별 타임코드가 없어 "무슨 상황인가?" 의미 문항과 문장 단위 음원 재생은
   구현하지 않음 — 지어내지 않기로 한 판단이지, 빠뜨린 게 아님
+- P2-3 트랙 구조 재설계, P2-4 난이도 재산정 — 아직 시작 안 함
 - 나머지 90편에 대한 동일 작업, `solutionEdited` 실제 오탈자 교정
 - E2E/스크린샷 검증은 아직 없음 — 유닛 테스트(`src/lib/life-dialect.test.ts`,
-  `scripts/build-life-dialect.test.mjs`)와 tsc/eslint/vitest만 확인함
+  `scripts/build-life-dialect.test.mjs`)와 tsc/eslint/vitest, `vite dev` 위에서
+  실제 HTML 응답 확인만 함
