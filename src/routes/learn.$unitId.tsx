@@ -3,9 +3,11 @@ import { ArrowLeft, Volume2 } from "lucide-react";
 import { useState } from "react";
 import { ExampleLine } from "@/components/example-line";
 import { QuizView } from "@/components/quiz-view";
+import { WordAppearanceLinks } from "@/components/word-appearance-links";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { playWord } from "@/lib/audio";
+import { firstAppearanceForAnySeq } from "@/lib/life-dialect";
 import { rememberLastWord } from "@/lib/report";
 import { track } from "@/lib/track";
 import { useProgress } from "@/lib/progress";
@@ -203,6 +205,7 @@ function LearnPage() {
               <Badge variant="danger">{missedWords.length}개</Badge>
             </div>
             <WordList words={missedWords} />
+            <MissedWordRecommendation missedSeqs={score.missedSeqs} />
           </div>
         ) : (
           <p className="text-center text-sm text-muted-foreground">이 유닛은 전부 맞혔습니다.</p>
@@ -272,6 +275,24 @@ function LearnPage() {
   );
 }
 
+/** 틀린 단어 중 하나라도 생활방언 후보 편이 있으면 한 편만 추천한다(P2-2). */
+function MissedWordRecommendation({ missedSeqs }: { missedSeqs: string[] }) {
+  const appearance = firstAppearanceForAnySeq(missedSeqs);
+  if (!appearance) return null;
+  return (
+    <Link
+      to="/life-dialect/$id"
+      params={{ id: appearance.passageId }}
+      className="flex items-center justify-between gap-3 rounded-2xl border border-border bg-card px-4 py-3 text-sm transition-[transform] duration-[var(--motion-quick)] active:scale-[0.98]"
+    >
+      <span>
+        틀린 말이 나오는 실제 대화 <span className="font-medium">{appearance.passageTitle}</span> 보기
+      </span>
+      <span className="shrink-0 text-xs text-muted-foreground">자동 후보</span>
+    </Link>
+  );
+}
+
 function WordList({ words }: { words: Word[] }) {
   const [playingSeq, setPlayingSeq] = useState<string | null>(null);
   const [failedSeq, setFailedSeq] = useState<string | null>(null);
@@ -311,6 +332,7 @@ function WordList({ words }: { words: Word[] }) {
               </span>
             </div>
             {example ? <div className="mt-1"><ExampleLine example={example} /></div> : null}
+            <WordAppearanceLinks seq={word.seq} />
           </div>
         </li>
         );

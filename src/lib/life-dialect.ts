@@ -52,6 +52,53 @@ export function getPassage(id: string): LifeDialectPassage | undefined {
   return byId.get(id);
 }
 
+// --- P2-2: 단어 카드 ↔ 생활방언 역방향 링크 -------------------------------
+// build-life-dialect.mjs가 붙인 wordLinks는 전부 status: "candidate"다(문자열
+// 일치, 활용형은 못 잡음). 여기서 만드는 역인덱스도 그대로 candidate 다.
+// 화면에서는 절대 "정답"처럼 보이면 안 되고, 항상 "자동 후보(검수 전)"라고
+// 밝혀야 한다.
+
+export type WordAppearance = {
+  passageId: string;
+  passageTitle: string;
+  sentenceIndex: number;
+  jeju: string;
+  solutionEdited: string;
+  audioUrl: string;
+};
+
+const appearancesBySeq = new Map<string, WordAppearance[]>();
+for (const passage of lifeDialect.passages) {
+  passage.sentences.forEach((sentence, sentenceIndex) => {
+    for (const link of sentence.wordLinks) {
+      const list = appearancesBySeq.get(link.seq) ?? [];
+      list.push({
+        passageId: passage.id,
+        passageTitle: passage.title,
+        sentenceIndex,
+        jeju: sentence.jeju,
+        solutionEdited: sentence.solutionEdited,
+        audioUrl: passage.audioUrl,
+      });
+      appearancesBySeq.set(link.seq, list);
+    }
+  });
+}
+
+/** 단어 카드 하단 "이 말이 나오는 대화" 목록용. 최대 limit개, 후보 상태 그대로. */
+export function appearancesForSeq(seq: string, limit = 3): WordAppearance[] {
+  return (appearancesBySeq.get(seq) ?? []).slice(0, limit);
+}
+
+/** 퀴즈 결과에서 틀린 단어들 중 첫 번째로 매칭되는 편 하나만 추천할 때 쓴다. */
+export function firstAppearanceForAnySeq(seqs: string[]): WordAppearance | undefined {
+  for (const seq of seqs) {
+    const list = appearancesBySeq.get(seq);
+    if (list && list.length > 0) return list[0];
+  }
+  return undefined;
+}
+
 /** 파일럿 이후에도 순서가 안정적이도록, 배열 순서 그대로 이전/다음을 계산한다. */
 export function adjacentPassageIds(id: string): { prevId: string | null; nextId: string | null } {
   const ids = lifeDialect.passages.map((passage) => passage.id);

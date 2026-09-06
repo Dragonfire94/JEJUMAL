@@ -1,6 +1,13 @@
 import assert from "node:assert/strict";
 import { test } from "vitest";
-import { adjacentPassageIds, buildInlineQuestions, getPassage, listPassages } from "./life-dialect";
+import {
+  adjacentPassageIds,
+  appearancesForSeq,
+  buildInlineQuestions,
+  firstAppearanceForAnySeq,
+  getPassage,
+  listPassages,
+} from "./life-dialect";
 
 test("파일럿 10편이 모두 로드된다", () => {
   assert.equal(listPassages().length, 10);
@@ -49,4 +56,25 @@ test("buildInlineQuestions는 문장이 2개 미만이면 빈 배열을 준다",
     ],
   };
   assert.deepEqual(buildInlineQuestions(tiny), []);
+});
+
+test("appearancesForSeq는 실제로 등장하는 단어에 후보를 준다", () => {
+  const appearances = appearancesForSeq("7564");
+  assert.ok(appearances.length > 0);
+  assert.ok(appearances.every((a) => a.jeju.includes("옵서")));
+});
+
+test("appearancesForSeq는 없는 단어에 빈 배열을 준다", () => {
+  assert.deepEqual(appearancesForSeq("999999999"), []);
+});
+
+test("appearancesForSeq는 limit을 넘기지 않는다", () => {
+  assert.ok(appearancesForSeq("7564", 1).length <= 1);
+});
+
+test("firstAppearanceForAnySeq는 목록 순서대로 첫 매칭을 준다", () => {
+  const hit = firstAppearanceForAnySeq(["999999999", "7564"]);
+  assert.ok(hit);
+  assert.ok(hit!.jeju.includes("옵서"));
+  assert.equal(firstAppearanceForAnySeq(["999999999"]), undefined);
 });
