@@ -17,6 +17,23 @@
 | 조사·어미 붙은 형태로 나옴 | +77개 (예: 각씨 → 각씨가) |
 | 대화에 거의 안 나옴 | 642개 |
 
+위 세 줄(`coverage.json`)은 2차 콘텐츠 원장 정리 전에 만든 옛 감사다.
+동형이의어 오염을 거르지 않아서(예: "상"이 사전 뜻 "향"과 안 통하는
+"사서/사고"의 방언 표기로 잡혀도 그대로 셌다) 지금은 더 정확한
+`word-usage-audit.json`(`scripts/audit-word-usage.mjs`)을 쓴다. 최신 결과:
+
+| 등급 | 개수 | 뜻 |
+|---|---|---|
+| confirmed | 213 | 말뭉치 3회 이상(동형이의어 제외) 또는 활용형 5회 이상 또는 생활방언에 등장 |
+| rare | 83 | 말뭉치(원형+활용형) 1~2회 |
+| unconfirmed | 704 | 이 두 자료로는 못 찾음 — **안 쓰인다는 뜻이 아니라 확인을 못 했다는 뜻** |
+
+용언(동사·형용사)은 사전 인용형("-다")이 아니라 어간에 어미가 붙어 나오므로
+어간 기준으로도 찾는다 — 그래도 여전히 트랙별로 편차가 크다("동물" 트랙은
+44%만 unconfirmed, "움직임"(동사) 트랙은 81%가 unconfirmed). 자세한 방법과
+한계(맞춤법 변이형은 못 잡음 등)는 스크립트 주석과 `word-usage-audit.json`의
+`method`/`caveat` 필드 참고.
+
 5,638은 파일 수입니다. 예문 문장은 파일당 수십~수백 개라 합치면 53만 개입니다.
 
 ## 폴더
@@ -31,6 +48,8 @@ data/aihub/
   tokens.json               방언 토큰 → 표준어 + 횟수
   word-frequency.json       tokens.json을 제주어사전 표제어와 대조해 만든
                             버전 있는 빈도 순위 (scripts/build-word-frequency.mjs)
+  word-usage-audit.json     이미 앱에 있는 1,000단어가 실제로 쓰이는 증거가
+                            있는지 감사 (scripts/audit-word-usage.mjs)
   utterances/
     dzes.jsonl.gz
     dzhf.jsonl.gz
