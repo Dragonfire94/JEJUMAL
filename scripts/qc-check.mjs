@@ -12,6 +12,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { ending } from "./measure-endings.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
@@ -27,15 +28,6 @@ const PARTICLE_PAIRS = [
   ["은", "는", "은/는"],
   ["과", "와", "과/와"],
 ];
-
-const KNOWN_ENDINGS = ["마씸", "수다", "우다", "읍주", "읍서", "수과", "우꽈", "수꽈", "읍네다", "수게", "저", "주", "게", "라"];
-function ending(jeju) {
-  const trimmed = jeju.replace(/[.?!\s]+$/, "");
-  for (const e of KNOWN_ENDINGS) {
-    if (trimmed.endsWith(e)) return e;
-  }
-  return "기타";
-}
 
 /**
  * content/qc-rules.yaml에 나열된 규칙들을 실행한다.

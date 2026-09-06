@@ -77,3 +77,38 @@ test("markRemembered promotes the ladder once the card is actually due", () => {
 test("cardDueAt treats a never-reviewed card (intervalDays<=0) as immediately due", () => {
   assert.equal(cardDueAt(card({ intervalDays: 0 })), 0);
 });
+
+test("markRemembered/markForgot append an immutable review log entry without changing card-state semantics", () => {
+  const word = units[0]!.words[2]!;
+  useProgress.getState().resetProgress();
+  useProgress.getState().addToNotebook(word, units[0]!.id);
+
+  useProgress.getState().markRemembered(word.seq);
+  let log = useProgress.getState().reviewLog;
+  assert.equal(log.length, 1);
+  assert.equal(log[0]!.seq, word.seq);
+  assert.equal(log[0]!.remembered, true);
+  assert.equal(log[0]!.intervalDaysBefore, 0);
+  assert.equal(log[0]!.intervalDaysAfter, REVIEW_LADDER[0]);
+
+  useProgress.getState().markForgot(word.seq);
+  log = useProgress.getState().reviewLog;
+  assert.equal(log.length, 2);
+  assert.equal(log[1]!.remembered, false);
+  assert.equal(log[1]!.intervalDaysBefore, REVIEW_LADDER[0]);
+  assert.equal(log[1]!.intervalDaysAfter, 0);
+
+  // 로그는 순수 기록이라 카드 상태(wrongBySeq)의 실제 값과는 별개로 쌓인다 —
+  // 카드가 다음에 사다리를 오르는 계산은 여전히 wrongBySeq만 본다.
+  assert.equal(useProgress.getState().wrongBySeq[word.seq]!.intervalDays, 0);
+
+  useProgress.getState().resetProgress();
+  assert.deepEqual(useProgress.getState().reviewLog, []);
+});
+
+test("marking a card that isn't in the notebook logs nothing", () => {
+  useProgress.getState().resetProgress();
+  useProgress.getState().markRemembered("no-such-seq");
+  useProgress.getState().markForgot("no-such-seq");
+  assert.deepEqual(useProgress.getState().reviewLog, []);
+});
