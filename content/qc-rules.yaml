@@ -96,6 +96,8 @@ rules:
       목표 분포(개선안 문서 P1-2). 현재는 46.9%로 아직 목표에 크게 못 미치며,
       900여 문장의 전면 재작성이 필요한 4차 작업 대상이라 warn으로 두고
       추이만 추적한다. error로 올리는 것은 4차 작업이 끝난 뒤로 미룬다.
+      말뭉치 자동 치환을 시도했다가 되돌린 경위와 계측 도구는
+      docs/ending-diversity-4th-round.md 참고.
 
   - id: UNIT_SIZE
     severity: error
