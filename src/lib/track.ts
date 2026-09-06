@@ -7,7 +7,9 @@ export type TrackEvent =
   | "retry_start"
   | "notebook_add"
   | "review_done"
-  | "rank_open";
+  | "rank_open"
+  | "life_dialect_start"
+  | "life_dialect_complete";
 
 export type TrackProps = Record<string, string | number | boolean | undefined>;
 
