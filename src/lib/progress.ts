@@ -20,11 +20,24 @@ export type WrongCard = {
   intervalDays: number;
 };
 
+/**
+ * 생활방언 파일럿용 숙련도. Lute의 1~5단계는 판단 부담이 크다는 계획서 지적에 따라
+ * 3단계로 시작한다(docs/product-improvement-plan.md P2-1). 처음엔 completedAt만
+ * 찍히고("처음 봄" 상태), 사용자가 직접 고르면 selfRating이 채워진다.
+ */
+export type LifeDialectRating = "reviewing" | "familiar";
+
+export type LifeDialectPassageProgress = {
+  completedAt: number;
+  selfRating: LifeDialectRating | null;
+};
+
 type PersistedProgress = {
   completedUnitIds: string[];
   lastPlayedUnitId: string | null;
   wrongBySeq: Record<string, WrongCard>;
   dailyStats: Record<string, DailyStat>;
+  lifeDialectProgress: Record<string, LifeDialectPassageProgress>;
 };
 
 type ProgressState = {
@@ -33,6 +46,7 @@ type ProgressState = {
   lastPlayedUnitId: string | null;
   wrongBySeq: Record<string, WrongCard>;
   dailyStats: Record<string, DailyStat>;
+  lifeDialectProgress: Record<string, LifeDialectPassageProgress>;
   markHydrated: () => void;
   isUnlocked: (unitId: string) => boolean;
   isComplete: (unitId: string) => boolean;
@@ -46,6 +60,8 @@ type ProgressState = {
   wrongCards: () => WrongCard[];
   wrongCount: () => number;
   continueUnitId: () => string;
+  completeLifeDialectPassage: (passageId: string) => void;
+  setLifeDialectRating: (passageId: string, rating: LifeDialectRating) => void;
   resetProgress: () => void;
 };
 
@@ -152,6 +168,7 @@ function migrateProgress(persisted: unknown, version: number): PersistedProgress
     lastPlayedUnitId: state.lastPlayedUnitId ?? null,
     wrongBySeq,
     dailyStats: version >= 4 ? (state.dailyStats ?? {}) : {},
+    lifeDialectProgress: version >= 5 ? (state.lifeDialectProgress ?? {}) : {},
   };
 }
 
@@ -163,6 +180,7 @@ export const useProgress = create<ProgressState>()(
       lastPlayedUnitId: null,
       wrongBySeq: {},
       dailyStats: {},
+      lifeDialectProgress: {},
       markHydrated: () => set({ hydrated: true }),
       isComplete: (unitId) => get().completedUnitIds.includes(unitId),
       isUnlocked: (unitId) =>
@@ -264,17 +282,39 @@ export const useProgress = create<ProgressState>()(
         }
         return units[0]!.id;
       },
+      completeLifeDialectPassage: (passageId) =>
+        set((state) => {
+          const current = state.lifeDialectProgress[passageId];
+          if (current) return {};
+          return {
+            lifeDialectProgress: {
+              ...state.lifeDialectProgress,
+              [passageId]: { completedAt: Date.now(), selfRating: null },
+            },
+          };
+        }),
+      setLifeDialectRating: (passageId, rating) =>
+        set((state) => {
+          const current = state.lifeDialectProgress[passageId];
+          return {
+            lifeDialectProgress: {
+              ...state.lifeDialectProgress,
+              [passageId]: { completedAt: current?.completedAt ?? Date.now(), selfRating: rating },
+            },
+          };
+        }),
       resetProgress: () =>
         set({
           completedUnitIds: [],
           lastPlayedUnitId: null,
           wrongBySeq: {},
           dailyStats: {},
+          lifeDialectProgress: {},
         }),
     }),
     {
       name: "jeju-mal:v2",
-      version: 4,
+      version: 5,
       skipHydration: true,
       storage: createJSONStorage(() => safeStorage),
       migrate: migrateProgress,
@@ -283,6 +323,7 @@ export const useProgress = create<ProgressState>()(
         lastPlayedUnitId: state.lastPlayedUnitId,
         wrongBySeq: state.wrongBySeq,
         dailyStats: state.dailyStats,
+        lifeDialectProgress: state.lifeDialectProgress,
       }),
     },
   ),

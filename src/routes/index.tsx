@@ -84,6 +84,12 @@ function Home() {
               </Link>
             </Button>
           ) : null}
+          <Button asChild size="lg" variant="outline" className="w-full justify-between">
+            <Link to="/life-dialect">
+              <span>생활방언 파일럿</span>
+              <span className="font-normal opacity-80">실제 대화 10편</span>
+            </Link>
+          </Button>
         </CardContent>
       </Card>
 

@@ -14,6 +14,8 @@ import { Route as ReviewRouteImport } from './routes/review'
 import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as StatsRouteImport } from './routes/stats'
 import { Route as LearnUnitIdRouteImport } from './routes/learn.$unitId'
+import { Route as LifeDialectIndexRouteImport } from './routes/life-dialect.index'
+import { Route as LifeDialectIdRouteImport } from './routes/life-dialect.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -40,6 +42,16 @@ const LearnUnitIdRoute = LearnUnitIdRouteImport.update({
   path: '/learn/$unitId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LifeDialectIndexRoute = LifeDialectIndexRouteImport.update({
+  id: '/life-dialect/',
+  path: '/life-dialect/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LifeDialectIdRoute = LifeDialectIdRouteImport.update({
+  id: '/life-dialect/$id',
+  path: '/life-dialect/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -47,6 +59,8 @@ export interface FileRoutesByFullPath {
   '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
+  '/life-dialect/$id': typeof LifeDialectIdRoute
+  '/life-dialect/': typeof LifeDialectIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -54,6 +68,8 @@ export interface FileRoutesByTo {
   '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
+  '/life-dialect/$id': typeof LifeDialectIdRoute
+  '/life-dialect': typeof LifeDialectIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -62,13 +78,37 @@ export interface FileRoutesById {
   '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
+  '/life-dialect/$id': typeof LifeDialectIdRoute
+  '/life-dialect/': typeof LifeDialectIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/review' | '/settings' | '/stats' | '/learn/$unitId'
+  fullPaths:
+    | '/'
+    | '/review'
+    | '/settings'
+    | '/stats'
+    | '/learn/$unitId'
+    | '/life-dialect/$id'
+    | '/life-dialect/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/review' | '/settings' | '/stats' | '/learn/$unitId'
-  id: '__root__' | '/' | '/review' | '/settings' | '/stats' | '/learn/$unitId'
+  to:
+    | '/'
+    | '/review'
+    | '/settings'
+    | '/stats'
+    | '/learn/$unitId'
+    | '/life-dialect/$id'
+    | '/life-dialect'
+  id:
+    | '__root__'
+    | '/'
+    | '/review'
+    | '/settings'
+    | '/stats'
+    | '/learn/$unitId'
+    | '/life-dialect/$id'
+    | '/life-dialect/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -77,6 +117,8 @@ export interface RootRouteChildren {
   SettingsRoute: typeof SettingsRoute
   StatsRoute: typeof StatsRoute
   LearnUnitIdRoute: typeof LearnUnitIdRoute
+  LifeDialectIdRoute: typeof LifeDialectIdRoute
+  LifeDialectIndexRoute: typeof LifeDialectIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -116,6 +158,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LearnUnitIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/life-dialect/': {
+      id: '/life-dialect/'
+      path: '/life-dialect'
+      fullPath: '/life-dialect/'
+      preLoaderRoute: typeof LifeDialectIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/life-dialect/$id': {
+      id: '/life-dialect/$id'
+      path: '/life-dialect/$id'
+      fullPath: '/life-dialect/$id'
+      preLoaderRoute: typeof LifeDialectIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -125,6 +181,8 @@ const rootRouteChildren: RootRouteChildren = {
   SettingsRoute: SettingsRoute,
   StatsRoute: StatsRoute,
   LearnUnitIdRoute: LearnUnitIdRoute,
+  LifeDialectIdRoute: LifeDialectIdRoute,
+  LifeDialectIndexRoute: LifeDialectIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
