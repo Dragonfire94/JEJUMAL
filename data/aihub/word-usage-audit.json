@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T14:54:21.325Z",
+  "generatedAt": "2026-09-09T15:04:52.485Z",
   "method": [
     "AI Hub 방언 대화 말뭉치(524,406문장)에서 정확히 일치하는 토큰의 등장 횟수 — 단, 그 토큰이 매핑된 표준어 중 표제어 뜻과 통하는 것만 센다(동형이의어 오염 방지, 1글자 뜻은 완전일치만 인정)",
     "조사/어미가 붙은 형태(명사는 표제어+최대 3글자, 용언은 어간+최대 6글자)도 같은 방식으로 뜻이 통할 때만 활용형으로 인정",
@@ -12,8 +12,8 @@
   "summary": {
     "total": 1000,
     "confirmed": 256,
-    "rare": 89,
-    "unconfirmed": 655
+    "rare": 90,
+    "unconfirmed": 654
   },
   "rows": [
     {
@@ -1637,9 +1637,9 @@
       "tier": "rare"
     },
     {
-      "seq": "7543",
-      "jeju": "셍거",
-      "standard": "날것",
+      "seq": "90007",
+      "jeju": "두이",
+      "standard": "뒤",
       "exactHits": 0,
       "inflectedHits": 0,
       "lifeDialectHits": 0,
@@ -1799,13 +1799,13 @@
       "tier": "unconfirmed"
     },
     {
-      "seq": "7531",
-      "jeju": "새곡석",
-      "standard": "햇 곡식",
-      "exactHits": 0,
+      "seq": "90006",
+      "jeju": "남저",
+      "standard": "남자",
+      "exactHits": 2,
       "inflectedHits": 0,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "5229",

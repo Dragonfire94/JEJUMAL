@@ -2691,18 +2691,18 @@
     "order": 19,
     "words": [
       {
-        "seq": "7543",
-        "jeju": "셍거",
-        "standard": "날것",
-        "soundUrl": "/audio/7543.mp3",
+        "seq": "90007",
+        "jeju": "두이",
+        "standard": "뒤",
+        "soundUrl": "/audio/90007.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "생선은 셍거로 먹을 때 더 신선해야 헙주.",
-            "standard": "생선은 날것으로 먹을 때 더 신선해야 합니다."
+            "jeju": "두이에 사름 오람수다.",
+            "standard": "뒤에 사람이 오고 있어요."
           }
         ],
-        "hasAudio": true
+        "hasAudio": false
       },
       {
         "seq": "7499",
@@ -2952,18 +2952,18 @@
         "hasAudio": true
       },
       {
-        "seq": "7531",
-        "jeju": "새곡석",
-        "standard": "햇 곡식",
-        "soundUrl": "/audio/7531.mp3",
+        "seq": "90006",
+        "jeju": "남저",
+        "standard": "남자",
+        "soundUrl": "/audio/90006.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "가을에 거둔 새곡석을 이웃집에 조금 나눠 줬어마씸.",
-            "standard": "가을에 거둔 햇 곡식을 이웃집에 조금 나눠 줬어요."
+            "jeju": "저 남저는 이제 갓 스무 살이 뒈어수다.",
+            "standard": "저 남자는 이제 갓 스무 살이 되었어요."
           }
         ],
-        "hasAudio": true
+        "hasAudio": false
       },
       {
         "seq": "5229",
