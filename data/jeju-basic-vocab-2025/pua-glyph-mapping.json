@@ -111,8 +111,8 @@
   {
     "pua": "U+E38B",
     "reading": "ᄃᆞᆰ",
-    "confidence": "medium",
-    "note": "'ᄃᆞᆰ'=닭 추정(제주어 '독'과 연결).",
+    "confidence": "high",
+    "note": "'ᄃᆞᆰ'=닭 추정(제주어 '독'과 연결). [재검증 갱신: 말뭉치에서 '돍'(닭 뜻으로 14회) 직접 확인 — 아래아의 제주 현대 반사음 'ㅗ' 규칙과 일치.]",
     "context_form": "",
     "context_standard": [
       "닭"
@@ -207,8 +207,8 @@
   {
     "pua": "U+E71E",
     "reading": "ᄈᆞᆯ래",
-    "confidence": "medium",
-    "note": "'ᄲᆞᆯ래'=빨래 추정.",
+    "confidence": "high",
+    "note": "'ᄲᆞᆯ래'=빨래 추정. [재검증 갱신: 말뭉치에서 '빨래'(빨래 뜻)로 다수 확인 — 이 단어는 아래아가 현대에도 표준형과 같은 소리로 남은 경우로 보임.]",
     "context_form": "래",
     "context_standard": [
       "빨래"
@@ -219,8 +219,8 @@
   {
     "pua": "U+E97D",
     "reading": "ᄉᆞ나이",
-    "confidence": "medium",
-    "note": "'ᄉᆞ나이'=사나이 추정(라벨에 별도 가운뎃점 문자가 섞여 있어 재확인 필요).",
+    "confidence": "high",
+    "note": "'ᄉᆞ나이'=사나이 추정(라벨에 별도 가운뎃점 문자가 섞여 있어 재확인 필요). [재검증 갱신: 말뭉치에서 '소나이'(사나이 뜻으로 44회 이상) 직접 확인.]",
     "context_form": "ᆞ나이",
     "context_standard": [
       "사나이"
@@ -459,8 +459,8 @@
   {
     "pua": "U+E64F",
     "reading": "ᄇᆞᆯ르다",
-    "confidence": "medium",
-    "note": "'ᄇᆞᆯ르다'=바르다 추정.",
+    "confidence": "high",
+    "note": "'ᄇᆞᆯ르다'=바르다 추정. [재검증 갱신: 자체 사전에 '발르다'='바르다'로 이름·뜻 모두 정확히 일치하는 항목 존재.]",
     "context_form": "르다1",
     "context_standard": [
       "바르다"
@@ -675,8 +675,8 @@
   {
     "pua": "U+E564",
     "reading": "ᄆᆞᆮ이",
-    "confidence": "medium",
-    "note": "'ᄆᆞᆮ이'=맏이 추정.",
+    "confidence": "high",
+    "note": "'ᄆᆞᆮ이'=맏이 추정. [재검증 갱신: 말뭉치에서 '몯이'(맏이 뜻, 1회) 직접 확인 — 빈도는 낮지만 뜻이 정확히 일치.]",
     "context_form": "이",
     "context_standard": [
       "맏이"
@@ -687,8 +687,8 @@
   {
     "pua": "U+E994",
     "reading": "ᄉᆞᆼ키",
-    "confidence": "medium",
-    "note": "'ᄉᆞᆼ키'=푸성귀 추정(실제 제주어 '송키/숭키'와 연결).",
+    "confidence": "high",
+    "note": "'ᄉᆞᆼ키'=푸성귀 추정(실제 제주어 '송키/숭키'와 연결). [재검증 갱신: 말뭉치에서 '송키'(푸성귀 뜻으로 26회 이상) 직접 확인.]",
     "context_form": "키",
     "context_standard": [
       "푸성귀"
@@ -748,7 +748,7 @@
     "pua": "U+E98B",
     "reading": "ᄉᆞᆷ다",
     "confidence": "medium",
-    "note": "'ᄉᆞᆷ다'=때다 추정.",
+    "note": "'ᄉᆞᆷ다'=때다 추정. [재검증: 말뭉치에서 '솜다그네'→'때다가' 1회 발견(약한 증거, 재검토 권장).]",
     "context_form": "다",
     "context_standard": [
       "때다"
@@ -903,8 +903,8 @@
   {
     "pua": "U+F545",
     "reading": "ᄒᆞᆷ치",
-    "confidence": "medium",
-    "note": "'ᄒᆞᆷ치'=한꺼번에 추정.",
+    "confidence": "high",
+    "note": "'ᄒᆞᆷ치'=한꺼번에 추정. [재검증 갱신: 말뭉치에서 '홈치'(한꺼번에 뜻으로 13회) 직접 확인.]",
     "context_form": "치",
     "context_standard": [
       "한꺼번에"
