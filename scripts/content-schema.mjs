@@ -20,6 +20,14 @@ export const LexemeSchema = z.object({
   standard: z.string().min(1),
   partOfSpeech: z.enum(PART_OF_SPEECH),
   reviewStatus: z.enum(REVIEW_STATUS).optional(),
+  /** true면 아직 예문을 안 붙였다는 뜻 — checkCrossReferences가 "예문 없음" 오류를 면제해준다.
+   *  2025 제주학연구센터 기본어휘 대량 반영(90008+) 때 "단어+뜻만 먼저, 예문은 나중에" 방침으로 도입. */
+  pendingExample: z.boolean().optional(),
+  /** true면 아직 어느 유닛에도 배정 안 됐다는 뜻 — checkCrossReferences가 "유닛 미배정" 오류를 면제해준다.
+   *  기존 100유닛(1,000자리)에 다 못 채우고 남은 신규 단어용. 랭크/트랙 구조 개편 때 배치할 것. */
+  pendingPlacement: z.boolean().optional(),
+  /** true면 표제어에 PUA(사용자 영역) 문자가 섞여 있어 화면에 깨져 보일 수 있음(아래아 등 옛한글 표기 문제). */
+  containsPua: z.boolean().optional(),
 });
 
 export const UnitSchema = z.object({
@@ -107,7 +115,7 @@ export function checkCrossReferences({ units, lexemes, examples }) {
   }
 
   for (const l of lexemes) {
-    if (!seqUsedInUnit.has(l.seq)) {
+    if (!seqUsedInUnit.has(l.seq) && !l.pendingPlacement) {
       problems.push(`lexeme seq ${l.seq}(${l.jeju})가 어느 유닛에도 배정되지 않음`);
     }
   }
@@ -123,7 +131,7 @@ export function checkCrossReferences({ units, lexemes, examples }) {
   }
   for (const l of lexemes) {
     const list = examplesBySeq.get(l.seq) ?? [];
-    if (list.length === 0) {
+    if (list.length === 0 && !l.pendingExample) {
       problems.push(`lexeme seq ${l.seq}(${l.jeju})에 예문이 하나도 없음`);
     }
   }

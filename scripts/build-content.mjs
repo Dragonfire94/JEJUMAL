@@ -71,6 +71,8 @@ export function assembleUnits(bundle) {
         examples,
       };
       if (lexeme.reviewStatus) word.reviewStatus = lexeme.reviewStatus;
+      if (lexeme.pendingExample) word.pendingExample = true;
+      if (lexeme.containsPua) word.containsPua = true;
       word.hasAudio = existsSync(path.join(AUDIO_DIR, `${lexeme.seq}.mp3`));
       return word;
     }),
@@ -87,10 +89,14 @@ function main() {
   const totalWords = units.reduce((sum, u) => sum + u.words.length, 0);
   const noAudio = units.flatMap((u) => u.words).filter((w) => !w.hasAudio).length;
   const blocked = units.flatMap((u) => u.words).filter((w) => w.reviewStatus === "blocked").length;
+  const pendingExample = units.flatMap((u) => u.words).filter((w) => w.pendingExample).length;
+  const pendingPlacement = validated.lexemes.filter((l) => l.pendingPlacement).length;
   console.log(`content/ → src/data/units.json 생성 완료`);
   console.log(`  유닛 ${units.length}개, 단어 ${totalWords}개`);
   console.log(`  음원 없음(hasAudio=false): ${noAudio}개`);
   console.log(`  비노출(blocked): ${blocked}개`);
+  console.log(`  예문 대기(pendingExample): ${pendingExample}개`);
+  console.log(`  유닛 미배정(pendingPlacement, 빌드 산출물에 없음): ${pendingPlacement}개`);
 }
 
 const isMain = process.argv[1] === fileURLToPath(import.meta.url);
