@@ -2415,7 +2415,7 @@
   },
   {
     "seq": "90012",
-    "jeju": "곤",
+    "jeju": "곤ᄊᆞᆯ",
     "standard": "흰쌀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2429,7 +2429,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90013",
@@ -2452,7 +2452,7 @@
   },
   {
     "seq": "90014",
-    "jeju": "세",
+    "jeju": "ᄀᆞ세",
     "standard": "가위",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2466,11 +2466,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90015",
-    "jeju": "슬",
+    "jeju": "ᄀᆞ슬",
     "standard": "가을",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2482,11 +2482,11 @@
       "posLabel": "명사",
       "definition": "한 해의 네 철 가운데 셋째 철.",
       "otherJejuForms": [
-        "실"
+        "ᄀᆞ실"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90016",
@@ -2633,7 +2633,7 @@
   },
   {
     "seq": "90024",
-    "jeju": "",
+    "jeju": "ᄂᆞᆷ",
     "standard": "남",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2647,11 +2647,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90025",
-    "jeju": "삐",
+    "jeju": "ᄂᆞᆷ삐",
     "standard": "무",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2665,11 +2665,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90026",
-    "jeju": "",
+    "jeju": "ᄂᆞᆺ",
     "standard": "낯",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2685,7 +2685,7 @@
         "얼굴"
       ]
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90027",
@@ -2727,7 +2727,7 @@
   },
   {
     "seq": "90029",
-    "jeju": "리",
+    "jeju": "ᄃᆞ리",
     "standard": "다리",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2741,11 +2741,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90030",
-    "jeju": "",
+    "jeju": "ᄃᆞᆰ",
     "standard": "닭",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2759,11 +2759,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90031",
-    "jeju": "세기",
+    "jeju": "ᄃᆞᆰ세기",
     "standard": "달걀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2777,11 +2777,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90032",
-    "jeju": "1",
+    "jeju": "ᄃᆞᆯ1",
     "standard": "달",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2795,11 +2795,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90033",
-    "jeju": "",
+    "jeju": "ᄄᆞᆯ",
     "standard": "딸",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2813,11 +2813,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90034",
-    "jeju": "",
+    "jeju": "ᄄᆞᆷ",
     "standard": "땀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2831,7 +2831,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90035",
@@ -2881,12 +2881,12 @@
       "posLabel": "명사",
       "definition": "시간이나 순서의 맨 끝. 딸이 넷일 때 셋째 딸. 아들이 넷일 때 셋째 아들.",
       "otherJejuForms": [
-        "말젯",
+        "말젯ᄄᆞᆯ",
         "말젯아덜"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90038",
@@ -2958,7 +2958,7 @@
   },
   {
     "seq": "90042",
-    "jeju": "모",
+    "jeju": "모ᄌᆞ",
     "standard": "모자",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -2972,7 +2972,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90043",
@@ -3053,7 +3053,7 @@
   },
   {
     "seq": "90047",
-    "jeju": "셍이",
+    "jeju": "ᄆᆞᆼ셍이",
     "standard": "망아지",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3067,7 +3067,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90048",
@@ -3136,7 +3136,7 @@
       "posLabel": "명사",
       "definition": "기압의 변화 또는 사람이나 기계에 의하여 일어나는 공기의 움직임.",
       "otherJejuForms": [
-        ""
+        "ᄇᆞ"
       ],
       "otherStandard": []
     },
@@ -3144,7 +3144,7 @@
   },
   {
     "seq": "90052",
-    "jeju": "래",
+    "jeju": "ᄈᆞᆯ래",
     "standard": "빨래",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3158,7 +3158,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90053",
@@ -3317,7 +3317,7 @@
   },
   {
     "seq": "90062",
-    "jeju": "ᆞ미",
+    "jeju": "ᄉᆞ미",
     "standard": "소매",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3331,11 +3331,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90063",
-    "jeju": "ᆞ이",
+    "jeju": "ᄉᆞ이",
     "standard": "사이",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3349,11 +3349,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90064",
-    "jeju": "ᆞ춘",
+    "jeju": "ᄉᆞ춘",
     "standard": "사촌",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3367,11 +3367,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90065",
-    "jeju": "1",
+    "jeju": "ᄉᆞᆯ1",
     "standard": "살",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3385,7 +3385,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90066",
@@ -3442,7 +3442,7 @@
   },
   {
     "seq": "90069",
-    "jeju": "",
+    "jeju": "ᄊᆞᆯ",
     "standard": "쌀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3456,7 +3456,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90070",
@@ -3472,11 +3472,11 @@
       "posLabel": "명사",
       "definition": "남자로 태어난 자식.",
       "otherJejuForms": [
-        "아"
+        "아ᄃᆞᆯ"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90071",
@@ -3545,11 +3545,11 @@
       "posLabel": "명사",
       "definition": "여성으로 태어난 사람.",
       "otherJejuForms": [
-        "여"
+        "여ᄌᆞ"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90075",
@@ -3710,7 +3710,7 @@
   },
   {
     "seq": "90084",
-    "jeju": "름",
+    "jeju": "ᄋᆞ름",
     "standard": "여름",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3724,7 +3724,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90085",
@@ -3762,7 +3762,7 @@
   },
   {
     "seq": "90087",
-    "jeju": "족은",
+    "jeju": "족은ᄄᆞᆯ",
     "standard": "막내딸",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3776,7 +3776,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90088",
@@ -3814,7 +3814,7 @@
   },
   {
     "seq": "90090",
-    "jeju": "좁",
+    "jeju": "좁ᄊᆞᆯ",
     "standard": "좁쌀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3828,7 +3828,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90091",
@@ -3868,7 +3868,7 @@
   },
   {
     "seq": "90093",
-    "jeju": "석",
+    "jeju": "ᄌᆞ석",
     "standard": "자식",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3880,15 +3880,15 @@
       "posLabel": "명사",
       "definition": "1) 아들과 딸, 또는 아들이나 딸. 2) (귀엽게 이르는 말로) 어린아이.",
       "otherJejuForms": [
-        "식"
+        "ᄌᆞ식"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90094",
-    "jeju": "",
+    "jeju": "ᄌᆞᆷ",
     "standard": "잠",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3902,7 +3902,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90095",
@@ -3925,7 +3925,7 @@
   },
   {
     "seq": "90096",
-    "jeju": "큰",
+    "jeju": "큰ᄄᆞᆯ",
     "standard": "큰딸",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3939,7 +3939,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90097",
@@ -3977,7 +3977,7 @@
   },
   {
     "seq": "90099",
-    "jeju": "",
+    "jeju": "ᄐᆞᆨ",
     "standard": "턱",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -3991,7 +3991,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90100",
@@ -4012,7 +4012,7 @@
   },
   {
     "seq": "90101",
-    "jeju": "",
+    "jeju": "ᄑᆞᆯ",
     "standard": "팔",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -4026,7 +4026,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90102",
@@ -4077,15 +4077,15 @@
       "posLabel": "명사",
       "definition": "지구의 표면을 덮고 있는, 작은 알갱이로 이루어진 물질.",
       "otherJejuForms": [
-        ""
+        "ᄒᆞᆰ"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90105",
-    "jeju": "루",
+    "jeju": "ᄒᆞ루",
     "standard": "하루",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -4099,11 +4099,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90106",
-    "jeju": "잔",
+    "jeju": "ᄒᆞᆫ잔",
     "standard": "한잔",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -4117,11 +4117,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90107",
-    "jeju": "착",
+    "jeju": "ᄒᆞᆫ착",
     "standard": "한쪽",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -4135,7 +4135,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90108",
@@ -4156,7 +4156,7 @@
   },
   {
     "seq": "90109",
-    "jeju": "2",
+    "jeju": "ᄃᆞᆯ2",
     "standard": "달",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -4170,7 +4170,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90110",
@@ -4255,11 +4255,11 @@
       "posLabel": "의존명사",
       "definition": "나이를 세는 단위.",
       "otherJejuForms": [
-        "2"
+        "ᄉᆞᆯ2"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90115",
@@ -4516,7 +4516,7 @@
   },
   {
     "seq": "90129",
-    "jeju": "ᆞ나",
+    "jeju": "ᄒᆞᆞ나",
     "standard": "하나",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
@@ -4530,7 +4530,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90130",
@@ -4582,11 +4582,11 @@
       "posLabel": "수사",
       "definition": "넷에 하나를 더한 수.",
       "otherJejuForms": [
-        "다1"
+        "다ᄉᆞᆺ1"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90133",
@@ -4603,11 +4603,11 @@
       "definition": "다섯에 하나를 더한 수.",
       "otherJejuForms": [
         "ᄋᆢ슷1",
-        "ᄋᆢ1"
+        "ᄋᆢᄉᆞᆺ1"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90134",
@@ -4768,7 +4768,7 @@
   },
   {
     "seq": "90143",
-    "jeju": "르치다",
+    "jeju": "ᄀᆞ르치다",
     "standard": "가르치다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -4780,15 +4780,15 @@
       "posLabel": "동사",
       "definition": "1) 지식이나 기능, 이치 따위를 깨닫게 하거나 익히게 하다. 2) 상대편이 아직 모르는 일을 알도록 알려 주다.",
       "otherJejuForms": [
-        "ᆞ리치다1"
+        "ᄀᆞᆞ리치다1"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90144",
-    "jeju": "르키다",
+    "jeju": "ᄀᆞ르키다",
     "standard": "가리키다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -4800,15 +4800,15 @@
       "posLabel": "동사",
       "definition": "손가락 따위로 어떤 방향이나 대상을 집어서 보이거나 말하거나 알리다.",
       "otherJejuForms": [
-        "ᆞ리치다2"
+        "ᄀᆞᆞ리치다2"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90145",
-    "jeju": "ᆞ져가다",
+    "jeju": "ᄀᆞᆞ져가다",
     "standard": "가져가다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -4822,11 +4822,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90146",
-    "jeju": "져오다",
+    "jeju": "ᄀᆞ져오다",
     "standard": "가져오다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -4840,11 +4840,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90147",
-    "jeju": "ᆞ지다",
+    "jeju": "ᄀᆞᆞ지다",
     "standard": "가지다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -4864,7 +4864,7 @@
   },
   {
     "seq": "90148",
-    "jeju": "다",
+    "jeju": "ᄀᆞᆮ다",
     "standard": "말하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -4876,11 +4876,11 @@
       "posLabel": "동사",
       "definition": "1) 생각이나 느낌 따위를 말로 나타내다. 2) 어떠한 사실을 말로 알려 주다.",
       "otherJejuForms": [
-        "말다"
+        "말ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90149",
@@ -5152,7 +5152,7 @@
   },
   {
     "seq": "90164",
-    "jeju": "다",
+    "jeju": "ᄂᆞᆯ다",
     "standard": "날다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5166,7 +5166,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90165",
@@ -5348,7 +5348,7 @@
   },
   {
     "seq": "90175",
-    "jeju": "지다",
+    "jeju": "ᄆᆞᆫ지다",
     "standard": "만지다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5360,11 +5360,11 @@
       "posLabel": "동사",
       "definition": "1) 손을 대어 여기저기 주무르거나 쥐다. 2) 물건을 손질하다.",
       "otherJejuForms": [
-        "직다"
+        "ᄆᆞᆫ직다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90176",
@@ -5450,7 +5450,7 @@
       "posLabel": "동사",
       "definition": "1) 풀칠한 종이나 헝겊 따위를 다른 물건의 표면에 고루 붙이다. 2) 차지게 이긴 흙 따위를 다른 물체의 표면에 고르게 덧붙이다. 3) 물이나 풀, 약, 화장품 따위를 물체의 표면에 문질러 묻히다.",
       "otherJejuForms": [
-        "르다1"
+        "ᄇᆞᆯ르다1"
       ],
       "otherStandard": []
     },
@@ -5458,7 +5458,7 @@
   },
   {
     "seq": "90181",
-    "jeju": "다",
+    "jeju": "ᄈᆞᆯ다",
     "standard": "빨다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5472,7 +5472,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90182",
@@ -5551,7 +5551,7 @@
   },
   {
     "seq": "90186",
-    "jeju": "다",
+    "jeju": "ᄉᆞᆱ다",
     "standard": "삶다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5565,7 +5565,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90187",
@@ -5643,7 +5643,7 @@
   },
   {
     "seq": "90191",
-    "jeju": "다1",
+    "jeju": "ᄋᆞᆯ다1",
     "standard": "열다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5657,11 +5657,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90192",
-    "jeju": "다2",
+    "jeju": "ᄋᆞᆯ다2",
     "standard": "열다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5675,7 +5675,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90193",
@@ -5713,7 +5713,7 @@
   },
   {
     "seq": "90195",
-    "jeju": "직ᆞ다",
+    "jeju": "직ᄒᆞᆞ다",
     "standard": "지키다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5727,11 +5727,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90196",
-    "jeju": "르다",
+    "jeju": "ᄌᆞ르다",
     "standard": "자르다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5745,11 +5745,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90197",
-    "jeju": "미나다",
+    "jeju": "ᄌᆞ미나다",
     "standard": "재미나다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5763,11 +5763,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90198",
-    "jeju": "그다",
+    "jeju": "ᄌᆞᆷ그다",
     "standard": "잠그다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5787,7 +5787,7 @@
   },
   {
     "seq": "90199",
-    "jeju": "들다",
+    "jeju": "ᄌᆞᆷ들다",
     "standard": "잠들다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5801,7 +5801,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90200",
@@ -5856,7 +5856,7 @@
   },
   {
     "seq": "90203",
-    "jeju": "다",
+    "jeju": "ᄎᆞᆷ다",
     "standard": "참다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5870,11 +5870,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90204",
-    "jeju": "다",
+    "jeju": "ᄎᆞᆽ다",
     "standard": "찾다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5888,11 +5888,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90205",
-    "jeju": "아가다",
+    "jeju": "ᄎᆞᆽ아가다",
     "standard": "찾아가다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5906,11 +5906,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90206",
-    "jeju": "아보다",
+    "jeju": "ᄎᆞᆽ아보다",
     "standard": "찾아보다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5924,11 +5924,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90207",
-    "jeju": "아오다",
+    "jeju": "ᄎᆞᆽ아오다",
     "standard": "찾아오다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -5942,7 +5942,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90208",
@@ -6048,7 +6048,7 @@
   },
   {
     "seq": "90214",
-    "jeju": "다",
+    "jeju": "ᄑᆞᆯ다",
     "standard": "팔다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -6062,11 +6062,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90215",
-    "jeju": "다",
+    "jeju": "ᄒᆞ다",
     "standard": "하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -6080,11 +6080,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90216",
-    "jeju": "가망다",
+    "jeju": "가망ᄒᆞ다",
     "standard": "가맣다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -6098,7 +6098,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90217",
@@ -6119,7 +6119,7 @@
   },
   {
     "seq": "90218",
-    "jeju": "거멍다",
+    "jeju": "거멍ᄒᆞ다",
     "standard": "거멓다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -6133,7 +6133,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90219",
@@ -6154,7 +6154,7 @@
   },
   {
     "seq": "90220",
-    "jeju": "경다",
+    "jeju": "경ᄒᆞ다",
     "standard": "그러하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6168,11 +6168,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90221",
-    "jeju": "곱닥다",
+    "jeju": "곱닥ᄒᆞ다",
     "standard": "곱다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6188,11 +6188,11 @@
         "곱다랗다"
       ]
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90222",
-    "jeju": "늘다",
+    "jeju": "ᄀᆞ늘다",
     "standard": "가늘다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6206,11 +6206,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90223",
-    "jeju": "뜨다",
+    "jeju": "ᄀᆞ뜨다",
     "standard": "같다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6222,15 +6222,15 @@
       "posLabel": "형용사",
       "definition": "1) 서로 다르지 않고 하나이다. 2) 다른 것과 비교하여 그것과 다르지 않다.",
       "otherJejuForms": [
-        "트다"
+        "ᄀᆞ트다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90224",
-    "jeju": "까망다",
+    "jeju": "까망ᄒᆞ다",
     "standard": "까맣다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6244,11 +6244,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90225",
-    "jeju": "꺼멍다",
+    "jeju": "꺼멍ᄒᆞ다",
     "standard": "꺼멓다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6262,11 +6262,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90226",
-    "jeju": "노랑다",
+    "jeju": "노랑ᄒᆞ다",
     "standard": "노랗다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6280,7 +6280,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90227",
@@ -6301,7 +6301,7 @@
   },
   {
     "seq": "90228",
-    "jeju": "누렁다",
+    "jeju": "누렁ᄒᆞ다",
     "standard": "누렇다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6315,11 +6315,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90229",
-    "jeju": "다",
+    "jeju": "ᄂᆞᆽ다",
     "standard": "낮다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6333,7 +6333,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90230",
@@ -6354,7 +6354,7 @@
   },
   {
     "seq": "90231",
-    "jeju": "다",
+    "jeju": "ᄒᆞ다",
     "standard": "단단하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6372,7 +6372,7 @@
   },
   {
     "seq": "90232",
-    "jeju": "다1",
+    "jeju": "ᄃᆞᆯ다1",
     "standard": "달다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6386,11 +6386,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90233",
-    "jeju": "코롬다",
+    "jeju": "ᄃᆞᆯ코롬ᄒᆞ다",
     "standard": "달콤하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6404,11 +6404,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90234",
-    "jeju": "똑트다",
+    "jeju": "똑ᄀᆞ트다",
     "standard": "똑같다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6422,11 +6422,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90235",
-    "jeju": "다",
+    "jeju": "ᄒᆞ다",
     "standard": "따뜻하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6444,7 +6444,7 @@
   },
   {
     "seq": "90236",
-    "jeju": "만다",
+    "jeju": "만ᄒᆞ다",
     "standard": "많다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6458,7 +6458,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90237",
@@ -6500,7 +6500,7 @@
   },
   {
     "seq": "90239",
-    "jeju": "못다",
+    "jeju": "못ᄒᆞ다",
     "standard": "못하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6514,7 +6514,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90240",
@@ -6536,7 +6536,7 @@
   },
   {
     "seq": "90241",
-    "jeju": "다",
+    "jeju": "ᄆᆞᆰ다",
     "standard": "맑다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6550,11 +6550,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90242",
-    "jeju": "벌겅다",
+    "jeju": "벌겅ᄒᆞ다",
     "standard": "벌겋다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6568,7 +6568,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90243",
@@ -6608,7 +6608,7 @@
   },
   {
     "seq": "90245",
-    "jeju": "불펜다",
+    "jeju": "불펜ᄒᆞ다",
     "standard": "불편하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6622,11 +6622,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90246",
-    "jeju": "다",
+    "jeju": "ᄇᆞᆰ다",
     "standard": "밝다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6640,11 +6640,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90247",
-    "jeju": "빨강다",
+    "jeju": "빨강ᄒᆞ다",
     "standard": "빨갛다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6658,11 +6658,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90248",
-    "jeju": "뻘겅다",
+    "jeju": "뻘겅ᄒᆞ다",
     "standard": "뻘겋다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6676,11 +6676,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90249",
-    "jeju": "르다",
+    "jeju": "ᄈᆞ르다",
     "standard": "빠르다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6692,11 +6692,11 @@
       "posLabel": "형용사",
       "definition": "어떤 동작을 하는 데 걸리는 시간이 짧다.",
       "otherJejuForms": [
-        "르다"
+        "ᄈᆞᆯ르다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90250",
@@ -6737,7 +6737,7 @@
   },
   {
     "seq": "90252",
-    "jeju": "씨원다",
+    "jeju": "씨원ᄒᆞ다",
     "standard": "시원하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6754,7 +6754,7 @@
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90253",
@@ -6794,7 +6794,7 @@
   },
   {
     "seq": "90255",
-    "jeju": "어떵다",
+    "jeju": "어떵ᄒᆞ다",
     "standard": "어떠하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6808,11 +6808,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90256",
-    "jeju": "영다",
+    "jeju": "영ᄒᆞ다",
     "standard": "이러하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6826,11 +6826,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90257",
-    "jeju": "졍다",
+    "jeju": "졍ᄒᆞ다",
     "standard": "저러하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6844,7 +6844,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90258",
@@ -6899,7 +6899,7 @@
   },
   {
     "seq": "90261",
-    "jeju": "미지다",
+    "jeju": "ᄌᆞ미지다",
     "standard": "재미있다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6913,11 +6913,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90262",
-    "jeju": "르다",
+    "jeju": "ᄍᆞᆯ르다",
     "standard": "짧다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6929,15 +6929,15 @@
       "posLabel": "형용사",
       "definition": "잇닿아 있는 공간이나 물체의 두 끝의 사이가 가깝다.",
       "otherJejuForms": [
-        "르다"
+        "ᄍᆞᆯ르다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90263",
-    "jeju": "파랑다",
+    "jeju": "파랑ᄒᆞ다",
     "standard": "파랗다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6951,11 +6951,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90264",
-    "jeju": "퍼렁다",
+    "jeju": "퍼렁ᄒᆞ다",
     "standard": "퍼렇다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6969,11 +6969,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90265",
-    "jeju": "펜안다",
+    "jeju": "펜안ᄒᆞ다",
     "standard": "편안하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -6987,11 +6987,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90266",
-    "jeju": "펜다",
+    "jeju": "펜ᄒᆞ다",
     "standard": "편하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -7005,7 +7005,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90267",
@@ -7026,7 +7026,7 @@
   },
   {
     "seq": "90268",
-    "jeju": "하양다",
+    "jeju": "하양ᄒᆞ다",
     "standard": "하얗다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -7040,11 +7040,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90269",
-    "jeju": "허영다",
+    "jeju": "허영ᄒᆞ다",
     "standard": "허옇다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -7056,15 +7056,15 @@
       "posLabel": "형용사",
       "definition": "다소 탁하고 흐릿하게 희다.",
       "otherJejuForms": [
-        "헤영다"
+        "헤영ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90270",
-    "jeju": "",
+    "jeju": "ᄒᆞᆫ",
     "standard": "한",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -7078,11 +7078,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90271",
-    "jeju": "두",
+    "jeju": "ᄒᆞᆫ두",
     "standard": "한두",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -7096,7 +7096,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90272",
@@ -7146,15 +7146,15 @@
       "posLabel": "관형사",
       "definition": "넷에 하나를 더한 수의.",
       "otherJejuForms": [
-        "다2"
+        "다ᄉᆞᆺ2"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90275",
-    "jeju": "섯2",
+    "jeju": "ᄋᆞ섯2",
     "standard": "여섯",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -7166,16 +7166,16 @@
       "posLabel": "관형사",
       "definition": "다섯에 하나를 더한 수의.",
       "otherJejuForms": [
-        "슷2",
-        "2"
+        "ᄋᆞ슷2",
+        "ᄋᆞᄉᆞᆺ2"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90276",
-    "jeju": "답2",
+    "jeju": "ᄋᆞ답2",
     "standard": "여덟",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -7187,8 +7187,8 @@
       "posLabel": "관형사",
       "definition": "일곱에 하나를 더한 수의.",
       "otherJejuForms": [
-        "덥2",
-        "2"
+        "ᄋᆞ덥2",
+        "ᄋᆞ2"
       ],
       "otherStandard": []
     },
@@ -7322,7 +7322,7 @@
   },
   {
     "seq": "90284",
-    "jeju": "득",
+    "jeju": "ᄀᆞ득",
     "standard": "가득",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7336,11 +7336,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90285",
-    "jeju": "만이",
+    "jeju": "ᄀᆞ만이",
     "standard": "가만히",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7354,11 +7354,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90286",
-    "jeju": "찌",
+    "jeju": "ᄀᆞ찌",
     "standard": "같이",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7370,11 +7370,11 @@
       "posLabel": "부사",
       "definition": "1) 둘 이상의 사람이나 사물이 함께. 2) 어떤 상황이나 행동 따위와 다름이 없이.",
       "otherJejuForms": [
-        "치"
+        "ᄀᆞ치"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90287",
@@ -7414,7 +7414,7 @@
   },
   {
     "seq": "90289",
-    "jeju": "딱",
+    "jeju": "ᄆᆞᆫ딱",
     "standard": "전부",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7428,11 +7428,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90290",
-    "jeju": "저",
+    "jeju": "ᄆᆞᆫ저",
     "standard": "먼저",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7446,7 +7446,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90291",
@@ -7467,7 +7467,7 @@
   },
   {
     "seq": "90292",
-    "jeju": "써",
+    "jeju": "ᄇᆞᆯ써",
     "standard": "벌써",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7481,7 +7481,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90293",
@@ -7623,7 +7623,7 @@
   },
   {
     "seq": "90301",
-    "jeju": "주",
+    "jeju": "ᄌᆞ주",
     "standard": "자주",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7637,11 +7637,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90302",
-    "jeju": "1",
+    "jeju": "ᄎᆞᆷ1",
     "standard": "참",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7655,11 +7655,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90303",
-    "jeju": "꼼",
+    "jeju": "ᄒᆞ꼼",
     "standard": "조금",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7671,16 +7671,16 @@
       "posLabel": "부사",
       "definition": "1) 분량이나 정도가 적게. 2) 시간이 짧게.",
       "otherJejuForms": [
-        "끔",
-        ""
+        "ᄒᆞ끔",
+        "ᄒᆞᄊᆞᆯ"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90304",
-    "jeju": "꼼썩",
+    "jeju": "ᄒᆞ꼼썩",
     "standard": "조금씩",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7692,16 +7692,16 @@
       "posLabel": "부사",
       "definition": "적은 정도로 계속해서.",
       "otherJejuForms": [
-        "끔씩",
-        "썩"
+        "ᄒᆞ끔씩",
+        "ᄒᆞᄊᆞᆯ썩"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90305",
-    "jeju": "디",
+    "jeju": "ᄒᆞᆫ디",
     "standard": "함께",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7715,11 +7715,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90306",
-    "jeju": "저",
+    "jeju": "ᄒᆞᆫ저",
     "standard": "어서",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -7733,7 +7733,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90307",
@@ -7851,7 +7851,7 @@
   },
   {
     "seq": "90313",
-    "jeju": "2",
+    "jeju": "ᄎᆞᆷ2",
     "standard": "참",
     "partOfSpeech": "interjection",
     "reviewStatus": "provisional",
@@ -7865,7 +7865,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -8014,7 +8014,7 @@
   },
   {
     "seq": "90322",
-    "jeju": "고칫루",
+    "jeju": "고칫ᄀᆞ루",
     "standard": "고춧가루",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8026,12 +8026,12 @@
       "posLabel": "명사",
       "definition": "붉은 고추를 말려서 빻은 매운맛의 가루.",
       "otherJejuForms": [
-        "고칫르",
-        "고칫를"
+        "고칫ᄀᆞ르",
+        "고칫ᄀᆞ를"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90323",
@@ -8103,7 +8103,7 @@
   },
   {
     "seq": "90327",
-    "jeju": "루",
+    "jeju": "ᄀᆞ루",
     "standard": "가루",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8115,16 +8115,16 @@
       "posLabel": "명사",
       "definition": "딱딱한 물건을 보드라울 정도로 잘게 부수거나 갈아서 만든 것.",
       "otherJejuForms": [
-        "르",
-        "를"
+        "ᄀᆞ르",
+        "ᄀᆞ를"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90328",
-    "jeju": "뭄",
+    "jeju": "ᄀᆞ뭄",
     "standard": "가뭄",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8138,11 +8138,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90329",
-    "jeju": "슬비",
+    "jeju": "ᄀᆞ슬비",
     "standard": "가을비",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8156,11 +8156,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90330",
-    "jeju": "슬름",
+    "jeju": "ᄀᆞ슬름",
     "standard": "가을바람",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8461,7 +8461,7 @@
   },
   {
     "seq": "90347",
-    "jeju": "눈공",
+    "jeju": "눈공ᄌᆞ",
     "standard": "눈동자",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8473,11 +8473,11 @@
       "posLabel": "명사",
       "definition": "눈알 한가운데에 있는 검은 부분.",
       "otherJejuForms": [
-        "눈동"
+        "눈동ᄌᆞ"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90348",
@@ -8518,7 +8518,7 @@
   },
   {
     "seq": "90350",
-    "jeju": "개",
+    "jeju": "ᄂᆞᆯ개",
     "standard": "날개",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8532,11 +8532,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90351",
-    "jeju": "삐짐치",
+    "jeju": "ᄂᆞᆷ삐짐치",
     "standard": "무김치",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8550,7 +8550,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90352",
@@ -8690,7 +8690,7 @@
   },
   {
     "seq": "90360",
-    "jeju": "벵이",
+    "jeju": "ᄃᆞᆯ벵이",
     "standard": "달팽이",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8704,11 +8704,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90361",
-    "jeju": "을락",
+    "jeju": "ᄃᆞᆯ을락",
     "standard": "달리기",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8720,11 +8720,11 @@
       "posLabel": "명사",
       "definition": "일정한 거리를 달려서 빠르기를 겨루는 일.",
       "otherJejuForms": [
-        "음박질"
+        "ᄃᆞᆯ음박질"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90362",
@@ -8839,7 +8839,7 @@
   },
   {
     "seq": "90368",
-    "jeju": "지",
+    "jeju": "ᄆᆞᆫ지",
     "standard": "먼지",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8851,15 +8851,15 @@
       "posLabel": "명사",
       "definition": "가늘고 보드라운 티끌.",
       "otherJejuForms": [
-        "지락"
+        "ᄆᆞᆫ지락"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90369",
-    "jeju": "이",
+    "jeju": "ᄆᆞᆮ이",
     "standard": "맏이",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -8873,7 +8873,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90370",
@@ -9099,7 +9099,7 @@
       "posLabel": "명사",
       "definition": "1) 비와 바람. 2) 세차게 내리는 비와 함께 강하게 부는 바람.",
       "otherJejuForms": [
-        "비"
+        "비ᄇᆞ"
       ],
       "otherStandard": []
     },
@@ -9390,7 +9390,7 @@
   },
   {
     "seq": "90399",
-    "jeju": "라기눈",
+    "jeju": "ᄉ라기눈",
     "standard": "싸라기눈",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9402,16 +9402,16 @@
       "posLabel": "명사",
       "definition": "빗방울이 갑자기 찬 바람을 만나 얼어 떨어지는 쌀알 같은 눈.",
       "otherJejuForms": [
-        "락눈",
-        "레기눈"
+        "ᄉ락눈",
+        "ᄉ레기눈"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90400",
-    "jeju": "방",
+    "jeju": "ᄉ방",
     "standard": "사방",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9425,11 +9425,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90401",
-    "jeju": "투리",
+    "jeju": "ᄉ투리",
     "standard": "사투리",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9443,11 +9443,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90402",
-    "jeju": "키",
+    "jeju": "ᄉᆞᆼ키",
     "standard": "푸성귀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9461,7 +9461,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90403",
@@ -9482,7 +9482,7 @@
   },
   {
     "seq": "90404",
-    "jeju": "암",
+    "jeju": "암ᄐᆞᆨ",
     "standard": "암탉",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9496,7 +9496,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90405",
@@ -9572,7 +9572,7 @@
   },
   {
     "seq": "90409",
-    "jeju": "드레",
+    "jeju": "ᄋᆞ드레",
     "standard": "여드레",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9586,7 +9586,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90410",
@@ -9670,12 +9670,12 @@
       "posLabel": "명사",
       "definition": "어떤 일을 할 만한 잠시 동안의 시간.",
       "otherJejuForms": [
-        "르",
-        "를"
+        "ᄌᆞ르",
+        "ᄌᆞ를"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90415",
@@ -9691,11 +9691,11 @@
       "posLabel": "명사",
       "definition": "밀가루 따위를 반죽하여 끓는 국물에 조금씩 떼어 넣어 익힌 음식.",
       "otherJejuForms": [
-        "베기"
+        "ᄌᆞ베기"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90416",
@@ -9711,11 +9711,11 @@
       "posLabel": "명사",
       "definition": "음식을 집어 먹거나 물건을 집는 데 쓰는 한 쌍의 가늘고 긴 도구.",
       "otherJejuForms": [
-        "봄"
+        "ᄌᆞ봄"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90417",
@@ -9840,7 +9840,7 @@
   },
   {
     "seq": "90424",
-    "jeju": "껭이",
+    "jeju": "ᄌᆞ껭이",
     "standard": "겨드랑이",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9854,11 +9854,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90425",
-    "jeju": "끗",
+    "jeju": "ᄌᆞ끗",
     "standard": "곁",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9872,11 +9872,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90426",
-    "jeju": "록",
+    "jeju": "ᄌᆞ록",
     "standard": "자루",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9890,11 +9890,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90427",
-    "jeju": "신",
+    "jeju": "ᄌᆞ신",
     "standard": "자신",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9908,7 +9908,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90428",
@@ -9932,7 +9932,7 @@
   },
   {
     "seq": "90429",
-    "jeju": "녀",
+    "jeju": "ᄌᆞᆷ녀",
     "standard": "해녀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -9944,12 +9944,12 @@
       "posLabel": "명사",
       "definition": "바닷속에 들어가 해삼, 전복, 미역 따위를 따는 것을 직업으로 하는 여자.",
       "otherJejuForms": [
-        "녜",
-        "수"
+        "ᄌᆞᆷ녜",
+        "ᄌᆞᆷ수"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90430",
@@ -9965,11 +9965,11 @@
       "posLabel": "명사",
       "definition": "전복과의 조개를 통틀어 이르는 말.",
       "otherJejuForms": [
-        "복"
+        "ᄌᆞᆷ복"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90431",
@@ -9992,7 +9992,7 @@
   },
   {
     "seq": "90432",
-    "jeju": "초루",
+    "jeju": "초ᄒᆞ루",
     "standard": "초하루",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -10006,7 +10006,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90433",
@@ -10030,7 +10030,7 @@
   },
   {
     "seq": "90434",
-    "jeju": "생이",
+    "jeju": "ᄎᆞᆷ생이",
     "standard": "참새",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -10044,11 +10044,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90435",
-    "jeju": "지름",
+    "jeju": "ᄎᆞᆷ지름",
     "standard": "참기름",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -10062,7 +10062,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90436",
@@ -10156,7 +10156,7 @@
   },
   {
     "seq": "90441",
-    "jeju": "굽지",
+    "jeju": "ᄑᆞᆯ굽지",
     "standard": "팔꿈치",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
@@ -10170,7 +10170,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90442",
@@ -10488,7 +10488,7 @@
   },
   {
     "seq": "90460",
-    "jeju": "대슷",
+    "jeju": "대ᄋᆞ슷",
     "standard": "대여섯",
     "partOfSpeech": "number",
     "reviewStatus": "provisional",
@@ -10502,7 +10502,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90461",
@@ -10518,15 +10518,15 @@
       "posLabel": "수사",
       "definition": "여섯이나 일곱쯤 되는 수.",
       "otherJejuForms": [
-        "서일곱"
+        "ᄋᆞ서일곱"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90462",
-    "jeju": "일고답",
+    "jeju": "일고ᄋᆞ답",
     "standard": "일고여덟",
     "partOfSpeech": "number",
     "reviewStatus": "provisional",
@@ -10538,8 +10538,8 @@
       "posLabel": "수사",
       "definition": "일곱이나 여덟쯤 되는 수.",
       "otherJejuForms": [
-        "일고덥",
-        "일고"
+        "일고ᄋᆞ덥",
+        "일고ᄋᆞ"
       ],
       "otherStandard": []
     },
@@ -10547,7 +10547,7 @@
   },
   {
     "seq": "90463",
-    "jeju": "남은",
+    "jeju": "ᄋᆞ남은",
     "standard": "여남은",
     "partOfSpeech": "number",
     "reviewStatus": "provisional",
@@ -10561,11 +10561,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90464",
-    "jeju": "든",
+    "jeju": "ᄋᆞ든",
     "standard": "여든",
     "partOfSpeech": "number",
     "reviewStatus": "provisional",
@@ -10579,7 +10579,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90465",
@@ -10704,7 +10704,7 @@
   },
   {
     "seq": "90472",
-    "jeju": "금착다",
+    "jeju": "금착ᄒᆞ다",
     "standard": "깜짝하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -10716,11 +10716,11 @@
       "posLabel": "동사",
       "definition": "뜻밖의 일을 당하여 깜짝 놀라다.",
       "otherJejuForms": [
-        "금칠락다"
+        "금칠락ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90473",
@@ -10741,7 +10741,7 @@
   },
   {
     "seq": "90474",
-    "jeju": "물다",
+    "jeju": "ᄀᆞ물다",
     "standard": "가물다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -10755,7 +10755,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90475",
@@ -10919,7 +10919,7 @@
   },
   {
     "seq": "90484",
-    "jeju": "추다",
+    "jeju": "ᄂᆞᆽ추다",
     "standard": "낮추다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -10933,7 +10933,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90485",
@@ -11007,7 +11007,7 @@
   },
   {
     "seq": "90489",
-    "jeju": "투다",
+    "jeju": "ᄃᆞ투다",
     "standard": "다투다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11021,11 +11021,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90490",
-    "jeju": "다2",
+    "jeju": "ᄃᆞᆯ다2",
     "standard": "달다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11039,11 +11039,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90491",
-    "jeju": "다3",
+    "jeju": "ᄃᆞᆯ다3",
     "standard": "데리다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11057,11 +11057,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90492",
-    "jeju": "려가다",
+    "jeju": "ᄃᆞᆯ려가다",
     "standard": "달려가다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11073,15 +11073,15 @@
       "posLabel": "동사",
       "definition": "달음질하여 빨리 가다.",
       "otherJejuForms": [
-        "아가다1"
+        "ᄃᆞᆯ아가다1"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90493",
-    "jeju": "려오다",
+    "jeju": "ᄃᆞᆯ려오다",
     "standard": "달려오다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11093,15 +11093,15 @@
       "posLabel": "동사",
       "definition": "달음질하여 빨리 오다.",
       "otherJejuForms": [
-        "아오다1"
+        "ᄃᆞᆯ아오다1"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90494",
-    "jeju": "아가다2",
+    "jeju": "ᄃᆞᆯ아가다2",
     "standard": "데려가다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11115,11 +11115,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90495",
-    "jeju": "아나다",
+    "jeju": "ᄃᆞᆯ아나다",
     "standard": "달아나다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11133,11 +11133,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90496",
-    "jeju": "아메다",
+    "jeju": "ᄃᆞᆯ아메다",
     "standard": "달아매다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11151,11 +11151,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90497",
-    "jeju": "아오다2",
+    "jeju": "ᄃᆞᆯ아오다2",
     "standard": "데려오다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11169,7 +11169,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90498",
@@ -11227,7 +11227,7 @@
   },
   {
     "seq": "90501",
-    "jeju": "르다1",
+    "jeju": "ᄄᆞᆯ르다1",
     "standard": "따르다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11241,11 +11241,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90502",
-    "jeju": "르다2",
+    "jeju": "ᄄᆞᆯ르다2",
     "standard": "뚫다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11259,7 +11259,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90503",
@@ -11314,7 +11314,7 @@
   },
   {
     "seq": "90506",
-    "jeju": "말다",
+    "jeju": "말ᄀᆞᆮ다",
     "standard": "말하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11389,7 +11389,7 @@
   },
   {
     "seq": "90510",
-    "jeju": "멩심다",
+    "jeju": "멩심ᄒᆞ다",
     "standard": "명심하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11403,7 +11403,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90511",
@@ -11641,7 +11641,7 @@
   },
   {
     "seq": "90524",
-    "jeju": "르다2",
+    "jeju": "ᄇᆞᆯ르다2",
     "standard": "밟다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11653,11 +11653,11 @@
       "posLabel": "동사",
       "definition": "어떤 대상 위에 발을 올려놓고 누르다.",
       "otherJejuForms": [
-        "다"
+        "ᄇᆞᆲ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90525",
@@ -11782,7 +11782,7 @@
   },
   {
     "seq": "90532",
-    "jeju": "지다",
+    "jeju": "ᄉᆞᆯ지다",
     "standard": "살찌다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11794,15 +11794,15 @@
       "posLabel": "동사",
       "definition": "몸에 살이 많아지다.",
       "otherJejuForms": [
-        "치다"
+        "ᄉᆞᆯ치다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90533",
-    "jeju": "피다",
+    "jeju": "ᄉᆞᆯ피다",
     "standard": "살피다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -11816,7 +11816,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90534",
@@ -12131,7 +12131,7 @@
   },
   {
     "seq": "90552",
-    "jeju": "다",
+    "jeju": "ᄌᆞᆸ다",
     "standard": "집다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -12145,7 +12145,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90553",
@@ -12273,7 +12273,7 @@
   },
   {
     "seq": "90560",
-    "jeju": "디다",
+    "jeju": "ᄒᆞᆫ디ᄒᆞ다",
     "standard": "함께하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -12287,11 +12287,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90561",
-    "jeju": "곧작다",
+    "jeju": "곧작ᄒᆞ다",
     "standard": "곧다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -12303,16 +12303,16 @@
       "posLabel": "동사",
       "definition": "굽거나 비뚤어지지 아니하고 똑바르다.",
       "otherJejuForms": [
-        "과짝다",
-        "굳작다"
+        "과짝ᄒᆞ다",
+        "굳작ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90562",
-    "jeju": "곱들락다",
+    "jeju": "곱들락ᄒᆞ다",
     "standard": "곱다랗다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
@@ -12326,7 +12326,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90563",
@@ -12359,11 +12359,11 @@
       "posLabel": "동사",
       "definition": "별로 나쁘지 않고 보통 이상이다.",
       "otherJejuForms": [
-        "궨찬다"
+        "궨찬ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90565",
@@ -12379,11 +12379,11 @@
       "posLabel": "동사",
       "definition": "마음에 들지 아니하고 괴롭거나 성가시다.",
       "otherJejuForms": [
-        "귀찬다"
+        "귀찬ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90566",
@@ -12404,7 +12404,7 @@
   },
   {
     "seq": "90567",
-    "jeju": "득다",
+    "jeju": "ᄀᆞ득다",
     "standard": "가득하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12418,11 +12418,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90568",
-    "jeju": "랍다",
+    "jeju": "ᄀᆞ랍다",
     "standard": "가렵다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12434,15 +12434,15 @@
       "posLabel": "형용사",
       "definition": "피부에 긁고 싶은 느낌이 있다.",
       "otherJejuForms": [
-        "렵다"
+        "ᄀᆞ렵다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90569",
-    "jeju": "다",
+    "jeju": "ᄒᆞ다",
     "standard": "갑갑하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12460,7 +12460,7 @@
   },
   {
     "seq": "90570",
-    "jeju": "납삭다",
+    "jeju": "납삭ᄒᆞ다",
     "standard": "납작하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12472,15 +12472,15 @@
       "posLabel": "형용사",
       "definition": "사물의 모양이 판판하고 넓게 퍼져 있다.",
       "otherJejuForms": [
-        "냅작다"
+        "냅작ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90571",
-    "jeju": "너부작다",
+    "jeju": "너부작ᄒᆞ다",
     "standard": "너부죽하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12494,11 +12494,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90572",
-    "jeju": "노리롱다",
+    "jeju": "노리롱ᄒᆞ다",
     "standard": "노르무레하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12510,11 +12510,11 @@
       "posLabel": "형용사",
       "definition": "산뜻하지 않고 엷게 노랗다.",
       "otherJejuForms": [
-        "노리룽다"
+        "노리룽ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90573",
@@ -12537,7 +12537,7 @@
   },
   {
     "seq": "90574",
-    "jeju": "누리스름다",
+    "jeju": "누리스름ᄒᆞ다",
     "standard": "누르스름하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12551,12 +12551,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90575",
-    "jeju": "느랏다",
+    "jeju": "느랏ᄒᆞ다",
     "standard": "느른하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12570,7 +12570,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -12613,7 +12613,7 @@
   },
   {
     "seq": "90578",
-    "jeju": "동글랑다",
+    "jeju": "동글랑ᄒᆞ다",
     "standard": "동그랗다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12625,11 +12625,11 @@
       "posLabel": "형용사",
       "definition": "원이나 공처럼 둥글다.",
       "otherJejuForms": [
-        "동글락다"
+        "동글락ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -12646,16 +12646,16 @@
       "posLabel": "형용사",
       "definition": "1) 나이가 적다. 2) 생각이 모자라거나 수준이 낮다. 기름기가 많은 국 같은 것을 먹을 때 입안에 맛이 돌아 푸짐하게 느껴지다.",
       "otherJejuForms": [
-        "듬삭다"
+        "듬삭ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90580",
-    "jeju": "직다",
+    "jeju": "직ᄒᆞ다",
     "standard": "든직하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12686,7 +12686,7 @@
       "posLabel": "형용사",
       "definition": "알맞게 따뜻하다.",
       "otherJejuForms": [
-        "시다"
+        "ᄃᆞ시다"
       ],
       "otherStandard": []
     },
@@ -12773,7 +12773,7 @@
   },
   {
     "seq": "90586",
-    "jeju": "맵지롱다",
+    "jeju": "맵지롱ᄒᆞ다",
     "standard": "매움하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12787,12 +12787,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90587",
-    "jeju": "먹엄직다",
+    "jeju": "먹엄직ᄒᆞ다",
     "standard": "먹음직하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12806,12 +12806,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90588",
-    "jeju": "먼먼다",
+    "jeju": "먼먼ᄒᆞ다",
     "standard": "머나멀다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12825,12 +12825,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90589",
-    "jeju": "멍텅다",
+    "jeju": "멍텅ᄒᆞ다",
     "standard": "멍청하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12844,12 +12844,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90590",
-    "jeju": "멘도롱다",
+    "jeju": "멘도롱ᄒᆞ다",
     "standard": "매지근하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12863,12 +12863,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90591",
-    "jeju": "멘들락다",
+    "jeju": "멘들락ᄒᆞ다",
     "standard": "매끈하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12882,12 +12882,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90592",
-    "jeju": "멘짝다",
+    "jeju": "멘짝ᄒᆞ다",
     "standard": "평평하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12901,7 +12901,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -12925,7 +12925,7 @@
   },
   {
     "seq": "90594",
-    "jeju": "다",
+    "jeju": "ᄆᆞᆫᄆᆞᆫᄒᆞ다",
     "standard": "만만하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12939,7 +12939,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -12962,7 +12962,7 @@
   },
   {
     "seq": "90596",
-    "jeju": "벨다",
+    "jeju": "벨ᄒᆞ다",
     "standard": "별하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12974,16 +12974,16 @@
       "posLabel": "형용사",
       "definition": "보통 것과 이상스럽게 다르다. 몸이 부스러지는 듯한 느낌이 들 정도로 노곤하다.",
       "otherJejuForms": [
-        "복삭다1"
+        "복삭ᄒᆞ다1"
       ],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90597",
-    "jeju": "부영다",
+    "jeju": "부영ᄒᆞ다",
     "standard": "부옇다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -12995,11 +12995,11 @@
       "posLabel": "형용사",
       "definition": "연기나 안개가 낀 것처럼 선명하지 못하고 조금 허옇다.",
       "otherJejuForms": [
-        "뿌영다"
+        "뿌영ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -13053,9 +13053,9 @@
       "posLabel": "형용사",
       "definition": "숨이 가쁘고 급하다. 음식이나 물건 따위가 가득 차 불룩하다. 옷, 신발 등이 품이 작아서 몸에 꽉 끼다.",
       "otherJejuForms": [
-        "뽕끄랑다",
-        "뽕끌랑다",
-        "짝다"
+        "뽕끄랑ᄒᆞ다",
+        "뽕끌랑ᄒᆞ다",
+        "ᄈᆞ짝ᄒᆞ다"
       ],
       "otherStandard": []
     },
@@ -13064,7 +13064,7 @@
   },
   {
     "seq": "90601",
-    "jeju": "삭삭다",
+    "jeju": "삭삭ᄒᆞ다",
     "standard": "싹싹하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13078,7 +13078,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -13101,7 +13101,7 @@
   },
   {
     "seq": "90603",
-    "jeju": "심드렁다",
+    "jeju": "심드렁ᄒᆞ다",
     "standard": "심드렁하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13115,12 +13115,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90604",
-    "jeju": "써능다",
+    "jeju": "써능ᄒᆞ다",
     "standard": "차갑다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13134,7 +13134,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -13179,7 +13179,7 @@
   },
   {
     "seq": "90607",
-    "jeju": "왁왁다",
+    "jeju": "왁왁ᄒᆞ다",
     "standard": "캄캄하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13193,12 +13193,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90608",
-    "jeju": "우상다",
+    "jeju": "우상ᄒᆞ다",
     "standard": "이상하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13212,7 +13212,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -13235,7 +13235,7 @@
   },
   {
     "seq": "90610",
-    "jeju": "망지다",
+    "jeju": "ᄋᆞ망지다",
     "standard": "야무지다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13248,18 +13248,18 @@
       "definition": "1)\t사람의 성질이나 행동, 생김새 따위가 빈틈이 없이 꽤 단단하고 굳세다. 2)\t영리하고 똑똑하다. 쉴 새가 없이 바쁘다. 온전하다. 맞다. 훌륭하다.",
       "otherJejuForms": [
         "저를지다",
-        "르지다",
-        "를지다",
+        "ᄌᆞ르지다",
+        "ᄌᆞ를지다",
         "제라지다"
       ],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90611",
-    "jeju": "좁작다",
+    "jeju": "좁작ᄒᆞ다",
     "standard": "좁다랗다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13273,7 +13273,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -13296,7 +13296,7 @@
   },
   {
     "seq": "90613",
-    "jeju": "다",
+    "jeju": "ᄌᆞᆯ다",
     "standard": "잘다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13310,12 +13310,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90614",
-    "jeju": "질다",
+    "jeju": "ᄌᆞᆷ질다",
     "standard": "자잘하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13329,12 +13329,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90615",
-    "jeju": "짠짠다",
+    "jeju": "짠짠ᄒᆞ다",
     "standard": "짜디짜다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13346,18 +13346,18 @@
       "posLabel": "형용사",
       "definition": "매우 짜다. 조금 작거나 적다.",
       "otherJejuForms": [
-        "다",
-        "쪼끌락다",
-        "끌락다"
+        "ᄒᆞ다",
+        "쪼끌락ᄒᆞ다",
+        "ᄒᆞ끌락ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90616",
-    "jeju": "지롱다",
+    "jeju": "지롱ᄒᆞ다",
     "standard": "짭조름하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13376,7 +13376,7 @@
   },
   {
     "seq": "90617",
-    "jeju": "콤콤다",
+    "jeju": "콤콤ᄒᆞ다",
     "standard": "꼼꼼하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13390,12 +13390,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90618",
-    "jeju": "큰큰다",
+    "jeju": "큰큰ᄒᆞ다",
     "standard": "크디크다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13409,12 +13409,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90619",
-    "jeju": "다",
+    "jeju": "ᄒᆞ다",
     "standard": "깨끗하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13426,7 +13426,7 @@
       "posLabel": "형용사",
       "definition": "1) 때나 찌꺼기 따위가 없다. 2) 가지런히 잘 정돈되어 말끔하다.",
       "otherJejuForms": [
-        "다"
+        "ᄒᆞ다"
       ],
       "otherStandard": []
     },
@@ -13435,7 +13435,7 @@
   },
   {
     "seq": "90620",
-    "jeju": "다",
+    "jeju": "ᄒᆞ다",
     "standard": "탄탄하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13454,7 +13454,7 @@
   },
   {
     "seq": "90621",
-    "jeju": "푸리롱다",
+    "jeju": "푸리롱ᄒᆞ다",
     "standard": "푸르스름하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13468,12 +13468,12 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90622",
-    "jeju": "한걸다",
+    "jeju": "한걸ᄒᆞ다",
     "standard": "한가하다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13485,16 +13485,16 @@
       "posLabel": "형용사",
       "definition": "겨를이 생겨 여유가 있다.",
       "otherJejuForms": [
-        "한글다"
+        "한글ᄒᆞ다"
       ],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
     "seq": "90623",
-    "jeju": "엇다",
+    "jeju": "ᄒᆞᆫ엇다",
     "standard": "한없다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
@@ -13508,7 +13508,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true,
+    "containsPua": false,
     "pendingPlacement": true
   },
   {
@@ -13921,7 +13921,7 @@
   },
   {
     "seq": "90647",
-    "jeju": "못",
+    "jeju": "ᄉ못",
     "standard": "사뭇",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -13935,11 +13935,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90648",
-    "jeju": "",
+    "jeju": "ᄉᆞᆯᄉᆞᆯ",
     "standard": "살살",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -13953,11 +13953,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90649",
-    "jeju": "째기",
+    "jeju": "ᄉᆞᆯ째기",
     "standard": "살짝",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -13971,7 +13971,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90650",
@@ -14249,7 +14249,7 @@
   },
   {
     "seq": "90666",
-    "jeju": "근근",
+    "jeju": "ᄌᆞ근ᄌᆞ근",
     "standard": "차근차근",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -14263,7 +14263,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90667",
@@ -14320,7 +14320,7 @@
   },
   {
     "seq": "90670",
-    "jeju": "치",
+    "jeju": "ᄒᆞᆷ치",
     "standard": "한꺼번에",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -14334,11 +14334,11 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90671",
-    "jeju": "거",
+    "jeju": "거ᄎᆞᆷ",
     "standard": "거참",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
@@ -14352,7 +14352,7 @@
       "otherJejuForms": [],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90672",
@@ -14368,11 +14368,11 @@
       "posLabel": "부사",
       "definition": "남의 말을 긍정하여 그렇다는 생각을 나타낼 때 하는 말. 다른 사람의 말이나 행동을 멈추거나 잠시 생각할 시간을 얻고 싶을 때 쓰는 말.",
       "otherJejuForms": [
-        "만시라"
+        "ᄀᆞ만시라"
       ],
       "otherStandard": []
     },
-    "containsPua": true
+    "containsPua": false
   },
   {
     "seq": "90673",
