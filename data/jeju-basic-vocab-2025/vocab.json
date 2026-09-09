@@ -495,7 +495,7 @@
     {
       "standard_raw": "오른손",
       "jeju_forms": [
-        "단손"
+        "ᄂᆞ단손"
       ],
       "definition": "오른쪽에 있는 손.",
       "level": "초급",
@@ -503,7 +503,7 @@
       "chapter_no": 1,
       "pdf_page": 10,
       "id": "jbv2025-0028",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "오른손"
       ],
@@ -512,7 +512,7 @@
     {
       "standard_raw": "오른쪽",
       "jeju_forms": [
-        "단착"
+        "ᄂᆞ단착"
       ],
       "definition": "사람이 북쪽을 보고 있을 때 동쪽과 같은 쪽.",
       "level": "초급",
@@ -520,7 +520,7 @@
       "chapter_no": 1,
       "pdf_page": 10,
       "id": "jbv2025-0029",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "오른쪽"
       ],
@@ -529,7 +529,7 @@
     {
       "standard_raw": "오른편",
       "jeju_forms": [
-        "단펜"
+        "ᄂᆞ단펜"
       ],
       "definition": "북쪽을 보고 있을 때 동쪽과 같은 쪽.",
       "level": "초급",
@@ -537,7 +537,7 @@
       "chapter_no": 1,
       "pdf_page": 10,
       "id": "jbv2025-0030",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "오른편"
       ],
@@ -546,9 +546,9 @@
     {
       "standard_raw": "나물",
       "jeju_forms": [
-        "멀",
-        "물",
-        ""
+        "ᄂᆞ멀",
+        "ᄂᆞ물",
+        "ᄂᆞ"
       ],
       "definition": "1) 사람이 먹을 수 있는 풀이나 나뭇잎 따위를 통틀어 이르는 말. 2) 사람이 먹을 수 있는 풀이나 나뭇잎 따위를 삶거나 볶거나 또는 날것으로 양념하여 무친 음식.",
       "level": "초급",
@@ -637,7 +637,7 @@
       "standard_raw": "무릎",
       "jeju_forms": [
         "독모릅",
-        "독",
+        "독ᄆᆞᄆᆞ",
         "무릅"
       ],
       "definition": "허벅지와 종아리 사이에 앞쪽으로 둥글게 튀어나온 부분.",
@@ -646,7 +646,7 @@
       "chapter_no": 1,
       "pdf_page": 11,
       "id": "jbv2025-0036",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "무릎"
       ],
@@ -1032,9 +1032,9 @@
     {
       "standard_raw": "마을",
       "jeju_forms": [
-        "ᆞ슬",
-        "ᆞ실",
-        "ᆞ을"
+        "ᄆᆞᆞ슬",
+        "ᄆᆞᆞ실",
+        "ᄆᆞᆞ을"
       ],
       "definition": "여러 집이 모여 사는 곳.",
       "level": "초급",
@@ -1042,7 +1042,7 @@
       "chapter_no": 1,
       "pdf_page": 14,
       "id": "jbv2025-0059",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마을"
       ],
@@ -1051,9 +1051,9 @@
     {
       "standard_raw": "마음",
       "jeju_forms": [
-        "슴",
-        "ᆞ심",
-        "ᆞ음"
+        "ᄆᆞ슴",
+        "ᄆᆞᆞ심",
+        "ᄆᆞᆞ음"
       ],
       "definition": "사람이 태어날 때부터 지닌 성격이나 품성.",
       "level": "초급",
@@ -1061,7 +1061,7 @@
       "chapter_no": 1,
       "pdf_page": 14,
       "id": "jbv2025-0060",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마음"
       ],
@@ -1294,8 +1294,8 @@
     {
       "standard_raw": "바람",
       "jeju_forms": [
-        "ᆞ름",
-        "ᄇᆞ"
+        "ᄇᆞᆞ름",
+        "ᄇᆞᄇᆞ"
       ],
       "definition": "기압의 변화 또는 사람이나 기계에 의하여 일어나는 공기의 움직임.",
       "level": "초급",
@@ -1303,7 +1303,7 @@
       "chapter_no": 1,
       "pdf_page": 15,
       "id": "jbv2025-0074",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "바람"
       ],
@@ -2795,7 +2795,7 @@
     {
       "standard_raw": "팥",
       "jeju_forms": [
-        ""
+        "ᄑᆞᆺ"
       ],
       "definition": "콩과의 한해살이풀. 삶아서 죽을 쑤거나 떡이나 빵에 넣어서 먹는, 맛이 구수한 짙은 자주색의 곡식.",
       "level": "초급",
@@ -2803,7 +2803,7 @@
       "chapter_no": 1,
       "pdf_page": 24,
       "id": "jbv2025-0161",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "팥"
       ],
@@ -3020,7 +3020,7 @@
     {
       "standard_raw": "마리1",
       "jeju_forms": [
-        "ᆞ리"
+        "ᄆᆞᆞ리"
       ],
       "definition": "짐승이나 물고기, 벌레 따위를 세는 단위.",
       "level": "초급",
@@ -3028,7 +3028,7 @@
       "chapter_no": 2,
       "pdf_page": 25,
       "id": "jbv2025-0174",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마리"
       ],
@@ -4029,7 +4029,7 @@
     {
       "standard_raw": "나누다",
       "jeju_forms": [
-        "누다"
+        "ᄂᆞ누다"
       ],
       "definition": "원래 하나였던 것을 둘 이상의 부분이나 조각이 되게 하다.",
       "level": "초급",
@@ -4037,7 +4037,7 @@
       "chapter_no": 5,
       "pdf_page": 31,
       "id": "jbv2025-0232",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "나누다"
       ],
@@ -4046,7 +4046,7 @@
     {
       "standard_raw": "내려가다",
       "jeju_forms": [
-        "려가다"
+        "ᄂᆞ려가다"
       ],
       "definition": "높은 곳에서 낮은 곳으로 또는 위에서 아래로 가다.",
       "level": "초급",
@@ -4054,7 +4054,7 @@
       "chapter_no": 5,
       "pdf_page": 32,
       "id": "jbv2025-0233",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "내려가다"
       ],
@@ -4063,7 +4063,7 @@
     {
       "standard_raw": "내려오다",
       "jeju_forms": [
-        "려오다"
+        "ᄂᆞ려오다"
       ],
       "definition": "높은 곳에서 낮은 곳으로 또는 위에서 아래로 오다.",
       "level": "초급",
@@ -4071,7 +4071,7 @@
       "chapter_no": 5,
       "pdf_page": 32,
       "id": "jbv2025-0234",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "내려오다"
       ],
@@ -4080,7 +4080,7 @@
     {
       "standard_raw": "내리다",
       "jeju_forms": [
-        "리다"
+        "ᄂᆞ리다"
       ],
       "definition": "1) 눈, 비, 서리, 이슬 따위가 오다. 2) 타고 있던 물체에서 밖으로 나와 어떤 지점에 이르다. 3) 위에 있는 것을 낮은 곳 또는 아래로 끌어당기거나 늘어뜨리다. 4) 값이나 수치, 온도, 성적 따위가 이전보다 떨어지거나 낮아지다.",
       "level": "초급",
@@ -4088,7 +4088,7 @@
       "chapter_no": 5,
       "pdf_page": 32,
       "id": "jbv2025-0235",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "내리다"
       ],
@@ -4339,8 +4339,8 @@
     {
       "standard_raw": "마치다",
       "jeju_forms": [
-        "끄다",
-        "치다"
+        "ᄆᆞ끄다",
+        "ᄆᆞ치다"
       ],
       "definition": "어떤 일이나 과정, 절차 따위가 끝나다. 또는 그렇게 하다.",
       "level": "초급",
@@ -4348,7 +4348,7 @@
       "chapter_no": 5,
       "pdf_page": 34,
       "id": "jbv2025-0250",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마치다"
       ],
@@ -4357,7 +4357,7 @@
     {
       "standard_raw": "마르다¹",
       "jeju_forms": [
-        "르다¹"
+        "ᄆᆞ르다¹"
       ],
       "definition": "1) 물기가 다 날아가서 없어지다. 2) 입이나 목구멍에 물기가 적어져 갈증이 나다. 3) 살이 빠져 야위다.",
       "level": "초급",
@@ -4365,7 +4365,7 @@
       "chapter_no": 5,
       "pdf_page": 34,
       "id": "jbv2025-0251",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마르다¹"
       ],
@@ -4495,7 +4495,7 @@
     {
       "standard_raw": "바르다1",
       "jeju_forms": [
-        "르다",
+        "ᄇᆞ르다",
         "ᄇᆞᆯ르다1"
       ],
       "definition": "1) 풀칠한 종이나 헝겊 따위를 다른 물건의 표면에 고루 붙이다. 2) 차지게 이긴 흙 따위를 다른 물체의 표면에 고르게 덧붙이다. 3) 물이나 풀, 약, 화장품 따위를 물체의 표면에 문질러 묻히다.",
@@ -4504,7 +4504,7 @@
       "chapter_no": 5,
       "pdf_page": 35,
       "id": "jbv2025-0259",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "바르다"
       ],
@@ -5615,7 +5615,7 @@
     {
       "standard_raw": "단단하다",
       "jeju_forms": [
-        "ᄒᆞ다"
+        "ᄃᆞᆫᄃᆞᆫᄒᆞ다"
       ],
       "definition": "사물이 어떤 힘에 의해 모양이 변하지 않을 정도로 딱딱하다.",
       "level": "초급",
@@ -5623,7 +5623,7 @@
       "chapter_no": 6,
       "pdf_page": 42,
       "id": "jbv2025-0324",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "단단하다"
       ],
@@ -5683,7 +5683,7 @@
     {
       "standard_raw": "따뜻하다",
       "jeju_forms": [
-        "ᄒᆞ다"
+        "ᄄᆞᄒᆞ다"
       ],
       "definition": "덥지 않을 정도로 온도가 알맞게 높다.",
       "level": "초급",
@@ -5770,7 +5770,7 @@
     {
       "standard_raw": "무섭다",
       "jeju_forms": [
-        "솝다"
+        "ᄆᆞ솝다"
       ],
       "definition": "어떤 대상에 대하여 꺼려지거나 무슨 일이 일어날까 겁나는 데가 있다.",
       "level": "초급",
@@ -5778,7 +5778,7 @@
       "chapter_no": 6,
       "pdf_page": 43,
       "id": "jbv2025-0333",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "무섭다"
       ],
@@ -6866,7 +6866,7 @@
     {
       "standard_raw": "따로",
       "jeju_forms": [
-        "로"
+        "ᄄᆞ로"
       ],
       "definition": "1) 다른 것들과 함께 하거나 섞이지 않게. 2) 보통의 것과는 달리 특별하게.",
       "level": "초급",
@@ -6874,7 +6874,7 @@
       "chapter_no": 8,
       "pdf_page": 50,
       "id": "jbv2025-0396",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "따로"
       ],
@@ -6883,7 +6883,7 @@
     {
       "standard_raw": "다시",
       "jeju_forms": [
-        "시"
+        "ᄄᆞ시"
       ],
       "definition": "1) 같은 말이나 행동을 반복해서 또. 2) 하다가 멈춘 것을 이어서. 3) 다음에 또. 4) 이전 상태로 또. 5) 처음부터 새롭게.",
       "level": "초급",
@@ -6891,7 +6891,7 @@
       "chapter_no": 8,
       "pdf_page": 50,
       "id": "jbv2025-0397",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "다시"
       ],
@@ -7870,7 +7870,7 @@
     {
       "standard_raw": "가을바람",
       "jeju_forms": [
-        "ᄀᆞ슬름"
+        "ᄀᆞ슬ᄇᆞ름"
       ],
       "definition": "가을에 부는 선선한 바람.",
       "level": "중급",
@@ -7878,7 +7878,7 @@
       "chapter_no": 1,
       "pdf_page": 57,
       "id": "jbv2025-0454",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "가을바람"
       ],
@@ -8320,7 +8320,7 @@
     {
       "standard_raw": "배추김치",
       "jeju_forms": [
-        "물짐치",
+        "ᄂᆞ물짐치",
         "배치짐치"
       ],
       "definition": "배추를 소금에 절여서 헹군 후 고춧가루, 마늘, 멸치젓 등을 넣고 담근 김치.",
@@ -8329,7 +8329,7 @@
       "chapter_no": 1,
       "pdf_page": 59,
       "id": "jbv2025-0480",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "배추김치"
       ],
@@ -8757,8 +8757,8 @@
     {
       "standard_raw": "마음씨",
       "jeju_forms": [
-        "음세",
-        "심세"
+        "ᄆᆞ음세",
+        "ᄆᆞ심세"
       ],
       "definition": "마음을 쓰는 태도.",
       "level": "중급",
@@ -8766,7 +8766,7 @@
       "chapter_no": 1,
       "pdf_page": 62,
       "id": "jbv2025-0505",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마음씨"
       ],
@@ -9085,8 +9085,8 @@
     {
       "standard_raw": "비바람",
       "jeju_forms": [
-        "비름",
-        "비ᄇᆞ"
+        "비ᄇᆞ름",
+        "비ᄇᆞᄇᆞ"
       ],
       "definition": "1) 비와 바람. 2) 세차게 내리는 비와 함께 강하게 부는 바람.",
       "level": "중급",
@@ -9094,7 +9094,7 @@
       "chapter_no": 1,
       "pdf_page": 64,
       "id": "jbv2025-0524",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "비바람"
       ],
@@ -9155,7 +9155,7 @@
     {
       "standard_raw": "양배추",
       "jeju_forms": [
-        "사발물",
+        "사발ᄂᆞ물",
         "산담"
       ],
       "definition": "두껍고 넓은 푸른 잎 속에 약간 하얀 속잎들이 겹겹이 뭉쳐 큰 공 모양을 이룬, 서양에서 들어온 채소. 무덤 주위로 네모지거나 둥글게 둘러싼 돌담.",
@@ -9164,7 +9164,7 @@
       "chapter_no": 1,
       "pdf_page": 65,
       "id": "jbv2025-0528",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "양배추"
       ],
@@ -9503,7 +9503,7 @@
     {
       "standard_raw": "심부름1",
       "jeju_forms": [
-        "신름",
+        "신ᄇᆞ름",
         "심바람"
       ],
       "definition": "다른 사람이 시키는 일이나 부탁받은 일을 하는 것.",
@@ -9512,7 +9512,7 @@
       "chapter_no": 1,
       "pdf_page": 67,
       "id": "jbv2025-0548",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "심부름"
       ],
@@ -10319,8 +10319,8 @@
     {
       "standard_raw": "허리",
       "jeju_forms": [
-        "둥이",
-        "등이"
+        "ᄌᆞᆫ둥이",
+        "ᄌᆞᆫ등이"
       ],
       "definition": "사람이나 동물의 갈빗대 아래에서부터 엉덩이까지의 잘록한 부분.",
       "level": "중급",
@@ -10328,7 +10328,7 @@
       "chapter_no": 1,
       "pdf_page": 72,
       "id": "jbv2025-0595",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "허리"
       ],
@@ -10427,7 +10427,7 @@
       "standard_raw": "짠물",
       "jeju_forms": [
         "물",
-        "레"
+        "ᄎᆞᆯ레"
       ],
       "definition": "짠맛이 나는 물. 밥과 곁들여 먹는 장, 젓 따위의 반찬.",
       "level": "중급",
@@ -11376,7 +11376,7 @@
     {
       "standard_raw": "내리우다",
       "jeju_forms": [
-        "리우다"
+        "ᄂᆞ리우다"
       ],
       "definition": "1) 값이나 수치, 온도, 성적 따위를 이전보다 떨어지거나 낮아지게 하다. 2) 먹은 음식물 따위를 소화시키다.",
       "level": "중급",
@@ -11384,7 +11384,7 @@
       "chapter_no": 4,
       "pdf_page": 78,
       "id": "jbv2025-0656",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "내리우다"
       ],
@@ -11651,7 +11651,7 @@
     {
       "standard_raw": "따라가다",
       "jeju_forms": [
-        "라가다"
+        "ᄄᆞ라가다"
       ],
       "definition": "다른 사람이나 동물의 뒤에서, 그가 가는 대로 가다.",
       "level": "중급",
@@ -11659,7 +11659,7 @@
       "chapter_no": 4,
       "pdf_page": 80,
       "id": "jbv2025-0672",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "따라가다"
       ],
@@ -11668,7 +11668,7 @@
     {
       "standard_raw": "따라오다",
       "jeju_forms": [
-        "라오다"
+        "ᄄᆞ라오다"
       ],
       "definition": "다른 사람이 어떤 사람의 행동이나 명령 따위를 그대로 실행하다.",
       "level": "중급",
@@ -11676,7 +11676,7 @@
       "chapter_no": 4,
       "pdf_page": 80,
       "id": "jbv2025-0673",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "따라오다"
       ],
@@ -11685,7 +11685,7 @@
     {
       "standard_raw": "때리다",
       "jeju_forms": [
-        "리다"
+        "ᄄᆞ리다"
       ],
       "definition": "손이나 손에 든 물건 따위로 아프게 치다.",
       "level": "중급",
@@ -11693,7 +11693,7 @@
       "chapter_no": 4,
       "pdf_page": 80,
       "id": "jbv2025-0674",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "때리다"
       ],
@@ -12788,7 +12788,7 @@
     {
       "standard_raw": "견디다",
       "jeju_forms": [
-        "디다"
+        "ᄌᆞᆫ디다"
       ],
       "definition": "힘들거나 어려운 것을 참고 버티어 살아 나가다.",
       "level": "중급",
@@ -12796,7 +12796,7 @@
       "chapter_no": 4,
       "pdf_page": 87,
       "id": "jbv2025-0738",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "견디다"
       ],
@@ -12839,7 +12839,7 @@
     {
       "standard_raw": "차리다",
       "jeju_forms": [
-        "리다"
+        "ᄎᆞᆯ리다"
       ],
       "definition": "준비한 음식 등을 먹을 수 있게 상 위에 놓다.",
       "level": "중급",
@@ -12847,7 +12847,7 @@
       "chapter_no": 4,
       "pdf_page": 87,
       "id": "jbv2025-0741",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "차리다"
       ],
@@ -13137,7 +13137,7 @@
     {
       "standard_raw": "갑갑하다",
       "jeju_forms": [
-        "ᄒᆞ다"
+        "ᄀᆞᆸᄀᆞᆸᄒᆞ다"
       ],
       "definition": "1) 좁고 닫힌 공간 속에 있어 꽉 막힌 느낌이 있다. 2) 일이 뜻대로 되지 않아 후련하지 못하고 답답하다.",
       "level": "중급",
@@ -13145,7 +13145,7 @@
       "chapter_no": 5,
       "pdf_page": 89,
       "id": "jbv2025-0758",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "갑갑하다"
       ],
@@ -13259,7 +13259,7 @@
     {
       "standard_raw": "날카롭다",
       "jeju_forms": [
-        "실다"
+        "ᄂᆞ실다"
       ],
       "definition": "1) 칼과 같은 도구 등의 끝이 뾰족하거나 날이 서 있다. 2) 사람의 성격이 날카롭다.",
       "level": "중급",
@@ -13267,7 +13267,7 @@
       "chapter_no": 5,
       "pdf_page": 89,
       "id": "jbv2025-0765",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "날카롭다"
       ],
@@ -13276,7 +13276,7 @@
     {
       "standard_raw": "낮다2",
       "jeju_forms": [
-        "찹다"
+        "ᄂᆞ찹다"
       ],
       "definition": "품질이나 수준 또는 능력이나 가치가 보통보다 아래에 있다.",
       "level": "중급",
@@ -13284,7 +13284,7 @@
       "chapter_no": 5,
       "pdf_page": 90,
       "id": "jbv2025-0766",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "낮다"
       ],
@@ -13329,7 +13329,7 @@
     {
       "standard_raw": "든직하다",
       "jeju_forms": [
-        "직ᄒᆞ다"
+        "ᄃᆞᆫ직ᄒᆞ다"
       ],
       "definition": "1) 사람됨이 경솔하지 않고 무게가 있다. 2) 물건이 제법 번듯하고 그럴듯하다.",
       "level": "중급",
@@ -13337,7 +13337,7 @@
       "chapter_no": 5,
       "pdf_page": 90,
       "id": "jbv2025-0769",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "든직하다"
       ],
@@ -13398,7 +13398,7 @@
     {
       "standard_raw": "다르다2",
       "jeju_forms": [
-        "나다",
+        "ᄄᆞ나다",
         "나다"
       ],
       "definition": "비교가 되는 두 대상이 서로 같지 아니하다.",
@@ -13553,7 +13553,7 @@
     {
       "standard_raw": "마렵다",
       "jeju_forms": [
-        "렵다"
+        "ᄆᆞ렵다"
       ],
       "definition": "대소변을 누고 싶은 느낌이 있다.",
       "level": "중급",
@@ -13561,7 +13561,7 @@
       "chapter_no": 5,
       "pdf_page": 91,
       "id": "jbv2025-0782",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마렵다"
       ],
@@ -13710,7 +13710,7 @@
     {
       "standard_raw": "가깝다2",
       "jeju_forms": [
-        "디다"
+        "ᄇᆞ디다"
       ],
       "definition": "1) 어느 한곳에서 다른 곳까지의 거리가 짧다. 2) 서로의 사이가 다정하고 친하다. 3) 촌수가 멀지 않다.",
       "level": "중급",
@@ -13718,7 +13718,7 @@
       "chapter_no": 5,
       "pdf_page": 92,
       "id": "jbv2025-0791",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "가깝다"
       ],
@@ -13727,7 +13727,7 @@
     {
       "standard_raw": "밭다1",
       "jeju_forms": [
-        "뜨다1",
+        "ᄇᆞ뜨다1",
         "뽕끄랑ᄒᆞ다",
         "뽕끌랑ᄒᆞ다",
         "ᄈᆞ짝ᄒᆞ다"
@@ -13738,7 +13738,7 @@
       "chapter_no": 5,
       "pdf_page": 92,
       "id": "jbv2025-0792",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "밭다"
       ],
@@ -14028,7 +14028,7 @@
     {
       "standard_raw": "짭조름하다",
       "jeju_forms": [
-        "지롱ᄒᆞ다"
+        "ᄍᆞᆸ지롱ᄒᆞ다"
       ],
       "definition": "조금 짠맛이 있다.",
       "level": "중급",
@@ -14036,7 +14036,7 @@
       "chapter_no": 5,
       "pdf_page": 94,
       "id": "jbv2025-0809",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "짭조름하다"
       ],
@@ -14097,7 +14097,7 @@
     {
       "standard_raw": "탄탄하다",
       "jeju_forms": [
-        "ᄒᆞ다"
+        "ᄐᆞᆫᄐᆞᆫᄒᆞ다"
       ],
       "definition": "무르거나 느슨하지 않고 아주 야무지고 굳세다.",
       "level": "중급",
@@ -14105,7 +14105,7 @@
       "chapter_no": 5,
       "pdf_page": 95,
       "id": "jbv2025-0813",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "탄탄하다"
       ],
@@ -14974,7 +14974,7 @@
     {
       "standard_raw": "차차",
       "jeju_forms": [
-        ""
+        "ᄎᆞᄎᆞ"
       ],
       "definition": "일이나 사물의 상태나 정도의 변화가 시간이 지남에 따라 조금씩 계속.",
       "level": "중급",
@@ -14982,7 +14982,7 @@
       "chapter_no": 6,
       "pdf_page": 101,
       "id": "jbv2025-0864",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "차차"
       ],
@@ -14991,7 +14991,7 @@
     {
       "standard_raw": "찰찰",
       "jeju_forms": [
-        ""
+        "ᄎᆞᆯᄎᆞᆯ"
       ],
       "definition": "땀을 많이 흘리어 몸이 끈적끈적한 모양.",
       "level": "중급",
@@ -14999,7 +14999,7 @@
       "chapter_no": 6,
       "pdf_page": 101,
       "id": "jbv2025-0865",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "찰찰"
       ],
@@ -15098,7 +15098,7 @@
         "아따가라",
         "어따가라",
         "옴마가라",
-        "마가라"
+        "ᄎᆞ마가라"
       ],
       "definition": "무엇이 몹시 심하거나 못마땅할 때 내는 소리. 예상하지 못한 일로 깜짝 놀라거나 끔찍한 느낌이 들었을 때 내는 소리. 남이 하여서는 안 될 일을 하였을 적에 못마땅하게 여겨서 내는 소리.",
       "level": "중급",
@@ -15106,7 +15106,7 @@
       "chapter_no": 7,
       "pdf_page": 102,
       "id": "jbv2025-0871",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "아따"
       ],
@@ -15149,7 +15149,7 @@
     {
       "standard_raw": "갈바람",
       "jeju_forms": [
-        "갈름"
+        "갈ᄇᆞ름"
       ],
       "definition": "가을에 부는 선선하고 서늘한 바람.",
       "level": "고급",
@@ -15157,7 +15157,7 @@
       "chapter_no": 1,
       "pdf_page": 103,
       "id": "jbv2025-0874",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "갈바람"
       ],
@@ -15202,7 +15202,7 @@
     {
       "standard_raw": "갓",
       "jeju_forms": [
-        "갯물"
+        "갯ᄂᆞ물"
       ],
       "definition": "십자화과의 두해살이풀.",
       "level": "고급",
@@ -15210,7 +15210,7 @@
       "chapter_no": 1,
       "pdf_page": 103,
       "id": "jbv2025-0877",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "갓"
       ],
@@ -15802,8 +15802,8 @@
       "standard_raw": "까끄라기",
       "jeju_forms": [
         "ᄀᆞ시락",
-        "주와기",
-        "줴기"
+        "ᄀᆞᆨ주와기",
+        "ᄀᆞᆨ줴기"
       ],
       "definition": "벼, 보리 따위의 낟알 껍질에 붙은 깔끄러운 수염. 또는 그 동강이. 1) 사마귓과의 곤충을 통틀어 이르는 말. 2) 손톱으로 할퀴기를 잘하는 사람.",
       "level": "고급",
@@ -15811,7 +15811,7 @@
       "chapter_no": 1,
       "pdf_page": 107,
       "id": "jbv2025-0911",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "까끄라기"
       ],
@@ -16064,7 +16064,7 @@
       "standard_raw": "내리막길",
       "jeju_forms": [
         "느릇질",
-        "릇질",
+        "ᄂᆞ릇질",
         "니치름"
       ],
       "definition": "높은 곳에서 낮은 곳으로 이어지는 비탈진 길. 어린 아이나 소 등이 입에서 질질 흘리는 침.",
@@ -16073,7 +16073,7 @@
       "chapter_no": 1,
       "pdf_page": 108,
       "id": "jbv2025-0926",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "내리막길"
       ],
@@ -16383,7 +16383,7 @@
       "standard_raw": "매듭단추",
       "jeju_forms": [
         "ᄃᆞᆯ마기",
-        "작단추",
+        "ᄆᆞ작단추",
         "벌모작",
         "뚜럼"
       ],
@@ -16393,7 +16393,7 @@
       "chapter_no": 1,
       "pdf_page": 110,
       "id": "jbv2025-0944",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "매듭단추"
       ],
@@ -16419,8 +16419,8 @@
     {
       "standard_raw": "마파람",
       "jeju_forms": [
-        "마름",
-        "마름"
+        "마ᄇᆞ름",
+        "마ᄑᆞ름"
       ],
       "definition": "남쪽에서 불어오는 바람.",
       "level": "고급",
@@ -16428,7 +16428,7 @@
       "chapter_no": 1,
       "pdf_page": 111,
       "id": "jbv2025-0946",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마파람"
       ],
@@ -16687,7 +16687,7 @@
     {
       "standard_raw": "마소",
       "jeju_forms": [
-        "쉬"
+        "ᄆᆞ쉬"
       ],
       "definition": "말과 소를 아울러 이르는 말.",
       "level": "고급",
@@ -16695,7 +16695,7 @@
       "chapter_no": 1,
       "pdf_page": 112,
       "id": "jbv2025-0961",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마소"
       ],
@@ -17140,7 +17140,7 @@
       "standard_raw": "너럭바위",
       "jeju_forms": [
         "빌레",
-        "른구덕"
+        "ᄇᆞ른구덕"
       ],
       "definition": "지면 또는 땅에 넓적하고 평평하게 묻혀진 돌. 종이나 헝겊 따위에 풀을 발라 붙인 구덕.",
       "level": "고급",
@@ -17148,7 +17148,7 @@
       "chapter_no": 1,
       "pdf_page": 115,
       "id": "jbv2025-0987",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "너럭바위"
       ],
@@ -17191,7 +17191,7 @@
     {
       "standard_raw": "용마루",
       "jeju_forms": [
-        "상루"
+        "상ᄆᆞ루"
       ],
       "definition": "지붕 가운데 부분에 있는 가장 높은 수평 마루.",
       "level": "고급",
@@ -17199,7 +17199,7 @@
       "chapter_no": 1,
       "pdf_page": 115,
       "id": "jbv2025-0990",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "용마루"
       ],
@@ -18359,7 +18359,7 @@
     {
       "standard_raw": "잔소리",
       "jeju_forms": [
-        "다니"
+        "ᄌᆞᆫ다니"
       ],
       "definition": "듣기 싫게 필요 이상으로 참견하거나 꾸중하며 말함. 또는 그 말.",
       "level": "고급",
@@ -18367,7 +18367,7 @@
       "chapter_no": 1,
       "pdf_page": 122,
       "id": "jbv2025-1057",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "잔소리"
       ],
@@ -18376,7 +18376,7 @@
     {
       "standard_raw": "잔정",
       "jeju_forms": [
-        "셈"
+        "ᄌᆞᆫ셈"
       ],
       "definition": "자상하고 자잘한 정.",
       "level": "고급",
@@ -18384,7 +18384,7 @@
       "chapter_no": 1,
       "pdf_page": 122,
       "id": "jbv2025-1058",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "잔정"
       ],
@@ -18499,7 +18499,7 @@
     {
       "standard_raw": "열무",
       "jeju_forms": [
-        "마기",
+        "ᄎᆞ마기",
         "ᄎᆞᆷ3",
         "ᄎᆞᆷ항"
       ],
@@ -18509,7 +18509,7 @@
       "chapter_no": 1,
       "pdf_page": 123,
       "id": "jbv2025-1065",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "열무"
       ],
@@ -19025,7 +19025,7 @@
     {
       "standard_raw": "할퀴다",
       "jeju_forms": [
-        "주다"
+        "ᄀᆞᆨ주다"
       ],
       "definition": "손톱이나 날카로운 물건 등으로 긁어 상처를 내다.",
       "level": "고급",
@@ -19033,7 +19033,7 @@
       "chapter_no": 2,
       "pdf_page": 126,
       "id": "jbv2025-1095",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "할퀴다"
       ],
@@ -19060,7 +19060,7 @@
     {
       "standard_raw": "구분하다",
       "jeju_forms": [
-        "갈르다"
+        "ᄀᆞᆸ갈르다"
       ],
       "definition": "경계를 긋거나 몫을 나누다.",
       "level": "고급",
@@ -19068,7 +19068,7 @@
       "chapter_no": 2,
       "pdf_page": 127,
       "id": "jbv2025-1097",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "구분하다"
       ],
@@ -19514,7 +19514,7 @@
     {
       "standard_raw": "마르다2",
       "jeju_forms": [
-        "르다2"
+        "ᄆᆞ르다2"
       ],
       "definition": "옷감이나 재목 따위의 재료를 치수에 맞게 자르다.",
       "level": "고급",
@@ -19522,7 +19522,7 @@
       "chapter_no": 2,
       "pdf_page": 130,
       "id": "jbv2025-1123",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "마르다"
       ],
@@ -19657,7 +19657,7 @@
     {
       "standard_raw": "밭다2",
       "jeju_forms": [
-        "뜨다2"
+        "ᄇᆞ뜨다2"
       ],
       "definition": "액체 따위가 바싹 졸아서 말라붙다.",
       "level": "고급",
@@ -19665,7 +19665,7 @@
       "chapter_no": 2,
       "pdf_page": 130,
       "id": "jbv2025-1131",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "밭다"
       ],
@@ -19674,7 +19674,7 @@
     {
       "standard_raw": "찢다",
       "jeju_forms": [
-        "리다"
+        "ᄇᆞ리다"
       ],
       "definition": "물체를 잡아당기어 가르다.",
       "level": "고급",
@@ -19682,7 +19682,7 @@
       "chapter_no": 2,
       "pdf_page": 130,
       "id": "jbv2025-1132",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "찢다"
       ],
@@ -20391,7 +20391,7 @@
       "standard_raw": "가느다랗다",
       "jeju_forms": [
         "ᄀᆞ노롱ᄒᆞ다",
-        "엇다"
+        "ᄀᆞᆸ엇다"
       ],
       "definition": "아주 가늘다. 1) 사물에 대한 분별 능력이 모자라다. 2) 금, 경계가 없다.",
       "level": "고급",
@@ -20399,7 +20399,7 @@
       "chapter_no": 3,
       "pdf_page": 136,
       "id": "jbv2025-1173",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "가느다랗다"
       ],
@@ -20445,8 +20445,8 @@
       "standard_raw": "네모반듯하다",
       "jeju_forms": [
         "니귀반듯ᄒᆞ다",
-        "롯ᄒᆞ다",
-        "릇ᄒᆞ다",
+        "ᄂᆞ롯ᄒᆞ다",
+        "ᄂᆞ릇ᄒᆞ다",
         "답지다",
         "덤방ᄒᆞ다",
         "덤벙ᄒᆞ다"
@@ -20457,7 +20457,7 @@
       "chapter_no": 3,
       "pdf_page": 136,
       "id": "jbv2025-1176",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "네모반듯하다"
       ],
@@ -20501,7 +20501,7 @@
     {
       "standard_raw": "야무지다2",
       "jeju_forms": [
-        "락지다"
+        "ᄄᆞ락지다"
       ],
       "definition": "사람의 성질이나 행동, 생김새 따위가 빈틈이 없이 꽤 단단하고 굳세다.",
       "level": "고급",
@@ -20509,7 +20509,7 @@
       "chapter_no": 3,
       "pdf_page": 137,
       "id": "jbv2025-1179",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "야무지다"
       ],
@@ -20793,7 +20793,7 @@
       "standard_raw": "불룩하다",
       "jeju_forms": [
         "붕탕ᄒᆞ다",
-        "랑지다"
+        "ᄇᆞ랑지다"
       ],
       "definition": "물체의 거죽이 크게 두드러지거나 쑥 내밀려 있다. 나이에 비해 바지런하고 야무지다.",
       "level": "고급",
@@ -20801,7 +20801,7 @@
       "chapter_no": 3,
       "pdf_page": 139,
       "id": "jbv2025-1195",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "불룩하다"
       ],
@@ -20849,7 +20849,7 @@
       "standard_raw": "수두룩하다",
       "jeju_forms": [
         "수드락ᄒᆞ다",
-        "숨릅다",
+        "숨ᄇᆞ릅다",
         "쉬우룽ᄒᆞ다"
       ],
       "definition": "매우 많고 흔하다. 자잘한 일을 반복적으로 하거나 능률이 오르지 않는 일을 해서 지루하고 짜증나다. 밥 등이 쉰 듯하다.",
@@ -20858,7 +20858,7 @@
       "chapter_no": 3,
       "pdf_page": 140,
       "id": "jbv2025-1198",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "수두룩하다"
       ],
@@ -20960,7 +20960,7 @@
       "standard_raw": "자잘하다2",
       "jeju_forms": [
         "잰잰ᄒᆞ다",
-        "ᄒᆞ다"
+        "ᄌᆞᆫᄌᆞᆫᄒᆞ다"
       ],
       "definition": "1) 여럿이 다 가늘거나 작다. 2) 여러 가지 물건이나 일, 또는 여러 생각이나 행동 따위가 다 작고 소소하다.",
       "level": "고급",
@@ -20968,7 +20968,7 @@
       "chapter_no": 3,
       "pdf_page": 141,
       "id": "jbv2025-1204",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "자잘하다"
       ],
@@ -21392,7 +21392,7 @@
     {
       "standard_raw": "도저히",
       "jeju_forms": [
-        "시",
+        "ᄂᆞ시",
         "다글다글"
       ],
       "definition": "남이 말려도 듣지 않고 기어이. 1) 곧 걷기 시작한 어린아이가 서툴고 재게 걸어가는 모양. 2) 물건이 굴러가는 모습.",
@@ -21401,7 +21401,7 @@
       "chapter_no": 4,
       "pdf_page": 145,
       "id": "jbv2025-1228",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "도저히"
       ],
@@ -21584,7 +21584,7 @@
     {
       "standard_raw": "바짝",
       "jeju_forms": [
-        "끈"
+        "ᄇᆞ끈"
       ],
       "definition": "매우 가까이 달라붙거나 죄는 모양.",
       "level": "고급",
@@ -21592,7 +21592,7 @@
       "chapter_no": 4,
       "pdf_page": 146,
       "id": "jbv2025-1239",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "바짝"
       ],
@@ -21601,7 +21601,7 @@
     {
       "standard_raw": "바동바동",
       "jeju_forms": [
-        "들랑들랑",
+        "ᄇᆞ들랑ᄇᆞ들랑",
         "솜빡",
         "숨빡"
       ],
@@ -21611,7 +21611,7 @@
       "chapter_no": 4,
       "pdf_page": 146,
       "id": "jbv2025-1240",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "바동바동"
       ],
@@ -21838,7 +21838,7 @@
     {
       "standard_raw": "펄펄",
       "jeju_forms": [
-        "뜰뜰",
+        "ᄑᆞ뜰ᄑᆞ뜰",
         "헤삭헤삭",
         "화륵화륵"
       ],
@@ -21848,7 +21848,7 @@
       "chapter_no": 4,
       "pdf_page": 149,
       "id": "jbv2025-1253",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [
         "펄펄"
       ],
