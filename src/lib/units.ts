@@ -27,6 +27,10 @@ export type Word = {
   reviewStatus?: ReviewStatus;
   /** 공식 발음 파일이 실제로 존재하는지. 없으면 듣기 문제를 만들지 않는다. */
   hasAudio?: boolean;
+  /** true면 아직 예문을 안 붙였다는 뜻(examples가 비어 있음) — 화면에 "예문 준비중" 표시용. */
+  pendingExample?: boolean;
+  /** true면 표제어에 PUA 문자가 섞여 있어 일부 글꼴에서 깨져 보일 수 있음. */
+  containsPua?: boolean;
 };
 
 export type Unit = {

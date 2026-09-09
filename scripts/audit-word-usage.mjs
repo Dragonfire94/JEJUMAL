@@ -265,7 +265,7 @@ function main() {
   const byTier = { confirmed: [], rare: [], unconfirmed: [] };
   for (const r of rows) byTier[r.tier].push(r);
 
-  console.log(`# 1,000단어 실사용 근거 감사\n`);
+  console.log(`# ${lexemes.length}단어 실사용 근거 감사\n`);
   console.log(`- confirmed(말뭉치 원형 3회 이상, 합계 5회 이상, 또는 생활방언 등장): ${byTier.confirmed.length}`);
   console.log(`- rare(말뭉치 원형+활용형 합계 1~4회): ${byTier.rare.length}`);
   console.log(`- unconfirmed(둘 다 0회 — 사전에만 있음): ${byTier.unconfirmed.length}`);
