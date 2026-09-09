@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T16:14:29.229Z",
+  "generatedAt": "2026-09-09T16:37:33.860Z",
   "method": [
     "AI Hub 방언 대화 말뭉치(524,406문장)에서 정확히 일치하는 토큰의 등장 횟수 — 단, 그 토큰이 매핑된 표준어 중 표제어 뜻과 통하는 것만 센다(동형이의어 오염 방지, 1글자 뜻은 완전일치만 인정)",
     "조사/어미가 붙은 형태(명사는 표제어+최대 3글자, 용언은 어간+최대 6글자)도 같은 방식으로 뜻이 통할 때만 활용형으로 인정",
@@ -11,9 +11,9 @@
   "caveat": "말뭉치는 5,638개 대화 파일(생활사·명절·결혼·관광 인터뷰 위주)로 화제가 한정돼 있고, 생활방언 100편 중 20편은 줄 수가 안 맞아 이 감사에서 제외했다(별개 문제, content/README-life-dialect.md 참고). 용언의 어간 기준 뜻 일치는 1~2글자 짧은 어간에서 동형이의어 오염 위험이 명사보다 크다(예: 서로 다른 단어가 같은 첫 음절로 시작하는 경우) — 완전히 배제하진 못했다. unconfirmed는 안 쓰인다는 증거가 아니라 이 두 자료로는 못 찾았다는 뜻이다. 이 결과만으로 단어를 지우거나 비노출 처리하지 않는다 — 후속 조사 대상 목록이다.",
   "summary": {
     "total": 1058,
-    "confirmed": 373,
+    "confirmed": 372,
     "rare": 173,
-    "unconfirmed": 512
+    "unconfirmed": 513
   },
   "rows": [
     {
@@ -3645,7 +3645,7 @@
     },
     {
       "seq": "90020",
-      "jeju": "단손",
+      "jeju": "ᄂᆞ단손",
       "standard": "오른손",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -3654,7 +3654,7 @@
     },
     {
       "seq": "90021",
-      "jeju": "단착",
+      "jeju": "ᄂᆞ단착",
       "standard": "오른쪽",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -3663,7 +3663,7 @@
     },
     {
       "seq": "90022",
-      "jeju": "단펜",
+      "jeju": "ᄂᆞ단펜",
       "standard": "오른편",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -3672,7 +3672,7 @@
     },
     {
       "seq": "90023",
-      "jeju": "멀",
+      "jeju": "ᄂᆞ멀",
       "standard": "나물",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -3861,7 +3861,7 @@
     },
     {
       "seq": "90044",
-      "jeju": "ᆞ슬",
+      "jeju": "ᄆᆞᆞ슬",
       "standard": "마을",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -3870,7 +3870,7 @@
     },
     {
       "seq": "90045",
-      "jeju": "슴",
+      "jeju": "ᄆᆞ슴",
       "standard": "마음",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -3924,7 +3924,7 @@
     },
     {
       "seq": "90051",
-      "jeju": "ᆞ름",
+      "jeju": "ᄇᆞᆞ름",
       "standard": "바람",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -4383,7 +4383,7 @@
     },
     {
       "seq": "90102",
-      "jeju": "",
+      "jeju": "ᄑᆞᆺ",
       "standard": "팥",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -4473,7 +4473,7 @@
     },
     {
       "seq": "90112",
-      "jeju": "ᆞ리",
+      "jeju": "ᄆᆞᆞ리",
       "standard": "마리",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -4905,7 +4905,7 @@
     },
     {
       "seq": "90160",
-      "jeju": "누다",
+      "jeju": "ᄂᆞ누다",
       "standard": "나누다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -4914,7 +4914,7 @@
     },
     {
       "seq": "90161",
-      "jeju": "려가다",
+      "jeju": "ᄂᆞ려가다",
       "standard": "내려가다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -4923,7 +4923,7 @@
     },
     {
       "seq": "90162",
-      "jeju": "려오다",
+      "jeju": "ᄂᆞ려오다",
       "standard": "내려오다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -4932,7 +4932,7 @@
     },
     {
       "seq": "90163",
-      "jeju": "리다",
+      "jeju": "ᄂᆞ리다",
       "standard": "내리다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -5022,7 +5022,7 @@
     },
     {
       "seq": "90173",
-      "jeju": "끄다",
+      "jeju": "ᄆᆞ끄다",
       "standard": "마치다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -5031,7 +5031,7 @@
     },
     {
       "seq": "90174",
-      "jeju": "르다¹",
+      "jeju": "ᄆᆞ르다¹",
       "standard": "마르다¹",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -5085,7 +5085,7 @@
     },
     {
       "seq": "90180",
-      "jeju": "르다",
+      "jeju": "ᄇᆞ르다",
       "standard": "바르다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -5544,7 +5544,7 @@
     },
     {
       "seq": "90231",
-      "jeju": "ᄒᆞ다",
+      "jeju": "ᄃᆞᆫᄃᆞᆫᄒᆞ다",
       "standard": "단단하다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -5580,7 +5580,7 @@
     },
     {
       "seq": "90235",
-      "jeju": "ᄒᆞ다",
+      "jeju": "ᄄᆞᄒᆞ다",
       "standard": "따뜻하다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -5625,7 +5625,7 @@
     },
     {
       "seq": "90240",
-      "jeju": "솝다",
+      "jeju": "ᄆᆞ솝다",
       "standard": "무섭다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -6048,7 +6048,7 @@
     },
     {
       "seq": "90287",
-      "jeju": "로",
+      "jeju": "ᄄᆞ로",
       "standard": "따로",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -6057,7 +6057,7 @@
     },
     {
       "seq": "90288",
-      "jeju": "시",
+      "jeju": "ᄄᆞ시",
       "standard": "다시",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -6435,7 +6435,7 @@
     },
     {
       "seq": "90330",
-      "jeju": "ᄀᆞ슬름",
+      "jeju": "ᄀᆞ슬ᄇᆞ름",
       "standard": "가을바람",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -6606,7 +6606,7 @@
     },
     {
       "seq": "90349",
-      "jeju": "물짐치",
+      "jeju": "ᄂᆞ물짐치",
       "standard": "배추김치",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -6768,7 +6768,7 @@
     },
     {
       "seq": "90367",
-      "jeju": "음세",
+      "jeju": "ᄆᆞ음세",
       "standard": "마음씨",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -6903,7 +6903,7 @@
     },
     {
       "seq": "90382",
-      "jeju": "비름",
+      "jeju": "비ᄇᆞ름",
       "standard": "비바람",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -6939,7 +6939,7 @@
     },
     {
       "seq": "90386",
-      "jeju": "사발물",
+      "jeju": "사발ᄂᆞ물",
       "standard": "양배추",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -7047,7 +7047,7 @@
     },
     {
       "seq": "90398",
-      "jeju": "신름",
+      "jeju": "신ᄇᆞ름",
       "standard": "심부름",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -7317,12 +7317,12 @@
     },
     {
       "seq": "90428",
-      "jeju": "둥이",
+      "jeju": "ᄌᆞᆫ둥이",
       "standard": "허리",
       "exactHits": 0,
       "inflectedHits": 0,
-      "lifeDialectHits": 1,
-      "tier": "confirmed"
+      "lifeDialectHits": 0,
+      "tier": "unconfirmed"
     },
     {
       "seq": "90429",
@@ -7812,7 +7812,7 @@
     },
     {
       "seq": "90483",
-      "jeju": "리우다",
+      "jeju": "ᄂᆞ리우다",
       "standard": "내리우다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -7947,7 +7947,7 @@
     },
     {
       "seq": "90498",
-      "jeju": "라가다",
+      "jeju": "ᄄᆞ라가다",
       "standard": "따라가다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -7956,7 +7956,7 @@
     },
     {
       "seq": "90499",
-      "jeju": "라오다",
+      "jeju": "ᄄᆞ라오다",
       "standard": "따라오다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -7965,7 +7965,7 @@
     },
     {
       "seq": "90500",
-      "jeju": "리다",
+      "jeju": "ᄄᆞ리다",
       "standard": "때리다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8424,7 +8424,7 @@
     },
     {
       "seq": "90551",
-      "jeju": "디다",
+      "jeju": "ᄌᆞᆫ디다",
       "standard": "견디다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8451,7 +8451,7 @@
     },
     {
       "seq": "90554",
-      "jeju": "리다",
+      "jeju": "ᄎᆞᆯ리다",
       "standard": "차리다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8586,7 +8586,7 @@
     },
     {
       "seq": "90569",
-      "jeju": "ᄒᆞ다",
+      "jeju": "ᄀᆞᆸᄀᆞᆸᄒᆞ다",
       "standard": "갑갑하다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8649,7 +8649,7 @@
     },
     {
       "seq": "90576",
-      "jeju": "실다",
+      "jeju": "ᄂᆞ실다",
       "standard": "날카롭다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8658,7 +8658,7 @@
     },
     {
       "seq": "90577",
-      "jeju": "찹다",
+      "jeju": "ᄂᆞ찹다",
       "standard": "낮다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8685,7 +8685,7 @@
     },
     {
       "seq": "90580",
-      "jeju": "직ᄒᆞ다",
+      "jeju": "ᄃᆞᆫ직ᄒᆞ다",
       "standard": "든직하다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8721,7 +8721,7 @@
     },
     {
       "seq": "90584",
-      "jeju": "나다",
+      "jeju": "ᄄᆞ나다",
       "standard": "다르다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8802,7 +8802,7 @@
     },
     {
       "seq": "90593",
-      "jeju": "렵다",
+      "jeju": "ᄆᆞ렵다",
       "standard": "마렵다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8856,7 +8856,7 @@
     },
     {
       "seq": "90599",
-      "jeju": "디다",
+      "jeju": "ᄇᆞ디다",
       "standard": "가깝다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -8865,7 +8865,7 @@
     },
     {
       "seq": "90600",
-      "jeju": "뜨다1",
+      "jeju": "ᄇᆞ뜨다1",
       "standard": "밭다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -9009,7 +9009,7 @@
     },
     {
       "seq": "90616",
-      "jeju": "지롱ᄒᆞ다",
+      "jeju": "ᄍᆞᆸ지롱ᄒᆞ다",
       "standard": "짭조름하다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -9045,7 +9045,7 @@
     },
     {
       "seq": "90620",
-      "jeju": "ᄒᆞ다",
+      "jeju": "ᄐᆞᆫᄐᆞᆫᄒᆞ다",
       "standard": "탄탄하다",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -9468,7 +9468,7 @@
     },
     {
       "seq": "90667",
-      "jeju": "",
+      "jeju": "ᄎᆞᄎᆞ",
       "standard": "차차",
       "exactHits": 0,
       "inflectedHits": 0,
@@ -9477,7 +9477,7 @@
     },
     {
       "seq": "90668",
-      "jeju": "",
+      "jeju": "ᄎᆞᆯᄎᆞᆯ",
       "standard": "찰찰",
       "exactHits": 0,
       "inflectedHits": 0,
