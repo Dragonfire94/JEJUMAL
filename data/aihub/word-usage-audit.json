@@ -1,17 +1,19 @@
 {
-  "generatedAt": "2026-09-06T23:44:50.189Z",
+  "generatedAt": "2026-09-09T11:06:38.879Z",
   "method": [
     "AI Hub 방언 대화 말뭉치(524,406문장)에서 정확히 일치하는 토큰의 등장 횟수 — 단, 그 토큰이 매핑된 표준어 중 표제어 뜻과 통하는 것만 센다(동형이의어 오염 방지, 1글자 뜻은 완전일치만 인정)",
-    "조사/어미가 붙은 형태(표제어+최대 3글자)도 같은 방식으로 뜻이 통할 때만 활용형으로 인정",
+    "조사/어미가 붙은 형태(명사는 표제어+최대 3글자, 용언은 어간+최대 6글자)도 같은 방식으로 뜻이 통할 때만 활용형으로 인정",
+    "용언(동사·형용사)은 표준어 쪽도 활용형으로 나오므로, 뜻 일치 검사에서 표제어의 어간으로 시작하는지도 함께 본다(\"짚다\"↔\"짚어서\")",
+    "괄호로 두 어간을 함께 적은 표제어(\"지프(짚으)다\")는 괄호 앞/안을 각각 어간으로 나눠 찾는다",
     "생활방언 100편(jeju.go.kr 공식 자료)에서 제주어 줄과 그 줄의 표준어 풀이가 정확히 대응하는 편만(80/100, 줄 수가 안 맞는 20편은 뜻 대응이 불가능해 제외) 같은 동형이의어 판정으로 확인",
-    "confirmed: 말뭉치 3회 이상 또는 생활방언 등장 / rare: 말뭉치 1~2회 / unconfirmed: 둘 다 0회"
+    "confirmed: 말뭉치 원형 3회 이상, 또는 원형+활용형 합계 5회 이상, 또는 생활방언 등장 / rare: 원형+활용형 합계 1~4회 / unconfirmed: 전부 0회"
   ],
-  "caveat": "말뭉치는 5,638개 대화 파일(생활사·명절·결혼·관광 인터뷰 위주)로 화제가 한정돼 있고, 생활방언 100편 중 20편은 줄 수가 안 맞아 이 감사에서 제외했다(별개 문제, content/README-life-dialect.md 참고). unconfirmed는 안 쓰인다는 증거가 아니라 이 두 자료로는 못 찾았다는 뜻이다. 이 결과만으로 단어를 지우거나 비노출 처리하지 않는다 — 후속 조사 대상 목록이다.",
+  "caveat": "말뭉치는 5,638개 대화 파일(생활사·명절·결혼·관광 인터뷰 위주)로 화제가 한정돼 있고, 생활방언 100편 중 20편은 줄 수가 안 맞아 이 감사에서 제외했다(별개 문제, content/README-life-dialect.md 참고). 용언의 어간 기준 뜻 일치는 1~2글자 짧은 어간에서 동형이의어 오염 위험이 명사보다 크다(예: 서로 다른 단어가 같은 첫 음절로 시작하는 경우) — 완전히 배제하진 못했다. unconfirmed는 안 쓰인다는 증거가 아니라 이 두 자료로는 못 찾았다는 뜻이다. 이 결과만으로 단어를 지우거나 비노출 처리하지 않는다 — 후속 조사 대상 목록이다.",
   "summary": {
     "total": 1000,
-    "confirmed": 213,
-    "rare": 83,
-    "unconfirmed": 704
+    "confirmed": 254,
+    "rare": 89,
+    "unconfirmed": 657
   },
   "rows": [
     {
@@ -3619,54 +3621,54 @@
       "jeju": "놓이다",
       "standard": "놓다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7144",
       "jeju": "페우다",
       "standard": "펴다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 3,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7085",
       "jeju": "익다",
       "standard": "읽다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 5,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7073",
       "jeju": "앚다",
       "standard": "앉다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 21,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7071",
       "jeju": "씨다",
       "standard": "쓰다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 7,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7061",
       "jeju": "싯다",
       "standard": "씻다",
       "exactHits": 0,
-      "inflectedHits": 2,
+      "inflectedHits": 20,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "6980",
@@ -3682,18 +3684,18 @@
       "jeju": "메다",
       "standard": "매다",
       "exactHits": 0,
-      "inflectedHits": 1,
+      "inflectedHits": 10,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "6930",
       "jeju": "들르다",
       "standard": "들다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 69,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "6919",
@@ -3727,9 +3729,9 @@
       "jeju": "불르다",
       "standard": "부르다",
       "exactHits": 1,
-      "inflectedHits": 2,
+      "inflectedHits": 123,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7107",
@@ -3745,34 +3747,34 @@
       "jeju": "몰르다",
       "standard": "모르다",
       "exactHits": 0,
-      "inflectedHits": 3,
+      "inflectedHits": 308,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7087",
       "jeju": "욜다",
       "standard": "열다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 10,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "6969",
       "jeju": "멘들다",
       "standard": "만들다",
       "exactHits": 0,
-      "inflectedHits": 2,
+      "inflectedHits": 12,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7052",
       "jeju": "쌉다",
       "standard": "싸우다",
       "exactHits": 1,
-      "inflectedHits": 11,
+      "inflectedHits": 60,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -3781,9 +3783,9 @@
       "jeju": "케다",
       "standard": "캐다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "6983",
@@ -3817,27 +3819,27 @@
       "jeju": "날르다",
       "standard": "나르다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 24,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "6879",
       "jeju": "나무래다",
       "standard": "나무라다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "6886",
       "jeju": "냉기다",
       "standard": "남기다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 7,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "6884",
@@ -3853,9 +3855,9 @@
       "jeju": "내불다",
       "standard": "내버리다",
       "exactHits": 0,
-      "inflectedHits": 2,
+      "inflectedHits": 90,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "6891",
@@ -3889,9 +3891,9 @@
       "jeju": "맽기다",
       "standard": "맡기다",
       "exactHits": 0,
-      "inflectedHits": 3,
+      "inflectedHits": 22,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "6961",
@@ -3916,9 +3918,9 @@
       "jeju": "메꾸다",
       "standard": "메우다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "6975",
@@ -3934,7 +3936,7 @@
       "jeju": "메우다",
       "standard": "모으다",
       "exactHits": 0,
-      "inflectedHits": 1,
+      "inflectedHits": 3,
       "lifeDialectHits": 0,
       "tier": "rare"
     },
@@ -3952,27 +3954,27 @@
       "jeju": "둥글다",
       "standard": "뒹굴다",
       "exactHits": 0,
-      "inflectedHits": 1,
+      "inflectedHits": 5,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7134",
       "jeju": "털어지다",
       "standard": "떨어지다",
       "exactHits": 0,
-      "inflectedHits": 1,
+      "inflectedHits": 33,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7014",
       "jeju": "벳기다",
       "standard": "벗기다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 4,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7011",
@@ -4006,18 +4008,18 @@
       "jeju": "밀리다",
       "standard": "밀다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 18,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7001",
       "jeju": "발르다",
       "standard": "바르다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 32,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7006",
@@ -4042,9 +4044,9 @@
       "jeju": "고찌다",
       "standard": "고치다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7111",
@@ -4078,18 +4080,18 @@
       "jeju": "지프(짚으)다",
       "standard": "짚다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 36,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7101",
       "jeju": "죄다",
       "standard": "쥐다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 2,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7100",
@@ -4123,36 +4125,36 @@
       "jeju": "얼리다",
       "standard": "얼다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7070",
       "jeju": "쏙다",
       "standard": "속다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 15,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7057",
       "jeju": "심다",
       "standard": "잡다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 79,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7056",
       "jeju": "시끄다",
       "standard": "싣다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 3,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7048",
@@ -4177,25 +4179,25 @@
       "jeju": "비다",
       "standard": "베다",
       "exactHits": 0,
-      "inflectedHits": 2,
+      "inflectedHits": 98,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7024",
       "jeju": "부트(붙으)다",
       "standard": "붙다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 977,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7017",
       "jeju": "봉그다",
       "standard": "줍다",
       "exactHits": 4,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4213,9 +4215,9 @@
       "jeju": "벋다",
       "standard": "뻗다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 2,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "6963",
@@ -4231,45 +4233,45 @@
       "jeju": "마트(맡으)다",
       "standard": "맡다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 213,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "6912",
       "jeju": "더끄다",
       "standard": "덮다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 5,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "6909",
       "jeju": "담다",
       "standard": "담그다",
       "exactHits": 0,
-      "inflectedHits": 3,
+      "inflectedHits": 49,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "6885",
       "jeju": "내치다",
       "standard": "뱉다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 3,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "6878",
       "jeju": "나끄(낚으)다",
       "standard": "낚다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 115,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "5903",
@@ -4294,18 +4296,18 @@
       "jeju": "흘치다",
       "standard": "흘리다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 10,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7153",
       "jeju": "흘르다",
       "standard": "흐르다",
       "exactHits": 0,
-      "inflectedHits": 2,
+      "inflectedHits": 8,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7151",
@@ -4366,9 +4368,9 @@
       "jeju": "질루다",
       "standard": "기르다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7105",
@@ -4402,18 +4404,18 @@
       "jeju": "적지다",
       "standard": "적시다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 5,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7086",
       "jeju": "입지다",
       "standard": "입히다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 6,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7084",
@@ -4429,18 +4431,18 @@
       "jeju": "용심나다",
       "standard": "성나다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 2,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7082",
       "jeju": "올르다",
       "standard": "오르다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 27,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7081",
@@ -4474,7 +4476,7 @@
       "jeju": "심들다",
       "standard": "힘들다",
       "exactHits": 3,
-      "inflectedHits": 5,
+      "inflectedHits": 7,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4483,9 +4485,9 @@
       "jeju": "시기다",
       "standard": "시키다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 6,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7053",
@@ -4510,25 +4512,25 @@
       "jeju": "설르다",
       "standard": "그만두다",
       "exactHits": 1,
-      "inflectedHits": 0,
+      "inflectedHits": 6,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7157",
       "jeju": "히다",
       "standard": "희다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7329",
       "jeju": "하다",
       "standard": "많다",
-      "exactHits": 13,
-      "inflectedHits": 25,
+      "exactHits": 14,
+      "inflectedHits": 2354,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4546,9 +4548,9 @@
       "jeju": "넙다",
       "standard": "넓다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 2,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7256",
@@ -4582,8 +4584,8 @@
       "jeju": "요망지다",
       "standard": "똑똑하다",
       "exactHits": 14,
-      "inflectedHits": 6,
-      "lifeDialectHits": 0,
+      "inflectedHits": 29,
+      "lifeDialectHits": 1,
       "tier": "confirmed"
     },
     {
@@ -4609,8 +4611,8 @@
       "jeju": "족다",
       "standard": "작다",
       "exactHits": 5,
-      "inflectedHits": 10,
-      "lifeDialectHits": 3,
+      "inflectedHits": 718,
+      "lifeDialectHits": 4,
       "tier": "confirmed"
     },
     {
@@ -4627,7 +4629,7 @@
       "jeju": "얼다",
       "standard": "춥다",
       "exactHits": 7,
-      "inflectedHits": 3,
+      "inflectedHits": 8,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4636,18 +4638,18 @@
       "jeju": "궂다",
       "standard": "나쁘다",
       "exactHits": 0,
-      "inflectedHits": 2,
+      "inflectedHits": 9,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7338",
       "jeju": "훍다",
       "standard": "굵다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 22,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7297",
@@ -4663,16 +4665,16 @@
       "jeju": "아깝다",
       "standard": "귀엽다",
       "exactHits": 2,
-      "inflectedHits": 3,
+      "inflectedHits": 7,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7248",
       "jeju": "실프다",
       "standard": "싫다",
       "exactHits": 11,
-      "inflectedHits": 14,
+      "inflectedHits": 71,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4681,7 +4683,7 @@
       "jeju": "달르다",
       "standard": "다르다",
       "exactHits": 3,
-      "inflectedHits": 0,
+      "inflectedHits": 36,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4717,9 +4719,9 @@
       "jeju": "베다",
       "standard": "무겁다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 2,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7188",
@@ -4735,9 +4737,9 @@
       "jeju": "보드랍다",
       "standard": "부드럽다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7179",
@@ -4771,9 +4773,9 @@
       "jeju": "쎄다",
       "standard": "세다",
       "exactHits": 0,
-      "inflectedHits": 2,
+      "inflectedHits": 33,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "7215",
@@ -4798,7 +4800,7 @@
       "jeju": "질다",
       "standard": "길다",
       "exactHits": 3,
-      "inflectedHits": 0,
+      "inflectedHits": 198,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4807,16 +4809,16 @@
       "jeju": "역다",
       "standard": "약다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7264",
       "jeju": "엇다",
       "standard": "없다",
-      "exactHits": 15,
-      "inflectedHits": 31,
+      "exactHits": 16,
+      "inflectedHits": 199,
       "lifeDialectHits": 0,
       "tier": "confirmed"
     },
@@ -4825,9 +4827,9 @@
       "jeju": "노프(높으)다",
       "standard": "높다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 251,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "confirmed"
     },
     {
       "seq": "7336",
@@ -4852,18 +4854,18 @@
       "jeju": "졸바르다",
       "standard": "바르다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7265",
       "jeju": "엉기다",
       "standard": "성기다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 1,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7247",
@@ -4879,7 +4881,7 @@
       "jeju": "벨나다",
       "standard": "별나다",
       "exactHits": 0,
-      "inflectedHits": 1,
+      "inflectedHits": 2,
       "lifeDialectHits": 0,
       "tier": "rare"
     },
@@ -4888,9 +4890,9 @@
       "jeju": "버치다",
       "standard": "버겁다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 2,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7189",
@@ -4915,9 +4917,9 @@
       "jeju": "푸지다",
       "standard": "푸짐하다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 4,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7298",
@@ -4933,9 +4935,9 @@
       "jeju": "부치럽다",
       "standard": "부끄럽다",
       "exactHits": 0,
-      "inflectedHits": 0,
+      "inflectedHits": 4,
       "lifeDialectHits": 0,
-      "tier": "unconfirmed"
+      "tier": "rare"
     },
     {
       "seq": "7195",
@@ -5124,7 +5126,7 @@
       "exactHits": 2,
       "inflectedHits": 3,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "5004",
@@ -7482,7 +7484,7 @@
       "exactHits": 2,
       "inflectedHits": 3,
       "lifeDialectHits": 0,
-      "tier": "rare"
+      "tier": "confirmed"
     },
     {
       "seq": "2138",
