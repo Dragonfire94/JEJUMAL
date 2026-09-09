@@ -468,18 +468,18 @@
         "hasAudio": true
       },
       {
-        "seq": "448",
-        "jeju": "늑신이",
-        "standard": "늙은이",
-        "soundUrl": "/audio/448.mp3",
+        "seq": "90002",
+        "jeju": "궨당",
+        "standard": "권당",
+        "soundUrl": "/audio/90002.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "마을 늑신이가 팽나무 그늘에서 쉬었어마씸.",
-            "standard": "마을 늙은이가 팽나무 그늘에서 쉬었어요."
+            "jeju": "이번 멩질에 궨당이 하영 왔수다.",
+            "standard": "이번 명절에 친척이 많이 왔어요."
           }
         ],
-        "hasAudio": true
+        "hasAudio": false
       },
       {
         "seq": "690",
@@ -943,18 +943,18 @@
         "hasAudio": true
       },
       {
-        "seq": "6733",
-        "jeju": "텟도독",
-        "standard": "떼도적",
-        "soundUrl": "/audio/6733.mp3",
+        "seq": "90003",
+        "jeju": "바깟",
+        "standard": "바깥",
+        "soundUrl": "/audio/90003.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "마을에 텟도독이 들어와 사람들이 경찰을 불렀어마씸.",
-            "standard": "마을에 떼도적이 들어와 사람들이 경찰을 불렀어요."
+            "jeju": "아이가 바깟에서 놀암수다.",
+            "standard": "아이가 바깥에서 놀고 있어요."
           }
         ],
-        "hasAudio": true
+        "hasAudio": false
       },
       {
         "seq": "6727",
@@ -1078,18 +1078,18 @@
         "hasAudio": true
       },
       {
-        "seq": "6676",
-        "jeju": "하리비",
-        "standard": "할애비",
-        "soundUrl": "/audio/6676.mp3",
+        "seq": "90005",
+        "jeju": "드르",
+        "standard": "들",
+        "soundUrl": "/audio/90005.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "하리비가 손자를 무릎에 앉히고 노래를 불렀어마씸.",
-            "standard": "할애비가 손자를 무릎에 앉히고 노래를 불렀어요."
+            "jeju": "드르에 곡식이 익엄수다.",
+            "standard": "들에 곡식이 익어가요."
           }
         ],
-        "hasAudio": true
+        "hasAudio": false
       },
       {
         "seq": "731",
@@ -1106,18 +1106,18 @@
         "hasAudio": true
       },
       {
-        "seq": "709",
-        "jeju": "앙토쟁이",
-        "standard": "미장이",
-        "soundUrl": "/audio/709.mp3",
+        "seq": "90004",
+        "jeju": "벳",
+        "standard": "볕",
+        "soundUrl": "/audio/90004.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "앙토쟁이가 흙벽의 갈라진 틈을 매끈하게 메웠어마씸.",
-            "standard": "미장이가 흙벽의 갈라진 틈을 매끈하게 메웠어요."
+            "jeju": "오늘은 벳이 하영 좋수다.",
+            "standard": "오늘은 볕이 아주 좋아요."
           }
         ],
-        "hasAudio": true
+        "hasAudio": false
       },
       {
         "seq": "654",
@@ -11840,18 +11840,18 @@
         "hasAudio": true
       },
       {
-        "seq": "4962",
-        "jeju": "매기",
-        "standard": "매미",
-        "soundUrl": "/audio/4962.mp3",
+        "seq": "90001",
+        "jeju": "벵원",
+        "standard": "병원",
+        "soundUrl": "/audio/90001.mp3",
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "매기가 나무줄기에 붙어 크게 울었어마씸.",
-            "standard": "매미가 나무줄기에 붙어 크게 울었어요."
+            "jeju": "몸이 아파서 벵원에 감수다.",
+            "standard": "몸이 아파서 병원에 갑니다."
           }
         ],
-        "hasAudio": true
+        "hasAudio": false
       },
       {
         "seq": "4932",
