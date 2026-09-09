@@ -770,14 +770,13 @@
       },
       {
         "seq": "90129",
-        "jeju": "ᆞ나",
+        "jeju": "ᄒᆞᆞ나",
         "standard": "하나",
         "soundUrl": "/audio/90129.mp3",
         "partOfSpeech": "pronoun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -811,7 +810,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -823,7 +821,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -1083,14 +1080,13 @@
       },
       {
         "seq": "90460",
-        "jeju": "대슷",
+        "jeju": "대ᄋᆞ슷",
         "standard": "대여섯",
         "soundUrl": "/audio/90460.mp3",
         "partOfSpeech": "number",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -1102,7 +1098,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -1130,7 +1125,7 @@
       },
       {
         "seq": "90462",
-        "jeju": "일고답",
+        "jeju": "일고ᄋᆞ답",
         "standard": "일고여덟",
         "soundUrl": "/audio/90462.mp3",
         "partOfSpeech": "number",
@@ -1142,26 +1137,24 @@
       },
       {
         "seq": "90463",
-        "jeju": "남은",
+        "jeju": "ᄋᆞ남은",
         "standard": "여남은",
         "soundUrl": "/audio/90463.mp3",
         "partOfSpeech": "number",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90464",
-        "jeju": "든",
+        "jeju": "ᄋᆞ든",
         "standard": "여든",
         "soundUrl": "/audio/90464.mp3",
         "partOfSpeech": "number",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -1210,14 +1203,13 @@
       },
       {
         "seq": "90012",
-        "jeju": "곤",
+        "jeju": "곤ᄊᆞᆯ",
         "standard": "흰쌀",
         "soundUrl": "/audio/90012.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -1256,26 +1248,24 @@
       },
       {
         "seq": "90014",
-        "jeju": "세",
+        "jeju": "ᄀᆞ세",
         "standard": "가위",
         "soundUrl": "/audio/90014.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90015",
-        "jeju": "슬",
+        "jeju": "ᄀᆞ슬",
         "standard": "가을",
         "soundUrl": "/audio/90015.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -1733,38 +1723,35 @@
       },
       {
         "seq": "90284",
-        "jeju": "득",
+        "jeju": "ᄀᆞ득",
         "standard": "가득",
         "soundUrl": "/audio/90284.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90285",
-        "jeju": "만이",
+        "jeju": "ᄀᆞ만이",
         "standard": "가만히",
         "soundUrl": "/audio/90285.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90286",
-        "jeju": "찌",
+        "jeju": "ᄀᆞ찌",
         "standard": "같이",
         "soundUrl": "/audio/90286.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -1816,26 +1803,24 @@
       },
       {
         "seq": "90289",
-        "jeju": "딱",
+        "jeju": "ᄆᆞᆫ딱",
         "standard": "전부",
         "soundUrl": "/audio/90289.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90290",
-        "jeju": "저",
+        "jeju": "ᄆᆞᆫ저",
         "standard": "먼저",
         "soundUrl": "/audio/90290.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -1851,14 +1836,13 @@
       },
       {
         "seq": "90292",
-        "jeju": "써",
+        "jeju": "ᄇᆞᆯ써",
         "standard": "벌써",
         "soundUrl": "/audio/90292.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -2123,62 +2107,57 @@
       },
       {
         "seq": "90301",
-        "jeju": "주",
+        "jeju": "ᄌᆞ주",
         "standard": "자주",
         "soundUrl": "/audio/90301.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90302",
-        "jeju": "1",
+        "jeju": "ᄎᆞᆷ1",
         "standard": "참",
         "soundUrl": "/audio/90302.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90303",
-        "jeju": "꼼",
+        "jeju": "ᄒᆞ꼼",
         "standard": "조금",
         "soundUrl": "/audio/90303.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90304",
-        "jeju": "꼼썩",
+        "jeju": "ᄒᆞ꼼썩",
         "standard": "조금씩",
         "soundUrl": "/audio/90304.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90305",
-        "jeju": "디",
+        "jeju": "ᄒᆞᆫ디",
         "standard": "함께",
         "soundUrl": "/audio/90305.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -2206,14 +2185,13 @@
       },
       {
         "seq": "90306",
-        "jeju": "저",
+        "jeju": "ᄒᆞᆫ저",
         "standard": "어서",
         "soundUrl": "/audio/90306.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -2697,14 +2675,13 @@
       },
       {
         "seq": "90647",
-        "jeju": "못",
+        "jeju": "ᄉ못",
         "standard": "사뭇",
         "soundUrl": "/audio/90647.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -2814,38 +2791,35 @@
       },
       {
         "seq": "90024",
-        "jeju": "",
+        "jeju": "ᄂᆞᆷ",
         "standard": "남",
         "soundUrl": "/audio/90024.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90025",
-        "jeju": "삐",
+        "jeju": "ᄂᆞᆷ삐",
         "standard": "무",
         "soundUrl": "/audio/90025.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90026",
-        "jeju": "",
+        "jeju": "ᄂᆞᆺ",
         "standard": "낯",
         "soundUrl": "/audio/90026.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -2896,74 +2870,68 @@
       },
       {
         "seq": "90029",
-        "jeju": "리",
+        "jeju": "ᄃᆞ리",
         "standard": "다리",
         "soundUrl": "/audio/90029.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90030",
-        "jeju": "",
+        "jeju": "ᄃᆞᆰ",
         "standard": "닭",
         "soundUrl": "/audio/90030.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90031",
-        "jeju": "세기",
+        "jeju": "ᄃᆞᆰ세기",
         "standard": "달걀",
         "soundUrl": "/audio/90031.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90032",
-        "jeju": "1",
+        "jeju": "ᄃᆞᆯ1",
         "standard": "달",
         "soundUrl": "/audio/90032.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90033",
-        "jeju": "",
+        "jeju": "ᄄᆞᆯ",
         "standard": "딸",
         "soundUrl": "/audio/90033.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90034",
-        "jeju": "",
+        "jeju": "ᄄᆞᆷ",
         "standard": "땀",
         "soundUrl": "/audio/90034.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3020,7 +2988,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3069,14 +3036,13 @@
       },
       {
         "seq": "90042",
-        "jeju": "모",
+        "jeju": "모ᄌᆞ",
         "standard": "모자",
         "soundUrl": "/audio/90042.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3179,14 +3145,13 @@
       },
       {
         "seq": "90047",
-        "jeju": "셍이",
+        "jeju": "ᄆᆞᆼ셍이",
         "standard": "망아지",
         "soundUrl": "/audio/90047.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3245,14 +3210,13 @@
     "words": [
       {
         "seq": "90052",
-        "jeju": "래",
+        "jeju": "ᄈᆞᆯ래",
         "standard": "빨래",
         "soundUrl": "/audio/90052.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3379,50 +3343,46 @@
       },
       {
         "seq": "90062",
-        "jeju": "ᆞ미",
+        "jeju": "ᄉᆞ미",
         "standard": "소매",
         "soundUrl": "/audio/90062.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90063",
-        "jeju": "ᆞ이",
+        "jeju": "ᄉᆞ이",
         "standard": "사이",
         "soundUrl": "/audio/90063.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90064",
-        "jeju": "ᆞ춘",
+        "jeju": "ᄉᆞ춘",
         "standard": "사촌",
         "soundUrl": "/audio/90064.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90065",
-        "jeju": "1",
+        "jeju": "ᄉᆞᆯ1",
         "standard": "살",
         "soundUrl": "/audio/90065.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3460,14 +3420,13 @@
       },
       {
         "seq": "90069",
-        "jeju": "",
+        "jeju": "ᄊᆞᆯ",
         "standard": "쌀",
         "soundUrl": "/audio/90069.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3479,7 +3438,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -3589,7 +3547,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3716,14 +3673,13 @@
       },
       {
         "seq": "90084",
-        "jeju": "름",
+        "jeju": "ᄋᆞ름",
         "standard": "여름",
         "soundUrl": "/audio/90084.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3787,14 +3743,13 @@
       },
       {
         "seq": "90087",
-        "jeju": "족은",
+        "jeju": "족은ᄄᆞᆯ",
         "standard": "막내딸",
         "soundUrl": "/audio/90087.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3821,14 +3776,13 @@
       },
       {
         "seq": "90090",
-        "jeju": "좁",
+        "jeju": "좁ᄊᆞᆯ",
         "standard": "좁쌀",
         "soundUrl": "/audio/90090.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3855,14 +3809,13 @@
       },
       {
         "seq": "90093",
-        "jeju": "석",
+        "jeju": "ᄌᆞ석",
         "standard": "자식",
         "soundUrl": "/audio/90093.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -3904,14 +3857,13 @@
       },
       {
         "seq": "90094",
-        "jeju": "",
+        "jeju": "ᄌᆞᆷ",
         "standard": "잠",
         "soundUrl": "/audio/90094.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3927,14 +3879,13 @@
       },
       {
         "seq": "90096",
-        "jeju": "큰",
+        "jeju": "큰ᄄᆞᆯ",
         "standard": "큰딸",
         "soundUrl": "/audio/90096.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3961,14 +3912,13 @@
       },
       {
         "seq": "90099",
-        "jeju": "",
+        "jeju": "ᄐᆞᆨ",
         "standard": "턱",
         "soundUrl": "/audio/90099.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -3984,14 +3934,13 @@
       },
       {
         "seq": "90101",
-        "jeju": "",
+        "jeju": "ᄑᆞᆯ",
         "standard": "팔",
         "soundUrl": "/audio/90101.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -4105,31 +4054,28 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90105",
-        "jeju": "루",
+        "jeju": "ᄒᆞ루",
         "standard": "하루",
         "soundUrl": "/audio/90105.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90106",
-        "jeju": "잔",
+        "jeju": "ᄒᆞᆫ잔",
         "standard": "한잔",
         "soundUrl": "/audio/90106.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -4227,14 +4173,13 @@
       },
       {
         "seq": "90107",
-        "jeju": "착",
+        "jeju": "ᄒᆞᆫ착",
         "standard": "한쪽",
         "soundUrl": "/audio/90107.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -4250,14 +4195,13 @@
       },
       {
         "seq": "90109",
-        "jeju": "2",
+        "jeju": "ᄃᆞᆯ2",
         "standard": "달",
         "soundUrl": "/audio/90109.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -4393,7 +4337,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -4521,14 +4464,13 @@
       },
       {
         "seq": "90322",
-        "jeju": "고칫루",
+        "jeju": "고칫ᄀᆞ루",
         "standard": "고춧가루",
         "soundUrl": "/audio/90322.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -4600,43 +4542,40 @@
       },
       {
         "seq": "90327",
-        "jeju": "루",
+        "jeju": "ᄀᆞ루",
         "standard": "가루",
         "soundUrl": "/audio/90327.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90328",
-        "jeju": "뭄",
+        "jeju": "ᄀᆞ뭄",
         "standard": "가뭄",
         "soundUrl": "/audio/90328.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90329",
-        "jeju": "슬비",
+        "jeju": "ᄀᆞ슬비",
         "standard": "가을비",
         "soundUrl": "/audio/90329.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90330",
-        "jeju": "슬름",
+        "jeju": "ᄀᆞ슬름",
         "standard": "가을바람",
         "soundUrl": "/audio/90330.mp3",
         "partOfSpeech": "noun",
@@ -4903,14 +4842,13 @@
       },
       {
         "seq": "90347",
-        "jeju": "눈공",
+        "jeju": "눈공ᄌᆞ",
         "standard": "눈동자",
         "soundUrl": "/audio/90347.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -4947,26 +4885,24 @@
       },
       {
         "seq": "90350",
-        "jeju": "개",
+        "jeju": "ᄂᆞᆯ개",
         "standard": "날개",
         "soundUrl": "/audio/90350.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90351",
-        "jeju": "삐짐치",
+        "jeju": "ᄂᆞᆷ삐짐치",
         "standard": "무김치",
         "soundUrl": "/audio/90351.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -5096,26 +5032,24 @@
       },
       {
         "seq": "90360",
-        "jeju": "벵이",
+        "jeju": "ᄃᆞᆯ벵이",
         "standard": "달팽이",
         "soundUrl": "/audio/90360.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90361",
-        "jeju": "을락",
+        "jeju": "ᄃᆞᆯ을락",
         "standard": "달리기",
         "soundUrl": "/audio/90361.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -5224,26 +5158,24 @@
       },
       {
         "seq": "90368",
-        "jeju": "지",
+        "jeju": "ᄆᆞᆫ지",
         "standard": "먼지",
         "soundUrl": "/audio/90368.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90369",
-        "jeju": "이",
+        "jeju": "ᄆᆞᆮ이",
         "standard": "맏이",
         "soundUrl": "/audio/90369.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -5546,38 +5478,35 @@
       },
       {
         "seq": "90143",
-        "jeju": "르치다",
+        "jeju": "ᄀᆞ르치다",
         "standard": "가르치다",
         "soundUrl": "/audio/90143.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90144",
-        "jeju": "르키다",
+        "jeju": "ᄀᆞ르키다",
         "standard": "가리키다",
         "soundUrl": "/audio/90144.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90145",
-        "jeju": "ᆞ져가다",
+        "jeju": "ᄀᆞᆞ져가다",
         "standard": "가져가다",
         "soundUrl": "/audio/90145.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -5647,19 +5576,18 @@
       },
       {
         "seq": "90146",
-        "jeju": "져오다",
+        "jeju": "ᄀᆞ져오다",
         "standard": "가져오다",
         "soundUrl": "/audio/90146.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90147",
-        "jeju": "ᆞ지다",
+        "jeju": "ᄀᆞᆞ지다",
         "standard": "가지다",
         "soundUrl": "/audio/90147.mp3",
         "partOfSpeech": "verb",
@@ -5671,14 +5599,13 @@
       },
       {
         "seq": "90148",
-        "jeju": "다",
+        "jeju": "ᄀᆞᆮ다",
         "standard": "말하다",
         "soundUrl": "/audio/90148.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -6108,14 +6035,13 @@
       },
       {
         "seq": "90164",
-        "jeju": "다",
+        "jeju": "ᄂᆞᆯ다",
         "standard": "날다",
         "soundUrl": "/audio/90164.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -6526,14 +6452,13 @@
       },
       {
         "seq": "90175",
-        "jeju": "지다",
+        "jeju": "ᄆᆞᆫ지다",
         "standard": "만지다",
         "soundUrl": "/audio/90175.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -6673,14 +6598,13 @@
       },
       {
         "seq": "90181",
-        "jeju": "다",
+        "jeju": "ᄈᆞᆯ다",
         "standard": "빨다",
         "soundUrl": "/audio/90181.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -6789,38 +6713,35 @@
       },
       {
         "seq": "90220",
-        "jeju": "경다",
+        "jeju": "경ᄒᆞ다",
         "standard": "그러하다",
         "soundUrl": "/audio/90220.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90221",
-        "jeju": "곱닥다",
+        "jeju": "곱닥ᄒᆞ다",
         "standard": "곱다",
         "soundUrl": "/audio/90221.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90222",
-        "jeju": "늘다",
+        "jeju": "ᄀᆞ늘다",
         "standard": "가늘다",
         "soundUrl": "/audio/90222.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -6946,26 +6867,24 @@
       },
       {
         "seq": "90223",
-        "jeju": "뜨다",
+        "jeju": "ᄀᆞ뜨다",
         "standard": "같다",
         "soundUrl": "/audio/90223.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90224",
-        "jeju": "까망다",
+        "jeju": "까망ᄒᆞ다",
         "standard": "까맣다",
         "soundUrl": "/audio/90224.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -7049,26 +6968,24 @@
       },
       {
         "seq": "90225",
-        "jeju": "꺼멍다",
+        "jeju": "꺼멍ᄒᆞ다",
         "standard": "꺼멓다",
         "soundUrl": "/audio/90225.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90226",
-        "jeju": "노랑다",
+        "jeju": "노랑ᄒᆞ다",
         "standard": "노랗다",
         "soundUrl": "/audio/90226.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -7084,26 +7001,24 @@
       },
       {
         "seq": "90228",
-        "jeju": "누렁다",
+        "jeju": "누렁ᄒᆞ다",
         "standard": "누렇다",
         "soundUrl": "/audio/90228.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90229",
-        "jeju": "다",
+        "jeju": "ᄂᆞᆽ다",
         "standard": "낮다",
         "soundUrl": "/audio/90229.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -7240,7 +7155,7 @@
       },
       {
         "seq": "90231",
-        "jeju": "다",
+        "jeju": "ᄒᆞ다",
         "standard": "단단하다",
         "soundUrl": "/audio/90231.mp3",
         "partOfSpeech": "adjective",
@@ -7317,43 +7232,40 @@
       },
       {
         "seq": "90232",
-        "jeju": "다1",
+        "jeju": "ᄃᆞᆯ다1",
         "standard": "달다",
         "soundUrl": "/audio/90232.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90233",
-        "jeju": "코롬다",
+        "jeju": "ᄃᆞᆯ코롬ᄒᆞ다",
         "standard": "달콤하다",
         "soundUrl": "/audio/90233.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90234",
-        "jeju": "똑트다",
+        "jeju": "똑ᄀᆞ트다",
         "standard": "똑같다",
         "soundUrl": "/audio/90234.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90235",
-        "jeju": "다",
+        "jeju": "ᄒᆞ다",
         "standard": "따뜻하다",
         "soundUrl": "/audio/90235.mp3",
         "partOfSpeech": "adjective",
@@ -7365,14 +7277,13 @@
       },
       {
         "seq": "90236",
-        "jeju": "만다",
+        "jeju": "만ᄒᆞ다",
         "standard": "많다",
         "soundUrl": "/audio/90236.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -7450,14 +7361,13 @@
       },
       {
         "seq": "90239",
-        "jeju": "못다",
+        "jeju": "못ᄒᆞ다",
         "standard": "못하다",
         "soundUrl": "/audio/90239.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -7474,26 +7384,24 @@
       },
       {
         "seq": "90241",
-        "jeju": "다",
+        "jeju": "ᄆᆞᆰ다",
         "standard": "맑다",
         "soundUrl": "/audio/90241.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90242",
-        "jeju": "벌겅다",
+        "jeju": "벌겅ᄒᆞ다",
         "standard": "벌겋다",
         "soundUrl": "/audio/90242.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -7939,62 +7847,57 @@
     "words": [
       {
         "seq": "90245",
-        "jeju": "불펜다",
+        "jeju": "불펜ᄒᆞ다",
         "standard": "불편하다",
         "soundUrl": "/audio/90245.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90246",
-        "jeju": "다",
+        "jeju": "ᄇᆞᆰ다",
         "standard": "밝다",
         "soundUrl": "/audio/90246.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90247",
-        "jeju": "빨강다",
+        "jeju": "빨강ᄒᆞ다",
         "standard": "빨갛다",
         "soundUrl": "/audio/90247.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90248",
-        "jeju": "뻘겅다",
+        "jeju": "뻘겅ᄒᆞ다",
         "standard": "뻘겋다",
         "soundUrl": "/audio/90248.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90249",
-        "jeju": "르다",
+        "jeju": "ᄈᆞ르다",
         "standard": "빠르다",
         "soundUrl": "/audio/90249.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8021,14 +7924,13 @@
       },
       {
         "seq": "90252",
-        "jeju": "씨원다",
+        "jeju": "씨원ᄒᆞ다",
         "standard": "시원하다",
         "soundUrl": "/audio/90252.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8276,38 +8178,35 @@
       },
       {
         "seq": "90399",
-        "jeju": "라기눈",
+        "jeju": "ᄉ라기눈",
         "standard": "싸라기눈",
         "soundUrl": "/audio/90399.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90400",
-        "jeju": "방",
+        "jeju": "ᄉ방",
         "standard": "사방",
         "soundUrl": "/audio/90400.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90401",
-        "jeju": "투리",
+        "jeju": "ᄉ투리",
         "standard": "사투리",
         "soundUrl": "/audio/90401.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -8377,14 +8276,13 @@
       },
       {
         "seq": "90402",
-        "jeju": "키",
+        "jeju": "ᄉᆞᆼ키",
         "standard": "푸성귀",
         "soundUrl": "/audio/90402.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8400,14 +8298,13 @@
       },
       {
         "seq": "90404",
-        "jeju": "암",
+        "jeju": "암ᄐᆞᆨ",
         "standard": "암탉",
         "soundUrl": "/audio/90404.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8563,14 +8460,13 @@
       },
       {
         "seq": "90409",
-        "jeju": "드레",
+        "jeju": "ᄋᆞ드레",
         "standard": "여드레",
         "soundUrl": "/audio/90409.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8649,7 +8545,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8661,7 +8556,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8673,7 +8567,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8764,50 +8657,46 @@
       },
       {
         "seq": "90424",
-        "jeju": "껭이",
+        "jeju": "ᄌᆞ껭이",
         "standard": "겨드랑이",
         "soundUrl": "/audio/90424.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90425",
-        "jeju": "끗",
+        "jeju": "ᄌᆞ끗",
         "standard": "곁",
         "soundUrl": "/audio/90425.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90426",
-        "jeju": "록",
+        "jeju": "ᄌᆞ록",
         "standard": "자루",
         "soundUrl": "/audio/90426.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90427",
-        "jeju": "신",
+        "jeju": "ᄌᆞ신",
         "standard": "자신",
         "soundUrl": "/audio/90427.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8824,14 +8713,13 @@
       },
       {
         "seq": "90429",
-        "jeju": "녀",
+        "jeju": "ᄌᆞᆷ녀",
         "standard": "해녀",
         "soundUrl": "/audio/90429.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -8880,7 +8768,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8896,14 +8783,13 @@
       },
       {
         "seq": "90432",
-        "jeju": "초루",
+        "jeju": "초ᄒᆞ루",
         "standard": "초하루",
         "soundUrl": "/audio/90432.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -8920,26 +8806,24 @@
       },
       {
         "seq": "90434",
-        "jeju": "생이",
+        "jeju": "ᄎᆞᆷ생이",
         "standard": "참새",
         "soundUrl": "/audio/90434.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90435",
-        "jeju": "지름",
+        "jeju": "ᄎᆞᆷ지름",
         "standard": "참기름",
         "soundUrl": "/audio/90435.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -9008,14 +8892,13 @@
       },
       {
         "seq": "90441",
-        "jeju": "굽지",
+        "jeju": "ᄑᆞᆯ굽지",
         "standard": "팔꿈치",
         "soundUrl": "/audio/90441.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -9300,14 +9183,13 @@
       },
       {
         "seq": "90186",
-        "jeju": "다",
+        "jeju": "ᄉᆞᆱ다",
         "standard": "삶다",
         "soundUrl": "/audio/90186.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -9413,26 +9295,24 @@
       },
       {
         "seq": "90648",
-        "jeju": "",
+        "jeju": "ᄉᆞᆯᄉᆞᆯ",
         "standard": "살살",
         "soundUrl": "/audio/90648.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90649",
-        "jeju": "째기",
+        "jeju": "ᄉᆞᆯ째기",
         "standard": "살짝",
         "soundUrl": "/audio/90649.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -9780,14 +9660,13 @@
       },
       {
         "seq": "90666",
-        "jeju": "근근",
+        "jeju": "ᄌᆞ근ᄌᆞ근",
         "standard": "차근차근",
         "soundUrl": "/audio/90666.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -9827,26 +9706,24 @@
       },
       {
         "seq": "90670",
-        "jeju": "치",
+        "jeju": "ᄒᆞᆷ치",
         "standard": "한꺼번에",
         "soundUrl": "/audio/90670.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90671",
-        "jeju": "거",
+        "jeju": "거ᄎᆞᆷ",
         "standard": "거참",
         "soundUrl": "/audio/90671.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -9858,7 +9735,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -9933,26 +9809,24 @@
       },
       {
         "seq": "90191",
-        "jeju": "다1",
+        "jeju": "ᄋᆞᆯ다1",
         "standard": "열다",
         "soundUrl": "/audio/90191.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90192",
-        "jeju": "다2",
+        "jeju": "ᄋᆞᆯ다2",
         "standard": "열다",
         "soundUrl": "/audio/90192.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -9979,14 +9853,13 @@
       },
       {
         "seq": "90195",
-        "jeju": "직ᆞ다",
+        "jeju": "직ᄒᆞᆞ다",
         "standard": "지키다",
         "soundUrl": "/audio/90195.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -10042,31 +9915,29 @@
       },
       {
         "seq": "90196",
-        "jeju": "르다",
+        "jeju": "ᄌᆞ르다",
         "standard": "자르다",
         "soundUrl": "/audio/90196.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90197",
-        "jeju": "미나다",
+        "jeju": "ᄌᆞ미나다",
         "standard": "재미나다",
         "soundUrl": "/audio/90197.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90198",
-        "jeju": "그다",
+        "jeju": "ᄌᆞᆷ그다",
         "standard": "잠그다",
         "soundUrl": "/audio/90198.mp3",
         "partOfSpeech": "verb",
@@ -10078,14 +9949,13 @@
       },
       {
         "seq": "90199",
-        "jeju": "들다",
+        "jeju": "ᄌᆞᆷ들다",
         "standard": "잠들다",
         "soundUrl": "/audio/90199.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -10146,62 +10016,57 @@
       },
       {
         "seq": "90203",
-        "jeju": "다",
+        "jeju": "ᄎᆞᆷ다",
         "standard": "참다",
         "soundUrl": "/audio/90203.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90204",
-        "jeju": "다",
+        "jeju": "ᄎᆞᆽ다",
         "standard": "찾다",
         "soundUrl": "/audio/90204.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90205",
-        "jeju": "아가다",
+        "jeju": "ᄎᆞᆽ아가다",
         "standard": "찾아가다",
         "soundUrl": "/audio/90205.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90206",
-        "jeju": "아보다",
+        "jeju": "ᄎᆞᆽ아보다",
         "standard": "찾아보다",
         "soundUrl": "/audio/90206.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90207",
-        "jeju": "아오다",
+        "jeju": "ᄎᆞᆽ아오다",
         "standard": "찾아오다",
         "soundUrl": "/audio/90207.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -10309,38 +10174,35 @@
       },
       {
         "seq": "90214",
-        "jeju": "다",
+        "jeju": "ᄑᆞᆯ다",
         "standard": "팔다",
         "soundUrl": "/audio/90214.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90215",
-        "jeju": "다",
+        "jeju": "ᄒᆞ다",
         "standard": "하다",
         "soundUrl": "/audio/90215.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90216",
-        "jeju": "가망다",
+        "jeju": "가망ᄒᆞ다",
         "standard": "가맣다",
         "soundUrl": "/audio/90216.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -10356,14 +10218,13 @@
       },
       {
         "seq": "90218",
-        "jeju": "거멍다",
+        "jeju": "거멍ᄒᆞ다",
         "standard": "거멓다",
         "soundUrl": "/audio/90218.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -10482,14 +10343,13 @@
       },
       {
         "seq": "90472",
-        "jeju": "금착다",
+        "jeju": "금착ᄒᆞ다",
         "standard": "깜짝하다",
         "soundUrl": "/audio/90472.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -10556,14 +10416,13 @@
       },
       {
         "seq": "90474",
-        "jeju": "물다",
+        "jeju": "ᄀᆞ물다",
         "standard": "가물다",
         "soundUrl": "/audio/90474.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -10914,14 +10773,13 @@
       },
       {
         "seq": "90484",
-        "jeju": "추다",
+        "jeju": "ᄂᆞᆽ추다",
         "standard": "낮추다",
         "soundUrl": "/audio/90484.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -11156,50 +11014,46 @@
       },
       {
         "seq": "90489",
-        "jeju": "투다",
+        "jeju": "ᄃᆞ투다",
         "standard": "다투다",
         "soundUrl": "/audio/90489.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90490",
-        "jeju": "다2",
+        "jeju": "ᄃᆞᆯ다2",
         "standard": "달다",
         "soundUrl": "/audio/90490.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90491",
-        "jeju": "다3",
+        "jeju": "ᄃᆞᆯ다3",
         "standard": "데리다",
         "soundUrl": "/audio/90491.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90492",
-        "jeju": "려가다",
+        "jeju": "ᄃᆞᆯ려가다",
         "standard": "달려가다",
         "soundUrl": "/audio/90492.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -11311,38 +11165,35 @@
       },
       {
         "seq": "90493",
-        "jeju": "려오다",
+        "jeju": "ᄃᆞᆯ려오다",
         "standard": "달려오다",
         "soundUrl": "/audio/90493.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90494",
-        "jeju": "아가다2",
+        "jeju": "ᄃᆞᆯ아가다2",
         "standard": "데려가다",
         "soundUrl": "/audio/90494.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90495",
-        "jeju": "아나다",
+        "jeju": "ᄃᆞᆯ아나다",
         "standard": "달아나다",
         "soundUrl": "/audio/90495.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -11454,26 +11305,24 @@
       },
       {
         "seq": "90496",
-        "jeju": "아메다",
+        "jeju": "ᄃᆞᆯ아메다",
         "standard": "달아매다",
         "soundUrl": "/audio/90496.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90497",
-        "jeju": "아오다2",
+        "jeju": "ᄃᆞᆯ아오다2",
         "standard": "데려오다",
         "soundUrl": "/audio/90497.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -11621,14 +11470,13 @@
       },
       {
         "seq": "90501",
-        "jeju": "르다1",
+        "jeju": "ᄄᆞᆯ르다1",
         "standard": "따르다",
         "soundUrl": "/audio/90501.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -11642,14 +11490,13 @@
     "words": [
       {
         "seq": "90502",
-        "jeju": "르다2",
+        "jeju": "ᄄᆞᆯ르다2",
         "standard": "뚫다",
         "soundUrl": "/audio/90502.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -11687,7 +11534,7 @@
       },
       {
         "seq": "90506",
-        "jeju": "말다",
+        "jeju": "말ᄀᆞᆮ다",
         "standard": "말하다",
         "soundUrl": "/audio/90506.mp3",
         "partOfSpeech": "verb",
@@ -11732,14 +11579,13 @@
       },
       {
         "seq": "90510",
-        "jeju": "멩심다",
+        "jeju": "멩심ᄒᆞ다",
         "standard": "명심하다",
         "soundUrl": "/audio/90510.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -12005,14 +11851,13 @@
       },
       {
         "seq": "90524",
-        "jeju": "르다2",
+        "jeju": "ᄇᆞᆯ르다2",
         "standard": "밟다",
         "soundUrl": "/audio/90524.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -12252,26 +12097,24 @@
       },
       {
         "seq": "90532",
-        "jeju": "지다",
+        "jeju": "ᄉᆞᆯ지다",
         "standard": "살찌다",
         "soundUrl": "/audio/90532.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90533",
-        "jeju": "피다",
+        "jeju": "ᄉᆞᆯ피다",
         "standard": "살피다",
         "soundUrl": "/audio/90533.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -12723,14 +12566,13 @@
       },
       {
         "seq": "90552",
-        "jeju": "다",
+        "jeju": "ᄌᆞᆸ다",
         "standard": "집다",
         "soundUrl": "/audio/90552.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -12837,38 +12679,35 @@
       },
       {
         "seq": "90560",
-        "jeju": "디다",
+        "jeju": "ᄒᆞᆫ디ᄒᆞ다",
         "standard": "함께하다",
         "soundUrl": "/audio/90560.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90561",
-        "jeju": "곧작다",
+        "jeju": "곧작ᄒᆞ다",
         "standard": "곧다",
         "soundUrl": "/audio/90561.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90562",
-        "jeju": "곱들락다",
+        "jeju": "곱들락ᄒᆞ다",
         "standard": "곱다랗다",
         "soundUrl": "/audio/90562.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -12891,7 +12730,6 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -12903,43 +12741,39 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90255",
-        "jeju": "어떵다",
+        "jeju": "어떵ᄒᆞ다",
         "standard": "어떠하다",
         "soundUrl": "/audio/90255.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90256",
-        "jeju": "영다",
+        "jeju": "영ᄒᆞ다",
         "standard": "이러하다",
         "soundUrl": "/audio/90256.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90257",
-        "jeju": "졍다",
+        "jeju": "졍ᄒᆞ다",
         "standard": "저러하다",
         "soundUrl": "/audio/90257.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       }
     ]
@@ -12986,74 +12820,68 @@
       },
       {
         "seq": "90261",
-        "jeju": "미지다",
+        "jeju": "ᄌᆞ미지다",
         "standard": "재미있다",
         "soundUrl": "/audio/90261.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90262",
-        "jeju": "르다",
+        "jeju": "ᄍᆞᆯ르다",
         "standard": "짧다",
         "soundUrl": "/audio/90262.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90263",
-        "jeju": "파랑다",
+        "jeju": "파랑ᄒᆞ다",
         "standard": "파랗다",
         "soundUrl": "/audio/90263.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90264",
-        "jeju": "퍼렁다",
+        "jeju": "퍼렁ᄒᆞ다",
         "standard": "퍼렇다",
         "soundUrl": "/audio/90264.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90265",
-        "jeju": "펜안다",
+        "jeju": "펜안ᄒᆞ다",
         "standard": "편안하다",
         "soundUrl": "/audio/90265.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90266",
-        "jeju": "펜다",
+        "jeju": "펜ᄒᆞ다",
         "standard": "편하다",
         "soundUrl": "/audio/90266.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -13092,50 +12920,46 @@
       },
       {
         "seq": "90268",
-        "jeju": "하양다",
+        "jeju": "하양ᄒᆞ다",
         "standard": "하얗다",
         "soundUrl": "/audio/90268.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90269",
-        "jeju": "허영다",
+        "jeju": "허영ᄒᆞ다",
         "standard": "허옇다",
         "soundUrl": "/audio/90269.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90270",
-        "jeju": "",
+        "jeju": "ᄒᆞᆫ",
         "standard": "한",
         "soundUrl": "/audio/90270.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90271",
-        "jeju": "두",
+        "jeju": "ᄒᆞᆫ두",
         "standard": "한두",
         "soundUrl": "/audio/90271.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
@@ -13169,24 +12993,22 @@
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90275",
-        "jeju": "섯2",
+        "jeju": "ᄋᆞ섯2",
         "standard": "여섯",
         "soundUrl": "/audio/90275.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90276",
-        "jeju": "답2",
+        "jeju": "ᄋᆞ답2",
         "standard": "여덟",
         "soundUrl": "/audio/90276.mp3",
         "partOfSpeech": "adjective",
@@ -13243,31 +13065,29 @@
       },
       {
         "seq": "90567",
-        "jeju": "득다",
+        "jeju": "ᄀᆞ득다",
         "standard": "가득하다",
         "soundUrl": "/audio/90567.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90568",
-        "jeju": "랍다",
+        "jeju": "ᄀᆞ랍다",
         "standard": "가렵다",
         "soundUrl": "/audio/90568.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90569",
-        "jeju": "다",
+        "jeju": "ᄒᆞ다",
         "standard": "갑갑하다",
         "soundUrl": "/audio/90569.mp3",
         "partOfSpeech": "adjective",
@@ -13279,38 +13099,35 @@
       },
       {
         "seq": "90570",
-        "jeju": "납삭다",
+        "jeju": "납삭ᄒᆞ다",
         "standard": "납작하다",
         "soundUrl": "/audio/90570.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90571",
-        "jeju": "너부작다",
+        "jeju": "너부작ᄒᆞ다",
         "standard": "너부죽하다",
         "soundUrl": "/audio/90571.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
         "seq": "90572",
-        "jeju": "노리롱다",
+        "jeju": "노리롱ᄒᆞ다",
         "standard": "노르무레하다",
         "soundUrl": "/audio/90572.mp3",
         "partOfSpeech": "adjective",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
-        "containsPua": true,
         "hasAudio": false
       },
       {
