@@ -83,8 +83,17 @@ function globCore(standard) {
  * 표제어의 실사용 증거로 셀지는, 매핑된 표준어 중 실제로 뜻이 통하는 게
  * 있는지로 가른다. 뜻(core)이 1글자면 "포함" 검사가 너무 헐거워서
  * (예: "형"이 "형편"에도 포함) 정확히 같을 때만 인정한다.
+ *
+ * 용언은 표준어 쪽도 활용형으로 나온다("짚다"의 실제 말뭉치 짝은 "짚어서/
+ * 짚고"이지 "짚다"라는 문자열을 포함하지 않는다) — 그래서 "포함" 검사가
+ * 거의 항상 실패해 용언 전체가 근거 없음으로 잘못 나왔다. 용언은 뜻(core)의
+ * 어간("짚다"→"짚")으로 시작하는지를 추가로 본다.
  */
-function meaningMatches(core, standard) {
+function meaningMatches(core, standard, isVerbLike = false) {
+  if (isVerbLike && core.endsWith("다") && core.length > 1) {
+    const stem = core.slice(0, -1);
+    if (stem && standard.startsWith(stem)) return true;
+  }
   if (core.length <= 1 || standard.length <= 1) return core === standard;
   return standard.includes(core) || core.includes(standard);
 }
@@ -129,11 +138,28 @@ function buildLifeDialectIndex(pairs) {
  * 족아났주게"로 나오지 "족다"로는 거의 안 나온다. 그래서 용언은 어간(표제어
  * 끝의 "다"를 뗀 것)도 같이 찾고, 제주어 어미가 길 수 있어 허용 접미 길이를
  * 더 넉넉히 준다.
+ *
+ * 일부 표제어는 사전 표기 자체가 "지프(짚으)다"처럼 두 어간을 괄호로 함께
+ * 적어 둔다("지프"/"짚(으)" 둘 다 실사용형). 이걸 그냥 "다"만 떼면 뿌리가
+ * "지프(짚으)"라는, 말뭉치에 있을 리 없는 문자열이 되어 무조건 0건으로
+ * 나온다 — 실제 있던 5개 표제어가 전부 이렇게 묻혀 있었다. 괄호 앞/안을
+ * 각각 뿌리로 쪼갠다.
  */
 function inflectionRoots(headword, partOfSpeech) {
   const roots = [{ root: headword, maxSuffixLen: MAX_NOUN_SUFFIX_LEN, minRootLen: MIN_HEADWORD_LEN_FOR_INFLECTED }];
   const isVerbLike = partOfSpeech === "verb" || partOfSpeech === "adjective";
-  if (isVerbLike && headword.endsWith("다") && headword.length > 1) {
+  if (!isVerbLike) return roots;
+
+  const bracketed = headword.match(/^(.+?)\(([^)]+)\)다$/);
+  if (bracketed) {
+    const [, outer, inner] = bracketed;
+    if (outer) roots.push({ root: outer, maxSuffixLen: MAX_VERB_SUFFIX_LEN, minRootLen: 1 });
+    const innerStem = inner.endsWith("으") ? inner.slice(0, -1) : inner; // "짚으"→"짚" 매개모음 제거
+    if (innerStem) roots.push({ root: innerStem, maxSuffixLen: MAX_VERB_SUFFIX_LEN, minRootLen: 1 });
+    return roots;
+  }
+
+  if (headword.endsWith("다") && headword.length > 1) {
     // 용언 어간은 1글자짜리도 많다("귿다"→귿, "께다"→께). 명사 1글자와 달리
     // 뜻 일치 검사(meaningMatches)가 보호막이라 여기서는 길이 제한을 안 둔다.
     roots.push({ root: headword.slice(0, -1), maxSuffixLen: MAX_VERB_SUFFIX_LEN, minRootLen: 1 });
@@ -150,6 +176,7 @@ function inflectionRoots(headword, partOfSpeech) {
 export function auditWord(lexeme, tokens, firstCharIndex, lifeDialectIndex) {
   const headword = lexeme.jeju.trim();
   const core = globCore(lexeme.standard);
+  const isVerbLike = lexeme.partOfSpeech === "verb" || lexeme.partOfSpeech === "adjective";
   const roots = inflectionRoots(headword, lexeme.partOfSpeech);
 
   let exactHits = 0;
@@ -159,7 +186,7 @@ export function auditWord(lexeme, tokens, firstCharIndex, lifeDialectIndex) {
     // 동형이의어 오염 방지: 매핑된 표준어 중 우리 표제어의 뜻과 실제로
     // 통하는 것만 센다 ("상"→[사서,사고,...]처럼 뜻이 안 통하면 0으로 둔다).
     exactHits = exactEntry
-      .filter(([standard]) => meaningMatches(core, standard))
+      .filter(([standard]) => meaningMatches(core, standard, isVerbLike))
       .reduce((sum, [, count]) => sum + count, 0);
   }
 
@@ -171,7 +198,7 @@ export function auditWord(lexeme, tokens, firstCharIndex, lifeDialectIndex) {
       if (countedTokens.has(token)) continue;
       if (!token.startsWith(root)) continue;
       if (token.length > root.length + maxSuffixLen) continue;
-      const matchingForms = forms.filter(([standard]) => meaningMatches(core, standard));
+      const matchingForms = forms.filter(([standard]) => meaningMatches(core, standard, isVerbLike));
       if (matchingForms.length > 0) {
         inflectedHits += matchingForms.reduce((sum, [, count]) => sum + count, 0);
         countedTokens.add(token);
@@ -188,17 +215,22 @@ export function auditWord(lexeme, tokens, firstCharIndex, lifeDialectIndex) {
       if (token !== root && !token.startsWith(root)) continue;
       const key = `${token}::${standard}`;
       if (countedLifeTokens.has(key)) continue;
-      if (meaningMatches(core, standard)) {
+      if (meaningMatches(core, standard, isVerbLike)) {
         lifeDialectHits += 1;
         countedLifeTokens.add(key);
       }
     }
   }
 
+  // exactHits와 inflectedHits를 각각 따로 문턱을 재면 "원형 2회+활용형 4회
+  // (합 6회)"가 confirmed 문턱(원형 3회, 활용형 5회) 어느 쪽도 안 넘어서
+  // rare로 떨어지는 모순이 생긴다(83개 중 23개가 실제로 이랬다 — 외부 검토
+  // 중 지적받아 확인함). 합계 하나로 판정한다.
+  const corpusHits = exactHits + inflectedHits;
   let tier;
-  if (exactHits >= 3 || lifeDialectHits >= 1 || inflectedHits >= 5) {
+  if (exactHits >= 3 || lifeDialectHits >= 1 || corpusHits >= 5) {
     tier = "confirmed";
-  } else if (exactHits >= 1 || inflectedHits >= 1) {
+  } else if (corpusHits >= 1) {
     tier = "rare";
   } else {
     tier = "unconfirmed";
@@ -234,8 +266,8 @@ function main() {
   for (const r of rows) byTier[r.tier].push(r);
 
   console.log(`# 1,000단어 실사용 근거 감사\n`);
-  console.log(`- confirmed(말뭉치 3회 이상 또는 생활방언 등장): ${byTier.confirmed.length}`);
-  console.log(`- rare(말뭉치 1~2회): ${byTier.rare.length}`);
+  console.log(`- confirmed(말뭉치 원형 3회 이상, 합계 5회 이상, 또는 생활방언 등장): ${byTier.confirmed.length}`);
+  console.log(`- rare(말뭉치 원형+활용형 합계 1~4회): ${byTier.rare.length}`);
   console.log(`- unconfirmed(둘 다 0회 — 사전에만 있음): ${byTier.unconfirmed.length}`);
   console.log(`\n주의: unconfirmed는 "안 쓰이는 말"이 아니라 "이 두 자료로는 확인 못 한 말"이다.`);
 
@@ -248,14 +280,18 @@ function main() {
           generatedAt: new Date().toISOString(),
           method: [
             "AI Hub 방언 대화 말뭉치(524,406문장)에서 정확히 일치하는 토큰의 등장 횟수 — 단, 그 토큰이 매핑된 표준어 중 표제어 뜻과 통하는 것만 센다(동형이의어 오염 방지, 1글자 뜻은 완전일치만 인정)",
-            "조사/어미가 붙은 형태(표제어+최대 3글자)도 같은 방식으로 뜻이 통할 때만 활용형으로 인정",
+            "조사/어미가 붙은 형태(명사는 표제어+최대 3글자, 용언은 어간+최대 6글자)도 같은 방식으로 뜻이 통할 때만 활용형으로 인정",
+            "용언(동사·형용사)은 표준어 쪽도 활용형으로 나오므로, 뜻 일치 검사에서 표제어의 어간으로 시작하는지도 함께 본다(\"짚다\"↔\"짚어서\")",
+            "괄호로 두 어간을 함께 적은 표제어(\"지프(짚으)다\")는 괄호 앞/안을 각각 어간으로 나눠 찾는다",
             "생활방언 100편(jeju.go.kr 공식 자료)에서 제주어 줄과 그 줄의 표준어 풀이가 정확히 대응하는 편만(80/100, 줄 수가 안 맞는 20편은 뜻 대응이 불가능해 제외) 같은 동형이의어 판정으로 확인",
-            "confirmed: 말뭉치 3회 이상 또는 생활방언 등장 / rare: 말뭉치 1~2회 / unconfirmed: 둘 다 0회",
+            "confirmed: 말뭉치 원형 3회 이상, 또는 원형+활용형 합계 5회 이상, 또는 생활방언 등장 / rare: 원형+활용형 합계 1~4회 / unconfirmed: 전부 0회",
           ],
           caveat:
             "말뭉치는 5,638개 대화 파일(생활사·명절·결혼·관광 인터뷰 위주)로 화제가 한정돼 있고, " +
             "생활방언 100편 중 20편은 줄 수가 안 맞아 이 감사에서 제외했다(별개 문제, " +
-            "content/README-life-dialect.md 참고). unconfirmed는 안 쓰인다는 증거가 아니라 " +
+            "content/README-life-dialect.md 참고). 용언의 어간 기준 뜻 일치는 1~2글자 짧은 어간에서 " +
+            "동형이의어 오염 위험이 명사보다 크다(예: 서로 다른 단어가 같은 첫 음절로 시작하는 경우) — " +
+            "완전히 배제하진 못했다. unconfirmed는 안 쓰인다는 증거가 아니라 " +
             "이 두 자료로는 못 찾았다는 뜻이다. 이 결과만으로 단어를 지우거나 비노출 처리하지 " +
             "않는다 — 후속 조사 대상 목록이다.",
           summary: {

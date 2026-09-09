@@ -114,6 +114,38 @@ test("활용형 증거가 충분히 많으면(5회 이상) confirmed로 올라�
   assert.equal(r.tier, "confirmed");
 });
 
+test("용언은 표준어 쪽 활용형도 어간으로 잡는다 (외부 검토로 발견된 실제 버그)", () => {
+  // "짚다"의 진짜 말뭉치 짝은 "짚어서/짚고"이지 "짚다"라는 문자열을
+  // 포함하지 않는다. 예전 버전은 이 경우를 전부 놓쳐서 용언 704개 중
+  // 다수가 근거 0으로 잘못 나왔다.
+  const tokens = { 짚엉: [["짚어서", 6]], 짚은: [["깊은", 7]] };
+  const lexeme = { seq: "7108", jeju: "짚다", standard: "짚다", partOfSpeech: "verb" };
+  const r = auditWord(lexeme, tokens, idx(tokens), new Map());
+  assert.equal(r.inflectedHits, 6, "짚어서만 세고 깊은(동형이의어)은 빼야 한다");
+});
+
+test("괄호 표기 표제어는 괄호 앞/안을 각각 어간으로 쪼갠다 (외부 검토로 발견된 실제 버그)", () => {
+  // "지프(짚으)다"를 그냥 끝의 "다"만 떼면 뿌리가 "지프(짚으)"가 되어
+  // 말뭉치에 있을 리 없는 문자열이 된다 — 실제로 5개 표제어가 이렇게
+  // 전부 근거 0으로 묻혀 있었다.
+  const tokens = { 지프댄: [["짚었다고", 3]], 짚엉: [["짚어서", 4]] };
+  const lexeme = { seq: "7108", jeju: "지프(짚으)다", standard: "짚다", partOfSpeech: "verb" };
+  const r = auditWord(lexeme, tokens, idx(tokens), new Map());
+  assert.equal(r.inflectedHits, 7);
+});
+
+test("rare 등급의 상한이 confirmed 문턱과 어긋나지 않는다 (외부 검토로 발견된 실제 버그)", () => {
+  // 예전엔 exactHits·inflectedHits를 따로따로 문턱을 재서 "원형 2회 +
+  // 활용형 4회(합 6회)"가 confirmed 기준(원형 3회, 활용형 5회) 어느
+  // 쪽도 못 넘겨 rare로 떨어졌다 — 외부 검토에서 드묾 83개 중 23개가
+  // 이 모순에 해당한다고 지적받아 확인했다.
+  const tokens = { 각씨: [["아내", 2]], 각씨네: [["아내네", 4]] };
+  const lexeme = { seq: "1", jeju: "각씨", standard: "아내" };
+  const r = auditWord(lexeme, tokens, idx(tokens), new Map());
+  assert.equal(r.exactHits + r.inflectedHits, 6);
+  assert.equal(r.tier, "confirmed", "합계 5 이상이면 rare에 머물면 안 된다");
+});
+
 test("auditAll은 lexemes 전부에 대해 한 줄씩 결과를 낸다", () => {
   const lexemes = [
     { seq: "1", jeju: "바당", standard: "바다" },
