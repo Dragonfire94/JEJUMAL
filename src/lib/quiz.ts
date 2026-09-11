@@ -22,7 +22,7 @@ export type QuizResult = {
 
 export const PASS_PERCENT = 70;
 
-const allWords: Word[] = units.flatMap((unit) => unit.words);
+const allWords: Word[] = units.flatMap((unit) => unit.words).filter((word) => word.reviewStatus !== "blocked");
 
 function shuffle<T>(items: T[]): T[] {
   const next = [...items];
@@ -61,6 +61,21 @@ function tooSimilar(a: string, b: string): boolean {
   return levenshtein(a, b) / max <= 0.34;
 }
 
+function conceptId(word: Word): string {
+  return word.standard.trim();
+}
+
+function sameConceptTexts(words: Word[], field: "jeju" | "standard", target: Word): Set<string> {
+  const targetConcept = conceptId(target);
+  const texts = new Set<string>();
+  for (const word of words) {
+    if (word.seq === target.seq) continue;
+    if (conceptId(word) !== targetConcept) continue;
+    texts.add(word[field]);
+  }
+  return texts;
+}
+
 function uniqueTexts(words: Word[], field: "jeju" | "standard", exceptSeq: string): string[] {
   const seen = new Set<string>();
   const texts: string[] = [];
@@ -74,9 +89,14 @@ function uniqueTexts(words: Word[], field: "jeju" | "standard", exceptSeq: strin
   return texts;
 }
 
-function pickDistractors(answer: string, pools: string[][], count: number): string[] {
+function pickDistractors(
+  answer: string,
+  pools: string[][],
+  count: number,
+  exclude: Set<string> = new Set(),
+): string[] {
   const chosen: string[] = [];
-  const seen = new Set<string>([answer]);
+  const seen = new Set<string>([answer, ...exclude]);
 
   const take = (strict: boolean) => {
     for (const pool of pools) {
@@ -117,23 +137,27 @@ function distractorPools(word: Word, preferred: Word[], field: "jeju" | "standar
 }
 
 export function buildLesson(unit: Unit): Question[] {
-  const sameUnit = unit.words;
+  const sameUnit = unit.words.filter((word) => word.reviewStatus !== "blocked");
 
-  const listen: Question[] = sameUnit.map((word) => {
-    const distractors = pickDistractors(word.standard, distractorPools(word, sameUnit, "standard"), 3);
-    return {
-      id: `${word.seq}-listen`,
-      kind: "listen" as const,
-      word,
-      unitId: unit.id,
-      prompt: "이 말의 뜻은 무엇일까요?",
-      answer: word.standard,
-      choices: shuffle([word.standard, ...distractors]),
-    };
-  });
+  const listen: Question[] = sameUnit
+    .filter((word) => word.hasAudio !== false)
+    .map((word) => {
+      const exclude = sameConceptTexts(allWords, "standard", word);
+      const distractors = pickDistractors(word.standard, distractorPools(word, sameUnit, "standard"), 3, exclude);
+      return {
+        id: `${word.seq}-listen`,
+        kind: "listen" as const,
+        word,
+        unitId: unit.id,
+        prompt: "이 말의 뜻은 무엇일까요?",
+        answer: word.standard,
+        choices: shuffle([word.standard, ...distractors]),
+      };
+    });
 
   const read: Question[] = sameUnit.map((word) => {
-    const distractors = pickDistractors(word.jeju, distractorPools(word, sameUnit, "jeju"), 3);
+    const exclude = sameConceptTexts(allWords, "jeju", word);
+    const distractors = pickDistractors(word.jeju, distractorPools(word, sameUnit, "jeju"), 3, exclude);
     return {
       id: `${word.seq}-read`,
       kind: "read" as const,

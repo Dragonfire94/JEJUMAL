@@ -17,7 +17,12 @@
     "test": "vitest run",
     "test:scripts": "node --test 'scripts/**/*.test.mjs'",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build:content": "node scripts/build-content.mjs",
+    "build:word-frequency": "node scripts/build-word-frequency.mjs",
+    "build:life-dialect": "node scripts/build-life-dialect.mjs",
+    "audit:word-usage": "node scripts/audit-word-usage.mjs --out data/aihub/word-usage-audit.json",
+    "qc:check": "node scripts/qc-check.mjs"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.4",

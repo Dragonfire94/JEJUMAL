@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "sourceLicense": {
+    "provider": "제주특별자치도 OpenAPI B02 제주 생활방언 정보 (JejuLifeDialectService)",
+    "listingUrl": "https://www.jeju.go.kr/culture/dialect/lifeDialect.htm",
+    "apiUrl": "https://www.jeju.go.kr/rest/JejuLifeDialectService/getJejuLifeDialectServiceList",
+    "kogl": {
+      "typeVerified": false,
+      "note": "공공누리(KOGL) 출처표시 의무만 README에서 확인했다. 유형 번호(제1~4유형), 상업적 이용 가능 여부, 변경(재가공) 허용 여부는 jeju.go.kr 접속이 이 세션의 네트워크 정책으로 차단되어 확인하지 못했다. 정식 배포 전 반드시 실제 사이트에서 공공누리 유형을 확인하고 이 필드를 갱신할 것."
+    }
+  },
+  "passages": [
+    {
+      "id": "life-1",
+      "seq": "1",
+      "title": "혼저 옵서",
+      "category": "인사말",
+      "audioUrl": "/audio/life-dialect/1.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0001.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "혼저 옵서. 제주도 사투리로 말 호난,",
+          "archaic": "저 옵서. 제주도 사투리로 말난,",
+          "solutionOriginal": "어서 오십시오. 제주도 사투리로 말 하니까,",
+          "solutionEdited": "어서 오십시오. 제주도 사투리로 말 하니까,",
+          "editReason": null
+        },
+        {
+          "jeju": "무신 거옌 고람 신디 몰르쿠게?",
+          "archaic": "무신 거옌 암 신디 몰르쿠게?",
+          "solutionOriginal": "뭐라고 말하는 지 모르겠지요?",
+          "solutionEdited": "뭐라고 말하는 지 모르겠지요?",
+          "editReason": null
+        },
+        {
+          "jeju": "게메 마씀, 귀 눈이 왁왁하우다.",
+          "archaic": "게메마씀, 귀 눈이 왁왁우다.",
+          "solutionOriginal": "글쎄 말입니다. 귀와 눈이 캄캄합니다.",
+          "solutionEdited": "글쎄 말입니다. 귀와 눈이 캄캄합니다.",
+          "editReason": null
+        },
+        {
+          "jeju": "경해도 고만히 생각호멍 들으민 조금씩 알아집니다.",
+          "archaic": "경헤도 만히 생각멍 들으민 조금씩 알아집니다.",
+          "solutionOriginal": "그래도 가만히 생각하며 들으면 조금씩 알게됩니다.",
+          "solutionEdited": "그래도 가만히 생각하며 들으면 조금씩 알게됩니다.",
+          "editReason": null
+        },
+        {
+          "jeju": "제주도 사투리 촘말로 귀하고 아름다운 보물이우다.",
+          "archaic": "제주도 사투리 말로 귀허고 아름다운 보물이우다.",
+          "solutionOriginal": "제주도 사투리 정말로 귀하고 아름다운 보물입니다.",
+          "solutionEdited": "제주도 사투리 정말로 귀하고 아름다운 보물입니다.",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-2",
+      "seq": "2",
+      "title": "제주도 인사",
+      "category": "관광",
+      "audioUrl": "/audio/life-dialect/2.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0002.mp3",
+      "requiredInCurriculum": false,
+      "contentAdvisory": "관광 홍보 문구 성격이 있어 필수 진도가 아닌 선택 학습으로 둔다.",
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "펜안 하우꽈? 제주도에 오난 어떵 하우꽈?",
+          "archaic": "펜안허우과? 제주도에 오난 어떵허우과?",
+          "solutionOriginal": "편안(안녕)하십니까? 제주도에 오니 어떠하십니까?",
+          "solutionEdited": "편안(안녕)하십니까? 제주도에 오니 어떠하십니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "촘말로 좋수다. 공기도 맑고,",
+          "archaic": "말로 좋수다. 공기도 맑고,",
+          "solutionOriginal": "정말로 좋습니다. 공기도 맑고,",
+          "solutionEdited": "정말로 좋습니다. 공기도 맑고,",
+          "editReason": null
+        },
+        {
+          "jeju": "산이영 바당이영 몬딱 좋은게 마씀.",
+          "archaic": "산이영 바당이영 몬딱 좋은게마씀.",
+          "solutionOriginal": "산이랑 바다랑 모두가 좋습니다.",
+          "solutionEdited": "산이랑 바다랑 모두가 좋습니다.",
+          "editReason": null
+        },
+        {
+          "jeju": "서울에 갈 때랑 하영 담앙 갑서.",
+          "archaic": "서울에 갈 때랑 하영 담앙 갑서.",
+          "solutionOriginal": "서울에 갈 때는 많이 담아서 가십시오.",
+          "solutionEdited": "서울에 갈 때는 많이 담아서 가십시오.",
+          "editReason": null
+        },
+        {
+          "jeju": "게메, 양. 경 해시민 얼마나 좋코 마씀?",
+          "archaic": "게메양. 경 헤시민 얼마나 좋고 마씀?",
+          "solutionOriginal": "그러게 말입니다. 그렇게 했으면 얼마나 좋겠습니까?",
+          "solutionEdited": "그러게 말입니다. 그렇게 했으면 얼마나 좋겠습니까?",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-3",
+      "seq": "18",
+      "title": "맨도롱 홀 때 호로록 들여 싸붑서",
+      "category": "일상대화",
+      "audioUrl": "/audio/life-dialect/18.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0018.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "혼저 왕 먹읍서.",
+          "archaic": "저 왕 먹읍서.",
+          "solutionOriginal": "어서 와서 먹으십시오.",
+          "solutionEdited": "어서 와서 먹으십시오.",
+          "editReason": null
+        },
+        {
+          "jeju": "맨도롱 했수과?",
+          "archaic": "맨도롱 햇수과?",
+          "solutionOriginal": "따뜻합니까?",
+          "solutionEdited": "따뜻합니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "똣똣혼 게 먹기 똑 좋았수다.",
+          "archaic": " 게 먹기 똑 좋앗수다.",
+          "solutionOriginal": "따끈따끈한 것이 먹기에 꼭 좋았습니다.",
+          "solutionEdited": "따끈따끈한 것이 먹기에 꼭 좋았습니다.",
+          "editReason": null
+        },
+        {
+          "jeju": "맨도롱 홀 때 호로록 들여 싸붑서.",
+          "archaic": "맨도롱  때 호로록 들이싸붑서.",
+          "solutionOriginal": "따뜻할 때 후루룩(입에 넣는 모습) 마셔 버리십시오.",
+          "solutionEdited": "따뜻할 때 후루룩(입에 넣는 모습) 마셔 버리십시오.",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-4",
+      "seq": "21",
+      "title": "어드레 감디?",
+      "category": "인사말",
+      "audioUrl": "/audio/life-dialect/21.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0021.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "어드레 감디?",
+          "archaic": "어드레 감디?",
+          "solutionOriginal": "어디로 가느냐?",
+          "solutionEdited": "어디로 가느냐?",
+          "editReason": null
+        },
+        {
+          "jeju": "바당에 어멍 안티 감쑤다.",
+          "archaic": "바당에 어멍안티 감수다.",
+          "solutionOriginal": "바다에 어머니 한테 갑니다.",
+          "solutionEdited": "바다에 어머니 한테 갑니다.",
+          "editReason": null
+        },
+        {
+          "jeju": "경 호건, 이거 가정 가라.",
+          "archaic": "경건, 이거 가정 가라.",
+          "solutionOriginal": "그러면, 이거 가지고 가라.",
+          "solutionEdited": "그러면, 이거 가지고 가라.",
+          "editReason": null
+        },
+        {
+          "jeju": "무싱 거꽈?",
+          "archaic": "무싱 거과?",
+          "solutionOriginal": "무엇입니까?",
+          "solutionEdited": "무엇입니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "느네 어멍, 바당에서 물질 호멍 먹을거여.",
+          "archaic": "느네 어멍, 바당에서 물질멍 먹을 거여.",
+          "solutionOriginal": "너희 어머니, 바다에서 물질하면서 먹을거다.",
+          "solutionEdited": "너희 어머니, 바다에서 물질하면서 먹을거다.",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-5",
+      "seq": "70",
+      "title": "어디 갔단 왐수과?",
+      "category": "인사말",
+      "audioUrl": "/audio/life-dialect/70.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0070.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": "원 개선 계획서의 '어느제 옵디가?'는 별도 편이 아니라 87번 편 첫 문장이었다(아래 life-6). 제목 목록에 중복이 생기므로, 같은 인사말 범주의 70번 '어디 갔단 왐수과?'로 대체했다.",
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "어디 갔단 왐수과?",
+          "archaic": "어디 갓단 왐수과?",
+          "solutionOriginal": "어디 갔다 오십니까?",
+          "solutionEdited": "어디 갔다 오십니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "밭디 갔다 왐쩌. 어드레 감디?",
+          "archaic": "밧디 갓다 왐저. 어드레 감디?",
+          "solutionOriginal": "밭에 갔다 온다. 어디에 가느냐?",
+          "solutionEdited": "밭에 갔다 온다. 어디에 가느냐?",
+          "editReason": null
+        },
+        {
+          "jeju": "바당에 괴기 낚으레 감쑤다.",
+          "archaic": "바당에 궤기 나끄레 감수다.",
+          "solutionOriginal": "바다에 고기 잡으로 갑니다.",
+          "solutionEdited": "바다에 고기 잡으로 갑니다.",
+          "editReason": null
+        },
+        {
+          "jeju": "절 쎄어서라. 조심호곡 혼저 오래.",
+          "archaic": "절 쎄어서라. 조심곡 저 오라.",
+          "solutionOriginal": "파도가 거세더라. 조심하고 일찍 오너라.",
+          "solutionEdited": "파도가 거세더라. 조심하고 일찍 오너라.",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-6",
+      "seq": "87",
+      "title": "어떵 살아 점쑤과?",
+      "category": "인사말",
+      "audioUrl": "/audio/life-dialect/87.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0087.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": "(※오랜만에 서로 만나 인사하는 말들)",
+      "sentences": [
+        {
+          "jeju": "어느제 옵디가?",
+          "archaic": "어느제 옵디가?",
+          "solutionOriginal": "언제 오셨습니까?",
+          "solutionEdited": "언제 오셨습니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "혼 사나흘 됐수다.",
+          "archaic": " 사나흘 뒛수다.",
+          "solutionOriginal": "한 사나흘 되었습니다.",
+          "solutionEdited": "한 사나흘 되었습니다.",
+          "editReason": null
+        },
+        {
+          "jeju": "다들 펜안 했수과?",
+          "archaic": "다들 펜안헷수과?",
+          "solutionOriginal": "모두 편안 했습니까?",
+          "solutionEdited": "모두 편안 했습니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "어떵 살아 점쑤과?",
+          "archaic": "어떵 살아점수과?",
+          "solutionOriginal": "어떻게 살고 있습니까?",
+          "solutionEdited": "어떻게 살고 있습니까?",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-7",
+      "seq": "91",
+      "title": "제주도 사투리 인사들",
+      "category": "인사말",
+      "audioUrl": "/audio/life-dialect/91.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0091.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "누게 있수과? (사롬 있수과?)",
+          "archaic": "누게 잇수과? (사롬 있수과?)",
+          "solutionOriginal": "누구 있습니까?",
+          "solutionEdited": "누구 있습니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "안녕 하우꽈?",
+          "archaic": "안녕허우과?",
+          "solutionOriginal": "안녕 하십니까?",
+          "solutionEdited": "안녕 하십니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "아방, 어멍 다 펜안 했수과?",
+          "archaic": "아방 어멍 다 펜안헷수과?",
+          "solutionOriginal": "아버지, 어머니 모두 편안 하셨습니까?",
+          "solutionEdited": "아버지, 어머니 모두 편안 하셨습니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "어디 갔당 왐쑤과?",
+          "archaic": "어디갓당 왐수과?",
+          "solutionOriginal": "어디 갔다가 오십니까?",
+          "solutionEdited": "어디 갔다가 오십니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "요새 어떵 살미꽈? 좋수과?",
+          "archaic": "요새 어떵살미우과? 좋수과?",
+          "solutionOriginal": "요새 어떻게 사십니까? 좋습니까?",
+          "solutionEdited": "요새 어떻게 사십니까? 좋습니까?",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-8",
+      "seq": "90",
+      "title": "무싱 거옌 고릅디가?",
+      "category": "일상대화",
+      "audioUrl": "/audio/life-dialect/90.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0090.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "무사, 무싱 거옌 고릅디가?",
+          "archaic": "무사, 무싱 거옌 읍디가?",
+          "solutionOriginal": "왜, 뭐라고 말하던가요?",
+          "solutionEdited": "왜, 뭐라고 말하던가요?",
+          "editReason": null
+        },
+        {
+          "jeju": "솔째기 왕 말홉서, 보저.",
+          "archaic": "째기 왕 말서, 들어보저.",
+          "solutionOriginal": "살짝 와서 말하십시오. 들어 봅시다.",
+          "solutionEdited": "살짝 와서 말하십시오. 들어 봅시다.",
+          "editReason": null
+        },
+        {
+          "jeju": "게메, 말호카, 말카?",
+          "archaic": "게메, 말호카 말카?",
+          "solutionOriginal": "글쎄, 말할까, 말까?",
+          "solutionEdited": "글쎄, 말할까, 말까?",
+          "editReason": null
+        },
+        {
+          "jeju": "속 태우지 말앙 확 홉서게.",
+          "archaic": "속 태우지 말앙 확 서게.",
+          "solutionOriginal": "속 태우지 말고 빨리 하십시오.",
+          "solutionEdited": "속 태우지 말고 빨리 하십시오.",
+          "editReason": null
+        },
+        {
+          "jeju": "게민, 놈 혼테랑 아무 말도 호지 맙서, 양?",
+          "archaic": "게민  안티랑 아무 말도 지 맙서양?",
+          "solutionOriginal": "그럼, 남 한테는 아무 말도 하지 마십시오, 네?",
+          "solutionEdited": "그럼, 남 한테는 아무 말도 하지 마십시오, 네?",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-9",
+      "seq": "89",
+      "title": "날 도랑 가 줍서",
+      "category": "일상대화",
+      "audioUrl": "/audio/life-dialect/89.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0089.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "서울엔 언제 가쿠과?",
+          "archaic": "서울엔 언제 가쿠과?",
+          "solutionOriginal": "서울에는 언제 가겠습니까?",
+          "solutionEdited": "서울에는 언제 가겠습니까?",
+          "editReason": null
+        },
+        {
+          "jeju": "갈 때랑 날 도랑 가 줍서.",
+          "archaic": "갈 때랑 날 랑 가 줍서.",
+          "solutionOriginal": "갈 때는 나를 데리고 가 주십시오.",
+          "solutionEdited": "갈 때는 나를 데리고 가 주십시오.",
+          "editReason": null
+        },
+        {
+          "jeju": "서울 강 무싱 거 호젠?",
+          "archaic": "서울 강 무싱 거 젠?",
+          "solutionOriginal": "서울 가서 무엇을 하려고?",
+          "solutionEdited": "서울 가서 무엇을 하려고?",
+          "editReason": null
+        },
+        {
+          "jeju": "구경도 호곡, 서울 소랑도 해 보젠 마씀.",
+          "archaic": "구경도 곡, 서울 랑도 헤보젠마씀.",
+          "solutionOriginal": "구경도 하고, 서울 사랑도 해 보려고요.",
+          "solutionEdited": "구경도 하고, 서울 사랑도 해 보려고요.",
+          "editReason": null
+        }
+      ]
+    },
+    {
+      "id": "life-10",
+      "seq": "96",
+      "title": "제주도 사투리 높이는 말과 낮추는 말",
+      "category": "기타",
+      "audioUrl": "/audio/life-dialect/96.mp3",
+      "sourceAudioUrl": "https://www.jeju.go.kr/files/liveDialect/L10B_0096.mp3",
+      "requiredInCurriculum": true,
+      "contentAdvisory": null,
+      "selectionNote": null,
+      "note": null,
+      "sentences": [
+        {
+          "jeju": "혼저 옵서게 ……………… 혼저 오라게",
+          "archaic": "저 옵서게 ………………저 오라게",
+          "solutionOriginal": "어서 오십시오 어서 오너라",
+          "solutionEdited": "어서 오십시오 어서 오너라",
+          "editReason": null
+        },
+        {
+          "jeju": "고만 십서게 ……………… 고만 시라게",
+          "archaic": "만 십서게 ………………만 시라게",
+          "solutionOriginal": "잠깐 있으십시오 잠깐 있어라",
+          "solutionEdited": "잠깐 있으십시오 잠깐 있어라",
+          "editReason": null
+        },
+        {
+          "jeju": "무신 거 햄쑤과? ……………… 무신 거 햄시니?",
+          "archaic": "무신 거 헴수과? ……………… 무신 거 헴시니?",
+          "solutionOriginal": "무엇을 하십니까? 무엇을 하느냐?",
+          "solutionEdited": "무엇을 하십니까? 무엇을 하느냐?",
+          "editReason": null
+        },
+        {
+          "jeju": "무사 경 급호꽈? ……………… 무사 경 급호냐?",
+          "archaic": "무사 경 급허우과? ……………… 무사 경 급허니?",
+          "solutionOriginal": "왜 그렇게 급하십니까? 왜 그렇게 급하냐?",
+          "solutionEdited": "왜 그렇게 급하십니까? 왜 그렇게 급하냐?",
+          "editReason": null
+        },
+        {
+          "jeju": "게메 마씸, 확 옵서게 …………… 기여 게, 확 오라게",
+          "archaic": "게메마씸, 확 옵서게. …………… 기여게 확 오라게.",
+          "solutionOriginal": "그래요, 빨리 오십시오 그래, 빨리 오너라",
+          "solutionEdited": "그래요, 빨리 오십시오 그래, 빨리 오너라",
+          "editReason": null
+        }
+      ]
+    }
+  ]
+}
