@@ -9,6 +9,73 @@
 
 ---
 
+## 현재 상태와 문서 지도 (처음 보는 사람용)
+
+이 문서는 원래 감사 2건을 검토하고 쓴 실행 계획이라 아래 1~9절은 **그때
+시점 기준**이다. 그 이후 별도 작업(콘텐츠 실사용 검증 + 2025년 새
+자료 반영)이 크게 한 번 더 있었고, 그 기록은 아래 표의 개별 문서에
+있다. 처음 이 프로젝트를 보는 사람은 이 절만 읽고 표의 문서를
+필요한 만큼 따라가면 된다.
+
+### 데이터가 흐르는 구조
+
+```
+content/{units,lexemes,examples}.json   ← 사람이 고치는 원장
+        │  node scripts/build-content.mjs
+        ▼
+src/data/units.json                     ← 앱이 읽는 빌드 산출물(직접 편집 금지)
+        │  node scripts/qc-check.mjs
+        ▼
+앱 화면
+```
+
+자세한 흐름과 지금 단어 수 등은 [`DATA.md`](../DATA.md) 참고.
+
+### 지금 숫자 (2026-09-11 기준)
+
+| 항목 | 값 |
+|---|---|
+| `content/lexemes.json` 총 표제어 | 1,046개 |
+| 유닛(100개)에 배정돼 화면에 나오는 단어 | 989개 (유닛당 8~10개) |
+| 유닛 배치 대기(`pendingPlacement`) | 57개 |
+| 예문 없음(`pendingExample`) | 655개 |
+| 실사용 근거 confirmed / rare / unconfirmed | 368 / 171 / 507 |
+| PUA(옛한글 표기 깨짐) 미해결 | 39개(전부 medium/low 등급, 사람 검토 대기) |
+
+### 콘텐츠 실사용 검증 + 2025년 자료 반영 — 문서 지도
+
+**동기**: 1,000단어가 "사전에만 있는 말"이 아니라 실제 제주에서 쓰이는
+말인지 확인해 달라는 요청에서 시작했다. AI Hub 말뭉치·생활방언
+100편으로는 확인이 안 되는 단어가 654개나 나왔고, 사람이(화자가 아닌
+이상) 787개를 하나하나 생존/사어 판정할 수 없다는 걸 인정한 뒤,
+제주학연구센터가 2025년에 낸 공식 기본어휘 자료를 세 번째 근거로
+들여와 기준선 자체를 다시 세우는 쪽으로 방향을 잡았다.
+
+| 순서 | 문서 | 한 줄 요약 |
+|---|---|---|
+| 1 | [`basic-vocab-2025-replacement-round1.md`](basic-vocab-2025-replacement-round1.md) | Fable 교차검증 27건 중 진짜 사전 오류 1건만 확인, 근거 0인 죽은 말 5개를 2025책 단어로 교체 |
+| 2 | [`basic-vocab-2025-replacement-round2.md`](basic-vocab-2025-replacement-round2.md) | 2개 더 교체하고 "교체 후보가 사실상 소진됐다"는 걸 발견(대부분의 unconfirmed는 죽은 말이 아니라 자체 사전엔 있는 진짜 방언) |
+| 3 | [`basic-vocab-2025-full-integration.md`](basic-vocab-2025-full-integration.md) | 기준을 다시 세움: (2025책 초급+중급) ∪ (confirmed·rare) 합집합으로 1,000단어 재정의 → 1,058개(이후 변동) |
+| 4 | [`../data/jeju-basic-vocab-2025/README-pua-mapping.md`](../data/jeju-basic-vocab-2025/README-pua-mapping.md) | 2025책 PDF의 아래아 등 옛한글이 PUA(깨진 문자)로 인쇄된 문제 발견, 81개 고유 글자로 문제를 축소하고 1차 판독(36개 high) |
+| 5 | [`../data/jeju-basic-vocab-2025/README-pua-mapping-round1-applied.md`](../data/jeju-basic-vocab-2025/README-pua-mapping-round1-applied.md) | high 43개(자체 사전·말뭉치 재검증으로 승급분 포함) 실제 데이터 반영, 겹받침 코드 버그 등 발견·수정 |
+| 6 | [`../data/jeju-basic-vocab-2025/README-pua-mapping-low-review.md`](../data/jeju-basic-vocab-2025/README-pua-mapping-low-review.md) | 남은 low 22개를 책 안 다른 용례와 교차대조해 15개 추가 승급(최종 74/81 해결, 7개만 검토 대기) |
+| 7 | [`same-meaning-different-form-review.md`](same-meaning-different-form-review.md) | 2025책과 기존 단어가 같은 뜻·다른 표기로 겹치는 111건 검토 → 진짜 정리 대상 14개로 압축, 12개 정리 실행(989단어로 조정) |
+
+**지금 남은 일** (읽은 순서대로):
+- 655개 단어에 예문 채우기(2025책 신규 대부분)
+- PUA 39개(모두 low/medium — `pua-glyph-mapping.json`) 사람 검토
+- 유닛 배치 대기 57개 — 랭크/트랙 구조를 어떻게 늘릴지 설계 필요
+  (`src/lib/units.ts`의 "테마 10개 × 유닛 10개" 고정 그리드부터 검토)
+- `docs/same-meaning-different-form-review.md`의 (B)/(C) 항목(둘 다
+  확인됐거나 둘 다 약한 변이형)은 의도적으로 안 건드림 — 재검토 필요
+  없음
+
+이 작업들은 아래 "7. 실행 로드맵"의 1~5차와는 결이 달라서(그쪽은
+기능·UX 버그, 이쪽은 콘텐츠 소스 자체의 정합성) 별도 트랙으로 관리
+중이다.
+
+---
+
 ## 0. 한 줄 요약
 
 지금 병목은 기능이 아니라 **콘텐츠 정답성**이다. 앱은 작동하지만, 학습자가 맞는 답을
