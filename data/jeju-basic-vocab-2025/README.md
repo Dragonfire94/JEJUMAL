@@ -49,7 +49,9 @@ python scripts/extract_jeju_basic_vocab_2025.py
       "chapter_no": 1,                   // 품사 내 장 번호
       "pdf_page": 8,                     // 0-based PDF 페이지 인덱스(source.pdf 기준)
       "contains_pua": false,             // 제주어형/뜻풀이/표준어 표기에 PUA 문자가 남아있는지
-      "has_standard_equivalent": true    // false면 일대일 대응 표준어가 없는 제주 고유어(오름 등) — standard_raw는 null, standard는 []
+      "has_standard_equivalent": true,   // false면 일대일 대응 표준어가 없는 제주 고유어(오름 등) — standard_raw는 null, standard는 []
+      "sourceLocator": { "document": "jeju-basic-vocab-2025", "pdfPage": 8, "half": "left", "yStart": 86.6 }, // PDF 안에서 이 entry를 찾은 위치(provenance, 미세하게 바뀔 수 있음)
+      "stableId": "jbv2025-p008l-y00866" // 영구 참조용 id — 다른 데이터는 "id"(순번) 대신 이걸 참조할 것. stable-id-registry.json에 영구 보존됨(3B-1A, docs/basic-vocab-2025-stable-id-production.md 참고)
     }
   ],
   "reverseIndex": { "가까이": [190], "가깝다1": [79], ... }  // 표준어 → 책 쪽번호(가나다순 부록)
@@ -98,7 +100,12 @@ id를 참조하는데, 재추출로 id가 크게 흔들려서(아래 "ID 안정�
 현재 content에 없는 항목도 앱에 추가 가능한 신규 lexeme 후보 71개
 (`content-new-candidates-3a.json`)와 원자료 자체의 제주어형 공백
 1건(`content-source-gaps-3a.json`, `jbv2025-0146`="옆")으로 구분해
-정리했다. 실제 반영(3B)은 아직 하지 않았다.
+정리했다. **[2026-09-11, 3B-1A에서 완료]** entry마다 `stableId`/
+`sourceLocator`가 추가됐고(`stable-id-registry.json`에 영구
+보존, `docs/basic-vocab-2025-stable-id-production.md` 참고), 위
+3A/3A.1 산출물의 stableId가 전부 이 값과 일치함을 확인했다. **아직
+`content/lexemes.json`의 655개 `bookMeta.bookId`는 바꾸지 않았다**
+(3B-1B에서 진행 예정).
 1,000단어 실사용 감사에 세 번째 근거로 넣으려면:
 - `entries[].jeju_forms`를 `content/lexemes.json`의 표제어와 대조(정확
   일치 + 활용형, `scripts/audit-word-usage.mjs`의 동형이의어 방지

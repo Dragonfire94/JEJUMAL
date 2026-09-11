@@ -63,12 +63,19 @@
 유연하게 만든 전례가 있으니, 완전히 새로 설계하기보다 그 위에서
 확장하는 게 자연스러울 수 있다.
 
-### A-3.5. 2025 기본어휘 stable ID 마이그레이션(3B) — 설계 완료, 실행 대기
+### A-3.5. 2025 기본어휘 stable ID 마이그레이션 — 3B-1A까지 완료
 
-`docs/basic-vocab-2025-stable-id-design.md`(3A단계)에서 stable ID
+`docs/basic-vocab-2025-stable-id-design.md`(3A)에서 stable ID
 설계와 기존 `content/lexemes.json` 655건 전수 매핑을 끝냈다 — 자동
-마이그레이션 가능 582건, 품사 교정 후 가능 42건, 병합 오염 정리
-필요 31건. 실제 반영(3B)은 사용자 승인 후 진행.
+마이그레이션 가능 582건, bookId 매핑은 가능하나 품사 스키마 정책
+결정 필요 42건, 병합 오염 정리 필요 31건. `docs/basic-vocab-2025-stable-id-production.md`(3B-1A)에서
+stableId/registry를 실제 `vocab.json`에 도입해 검증까지 마쳤다.
+**아직 `content/lexemes.json`은 하나도 안 바꿨다** — 남은 순서:
+
+- 3B-1B: 655개 `bookMeta.bookId`를 stableId로 실제 교체(품사·신규
+  단어는 그대로 둠)
+- 3B-2: B(42건)의 `partOfSpeech` — 스키마 정책 결정 후 적용
+- 3C: 신규 71개 중 실제 앱 핵심 단어로 넣을 것 개별 선별
 
 ### A-4. (참고용, 액션 불필요) same_meaning_different_form 나머지
 
