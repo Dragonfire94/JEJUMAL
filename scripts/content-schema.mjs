@@ -36,7 +36,10 @@ export const UnitSchema = z.object({
   themeId: z.string().min(1),
   rankIndex: z.number().int().min(0),
   order: z.number().int().min(1),
-  wordSeqs: z.array(z.string()).length(10, "유닛은 정확히 10개의 표제어를 가져야 합니다"),
+  // 원래는 정확히 10개 고정이었으나, 품사가 맞는 대체 표제어 재고가 없는
+  // 상태에서 근거 약한 중복(same_meaning_different_form 정리)을 제거해야
+  // 하는 경우를 위해 최소 8개까지 허용한다. 대부분의 유닛은 여전히 10개다.
+  wordSeqs: z.array(z.string()).min(8).max(10, "유닛은 8~10개의 표제어를 가져야 합니다"),
 });
 
 const OriginalTextSchema = z
