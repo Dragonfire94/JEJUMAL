@@ -1,0 +1,3152 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "repository inputs; deterministic output",
+  "scope": "3C-1 audit only; production content unchanged",
+  "method": [
+    "2025 기본어휘 원장(stableId/등급/품사/뜻풀이)",
+    "AI Hub tokens.json raw exact-token count",
+    "jeju.go.kr 생활방언 원문 raw occurrence",
+    "기존 제주어 사전 이름 exact/동형이의어 suffix 제거 대조",
+    "content/lexemes.json exact/variant 대조 및 사람 검토 정책표"
+  ],
+  "limitations": [
+    "70개는 표준어 대응이 없어 raw corpus hit만으로 의미 문맥을 자동 확인할 수 없다.",
+    "dictionary hit와 공식 기본어휘 수록은 현대 고빈도 사용의 증거가 아니다.",
+    "NONE은 사어 판정이 아니며, DO_NOT_ADD는 현 핵심 앱 우선순위 판단일 뿐 단어의 부정이 아니다."
+  ],
+  "summary": {
+    "rows": 71,
+    "uniqueStableIds": 71,
+    "decisions": {
+      "CORE_ADD": 8,
+      "CULTURE_ADD": 25,
+      "DO_NOT_ADD": 10,
+      "HOLD": 28
+    },
+    "usageEvidence": {
+      "MEDIUM": 9,
+      "NONE": 10,
+      "STRONG": 10,
+      "WEAK": 42
+    },
+    "existingContentMatch": {
+      "TRUE_NEW": 69,
+      "VARIANT_EXISTS": 0,
+      "SAME_MEANING_EXISTS": 0,
+      "POSSIBLE_DUPLICATE": 2
+    }
+  },
+  "rows": [
+    {
+      "stableId": "jbv2025-p011r-y00590",
+      "numericId": "jbv2025-0037",
+      "jejuForms": [
+        "돌담"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "찰흙 등을 사용하지 않고 돌의 순수한 형태와 특성을 이용하여 쌓은 담. 제주의 돌담은 토지와 가옥의 경계를 구분할 뿐만 아니라, 거센 바람을 막고 말과 소 등의 침입을 막는 기능을 한다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 4,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "돌담": 0
+        },
+        "aihubInflectedByForm": {
+          "돌담": 4
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "돌담": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 50,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p012r-y03951",
+      "numericId": "jbv2025-0052",
+      "jejuForms": [
+        "말젯ᄄᆞᆯ"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "딸이 넷일 때 셋째 딸.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "말젯ᄄᆞᆯ": 0
+        },
+        "aihubInflectedByForm": {
+          "말젯ᄄᆞᆯ": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "말젯ᄄᆞᆯ": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 10,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p012r-y04490",
+      "numericId": "jbv2025-0053",
+      "jejuForms": [
+        "말젯아덜"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "아들이 넷일 때 셋째 아들.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 1,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "말젯아덜": 0
+        },
+        "aihubInflectedByForm": {
+          "말젯아덜": 1
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "말젯아덜": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 10,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p013l-y00581",
+      "numericId": "jbv2025-0054",
+      "jejuForms": [
+        "말젯아방"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "아버지의 남자 형제가 넷일 때 아버지의 셋째 형이나 아우.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 1,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "말젯아방": 1
+        },
+        "aihubInflectedByForm": {
+          "말젯아방": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "말젯아방": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 10,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p013l-y01271",
+      "numericId": "jbv2025-0055",
+      "jejuForms": [
+        "말젯어멍"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "아버지의 남자 형제가 넷일 때 아버지의 셋째 형이나 아우의 아내.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 1,
+        "aihubInflected": 1,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "말젯어멍": 1
+        },
+        "aihubInflectedByForm": {
+          "말젯어멍": 1
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "말젯어멍": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 10,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p015r-y01689",
+      "numericId": "jbv2025-0079",
+      "jejuForms": [
+        "빙떡"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "고운 메밀가루 반죽을 기름을 두른 번철이나 프라이팬 따위에 얇게 펴 놓고 가운데에 양념한 무채 소를 넣고 말아서 지진 떡.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 15,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "빙떡": 0
+        },
+        "aihubInflectedByForm": {
+          "빙떡": 15
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "빙떡": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [
+          "https://www.jeju.go.kr/jedu/data/data.htm?act=view&page=118&seq=1538402"
+        ],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 50,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p016l-y01491",
+      "numericId": "jbv2025-0084",
+      "jejuForms": [
+        "삼춘"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "1) 부모님의 남자 형제를 이르거나 부르는 말. 2) 나이가 많은 어른을 친근하게 이르거나 부르는 말.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 117,
+        "aihubInflected": 62,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "삼춘": 117
+        },
+        "aihubInflectedByForm": {
+          "삼춘": 62
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "삼춘": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "MEDIUM",
+      "redundancy": "LOW",
+      "score": 88,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p016r-y03797",
+      "numericId": "jbv2025-0091",
+      "jejuForms": [
+        "셋ᄄᆞᆯ"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "둘째 딸. 딸 가운데 두번째 딸을 이르는 말.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "셋ᄄᆞᆯ": 0
+        },
+        "aihubInflectedByForm": {
+          "셋ᄄᆞᆯ": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "셋ᄄᆞᆯ": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 10,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p016r-y04327",
+      "numericId": "jbv2025-0092",
+      "jejuForms": [
+        "셋아덜"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "둘째 아들. 아들 가운데 두 번째 아들을 이르는 말.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 1,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "셋아덜": 0
+        },
+        "aihubInflectedByForm": {
+          "셋아덜": 1
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "셋아덜": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 10,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p017r-y03272",
+      "numericId": "jbv2025-0102",
+      "jejuForms": [
+        "숨비소리"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "해녀들이 무자맥질할 때 숨을 참았다가 한꺼번에 내쉴 때 나는 소리.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 1,
+        "aihubInflected": 3,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "숨비소리": 1
+        },
+        "aihubInflectedByForm": {
+          "숨비소리": 3
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "숨비소리": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 50,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p020r-y03564",
+      "numericId": "jbv2025-0134",
+      "jejuForms": [
+        "오름"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "한 번의 분화 활동으로 봉긋봉긋 솟아오른 화산.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 28,
+        "aihubInflected": 77,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "오름": 28
+        },
+        "aihubInflectedByForm": {
+          "오름": 77
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "오름": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [
+          "https://www.jeju.go.kr/is/oreum/info/jejuoreum/list.wp?menuId=MENU000000000000261"
+        ],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 75,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p020r-y04869",
+      "numericId": "jbv2025-0135",
+      "jejuForms": [
+        "올레"
+      ],
+      "level": "초급",
+      "sourcePos": "명사",
+      "definition": "거릿길 쪽에서 대문까지의, 집으로 드나드는 아주 좁은 골목 비슷한 길.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 11,
+        "aihubInflected": 34,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "올레": 11
+        },
+        "aihubInflectedByForm": {
+          "올레": 34
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "올레": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [
+          "https://agri.jeju.go.kr/files/board/045-03-1.pdf"
+        ],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 62,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p033r-y03508",
+      "numericId": "jbv2025-0259",
+      "jejuForms": [
+        "먹어지다"
+      ],
+      "level": "초급",
+      "sourcePos": "동사",
+      "definition": "먹게 되다. 먹을 수 있다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 157,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "먹어지다": 0
+        },
+        "aihubInflectedByForm": {
+          "먹어지다": 157
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "먹어지다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 44,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p035r-y01317",
+      "numericId": "jbv2025-0276",
+      "jejuForms": [
+        "살아지다"
+      ],
+      "level": "초급",
+      "sourcePos": "동사",
+      "definition": "1) 살게 되다. 살 수 있다. 2) 모든 면에서 남부럽지 않게 살게 되다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 122,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "살아지다": 0
+        },
+        "aihubInflectedByForm": {
+          "살아지다": 122
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "살아지다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 44,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p036r-y03476",
+      "numericId": "jbv2025-0286",
+      "jejuForms": [
+        "알아지다"
+      ],
+      "level": "초급",
+      "sourcePos": "동사",
+      "definition": "알게 되다. 알 수 있다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 396,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "알아지다": 0
+        },
+        "aihubInflectedByForm": {
+          "알아지다": 396
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "알아지다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 44,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p043l-y02824",
+      "numericId": "jbv2025-0348",
+      "jejuForms": [
+        "맛좋다"
+      ],
+      "level": "초급",
+      "sourcePos": "형용사",
+      "definition": "음식의 맛이 좋다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 16,
+        "aihubInflected": 632,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "맛좋다": 16
+        },
+        "aihubInflectedByForm": {
+          "맛좋다": 632
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "맛좋다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 67,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p049r-y04678",
+      "numericId": "jbv2025-0409",
+      "jejuForms": [
+        "그추룩"
+      ],
+      "level": "초급",
+      "sourcePos": "부사",
+      "definition": "1) 그와 같이. 그 모양이나 상태로. 2) 그 정도로. 그만큼. 3) 그러한 방식으로.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 1538,
+        "aihubInflected": 257,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "그추룩": 1538
+        },
+        "aihubInflectedByForm": {
+          "그추룩": 257
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "그추룩": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 80,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p051r-y03580",
+      "numericId": "jbv2025-0429",
+      "jejuForms": [
+        "이추룩"
+      ],
+      "level": "초급",
+      "sourcePos": "부사",
+      "definition": "1) 이와 같이. 이 모양이나 상태로. 2) 이 정도로. 이만큼. 3) 이러한 방식으로.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 584,
+        "aihubInflected": 66,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "이추룩": 584
+        },
+        "aihubInflectedByForm": {
+          "이추룩": 66
+        },
+        "lifeDialectHits": 2,
+        "lifeDialectByForm": {
+          "이추룩": 2
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 80,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p052l-y00581",
+      "numericId": "jbv2025-0431",
+      "jejuForms": [
+        "저추룩"
+      ],
+      "level": "초급",
+      "sourcePos": "부사",
+      "definition": "1) 저와 같이. 저 모양이나 상태로. 2) 저 정도로. 저만큼. 3) 저러한 방식으로.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 113,
+        "aihubInflected": 18,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "저추룩": 113
+        },
+        "aihubInflectedByForm": {
+          "저추룩": 18
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "저추룩": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 80,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p055l-y01578",
+      "numericId": "jbv2025-0452",
+      "jejuForms": [
+        "가문잔치"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "혼례를 치르는 전날에 가까운 친척들이 모여 간단히 벌이는 잔치.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 5,
+        "aihubInflected": 1,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "가문잔치": 5
+        },
+        "aihubInflectedByForm": {
+          "가문잔치": 1
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "가문잔치": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 57,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p056r-y00581",
+      "numericId": "jbv2025-0469",
+      "jejuForms": [
+        "곶자왈"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "나무와 덩굴 따위가 엉클어져 있는 수풀.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 3,
+        "aihubInflected": 14,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "곶자왈": 3
+        },
+        "aihubInflectedByForm": {
+          "곶자왈": 14
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "곶자왈": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 57,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p057l-y00577",
+      "numericId": "jbv2025-0474",
+      "jejuForms": [
+        "그루후제",
+        "글지후제"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "그 뒤로 어느 때. 그 이후.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 5,
+        "aihubInflected": 1,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "그루후제": 5,
+          "글지후제": 0
+        },
+        "aihubInflectedByForm": {
+          "그루후제": 1,
+          "글지후제": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "그루후제": 0,
+          "글지후제": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 51,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p061r-y00581",
+      "numericId": "jbv2025-0523",
+      "jejuForms": [
+        "망사리"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "바다에서 해녀가 해산물을 채취하고서 담아 넣는, 그물로 엮어 만든 물건.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 2,
+        "aihubInflected": 7,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "망사리": 2
+        },
+        "aihubInflectedByForm": {
+          "망사리": 7
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "망사리": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [
+          "https://agri.jeju.go.kr/files/board/%EB%8F%84%EC%A0%95%EB%B0%B1%EC%84%9C%202013-2014.pdf"
+        ],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p062l-y02407",
+      "numericId": "jbv2025-0531",
+      "jejuForms": [
+        "물소중의"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "해녀들이 물질할 때 입는 무명천 따위로 만든 옷.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "물소중의": 0
+        },
+        "aihubInflectedByForm": {
+          "물소중의": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "물소중의": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p062l-y02937",
+      "numericId": "jbv2025-0532",
+      "jejuForms": [
+        "물수건"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "해녀가 물질할 때 쓰는 하얀 수건.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "물수건": 0
+        },
+        "aihubInflectedByForm": {
+          "물수건": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "물수건": 0
+        },
+        "dictionaryHit": true,
+        "dictionaryEntrySeqs": [
+          "3628"
+        ],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p062l-y04209",
+      "numericId": "jbv2025-0534",
+      "jejuForms": [
+        "물적삼"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "해녀가 잠수할 때 속곳 위에 입는 적삼.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "물적삼": 0
+        },
+        "aihubInflectedByForm": {
+          "물적삼": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "물적삼": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p063l-y00581",
+      "numericId": "jbv2025-0540",
+      "jejuForms": [
+        "국"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "돼지고기를 삶은 육수에 불린 모자반을 넣어 끓인 국.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "국": 0
+        },
+        "aihubInflectedByForm": {
+          "국": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "국": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p063l-y02156",
+      "numericId": "jbv2025-0542",
+      "jejuForms": [
+        "반지기밥"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "보리쌀과 쌀을 반씩 섞어서 지은 밥.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 2,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "반지기밥": 0
+        },
+        "aihubInflectedByForm": {
+          "반지기밥": 2
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "반지기밥": 0
+        },
+        "dictionaryHit": true,
+        "dictionaryEntrySeqs": [
+          "3477"
+        ],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p064r-y01509",
+      "numericId": "jbv2025-0557",
+      "jejuForms": [
+        "불턱"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "물질을 하던 해녀가 뭍으로 나와 언 몸을 따뜻하게 녹이기 위해 미리 준비해 둔 땔감 등으로 불을 지펴서 쬐는 장소, 혹은 그 주위를 돌로 둥그스름하게 담을 싼 곳.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 1,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "불턱": 0
+        },
+        "aihubInflectedByForm": {
+          "불턱": 1
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "불턱": 0
+        },
+        "dictionaryHit": true,
+        "dictionaryEntrySeqs": [
+          "5137"
+        ],
+        "externalEvidence": [
+          "https://agri.jeju.go.kr/files/board/%EB%8F%84%EC%A0%95%EB%B0%B1%EC%84%9C%202013-2014.pdf"
+        ],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p064r-y04167",
+      "numericId": "jbv2025-0560",
+      "jejuForms": [
+        "빗창"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "해녀가 바닷속에 들어가서 전복을 캐는 데 쓰는 길쭉한 쇠붙이로 된 연장.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "빗창": 0
+        },
+        "aihubInflectedByForm": {
+          "빗창": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "빗창": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p065l-y03338",
+      "numericId": "jbv2025-0564",
+      "jejuForms": [
+        "산담"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "무덤 주위로 네모지거나 둥글게 둘러싼 돌담.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 1,
+        "aihubInflected": 2,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "산담": 1
+        },
+        "aihubInflectedByForm": {
+          "산담": 2
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "산담": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p067l-y03098",
+      "numericId": "jbv2025-0585",
+      "jejuForms": [
+        "신구간"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "제주도에서, 대한 후 5일에서 입춘 전 3일까지의 약 일주일을 이르는 말.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "신구간": 0
+        },
+        "aihubInflectedByForm": {
+          "신구간": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "신구간": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p068r-y00581",
+      "numericId": "jbv2025-0599",
+      "jejuForms": [
+        "오메기떡"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "차좁쌀 가루에 더운물을 넣어 되게 반죽해서 둥그렇게 만든 후 가운데 큰 구멍을 뚫어 만들거나 둥글납작하게 만들어서 삶아낸 떡.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 6,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "오메기떡": 0
+        },
+        "aihubInflectedByForm": {
+          "오메기떡": 6
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "오메기떡": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p068r-y01454",
+      "numericId": "jbv2025-0600",
+      "jejuForms": [
+        "오분자기"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "난대성 전복과의 연체동물.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 23,
+        "aihubInflected": 14,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "오분자기": 23
+        },
+        "aihubInflectedByForm": {
+          "오분자기": 14
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "오분자기": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 70,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p069l-y00581",
+      "numericId": "jbv2025-0605",
+      "jejuForms": [
+        "웃드르"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "한라산이 있는 쪽 벽지 근처의 들. 또는 그런 곳에서 이루어진 마을.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 14,
+        "aihubInflected": 3,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "웃드르": 14
+        },
+        "aihubInflectedByForm": {
+          "웃드르": 3
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "웃드르": 0
+        },
+        "dictionaryHit": true,
+        "dictionaryEntrySeqs": [
+          "205"
+        ],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 57,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p070l-y02390",
+      "numericId": "jbv2025-0619",
+      "jejuForms": [
+        "절"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "바다에 이는 물결.",
+      "hasStandardEquivalent": true,
+      "existingContentMatch": {
+        "type": "POSSIBLE_DUPLICATE",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 2,
+        "aihubInflected": 192,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "절": 2
+        },
+        "aihubInflectedByForm": {
+          "절": 192
+        },
+        "lifeDialectHits": 2,
+        "lifeDialectByForm": {
+          "절": 2
+        },
+        "dictionaryHit": true,
+        "dictionaryEntrySeqs": [
+          "5429"
+        ],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "MEDIUM",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 29,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p070l-y03909",
+      "numericId": "jbv2025-0621",
+      "jejuForms": [
+        "정주석"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "대문 대신 나무 막대를 걸칠 수 있도록 구멍을 뚫어 양쪽으로 세운 기둥. 주로 돌로 만든 것을 이른다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "정주석": 0
+        },
+        "aihubInflectedByForm": {
+          "정주석": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "정주석": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p070r-y02284",
+      "numericId": "jbv2025-0624",
+      "jejuForms": [
+        "족은눈"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "해녀가 물질할 때에 쓰는, 작은 알이 둘인 물안경.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "족은눈": 0
+        },
+        "aihubInflectedByForm": {
+          "족은눈": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "족은눈": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p072r-y03485",
+      "numericId": "jbv2025-0646",
+      "jejuForms": [
+        "ᄎᆞᆯ레"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "밥과 곁들여 먹는 장, 젓 따위의 반찬.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "ᄎᆞᆯ레": 0
+        },
+        "aihubInflectedByForm": {
+          "ᄎᆞᆯ레": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "ᄎᆞᆯ레": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p073l-y01495",
+      "numericId": "jbv2025-0650",
+      "jejuForms": [
+        "큰눈"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "해녀들이 물질할 때 쓰는 물안경. 알이 하나로 되어 있다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "큰눈": 0
+        },
+        "aihubInflectedByForm": {
+          "큰눈": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "큰눈": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p073l-y03867",
+      "numericId": "jbv2025-0653",
+      "jejuForms": [
+        "테왁"
+      ],
+      "level": "중급",
+      "sourcePos": "명사",
+      "definition": "박의 씨통을 파내고 구멍을 막아서 해녀들이 작업할 때 바다에 갖고 가서 타는 물건.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "테왁": 0
+        },
+        "aihubInflectedByForm": {
+          "테왁": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "테왁": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [
+          "https://www.jeju.go.kr/jori/reference/report.htm?act=download&no=1&page=3&seq=1479413"
+        ],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "HIGH",
+      "redundancy": "LOW",
+      "score": 45,
+      "decision": "CULTURE_ADD",
+      "reason": "일상 회화 빈도와 별개로 제주 지역의 장소·음식·해녀·의례 맥락을 이해하는 데 독자적 가치가 있어 문화 학습 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p076r-y00581",
+      "numericId": "jbv2025-0684",
+      "jejuForms": [
+        "설남은"
+      ],
+      "level": "중급",
+      "sourcePos": "수사",
+      "definition": "서른이 조금 넘는 수.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "설남은": 0
+        },
+        "aihubInflectedByForm": {
+          "설남은": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "설남은": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 5,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p084r-y00589",
+      "numericId": "jbv2025-0761",
+      "jejuForms": [
+        "시꾸다"
+      ],
+      "level": "중급",
+      "sourcePos": "동사",
+      "definition": "꿈에 나타나 보이다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 2,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "시꾸다": 0
+        },
+        "aihubInflectedByForm": {
+          "시꾸다": 2
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "시꾸다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p085r-y02235",
+      "numericId": "jbv2025-0775",
+      "jejuForms": [
+        "와리다"
+      ],
+      "level": "중급",
+      "sourcePos": "동사",
+      "definition": "마음이 아주 조급하여 서두르다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 7,
+        "aihubInflected": 134,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "와리다": 7
+        },
+        "aihubInflectedByForm": {
+          "와리다": 134
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "와리다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 51,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p087l-y00589",
+      "numericId": "jbv2025-0789",
+      "jejuForms": [
+        "ᄌᆞ냥ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "동사",
+      "definition": "식량이나 물건을 아껴서 비축하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "ᄌᆞ냥ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "ᄌᆞ냥ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "ᄌᆞ냥ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p087l-y01121",
+      "numericId": "jbv2025-0790",
+      "jejuForms": [
+        "ᄌᆞ들다"
+      ],
+      "level": "중급",
+      "sourcePos": "동사",
+      "definition": "걱정되는 일이 있어서 매우 근심하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "ᄌᆞ들다": 0
+        },
+        "aihubInflectedByForm": {
+          "ᄌᆞ들다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "ᄌᆞ들다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p087l-y01655",
+      "numericId": "jbv2025-0791",
+      "jejuForms": [
+        "ᄌᆞ물다"
+      ],
+      "level": "중급",
+      "sourcePos": "동사",
+      "definition": "물 속에 들어가서 해산물을 채취하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "ᄌᆞ물다": 0
+        },
+        "aihubInflectedByForm": {
+          "ᄌᆞ물다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "ᄌᆞ물다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p087r-y04319",
+      "numericId": "jbv2025-0799",
+      "jejuForms": [
+        "튼나다"
+      ],
+      "level": "중급",
+      "sourcePos": "동사",
+      "definition": "기억이 되살아나거나 잘 떠오르지 않던 생각이 나다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 3,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "튼나다": 0
+        },
+        "aihubInflectedByForm": {
+          "튼나다": 3
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "튼나다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p087r-y04862",
+      "numericId": "jbv2025-0800",
+      "jejuForms": [
+        "튼내다"
+      ],
+      "level": "중급",
+      "sourcePos": "동사",
+      "definition": "기억을 되살려 내거나 잘 떠오르지 않던 생각을 나게 하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 4,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "튼내다": 0
+        },
+        "aihubInflectedByForm": {
+          "튼내다": 4
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "튼내다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p090l-y03155",
+      "numericId": "jbv2025-0825",
+      "jejuForms": [
+        "듬삭ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "기름기가 많은 국 같은 것을 먹을 때 입안에 맛이 돌아 푸짐하게 느껴지다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "듬삭ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "듬삭ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "듬삭ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p092l-y01332",
+      "numericId": "jbv2025-0844",
+      "jejuForms": [
+        "베롱ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "틈으로 빛이 들어 비치어 약간 밝다. 불빛이 희미하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "베롱ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "베롱ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "베롱ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p092l-y01865",
+      "numericId": "jbv2025-0845",
+      "jejuForms": [
+        "베지근ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "고기 따위를 끓인 국물이 깊은 맛이 있다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "베지근ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "베지근ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "베지근ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p092l-y03881",
+      "numericId": "jbv2025-0848",
+      "jejuForms": [
+        "복삭ᄒᆞ다1"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "몸이 부스러지는 듯한 느낌이 들 정도로 노곤하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "복삭ᄒᆞ다1": 0
+        },
+        "aihubInflectedByForm": {
+          "복삭ᄒᆞ다1": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "복삭ᄒᆞ다1": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p092r-y03345",
+      "numericId": "jbv2025-0853",
+      "jejuForms": [
+        "뽕끄랑ᄒᆞ다",
+        "뽕끌랑ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "음식이나 물건 따위가 가득 차 불룩하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "뽕끄랑ᄒᆞ다": 0,
+          "뽕끌랑ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "뽕끄랑ᄒᆞ다": 0,
+          "뽕끌랑ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "뽕끄랑ᄒᆞ다": 0,
+          "뽕끌랑ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p092r-y04453",
+      "numericId": "jbv2025-0854",
+      "jejuForms": [
+        "ᄈᆞ짝ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "옷, 신발 등이 품이 작아서 몸에 꽉 끼다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "ᄈᆞ짝ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "ᄈᆞ짝ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "ᄈᆞ짝ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p093r-y04235",
+      "numericId": "jbv2025-0866",
+      "jejuForms": [
+        "저를지다",
+        "ᄌᆞ르지다",
+        "ᄌᆞ를지다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "쉴 새가 없이 바쁘다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "저를지다": 0,
+          "ᄌᆞ르지다": 0,
+          "ᄌᆞ를지다": 0
+        },
+        "aihubInflectedByForm": {
+          "저를지다": 0,
+          "ᄌᆞ르지다": 0,
+          "ᄌᆞ를지다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "저를지다": 0,
+          "ᄌᆞ르지다": 0,
+          "ᄌᆞ를지다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p093r-y05070",
+      "numericId": "jbv2025-0867",
+      "jejuForms": [
+        "제라지다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "온전하다. 맞다. 훌륭하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 5,
+        "aihubInflected": 46,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "제라지다": 5
+        },
+        "aihubInflectedByForm": {
+          "제라지다": 46
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "제라지다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "MEDIUM",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 51,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p094l-y00577",
+      "numericId": "jbv2025-0868",
+      "jejuForms": [
+        "제라ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "1) 본바탕 그대로 고스란하다. 2) 자세하고 확실하다. 3) 말, 육감, 사실 따위가 틀림이 없다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "제라ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "제라ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "제라ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p094l-y01485",
+      "numericId": "jbv2025-0869",
+      "jejuForms": [
+        "조고만ᄒᆞ다",
+        "ᄒᆞ꼬만ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "조금 작거나 적다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "조고만ᄒᆞ다": 0,
+          "ᄒᆞ꼬만ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "조고만ᄒᆞ다": 0,
+          "ᄒᆞ꼬만ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "조고만ᄒᆞ다": 0,
+          "ᄒᆞ꼬만ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 5,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p094r-y03304",
+      "numericId": "jbv2025-0876",
+      "jejuForms": [
+        "쪼끌락ᄒᆞ다",
+        "ᄒᆞ끌락ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "조금 작거나 적다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "쪼끌락ᄒᆞ다": 0,
+          "ᄒᆞ끌락ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "쪼끌락ᄒᆞ다": 0,
+          "ᄒᆞ끌락ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "쪼끌락ᄒᆞ다": 0,
+          "ᄒᆞ끌락ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 5,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p095l-y00581",
+      "numericId": "jbv2025-0878",
+      "jejuForms": [
+        "코시롱ᄒᆞ다"
+      ],
+      "level": "중급",
+      "sourcePos": "형용사",
+      "definition": "맛이나 냄새가 비위에 맞아 고소하다.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "코시롱ᄒᆞ다": 0
+        },
+        "aihubInflectedByForm": {
+          "코시롱ᄒᆞ다": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "코시롱ᄒᆞ다": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p097l-y02236",
+      "numericId": "jbv2025-0898",
+      "jejuForms": [
+        "나냥으로"
+      ],
+      "level": "중급",
+      "sourcePos": "부사",
+      "definition": "나 자신의 힘으로.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 29,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "나냥으로": 29
+        },
+        "aihubInflectedByForm": {
+          "나냥으로": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "나냥으로": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 75,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p098l-y03659",
+      "numericId": "jbv2025-0910",
+      "jejuForms": [
+        "비비작작"
+      ],
+      "level": "중급",
+      "sourcePos": "부사",
+      "definition": "형체를 알아볼 수 없게 아무렇게 쓰거나 그리는 모양.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 1,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "비비작작": 1
+        },
+        "aihubInflectedByForm": {
+          "비비작작": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "비비작작": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p099r-y00581",
+      "numericId": "jbv2025-0921",
+      "jejuForms": [
+        "요자기"
+      ],
+      "level": "중급",
+      "sourcePos": "부사",
+      "definition": "요사이의 어느 때에.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 34,
+        "aihubInflected": 15,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "요자기": 34
+        },
+        "aihubInflectedByForm": {
+          "요자기": 15
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "요자기": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 75,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p100l-y02994",
+      "numericId": "jbv2025-0930",
+      "jejuForms": [
+        "저자락"
+      ],
+      "level": "중급",
+      "sourcePos": "부사",
+      "definition": "저러한 정도로. 또는 저렇게까지.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 1,
+        "aihubInflected": 2,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "저자락": 1
+        },
+        "aihubInflectedByForm": {
+          "저자락": 2
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "저자락": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p101r-y02692",
+      "numericId": "jbv2025-0943",
+      "jejuForms": [
+        "ᄀᆞ만시라"
+      ],
+      "level": "중급",
+      "sourcePos": "감탄사",
+      "definition": "다른 사람의 말이나 행동을 멈추거나 잠시 생각할 시간을 얻고 싶을 때 쓰는 말.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "ᄀᆞ만시라": 0
+        },
+        "aihubInflectedByForm": {
+          "ᄀᆞ만시라": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "ᄀᆞ만시라": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p101r-y04179",
+      "numericId": "jbv2025-0945",
+      "jejuForms": [
+        "매기독닥"
+      ],
+      "level": "중급",
+      "sourcePos": "감탄사",
+      "definition": "빈 그릇 따위를 보이면서 아무것도 없음을 알릴 때 쓰는 말.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 1,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "매기독닥": 0
+        },
+        "aihubInflectedByForm": {
+          "매기독닥": 1
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "매기독닥": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "NONE",
+      "everydayUtility": "LOW",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 5,
+      "decision": "DO_NOT_ADD",
+      "reason": "공식 수록 사실은 유지하되, 매우 좁은 친족/수사 슬롯 또는 중복 위험 때문에 현 핵심 앱의 우선순위에는 맞지 않는다고 본다. 이는 사어 판정이 아니다."
+    },
+    {
+      "stableId": "jbv2025-p102l-y00581",
+      "numericId": "jbv2025-0946",
+      "jejuForms": [
+        "메",
+        "메께라",
+        "메시께라"
+      ],
+      "level": "중급",
+      "sourcePos": "감탄사",
+      "definition": "남이 하는 짓이나 말이 너무도 기가 막힐 적에 내는 소리.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "POSSIBLE_DUPLICATE",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 78,
+        "aihubInflected": 411,
+        "aihubVariant": 49,
+        "aihubExactByForm": {
+          "메": 29,
+          "메께라": 43,
+          "메시께라": 6
+        },
+        "aihubInflectedByForm": {
+          "메": 407,
+          "메께라": 3,
+          "메시께라": 1
+        },
+        "lifeDialectHits": 25,
+        "lifeDialectByForm": {
+          "메": 25,
+          "메께라": 0,
+          "메시께라": 0
+        },
+        "dictionaryHit": true,
+        "dictionaryEntrySeqs": [
+          "7556",
+          "4326",
+          "3589"
+        ],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "HIGH",
+      "score": 49,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p102l-y01408",
+      "numericId": "jbv2025-0947",
+      "jejuForms": [
+        "봅서"
+      ],
+      "level": "중급",
+      "sourcePos": "감탄사",
+      "definition": "가까이에 있는 사람이나 듣는 이를 부를 때 쓰는 말.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 162,
+        "aihubInflected": 72,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "봅서": 162
+        },
+        "aihubInflectedByForm": {
+          "봅서": 72
+        },
+        "lifeDialectHits": 14,
+        "lifeDialectByForm": {
+          "봅서": 14
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "STRONG",
+      "everydayUtility": "HIGH",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 75,
+      "decision": "CORE_ADD",
+      "reason": "현재 학습자가 실제 상호작용·기본 서술에서 만날 가능성이 높고, 최소 하나의 내부 사용 근거 또는 초급 핵심 효용이 있어 핵심 후보로 제안한다."
+    },
+    {
+      "stableId": "jbv2025-p102l-y02719",
+      "numericId": "jbv2025-0949",
+      "jejuForms": [
+        "옴마가라"
+      ],
+      "level": "중급",
+      "sourcePos": "감탄사",
+      "definition": "예상하지 못한 일로 깜짝 놀라거나 끔찍한 느낌이 들었을 때 내는 소리.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "옴마가라": 0
+        },
+        "aihubInflectedByForm": {
+          "옴마가라": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "옴마가라": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    },
+    {
+      "stableId": "jbv2025-p102l-y04376",
+      "numericId": "jbv2025-0950",
+      "jejuForms": [
+        "ᄎᆞ마가라"
+      ],
+      "level": "중급",
+      "sourcePos": "감탄사",
+      "definition": "남이 하여서는 안 될 일을 하였을 적에 못마땅하게 여겨서 내는 소리.",
+      "hasStandardEquivalent": false,
+      "existingContentMatch": {
+        "type": "TRUE_NEW",
+        "seqs": [],
+        "note": "Exact/동형이의어 suffix 제거 대조. 의미 동등성은 자동 확정하지 않았다."
+      },
+      "evidence": {
+        "aihubExact": 0,
+        "aihubInflected": 0,
+        "aihubVariant": 0,
+        "aihubExactByForm": {
+          "ᄎᆞ마가라": 0
+        },
+        "aihubInflectedByForm": {
+          "ᄎᆞ마가라": 0
+        },
+        "lifeDialectHits": 0,
+        "lifeDialectByForm": {
+          "ᄎᆞ마가라": 0
+        },
+        "dictionaryHit": false,
+        "dictionaryEntrySeqs": [],
+        "externalEvidence": [],
+        "caveat": "AI Hub/생활방언의 raw 문자열 hit는 표준어 대응이 없는 항목에서 뜻 문맥을 자동 판별할 수 없다. 동형이의어·짧은 표제어는 사용 증거로 과장하지 않았다."
+      },
+      "usageEvidence": "WEAK",
+      "everydayUtility": "MEDIUM",
+      "jejuDistinctiveness": "HIGH",
+      "culturalImportance": "LOW",
+      "redundancy": "LOW",
+      "score": 39,
+      "decision": "HOLD",
+      "reason": "공식 학습어·정의 근거는 있으나, 현 자료만으로 핵심 생활어 또는 문화 핵심어로 확정하기에 현대 사용·초급 효용 근거가 부족해 보류한다."
+    }
+  ]
+}
