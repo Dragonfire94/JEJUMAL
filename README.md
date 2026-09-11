@@ -6,7 +6,8 @@
 (`content/lexemes.json`)에는 나중에 배치·예문 작성을 기다리는 단어까지
 합쳐 1,046개가 있다. 왜 "정확히 1,000개"가 아닌지, 지금까지 콘텐츠를
 어떻게 검증·확정해 왔는지는 [`docs/product-improvement-plan.md`](docs/product-improvement-plan.md)의
-"현재 상태와 문서 지도"를 보면 된다.
+"현재 상태와 문서 지도"를, **다음에 뭘 할 건지**는
+[`docs/NEXT-STEPS.md`](docs/NEXT-STEPS.md)를 보면 된다.
 
 ## 실행
 
