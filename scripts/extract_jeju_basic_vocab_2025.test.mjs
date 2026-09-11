@@ -15,6 +15,11 @@ import { test } from "node:test";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const VOCAB_PATH = path.join(ROOT, "data/jeju-basic-vocab-2025/vocab.json");
+const REGISTRY_PATH = path.join(ROOT, "data/jeju-basic-vocab-2025/stable-id-registry.json");
+
+function loadRegistry() {
+  return JSON.parse(readFileSync(REGISTRY_PATH, "utf8"));
+}
 
 function loadVocab() {
   return JSON.parse(readFileSync(VOCAB_PATH, "utf8"));
@@ -229,4 +234,79 @@ test("PUA 매핑 확정본(confidence: high)이 재추출 후에도 유지된다
   // entry 수가 재추출 전(약 57개) 대비 크게(약 500개 수준으로) 뛴다.
   const puaCount = entries.filter((e) => e.contains_pua).length;
   assert.ok(puaCount < 150, `PUA 포함 entry가 ${puaCount}개 — high-confidence 매핑 재적용이 안 된 것으로 보입니다(기존 수준 ~57~60개)`);
+});
+
+// 3B-1A(2026-09-11) — stable ID production 도입 검증. stableId는 다른
+// 데이터(content/lexemes.json의 bookMeta.bookId)가 영구 참조할 값이다.
+// 순번 기반 id와 달리, PDF 좌표(sourceLocator)로 결정하고
+// stable-id-registry.json에 영구 보존해 재추출해도 안 바뀐다.
+
+test("모든 entry는 stableId와 sourceLocator를 가지고, stableId는 전부 고유하다", () => {
+  const { entries } = loadVocab();
+  for (const e of entries) {
+    assert.ok(e.stableId, `${e.id}에 stableId가 없습니다`);
+    assert.ok(e.sourceLocator, `${e.id}에 sourceLocator가 없습니다`);
+    assert.equal(e.sourceLocator.document, "jeju-basic-vocab-2025");
+    assert.ok(Number.isInteger(e.sourceLocator.pdfPage));
+    assert.ok(e.sourceLocator.half === "left" || e.sourceLocator.half === "right");
+    assert.equal(typeof e.sourceLocator.yStart, "number");
+  }
+  const stableIds = entries.map((e) => e.stableId);
+  assert.equal(new Set(stableIds).size, stableIds.length, "중복된 stableId가 있습니다");
+});
+
+test("stable-id-registry.json은 현재 vocab.json의 모든 entry를 active 상태로 포함한다", () => {
+  const { entries } = loadVocab();
+  const registry = loadRegistry();
+  assert.equal(registry.schemaVersion, 1);
+  assert.ok(registry.source.pdfSha256, "registry에 pdfSha256이 없습니다");
+
+  const registryByStableId = new Map(registry.entries.map((r) => [r.stableId, r]));
+  for (const e of entries) {
+    const r = registryByStableId.get(e.stableId);
+    assert.ok(r, `${e.stableId}가 registry에 없습니다`);
+    assert.equal(r.status, "active", `${e.stableId}가 registry에서 active 상태가 아닙니다`);
+    assert.deepEqual(r.sourceLocator, e.sourceLocator, `${e.stableId}의 sourceLocator가 vocab.json과 registry에서 다릅니다`);
+  }
+  // registry에 있는데 지금 vocab.json엔 없는 건 orphaned여야 한다(조용히 사라지면 안 됨).
+  const vocabStableIds = new Set(entries.map((e) => e.stableId));
+  for (const r of registry.entries) {
+    if (!vocabStableIds.has(r.stableId)) {
+      assert.equal(r.status, "orphaned", `${r.stableId}가 vocab.json에 없는데 orphaned 표시가 안 됐습니다`);
+    }
+  }
+});
+
+test("numeric id(legacy)와 stableId는 서로 다른 체계다 — 영구 참조는 stableId만 쓴다", () => {
+  const { entries } = loadVocab();
+  for (const e of entries) {
+    assert.notEqual(e.id, e.stableId);
+    assert.match(e.id, /^jbv2025-\d{4}$/, `${e.id}가 순번 형식이 아닙니다`);
+    assert.match(e.stableId, /^jbv2025-p\d{3}[lr]-y\d{5}$/, `${e.stableId}가 좌표 기반 형식이 아닙니다`);
+  }
+});
+
+test("3A 산출물(655건 매핑, 71개 신규 후보, 1개 source gap)의 stableId가 현재 vocab.json과 정확히 일치한다", () => {
+  const { entries } = loadVocab();
+  const byNumericId = new Map(entries.map((e) => [e.id, e.stableId]));
+
+  const mapping = JSON.parse(readFileSync(path.join(ROOT, "data/jeju-basic-vocab-2025/content-migration-mapping-3a.json"), "utf8"));
+  assert.equal(mapping.length, 655);
+  for (const m of mapping) {
+    assert.equal(byNumericId.get(m.corrected_numeric_id), m.corrected_stable_id, `${m.corrected_numeric_id}의 stableId 불일치`);
+  }
+
+  const candidates = JSON.parse(readFileSync(path.join(ROOT, "data/jeju-basic-vocab-2025/content-new-candidates-3a.json"), "utf8"));
+  assert.equal(candidates.length, 71);
+  for (const c of candidates) {
+    assert.equal(byNumericId.get(c.numeric_id), c.stable_id, `${c.numeric_id}의 stableId 불일치`);
+    assert.ok(c.jeju_forms.length >= 1, `${c.numeric_id}는 jeju_forms가 있어야 신규 후보다`);
+  }
+
+  const gaps = JSON.parse(readFileSync(path.join(ROOT, "data/jeju-basic-vocab-2025/content-source-gaps-3a.json"), "utf8"));
+  assert.equal(gaps.length, 1);
+  for (const g of gaps) {
+    assert.equal(byNumericId.get(g.numeric_id), g.stable_id, `${g.numeric_id}의 stableId 불일치`);
+    assert.equal(g.actionableAsLexeme, false);
+  }
 });
