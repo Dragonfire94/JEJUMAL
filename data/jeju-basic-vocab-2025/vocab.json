@@ -6574,9 +6574,9 @@
       "has_standard_equivalent": true,
       "standard": [
         "싫다1",
-        "귀찮다1"
+        "귀찮다"
       ],
-      "standard_homograph_no": null
+      "standard_homograph_no": 1
     },
     {
       "standard_raw": "힘들다",
@@ -15080,9 +15080,9 @@
       "has_standard_equivalent": true,
       "standard": [
         "싫다2",
-        "귀찮다3"
+        "귀찮다"
       ],
-      "standard_homograph_no": null
+      "standard_homograph_no": 3
     },
     {
       "standard_raw": "매움하다",
