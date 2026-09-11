@@ -101,3 +101,18 @@ node scripts/audit-word-usage.mjs --out data/aihub/word-usage-audit.json   # 콘
   그리드다. 여기에 없는 테마/유닛 ID를 만들면 앱 진행 화면에서
   절대 도달 불가능한 콘텐츠가 된다 — 새 콘텐츠를 유닛에 넣을 땐 반드시
   이 그리드 구조를 먼저 확인할 것.
+- **`partOfSpeech`는 정확한 국어학적 품사가 아니라 앱 내부용 coarse
+  분류다**(noun/verb/adjective/adverb/pronoun/number/interjection
+  7개뿐 — `scripts/content-schema.mjs`). 의존명사는 `noun`, 관형사는
+  `adjective`로 근사돼 있다(3B-2 감사, `docs/part-of-speech-schema-audit.md`
+  참고, 실측 26건: 의존명사 18 + 관형사 8). 2025 기본어휘 출처
+  lexeme의 **정확한 원자료 품사가 필요하면 `bookMeta.posLabel`을
+  우선 참고할 것** — `partOfSpeech`를 문법적 진실로 오해하지 마라.
+  향후 품사를 화면에 표시하게 되면 `bookMeta.posLabel`이 있으면
+  그걸 우선 쓰고, 없을 때만 `partOfSpeech`의 한국어 라벨로 대체한다.
+  이 근사 mismatch를 발견했다고 자동으로 top-level `partOfSpeech`를
+  고치지 말 것 — 스키마에 새 카테고리(`dependent_noun`, `determiner`
+  등)를 추가할지는 quiz/문법학습 로직이 실제로 세부 품사를 요구하게
+  되거나, 신규 데이터에서 이 문제가 반복 증가하거나, UI가 세부 품사를
+  직접 가르치게 될 때 재검토한다(현재 신규 후보 71개에는 의존명사·
+  관형사가 0건이라 스키마를 지금 늘릴 근거가 없다).

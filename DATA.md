@@ -30,6 +30,24 @@ src/data/units.json                     ← 앱이 실제로 읽는 빌드 산�
 - 발음 파일은 `public/audio/{seq}.mp3`에 받아 두었습니다. 앱은 도청 서버를 부르지 않습니다.
   2025년 추가분 상당수는 아직 음원이 없습니다(`hasAudio: false`).
 
+### `partOfSpeech` vs `bookMeta.posLabel` — 품사 필드가 두 개인 이유
+
+- `partOfSpeech`(모든 lexeme에 있음): 앱 **내부 로직 전용 coarse
+  분류**다. 허용값은 `noun`/`verb`/`adjective`/`adverb`/`pronoun`/
+  `number`/`interjection` 7개뿐(`scripts/content-schema.mjs`)이고,
+  `src/lib/quiz.ts`의 오답 후보 풀링과 스키마 검증에만 쓰인다. **정확한
+  국어학적 품사가 아니다** — 의존명사는 `noun`으로, 관형사는
+  `adjective`로 근사돼 있다.
+- `bookMeta.posLabel`(2025 기본어휘 출처 lexeme에만 있음): 책 원문이
+  실제로 분류한 한국어 품사(예: "의존명사", "관형사"). **정확한
+  원자료 품사가 필요하면 이 필드를 본다.**
+- 3B-2 감사(`docs/part-of-speech-schema-audit.md`) 결과: 이 근사가
+  실제로 적용된 사례는 26건(의존명사 18 + 관형사 8)뿐이고, `partOfSpeech`가
+  사용자 화면에 노출되는 곳이 없어(검색 결과 0건) 지금 당장 스키마를
+  확장할 필요는 없다고 결론지었다(안 C 채택). 향후 품사를 화면에
+  표시하게 되면 `bookMeta.posLabel`이 있으면 그걸 우선 쓰고, 없을
+  때만 `partOfSpeech`의 한국어 라벨로 대체한다.
+
 ### 왜 정확히 1,000개가 아닌가
 
 1,000단어 전부가 "사전에서만 보는 말"이 아니라 실제로 쓰이는 말인지
