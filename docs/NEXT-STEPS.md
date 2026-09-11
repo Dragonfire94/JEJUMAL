@@ -63,19 +63,27 @@
 유연하게 만든 전례가 있으니, 완전히 새로 설계하기보다 그 위에서
 확장하는 게 자연스러울 수 있다.
 
-### A-3.5. 2025 기본어휘 stable ID 마이그레이션 — 3B-1B까지 완료
+### A-3.5. 2025 기본어휘 stable ID 마이그레이션 — 3B-2까지 완료
 
 `docs/basic-vocab-2025-stable-id-design.md`(3A) → `docs/basic-vocab-2025-stable-id-production.md`(3B-1A) →
-`docs/basic-vocab-2025-content-reference-migration.md`(3B-1B) 순서로
-진행했다. **`content/lexemes.json`의 655개 `bookMeta.bookId`가 이제
-순번 기반이 아니라 stableId다**(`bookMeta.legacyBookId`에 예전 값
-보존). E(31건) 병합 오염(다른 단어 뜻풀이 섞임)도 전부 정제했다.
+`docs/basic-vocab-2025-content-reference-migration.md`(3B-1B) →
+`docs/part-of-speech-schema-audit.md`(3B-2) 순서로 진행했다.
+`content/lexemes.json`의 655개 `bookMeta.bookId`가 이제 stableId다
+(`bookMeta.legacyBookId`에 예전 값 보존). E(31건) 병합 오염도 전부
+정제했다. B(42건) 중 진짜 source 오류였던 18건은 고쳤고, 나머지
+**26건**(문서 추정 24건이 아니라 실측 26건 — `posLabel`은 이미
+정확했고 앱 `partOfSpeech`에 의존명사/관형사 카테고리가 없어서
+noun/adjective로 근사된 것)은 **정책만 결정하고 아직 미적용**:
+`partOfSpeech`가 사용자 화면에 전혀 노출 안 되고(검색 결과 0건)
+신규 71개에도 이 문제가 재발하지 않아, "안 C(내부 coarse POS 유지 +
+이미 정확한 `bookMeta.posLabel`을 표시용으로 재해석, 코드 변경
+사실상 0)"를 추천했다 — 사용자 승인 대기.
+
 남은 순서:
 
-- 3B-2: B(42건) 중 `bookMeta.posLabel` 자체가 틀렸던 18건은 이미
-  고쳤다. 나머지 24건은 `posLabel`은 이미 맞았고 앱 `partOfSpeech`
-  스키마에 의존명사/관형사 카테고리가 없어서 근사(noun/adjective)한
-  게 원인이다 — 카테고리를 신설할지 근사를 유지할지 정책 결정 필요.
+- 3B-2 정책 반영(승인 시): 안 C면 정책 문서화만, 안 B면
+  `docs/part-of-speech-schema-audit.md` 5절 기준 스키마·26개 데이터
+  변경.
 - 3C: 신규 71개 중 실제 앱 핵심 단어로 넣을 것 개별 선별
 
 ### A-4. (참고용, 액션 불필요) same_meaning_different_form 나머지
