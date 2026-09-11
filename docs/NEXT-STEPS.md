@@ -63,18 +63,19 @@
 유연하게 만든 전례가 있으니, 완전히 새로 설계하기보다 그 위에서
 확장하는 게 자연스러울 수 있다.
 
-### A-3.5. 2025 기본어휘 stable ID 마이그레이션 — 3B-1A까지 완료
+### A-3.5. 2025 기본어휘 stable ID 마이그레이션 — 3B-1B까지 완료
 
-`docs/basic-vocab-2025-stable-id-design.md`(3A)에서 stable ID
-설계와 기존 `content/lexemes.json` 655건 전수 매핑을 끝냈다 — 자동
-마이그레이션 가능 582건, bookId 매핑은 가능하나 품사 스키마 정책
-결정 필요 42건, 병합 오염 정리 필요 31건. `docs/basic-vocab-2025-stable-id-production.md`(3B-1A)에서
-stableId/registry를 실제 `vocab.json`에 도입해 검증까지 마쳤다.
-**아직 `content/lexemes.json`은 하나도 안 바꿨다** — 남은 순서:
+`docs/basic-vocab-2025-stable-id-design.md`(3A) → `docs/basic-vocab-2025-stable-id-production.md`(3B-1A) →
+`docs/basic-vocab-2025-content-reference-migration.md`(3B-1B) 순서로
+진행했다. **`content/lexemes.json`의 655개 `bookMeta.bookId`가 이제
+순번 기반이 아니라 stableId다**(`bookMeta.legacyBookId`에 예전 값
+보존). E(31건) 병합 오염(다른 단어 뜻풀이 섞임)도 전부 정제했다.
+남은 순서:
 
-- 3B-1B: 655개 `bookMeta.bookId`를 stableId로 실제 교체(품사·신규
-  단어는 그대로 둠)
-- 3B-2: B(42건)의 `partOfSpeech` — 스키마 정책 결정 후 적용
+- 3B-2: B(42건) 중 `bookMeta.posLabel` 자체가 틀렸던 18건은 이미
+  고쳤다. 나머지 24건은 `posLabel`은 이미 맞았고 앱 `partOfSpeech`
+  스키마에 의존명사/관형사 카테고리가 없어서 근사(noun/adjective)한
+  게 원인이다 — 카테고리를 신설할지 근사를 유지할지 정책 결정 필요.
 - 3C: 신규 71개 중 실제 앱 핵심 단어로 넣을 것 개별 선별
 
 ### A-4. (참고용, 액션 불필요) same_meaning_different_form 나머지
