@@ -1,0 +1,876 @@
+[
+  {
+    "numeric_id": "jbv2025-0037",
+    "stable_id": "jbv2025-p011r-y00590",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "돌담"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "찰흙 등을 사용하지 않고 돌의 순수한 형태와 특성을 이용하여 쌓은 담. "
+  },
+  {
+    "numeric_id": "jbv2025-0052",
+    "stable_id": "jbv2025-p012r-y03951",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "말젯ᄄᆞᆯ"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "딸이 넷일 때 셋째 딸."
+  },
+  {
+    "numeric_id": "jbv2025-0053",
+    "stable_id": "jbv2025-p012r-y04490",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "말젯아덜"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "아들이 넷일 때 셋째 아들."
+  },
+  {
+    "numeric_id": "jbv2025-0054",
+    "stable_id": "jbv2025-p013l-y00581",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "말젯아방"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "아버지의 남자 형제가 넷일 때 아버지의 셋째 형이나 아우."
+  },
+  {
+    "numeric_id": "jbv2025-0055",
+    "stable_id": "jbv2025-p013l-y01271",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "말젯어멍"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "아버지의 남자 형제가 넷일 때 아버지의 셋째 형이나 아우의 아내."
+  },
+  {
+    "numeric_id": "jbv2025-0079",
+    "stable_id": "jbv2025-p015r-y01689",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "빙떡"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "고운 메밀가루 반죽을 기름을 두른 번철이나 프라이팬 따위에 얇게 펴 놓고"
+  },
+  {
+    "numeric_id": "jbv2025-0084",
+    "stable_id": "jbv2025-p016l-y01491",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "삼춘"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "1) 부모님의 남자 형제를 이르거나 부르는 말. 2) 나이가 많은 어른을"
+  },
+  {
+    "numeric_id": "jbv2025-0091",
+    "stable_id": "jbv2025-p016r-y03797",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "셋ᄄᆞᆯ"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "둘째 딸. 딸 가운데 두번째 딸을 이르는 말."
+  },
+  {
+    "numeric_id": "jbv2025-0092",
+    "stable_id": "jbv2025-p016r-y04327",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "셋아덜"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "둘째 아들. 아들 가운데 두 번째 아들을 이르는 말."
+  },
+  {
+    "numeric_id": "jbv2025-0102",
+    "stable_id": "jbv2025-p017r-y03272",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "숨비소리"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "해녀들이 무자맥질할 때 숨을 참았다가 한꺼번에 내쉴 때 나는 소리."
+  },
+  {
+    "numeric_id": "jbv2025-0134",
+    "stable_id": "jbv2025-p020r-y03564",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "오름"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "한 번의 분화 활동으로 봉긋봉긋 솟아오른 화산."
+  },
+  {
+    "numeric_id": "jbv2025-0135",
+    "stable_id": "jbv2025-p020r-y04869",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [
+      "올레"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "거릿길 쪽에서 대문까지의, 집으로 드나드는 아주 좁은 골목 비슷한 길."
+  },
+  {
+    "numeric_id": "jbv2025-0146",
+    "stable_id": "jbv2025-p021r-y04044",
+    "level": "초급",
+    "pos": "명사",
+    "jeju_forms": [],
+    "standard": [
+      "옆"
+    ],
+    "has_standard_equivalent": true,
+    "definition_head": "무엇의 왼쪽이나 오른쪽의 면."
+  },
+  {
+    "numeric_id": "jbv2025-0259",
+    "stable_id": "jbv2025-p033r-y03508",
+    "level": "초급",
+    "pos": "동사",
+    "jeju_forms": [
+      "먹어지다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "먹게 되다. 먹을 수 있다."
+  },
+  {
+    "numeric_id": "jbv2025-0276",
+    "stable_id": "jbv2025-p035r-y01317",
+    "level": "초급",
+    "pos": "동사",
+    "jeju_forms": [
+      "살아지다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "1) 살게 되다. 살 수 있다. 2) 모든 면에서 남부럽지 않게 살게 되"
+  },
+  {
+    "numeric_id": "jbv2025-0286",
+    "stable_id": "jbv2025-p036r-y03476",
+    "level": "초급",
+    "pos": "동사",
+    "jeju_forms": [
+      "알아지다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "알게 되다. 알 수 있다."
+  },
+  {
+    "numeric_id": "jbv2025-0348",
+    "stable_id": "jbv2025-p043l-y02824",
+    "level": "초급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "맛좋다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "음식의 맛이 좋다."
+  },
+  {
+    "numeric_id": "jbv2025-0409",
+    "stable_id": "jbv2025-p049r-y04678",
+    "level": "초급",
+    "pos": "부사",
+    "jeju_forms": [
+      "그추룩"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "1) 그와 같이. 그 모양이나 상태로. 2) 그 정도로. 그만큼. 3) "
+  },
+  {
+    "numeric_id": "jbv2025-0429",
+    "stable_id": "jbv2025-p051r-y03580",
+    "level": "초급",
+    "pos": "부사",
+    "jeju_forms": [
+      "이추룩"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "1) 이와 같이. 이 모양이나 상태로. 2) 이 정도로. 이만큼. 3) "
+  },
+  {
+    "numeric_id": "jbv2025-0431",
+    "stable_id": "jbv2025-p052l-y00581",
+    "level": "초급",
+    "pos": "부사",
+    "jeju_forms": [
+      "저추룩"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "1) 저와 같이. 저 모양이나 상태로. 2) 저 정도로. 저만큼. 3) "
+  },
+  {
+    "numeric_id": "jbv2025-0452",
+    "stable_id": "jbv2025-p055l-y01578",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "가문잔치"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "혼례를 치르는 전날에 가까운 친척들이 모여 간단히 벌이는 잔치."
+  },
+  {
+    "numeric_id": "jbv2025-0469",
+    "stable_id": "jbv2025-p056r-y00581",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "곶자왈"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "나무와 덩굴 따위가 엉클어져 있는 수풀."
+  },
+  {
+    "numeric_id": "jbv2025-0474",
+    "stable_id": "jbv2025-p057l-y00577",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "그루후제",
+      "글지후제"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "그 뒤로 어느 때. 그 이후."
+  },
+  {
+    "numeric_id": "jbv2025-0523",
+    "stable_id": "jbv2025-p061r-y00581",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "망사리"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "바다에서 해녀가 해산물을 채취하고서 담아 넣는, 그물로 엮어 만든 물건."
+  },
+  {
+    "numeric_id": "jbv2025-0531",
+    "stable_id": "jbv2025-p062l-y02407",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "물소중의"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "해녀들이 물질할 때 입는 무명천 따위로 만든 옷."
+  },
+  {
+    "numeric_id": "jbv2025-0532",
+    "stable_id": "jbv2025-p062l-y02937",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "물수건"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "해녀가 물질할 때 쓰는 하얀 수건."
+  },
+  {
+    "numeric_id": "jbv2025-0534",
+    "stable_id": "jbv2025-p062l-y04209",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "물적삼"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "해녀가 잠수할 때 속곳 위에 입는 적삼."
+  },
+  {
+    "numeric_id": "jbv2025-0540",
+    "stable_id": "jbv2025-p063l-y00581",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "국"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "돼지고기를 삶은 육수에 불린 모자반을 넣어 끓인 국."
+  },
+  {
+    "numeric_id": "jbv2025-0542",
+    "stable_id": "jbv2025-p063l-y02156",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "반지기밥"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "보리쌀과 쌀을 반씩 섞어서 지은 밥."
+  },
+  {
+    "numeric_id": "jbv2025-0557",
+    "stable_id": "jbv2025-p064r-y01509",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "불턱"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "물질을 하던 해녀가 뭍으로 나와 언 몸을 따뜻하게 녹이기 위해 미리 준비"
+  },
+  {
+    "numeric_id": "jbv2025-0560",
+    "stable_id": "jbv2025-p064r-y04167",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "빗창"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "해녀가 바닷속에 들어가서 전복을 캐는 데 쓰는 길쭉한 쇠붙이로 된 연장."
+  },
+  {
+    "numeric_id": "jbv2025-0564",
+    "stable_id": "jbv2025-p065l-y03338",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "산담"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "무덤 주위로 네모지거나 둥글게 둘러싼 돌담."
+  },
+  {
+    "numeric_id": "jbv2025-0585",
+    "stable_id": "jbv2025-p067l-y03098",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "신구간"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "제주도에서, 대한 후 5일에서 입춘 전 3일까지의 약 일주일을 이르는 말"
+  },
+  {
+    "numeric_id": "jbv2025-0599",
+    "stable_id": "jbv2025-p068r-y00581",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "오메기떡"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "차좁쌀 가루에 더운물을 넣어 되게 반죽해서 둥그렇게 만든 후 가운데 큰 "
+  },
+  {
+    "numeric_id": "jbv2025-0600",
+    "stable_id": "jbv2025-p068r-y01454",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "오분자기"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "난대성 전복과의 연체동물."
+  },
+  {
+    "numeric_id": "jbv2025-0605",
+    "stable_id": "jbv2025-p069l-y00581",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "웃드르"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "한라산이 있는 쪽 벽지 근처의 들. 또는 그런 곳에서 이루어진 마을."
+  },
+  {
+    "numeric_id": "jbv2025-0619",
+    "stable_id": "jbv2025-p070l-y02390",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "절"
+    ],
+    "standard": [
+      "파도"
+    ],
+    "has_standard_equivalent": true,
+    "definition_head": "바다에 이는 물결."
+  },
+  {
+    "numeric_id": "jbv2025-0621",
+    "stable_id": "jbv2025-p070l-y03909",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "정주석"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "대문 대신 나무 막대를 걸칠 수 있도록 구멍을 뚫어 양쪽으로 세운 기둥."
+  },
+  {
+    "numeric_id": "jbv2025-0624",
+    "stable_id": "jbv2025-p070r-y02284",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "족은눈"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "해녀가 물질할 때에 쓰는, 작은 알이 둘인 물안경."
+  },
+  {
+    "numeric_id": "jbv2025-0646",
+    "stable_id": "jbv2025-p072r-y03485",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "ᄎᆞᆯ레"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "밥과 곁들여 먹는 장, 젓 따위의 반찬."
+  },
+  {
+    "numeric_id": "jbv2025-0650",
+    "stable_id": "jbv2025-p073l-y01495",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "큰눈"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "해녀들이 물질할 때 쓰는 물안경. 알이 하나로 되어 있다."
+  },
+  {
+    "numeric_id": "jbv2025-0653",
+    "stable_id": "jbv2025-p073l-y03867",
+    "level": "중급",
+    "pos": "명사",
+    "jeju_forms": [
+      "테왁"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "박의 씨통을 파내고 구멍을 막아서 해녀들이 작업할 때 바다에 갖고 가서 "
+  },
+  {
+    "numeric_id": "jbv2025-0684",
+    "stable_id": "jbv2025-p076r-y00581",
+    "level": "중급",
+    "pos": "수사",
+    "jeju_forms": [
+      "설남은"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "서른이 조금 넘는 수."
+  },
+  {
+    "numeric_id": "jbv2025-0761",
+    "stable_id": "jbv2025-p084r-y00589",
+    "level": "중급",
+    "pos": "동사",
+    "jeju_forms": [
+      "시꾸다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "꿈에 나타나 보이다."
+  },
+  {
+    "numeric_id": "jbv2025-0775",
+    "stable_id": "jbv2025-p085r-y02235",
+    "level": "중급",
+    "pos": "동사",
+    "jeju_forms": [
+      "와리다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "마음이 아주 조급하여 서두르다."
+  },
+  {
+    "numeric_id": "jbv2025-0789",
+    "stable_id": "jbv2025-p087l-y00589",
+    "level": "중급",
+    "pos": "동사",
+    "jeju_forms": [
+      "ᄌᆞ냥ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "식량이나 물건을 아껴서 비축하다."
+  },
+  {
+    "numeric_id": "jbv2025-0790",
+    "stable_id": "jbv2025-p087l-y01121",
+    "level": "중급",
+    "pos": "동사",
+    "jeju_forms": [
+      "ᄌᆞ들다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "걱정되는 일이 있어서 매우 근심하다."
+  },
+  {
+    "numeric_id": "jbv2025-0791",
+    "stable_id": "jbv2025-p087l-y01655",
+    "level": "중급",
+    "pos": "동사",
+    "jeju_forms": [
+      "ᄌᆞ물다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "물 속에 들어가서 해산물을 채취하다."
+  },
+  {
+    "numeric_id": "jbv2025-0799",
+    "stable_id": "jbv2025-p087r-y04319",
+    "level": "중급",
+    "pos": "동사",
+    "jeju_forms": [
+      "튼나다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "기억이 되살아나거나 잘 떠오르지 않던 생각이 나다."
+  },
+  {
+    "numeric_id": "jbv2025-0800",
+    "stable_id": "jbv2025-p087r-y04862",
+    "level": "중급",
+    "pos": "동사",
+    "jeju_forms": [
+      "튼내다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "기억을 되살려 내거나 잘 떠오르지 않던 생각을 나게 하다."
+  },
+  {
+    "numeric_id": "jbv2025-0825",
+    "stable_id": "jbv2025-p090l-y03155",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "듬삭ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "기름기가 많은 국 같은 것을 먹을 때 입안에 맛이 돌아 푸짐하게 느껴지다"
+  },
+  {
+    "numeric_id": "jbv2025-0844",
+    "stable_id": "jbv2025-p092l-y01332",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "베롱ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "틈으로 빛이 들어 비치어 약간 밝다. 불빛이 희미하다."
+  },
+  {
+    "numeric_id": "jbv2025-0845",
+    "stable_id": "jbv2025-p092l-y01865",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "베지근ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "고기 따위를 끓인 국물이 깊은 맛이 있다."
+  },
+  {
+    "numeric_id": "jbv2025-0848",
+    "stable_id": "jbv2025-p092l-y03881",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "복삭ᄒᆞ다1"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "몸이 부스러지는 듯한 느낌이 들 정도로 노곤하다."
+  },
+  {
+    "numeric_id": "jbv2025-0853",
+    "stable_id": "jbv2025-p092r-y03345",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "뽕끄랑ᄒᆞ다",
+      "뽕끌랑ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "음식이나 물건 따위가 가득 차 불룩하다."
+  },
+  {
+    "numeric_id": "jbv2025-0854",
+    "stable_id": "jbv2025-p092r-y04453",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "ᄈᆞ짝ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "옷, 신발 등이 품이 작아서 몸에 꽉 끼다."
+  },
+  {
+    "numeric_id": "jbv2025-0866",
+    "stable_id": "jbv2025-p093r-y04235",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "저를지다",
+      "ᄌᆞ르지다",
+      "ᄌᆞ를지다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "쉴 새가 없이 바쁘다."
+  },
+  {
+    "numeric_id": "jbv2025-0867",
+    "stable_id": "jbv2025-p093r-y05070",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "제라지다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "온전하다. 맞다. 훌륭하다."
+  },
+  {
+    "numeric_id": "jbv2025-0868",
+    "stable_id": "jbv2025-p094l-y00577",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "제라ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "1) 본바탕 그대로 고스란하다. 2) 자세하고 확실하다. 3) 말, 육감"
+  },
+  {
+    "numeric_id": "jbv2025-0869",
+    "stable_id": "jbv2025-p094l-y01485",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "조고만ᄒᆞ다",
+      "ᄒᆞ꼬만ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "조금 작거나 적다."
+  },
+  {
+    "numeric_id": "jbv2025-0876",
+    "stable_id": "jbv2025-p094r-y03304",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "쪼끌락ᄒᆞ다",
+      "ᄒᆞ끌락ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "조금 작거나 적다."
+  },
+  {
+    "numeric_id": "jbv2025-0878",
+    "stable_id": "jbv2025-p095l-y00581",
+    "level": "중급",
+    "pos": "형용사",
+    "jeju_forms": [
+      "코시롱ᄒᆞ다"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "맛이나 냄새가 비위에 맞아 고소하다."
+  },
+  {
+    "numeric_id": "jbv2025-0898",
+    "stable_id": "jbv2025-p097l-y02236",
+    "level": "중급",
+    "pos": "부사",
+    "jeju_forms": [
+      "나냥으로"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "나 자신의 힘으로."
+  },
+  {
+    "numeric_id": "jbv2025-0910",
+    "stable_id": "jbv2025-p098l-y03659",
+    "level": "중급",
+    "pos": "부사",
+    "jeju_forms": [
+      "비비작작"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "형체를 알아볼 수 없게 아무렇게 쓰거나 그리는 모양."
+  },
+  {
+    "numeric_id": "jbv2025-0921",
+    "stable_id": "jbv2025-p099r-y00581",
+    "level": "중급",
+    "pos": "부사",
+    "jeju_forms": [
+      "요자기"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "요사이의 어느 때에."
+  },
+  {
+    "numeric_id": "jbv2025-0930",
+    "stable_id": "jbv2025-p100l-y02994",
+    "level": "중급",
+    "pos": "부사",
+    "jeju_forms": [
+      "저자락"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "저러한 정도로. 또는 저렇게까지."
+  },
+  {
+    "numeric_id": "jbv2025-0943",
+    "stable_id": "jbv2025-p101r-y02692",
+    "level": "중급",
+    "pos": "감탄사",
+    "jeju_forms": [
+      "ᄀᆞ만시라"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "다른 사람의 말이나 행동을 멈추거나 잠시 생각할 시간을 얻고 싶을 때 쓰"
+  },
+  {
+    "numeric_id": "jbv2025-0945",
+    "stable_id": "jbv2025-p101r-y04179",
+    "level": "중급",
+    "pos": "감탄사",
+    "jeju_forms": [
+      "매기독닥"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "빈 그릇 따위를 보이면서 아무것도 없음을 알릴 때 쓰는 말."
+  },
+  {
+    "numeric_id": "jbv2025-0946",
+    "stable_id": "jbv2025-p102l-y00581",
+    "level": "중급",
+    "pos": "감탄사",
+    "jeju_forms": [
+      "메",
+      "메께라",
+      "메시께라"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "남이 하는 짓이나 말이 너무도 기가 막힐 적에 내는 소리."
+  },
+  {
+    "numeric_id": "jbv2025-0947",
+    "stable_id": "jbv2025-p102l-y01408",
+    "level": "중급",
+    "pos": "감탄사",
+    "jeju_forms": [
+      "봅서"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "가까이에 있는 사람이나 듣는 이를 부를 때 쓰는 말."
+  },
+  {
+    "numeric_id": "jbv2025-0949",
+    "stable_id": "jbv2025-p102l-y02719",
+    "level": "중급",
+    "pos": "감탄사",
+    "jeju_forms": [
+      "옴마가라"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "예상하지 못한 일로 깜짝 놀라거나 끔찍한 느낌이 들었을 때 내는 소리."
+  },
+  {
+    "numeric_id": "jbv2025-0950",
+    "stable_id": "jbv2025-p102l-y04376",
+    "level": "중급",
+    "pos": "감탄사",
+    "jeju_forms": [
+      "ᄎᆞ마가라"
+    ],
+    "standard": [],
+    "has_standard_equivalent": false,
+    "definition_head": "남이 하여서는 안 될 일을 하였을 적에 못마땅하게 여겨서 내는 소리."
+  }
+]
