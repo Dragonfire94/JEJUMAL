@@ -35,7 +35,7 @@ python scripts/extract_jeju_basic_vocab_2025.py
 ```jsonc
 {
   "source": { "title": ..., "publisher": ..., "authors": [...], "publishedDate": ..., "isbn": ..., "note": ... },
-  "extraction": { "method": ..., "totalExtracted": 1255, "claimedTotal": 1500, "coverageCaveat": ..., "puaCaveat": ... },
+  "extraction": { "method": ..., "totalExtracted": 1501, "claimedTotal": 1500, "noStandardEquivalentCount": 246, "coverageCaveat": ..., "puaCaveat": ... },
   "entries": [
     {
       "id": "jbv2025-0001",
@@ -48,7 +48,8 @@ python scripts/extract_jeju_basic_vocab_2025.py
       "pos": "명사",                     // 품사
       "chapter_no": 1,                   // 품사 내 장 번호
       "pdf_page": 8,                     // 0-based PDF 페이지 인덱스(source.pdf 기준)
-      "contains_pua": false              // 제주어 형태에 PUA 문자가 섞여 있는지
+      "contains_pua": false,             // 제주어형/뜻풀이/표준어 표기에 PUA 문자가 남아있는지
+      "has_standard_equivalent": true    // false면 일대일 대응 표준어가 없는 제주 고유어(오름 등) — standard_raw는 null, standard는 []
     }
   ],
   "reverseIndex": { "가까이": [190], "가깝다1": [79], ... }  // 표준어 → 책 쪽번호(가나다순 부록)
@@ -63,27 +64,34 @@ PDF는 텍스트를 선형으로 뽑으면 열(제주어 형태 칸과 표준어
 제주어 형태를 표제어에 대응시켰다. PDF 한 쪽이 실제로는 책의 서로 다른
 두 쪽(좌/우 반쪽)을 담고 있다는 것도 확인해서 반영했다.
 
-**1) 1,500개 중 1,255개만 추출됨(83.7%).** 공식 목차상 초급 450개는
-거의 다 맞게 나왔지만(대명사24/수사11/관형사10/의존명사8/감탄사10 —
-책이 밝힌 20/10/10/8/10과 근접), 중급·고급의 대명사·관형사·의존명사·
-감탄사·수사처럼 **한 페이지에 여러 소분류가 같이 실렸을 만한, 항목 수
-적은 품사 몇 개가 통째로 빠졌다.** 페이지 좌상단 라벨을 페이지당 한 번만
-읽어서 생긴 문제로 추정된다(작은 챕터가 큰 챕터 페이지 중간에서
-시작하면 라벨을 놓친다). `reverseIndex`의 쪽번호와 대조하면 빠진
-항목을 찾아 보완할 수 있다 — 아직 안 했다.
+**1) [2026-09-11 수정 완료] 1,500개 중 1,255개만 추출되던 문제 —
+지금은 1,501개.** 원인 2가지를 구조적으로 고쳤다: (a) 일대일 대응
+표준어가 없는 제주 고유어(오름·정낭·빙떡 등)가 헤드워드 줄 없이
+정의문만 인쇄돼 직전 entry에 흡수되던 문제, (b) 우측 반쪽 품사/등급
+여백 라벨을 아예 안 읽어서 좌/우 반쪽이 다른 챕터면 통째로 잘못
+분류되던 문제. 자세한 경위·검증 결과는
+`docs/basic-vocab-2025-extractor-fix.md` 참고. **알려진 잔여
+불일치 1건**(고급/명사 266 vs 공식 265, 원인 미확정)이 남아 있다 —
+같은 문서에 기록.
 
-**2) 동사·형용사 항목의 34%(425개)에 PUA(유니코드 사용자 영역,
-U+E000–F8FF) 문자가 섞여 있다.** 이 책이 쓰는 폰트가 아래아(ㆍ) 같은
-옛한글 자모를 표준 유니코드가 아니라 전용 글리프로 그리기 때문이다 —
-이 프로젝트가 `data/dictionary/`(jeju.go.kr 사전)와
-`data/life-dialect/`(생활방언 100편)에서 이미 겪은 것과 **똑같은
-문제**다. 공개된 변환표가 없어 원문 코드포인트를 그대로 보존했다.
-`contains_pua: true`인 항목은 화면에 깨져 보이거나 안 보일 수 있고,
-정확한 표기를 알려면 `source.pdf`를 직접 열어 확인해야 한다.
+**2) [2026-09-11 부분 해결] PUA(유니코드 사용자 영역, U+E000–F8FF)
+문자.** 이전 라운드(`README-pua-mapping*.md`)에서 사람이 눈으로
+확정한 81개 중 58개(confidence: high)는 이제 `scripts/extract_jeju_basic_vocab_2025.py`가
+재추출할 때마다 자동으로 다시 적용한다(`pua-glyph-mapping.json`
+참고) — 재추출 후 PUA 포함 entry는 59개(이전 57개와 비슷한 수준).
+medium 16개·low 7개는 아직 미확정이라 원문 그대로 남아 있다. 이 책이
+쓰는 폰트가 아래아(ㆍ) 같은 옛한글 자모를 전용 글리프로 그려서 생기는
+문제로, `data/dictionary/`·`data/life-dialect/`에서 이미 겪은 것과
+같다. `contains_pua: true`인 항목은 화면에 깨져 보이거나 안 보일 수
+있고, 정확한 표기를 알려면 `source.pdf`를 직접 열어 확인해야 한다.
 
 **3) 이 데이터는 아직 앱 파이프라인(`content/`, `scripts/audit-word-usage.mjs`)에
-연결하지 않았다.** 지금은 참고 자료로만 저장소에 있다. 1,000단어 실사용
-감사에 세 번째 근거로 넣으려면:
+연결하지 않았다.** 지금은 참고 자료로만 저장소에 있다. 재추출된
+1,501개를 아직 `content/lexemes.json`에 자동 반영하지 않았다 — 기존
+1,058개(391 유지+667 신규)는 옛 추출(1,255개 버전)의 `jbv2025-XXXX`
+id를 참조하는데, 재추출로 id가 크게 흔들려서(아래 "ID 안정성" 참고)
+그대로 자동 대조하면 안 된다. 이후 별도 단계에서 대조·교정할 것.
+1,000단어 실사용 감사에 세 번째 근거로 넣으려면:
 - `entries[].jeju_forms`를 `content/lexemes.json`의 표제어와 대조(정확
   일치 + 활용형, `scripts/audit-word-usage.mjs`의 동형이의어 방지
   로직을 그대로 재사용)
