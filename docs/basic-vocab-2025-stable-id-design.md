@@ -31,8 +31,11 @@ production 파일도 수정하지 않았다.** 결과는 설계 제안 + 655건 
   `definition`에 남은 것 — 이미 어떤 새 entry로 옮겨야 하는지도
   자동으로 확정됐다.
 - corrected 초급+중급(950개) 중 현재 content에 정확히 존재 866개,
-  변이형으로 존재 12개, **진짜 신규 후보 72개**(그 중 70개는 표준어
-  대응 없는 제주 고유어).
+  변이형으로 존재 12개, **앱에 추가 가능한 신규 제주어 lexeme 후보
+  71개**(그 중 70개는 표준어 대응 없는 제주 고유어), **원자료 자체의
+  제주어형 공백(source gap) 1개**([3A.1] `jbv2025-0146`="옆" —
+  표준어 항목·정의는 있지만 대응 제주어 형태가 PDF에 없음, 앱
+  lexeme 후보 아님).
 
 ## 2. ID 사용 현황
 
@@ -138,7 +141,7 @@ production 파일은 건드리지 않고 scratch에서 시뮬레이션했다
 | confidence | 개수 | 자동 migration 가능 여부 |
 |---|--:|---|
 | A(제주어·표준어·품사·등급 전부 일치) | 582 | 가능 |
-| B(제주어·표준어·등급 일치, 품사만 불일치) | 42 | **가능(기계적 규칙)** — 아래 참고 |
+| B(제주어·표준어·등급 일치, 품사만 불일치) | 42 | `bookId`/`bookMeta` 매핑 자체는 가능 — `partOfSpeech` 교정은 별도 스키마 정책 결정 필요(3B-2, 아래 참고) |
 | C(변이형 매칭) | 0 | - |
 | D(다의어/다중 후보) | 0 | - |
 | E(오염된 bookMeta) | 31 | 불가(자동 정제 필요, 대상은 확정됨) |
@@ -153,13 +156,18 @@ production 파일은 건드리지 않고 scratch에서 시뮬레이션했다
 `bookMeta.posLabel`에 잘못된 품사가 찍혔고, 그게 앱의
 `partOfSpeech`로 그대로 옮겨진 것**이었다. 예: `하나/둘/넷`이
 당시 "대명사"로 잘못 추출돼 `partOfSpeech: "pronoun"`이 됐지만,
-고친 extractor는 정확히 "수사"로 분류한다. 자동 수정 규칙이
-명확하다 — corrected entry의 `pos`를 표준 매핑
-(`명사→noun, 동사→verb, 형용사→adjective, 부사→adverb,
-대명사→pronoun, 수사→number, 감탄사→interjection`,
-의존명사/관형사는 앱 스키마에 없으므로 각각 `noun`/`adjective`로
-근사)으로 다시 계산해서 덮어쓰면 된다. 42건 전부 이 규칙 하나로
-해결된다(하드코딩 아님).
+고친 extractor는 정확히 "수사"로 분류한다.
+
+**[2026-09-11, 3A.1에서 수정] 자동 교정 규칙을 이 문서에서 확정하지
+않는다.** 명사↔동사↔형용사↔부사↔대명사↔수사↔감탄사처럼 앱
+`partOfSpeech` enum에 이미 있는 품사끼리는 corrected `pos`로 바로
+대응시키면 되지만, 의존명사·관형사는 앱 enum에 대응 카테고리가
+아예 없다 — 이걸 `noun`/`adjective`로 "근사"하는 건 **원자료
+메타데이터 교정이 아니라 앱 품사 모델(스키마) 자체를 결정하는
+일**이라 이 단계에서 섞으면 안 된다(특히 관형사를 형용사로
+근사하는 건 언어학적으로도 부정확하다). 42건의 정확한 목록과
+원인은 확정됐지만, **실제 교정 규칙(schema에 새 카테고리를 추가할지,
+근사 매핑을 쓸지)은 3B-2에서 별도로 결정한다** — 10절 참고.
 
 ### E(31건) — 병합 오염, 대상 확정됨
 
@@ -207,30 +215,42 @@ production 파일은 건드리지 않고 scratch에서 시뮬레이션했다
 
 ## 8. corrected 초급+중급 차집합
 
+**[2026-09-11, 3A.1에서 수정]** 최초 집계는 `jeju_forms`가 빈
+source entry(`jbv2025-0146`="옆" — 표준어 항목·정의는 있지만 PDF에
+대응 제주어 형태가 아예 없는 경우) 1건을 "신규 후보"에 잘못
+포함시켰다. 이건 앱에 추가할 제주어 lexeme가 아니라 **원자료
+자체의 공백(source gap)**이라 별도로 분리했다.
+
 | 유형 | 개수 |
 |---|--:|
 | 현재 content에 정확히 존재(제주어형 일치) | 866 |
 | 변이형으로 존재(표준어 일치, 제주어 표기 다름) | 12 |
-| 정말 신규(형태·뜻 매칭 없음) | 72 |
+| **앱에 추가 가능한 신규 제주어 lexeme 후보** | **71** |
+| **원자료 제주어형 공백(source gap, lexeme 후보 아님)** | **1** |
 | 판정 불확실 | 0 |
 | **합계(corrected 초중급 전체)** | **950** |
 
-72개 신규 후보 중 70개가 `has_standard_equivalent: false`(표준어
+71개 actionable 후보 중 70개가 `has_standard_equivalent: false`(표준어
 대응 없는 제주 고유어 — 오름, 올레, 빙떡, 삼춘, 숨비소리, 셋딸,
 셋아덜, 말젯딸/말젯아덜/말젯아방/말젯어멍, 살아지다, 알아지다,
 먹어지다, 그추룩/이추룩/저추룩, 곶자왈, 가문잔치, 오분자기,
 정주석, 산담, 신구간, 물소중의/물수건/물적삼, 불턱, 빗창,
-반지기밥 등)이고, 나머지 2개는 표준어가 있지만 형태가 완전히
-다른 진짜 신규 표제어(`옆`, `절`=파도)다. 이 72개 전체 목록은
-`data/jeju-basic-vocab-2025/content-new-candidates-3a.json`에
+반지기밥 등)이고, 나머지 1개는 표준어도 있고 형태도 완전히
+다른 진짜 신규 표제어(`절`=파도, `jbv2025-0619`)다. 이 71개 전체
+목록은 `data/jeju-basic-vocab-2025/content-new-candidates-3a.json`에,
+source gap 1건은 `data/jeju-basic-vocab-2025/content-source-gaps-3a.json`에
 저장했다.
 
-이 72개 중 상당수(40개, 7절의 31 E건에서 뜯겨져 나온 단어들 — 예:
+이 71개 중 상당수(39개, 7절의 31 E건에서 뜯겨져 나온 단어들 — 예:
 빙떡, 숨비소리, 옴마가라 등)는 "예전에 이미 다른 단어에 잘못
 흡수됐던 단어가 이제 독립 entry로 확인된 것"이고, 나머지
 32개는 애초에 old extractor의 1,255개 결과 자체에 아예 없었거나
 초중급 통합 라운드(`basic-vocab-2025-full-integration.md`) 당시
 선정에서 빠졌던 순수 신규다.
+
+**검증(invariant)**: `content-new-candidates-3a.json`의 모든 항목은
+`jeju_forms.length >= 1`이어야 한다(3A.1에서 확인, 위반 0건). 그리고
+`866 + 12 + 71(actionable) + 1(source gap) == 950`이 성립한다(확인됨).
 
 ## 9. 재현 방법
 
@@ -250,7 +270,14 @@ production 파일은 건드리지 않고 scratch에서 시뮬레이션했다
    `jeju_forms`에 없는 게 있는지, `bookMeta.definition`이 corrected
    `definition`의 진짜 상위집합(다른 문장이 이어붙음)인지로 판단한다.
 
-## 10. 3B 실제 migration 계획(제안, 미실행)
+## 10. 실제 migration 계획(제안, 미실행) — 3단계로 분할
+
+**[2026-09-11, 3A.1에서 수정]** 처음엔 하나의 "3B"로 묶어 제안했지만,
+source metadata 교정(bookId/오염 정리)과 앱 품사 모델 결정, 신규
+단어를 실제로 앱에 넣을지 선별하는 건 성격이 다른 판단이라 사용자
+지시에 따라 3단계로 나눈다.
+
+### 3B-1 — stable ID 도입 + bookId/bookMeta만 안전하게 마이그레이션
 
 1. `scripts/extract_jeju_basic_vocab_2025.py`에 4절의 stable id
    생성 로직을 추가하고, `id`(순번 기반, 하위호환용으로 유지 가능)와
@@ -258,19 +285,35 @@ production 파일은 건드리지 않고 scratch에서 시뮬레이션했다
 2. `content/lexemes.json`의 `bookMeta.bookId` 655건을
    `data/jeju-basic-vocab-2025/content-migration-mapping-3a.json`
    기준으로 `stableId`로 교체하는 스크립트 작성(legacy 숫자 id는
-   `bookMeta.legacyBookId`로 보존 — 이번에 confidence A/B/E 전부 실제
+   `bookMeta.legacyBookId`로 보존 — confidence A/B/E 전부 실제
    대응이 확인됐으므로 안전).
 3. A(582) 자동 적용.
-4. B(42) — 정해진 매핑 규칙(6절)으로 `partOfSpeech` 자동 교정,
-   기계적이므로 A와 함께 적용해도 안전.
-5. E(31) — `otherJejuForms`에서 stray 항목 제거,
+4. E(31) — `otherJejuForms`에서 stray 항목 제거,
    `bookMeta.definition`을 corrected entry의 정의로 교체(사람이
    최종 diff 한 번 확인 권장).
-6. 8절의 신규 후보 72개를 유닛에 넣을지/pendingPlacement로 둘지
-   결정(랭크 그리드 확장 논의와 연결 — `docs/NEXT-STEPS.md` A-3 참고).
-7. `node scripts/build-content.mjs`, `node scripts/qc-check.mjs`.
-8. old-vocab 시절 세대의 diff report(2.5단계 방식 재사용).
-9. PR 생성, 사용자 검토.
+5. **B(42)의 `partOfSpeech`는 이 단계에서 건드리지 않는다** —
+   `bookId`/`bookMeta`만 옮기고 앱에 노출되는 `partOfSpeech` 필드는
+   그대로 둔다(3B-2로 이월). 신규 71개도 이 단계에서 추가하지 않는다.
+6. `node scripts/build-content.mjs`, `node scripts/qc-check.mjs`, diff report(2.5단계 방식 재사용).
+7. PR 생성, 사용자 검토.
+
+### 3B-2 — B(42건)의 `partOfSpeech` 처리
+
+먼저 스키마 정책을 결정한다: 의존명사·관형사를 위한 카테고리를
+`PART_OF_SPEECH`(`scripts/content-schema.mjs`)에 추가할지, 아니면
+근사 매핑을 쓸지(쓴다면 어떤 근사가 언어학적으로 맞는지) — 이건
+source metadata 교정이 아니라 앱 품사 모델 결정이므로 3B-1과
+분리했다. 결정 후 42건에 적용.
+
+### 3C — 신규 71개 실제 반영 여부 선별
+
+71개 전체를 기계적으로 다 넣지 않는다. "공식 기본어휘에 있다"와
+"앱 핵심 1,000단어에 넣는다"는 별개 판단이므로, 오름·올레·빙떡·
+숨비소리처럼 채택이 명백한 것과 말젯어멍처럼 우선순위가 낮을 수
+있는 것을 나눠서 사용자와 함께 선별한 뒤, 8절 목록
+(`content-new-candidates-3a.json`)을 기준으로 유닛 배치까지
+진행한다(랭크 그리드 확장 논의와 연결 — `docs/NEXT-STEPS.md`
+A-3 참고).
 
 ## 11. 내가 결정해야 할 것
 
@@ -278,7 +321,8 @@ production 파일은 건드리지 않고 scratch에서 시뮬레이션했다
   그대로 노출하는 게 싫다면(예: PDF가 개정판으로 바뀌면 이 포맷 자체가
   의미 없어짐) 완전 불투명 해시로 바꿀 수도 있다. 추적성을 포기하는
   대신 포맷 변경에 더 자유로워진다 — 트레이드오프 판단 필요.
-- **B(42건)의 `partOfSpeech` 자동 교정을 3B에서 바로 실행할지**, 아니면
-  E(31건)와 함께 사람이 한 번에 검토할지.
-- **8절의 신규 후보 72개**를 3B에서 바로 content에 추가할지, 아니면
-  ID/오염 정리만 먼저 하고 신규 단어 추가는 별도 라운드로 미룰지.
+- **3B-2에서 의존명사/관형사를 앱 스키마에 새 카테고리로 추가할지,
+  근사 매핑을 쓸지**(쓴다면 어떤 매핑이 맞을지) — B(42건) 처리의
+  전제가 되는 결정.
+- **3C에서 신규 71개 중 어디까지 실제로 앱 핵심 단어로 넣을지** —
+  "공식 기본어휘에 있다"만으로 자동 채택하지 않고 개별 판단 필요.
