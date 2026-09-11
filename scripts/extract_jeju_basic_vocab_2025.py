@@ -352,12 +352,17 @@ def build_entry_fields(entries):
             e["has_standard_equivalent"] = False
             continue
         e["has_standard_equivalent"] = True
-        m = re.match(r"^(\D+)(\d)$", e["standard_raw"])
+        # 동형이의어 번호(뒤에 붙는 숫자)는 쉼표로 나열된 동의어 중
+        # **마지막 표기에만** 붙는다(예: "고물, 소2"는 "고물"과, 동형이의어
+        # 2번인 "소"를 뜻한다 — "고물"까지 2번으로 취급하면 안 된다).
+        # 그래서 먼저 쉼표로 나눈 뒤, 마지막 조각에서만 숫자를 뗀다.
+        parts = [s.strip() for s in e["standard_raw"].split(",")]
+        homograph_no = None
+        m = re.match(r"^(\D+)(\d)$", parts[-1])
         if m:
-            base, homograph_no = m.group(1), int(m.group(2))
-        else:
-            base, homograph_no = e["standard_raw"], None
-        e["standard"] = [s.strip() for s in base.split(",")]
+            parts[-1] = m.group(1)
+            homograph_no = int(m.group(2))
+        e["standard"] = parts
         e["standard_homograph_no"] = homograph_no
 
 

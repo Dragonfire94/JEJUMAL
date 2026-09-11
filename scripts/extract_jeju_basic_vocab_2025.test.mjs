@@ -4,12 +4,14 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { test } from "node:test";
 
-// 2단계(2026-09-11) extractor 수정 검증. 이 테스트는 vocab.json을 다시
-// 생성하지 않는다(파이썬+pymupdf 의존성) — 커밋된 결과물을 검사해서,
-// 알려진 병합 오류(빛/빙떡, 사람/삼춘, 혀/셋딸/셋아덜, 송편/숨비소리,
-// 오빠/오름/올레, 하나/둘/셋/넷 품사)가 재발하면 잡아낸다. 알려진 오류
-// 단어는 여기(fixture)에만 쓰고, scripts/extract_jeju_basic_vocab_2025.py
-// 안에는 절대 하드코딩하지 않는다.
+// 2단계(2026-09-11) extractor 수정 + 2.5단계(잔여 무결성 정밀감사)
+// 검증. 이 테스트는 vocab.json을 다시 생성하지 않는다(파이썬+pymupdf
+// 의존성) — 커밋된 결과물을 검사해서, 알려진 병합 오류(빛/빙떡, 사람/
+// 삼춘, 혀/셋딸/셋아덜, 송편/숨비소리, 오빠/오름/올레, 하나/둘/셋/넷
+// 품사)가 재발하면 잡아낸다. 알려진 오류 단어는 여기(fixture)에만 쓰고,
+// scripts/extract_jeju_basic_vocab_2025.py 안에는 절대 하드코딩하지
+// 않는다. 2.5단계 조사 경위는
+// docs/basic-vocab-2025-extractor-residual-audit.md 참고.
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const VOCAB_PATH = path.join(ROOT, "data/jeju-basic-vocab-2025/vocab.json");
@@ -88,14 +90,21 @@ test("품사별 개수는 책이 스스로 인쇄한 공식 표(p.7, p.54, p.102
     const got = counts[key] || 0;
     if (got !== official) mismatches.push(`${key}: got=${got} official=${official}`);
   }
-  // 알려진 잔여 불일치 1건: 고급/명사 266 vs 공식 265 (+1). 원인 미확정 —
-  // docs/basic-vocab-2025-extractor-fix.md 참고. 강제로 지우거나 합치지
-  // 않고 정직하게 남겨뒀다. 이 밖의 불일치가 새로 생기면 이 테스트가 실패한다.
+  // 알려진 잔여 불일치 1건: 고급/명사 266 vs 공식 265 (+1). 2.5단계에서
+  // gap 분포·전수 읽기·유사도 검사·reverseIndex 대조·source region 중복
+  // 검사까지 마쳤지만 코드 버그를 찾지 못했다 — PDF 본문 자체가 266개의
+  // 독립 entry를 담고 있고 책 자신의 요약표(p.102)가 어긋난 것으로
+  // 잠정 결론지었다(docs/basic-vocab-2025-extractor-residual-audit.md
+  // 2절). 억지로 지우거나 합치지 않고 정직하게 남겨뒀다. 이 밖의
+  // 불일치가 새로 생기면 이 테스트가 실패한다.
   assert.deepEqual(mismatches, ["고급/명사: got=266 official=265"]);
 });
 
-test("초급 수사(하나~열)는 대명사가 아니라 수사로 정확히 분류된다 — 우측 반쪽 품사 라벨 회귀 방지", () => {
+test("초급 수사(하나~열) 10개 전체가 대명사가 아니라 수사로 정확히 분류된다 — 우측 반쪽 품사 라벨 회귀 방지", () => {
   const { entries } = loadVocab();
+  // 표본이 아니라 초급 수사 챕터 전체(하나~열, 공식 10개)를 검사한다.
+  const chojubSusa = entries.filter((e) => e.level === "초급" && e.pos === "수사");
+  assert.equal(chojubSusa.length, 10, `초급 수사는 10개여야 하는데 ${chojubSusa.length}개입니다`);
   const counting = ["둘", "일곱", "열"];
   for (const form of counting) {
     const matches = findByForm(entries, form).filter((e) => e.level === "초급");
@@ -103,6 +112,12 @@ test("초급 수사(하나~열)는 대명사가 아니라 수사로 정확히 �
     for (const e of matches) {
       assert.equal(e.pos, "수사", `${form}(${e.id})이 수사가 아니라 ${e.pos}로 분류됨`);
     }
+  }
+  // 옛 코드는 우측 반쪽 라벨을 안 읽어서 하나/둘/셋/넷이 대명사로
+  // 잘못 분류됐었다 — 초급 대명사 안에 숫자 표현이 하나도 없어야 한다.
+  const chojupDaemyeong = entries.filter((e) => e.level === "초급" && e.pos === "대명사");
+  for (const e of chojupDaemyeong) {
+    assert.ok(!counting.includes(e.jeju_forms[0]), `${e.id}(${e.jeju_forms})가 대명사에 남아있습니다`);
   }
 });
 
@@ -128,14 +143,18 @@ test("사람(사름)과 삼춘은 분리된 별개 entry다", () => {
   assert.ok(!saram.jeju_forms.includes("삼춘"), "삼춘이 사람 entry에 흡수되어 있습니다");
 });
 
-test("혀(세)와 셋아덜(둘째 아들)은 분리된 별개 entry다", () => {
+test("혀(세)와 셋딸·셋아덜(둘째 딸/아들)은 전부 분리된 별개 entry다", () => {
   const { entries } = loadVocab();
   const hyeo = findByForm(entries, "세").find((e) => e.standard.includes("혀"));
   const setAdeul = findByForm(entries, "셋아덜")[0];
+  const setDdal = entries.find((e) => e.level === "초급" && e.pos === "명사" && e.definition.includes("둘째 딸"));
   assert.ok(hyeo, "혀(세) entry를 찾지 못했습니다");
   assert.ok(setAdeul, "셋아덜 entry를 찾지 못했습니다");
-  assert.notEqual(hyeo.id, setAdeul.id);
+  assert.ok(setDdal, "셋딸 entry를 찾지 못했습니다");
+  const ids = new Set([hyeo.id, setAdeul.id, setDdal.id]);
+  assert.equal(ids.size, 3, "혀/셋딸/셋아덜 중 일부가 병합되어 있습니다");
   assert.equal(setAdeul.has_standard_equivalent, false);
+  assert.equal(setDdal.has_standard_equivalent, false);
   assert.ok(!hyeo.jeju_forms.includes("셋아덜"), "셋아덜이 혀 entry에 흡수되어 있습니다");
 });
 
@@ -164,7 +183,7 @@ test("오빠(오라방)와 오름·올레는 서로 분리된 별개 entry다", 
   assert.equal(olle.has_standard_equivalent, false);
 });
 
-test("병합 의심 휴리스틱(jeju_forms>=2 + 뜻풀이 문장 수 초과)을 다시 돌리면 결과가 4건 이하로, 남은 것도 실제로는 변이형/오탐이다", () => {
+test("병합 의심 휴리스틱(jeju_forms>=2 + 뜻풀이 문장 수 초과)을 다시 돌리면 알려진 4건(전부 확인된 정상 변이형)만 남는다", () => {
   const { entries } = loadVocab();
   const suspects = [];
   for (const e of entries) {
@@ -174,9 +193,33 @@ test("병합 의심 휴리스틱(jeju_forms>=2 + 뜻풀이 문장 수 초과)을
     const nonOr = frags.filter((f) => !f.startsWith("또는"));
     if (nonOr.length - Math.max(numbered, 1) > 0) suspects.push(e.id);
   }
-  // 1차 감사(수정 전) 기준 135건에서 대폭 감소했는지 회귀 확인.
-  // 4건은 수동 검토 결과 전부 "정상 변이형"(오탐)으로 확인됨(보고서 5절 참고).
-  assert.ok(suspects.length <= 10, `병합 의심 후보가 다시 늘었습니다: ${suspects.length}건 — ${suspects.join(", ")}`);
+  // 1차 감사(수정 전) 기준 135건에서 4건으로 감소. 4건 전부 수동 검토
+  // 결과 "정상 변이형"(휴리스틱 오탐)임을 확인했다(2.5단계 보고서 3절).
+  // 정확히 이 4개 id만 남아야 한다 — 새 의심 후보가 생기면(id가
+  // 다르면) 실패해서 알려준다.
+  const KNOWN_FALSE_POSITIVES = ["jbv2025-0474", "jbv2025-1038", "jbv2025-1057", "jbv2025-1495"];
+  assert.deepEqual(
+    suspects.sort(),
+    [...KNOWN_FALSE_POSITIVES].sort(),
+    `병합 의심 후보 목록이 알려진 4건과 다릅니다: ${suspects.join(", ")}`,
+  );
+});
+
+test("동형이의어 번호는 쉼표로 나열된 표준어 중 마지막 표기에만 적용된다 — 2.5단계에서 고친 버그 회귀 방지", () => {
+  const { entries } = loadVocab();
+  // standard_raw "고물, 소2"는 "고물"과 동형이의어 2번인 "소"를 뜻한다.
+  // "고물"까지 2번으로 취급하면 안 된다.
+  const gomul = entries.find((e) => e.id === "jbv2025-1130");
+  assert.ok(gomul, "jbv2025-1130(쉬=고물/소)을 찾지 못했습니다");
+  assert.deepEqual(gomul.standard, ["고물", "소"]);
+  assert.equal(gomul.standard_homograph_no, 2);
+  // 쉼표로 나열된 다른 동의어들도 숫자가 마지막 표기에만 붙는지 확인.
+  for (const id of ["jbv2025-0034", "jbv2025-0198", "jbv2025-0327"]) {
+    const e = entries.find((x) => x.id === id);
+    assert.ok(e, `${id}를 찾지 못했습니다`);
+    assert.ok(e.standard.length >= 2, `${id}는 표준어가 2개 이상이어야 합니다`);
+    assert.ok(!/\d$/.test(e.standard[0]), `${id}의 첫 표준어 "${e.standard[0]}"에 번호가 잘못 남아있습니다`);
+  }
 });
 
 test("PUA 매핑 확정본(confidence: high)이 재추출 후에도 유지된다", () => {
