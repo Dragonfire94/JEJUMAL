@@ -63,6 +63,13 @@
 유연하게 만든 전례가 있으니, 완전히 새로 설계하기보다 그 위에서
 확장하는 게 자연스러울 수 있다.
 
+### A-3.5. 2025 기본어휘 stable ID 마이그레이션(3B) — 설계 완료, 실행 대기
+
+`docs/basic-vocab-2025-stable-id-design.md`(3A단계)에서 stable ID
+설계와 기존 `content/lexemes.json` 655건 전수 매핑을 끝냈다 — 자동
+마이그레이션 가능 582건, 품사 교정 후 가능 42건, 병합 오염 정리
+필요 31건. 실제 반영(3B)은 사용자 승인 후 진행.
+
 ### A-4. (참고용, 액션 불필요) same_meaning_different_form 나머지
 
 `same-meaning-different-form-review.md`의 (B) 둘 다 확인된 진짜

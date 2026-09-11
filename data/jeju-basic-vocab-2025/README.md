@@ -90,7 +90,15 @@ medium 16개·low 7개는 아직 미확정이라 원문 그대로 남아 있다.
 1,501개를 아직 `content/lexemes.json`에 자동 반영하지 않았다 — 기존
 1,058개(391 유지+667 신규)는 옛 추출(1,255개 버전)의 `jbv2025-XXXX`
 id를 참조하는데, 재추출로 id가 크게 흔들려서(아래 "ID 안정성" 참고)
-그대로 자동 대조하면 안 된다. 이후 별도 단계에서 대조·교정할 것.
+그대로 자동 대조하면 안 된다. **[2026-09-11, 3A/3A.1단계에서 완료]**
+655건 전수를 새 1,501개 원장과 대조·분류했다(자동 마이그레이션 가능
+582건, bookId 매핑은 가능하나 품사 스키마 정책 결정 필요 42건, 병합
+오염 정리 필요 31건, 대응 없음 0건) — `docs/basic-vocab-2025-stable-id-design.md`와
+`content-migration-mapping-3a.json` 참고. corrected 초중급 950개 중
+현재 content에 없는 항목도 앱에 추가 가능한 신규 lexeme 후보 71개
+(`content-new-candidates-3a.json`)와 원자료 자체의 제주어형 공백
+1건(`content-source-gaps-3a.json`, `jbv2025-0146`="옆")으로 구분해
+정리했다. 실제 반영(3B)은 아직 하지 않았다.
 1,000단어 실사용 감사에 세 번째 근거로 넣으려면:
 - `entries[].jeju_forms`를 `content/lexemes.json`의 표제어와 대조(정확
   일치 + 활용형, `scripts/audit-word-usage.mjs`의 동형이의어 방지
