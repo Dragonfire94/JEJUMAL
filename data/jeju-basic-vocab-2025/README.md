@@ -90,7 +90,12 @@ medium 16개·low 7개는 아직 미확정이라 원문 그대로 남아 있다.
 1,501개를 아직 `content/lexemes.json`에 자동 반영하지 않았다 — 기존
 1,058개(391 유지+667 신규)는 옛 추출(1,255개 버전)의 `jbv2025-XXXX`
 id를 참조하는데, 재추출로 id가 크게 흔들려서(아래 "ID 안정성" 참고)
-그대로 자동 대조하면 안 된다. 이후 별도 단계에서 대조·교정할 것.
+그대로 자동 대조하면 안 된다. **[2026-09-11, 3A단계에서 완료]** 655건
+전수를 새 1,501개 원장과 대조·분류했다(자동 마이그레이션 가능 582건,
+품사 교정 후 가능 42건, 병합 오염 정리 필요 31건, 대응 없음 0건) —
+`docs/basic-vocab-2025-stable-id-design.md`와
+`content-migration-mapping-3a.json`/`content-new-candidates-3a.json`
+참고. 실제 반영(3B)은 아직 하지 않았다.
 1,000단어 실사용 감사에 세 번째 근거로 넣으려면:
 - `entries[].jeju_forms`를 `content/lexemes.json`의 표제어와 대조(정확
   일치 + 활용형, `scripts/audit-word-usage.mjs`의 동형이의어 방지
