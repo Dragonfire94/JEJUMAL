@@ -53,11 +53,24 @@ PDF 좌표 기반 파싱. PDF 한 쪽은 책의 서로 다른 두 쪽(좌/우 �
 `scripts/extract_jeju_basic_vocab_2025.test.mjs`(node --test)의 회귀
 fixture로만 쓴다.
 
+## 3B-1A(2026-09-11) — Stable ID production 도입
+
+`docs/basic-vocab-2025-stable-id-production.md` 참고. entry의 `id`
+(순번 기반, `jbv2025-0001`...)는 재추출 때마다 entry가 추가/재배치되면
+뒤 순번이 밀린다 — 다른 데이터(`content/lexemes.json`의
+`bookMeta.bookId`)가 영구 참조할 값은 `stableId`여야 한다. `stableId`는
+PDF 좌표(`sourceLocator`: 페이지+반쪽+표준어 칸 블록 y좌표)로 결정하고,
+`data/jeju-basic-vocab-2025/stable-id-registry.json`에 한 번 발급되면
+영구 보존해서 재추출해도 안 바뀐다(`resolve_stable_ids` 참고 — 좌표가
+정확히 같으면 재사용, 미세하게 흔들렸으면 근접 매칭으로 재사용, 후보가
+여럿이면 조용히 고르지 않고 즉시 실패한다).
+
 알려진 남은 한계는 data/jeju-basic-vocab-2025/README.md 참고 — 특히:
   - 동사·형용사 항목 다수가 PUA(유니코드 사용자 영역) 문자를 포함
     (아래아 등 옛한글 자모, 공개된 변환표 없음 — 원문 그대로 보존).
     이번 수정은 entry 경계·품사 로직만 건드렸고 PUA 처리는 그대로다.
 """
+import hashlib
 import json
 import re
 import sys
@@ -72,6 +85,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PDF_PATH = ROOT / "data/jeju-basic-vocab-2025/source.pdf"
 JSON_OUT = ROOT / "data/jeju-basic-vocab-2025/vocab.json"
 MD_OUT = ROOT / "data/jeju-basic-vocab-2025/vocab.md"
+REGISTRY_PATH = ROOT / "data/jeju-basic-vocab-2025/stable-id-registry.json"
 
 MAIN_CONTENT_PAGES = range(7, 150)  # 명사~감탄사 사전 본문
 REVERSE_INDEX_PAGES = range(150, 158)  # "표준어로 찾아보는 기본어휘"
@@ -242,7 +256,9 @@ def assign_chapters(blocks, markers, state):
         b["level"] = state["level"]
         b["pos"] = state["pos"]
         b["chapter_no"] = state["chapter_no"]
-        del b["y_start"]
+        # y_start는 여기서 지우지 않는다 — stable id의 sourceLocator를
+        # 만드는 데 쓴다(parse_page_halves에서 소수점 1자리로 반올림해
+        # source_y_start로 옮긴 뒤에야 지운다).
 
 
 def parse_page_halves(doc, pno, state):
@@ -260,12 +276,12 @@ def parse_page_halves(doc, pno, state):
     right_content = [l for l in content_lines if l["x0"] >= 400]
 
     halves = [
-        (left_content, LEFT_MARGIN_X, LEFT_JEJU_X, LEFT_STD_X),
-        (right_content, RIGHT_MARGIN_X, RIGHT_JEJU_X, RIGHT_STD_X),
+        (left_content, LEFT_MARGIN_X, LEFT_JEJU_X, LEFT_STD_X, "left"),
+        (right_content, RIGHT_MARGIN_X, RIGHT_JEJU_X, RIGHT_STD_X, "right"),
     ]
 
     page_entries = []
-    for half_content, margin_x, jeju_x, std_x in halves:
+    for half_content, margin_x, jeju_x, std_x, half_id in halves:
         m_level, m_pos, m_chapter = read_margin_label(raw_lines, margin_x)
         if m_level:
             state["level"] = m_level
@@ -284,6 +300,8 @@ def parse_page_halves(doc, pno, state):
 
         for b in blocks:
             b["pdf_page"] = pno
+            b["source_y_start"] = round(b.pop("y_start"), 1)
+            b["half"] = half_id
         page_entries.extend(blocks)
 
     return page_entries
@@ -366,6 +384,176 @@ def build_entry_fields(entries):
         e["standard_homograph_no"] = homograph_no
 
 
+# ── Stable ID (3B-1A) ────────────────────────────────────────────────
+#
+# `id`(순번 기반, f"jbv2025-{i+1:04d}")는 하위 호환을 위해 그대로
+# 남겨두지만, 재추출 때마다 entry가 추가/재배치되면서 뒤 순번이 전부
+# 밀린다(2.5단계에서 content 참조 655건 중 97.1% drift로 실측). 다른
+# 데이터(예: content/lexemes.json의 bookMeta.bookId)가 영구 참조할
+# 값은 `stableId`여야 한다.
+#
+# stableId는 PDF 좌표(sourceLocator: 페이지+반쪽+표준어 칸 블록이
+# 시작하는 y좌표)로 결정한다 — 표기·PUA·뜻풀이·품사가 나중에
+# 고쳐져도 안 바뀐다(3A에서 시뮬레이션으로 확인: PUA 복원 전/후,
+# 표기 수정, 중간 entry 삽입 전부 기존 entry의 id를 바꾸지 않았다).
+#
+# 하지만 "좌표로 결정한다"와 "한번 발급하면 다시 계산하지 않는다"는
+# 서로 다른 요구사항이다 — PyMuPDF 버전이 바뀌어 좌표가 0.1~0.2pt
+# 달라지면, 매번 새로 계산하는 방식은 이미 발급된 stableId를 조용히
+# 바꿔버릴 수 있다. 그래서 `stable-id-registry.json`에 발급된
+# stableId를 영구 보존하고, 재추출 시에는 "새로 계산"이 아니라
+# "기존 발급 기록과 대조해서 재사용"한다.
+NEAR_LOCATOR_TOLERANCE_PT = 2.0
+# 실측 근거: 같은 (페이지,반쪽) 안에서 서로 다른 entry의 y_start 간
+# 최소 간격은 문서 전체에서 50.5pt였다(가장 촘촘한 경우). 2.0pt는 그
+# 절반(25.25pt)의 1/12 수준이라, 좌표 추출 라이브러리가 바뀌어도
+# 서로 다른 entry를 혼동할 위험 없이 미세한 흔들림을 흡수한다.
+
+
+def compute_pdf_sha256():
+    return hashlib.sha256(PDF_PATH.read_bytes()).hexdigest()
+
+
+def build_source_locators(entries):
+    """entry마다 sourceLocator(document/pdfPage/half/yStart)를 만든다.
+
+    parse_page_halves가 이미 채워둔 source_y_start/half를 옮겨 담고
+    임시 필드는 지운다. sourceLocator 자체는 stableId 생성의 seed로
+    쓰이지만, PDF 좌표 추출 방식이 미세하게 바뀔 수 있다는 점에서
+    stableId와 완전히 같은 개념으로 취급하지 않는다(registry가 그
+    차이를 흡수한다 — 아래 resolve_stable_ids 참고).
+    """
+    for e in entries:
+        e["sourceLocator"] = {
+            "document": "jeju-basic-vocab-2025",
+            "pdfPage": e["pdf_page"],
+            "half": e.pop("half"),
+            "yStart": e.pop("source_y_start"),
+        }
+
+
+def seed_stable_id(locator):
+    half_code = "l" if locator["half"] == "left" else "r"
+    y10 = round(locator["yStart"] * 10)
+    return f"jbv2025-p{locator['pdfPage']:03d}{half_code}-y{y10:05d}"
+
+
+def load_registry():
+    if not REGISTRY_PATH.exists():
+        return None
+    return json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
+
+
+def _locator_key(locator):
+    return (locator["pdfPage"], locator["half"], locator["yStart"])
+
+
+def resolve_stable_ids(entries, registry, pdf_sha256):
+    """entries(현재 추출 결과)마다 stableId를 정하고, 다음 실행에 쓸
+    새 registry를 만든다.
+
+    - registry가 없으면(최초 실행) 전부 새로 발급한다(부트스트랩).
+    - registry가 있으면 PDF 해시부터 확인한다 — 다르면 이 PDF는 이제
+      다른 판본이라는 뜻이라 좌표 기반 재사용 자체가 의미 없으므로
+      즉시 멈춘다(SOURCE_PDF_CHANGED).
+    - 같은 판본이면: ① 좌표가 정확히 같은 registry entry가 있으면
+      그 stableId를 재사용. ② 없으면 같은 (페이지,반쪽) 안에서
+      NEAR_LOCATOR_TOLERANCE_PT 이내로 가까운 registry entry를 찾는다
+      — 정확히 1개면 재사용(좌표 추출이 미세하게 흔들린 경우),
+      0개면 새로 발급, **2개 이상이면 어느 쪽인지 판단할 수 없으므로
+      기존 entry의 정체성을 잘못 바꾸느니 즉시 실패한다**
+      (AMBIGUOUS_STABLE_ID_RESOLUTION).
+    - registry에는 있었는데 이번 추출 결과 중 아무것도 매칭되지 않은
+      건 조용히 지우지 않고 status: "orphaned"로 남긴다.
+
+    반환: (entry index -> stableId 딕셔너리, 새 registry dict)
+    """
+    if registry is None:
+        stable_ids = {}
+        registry_entries = []
+        seen = set()
+        for i, e in enumerate(entries):
+            sid = seed_stable_id(e["sourceLocator"])
+            if sid in seen:
+                sys.exit(f"STABLE_ID_COLLISION(bootstrap): {sid} — 같은 좌표를 가진 entry가 2개 이상입니다.")
+            seen.add(sid)
+            stable_ids[i] = sid
+            registry_entries.append({
+                "stableId": sid,
+                "sourceLocator": e["sourceLocator"],
+                "status": "active",
+            })
+        return stable_ids, {
+            "schemaVersion": 1,
+            "source": {"document": "jeju-basic-vocab-2025", "pdfSha256": pdf_sha256},
+            "entries": registry_entries,
+        }
+
+    if registry["source"]["pdfSha256"] != pdf_sha256:
+        sys.exit(
+            "SOURCE_PDF_CHANGED: registry의 pdfSha256과 현재 source.pdf가 다릅니다. "
+            "이 PDF는 다른 판본이라 좌표 기반 stableId 재사용이 안전하지 않습니다 — "
+            "별도 migration으로 처리하세요."
+        )
+
+    by_exact = {}
+    by_page_half = {}
+    for r in registry["entries"]:
+        by_exact[_locator_key(r["sourceLocator"])] = r
+        by_page_half.setdefault((r["sourceLocator"]["pdfPage"], r["sourceLocator"]["half"]), []).append(r)
+
+    stable_ids = {}
+    consumed_registry_ids = set()
+    unresolved = []
+    for i, e in enumerate(entries):
+        loc = e["sourceLocator"]
+        exact = by_exact.get(_locator_key(loc))
+        if exact is not None:
+            stable_ids[i] = exact["stableId"]
+            consumed_registry_ids.add(exact["stableId"])
+            continue
+
+        candidates = [
+            r for r in by_page_half.get((loc["pdfPage"], loc["half"]), [])
+            if r["stableId"] not in consumed_registry_ids
+            and abs(r["sourceLocator"]["yStart"] - loc["yStart"]) <= NEAR_LOCATOR_TOLERANCE_PT
+        ]
+        if len(candidates) == 1:
+            stable_ids[i] = candidates[0]["stableId"]
+            consumed_registry_ids.add(candidates[0]["stableId"])
+        elif len(candidates) == 0:
+            stable_ids[i] = seed_stable_id(loc)
+        else:
+            unresolved.append((i, loc, [c["stableId"] for c in candidates]))
+
+    if unresolved:
+        lines = [f"  entry #{i} {loc}: 후보 {ids}" for i, loc, ids in unresolved]
+        sys.exit(
+            "AMBIGUOUS_STABLE_ID_RESOLUTION: 다음 entry가 기존 registry의 "
+            f"어느 항목과 같은 것인지 판단할 수 없습니다(각도 오차 {NEAR_LOCATOR_TOLERANCE_PT}pt 이내에 "
+            "후보가 2개 이상):\n" + "\n".join(lines)
+        )
+
+    new_registry_entries = []
+    for i, e in enumerate(entries):
+        new_registry_entries.append({
+            "stableId": stable_ids[i],
+            "sourceLocator": e["sourceLocator"],
+            "status": "active",
+        })
+    for r in registry["entries"]:
+        if r["stableId"] not in consumed_registry_ids and r["stableId"] not in stable_ids.values():
+            orphan = dict(r)
+            orphan["status"] = "orphaned"
+            new_registry_entries.append(orphan)
+
+    return stable_ids, {
+        "schemaVersion": 1,
+        "source": {"document": "jeju-basic-vocab-2025", "pdfSha256": pdf_sha256},
+        "entries": new_registry_entries,
+    }
+
+
 def write_markdown(bundle, path):
     entries = sorted(
         bundle["entries"],
@@ -419,6 +607,22 @@ def main():
         entries.extend(parse_page_halves(doc, pno, state))
     restore_known_pua(entries, load_high_confidence_pua_map())
     build_entry_fields(entries)
+    build_source_locators(entries)
+
+    pdf_sha256 = compute_pdf_sha256()
+    registry = load_registry()
+    stable_ids, new_registry = resolve_stable_ids(entries, registry, pdf_sha256)
+    for i, e in enumerate(entries):
+        e["stableId"] = stable_ids[i]
+    REGISTRY_PATH.write_text(json.dumps(new_registry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    n_active = sum(1 for r in new_registry["entries"] if r["status"] == "active")
+    n_orphaned = sum(1 for r in new_registry["entries"] if r["status"] == "orphaned")
+    old_ids = {r["stableId"] for r in registry["entries"]} if registry else set()
+    n_freshly_seeded = sum(1 for sid in stable_ids.values() if sid not in old_ids)
+    print(
+        f"stable id: {'부트스트랩(최초 발급)' if registry is None else '기존 registry와 대조'} "
+        f"— active {n_active}개(그 중 새로 발급 {n_freshly_seeded}개), orphaned {n_orphaned}개"
+    )
 
     reverse_index = parse_reverse_index(doc)
     pua_count = sum(1 for e in entries if e["contains_pua"])
