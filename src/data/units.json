@@ -1169,17 +1169,6 @@
         "hasAudio": false
       },
       {
-        "seq": "90009",
-        "jeju": "강셍이",
-        "standard": "강아지",
-        "soundUrl": "/audio/90009.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
         "seq": "90010",
         "jeju": "거짓갈",
         "standard": "거짓말",
@@ -2963,32 +2952,10 @@
         "hasAudio": true
       },
       {
-        "seq": "90036",
-        "jeju": "마농",
-        "standard": "마늘",
-        "soundUrl": "/audio/90036.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
         "seq": "90037",
         "jeju": "마주막",
         "standard": "마지막",
         "soundUrl": "/audio/90037.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
-        "seq": "90038",
-        "jeju": "매날",
-        "standard": "매일",
-        "soundUrl": "/audio/90038.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
@@ -3645,17 +3612,6 @@
         "jeju": "웬착",
         "standard": "왼쪽",
         "soundUrl": "/audio/90082.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
-        "seq": "90083",
-        "jeju": "이멩이",
-        "standard": "이마",
-        "soundUrl": "/audio/90083.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
@@ -4397,17 +4353,6 @@
         "hasAudio": false
       },
       {
-        "seq": "90317",
-        "jeju": "게염지",
-        "standard": "개미",
-        "soundUrl": "/audio/90317.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
         "seq": "90318",
         "jeju": "게우리",
         "standard": "지렁이",
@@ -4926,32 +4871,10 @@
         "hasAudio": false
       },
       {
-        "seq": "90355",
-        "jeju": "돔베",
-        "standard": "도마",
-        "soundUrl": "/audio/90355.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
         "seq": "90356",
         "jeju": "동새벡",
         "standard": "꼭두새벽",
         "soundUrl": "/audio/90356.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
-        "seq": "90357",
-        "jeju": "두께",
-        "standard": "뚜껑",
-        "soundUrl": "/audio/90357.mp3",
         "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
@@ -6386,18 +6309,6 @@
         "hasAudio": true
       },
       {
-        "seq": "90171",
-        "jeju": "그다",
-        "standard": "담그다",
-        "soundUrl": "/audio/90171.mp3",
-        "partOfSpeech": "verb",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "containsPua": true,
-        "hasAudio": false
-      },
-      {
         "seq": "90172",
         "jeju": "멕히다",
         "standard": "막히다",
@@ -6536,17 +6447,6 @@
         "jeju": "보끄다",
         "standard": "볶다",
         "soundUrl": "/audio/90177.mp3",
-        "partOfSpeech": "verb",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
-        "seq": "90178",
-        "jeju": "부뜨다",
-        "standard": "붙다",
-        "soundUrl": "/audio/90178.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",
@@ -7776,17 +7676,6 @@
             "standard": "아기 기저귀를 갈아 줬어요?"
           }
         ],
-        "hasAudio": false
-      },
-      {
-        "seq": "90384",
-        "jeju": "뻬",
-        "standard": "뼈",
-        "soundUrl": "/audio/90384.mp3",
-        "partOfSpeech": "noun",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -10126,17 +10015,6 @@
         "jeju": "트다1",
         "standard": "뜨다",
         "soundUrl": "/audio/90212.mp3",
-        "partOfSpeech": "verb",
-        "examples": [],
-        "reviewStatus": "provisional",
-        "pendingExample": true,
-        "hasAudio": false
-      },
-      {
-        "seq": "90213",
-        "jeju": "피다",
-        "standard": "펴다",
-        "soundUrl": "/audio/90213.mp3",
         "partOfSpeech": "verb",
         "examples": [],
         "reviewStatus": "provisional",

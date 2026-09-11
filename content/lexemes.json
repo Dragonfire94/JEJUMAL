@@ -2363,23 +2363,6 @@
     }
   },
   {
-    "seq": "90009",
-    "jeju": "강셍이",
-    "standard": "강아지",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0007",
-      "level": "초급",
-      "posLabel": "명사",
-      "definition": "갓 태어나거나 덜 자란 어린 개.",
-      "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
     "seq": "90010",
     "jeju": "거짓갈",
     "standard": "거짓말",
@@ -2851,23 +2834,6 @@
     }
   },
   {
-    "seq": "90036",
-    "jeju": "마농",
-    "standard": "마늘",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0048",
-      "level": "초급",
-      "posLabel": "명사",
-      "definition": "백합과의 여러해살이풀. 특유의 냄새와 매운 맛이 있어 양념과 반찬에 널리 쓰인다.",
-      "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
     "seq": "90037",
     "jeju": "마주막",
     "standard": "마지막",
@@ -2887,23 +2853,6 @@
       "otherStandard": []
     },
     "containsPua": false
-  },
-  {
-    "seq": "90038",
-    "jeju": "매날",
-    "standard": "매일",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0050",
-      "level": "초급",
-      "posLabel": "명사",
-      "definition": "하루하루의 모든 날.",
-      "otherJejuForms": [],
-      "otherStandard": []
-    }
   },
   {
     "seq": "90039",
@@ -3686,25 +3635,6 @@
       "posLabel": "명사",
       "definition": "사람이 북쪽을 보고 있을 때 서쪽과 같은 쪽.",
       "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
-    "seq": "90083",
-    "jeju": "이멩이",
-    "standard": "이마",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0130",
-      "level": "초급",
-      "posLabel": "명사",
-      "definition": "얼굴의 눈썹 위로부터 머리털이 난 아래까지의 부분.",
-      "otherJejuForms": [
-        "임뎅이"
-      ],
       "otherStandard": []
     }
   },
@@ -5271,27 +5201,6 @@
     }
   },
   {
-    "seq": "90171",
-    "jeju": "그다",
-    "standard": "담그다",
-    "partOfSpeech": "verb",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0245",
-      "level": "초급",
-      "posLabel": "동사",
-      "definition": "1) 액체 속에 넣다. 2) 김치·술·장·젓갈 따위를 만드는 재료를 버무리거나 물을 부어서, 익거나 삭도록 그릇에 넣어 두다. 먹게 되다. 먹을 수 있다.",
-      "otherJejuForms": [
-        "그다",
-        "먹어지다"
-      ],
-      "otherStandard": []
-    },
-    "containsPua": true
-  },
-  {
     "seq": "90172",
     "jeju": "멕히다",
     "standard": "막히다",
@@ -5397,25 +5306,6 @@
       "posLabel": "동사",
       "definition": "물기를 거의 뺀 음식을 불 위에 놓고 이리저리 저으면서 익히다.",
       "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
-    "seq": "90178",
-    "jeju": "부뜨다",
-    "standard": "붙다",
-    "partOfSpeech": "verb",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0255",
-      "level": "초급",
-      "posLabel": "동사",
-      "definition": "무엇이 어디에 닿아 떨어지지 않다.",
-      "otherJejuForms": [
-        "부트다"
-      ],
       "otherStandard": []
     }
   },
@@ -6025,23 +5915,6 @@
       "level": "초급",
       "posLabel": "동사",
       "definition": "감았던 눈을 벌리다.",
-      "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
-    "seq": "90213",
-    "jeju": "피다",
-    "standard": "펴다",
-    "partOfSpeech": "verb",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0299",
-      "level": "초급",
-      "posLabel": "동사",
-      "definition": "1) 접히거나 개킨 것을 젖히어 벌리다. 2) 넓게 늘어놓거나 골고루 헤쳐 놓다.",
       "otherJejuForms": [],
       "otherStandard": []
     }
@@ -7923,23 +7796,6 @@
     }
   },
   {
-    "seq": "90317",
-    "jeju": "게염지",
-    "standard": "개미",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0436",
-      "level": "중급",
-      "posLabel": "명사",
-      "definition": "개밋과의 곤충을 통틀어 이르는 말.",
-      "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
     "seq": "90318",
     "jeju": "게우리",
     "standard": "지렁이",
@@ -8604,23 +8460,6 @@
     }
   },
   {
-    "seq": "90355",
-    "jeju": "돔베",
-    "standard": "도마",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0487",
-      "level": "중급",
-      "posLabel": "명사",
-      "definition": "칼로 음식의 재료를 썰거나 다질 때에 밑에 받치는 도구.",
-      "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
     "seq": "90356",
     "jeju": "동새벡",
     "standard": "꼭두새벽",
@@ -8633,23 +8472,6 @@
       "level": "중급",
       "posLabel": "명사",
       "definition": "이른 새벽.",
-      "otherJejuForms": [],
-      "otherStandard": []
-    }
-  },
-  {
-    "seq": "90357",
-    "jeju": "두께",
-    "standard": "뚜껑",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0490",
-      "level": "중급",
-      "posLabel": "명사",
-      "definition": "병이나 그릇 따위의 열린 윗부분을 덮거나 막는 물건.",
       "otherJejuForms": [],
       "otherStandard": []
     }
@@ -9121,23 +8943,6 @@
       "otherJejuForms": [
         "빗창"
       ],
-      "otherStandard": []
-    }
-  },
-  {
-    "seq": "90384",
-    "jeju": "뻬",
-    "standard": "뼈",
-    "partOfSpeech": "noun",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0526",
-      "level": "중급",
-      "posLabel": "명사",
-      "definition": "1) 동물이나 사람의 살 속에서 그 몸을 지탱하는 단단한 물질. 2) 건물 등을 짓는 데 기본이 되는 구조.",
-      "otherJejuForms": [],
       "otherStandard": []
     }
   },
@@ -12749,26 +12554,6 @@
       "otherStandard": []
     },
     "containsPua": true,
-    "pendingPlacement": true
-  },
-  {
-    "seq": "90585",
-    "jeju": "말다2",
-    "standard": "싫다2",
-    "partOfSpeech": "adjective",
-    "reviewStatus": "provisional",
-    "pendingExample": true,
-    "bookMeta": {
-      "sourceId": "jeju-basic-vocab-2025",
-      "bookId": "jbv2025-0774",
-      "level": "중급",
-      "posLabel": "형용사",
-      "definition": "1) 마음에 들지 아니하다. 2) 마음에 들지 아니하고 괴롭거나 성가시다.",
-      "otherJejuForms": [],
-      "otherStandard": [
-        "귀찮다3"
-      ]
-    },
     "pendingPlacement": true
   },
   {

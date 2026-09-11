@@ -50,8 +50,10 @@ export function runChecks(units) {
 
   // UNIT_SIZE
   for (const u of units) {
-    if (u.words.length !== 10) {
-      add("UNIT_SIZE", "error", `유닛 ${u.id}의 단어 수가 ${u.words.length}개 (10개여야 함)`);
+    if (u.words.length < 8 || u.words.length > 10) {
+      add("UNIT_SIZE", "error", `유닛 ${u.id}의 단어 수가 ${u.words.length}개 (8~10개여야 함)`);
+    } else if (u.words.length !== 10) {
+      add("UNIT_SIZE", "warn", `유닛 ${u.id}의 단어 수가 ${u.words.length}개(대체 재고 부족으로 10개를 못 채움)`);
     }
   }
 
