@@ -100,12 +100,15 @@ id를 참조하는데, 재추출로 id가 크게 흔들려서(아래 "ID 안정�
 현재 content에 없는 항목도 앱에 추가 가능한 신규 lexeme 후보 71개
 (`content-new-candidates-3a.json`)와 원자료 자체의 제주어형 공백
 1건(`content-source-gaps-3a.json`, `jbv2025-0146`="옆")으로 구분해
-정리했다. **[2026-09-11, 3B-1A에서 완료]** entry마다 `stableId`/
+정리했다. **[2026-09-11, 3B-1A]** entry마다 `stableId`/
 `sourceLocator`가 추가됐고(`stable-id-registry.json`에 영구
 보존, `docs/basic-vocab-2025-stable-id-production.md` 참고), 위
-3A/3A.1 산출물의 stableId가 전부 이 값과 일치함을 확인했다. **아직
-`content/lexemes.json`의 655개 `bookMeta.bookId`는 바꾸지 않았다**
-(3B-1B에서 진행 예정).
+3A/3A.1 산출물의 stableId가 전부 이 값과 일치함을 확인했다.
+**[2026-09-11, 3B-1B에서 완료]** `content/lexemes.json`의 655개
+`bookMeta.bookId`를 stableId로 실제 교체했다(예전 값은
+`bookMeta.legacyBookId`에 보존). 병합 오염(E, 31건)도 정제했다 —
+`docs/basic-vocab-2025-content-reference-migration.md` 참고. 단어
+자체·top-level 품사·유닛 배치·예문·신규 71개는 여전히 그대로다.
 1,000단어 실사용 감사에 세 번째 근거로 넣으려면:
 - `entries[].jeju_forms`를 `content/lexemes.json`의 표제어와 대조(정확
   일치 + 활용형, `scripts/audit-word-usage.mjs`의 동형이의어 방지
