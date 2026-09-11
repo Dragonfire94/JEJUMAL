@@ -1,0 +1,236 @@
+[
+  {
+    "seq": "90108",
+    "jeju": "디",
+    "standard": "데",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025l-y00843",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90109",
+    "jeju": "ᄃᆞᆯ2",
+    "standard": "달",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025l-y01986",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90110",
+    "jeju": "따문",
+    "standard": "때문",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025l-y02919",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90111",
+    "jeju": "멩",
+    "standard": "명",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025l-y03674",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90112",
+    "jeju": "ᄆᆞᆞ리",
+    "standard": "마리",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025l-y04428",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90113",
+    "jeju": "번차",
+    "standard": "번째",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025r-y00575",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90114",
+    "jeju": "설",
+    "standard": "살",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025r-y01328",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90115",
+    "jeju": "착",
+    "standard": "쪽",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p025r-y02072",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90270",
+    "jeju": "ᄒᆞᆫ",
+    "standard": "한",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048l-y00853",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90271",
+    "jeju": "ᄒᆞᆫ두",
+    "standard": "한두",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048l-y01988",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90272",
+    "jeju": "시",
+    "standard": "세",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048l-y02731",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90273",
+    "jeju": "니2",
+    "standard": "네",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048l-y03481",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90274",
+    "jeju": "다슷2",
+    "standard": "다섯",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048l-y04231",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90275",
+    "jeju": "ᄋᆞ섯2",
+    "standard": "여섯",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048r-y00611",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90276",
+    "jeju": "ᄋᆞ답2",
+    "standard": "여덟",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048r-y01498",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90277",
+    "jeju": "아옵2",
+    "standard": "아홉",
+    "sourcePosLabel": "관형사",
+    "currentPartOfSpeech": "adjective",
+    "sourceStableId": "jbv2025-p048r-y02284",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90448",
+    "jeju": "나우",
+    "standard": "나위",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075l-y01601",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90449",
+    "jeju": "뒈",
+    "standard": "되",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075l-y02345",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90450",
+    "jeju": "만이",
+    "standard": "만큼",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075l-y03096",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90451",
+    "jeju": "밧디",
+    "standard": "군데",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075l-y03842",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90452",
+    "jeju": "불",
+    "standard": "벌",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075r-y00588",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90453",
+    "jeju": "뽐",
+    "standard": "뼘",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075r-y01347",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90454",
+    "jeju": "셍",
+    "standard": "모양",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075r-y02261",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90455",
+    "jeju": "적",
+    "standard": "모금",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075r-y03015",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90456",
+    "jeju": "처레",
+    "standard": "줄",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075r-y03933",
+    "unitPlaced": true
+  },
+  {
+    "seq": "90457",
+    "jeju": "첵",
+    "standard": "척",
+    "sourcePosLabel": "의존명사",
+    "currentPartOfSpeech": "noun",
+    "sourceStableId": "jbv2025-p075r-y04689",
+    "unitPlaced": true
+  }
+]
