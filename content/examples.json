@@ -1,0 +1,6029 @@
+[
+  {
+    "id": "5697-1",
+    "seq": "5697",
+    "jeju": "느는 밥 먹었어마씸?",
+    "standard": "너는 밥 먹었어요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5694-1",
+    "seq": "5694",
+    "jeju": "너내는 언제 왔어마씸?",
+    "standard": "너희는 언제 왔어요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5691-1",
+    "seq": "5691",
+    "jeju": "거는 지금 필요했수과?",
+    "standard": "그것은 지금 필요했어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5708-1",
+    "seq": "5708",
+    "jeju": "저거는 어디서 왔수과?",
+    "standard": "저것은 어디서 왔어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7528-1",
+    "seq": "7528",
+    "jeju": "무신 책을 읽었어마씸?",
+    "standard": "무슨 책을 읽었어요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5693-1",
+    "seq": "5693",
+    "jeju": "그디는 가 본 적 없수다.",
+    "standard": "거기는 가 본 적 없어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5703-1",
+    "seq": "5703",
+    "jeju": "책은 요디 있수다.",
+    "standard": "책은 요기 있어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5714-1",
+    "seq": "5714",
+    "jeju": "사름이 멧 명 왔어마씸?",
+    "standard": "사람이 몇 명 왔어요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "702-1",
+    "seq": "702",
+    "jeju": "아방이 비 오기 전에 지붕을 손봤어마씸.",
+    "standard": "아버지가 비 오기 전에 지붕을 손봤어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "713-1",
+    "seq": "713",
+    "jeju": "어멍이 아침 일찍 보리밥 지었수다.",
+    "standard": "어머니가 아침 일찍 보리밥을 지었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7568-1",
+    "seq": "7568",
+    "jeju": "하르방이 손자에게 옛 제주 이야기를 들려줬어마씸.",
+    "standard": "할아버지가 손자에게 옛 제주 이야기를 들려줬어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7569-1",
+    "seq": "7569",
+    "jeju": "할망은 새벽부터 가족이 먹을 국을 끓였어마씸.",
+    "standard": "할머니는 새벽부터 가족이 먹을 국을 끓였어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2695-1",
+    "seq": "2695",
+    "jeju": "오라방이 늦은 밤 동생을 데리러 정류장에 나왔읍주.",
+    "standard": "오빠가 늦은 밤 동생을 데리러 정류장에 나왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "544-1",
+    "seq": "544",
+    "jeju": "성에게 자전거 타는 법을 배웠어마씸.",
+    "standard": "형에게 자전거 타는 법을 배웠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "581-1",
+    "seq": "581",
+    "jeju": "아시가 군대에서 휴가 오난 식구들이 모였수다.",
+    "standard": "동생이 군대에서 휴가를 오니 식구들이 모였어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2748-1",
+    "seq": "2748",
+    "jeju": "조캐가 방학이라 외삼촌네 놀러 왔수다.",
+    "standard": "조카가 방학이라 외삼촌네에 놀러 왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6729-1",
+    "seq": "6729",
+    "jeju": "큰아방이 벌초날 아침 일찍 왔수다.",
+    "standard": "큰아버지가 벌초하는 날 아침 일찍 왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "537-1",
+    "seq": "537",
+    "jeju": "장날이라 사름이 하영 몰려 길이 붐볐수과?",
+    "standard": "장날이라 사람이 많이 몰려 길이 붐볐어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "502-1",
+    "seq": "502",
+    "jeju": "메누리가 시아방 생신상 차렸수과?",
+    "standard": "며느리가 시아버지 생신상을 차렸어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "693-1",
+    "seq": "693",
+    "jeju": "씨어멍이 메누리한테 된장 푸는 법 알려 줬수과?",
+    "standard": "시어머니가 며느리에게 된장 푸는 법을 알려 줬어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "692-1",
+    "seq": "692",
+    "jeju": "씨아방이 며느리한테 밭일 서두르지 말렌 했수과?",
+    "standard": "시아버지가 며느리에게 밭일을 서두르지 말라고 했어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "681-1",
+    "seq": "681",
+    "jeju": "손지가 하르방 손 잡고 오일장 구경 갔수다.",
+    "standard": "손자가 할아버지 손을 잡고 오일장 구경을 갔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "664-1",
+    "seq": "664",
+    "jeju": "성제가 같이 감귤 따난 일이 금방 끝났수다.",
+    "standard": "형제가 함께 감귤을 따니 일이 금방 끝났어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "628-1",
+    "seq": "628",
+    "jeju": "물애기가 잠들어시난 발소리 안 나게 문을 닫았수다.",
+    "standard": "갓난아이가 잠들어 있어서 발소리가 나지 않게 문을 닫았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90002-1",
+    "seq": "90002",
+    "jeju": "이번 멩질에 궨당이 하영 왔수다.",
+    "standard": "이번 명절에 친척이 많이 왔어요.",
+    "source": {
+      "type": "official",
+      "sourceId": "jeju-basic-vocab-2025",
+      "editReason": "\"늑신이\"(늙은이)는 말뭉치·생활방언·2025 기본어휘 어디에도 없는 미확인 단어라 더 확실한 생활어로 교체함. 출처: 2025 제주학연구센터 <아보카, 제주어 기본어휘> p.9."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "690-1",
+    "seq": "690",
+    "jeju": "씨누이가 조카의 돌잔치에 고운 옷을 입고 왔어마씸.",
+    "standard": "시누이가 조카의 돌잔치에 고운 옷을 입고 왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2710-1",
+    "seq": "2710",
+    "jeju": "마을 으른께 벌초 날짜부터 여쭤봤수과?",
+    "standard": "마을 어른께 벌초 날짜부터 여쭤봤어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "653-1",
+    "seq": "653",
+    "jeju": "비바리가 오일장에서 귤 한 바구니 샀수다.",
+    "standard": "처녀가 오일장에서 귤 한 바구니를 샀어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5706-1",
+    "seq": "5706",
+    "jeju": "그건 이녁이 알앙 해마씸.",
+    "standard": "그건 그대가 알아서 해요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "439-1",
+    "seq": "439",
+    "jeju": "놈의 흉을 함부로 보민 안 됩주.",
+    "standard": "남의 흉을 함부로 보면 안 돼요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6730-1",
+    "seq": "6730",
+    "jeju": "큰어멍이 조카에게 명절 음식을 챙겨 줬어마씸.",
+    "standard": "큰어머니가 조카에게 명절 음식을 챙겨 줬어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "704-1",
+    "seq": "704",
+    "jeju": "옆칩 아주망이 지실 하영 갖다 줬수다.",
+    "standard": "옆집 아주머니가 감자를 많이 갖다 주셨어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "그래 가지고 그니까 야 이 아 이 아주망",
+        "standard": "그래 가지고 그니까 야 이 아 이 아줌마"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 162·오라범댁. 고빈도 친족(형수). 아지망은 동의라 미채택. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "679-1",
+    "seq": "679",
+    "jeju": "저 소나이가 배 몰안 나갔수다.",
+    "standard": "저 사내가 배를 몰고 나갔어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "여편 소나이 이젠 구별 안행 이젠",
+        "standard": "여편 남자 이젠 구별 하지 않고 이젠"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 89·남편. 기존 냄편과 별 어형. 제주 남성/남편 표지로 학습가치 큼. (카테고리 태그 인륜 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "404-1",
+    "seq": "404",
+    "jeju": "이 동네는 괸당이 하영 살암수다.",
+    "standard": "이 동네는 친척이 많이 살아요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "막 괸당 문화 이러면서",
+        "standard": "막 친척 문화 이러면서"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 88·친척. 제주 정체성 핵심어, 기존 1000 공백. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "705-1",
+    "seq": "705",
+    "jeju": "우리 아주방은 바당에서 물질햄수다.",
+    "standard": "우리 아저씨는 바다에서 물질하세요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "동네 아주망들은 아주방 생각행 왐수과? 성 생각햄 왐주게. 남자어른 시믄 놀래도 아니오젠 허여",
+        "standard": "동네 아주머니들은 아저씨 생각해서 오나요? 언니 생각해서 오시죠. 남자어른 계시면 놀러도 안오려고 해요"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 22·아제. 일상 친족(아저씨/숙부급). (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5404-1",
+    "seq": "5404",
+    "jeju": "아이가 자파리가 하영 심행마씸.",
+    "standard": "아이가 장난이 아주 심해요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "젭싼 뭐냐하면 자파리 장난끼가 제여 -제- 제여 그 성님은 원숭이처럼 잘 가났어",
+        "standard": "재빠르니까 뭐냐하면 장난끼 장난끼가 재빠른 행동 -제- 재빠른 행동 그 형님은 원숭이처럼 잘 갔었어"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 15·장난. 생활 구어. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2733-1",
+    "seq": "2733",
+    "jeju": "저 어른은 자리 장시 햄수다.",
+    "standard": "저 어른은 자리돔 장수를 하세요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "너 장시 허래 갔다완? 나도 한 두 번 갔다왔주 아이고야",
+        "standard": "너 장사 하래 갔다왔어? 나도 한 두 번 갔다왔지 아이고야"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 대체 편입. QC 통과."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "647-1",
+    "seq": "647",
+    "jeju": "마을 부제가 흉년 든 이웃에게 쌀을 나눴어마씸.",
+    "standard": "마을 부자가 흉년 든 이웃에게 쌀을 나눴어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "579-1",
+    "seq": "579",
+    "jeju": "아기가 어멍 품에서 곤히 잠들었어마씸.",
+    "standard": "아기가 어머니 품에서 곤히 잠들었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "472-1",
+    "seq": "472",
+    "jeju": "돌챙이가 돌담의 무너진 부분을 다시 쌓았어마씸.",
+    "standard": "석수가 돌담의 무너진 부분을 다시 쌓았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5407-1",
+    "seq": "5407",
+    "jeju": "이번 둘엔 장게 가는 사름이 하수다.",
+    "standard": "이번 달엔 장가 가는 사람이 많아요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "장게 장게",
+        "standard": "장가 장가"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 19·장가. 생애 사건 일상. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "369-1",
+    "seq": "369",
+    "jeju": "가시어멍이 사위에게 직접 담근 장을 보냈어마씸.",
+    "standard": "장모가 사위에게 직접 담근 장을 보냈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "368-1",
+    "seq": "368",
+    "jeju": "가시아방 생신이라 사위들이 갈치 한 상자 보냈수다.",
+    "standard": "장인의 생신이라 사위들이 갈치 한 상자를 보냈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90003-1",
+    "seq": "90003",
+    "jeju": "아이가 바깟에서 놀암수다.",
+    "standard": "아이가 바깥에서 놀고 있어요.",
+    "source": {
+      "type": "official",
+      "sourceId": "jeju-basic-vocab-2025",
+      "editReason": "\"텟도독\"(떼도적)은 말뭉치·생활방언·2025 기본어휘 어디에도 없는 미확인 단어라 더 확실한 생활어로 교체함. 출처: 2025 제주학연구센터 <아보카, 제주어 기본어휘> p.14."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90005-1",
+    "seq": "90005",
+    "jeju": "드르에 곡식이 익엄수다.",
+    "standard": "들에 곡식이 익어가요.",
+    "source": {
+      "type": "official",
+      "sourceId": "jeju-basic-vocab-2025",
+      "editReason": "\"하리비\"(할애비)는 말뭉치·생활방언·2025 기본어휘 어디에도 없는 미확인 단어라 더 확실한 생활어로 교체함. 출처: 2025 제주학연구센터 <아보카, 제주어 기본어휘> p.11."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90004-1",
+    "seq": "90004",
+    "jeju": "오늘은 벳이 하영 좋수다.",
+    "standard": "오늘은 볕이 아주 좋아요.",
+    "source": {
+      "type": "official",
+      "sourceId": "jeju-basic-vocab-2025",
+      "editReason": "\"앙토쟁이\"(미장이)는 말뭉치·생활방언·2025 기본어휘 어디에도 없는 미확인 단어라 더 확실한 생활어로 교체함. 출처: 2025 제주학연구센터 <아보카, 제주어 기본어휘> p.15."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "374-1",
+    "seq": "374",
+    "jeju": "저 아이는 간세다리랜 소문 낫수다.",
+    "standard": "저 아이는 게으름뱅이라고 소문이 났어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "영 골은 후제 간세다리 소나이는 쇠고치 보지런히 농사지으멍 낭중엔 큰 부재가 되었던호여마씀",
+        "standard": "이렇게 말한 후에 게으름뱅이 남자는 소처럼 부지런히 농사지으면서 나중엔 큰 부자가 되었대요"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 11·게으름장이. 인물 유형 구어. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "601-1",
+    "seq": "601",
+    "jeju": "저 두갓은 밧듸 강 살암수다.",
+    "standard": "저 부부는 밭에 가서 살아요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "두갓 두갓이가 두갓이",
+        "standard": "부부 부부이가 부부이"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 7·부부. 가족 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1817-1",
+    "seq": "1817",
+    "jeju": "심방이 굿을 헴수다.",
+    "standard": "무당이 굿을 하고 있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "할망 말이 심방 말이",
+        "standard": "할머니 말이 무당 말이"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 7·무당. 중요도 2이나 제주 무속 정체성 핵심(할망당과 쌍). (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6692-1",
+    "seq": "6692",
+    "jeju": "돌하르방 코 문지르민 아들 낳는댄 헙주.",
+    "standard": "돌하르방 코를 문지르면 아들을 낳는다고 해요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "돌하르방 코 문지르면 아들 낳는 댄",
+        "standard": "돌하르방 코 문지르면 아들 낳는 대"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 2·돌하르방. 중요도 1이나 제주 아이콘 정체성. (카테고리 태그 인륜 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "324-1",
+    "seq": "324",
+    "jeju": "아시날 왓단 사름이 오늘 또 왓수다.",
+    "standard": "그전 날 왔던 사람이 오늘 또 왔어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아시날 내일 잔치면 오늘 아침에 그디 만들 것들 맨딱 실러다줜",
+        "standard": "전날 내일 잔치면 오늘 아침에 거기 만들 것들 전부 실어다줬어"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 전날. 이용자 일상 체감."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4983-1",
+    "seq": "4983",
+    "jeju": "멩질 되민 온 식구가 모다듭주.",
+    "standard": "명절이 되면 온 식구가 모여요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "팔 월 멩질 때도 헌 적이 있는데",
+        "standard": "팔 월 명절 때도 헌 적이 있는데"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 19·명절. 세시 일상, 기존 공백. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7557-1",
+    "seq": "7557",
+    "jeju": "무사 그렇게 급하게 걸어마씸?",
+    "standard": "왜 그렇게 급하게 걸어요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7496-1",
+    "seq": "7496",
+    "jeju": "오늘은 물을 하영 마셨어마씸.",
+    "standard": "오늘은 물을 많이 마셨어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7564-1",
+    "seq": "7564",
+    "jeju": "옵서, 이쪽으로 앚입서.",
+    "standard": "오세요, 이쪽으로 앉으세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7554-1",
+    "seq": "7554",
+    "jeju": "기여, 이레 옵서.",
+    "standard": "그래, 이쪽으로 오세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5707-1",
+    "seq": "5707",
+    "jeju": "이디 있는 책은 누구 거마씸?",
+    "standard": "여기 있는 책은 누구 거예요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5709-1",
+    "seq": "5709",
+    "jeju": "저디까지 걸어갔어마씸.",
+    "standard": "저기까지 걸어갔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5704-1",
+    "seq": "5704",
+    "jeju": "이거 한번 먹어 봐마씸.",
+    "standard": "이것 한번 먹어 봐요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5696-1",
+    "seq": "5696",
+    "jeju": "누게가 그 말을 했어마씸?",
+    "standard": "누가 그 말을 했어요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5718-1",
+    "seq": "5718",
+    "jeju": "그중에 싯이 남았어마씸.",
+    "standard": "그중에 셋이 남았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5721-1",
+    "seq": "5721",
+    "jeju": "그 책을 여답 번 읽었어마씸.",
+    "standard": "그 책을 여덟 번 읽었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7560-1",
+    "seq": "7560",
+    "jeju": "양, 나가 도와드리쿠다.",
+    "standard": "예, 제가 도와드릴게요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7551-1",
+    "seq": "7551",
+    "jeju": "게메, 그건 아닌 것 닮수다.",
+    "standard": "그러게, 그건 아닌 것 같아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7550-1",
+    "seq": "7550",
+    "jeju": "게, 한번 생각해 봅서.",
+    "standard": "그래, 한번 생각해 봐요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7466-1",
+    "seq": "7466",
+    "jeju": "오늘은 날씨가 영판 더워마씸.",
+    "standard": "오늘은 날씨가 아주 더워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "295-1",
+    "seq": "295",
+    "jeju": "닐 아침 일찍 시장에 갑서.",
+    "standard": "내일 아침 일찍 시장에 가세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7482-1",
+    "seq": "7482",
+    "jeju": "진직 알았으면 좋았을 텐데마씸.",
+    "standard": "진작 알았으면 좋았을 텐데요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7463-1",
+    "seq": "7463",
+    "jeju": "영 하면 돼마씸.",
+    "standard": "이렇게 하면 돼요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7364-1",
+    "seq": "7364",
+    "jeju": "나도 그마니 알았수과?",
+    "standard": "나도 그만큼 알았어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7472-1",
+    "seq": "7472",
+    "jeju": "이레저레 돌아다녔수다.",
+    "standard": "이리저리 돌아다녔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7480-1",
+    "seq": "7480",
+    "jeju": "졸바로 앉아마씸.",
+    "standard": "올바르게 앉아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4531-1",
+    "seq": "4531",
+    "jeju": "간세 부리지 말고 오늘 일은 오늘 끝냅서.",
+    "standard": "게으름 피우지 말고 오늘 일은 오늘 끝내세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7347-1",
+    "seq": "7347",
+    "jeju": "옷을 거꿀로 입었어마씸.",
+    "standard": "옷을 거꾸로 입었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7358-1",
+    "seq": "7358",
+    "jeju": "집으로 곧작 갔어마씸.",
+    "standard": "집으로 곧장 갔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7355-1",
+    "seq": "7355",
+    "jeju": "게민 안 돼마씸.",
+    "standard": "그러면 안 돼요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7351-1",
+    "seq": "7351",
+    "jeju": "게난 내가 먼저 갈게마씸.",
+    "standard": "그러니까 내가 먼저 갈게요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7357-1",
+    "seq": "7357",
+    "jeju": "경 하지 맙서.",
+    "standard": "그렇게 하지 마세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7393-1",
+    "seq": "7393",
+    "jeju": "똑 약속 지켜마씸.",
+    "standard": "꼭 약속 지켜요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7535-1",
+    "seq": "7535",
+    "jeju": "형제 셋아덜이 밭일을 도왔수다.",
+    "standard": "형제 가운데아들이 밭일을 도왔습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7519-1",
+    "seq": "7519",
+    "jeju": "다슴아방이라도 우리 아방이우다.",
+    "standard": "의붓아버지라도 우리 아버지입니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7498-1",
+    "seq": "7498",
+    "jeju": "곤 옷 입으난 얼굴이 더 환허우다.",
+    "standard": "고운 옷을 입으니 얼굴이 더 환합니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7493-1",
+    "seq": "7493",
+    "jeju": "과자가 페삭 부서졌어마씸.",
+    "standard": "과자가 바삭 부서졌어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5692-1",
+    "seq": "5692",
+    "jeju": "그거 이레 강 가져오라.",
+    "standard": "그것 이리 가서 가져와.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "한상 차려주면 그거 읃어먹고 그냥 완",
+        "standard": "한상 차려주면 그거 읃어먹고 그냥 왔어"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 164·그것. 기존 거와 이형태이나 지시어 고빈도라 병치 가치 있음. (카테고리 태그 대이름씨 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7459-1",
+    "seq": "7459",
+    "jeju": "어서라 옵서.",
+    "standard": "어서 오세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7417-1",
+    "seq": "7417",
+    "jeju": "미릇 준비했수과?",
+    "standard": "미리 준비했어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7406-1",
+    "seq": "7406",
+    "jeju": "안개가 걷힌 뒤 막 좋아마씸.",
+    "standard": "안개가 걷힌 뒤 아주 좋아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7379-1",
+    "seq": "7379",
+    "jeju": "햇살 좋은 오후에 너미 좋아마씸.",
+    "standard": "햇살 좋은 오후에 너무 좋아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7365-1",
+    "seq": "7365",
+    "jeju": "그자 앉아 있었수다.",
+    "standard": "그저 앉아 있었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7349-1",
+    "seq": "7349",
+    "jeju": "일이 거저 끝났어마씸.",
+    "standard": "일이 거의 끝났어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90007-1",
+    "seq": "90007",
+    "jeju": "두이에 사름 오람수다.",
+    "standard": "뒤에 사람이 오고 있어요.",
+    "source": {
+      "type": "official",
+      "sourceId": "jeju-basic-vocab-2025",
+      "editReason": "\"셍거\"(날것)는 말뭉치·생활방언·2025 기본어휘·jeju.go.kr 원본 사전 네 자료 전부에 없는 것을 확인함(엄격한 4중 확인 기준). 출처: 2025 제주학연구센터 <아보카, 제주어 기본어휘> p.21."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7499-1",
+    "seq": "7499",
+    "jeju": "제삿날에는 따뜻한 곤밥을 먼저 상에 올렸수다.",
+    "standard": "제삿날에는 따뜻한 흰 밥을 먼저 상에 올렸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7481-1",
+    "seq": "7481",
+    "jeju": "죽게 힘들었어마씸.",
+    "standard": "죽도록 힘들었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7476-1",
+    "seq": "7476",
+    "jeju": "잇당 갈게마씸.",
+    "standard": "있다가 갈게요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7456-1",
+    "seq": "7456",
+    "jeju": "어떵 지내마씸?",
+    "standard": "어떻게 지내요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7455-1",
+    "seq": "7455",
+    "jeju": "어떠난 안 왔어마씸?",
+    "standard": "어째서 안 왔어요?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7453-1",
+    "seq": "7453",
+    "jeju": "아명 해도 상관없어마씸.",
+    "standard": "아무렇게 해도 상관없어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7422-1",
+    "seq": "7422",
+    "jeju": "바락 소리를 질렀어마씸.",
+    "standard": "벌컥 소리를 질렀어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90006-1",
+    "seq": "90006",
+    "jeju": "저 남저는 이제 갓 스무 살이 뒈어수다.",
+    "standard": "저 남자는 이제 갓 스무 살이 되었어요.",
+    "source": {
+      "type": "official",
+      "sourceId": "jeju-basic-vocab-2025",
+      "editReason": "\"새곡석\"(햇 곡식)은 말뭉치·생활방언·2025 기본어휘·jeju.go.kr 원본 사전 네 자료 전부에 없는 것을 확인함(엄격한 4중 확인 기준). 출처: 2025 제주학연구센터 <아보카, 제주어 기본어휘> p.18."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2775-1",
+    "seq": "2775",
+    "jeju": "넘어져 가심을 부딪치난 숨쉬기부터 살폈수다.",
+    "standard": "넘어져 가슴을 부딪치니 숨쉬기부터 살폈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3139-1",
+    "seq": "3139",
+    "jeju": "길게 자란 손콥을 가지런히 깎았어마씸.",
+    "standard": "길게 자란 손톱을 가지런히 깎았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3138-1",
+    "seq": "3138",
+    "jeju": "발콥이 살을 파고들어 걸을 때 아팠어마씸.",
+    "standard": "발톱이 살을 파고들어 걸을 때 아팠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3089-1",
+    "seq": "3089",
+    "jeju": "찬바람에 입바위가 말라 보습제를 발랐어마씸.",
+    "standard": "찬바람에 입술이 말라 보습제를 발랐어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2828-1",
+    "seq": "2828",
+    "jeju": "귀가 답답해서 귓밥을 조심스레 팠어마씸.",
+    "standard": "귀가 답답해서 귀지를 조심스레 팠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2917-1",
+    "seq": "2917",
+    "jeju": "화가 난 사람이 상대의 모감지를 움켜잡았어마씸.",
+    "standard": "화가 난 사람이 상대의 멱살을 움켜잡았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3109-1",
+    "seq": "3109",
+    "jeju": "산길을 오래 걸어 종애가 단단히 뭉쳤어마씸.",
+    "standard": "산길을 오래 걸어 종아리가 단단히 뭉쳤어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2772-1",
+    "seq": "2772",
+    "jeju": "돌길을 오래 걸으난 가달이 저려서 돌담에 앉았수다.",
+    "standard": "돌길을 오래 걸으니 다리가 저려서 돌담에 앉았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2803-1",
+    "seq": "2803",
+    "jeju": "강생이 꼴랑지에 가시 박혀 핀셋으로 빼 줬수다.",
+    "standard": "강아지 꼬리에 가시가 박혀 핀셋으로 빼 주었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3123-1",
+    "seq": "3123",
+    "jeju": "천징이 도지난 숨쉬기가 힘들어마씸.",
+    "standard": "천식이 도지니 숨쉬기가 힘들어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3027-1",
+    "seq": "3027",
+    "jeju": "운동하다 심줄을 다쳐 깁스를 했어마씸.",
+    "standard": "운동하다 힘줄을 다쳐 깁스를 했어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2785-1",
+    "seq": "2785",
+    "jeju": "거슴이 일어나 손끝에 자꾸 걸렸어마씸.",
+    "standard": "거스러미가 일어나 손끝에 자꾸 걸렸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2961-1",
+    "seq": "2961",
+    "jeju": "몸에 이상헌 벵이 걸려수다.",
+    "standard": "몸에 이상한 병에 걸렸습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2819-1",
+    "seq": "2819",
+    "jeju": "꿈이 많이 나와마씸.",
+    "standard": "침이 많이 나와요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2811-1",
+    "seq": "2811",
+    "jeju": "넘어지며 팔의 꽝이 부러졌어마씸.",
+    "standard": "넘어지며 팔의 뼈가 부러졌어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3087-1",
+    "seq": "3087",
+    "jeju": "임댕이가 훈치룩헌 게 열이 잇수다.",
+    "standard": "이마가 뜨끈한 게 열이 있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "임댕이 밀엉",
+        "standard": "이마 밀고"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 11·이마. 신체 기본, 기존 공백. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2787-1",
+    "seq": "2787",
+    "jeju": "꺼럭이 빠졌어마씸.",
+    "standard": "터럭이 빠졌어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3056-1",
+    "seq": "3056",
+    "jeju": "볕이 세난 양지 안 타게 모자 씁서.",
+    "standard": "볕이 세니 얼굴이 타지 않게 모자를 쓰세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3022-1",
+    "seq": "3022",
+    "jeju": "할아버지 쉬염이 길게 자랐어마씸.",
+    "standard": "할아버지 수염이 길게 자랐어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2946-1",
+    "seq": "2946",
+    "jeju": "배탈이 나난 베설이 꼬이는 듯 아팠어마씸.",
+    "standard": "배탈이 나니 창자가 꼬이는 듯 아팠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5331-1",
+    "seq": "5331",
+    "jeju": "오늘 오몽 하영 허난 피곤하우다.",
+    "standard": "오늘 움직임이 많아서 피곤해요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "그 오몽 이공사 오몽 감자랑 거 맞지",
+        "standard": "그 오몽 이공사 오몽 감자랑 그거 맞지"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 8·일함. 생업·동작 명사. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6747-1",
+    "seq": "6747",
+    "jeju": "국이 싱거우난 소곰 호끔 더 넣읍서.",
+    "standard": "국이 싱거우니 소금을 조금 더 넣으세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3451-1",
+    "seq": "3451",
+    "jeju": "장날 산 둠비는 물에 담가 두었다가 저녁에 부쳤수다.",
+    "standard": "장날에 산 두부는 물에 담가 두었다가 저녁에 부쳤어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4300-1",
+    "seq": "4300",
+    "jeju": "고치가 빨갛게 익으난 장아찌 담글 때가 됐수다.",
+    "standard": "고추가 빨갛게 익으니 장아찌를 담글 때가 되었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6762-1",
+    "seq": "6762",
+    "jeju": "제사 손님이 많아 시리떡을 한 시루 더 쪘수다.",
+    "standard": "제사 손님이 많아 시루떡을 한 시루 더 쪘어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3419-1",
+    "seq": "3419",
+    "jeju": "따뜻한 곤죽을 그릇에 담아 가족과 나눠 먹었어마씸.",
+    "standard": "따뜻한 쌀죽을 그릇에 담아 가족과 나눠 먹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3423-1",
+    "seq": "3423",
+    "jeju": "갓 마련한 괴기를 식구들과 나눠 먹었어마씸.",
+    "standard": "갓 마련한 고기를 식구들과 나눠 먹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4345-1",
+    "seq": "4345",
+    "jeju": "삶은 지슬은 식기 전에 소곰 찍어 먹었수과?",
+    "standard": "삶은 감자는 식기 전에 소금을 찍어 먹었어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4607-1",
+    "seq": "4607",
+    "jeju": "참기름 대신 지름을 둘러 나물을 무쳤수다.",
+    "standard": "참기름 대신 기름을 둘러 나물을 무쳤어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6761-1",
+    "seq": "6761",
+    "jeju": "차갑게 식힌 쉰다리를 한 잔 마셨어마씸.",
+    "standard": "차갑게 식힌 단술을 한 잔 마셨어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6763-1",
+    "seq": "6763",
+    "jeju": "시원한 식게를 그릇에 담아 마셨어마씸.",
+    "standard": "시원한 식혜를 그릇에 담아 마셨어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6756-1",
+    "seq": "6756",
+    "jeju": "수에가 바닥나 시장에서 더 사 왔어마씸.",
+    "standard": "순대가 바닥나 시장에서 더 사 왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3640-1",
+    "seq": "3640",
+    "jeju": "바농은 잃어버리지 않게 바늘겨레에 꽂아 둡서.",
+    "standard": "바늘은 잃어버리지 않게 바늘겨레에 꽂아 두세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1265-1",
+    "seq": "1265",
+    "jeju": "바농에 씰 꿰영 해진 소매를 기웠수다.",
+    "standard": "바늘에 실을 꿰어 해진 소매를 기웠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1309-1",
+    "seq": "1309",
+    "jeju": "주전지 물 끓었으난 차 한 잔 합서.",
+    "standard": "주전자 물이 끓었으니 차 한 잔 하세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1232-1",
+    "seq": "1232",
+    "jeju": "망가진 숟구락을 고쳐 쓸 수 있는지 살폈어마씸.",
+    "standard": "망가진 숟가락을 고쳐 쓸 수 있는지 살폈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6774-1",
+    "seq": "6774",
+    "jeju": "새벽 일을 마치고 언물을 시원하게 마셨어마씸.",
+    "standard": "새벽 일을 마치고 찬물을 시원하게 마셨어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4302-1",
+    "seq": "4302",
+    "jeju": "곱대사니 잎이 누렇게 변하난 캘 때가 된 모양입디다.",
+    "standard": "마늘 잎이 누렇게 변하니 캘 때가 된 모양이었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3568-1",
+    "seq": "3568",
+    "jeju": "어멍은 팃물로 채소를 씻었어마씸.",
+    "standard": "어머니는 쌀뜨물로 채소를 씻었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3549-1",
+    "seq": "3549",
+    "jeju": "제삿날 아침 침떡을 쪄 상에 올렸수다.",
+    "standard": "제삿날 아침에 설기를 쪄서 상에 올렸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3545-1",
+    "seq": "3545",
+    "jeju": "청묵을 먹기 좋게 썰어 양념장과 냈어마씸.",
+    "standard": "청포를 먹기 좋게 썰어 양념장과 냈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3527-1",
+    "seq": "3527",
+    "jeju": "밭일 나가기 전 조팝에 된장국을 곁들여 먹었수다.",
+    "standard": "밭일을 나가기 전에 조밥에 된장국을 곁들여 먹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3399-1",
+    "seq": "3399",
+    "jeju": "여름엔 개역 타 먹으민 시원하우다.",
+    "standard": "여름엔 미숫가루를 타 먹으면 시원해요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "개역행 먹었주게 개역",
+        "standard": "미숫가루해서 먹었지 미숫가루"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 66·보숭이(미숫가루). 제주 음식 정체성. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3404-1",
+    "seq": "3404",
+    "jeju": "가축에게 것을 골고루 나눠 줬어마씸.",
+    "standard": "가축에게 먹이를 골고루 나눠 줬어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3600-1",
+    "seq": "3600",
+    "jeju": "따뜻한 물둠비를 양념장 곁들여 내놨수다.",
+    "standard": "따뜻한 순두부를 양념장과 함께 내놓았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3505-1",
+    "seq": "3505",
+    "jeju": "적갈을 접시에 담아 함께 먹었어마씸.",
+    "standard": "고기적을 접시에 담아 함께 먹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3434-1",
+    "seq": "3434",
+    "jeju": "솥바닥에 눌어붙은 누넹이를 긁어 간식으로 먹었수과?",
+    "standard": "솥바닥에 눌어붙은 누룽지를 긁어 간식으로 먹었어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6892-1",
+    "seq": "6892",
+    "jeju": "아침에 책을 놓았수과?",
+    "standard": "아침에 책을 놓았어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7144-1",
+    "seq": "7144",
+    "jeju": "아침에 이불을 페우어마씸.",
+    "standard": "아침에 이불을 펴요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7085-1",
+    "seq": "7085",
+    "jeju": "아침에 책을 익어마씸.",
+    "standard": "아침에 책을 읽어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7073-1",
+    "seq": "7073",
+    "jeju": "아침에 의자에 앚았수과?",
+    "standard": "아침에 의자에 앉았어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7071-1",
+    "seq": "7071",
+    "jeju": "아침에 편지를 씨어마씸.",
+    "standard": "아침에 편지를 써요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7061-1",
+    "seq": "7061",
+    "jeju": "아침에 손을 싯었수다.",
+    "standard": "아침에 손을 씻었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6980-1",
+    "seq": "6980",
+    "jeju": "아침에 머리를 무끄어마씸.",
+    "standard": "아침에 머리를 묶어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6967-1",
+    "seq": "6967",
+    "jeju": "아침에 신발끈을 메었수다.",
+    "standard": "아침에 신발끈을 맸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6930-1",
+    "seq": "6930",
+    "jeju": "아침에 가방을 들라마씸.",
+    "standard": "아침에 가방을 들어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6919-1",
+    "seq": "6919",
+    "jeju": "아침에 아이를 도왜어마씸.",
+    "standard": "아침에 아이를 도와요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7026-1",
+    "seq": "7026",
+    "jeju": "아침에 노래를 불라마씸.",
+    "standard": "아침에 노래를 불러요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6977-1",
+    "seq": "6977",
+    "jeju": "아침에 답을 몰라마씸.",
+    "standard": "아침에 답을 몰라요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7087-1",
+    "seq": "7087",
+    "jeju": "아침에 문을 욜었수다.",
+    "standard": "아침에 문을 열었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6969-1",
+    "seq": "6969",
+    "jeju": "아침에 이불을 멘들어마씸.",
+    "standard": "아침에 이불을 만들어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7052-1",
+    "seq": "7052",
+    "jeju": "아침에 동생과 쌉어마씸.",
+    "standard": "아침에 동생과 싸워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7130-1",
+    "seq": "7130",
+    "jeju": "아침에 야채를 케었수다.",
+    "standard": "아침에 야채를 캤어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6881-1",
+    "seq": "6881",
+    "jeju": "아침에 짐을 날라마씸.",
+    "standard": "아침에 짐을 날라요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6879-1",
+    "seq": "6879",
+    "jeju": "아침에 아이를 나무래어마씸.",
+    "standard": "아침에 아이를 나무래요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6886-1",
+    "seq": "6886",
+    "jeju": "아침에 밥을 냉기어마씸.",
+    "standard": "아침에 밥을 남겨요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6883-1",
+    "seq": "6883",
+    "jeju": "아침에 쓰레기를 내불어마씸.",
+    "standard": "아침에 쓰레기를 내버려요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6960-1",
+    "seq": "6960",
+    "jeju": "낮에 아이를 맽기어마씸.",
+    "standard": "낮에 아이를 맡겨요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6966-1",
+    "seq": "6966",
+    "jeju": "낮에 구멍을 메꾸어마씸.",
+    "standard": "낮에 구멍을 메워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6968-1",
+    "seq": "6968",
+    "jeju": "가족 여행 갈 돈을 달마다 메우고 있수다.",
+    "standard": "가족 여행에 쓸 돈을 달마다 모으고 있어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6926-1",
+    "seq": "6926",
+    "jeju": "낮에 아이가 둥글어마씸.",
+    "standard": "낮에 아이가 뒹굴어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7134-1",
+    "seq": "7134",
+    "jeju": "낮에 가방이 털어져마씸.",
+    "standard": "낮에 가방이 떨어져요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7014-1",
+    "seq": "7014",
+    "jeju": "낮에 옷을 벳기어마씸.",
+    "standard": "낮에 옷을 벗겨요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7022-1",
+    "seq": "7022",
+    "jeju": "낮에 우표를 부찌어마씸.",
+    "standard": "낮에 우표를 붙여요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6987-1",
+    "seq": "6987",
+    "jeju": "상이 좁아 그릇을 안쪽으로 밀렸수다.",
+    "standard": "상이 좁아서 그릇을 안쪽으로 밀었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7001-1",
+    "seq": "7001",
+    "jeju": "낮에 약을 발라마씸.",
+    "standard": "낮에 약을 발라요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5845-1",
+    "seq": "5845",
+    "jeju": "낮에 시계를 고찌어마씸.",
+    "standard": "낮에 시계를 고쳐요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7108-1",
+    "seq": "7108",
+    "jeju": "낮에 지팡이를 짚어마씸.",
+    "standard": "낮에 지팡이를 짚어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7101-1",
+    "seq": "7101",
+    "jeju": "낮에 연필을 죄었수과?",
+    "standard": "낮에 연필을 쥐었어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7080-1",
+    "seq": "7080",
+    "jeju": "저녁에 물이 얼리어마씸.",
+    "standard": "저녁에 물이 얼어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7070-1",
+    "seq": "7070",
+    "jeju": "저녁에 그 말에 쏙어마씸.",
+    "standard": "저녁에 그 말에 속아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7057-1",
+    "seq": "7057",
+    "jeju": "저녁에 손을 심었수다.",
+    "standard": "저녁에 손을 잡았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7056-1",
+    "seq": "7056",
+    "jeju": "저녁에 짐을 시끄어마씸.",
+    "standard": "저녁에 짐을 실어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7048-1",
+    "seq": "7048",
+    "jeju": "저녁에 명절을 세마씸.",
+    "standard": "저녁에 명절을 쇠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7033-1",
+    "seq": "7033",
+    "jeju": "저녁에 물을 비우어마씸.",
+    "standard": "저녁에 물을 부어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7030-1",
+    "seq": "7030",
+    "jeju": "저녁에 벼를 비어마씸.",
+    "standard": "저녁에 벼를 베어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7024-1",
+    "seq": "7024",
+    "jeju": "저녁에 종이가 붙어마씸.",
+    "standard": "저녁에 종이가 붙어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7017-1",
+    "seq": "7017",
+    "jeju": "저녁에 동전을 봉그어마씸.",
+    "standard": "저녁에 동전을 주워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7009-1",
+    "seq": "7009",
+    "jeju": "설거지허다가 손이 미끄러져 그릇을 벌랐수다.",
+    "standard": "설거지하다가 손이 미끄러져 그릇을 깼어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7007-1",
+    "seq": "7007",
+    "jeju": "저녁에 팔을 벋어마씸.",
+    "standard": "저녁에 팔을 뻗어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6956-1",
+    "seq": "6956",
+    "jeju": "저녁에 냄새를 맡아마씸.",
+    "standard": "저녁에 냄새를 맡아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6912-1",
+    "seq": "6912",
+    "jeju": "저녁에 이불을 더끄어마씸.",
+    "standard": "저녁에 이불을 덮어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6909-1",
+    "seq": "6909",
+    "jeju": "저녁에 김치를 담어마씸.",
+    "standard": "저녁에 김치를 담가요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6885-1",
+    "seq": "6885",
+    "jeju": "저녁에 가시를 내치어마씸.",
+    "standard": "저녁에 가시를 뱉어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6878-1",
+    "seq": "6878",
+    "jeju": "저녁에 물고기를 낚아마씸.",
+    "standard": "저녁에 물고기를 낚아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7156-1",
+    "seq": "7156",
+    "jeju": "저녁에 머리를 흥글어마씸.",
+    "standard": "저녁에 머리를 흔들어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7154-1",
+    "seq": "7154",
+    "jeju": "아이한테 약 먹이다가 옷에 호끔 흘쳤수다.",
+    "standard": "아이에게 약을 먹이다가 옷에 조금 흘렸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7153-1",
+    "seq": "7153",
+    "jeju": "저녁에 시간이 흘라마씸.",
+    "standard": "저녁에 시간이 흘러요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7112-1",
+    "seq": "7112",
+    "jeju": "저녁에 강아지를 질루어마씸.",
+    "standard": "저녁에 강아지를 길러요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7102-1",
+    "seq": "7102",
+    "jeju": "밤새 개가 주꾸어마씸.",
+    "standard": "밤새 개가 짖었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7094-1",
+    "seq": "7094",
+    "jeju": "지금 옷을 적져마씸.",
+    "standard": "지금 옷을 적셔요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7086-1",
+    "seq": "7086",
+    "jeju": "지금 아이에게 옷을 입지어마씸.",
+    "standard": "지금 아이에게 옷을 입혀요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7083-1",
+    "seq": "7083",
+    "jeju": "지금 자꾸 용심나마씸.",
+    "standard": "지금 자꾸 성나요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7082-1",
+    "seq": "7082",
+    "jeju": "지금 산에 올라마씸.",
+    "standard": "지금 산에 올라요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7058-1",
+    "seq": "7058",
+    "jeju": "지금 일이 심들어마씸.",
+    "standard": "지금 일이 힘들어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7055-1",
+    "seq": "7055",
+    "jeju": "어멍이 아이한테 숙제를 먼저 허렌 시겼수다.",
+    "standard": "엄마가 아이에게 숙제를 먼저 하라고 시켰어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7046-1",
+    "seq": "7046",
+    "jeju": "하던 일을 설러마씸.",
+    "standard": "하던 일을 그만두었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7157-1",
+    "seq": "7157",
+    "jeju": "오늘 구름이 히었수과?",
+    "standard": "오늘 구름이 희었어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7329-1",
+    "seq": "7329",
+    "jeju": "요즘 낟알이 해마씸.",
+    "standard": "요즘 낟알이 많아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7299-1",
+    "seq": "7299",
+    "jeju": "오늘 물이 지프었수과?",
+    "standard": "오늘 물이 깊었어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7170-1",
+    "seq": "7170",
+    "jeju": "오늘 마음이 넙어마씸.",
+    "standard": "오늘 마음이 넓어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7288-1",
+    "seq": "7288",
+    "jeju": "오늘 나는 조랍었수다.",
+    "standard": "오늘 나는 졸렸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7279-1",
+    "seq": "7279",
+    "jeju": "오늘 아이가 요망지어마씸.",
+    "standard": "오늘 아이가 똑똑해요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7289-1",
+    "seq": "7289",
+    "jeju": "아이 손은 어른 손보다 족었수과?",
+    "standard": "아이의 손은 어른의 손보다 작았어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7263-1",
+    "seq": "7263",
+    "jeju": "오늘 집이 얼었수다.",
+    "standard": "오늘 집이 추웠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7165-1",
+    "seq": "7165",
+    "jeju": "큰비 뒤 우물물이 흐리고 냄새나서 궂어마씸.",
+    "standard": "큰비 뒤 우물물이 흐리고 냄새가 나서 상태가 나빠요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7338-1",
+    "seq": "7338",
+    "jeju": "오늘 빗줄기가 훍었수다.",
+    "standard": "오늘 빗줄기가 굵었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7253-1",
+    "seq": "7253",
+    "jeju": "강생이가 꼬리 흔드난 참 아깝어마씸.",
+    "standard": "강아지가 꼬리를 흔드니 참 귀여워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7248-1",
+    "seq": "7248",
+    "jeju": "오늘 공부가 실프어마씸.",
+    "standard": "오늘 공부가 싫어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7174-1",
+    "seq": "7174",
+    "jeju": "오늘 기분이 달라마씸.",
+    "standard": "오늘 기분이 달라요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7175-1",
+    "seq": "7175",
+    "jeju": "겨울옷이 두덥어마씸.",
+    "standard": "겨울옷이 두꺼워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7158-1",
+    "seq": "7158",
+    "jeju": "지금 가방이 가벱었수과?",
+    "standard": "지금 가방이 가벼웠어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7209-1",
+    "seq": "7209",
+    "jeju": "지금 표정이 베었수다.",
+    "standard": "지금 표정이 무거웠어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7214-1",
+    "seq": "7214",
+    "jeju": "지금 목소리가 보드랍어마씸.",
+    "standard": "지금 목소리가 부드러워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7179-1",
+    "seq": "7179",
+    "jeju": "지금 일이 두물었수다.",
+    "standard": "지금 일이 드물었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7242-1",
+    "seq": "7242",
+    "jeju": "지금 바다가 쎄어마씸.",
+    "standard": "지금 바다가 세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7302-1",
+    "seq": "7302",
+    "jeju": "마을에서 포구까지 가는 길이 참 질어마씸.",
+    "standard": "마을에서 포구까지 가는 길이 참 길어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7268-1",
+    "seq": "7268",
+    "jeju": "아이가 나이에 비해 역어마씸.",
+    "standard": "아이가 나이에 비해 약삭빨라요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7264-1",
+    "seq": "7264",
+    "jeju": "아기가 방에는 엇고 마당에서 놀암수다.",
+    "standard": "아기가 방에는 없고 마당에서 놀고 있어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7171-1",
+    "seq": "7171",
+    "jeju": "한라산은 멀리서 봐도 참 높아마씸.",
+    "standard": "한라산은 멀리서 보아도 참 높아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7294-1",
+    "seq": "7294",
+    "jeju": "큰 병 앓고 나난 몸이 많이 줄어마씸.",
+    "standard": "큰 병을 앓고 나니 몸이 많이 여위었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7292-1",
+    "seq": "7292",
+    "jeju": "지금 자세가 졸바라마씸.",
+    "standard": "지금 자세가 발라요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7265-1",
+    "seq": "7265",
+    "jeju": "지금 그물이 엉기어마씸.",
+    "standard": "지금 그물이 성겨요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7247-1",
+    "seq": "7247",
+    "jeju": "지금 손이 실렵어마씸.",
+    "standard": "지금 손이 차가워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7211-1",
+    "seq": "7211",
+    "jeju": "아침부터 그 사람이 벨났수과?",
+    "standard": "아침부터 그 사람이 별났어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7207-1",
+    "seq": "7207",
+    "jeju": "혼자 하기엔 일이 버치었수과?",
+    "standard": "혼자 하기에는 일이 버거웠어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7327-1",
+    "seq": "7327",
+    "jeju": "아침부터 음식이 푸지었수다.",
+    "standard": "아침부터 음식이 푸짐했어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7220-1",
+    "seq": "7220",
+    "jeju": "아척부터 내가 부치럽어마씸.",
+    "standard": "아침부터 내가 부끄러워요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7206-1",
+    "seq": "7206",
+    "jeju": "아침부터 손이 버물어마씸.",
+    "standard": "아침부터 손이 더러워져요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7238-1",
+    "seq": "7238",
+    "jeju": "이 물건은 그 깝을 주어도 싸마씸.",
+    "standard": "이 물건은 그 값을 주어도 아깝지 않아요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7467-1",
+    "seq": "7467",
+    "jeju": "장난감을 오고생이 다 부수와불엇수다.",
+    "standard": "장난감을 고스란히 다 부숴버렸어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "오고생이 허당봐도 깨져",
+        "standard": "가만히 해도 깨지지"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 34·고스란히. 어찌씨, 구어 빈도 충분. (카테고리 태그 어찌씨 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7501-1",
+    "seq": "7501",
+    "jeju": "돈을 흥창망창 써 불엇수다.",
+    "standard": "돈을 흥청망청 써 버렸어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "흥창망창 귀엽다",
+        "standard": "흥청망청 귀엽다"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 흥청망청."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7363-1",
+    "seq": "7363",
+    "jeju": "항아리에 물이 그득 찻수다.",
+    "standard": "항아리에 물이 가득 찼어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "경 우리 어멍 시어멍네 집이 이성게 그것에 밀가루가 그득 허게 행양",
+        "standard": "그렇게 우리 어머니 시어머니네 집에 있 더라구 그것에 밀가루가 가득 하게 해서요"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 2·가득. 어찌씨 일상. (카테고리 태그 어찌씨 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5004-1",
+    "seq": "5004",
+    "jeju": "땅 문세 잘 간직헙서.",
+    "standard": "땅 문서를 잘 간직하세요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "허멩이 문세 가짜 문세 가짜 문서",
+        "standard": "허명이 문서 가짜 문서 가짜 문서"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 3차 대체. 증서. QC 통과."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5173-1",
+    "seq": "5173",
+    "jeju": "혼저 나가 살렴 나수다.",
+    "standard": "혼자 나가 살림을 차렸어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "우리 산 갈르고 물 갈르고 살렴 분산합시다",
+        "standard": "우리 산 나누고 물 나누고 살림 분산합시다"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 4·살림. 생활 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "447-1",
+    "seq": "447",
+    "jeju": "느렁테가 밭일을 너무 천천히 허난 해 지는 줄도 몰랐수다.",
+    "standard": "느림보가 밭일을 너무 천천히 해서 해가 지는 줄도 몰랐어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4342-1",
+    "seq": "4342",
+    "jeju": "양애 장아찌 맛이 조수다.",
+    "standard": "양하 장아찌 맛이 좋아요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "난 양애 장아찌 맛 조읍디다",
+        "standard": "난 양애 장아찌 맛 좋았어요"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 대체 편입. 뜻-예문 일치. 표준 예문에 양하 없어 수정 필요."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4186-1",
+    "seq": "4186",
+    "jeju": "대우리 갈앙 죽 쒀 먹엇수다.",
+    "standard": "귀리를 갈아 죽을 쑤어 먹었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "선생님 그 대우리 알아 대우리?",
+        "standard": "선생님 그 귀리 알아 귀리?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 13·귀리. 곡물. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4295-1",
+    "seq": "4295",
+    "jeju": "흐린조로 조밥을 지어 먹엇수다.",
+    "standard": "차조로 조밥을 지어 먹었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "맞아 흐린조 그러니까 검은조 그래 모인조 모인조가 저 노란거 아닙니까?",
+        "standard": "맞아 흐린조 그러니까 검은조 그래 메조 메조가 저 노란거 아닙니까?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 13·차조. 곡물. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4187-1",
+    "seq": "4187",
+    "jeju": "대죽으로 떡을 해 먹엇수다.",
+    "standard": "수수로 떡을 해 먹었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "대죽 대죽",
+        "standard": "수수 수수"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 수수 따위."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4334-1",
+    "seq": "4334",
+    "jeju": "부루 모종을 심엇수다.",
+    "standard": "상추 모종을 심었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "부루 모종이 이신가? 노물 모종이 이신가?",
+        "standard": "상추 모종이 있을까요? 나물 모종이 있을까요?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 3·상추. 식탁 채소. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4547-1",
+    "seq": "4547",
+    "jeju": "두 사람은 하늘이 정헌 거리로 다시 만났수과?",
+    "standard": "두 사람은 하늘이 정해준 부부의 연으로 다시 만났습니까?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2761-1",
+    "seq": "2761",
+    "jeju": "족은어멍이 명절에 조카들 몫의 떡을 챙겼수과?",
+    "standard": "숙모가 명절에 조카들 몫의 떡을 챙겼어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4593-1",
+    "seq": "4593",
+    "jeju": "아이덜이 곱을락 햄수과?",
+    "standard": "아이들이 숨바꼭질하고 있어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "응 숨바꼭질하고 곱을락",
+        "standard": "응 숨바꼭질하고 숨바꼭질"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "303-1",
+    "seq": "303",
+    "jeju": "메날 새벽에 일어남수과?",
+    "standard": "매일 새벽에 일어나요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "게메마시게 저도 뉴스 보난 메날 메날 열 몇 명씩 막 나왐선게만은",
+        "standard": "그러게 말입니다. 저도 뉴스 보난 맨날 맨날 열 몇 명씩 막 나오던데만은"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5157-1",
+    "seq": "5157",
+    "jeju": "겨울엔 산에 사농 다녓수과?",
+    "standard": "겨울엔 산에 사냥 다녔어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "씁~ 에~ 사농 어~ 이 사람이 사농 할 때도 있지마는 아~ 그~ 저기 애월",
+        "standard": "씁~ 에~ 사냥 어~ 이 사람이 사냥 할 때도 있지마는 아~ 그~ 저기 애월"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3689-1",
+    "seq": "3689",
+    "jeju": "상삐로 밥상 닦앗수과?",
+    "standard": "행주로 밥상을 닦았어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "상삐 몰라. 놈삐는 알아",
+        "standard": "행주 몰라. 무는 알아"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4609-1",
+    "seq": "4609",
+    "jeju": "애기 지성기 갈아 줬수과?",
+    "standard": "아기 기저귀를 갈아 줬어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "그거믄 애기 기저귀 지성기 하는 거 아니?",
+        "standard": "그거면 애기 기저귀 기저귀 하는 거 아니야?"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3372-1",
+    "seq": "3372",
+    "jeju": "낡은 초집 지붕에 새 띠를 얹었수다.",
+    "standard": "낡은 초가집 지붕에 새 띠를 얹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3296-1",
+    "seq": "3296",
+    "jeju": "명절에 안거리 문을 여난 오래된 장 냄새가 났수다.",
+    "standard": "명절에 안채 문을 여니 오래된 장 냄새가 났어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "838-1",
+    "seq": "838",
+    "jeju": "해진 치메 밑단을 접어 다시 박았수다.",
+    "standard": "해진 치마 밑단을 접어 다시 박았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1421-1",
+    "seq": "1421",
+    "jeju": "주멩기에 버스 카드 이신가 봅서.",
+    "standard": "주머니에 버스 카드가 있는지 보세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "753-1",
+    "seq": "753",
+    "jeju": "게화에 손을 넣어 동전을 꺼냈어마씸.",
+    "standard": "호주머니에 손을 넣어 동전을 꺼냈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "299-1",
+    "seq": "299",
+    "jeju": "밭담을 쌓으려고 길가의 돗을 모았어마씸.",
+    "standard": "밭담을 쌓으려고 길가의 돌을 모았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1914-1",
+    "seq": "1914",
+    "jeju": "생이가 처마 밑에 둥지 틀었수다.",
+    "standard": "새가 처마 밑에 둥지를 틀었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1361-1",
+    "seq": "1361",
+    "jeju": "검질 멜 호미를 이웃집에서 빌려 왔수다.",
+    "standard": "잡초를 벨 낫을 이웃집에서 빌려 왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3332-1",
+    "seq": "3332",
+    "jeju": "오일장 골목 절간에서 실과 바농을 샀수다.",
+    "standard": "오일장 골목의 가게에서 실과 바늘을 샀어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "215-1",
+    "seq": "215",
+    "jeju": "비가 그친 질에 물웅덩이가 남았어마씸.",
+    "standard": "비가 그친 길에 물웅덩이가 남았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "958-1",
+    "seq": "958",
+    "jeju": "해녀가 구덕에 미역을 가득 담아 등에 졌수다.",
+    "standard": "해녀가 바구니에 미역을 가득 담아 등에 졌어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4004-1",
+    "seq": "4004",
+    "jeju": "자왈 안쪽은 덩굴과 나무가 빽빽했어마씸.",
+    "standard": "덤불 숲 안쪽은 덩굴과 나무가 빽빽했어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2560-1",
+    "seq": "2560",
+    "jeju": "마당 한쪽에 어린 남을 심었어마씸.",
+    "standard": "마당 한쪽에 어린 나무를 심었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4370-1",
+    "seq": "4370",
+    "jeju": "봄비 뒤에 고장이 활짝 피었어마씸.",
+    "standard": "봄비 뒤에 꽃이 활짝 피었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4484-1",
+    "seq": "4484",
+    "jeju": "아이들이 모살밭에 발자국을 남겼어마씸.",
+    "standard": "아이들이 모래밭에 발자국을 남겼어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "230-1",
+    "seq": "230",
+    "jeju": "오일장 서는 날 한질이 사람들로 꽉 찼수다.",
+    "standard": "오일장이 서는 날 큰길이 사람들로 꽉 찼어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3319-1",
+    "seq": "3319",
+    "jeju": "우영에 마농이랑 상추 하영 심어 놨수과?",
+    "standard": "채전에 마늘과 상추를 많이 심어 놓았어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3278-1",
+    "seq": "3278",
+    "jeju": "서리가 지붕을 단단히 받치고 이섯어마씸.",
+    "standard": "서까래가 지붕을 단단히 받치고 있었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4576-1",
+    "seq": "4576",
+    "jeju": "울담에 고망이 나부런마씸.",
+    "standard": "돌담에 구멍이 났어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아 물 빠지는 구멍 뚫었구나. 고망 뚫을 필요 없이 방충망을 옆으로",
+        "standard": "아 물 빠지는 구멍 뚫었구나. 구멍 뚫을 필요 없이 방충망을 옆으로"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 83·구멍. 기존 1000에 구멍 공백. 일상 명사. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1335-1",
+    "seq": "1335",
+    "jeju": "바람 불기 전에 빨랫줄 친을 단단히 묶읍서.",
+    "standard": "바람이 불기 전에 빨랫줄 끈을 단단히 묶으세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6057-1",
+    "seq": "6057",
+    "jeju": "보리밭 검질은 글갱이로 긁어 모았수다.",
+    "standard": "보리밭의 잡초는 갈퀴로 긁어 모았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6041-1",
+    "seq": "6041",
+    "jeju": "돔배 위에서 채소를 먹기 좋게 썰었어마씸.",
+    "standard": "도마 위에서 채소를 먹기 좋게 썰었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "327-1",
+    "seq": "327",
+    "jeju": "아적 일찍 일어났어마씸.",
+    "standard": "아침 일찍 일어났어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "350-1",
+    "seq": "350",
+    "jeju": "오늘 저냑 늦게 왔어마씸.",
+    "standard": "오늘 저녁 늦게 왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4837-1",
+    "seq": "4837",
+    "jeju": "바쁜 일 끝나민 내중에 다시 만납서.",
+    "standard": "바쁜 일이 끝나면 나중에 다시 만나요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7471-1",
+    "seq": "7471",
+    "jeju": "이디저디 찾아봤어마씸.",
+    "standard": "여기저기 찾아봤어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4536-1",
+    "seq": "4536",
+    "jeju": "이 물건 깝이 얼마우꽈?",
+    "standard": "이 물건 값이 얼마입니까?",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3335-1",
+    "seq": "3335",
+    "jeju": "정낭 세 개를 모두 걸어 두난 집에 아무도 없다는 뜻이우다.",
+    "standard": "대문 대신 뜰 어귀에 가로지르는 나무막대 세 개를 모두 걸어 두니 집에 아무도 없다는 뜻이에요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "662-1",
+    "seq": "662",
+    "jeju": "새 새서방이 첫 명절이라 어른들께 인사드렸수다.",
+    "standard": "새 신랑이 첫 명절이라 어른들께 인사드렸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "7530-1",
+    "seq": "7530",
+    "jeju": "새각시가 혼례복을 입고 식장으로 들어섰어마씸.",
+    "standard": "신부가 혼례복을 입고 식장으로 들어섰어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4066-1",
+    "seq": "4066",
+    "jeju": "소 먹일 촐을 베어 마당에 쌓았수다.",
+    "standard": "소에게 먹일 꼴을 베어 마당에 쌓았습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1380-1",
+    "seq": "1380",
+    "jeju": "밧듸 걸름 지영 뿌려마씸.",
+    "standard": "밭에 거름을 져다가 뿌렸어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "결혼 안한 때라 근데 겨울방학때나 일월달 그 걸름 뿌리래 가신디",
+        "standard": "결혼 안한 때라 근데 겨울방학때나 일월달 그 거름 뿌리러 갔는데"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 39·거름. 농경 일상, 기존 공백. (카테고리 태그 농경 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5345-1",
+    "seq": "5345",
+    "jeju": "그 말 들으난 용심이 나수다.",
+    "standard": "그 말을 들으니 성이 났어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아이들 일일이 다 아이들 그 마음을 다 알아야 되고. 막 열받아도 용심 내지 말아야 되고",
+        "standard": "아이들 일일이 다 아이들 그 마음을 다 알아야 되고. 막 열받아도 성 내지 말아야 되고"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 36·성나는 것. 감정 일상. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4284-1",
+    "seq": "4284",
+    "jeju": "콩꼬질 모앙 불 살랐수다.",
+    "standard": "콩깍지를 모아서 불을 지폈어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "옛날에 그 백 초를 또 보믄 겨울에는 감저줄 콩꼬질 콩꼬질 행이넹 행",
+        "standard": "옛날에 그 백 초를 또 보면 겨울에는 고구마줄기 콩깍지 콩깍지 해서는 해서"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 19·콩깍지. 농사·음식 부산물, 빈도 충분. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4936-1",
+    "seq": "4936",
+    "jeju": "사람 없는 듸에서 잠깐 쉬었수과?",
+    "standard": "사람 없는 데에서 잠깐 쉬었습니까?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4561-1",
+    "seq": "4561",
+    "jeju": "오늘 처리할 껀이 세 개 이수다.",
+    "standard": "오늘 처리할 건이 세 개 있습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1680-1",
+    "seq": "1680",
+    "jeju": "이 집은 대대로 용시 지엉 살앗수다.",
+    "standard": "이 집은 대대로 농사를 지으며 살았어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "농사 가 용시",
+        "standard": "농사 가 농사"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 13·농사. 생업 기본, 기존 공백. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5670-1",
+    "seq": "5670",
+    "jeju": "좋은 회계가 떠올라 바로 적었수다.",
+    "standard": "좋은 생각이 떠올라 바로 적었습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5549-1",
+    "seq": "5549",
+    "jeju": "체얌 만난 날을 아직도 기억헙주.",
+    "standard": "처음 만난 날을 아직도 기억합니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5519-1",
+    "seq": "5519",
+    "jeju": "감기에 걸려 지침이 계속 났어마씸.",
+    "standard": "감기에 걸려 기침이 계속 났어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5410-1",
+    "seq": "5410",
+    "jeju": "상여 행렬이 마을 장밭을 지나갔어마씸.",
+    "standard": "상여 행렬이 마을 장지를 지나갔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5383-1",
+    "seq": "5383",
+    "jeju": "그 일 일후로 더 조심하게 됐수다.",
+    "standard": "그 일 이후로 더 조심하게 되었습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5376-1",
+    "seq": "5376",
+    "jeju": "아이 일름을 공책에 적었수다.",
+    "standard": "아이 이름을 공책에 적었습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5242-1",
+    "seq": "5242",
+    "jeju": "시상 일이 늘 마음대로 되지는 않수다.",
+    "standard": "세상일이 늘 마음대로 되지는 않습니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5211-1",
+    "seq": "5211",
+    "jeju": "혼사에 세가 오갔수다.",
+    "standard": "혼사에 중매가 오갔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5117-1",
+    "seq": "5117",
+    "jeju": "제 분시를 알고 욕심을 줄여야 헙주.",
+    "standard": "제 분수를 알고 욕심을 줄여야 합니다.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5046-1",
+    "seq": "5046",
+    "jeju": "아이가 방둥이를 골라 동생과 사이좋게 놀았어마씸.",
+    "standard": "아이가 장난감을 골라 동생과 사이좋게 놀았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90001-1",
+    "seq": "90001",
+    "jeju": "몸이 아파서 벵원에 감수다.",
+    "standard": "몸이 아파서 병원에 갑니다.",
+    "source": {
+      "type": "official",
+      "sourceId": "jeju-basic-vocab-2025",
+      "editReason": "\"매기\"의 사전(jeju.go.kr) 뜻은 \"뿐/마지막\"(engContents: only, last)이지 매미가 아님 — 매미는 이미 다른 표제어(seq 2589 \"재\")가 커버하고 있어 이 슬롯을 blocked 대신 실제 생활어로 교체함. 출처: 2025 제주학연구센터 <아보카, 제주어 기본어휘> p.15."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4906-1",
+    "seq": "4906",
+    "jeju": "올레 도를 잘 닫앙 나가수다.",
+    "standard": "올레 출입구를 잘 닫고 나갔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3347-1",
+    "seq": "3347",
+    "jeju": "지둥이 지붕을 단단히 받치고 이섯어마씸.",
+    "standard": "기둥이 지붕을 단단히 받치고 있었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1957-1",
+    "seq": "1957",
+    "jeju": "강생이가 대문 열리는 소리에 꼬리 쳤수다.",
+    "standard": "강아지가 대문 열리는 소리에 꼬리를 흔들었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2020-1",
+    "seq": "2020",
+    "jeju": "도새기가 우리 안에서 코로 흙을 뒤졌어마씸.",
+    "standard": "돼지가 우리 안에서 코로 흙을 뒤졌어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1969-1",
+    "seq": "1969",
+    "jeju": "풀숲으로 사라지는 고냉이를 눈으로 좇았어마씸.",
+    "standard": "풀숲으로 사라지는 고양이를 눈으로 좇았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2452-1",
+    "seq": "2452",
+    "jeju": "풀숲에서 베염이 쉭쉭 소리를 냈어마씸.",
+    "standard": "풀숲에서 뱀이 쉭쉭 소리를 냈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3869-1",
+    "seq": "3869",
+    "jeju": "산에 강 삭다리 주엉 왔수다.",
+    "standard": "산에 가서 삭정이를 주워 왔어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아이고 삭다리",
+        "standard": "아이고 삭정이"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 빈도 19 삭정이."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4449-1",
+    "seq": "4449",
+    "jeju": "산에 졸갱이 열매 하영 열려서 따멍 먹엇수다.",
+    "standard": "산에 으름 열매가 많이 열려서 따서 먹었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "졸갱이 이젠 촌에 말로 졸갱이엔 허고 이제 그 표준어로는 으름 으름",
+        "standard": "졸갱이 이젠 촌에 말로 졸갱이라고 하고 이제 그 표준어로는 으름 으름"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 으름. 예2가 올갱이와 섞여 수정 필요."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "351-1",
+    "seq": "351",
+    "jeju": "저슬 되민 바람이 하영 붑네다.",
+    "standard": "겨울이 되면 바람이 많이 불어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아이구 맛좋은 몸국 혼번 저슬 뜨난 먹젠 해신디 맛좋게 허는 디도 허는 디가 어신가?",
+        "standard": "아이구 맛좋은 몸국 한번 겨울 때니까 먹으려고 했는데 맛좋게 하는 곳도 하는 곳이 없나?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 10·겨울. 계절 공백(중요도 8). (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "736-1",
+    "seq": "736",
+    "jeju": "굴묵에 불 살랑 방을 데왔수다.",
+    "standard": "아궁이에 불을 지펴 방을 데웠어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "뭘 가마솥 있는디? 굴묵은 방바닥 밑에 그 불 때는데가 굴묵 구들장 구들장",
+        "standard": "뭘 가마솥 있는데? 굴뚝 방바닥 밑에 그 불 때는데가 굴뚝 구들장 구들장"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 47·방고래와 아궁이. 중요도 3이나 전통 주거 정체성. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3196-1",
+    "seq": "3196",
+    "jeju": "고팡에 곡석을 재와 놨수다.",
+    "standard": "광에 곡식을 쟁여 놨어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "고팡 알지 고팡 열쇠",
+        "standard": "광 알지 광 열쇠"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 31·광(곳간). 집 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5136-1",
+    "seq": "5136",
+    "jeju": "아궁이에 불치 하영 쌓여수다.",
+    "standard": "아궁이에 재가 많이 쌓였어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "호야 닦을때 뭘로 닦아서 우린 불치로 해서 불치",
+        "standard": "등피 닦을때 뭘로 닦았어 우린 재로 했어 재"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 22·재(灰). 생활 명사. (카테고리 태그 잡류 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3228-1",
+    "seq": "3228",
+    "jeju": "무뚱에 농기구 재와 뒁수다.",
+    "standard": "곁채에 농기구를 쟁여 두었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "무뚱 무뚱 그런 말 이젠 못해",
+        "standard": "곁채 곁채 그런 말 이젠 못해"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 대체 편입. QC 통과."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1360-1",
+    "seq": "1360",
+    "jeju": "허벅 지엉 물 질레 갑서.",
+    "standard": "물동이를 지고 물 길으러 가세요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "허벅 안 진것만도 다행이주",
+        "standard": "허벅 안 진것만도 다행이지"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 14·물동이. 중요도 3이나 제주 생활 아이콘. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1011-1",
+    "seq": "1011",
+    "jeju": "낭푼이에 밥을 하영 담앗수다.",
+    "standard": "양푼에 밥을 가득 담았어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아니 매깨만 안에 들여놓고 또 거기 놨당 한 낭푼이 가져오고 경 허라게 시원한데 나둬야돼",
+        "standard": "아니 몇 개만 안에 들여놓고 또 거기 놨당 한 양푼 가져오고 그렇게 해라 시원한데 나둬야돼"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 12·양푼. 부엌 기본. 낭푼은 동의라 미채택. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4735-1",
+    "seq": "4735",
+    "jeju": "책상에 구둠이 하영 앚앗수다.",
+    "standard": "책상에 먼지가 많이 앉았어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "저 허미우꽈 구둠 털잰 허미우꽈?",
+        "standard": "저 합니까 먼지 털려고 합니까?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 먼지."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "873-1",
+    "seq": "873",
+    "jeju": "미녕으로 이불을 지엇수다.",
+    "standard": "무명으로 이불을 지었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "뉘앙스가 있어 할망들이 얘기하는 단어에 그게 있어 가지고 미녕 이런식으로 얘기허진 안해실거라",
+        "standard": "뉘앙스가 있어 할머니들이 얘기하는 단어에 그게 있어 가지고 무명 이런식으로 얘기하진 안했을거야"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 무명."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1545-1",
+    "seq": "1545",
+    "jeju": "망탱이에 검질 담앙 왔수다.",
+    "standard": "망태기에 잡초를 담아 왔어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "가서 망탱이 끌고 오고 그 빈 거 영 탁 던져주고",
+        "standard": "가서 망태기 끌고 오고 그 빈 거 이렇게 탁 던져주고"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 망태기."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4109-1",
+    "seq": "4109",
+    "jeju": "마을 어귀에 폭낭이 서 있수과?",
+    "standard": "마을 어귀에 팽나무가 서 있어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "어른들은 장기 거기서 장기 두곡 아이들은 폭낭 웃티 올라강들 놀고",
+        "standard": "어른들은 장기 거기서 장기 두고 아이들은 팽나무 위에 올라가서들 놀고"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2611-1",
+    "seq": "2611",
+    "jeju": "낭 가쟁이가 부러졋수과?",
+    "standard": "나무 가지가 부러졌어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "응 텃밭 에서 잘라 갔잖아 가쟁이",
+        "standard": "응 텃밭 에서 잘라 갔잖아 나뭇가지"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5938-1",
+    "seq": "5938",
+    "jeju": "개천에 먹돌이 하영 잇수다.",
+    "standard": "개천에 차돌이 많이 있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "예 맞수다 먹돌",
+        "standard": "예 맞습니다 짱돌"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 단단한 돌."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3874-1",
+    "seq": "3874",
+    "jeju": "밧듸 살마가 절로 나수다.",
+    "standard": "밭에 반하가 저절로 나요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "그 저 살마? 살마 먹어?",
+        "standard": "그 저 반하? 반하 먹습니까?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 반하."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4507-1",
+    "seq": "4507",
+    "jeju": "질가에 작지 하영 잇수다.",
+    "standard": "길가에 돌자갈이 많이 있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "우리도 밭 하나는 완전 작지밭 이라나서 경행 그 작지 치우고 골채들랑 작지 치워놔서 한불 한불 다 걷어내영",
+        "standard": "우리도 밭 하나는 완전 작지밭 이었어 그래서 그 작지 치우고 골채들은 작지 치워놔서 한불 한불 다 걷어서"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 돌자갈. 예2가 ‘작다’라 수정 필요."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4384-1",
+    "seq": "4384",
+    "jeju": "돔박 열매로 지름 짜수다.",
+    "standard": "동백 열매로 기름을 짜요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "돔박? 낭은 외로운 나무",
+        "standard": "동백의 씨앗? 나무은 외로운 나무"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 2·동백 열매. 제주 동백 경관 정체성. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2138-1",
+    "seq": "2138",
+    "jeju": "쇠가 외양간에서 여물을 천천히 씹었어마씸.",
+    "standard": "소가 외양간에서 여물을 천천히 씹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2179-1",
+    "seq": "2179",
+    "jeju": "여시가 다녀간 닭장 주변에 발자국이 남았수다.",
+    "standard": "여우가 다녀간 닭장 주변에 발자국이 남았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1909-1",
+    "seq": "1909",
+    "jeju": "마당에 빙애기가 하영 돌아댕겸수다.",
+    "standard": "마당에 병아리가 많이 돌아다녀요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "빙애기는 머꽈? 빙애기",
+        "standard": "병아리는 멉니까? 병아리"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 23·병아리. 기본 동물(희귀 곤충 대체). (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "335-1",
+    "seq": "335",
+    "jeju": "엿날은 이 질이 좁앗수다.",
+    "standard": "옛날엔 이 길이 좁았어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "엿날 사람 그~ 고시락 있지 고시락",
+        "standard": "옛날 사람 그~ 까끄라기 있지 까끄라기"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 8·옛날. 때 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4169-1",
+    "seq": "4169",
+    "jeju": "가을엔 나록을 비어마씸.",
+    "standard": "가을엔 벼를 베어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "이 할망들은 나록메 뽑는 사람. 이제 나록 심는 사람. 겅허멍 그 막 그 때는 장마철이난",
+        "standard": "이 할망들은 볏모 뽑는 사람이야. 이제 벼 심는 사람이야. 그러면서 그 막 그 때는 장마철이니까"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 7·벼. 곡물 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "77-1",
+    "seq": "77",
+    "jeju": "동카름 사는 사름덜은 물질 하영 햄수다.",
+    "standard": "동쪽 동네 사는 사람들은 물질을 많이 해요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "서카름 동카름",
+        "standard": "서쪽동네 동쪽동네"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 7·동쪽 동네. 마을 지리. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2136-1",
+    "seq": "2136",
+    "jeju": "송애기가 어미 소 곁에서 젖을 먹었어마씸.",
+    "standard": "송아지가 어미 소 곁에서 젖을 먹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "739-1",
+    "seq": "739",
+    "jeju": "김녕 사름들은 갈중이 입엉 밧일 햄수과?",
+    "standard": "김녕 사람들은 갈옷 바지를 입고 밭일을 해요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "갈옷이랜도 안해 김녕 사람들은 갈중이",
+        "standard": "갈옷이라고 안해 김녕 사람들은 갈옷"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3609-1",
+    "seq": "3609",
+    "jeju": "덩드렁마께로 짚을 두드렷수과?",
+    "standard": "짚방망이로 짚을 두드렸어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "근데 채가 손에 안 익고 완전 덩드렁마께 닮아",
+        "standard": "근데 채가 손에 안 익고 완전 짚방망이 같아"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1096-1",
+    "seq": "1096",
+    "jeju": "도치로 낭을 뻐개엇수과?",
+    "standard": "도끼로 나무를 쪼갰어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "산신령님. 그것도 아니우다. 나 도치 그 금도치도 은도치도 아니고 아무 장식 없신 나 도치를 좀 초자 줍서",
+        "standard": "산신령님. 그것도 아니에요. 내 도끼 그 금도끼도 은도끼도 아니고 아무 장식 없는 내 도끼를 좀 찾아 주세요"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "950-1",
+    "seq": "950",
+    "jeju": "곽살로 불 붙엿수과?",
+    "standard": "성냥개비로 불을 붙였어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아 곽살 알아? 곽살?",
+        "standard": "아 성냥개비 알아? 성냥개비?"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "814-1",
+    "seq": "814",
+    "jeju": "냇가에서 세답 헴수다.",
+    "standard": "냇가에서 빨래하고 있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "예. 아~ 우리는 세답",
+        "standard": "예. 아~ 우리는 빨래"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 빨래/개짐. 이용자 일상 체감."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4591-1",
+    "seq": "4591",
+    "jeju": "떡에 곰생이가 피엇수다.",
+    "standard": "떡에 곰팡이가 피었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "맞아 비 맞으면 다 곰생이 피어불잖아",
+        "standard": "맞아 비 맞으면 다 곰팡이 피어버리잖아"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 4·곰팡이. 집 일상. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2375-1",
+    "seq": "2375",
+    "jeju": "바당에 강 물꾸럭 잡아 왔수다.",
+    "standard": "바다에 가서 문어를 잡아 왔어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "어 물꾸럭 하고 해삼",
+        "standard": "어 문어 하고 해삼"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 45·문어. 제주 바다 정체성, 기존 1000 문어 공백. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2340-1",
+    "seq": "2340",
+    "jeju": "각제기 구웡 먹엄수다.",
+    "standard": "전갱이를 구워 먹어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "각제기 국",
+        "standard": "전갱이 국"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 3·전갱이. 제주 연안 어종. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3985-1",
+    "seq": "3985",
+    "jeju": "여름엔 우미 곹앙 우미냉국 해 먹읍주.",
+    "standard": "여름엔 우뭇가사리를 곤 우무냉국을 해 먹어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "우리 박물관에도 그거 보지 않애수꽈예? 우미 조무는 날",
+        "standard": "우리 박물관에도 그거 보지 않았어요? 우미 조무는 날"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 30·우뭇가사리. 제주 해조 음식. (카테고리 태그 초목 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4063-1",
+    "seq": "4063",
+    "jeju": "초기 볶앙 반찬 만들엇수다.",
+    "standard": "표고버섯을 볶아 반찬을 만들었어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "사주게 십키로민게 난 우리 아이들 저기 초기 안먹는덴 해그넹 내불랜",
+        "standard": "사지 십키로면 난 우리 아이들 저기 버섯 안먹는다고 해가지고 냅두래"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 22·표고버섯. 식탁 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3537-1",
+    "seq": "3537",
+    "jeju": "어멍이 짐치 담앙 보내줬수다.",
+    "standard": "어머니가 김치를 담가서 보내주셨어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "무신걸 보냄서? 짐치 그냥 초막이 짐치 보내맨?",
+        "standard": "어떤걸 보냈어? 김치 그냥 초막이 김치 보내고있니?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 21·김장. 음식·세시 일상, 기존 공백. (카테고리 태그 음식 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4206-1",
+    "seq": "4206",
+    "jeju": "모멀범벅 해 먹으민 맛좋수다.",
+    "standard": "메밀범벅을 해 먹으면 맛있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "응 모멀 어떵",
+        "standard": "응 메밀 왜"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 16·모밀. 곡물·식탁. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4382-1",
+    "seq": "4382",
+    "jeju": "가을엔 댕유지 향이 진동합주.",
+    "standard": "가을엔 당유자 향이 진동해요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "아 댕유지",
+        "standard": "아 당유자"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 14·당유자. 제주 감귤 정체성. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2594-1",
+    "seq": "2594",
+    "jeju": "풀숲을 지나난 진독이 다리에 붙었어마씸.",
+    "standard": "풀숲을 지나니 진드기가 다리에 붙었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2427-1",
+    "seq": "2427",
+    "jeju": "흙을 뒤집자 굼벵이가 꿈틀거리며 나왔어마씸.",
+    "standard": "흙을 뒤집자 굼벵이가 꿈틀거리며 나왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2420-1",
+    "seq": "2420",
+    "jeju": "부엌에 게여미가 하영 뎅겸수과?",
+    "standard": "부엌에 개미가 많이 다녀요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "거염지하고 게여미 뭔지 얘기 골아봐",
+        "standard": "거미하고 개미 뭔지 얘기 골아봐"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4640-1",
+    "seq": "4640",
+    "jeju": "맨발이라 발창이 따가왓수과?",
+    "standard": "맨발이라 발바닥이 따가웠어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "어 발창 머리 온데 다 귓속에까지 귓속 우에까지",
+        "standard": "어 발바닥 머리 온데 다 귓속에까지 귓속 위까지"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2882-1",
+    "seq": "2882",
+    "jeju": "짐을 지엇더니 둑지가 아파마씸.",
+    "standard": "짐을 졌더니 어깻죽지가 아파요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "둑지는 알고 어 둑지",
+        "standard": "어깻죽지는 알고 어 어깻죽지"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 어깻죽지."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4992-1",
+    "seq": "4992",
+    "jeju": "물 데왕 모욕 했수다.",
+    "standard": "물을 데워 목욕했어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "경 그 사장이 경이 모욕 허랜 돈 주곡이 또 우리",
+        "standard": "그렇게 그 사장이 그렇게 목욕 하라고 돈 하라고 또 우리"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 6·목욕. 생활 기본(제주 음). (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4998-1",
+    "seq": "4998",
+    "jeju": "이불 속에서 몸질 허멍 못 자수다.",
+    "standard": "밤새 몸 뒤척임이 심해서 못 잤어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "우리는 막 몸질",
+        "standard": "우리는 막 몸 뒤척이는 거"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 몸움직임."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2269-1",
+    "seq": "2269",
+    "jeju": "작은 멜은 젓 담그려고 소곰에 버무렸수다.",
+    "standard": "작은 멸치는 젓을 담그려고 소금에 버무렸어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1354-1",
+    "seq": "1354",
+    "jeju": "제사 때 펭풍 둘러 놨수다.",
+    "standard": "제사 때 병풍을 둘러 놨어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "그림으로 하면 그 배경이 펭풍 들르고 게난 키 조가부난 돌위에 올라 사진 찍어줬당 말이였다게",
+        "standard": "그림으로 하면 그 배경이 병풍 들르고 그러니까 키 작아버리니까 돌위에 올라 사진 찍어줬다는말이예요"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 병풍."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1110-1",
+    "seq": "1110",
+    "jeju": "솟 두껑 잘 닫읍서.",
+    "standard": "솥 뚜껑을 잘 닫으세요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "그거에 놩 두껑 이불속으로 또똣한디 놔",
+        "standard": "그거에 놔서 뚜껑 이불속으로 따뜻한데 놔"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 3·뚜껑. 집/그릇 일상. (카테고리 태그 DEGU — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2005-1",
+    "seq": "2005",
+    "jeju": "새벽 오름길에서 노리 발굽 자국을 따라가 봤수과?",
+    "standard": "새벽 오름길에서 노루의 발굽 자국을 따라가 보았어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5420-1",
+    "seq": "5420",
+    "jeju": "제사 음식 적시 나눠 먹었수과?",
+    "standard": "제사 음식 몫을 나눠 먹었어요?",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "족은아들 적시",
+        "standard": "작은아들 몫"
+      },
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "76-1",
+    "seq": "76",
+    "jeju": "우리 가름엔 사름이 하수다.",
+    "standard": "우리 동네엔 사람이 많아요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "가름 가름 가름 보라 읽지도 못 햄신게",
+        "standard": "가름 가름 가름 이것봐. 읽지도 못 하면서"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 마을 거리."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6300-1",
+    "seq": "6300",
+    "jeju": "예날엔 몰질로 물을 몰앙 뎅겨수다.",
+    "standard": "옛날엔 말 길로 말을 몰고 다녔어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "넌 -몰-몰질이 뭔 줄 알아? 몰질?",
+        "standard": "넌 -몰-말 길이 뭔 줄 알아? 말 길?"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 말 몰이길. 여행 체감은 낮으나 빈도 선정 유지."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "71-1",
+    "seq": "71",
+    "jeju": "헤가 잦아들기를 기다렸다가 길을 나섰어마씸.",
+    "standard": "해가 잦아들기를 기다렸다가 길을 나섰어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "32-1",
+    "seq": "32",
+    "jeju": "밤하늘에 벨이 반짝였어마씸.",
+    "standard": "밤하늘에 별이 반짝였어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "41-1",
+    "seq": "41",
+    "jeju": "비가 그친 하늘에 상고지가 선명하게 떴어마씸.",
+    "standard": "비가 그친 하늘에 무지개가 선명하게 떴어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "19-1",
+    "seq": "19",
+    "jeju": "동곳이 처마 끝에 생겨 길게 늘어졌어마씸.",
+    "standard": "고드름이 처마 끝에 생겨 길게 늘어졌어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2628-1",
+    "seq": "2628",
+    "jeju": "밧디 검질이 하영 나수다.",
+    "standard": "밭에 잡초가 많이 났어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "양 검질 무신거랜 햄수까? 검질",
+        "standard": "양 잡풀 뭐라고 하나요? 잡풀"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 232·잡초. 기존 1000에 잡초 공백. 농사·일상 고빈도. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "70-1",
+    "seq": "70",
+    "jeju": "험벅눈이 내려 마당이 금세 하얗게 덮였어마씸.",
+    "standard": "함박눈이 내려 마당이 금세 하얗게 덮였어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "261-1",
+    "seq": "261",
+    "jeju": "짐은 마당 우녁에 차곡차곡 쌓아 둡서.",
+    "standard": "짐은 마당 위쪽에 차곡차곡 쌓아 두세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "257-1",
+    "seq": "257",
+    "jeju": "팽나무 알에서 잠깐 쉬어 갑서.",
+    "standard": "팽나무 아래에서 잠깐 쉬어 가세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3907-1",
+    "seq": "3907",
+    "jeju": "동산 우이 소낭이 하영 서 있수다.",
+    "standard": "언덕 위에 소나무가 많이 서 있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "소낭 밭에 강 우리 솔잎 그거 긁어 왔져 골갱이로 솔잎 긁어왔져게 소낭밭에강",
+        "standard": "소나무 밭에 가서 우리 솔잎 그거 긁어 왔어 호미로 솔잎 긁어왔어 소나무밭에가서"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 42·소나무. 경관·생활 기본 수목, 기존 공백. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3920-1",
+    "seq": "3920",
+    "jeju": "아이덜이 솔똥 주엉 놀암수다.",
+    "standard": "아이들이 솔방울을 주워 놀고 있어요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-corpus",
+      "originalText": {
+        "jeju": "솔똥 주수러 학교 다니젠 게난 야이네 하동 아이들은",
+        "standard": "솔방울 주우러 학교 다니려 그니까 얘네 하동 아이들은"
+      },
+      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 24·솔방울. 소낭과 짝을 이루는 경관 어휘. (카테고리 태그 초목 — 때·기후 태그는 노이즈일 수 있음)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "148-1",
+    "seq": "148",
+    "jeju": "오랜만에 바당 보난 가슴이 탁 트였수과?",
+    "standard": "오랜만에 바다를 보니 가슴이 탁 트였어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "5009-1",
+    "seq": "5009",
+    "jeju": "어멍한테 얕은 바당에서 물질을 배웠수과?",
+    "standard": "어머니에게 얕은 바다에서 물질을 배웠어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2254-1",
+    "seq": "2254",
+    "jeju": "물질해 온 구제기를 삶아 껍데기에서 살을 뺐수과?",
+    "standard": "물질해 온 소라를 삶아 껍데기에서 살을 빼냈어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2253-1",
+    "seq": "2253",
+    "jeju": "바위틈에서 찾은 구살을 아이에게 보여 줬어마씸.",
+    "standard": "바위틈에서 찾은 성게를 아이에게 보여 줬어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2347-1",
+    "seq": "2347",
+    "jeju": "썰물 때 겡이가 돌 밑으로 숨는 걸 지켜봤수다.",
+    "standard": "썰물 때 게가 돌 밑으로 숨는 모습을 지켜봤어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2300-1",
+    "seq": "2300",
+    "jeju": "새벽 위판장에 오징에가 줄줄이 올라왔수다.",
+    "standard": "새벽 위판장에 오징어가 줄줄이 올라왔어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2405-1",
+    "seq": "2405",
+    "jeju": "갓 잡은 자리를 물통에 옮겨 담았어마씸.",
+    "standard": "갓 잡은 자리돔을 물통에 옮겨 담았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "2394-1",
+    "seq": "2394",
+    "jeju": "밭일을 마치고 셍성을 바다이서 잡았어마씸.",
+    "standard": "밭일을 마치고 옥돔을 바다에서 잡았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4163-1",
+    "seq": "4163",
+    "jeju": "마당에 널어 둔 곡석은 비 오기 전에 걷읍서.",
+    "standard": "마당에 널어 둔 곡식은 비가 오기 전에 거두세요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4348-1",
+    "seq": "4348",
+    "jeju": "불에 살짝 구운 짐을 밥에 싸 먹었수다.",
+    "standard": "불에 살짝 구운 김을 밥에 싸 먹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3958-1",
+    "seq": "3958",
+    "jeju": "과수원에서 잘 익은 베를 따서 먹었어마씸.",
+    "standard": "과수원에서 잘 익은 배를 따서 먹었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "6025-1",
+    "seq": "6025",
+    "jeju": "마당에 심은 돔박낭에 붉은 꽃이 피었어마씸.",
+    "standard": "마당에 심은 동백나무에 붉은 꽃이 피었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4297-1",
+    "seq": "4297",
+    "jeju": "우영팟에서 감제를 캐어 구덕에 담았수다.",
+    "standard": "텃밭에서 고구마를 캐어 바구니에 담았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4218-1",
+    "seq": "4218",
+    "jeju": "여름 끝자락에 꼬투리 속 방울이 단단히 여물었어마씸.",
+    "standard": "여름 끝자락에 꼬투리 속 알이 단단히 여물었어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3916-1",
+    "seq": "3916",
+    "jeju": "봄 들판에서 어린 속만 골라 캐 왔수과?",
+    "standard": "봄 들판에서 어린 쑥만 골라 캐 왔어요?",
+    "source": {
+      "type": "legacy",
+      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "4443-1",
+    "seq": "4443",
+    "jeju": "겨울에 유지 껍질을 차에 띄워 향을 냈어마씸.",
+    "standard": "겨울에 유자 껍질을 차에 띄워 향을 냈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "3850-1",
+    "seq": "3850",
+    "jeju": "약재로 쓸 불리를 상하지 않게 캐냈어마씸.",
+    "standard": "약재로 쓸 뿌리를 상하지 않게 캐냈어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "1694-1",
+    "seq": "1694",
+    "jeju": "질메를 소 등에 얹고 짐을 양쪽에 달았수다.",
+    "standard": "길마를 소 등에 얹고 짐을 양쪽에 달았어요.",
+    "source": {
+      "type": "legacy"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  }
+]

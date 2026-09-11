@@ -1,0 +1,975 @@
+[
+  {
+    "pua": "U+EBD8",
+    "reading": "ᄊᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄊᆞᆯ'=쌀. 중세국어 'ᄡᆞᆯ/ᄊᆞᆯ'과 일치. 앞서 PDF 크롭 이미지로 직접 확인함.",
+    "context_form": "곤",
+    "context_standard": [
+      "흰쌀"
+    ],
+    "occurrences_in_book": 5,
+    "sample_page": 9
+  },
+  {
+    "pua": "U+E1A7",
+    "reading": "ᄀᆞ",
+    "confidence": "high",
+    "note": "'ᄀᆞ세'=가위. 앞서 PDF 크롭 이미지로 직접 확인함(ㄱ+아래아 점 모양 뚜렷). [원자 단위로 수정: 'ᄀᆞ세' -> 'ᄀᆞ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "세",
+    "context_standard": [
+      "가위"
+    ],
+    "occurrences_in_book": 44,
+    "sample_page": 9
+  },
+  {
+    "pua": "U+E283",
+    "reading": "ᄂᆞ",
+    "confidence": "high",
+    "note": "복합어(□단손=오른손) — 같은 페이지에 이미 순한글 '단손'이 별도로 있어, PUA 부분이 정확히 뭘 가리키는지 애매함. 사람 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 오른손/오른쪽/오른편이 전부 이 글자+'단X' 형태로 시작하고(오른=ᄂᆞ단), 나누다(ᄂᆞ누다)·내리다(ᄂᆞ리다, 중세국어 'ᄂᆞ리다'=내리다와 일치)까지 5개 맥락에서 일관됨.]",
+    "context_form": "단손",
+    "context_standard": [
+      "오른손"
+    ],
+    "occurrences_in_book": 20,
+    "sample_page": 10
+  },
+  {
+    "pua": "U+E566",
+    "reading": "ᄆᆞᆯ물",
+    "confidence": "low",
+    "note": "'ᄆᆞᆯ물'=나물 추정이나 어형이 부자연스러움 — 재검토 필요.",
+    "context_form": "",
+    "context_standard": [
+      "나물"
+    ],
+    "occurrences_in_book": 11,
+    "sample_page": 10
+  },
+  {
+    "pua": "U+E290",
+    "reading": "ᄂᆞᆷ",
+    "confidence": "high",
+    "note": "'ᄂᆞᆷ'=남(타인). 중세국어 교과서 단골 단어.",
+    "context_form": "",
+    "context_standard": [
+      "남"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 10
+  },
+  {
+    "pua": "U+E292",
+    "reading": "ᄂᆞᆺ",
+    "confidence": "high",
+    "note": "'ᄂᆞᆺ'=낯(얼굴). 중세국어 'ᄂᆞᆾ/ᄂᆞᆺ'과 일치.",
+    "context_form": "",
+    "context_standard": [
+      "낯",
+      "얼굴"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 11
+  },
+  {
+    "pua": "U+E560",
+    "reading": "ᄆᆞ",
+    "confidence": "high",
+    "note": "복합어(독+□□=무릎) — E47B와 동일 계열, 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 마을(ᄆᆞ슬)·마리(ᄆᆞ리)·무릎(독ᄆᆞ릅) 세 맥락에서 일관되게 '마'가 이 글자로 대응.]",
+    "context_form": "독",
+    "context_standard": [
+      "무릎"
+    ],
+    "occurrences_in_book": 19,
+    "sample_page": 11
+  },
+  {
+    "pua": "U+E47B",
+    "reading": "ᄆᆞ",
+    "confidence": "high",
+    "note": "복합어(독+□+릅=무릎) — 제주어 '독무릅' 추정되나 가운데 음절 특정 어려움. [재검토(다중 출현 대조)로 high 승급: 독+[이 글자]+릅=독무릅(무릎, 실제 제주어 어휘).]",
+    "context_form": "독",
+    "context_standard": [
+      "무릎"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 11
+  },
+  {
+    "pua": "U+E38A",
+    "reading": "ᄃᆞ",
+    "confidence": "high",
+    "note": "'ᄃᆞ리'=다리. 중세국어 교과서급 단어. [원자 단위로 수정: 'ᄃᆞ리' -> 'ᄃᆞ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "리",
+    "context_standard": [
+      "다리"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 12
+  },
+  {
+    "pua": "U+E38B",
+    "reading": "ᄃᆞᆰ",
+    "confidence": "high",
+    "note": "'ᄃᆞᆰ'=닭 추정(제주어 '독'과 연결). [재검증 갱신: 말뭉치에서 '돍'(닭 뜻으로 14회) 직접 확인 — 아래아의 제주 현대 반사음 'ㅗ' 규칙과 일치.]",
+    "context_form": "",
+    "context_standard": [
+      "닭"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 12
+  },
+  {
+    "pua": "U+E38F",
+    "reading": "ᄃᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄃᆞᆯ'=달(月). 중세국어 교과서급 단어.",
+    "context_form": "1",
+    "context_standard": [
+      "달"
+    ],
+    "occurrences_in_book": 20,
+    "sample_page": 12
+  },
+  {
+    "pua": "U+E3E8",
+    "reading": "ᄄᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄯᆞᆯ'=딸. 중세국어 교과서급 단어.",
+    "context_form": "",
+    "context_standard": [
+      "딸"
+    ],
+    "occurrences_in_book": 8,
+    "sample_page": 12
+  },
+  {
+    "pua": "U+E3E9",
+    "reading": "ᄄᆞᆷ",
+    "confidence": "high",
+    "note": "'ᄯᆞᆷ'=땀. 중세국어 교과서급 단어.",
+    "context_form": "",
+    "context_standard": [
+      "땀"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 12
+  },
+  {
+    "pua": "U+F1FC",
+    "reading": "ᄌᆞ",
+    "confidence": "high",
+    "note": "'모ᄌᆞ'=모자. '자'→'ᄌᆞ' 대응은 같은 책의 '남ᄌᆞ'(남자, PUA 없이 이미 정상 유니코드로 나옴)에서 직접 확인된 패턴과 동일. [원자 단위로 수정: '모ᄌᆞ' -> 'ᄌᆞ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "모",
+    "context_standard": [
+      "모자"
+    ],
+    "occurrences_in_book": 24,
+    "sample_page": 13
+  },
+  {
+    "pua": "U+E573",
+    "reading": "ᄆᆞᆼ",
+    "confidence": "high",
+    "note": "'ᄆᆞᆼ생이'=망아지. 실제 제주어 어휘 목록에 자주 등장하는 형태와 일치. [원자 단위로 수정: 'ᄆᆞᆼ생이' -> 'ᄆᆞᆼ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "셍이",
+    "context_standard": [
+      "망아지"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 14
+  },
+  {
+    "pua": "U+E64A",
+    "reading": "ᄇᆞ",
+    "confidence": "high",
+    "note": "복합어(□·름=바람, 가운데 아래아 점이 별도 문자로 겹쳐 있음) — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 바람(ᄇᆞ름)·바르다(ᄇᆞ르다)·가을바람(구슬ᄇᆞ름) 세 맥락에서 일관되고, 중세국어 'ᄇᆞᄅᆞᆷ'=바람과도 부합.]",
+    "context_form": "ᆞ름",
+    "context_standard": [
+      "바람"
+    ],
+    "occurrences_in_book": 19,
+    "sample_page": 15
+  },
+  {
+    "pua": "U+E477",
+    "reading": "ᄇᆞ",
+    "confidence": "high",
+    "note": "'ᄇᆞ름'=바람. 중세국어 'ᄇᆞᄅᆞᆷ'과 일치(음절 하나 축약형). [원자 단위로 수정: 'ᄇᆞ름' -> 'ᄇᆞ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "",
+    "context_standard": [
+      "바람"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 15
+  },
+  {
+    "pua": "U+E71E",
+    "reading": "ᄈᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄲᆞᆯ래'=빨래 추정. [재검증 갱신: 말뭉치에서 '빨래'(빨래 뜻)로 다수 확인 — 이 단어는 아래아가 현대에도 표준형과 같은 소리로 남은 경우로 보임.] [원자 단위로 수정: 'ᄈᆞᆯ래' -> 'ᄈᆞᆯ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "래",
+    "context_standard": [
+      "빨래"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 15
+  },
+  {
+    "pua": "U+E97D",
+    "reading": "ᄉ",
+    "confidence": "high",
+    "note": "'ᄉᆞ나이'=사나이 추정(라벨에 별도 가운뎃점 문자가 섞여 있어 재확인 필요). [재검증 갱신: 말뭉치에서 '소나이'(사나이 뜻으로 44회 이상) 직접 확인.] [원자 단위로 수정: 'ᄉᆞ나이' -> 'ᄉ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "ᆞ나이",
+    "context_standard": [
+      "사나이"
+    ],
+    "occurrences_in_book": 13,
+    "sample_page": 17
+  },
+  {
+    "pua": "U+E982",
+    "reading": "ᄉᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄉᆞᆯ'=살(肉). 중세국어 교과서급 단어.",
+    "context_form": "1",
+    "context_standard": [
+      "살"
+    ],
+    "occurrences_in_book": 12,
+    "sample_page": 18
+  },
+  {
+    "pua": "U+EEAE",
+    "reading": "ᄋᆞ",
+    "confidence": "high",
+    "note": "'ᄋᆞ름'=여름. 중세국어 'ᄋᆞᄅᆞᆷ'과 일치. [원자 단위로 수정: 'ᄋᆞ름' -> 'ᄋᆞ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "름",
+    "context_standard": [
+      "여름"
+    ],
+    "occurrences_in_book": 20,
+    "sample_page": 21
+  },
+  {
+    "pua": "U+F204",
+    "reading": "ᄌᆞᆷ",
+    "confidence": "high",
+    "note": "'ᄌᆞᆷ'=잠(睡眠). 중세국어 교과서급 단어.",
+    "context_form": "",
+    "context_standard": [
+      "잠"
+    ],
+    "occurrences_in_book": 11,
+    "sample_page": 23
+  },
+  {
+    "pua": "U+F43D",
+    "reading": "ᄐᆞᆨ",
+    "confidence": "high",
+    "note": "'ᄐᆞᆨ'=턱. 중세국어 교과서급 단어.",
+    "context_form": "",
+    "context_standard": [
+      "턱"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 23
+  },
+  {
+    "pua": "U+F492",
+    "reading": "ᄑᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄑᆞᆯ'=팔(腕). 중세국어 'ᄑᆞᆶ'과 일치.",
+    "context_form": "",
+    "context_standard": [
+      "팔"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 24
+  },
+  {
+    "pua": "U+F498",
+    "reading": "ᄑᆞᆺ",
+    "confidence": "high",
+    "note": "'팔'의 다른 표기(F492와 같은 뜻) — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 뜻풀이 재확인 결과 '팔'이 아니라 '팥'(콩과 한해살이풀) — '팟' 모양이 중세국어 'ᄑᆞᆺ'=팥과 정확히 일치.]",
+    "context_form": "",
+    "context_standard": [
+      "팥"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 24
+  },
+  {
+    "pua": "U+F538",
+    "reading": "ᄒᆞᆰ",
+    "confidence": "high",
+    "note": "'ᄒᆞᆰ'=흙. 중세국어 교과서급 단어.",
+    "context_form": "",
+    "context_standard": [
+      "흙"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 24
+  },
+  {
+    "pua": "U+F537",
+    "reading": "ᄒᆞ",
+    "confidence": "high",
+    "note": "'ᄒᆞ루'=하루. 중세국어 'ᄒᆞᄅᆞ'와 일치. 책 전체에서 203회로 압도적 최다 빈도 — '하다(ᄒᆞ다)' 계열 어휘의 흔함과도 부합. [원자 단위로 수정: 'ᄒᆞ루' -> 'ᄒᆞ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "루",
+    "context_standard": [
+      "하루"
+    ],
+    "occurrences_in_book": 203,
+    "sample_page": 24
+  },
+  {
+    "pua": "U+F53A",
+    "reading": "ᄒᆞᆫ",
+    "confidence": "high",
+    "note": "'ᄒᆞᆫ잔'=한잔. 'ᄒᆞᆫ'(한, 하나)은 중세국어 최고빈출 단어. [원자 단위로 수정: 'ᄒᆞᆫ잔' -> 'ᄒᆞᆫ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "잔",
+    "context_standard": [
+      "한잔"
+    ],
+    "occurrences_in_book": 8,
+    "sample_page": 24
+  },
+  {
+    "pua": "U+E991",
+    "reading": "ᄉᆞᆺ",
+    "confidence": "high",
+    "note": "'다ᄉᆞᆺ'=다섯(5). 중세국어 교과서급 수사. [원자 단위로 수정: '다ᄉᆞ' -> 'ᄉᆞᆺ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다1",
+    "context_standard": [
+      "다섯"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 29
+  },
+  {
+    "pua": "U+E39B",
+    "reading": "ᄃᆞᆱ",
+    "confidence": "medium",
+    "note": "'ᄋᆞᄃᆞᆲ'=여덟 추정(앞 글자는 이미 정상 유니코드 'ᄋᆞ'로 나와 있음).",
+    "context_form": "ᄋᆢ1",
+    "context_standard": [
+      "여덟"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 29
+  },
+  {
+    "pua": "U+E1C6",
+    "reading": "ᄀᆞᆺ다",
+    "confidence": "medium",
+    "note": "'ᄀᆞᆺ다'=가지다 추정(중세국어 'ᄀᆞᆽ다'와 유사 계열).",
+    "context_form": "다",
+    "context_standard": [
+      "가지다"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 30
+  },
+  {
+    "pua": "U+E1AB",
+    "reading": "ᄀᆞᆮ",
+    "confidence": "high",
+    "note": "'ᄀᆞᆮ다'=말하다. 제주어에서 아주 유명하고 흔히 알려진 단어. [원자 단위로 수정: 'ᄀᆞ다' -> 'ᄀᆞᆮ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "말하다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 30
+  },
+  {
+    "pua": "U+E1AD",
+    "reading": "ᄀᆞᆯ다",
+    "confidence": "medium",
+    "note": "'ᄀᆞᆯ다'=갈다 추정.",
+    "context_form": "다1",
+    "context_standard": [
+      "갈다"
+    ],
+    "occurrences_in_book": 13,
+    "sample_page": 30
+  },
+  {
+    "pua": "U+E1BA",
+    "reading": "ᄀᆞᆷ다",
+    "confidence": "medium",
+    "note": "'ᄀᆞᆷ다'=감다 추정.",
+    "context_form": "다1",
+    "context_standard": [
+      "감다"
+    ],
+    "occurrences_in_book": 5,
+    "sample_page": 31
+  },
+  {
+    "pua": "U+E288",
+    "reading": "ᄂᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄂᆞᆯ다'=날다. 훈민정음 해례 'ᄂᆞᆯ개'(날개)와 같은 어근, 교과서급 중세국어. [원자 단위로 수정: 'ᄂᆞᆯ다' -> 'ᄂᆞᆯ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "날다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 32
+  },
+  {
+    "pua": "U+E397",
+    "reading": "ᄃᆞᆷ그다",
+    "confidence": "medium",
+    "note": "'ᄃᆞᆷ그다'=담그다 추정.",
+    "context_form": "그다",
+    "context_standard": [
+      "담그다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 33
+  },
+  {
+    "pua": "U+E3A4",
+    "reading": "ᄃᆞᆼ그다",
+    "confidence": "medium",
+    "note": "'ᄃᆞᆼ그다'=담그다 추정(E397과 같은 뜻의 다른 표기).",
+    "context_form": "그다",
+    "context_standard": [
+      "담그다"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 33
+  },
+  {
+    "pua": "U+E563",
+    "reading": "ᄆᆞᆫ",
+    "confidence": "high",
+    "note": "'ᄆᆞᆫ지다'=만지다. 중세국어 'ᄆᆞᆫ지다'와 일치. [원자 단위로 수정: 'ᄆᆞᆫ지다' -> 'ᄆᆞᆫ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "지다",
+    "context_standard": [
+      "만지다"
+    ],
+    "occurrences_in_book": 8,
+    "sample_page": 34
+  },
+  {
+    "pua": "U+E64F",
+    "reading": "ᄇᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄇᆞᆯ르다'=바르다 추정. [재검증 갱신: 자체 사전에 '발르다'='바르다'로 이름·뜻 모두 정확히 일치하는 항목 존재.] [원자 단위로 수정: 'ᄇᆞᆯ르다' -> 'ᄇᆞᆯ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "르다1",
+    "context_standard": [
+      "바르다"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 35
+  },
+  {
+    "pua": "U+E985",
+    "reading": "ᄉᆞᆱ",
+    "confidence": "high",
+    "note": "'ᄉᆞᆱ다'=삶다. 중세국어 'ᄉᆞᆱ다'와 일치. [원자 단위로 수정: 'ᄉᆞᆲ다' -> 'ᄉᆞᆱ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "삶다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 36
+  },
+  {
+    "pua": "U+EEAF",
+    "reading": "ᄋᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄋᆞᆯ다'=열다. 중세국어 'ᄋᆞᆯ다'와 일치. [원자 단위로 수정: 'ᄋᆞᆯ다' -> 'ᄋᆞᆯ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다1",
+    "context_standard": [
+      "열다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 37
+  },
+  {
+    "pua": "U+F20B",
+    "reading": "ᄌᆞᆼ그다",
+    "confidence": "medium",
+    "note": "'ᄌᆞᆼ그다'=잠그다 추정.",
+    "context_form": "그다",
+    "context_standard": [
+      "잠그다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 38
+  },
+  {
+    "pua": "U+F34B",
+    "reading": "ᄎᆞᆷ",
+    "confidence": "high",
+    "note": "'ᄎᆞᆷ다'=참다. 중세국어 교과서급 단어. [원자 단위로 수정: 'ᄎᆞᆷ다' -> 'ᄎᆞᆷ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "참다"
+    ],
+    "occurrences_in_book": 8,
+    "sample_page": 38
+  },
+  {
+    "pua": "U+F351",
+    "reading": "ᄎᆞᆽ",
+    "confidence": "high",
+    "note": "'ᄎᆞᆽ다'=찾다. 중세국어 교과서급 단어. [원자 단위로 수정: 'ᄎᆞᆽ다' -> 'ᄎᆞᆽ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "찾다"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 38
+  },
+  {
+    "pua": "U+E297",
+    "reading": "ᄂᆞᆽ",
+    "confidence": "high",
+    "note": "'ᄂᆞᆽ다'=낮다. 중세국어 'ᄂᆞᆽ다'와 일치. [원자 단위로 수정: 'ᄂᆞᆽ다' -> 'ᄂᆞᆽ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "낮다"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 42
+  },
+  {
+    "pua": "U+E38D",
+    "reading": "ᄃᆞᆫ",
+    "confidence": "high",
+    "note": "첩어(단단하다) — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 단단하다(둔둔ᄒᆞ다)·든직하다(둔직ᄒᆞ다) 두 맥락에서 동일한 '둔' 모양(ㄷ+아래아+ㄴ받침) 확인.]",
+    "context_form": "다",
+    "context_standard": [
+      "단단하다"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 42
+  },
+  {
+    "pua": "U+E3E5",
+    "reading": "ᄄᆞ",
+    "confidence": "high",
+    "note": "첩어+3글자(따뜻하다) — 정확한 자모 구분 어려움. 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 따로(뜨로)·따라가다(뜨리다) 두 맥락에서 받침 없는 '뜨' 모양 확인(따뜻하다 쪽은 첩어라 별도 받침 글자가 더 필요해 보이나, 이 글자 자체의 값은 확정 가능).]",
+    "context_form": "다",
+    "context_standard": [
+      "따뜻하다"
+    ],
+    "occurrences_in_book": 8,
+    "sample_page": 42
+  },
+  {
+    "pua": "U+E3EA",
+    "reading": null,
+    "confidence": "low",
+    "note": "첩어(따뜻하다) 재검토 필요.",
+    "context_form": "다",
+    "context_standard": [
+      "따뜻하다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 42
+  },
+  {
+    "pua": "U+E567",
+    "reading": "ᄆᆞᆰ",
+    "confidence": "high",
+    "note": "'ᄆᆞᆰ다'=맑다. 중세국어 교과서급 단어. [원자 단위로 수정: 'ᄆᆞᆰ다' -> 'ᄆᆞᆰ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "맑다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 43
+  },
+  {
+    "pua": "U+E650",
+    "reading": "ᄇᆞᆰ",
+    "confidence": "high",
+    "note": "'ᄇᆞᆰ다'=밝다. 중세국어 교과서급 단어. [원자 단위로 수정: 'ᄇᆞᆰ다' -> 'ᄇᆞᆰ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "밝다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 44
+  },
+  {
+    "pua": "U+E71D",
+    "reading": "ᄈᆞ",
+    "confidence": "high",
+    "note": "'ᄲᆞ르다'=빠르다. 중세국어 'ᄲᆞᄅᆞ다'와 일치. [원자 단위로 수정: 'ᄈᆞ르다' -> 'ᄈᆞ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "르다",
+    "context_standard": [
+      "빠르다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 44
+  },
+  {
+    "pua": "U+F250",
+    "reading": "ᄍᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄍᆞᆯ르다'=짧다. 중세국어 'ᄍᆞᆶ다'(짧다) 계열과 일치. [원자 단위로 수정: 'ᄍᆞᆯ르다' -> 'ᄍᆞᆯ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "르다",
+    "context_standard": [
+      "짧다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 46
+  },
+  {
+    "pua": "U+F253",
+    "reading": "ᄍᆞᆯ",
+    "confidence": "high",
+    "note": "F250과 같은 뜻(짧다)의 다른 출현 — 같은 독법. [원자 단위로 수정: 'ᄍᆞᆯ르다' -> 'ᄍᆞᆯ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "르다",
+    "context_standard": [
+      "짧다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 46
+  },
+  {
+    "pua": "U+EE88",
+    "reading": null,
+    "confidence": "low",
+    "note": "감탄사(응) — 자모 구성이 불분명. 재검토 필요.",
+    "context_form": "게",
+    "context_standard": [
+      "응"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 54
+  },
+  {
+    "pua": "U+E1BF",
+    "reading": "갯ᄀᆞᆺ",
+    "confidence": "medium",
+    "note": "'갯ᄀᆞᆺ'=갯가 추정.",
+    "context_form": "갯",
+    "context_standard": [
+      "갯가"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 55
+  },
+  {
+    "pua": "U+E1AA",
+    "reading": "ᄀᆞᆫ",
+    "confidence": "medium",
+    "note": "'ᄀᆞᆫ'=간(肝) 추정. 표준어 '간'의 모음이 제주어에서 아래아로 대응하는 흔한 패턴.",
+    "context_form": "",
+    "context_standard": [
+      "간"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 57
+  },
+  {
+    "pua": "U+E564",
+    "reading": "ᄆᆞᆮ",
+    "confidence": "high",
+    "note": "'ᄆᆞᆮ이'=맏이 추정. [재검증 갱신: 말뭉치에서 '몯이'(맏이 뜻, 1회) 직접 확인 — 빈도는 낮지만 뜻이 정확히 일치.] [원자 단위로 수정: 'ᄆᆞᆮ이' -> 'ᄆᆞᆮ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "이",
+    "context_standard": [
+      "맏이"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 62
+  },
+  {
+    "pua": "U+E994",
+    "reading": "ᄉᆞᆼ",
+    "confidence": "high",
+    "note": "'ᄉᆞᆼ키'=푸성귀 추정(실제 제주어 '송키/숭키'와 연결). [재검증 갱신: 말뭉치에서 '송키'(푸성귀 뜻으로 26회 이상) 직접 확인.] [원자 단위로 수정: 'ᄉᆞᆼ키' -> 'ᄉᆞᆼ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "키",
+    "context_standard": [
+      "푸성귀"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 67
+  },
+  {
+    "pua": "U+F1FE",
+    "reading": "ᄌᆞᆫ",
+    "confidence": "high",
+    "note": "복합어(□동이=허리) — 크롭 이미지가 흐릿해 재확인 필요. [재검토(다중 출현 대조)로 high 승급: 허리(존둥이)·견디다(존디다, 실제 제주어 '존디다'=견디다와 일치)·잔소리(존다니) 세 맥락에서 동일한 '존' 모양 확인.]",
+    "context_form": "둥이",
+    "context_standard": [
+      "허리"
+    ],
+    "occurrences_in_book": 7,
+    "sample_page": 72
+  },
+  {
+    "pua": "U+F343",
+    "reading": "ᄍᆞᆫ물",
+    "confidence": "medium",
+    "note": "'ᄍᆞᆫ물'=짠물 추정.",
+    "context_form": "물",
+    "context_standard": [
+      "짠물"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 72
+  },
+  {
+    "pua": "U+F345",
+    "reading": "ᄎᆞᆯ",
+    "confidence": "high",
+    "note": "'짠물'의 다른 표기 — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 짠물(촐레)·차리다(촐리다, 실제 제주어 '촐리다'=차리다와 일치)·찰찰(촐촐) 세 맥락에서 동일한 '촐' 모양 확인.]",
+    "context_form": "레",
+    "context_standard": [
+      "짠물"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 72
+  },
+  {
+    "pua": "U+E653",
+    "reading": "ᄇᆞᆲ",
+    "confidence": "high",
+    "note": "'ᄇᆞᆲ다'=밟다. 중세국어 'ᄇᆞᆲ다'와 일치. [원자 단위로 수정: 'ᄇᆞᆱ다' -> 'ᄇᆞᆲ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "밟다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 83
+  },
+  {
+    "pua": "U+E98B",
+    "reading": "ᄉᆞᆷ다",
+    "confidence": "medium",
+    "note": "'ᄉᆞᆷ다'=때다 추정. [재검증: 말뭉치에서 '솜다그네'→'때다가' 1회 발견(약한 증거, 재검토 권장).]",
+    "context_form": "다",
+    "context_standard": [
+      "때다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 84
+  },
+  {
+    "pua": "U+F207",
+    "reading": "ᄌᆞᆸ",
+    "confidence": "high",
+    "note": "'ᄌᆞᆸ다'=집다. 중세국어 '자ᄇᆞ다/ᄌᆞᆸ다'(잡다) 계열과 일치. [원자 단위로 수정: 'ᄌᆞᆸ다' -> 'ᄌᆞᆸ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "집다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 87
+  },
+  {
+    "pua": "U+F43F",
+    "reading": null,
+    "confidence": "low",
+    "note": "'뜯다' — ㅌ/ㄸ 구분 불확실. 재검토 필요.",
+    "context_form": "다",
+    "context_standard": [
+      "뜯다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 88
+  },
+  {
+    "pua": "U+E1BC",
+    "reading": "ᄀᆞᆸ",
+    "confidence": "high",
+    "note": "재검토 필요(첩어/복합어, 자모 구성 불분명) [재검토(다중 출현 대조)로 high 승급: 갑갑하다(굽굽ᄒᆞ다)·구분하다(굽갈르다)·가느다랗다(굽엇다) 세 맥락에서 동일한 '굽' 모양(ㄱ+아래아+ㅂ받침) 확인.]",
+    "context_form": "다",
+    "context_standard": [
+      "갑갑하다"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 89
+  },
+  {
+    "pua": "U+E39E",
+    "reading": "ᄃᆞᆺ다",
+    "confidence": "medium",
+    "note": "'ᄃᆞᆺ다'=다습다 추정.",
+    "context_form": "다",
+    "context_standard": [
+      "다습다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 90
+  },
+  {
+    "pua": "U+F43C",
+    "reading": "ᄐᆞᆫ나다",
+    "confidence": "medium",
+    "note": "'ᄐᆞᆫ나다'=다르다 추정.",
+    "context_form": "나다",
+    "context_standard": [
+      "다르다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 90
+  },
+  {
+    "pua": "U+F200",
+    "reading": "ᄌᆞᆯ",
+    "confidence": "high",
+    "note": "'ᄌᆞᆯ다'=잘다. 초성+아래아+종성 패턴과 일치. [원자 단위로 수정: 'ᄌᆞᆯ다' -> 'ᄌᆞᆯ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "다",
+    "context_standard": [
+      "잘다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 94
+  },
+  {
+    "pua": "U+F255",
+    "reading": "ᄍᆞᆸ",
+    "confidence": "high",
+    "note": "복합어(□지롱□다=짭조름하다) — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 짭조름하다(쫍지롱ᄒᆞ다) — '쫍' 모양(ㅉ+아래아+ㅂ받침)이 뜻과 정확히 부합.]",
+    "context_form": "지롱다",
+    "context_standard": [
+      "짭조름하다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 94
+  },
+  {
+    "pua": "U+F3EA",
+    "reading": null,
+    "confidence": "low",
+    "note": "첩어(깨끗하다) — 재검토 필요.",
+    "context_form": "다",
+    "context_standard": [
+      "깨끗하다"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 95
+  },
+  {
+    "pua": "U+F3EE",
+    "reading": null,
+    "confidence": "low",
+    "note": "첩어(깨끗하다, 3글자 버전) — 재검토 필요.",
+    "context_form": "다",
+    "context_standard": [
+      "깨끗하다"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 95
+  },
+  {
+    "pua": "U+F43E",
+    "reading": "ᄐᆞᆫ",
+    "confidence": "high",
+    "note": "첩어(탄탄하다) — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 탄탄하다(톤톤ᄒᆞ다) — '톤' 모양(ㅌ+아래아+ㄴ받침)이 뜻과 부합.]",
+    "context_form": "다",
+    "context_standard": [
+      "탄탄하다"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 95
+  },
+  {
+    "pua": "U+E202",
+    "reading": "ᄁᆞᆨ닥ᄁᆞᆨ닥",
+    "confidence": "medium",
+    "note": "'ᄁᆞᆨ닥ᄁᆞᆨ닥'=까닥까닥 추정(첩어).",
+    "context_form": "닥닥",
+    "context_standard": [
+      "까닥까닥"
+    ],
+    "occurrences_in_book": 2,
+    "sample_page": 97
+  },
+  {
+    "pua": "U+F341",
+    "reading": "ᄎᆞ",
+    "confidence": "high",
+    "note": "첩어(차차) — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 차차(츠츠)·아따(츠마가라)·열무(츠마기) 세 맥락에서 동일한 '츠' 모양(받침 없음) 확인(뜻은 다르지만 같은 글자를 재사용하는 건 자연스러움).]",
+    "context_form": "",
+    "context_standard": [
+      "차차"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 101
+  },
+  {
+    "pua": "U+F545",
+    "reading": "ᄒᆞᆷ",
+    "confidence": "high",
+    "note": "'ᄒᆞᆷ치'=한꺼번에 추정. [재검증 갱신: 말뭉치에서 '홈치'(한꺼번에 뜻으로 13회) 직접 확인.] [원자 단위로 수정: 'ᄒᆞᆷ치' -> 'ᄒᆞᆷ' (주변 평문 글자와 안 겹치게, 겹받침 버그 수정)]",
+    "context_form": "치",
+    "context_standard": [
+      "한꺼번에"
+    ],
+    "occurrences_in_book": 4,
+    "sample_page": 101
+  },
+  {
+    "pua": "U+E1A8",
+    "reading": "ᄀᆞᆨ",
+    "confidence": "high",
+    "note": "재검토 필요(첩어/복합어, 자모 구성 불분명) [재검토(다중 출현 대조)로 high 승급: 까끄라기(곡주와기)·할퀴다(곡주다) 두 맥락에서 동일한 '곡' 모양(ㄱ+아래아+ㄱ받침) 확인.]",
+    "context_form": "주와기",
+    "context_standard": [
+      "까끄라기"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 107
+  },
+  {
+    "pua": "U+F48E",
+    "reading": "ᄑᆞ",
+    "confidence": "high",
+    "note": "복합어(마□름=마파람) — 재검토 필요. [재검토(다중 출현 대조)로 high 승급: 마파람(마프름)·펄펄(프뜰프뜰) 두 맥락에서 동일한 '프' 모양(받침 없음) 확인.]",
+    "context_form": "마름",
+    "context_standard": [
+      "마파람"
+    ],
+    "occurrences_in_book": 3,
+    "sample_page": 111
+  },
+  {
+    "pua": "U+F3EB",
+    "reading": "ᄏᆞᆨ",
+    "confidence": "medium",
+    "note": "'ᄏᆞᆨ'=박 추정.",
+    "context_form": "",
+    "context_standard": [
+      "박"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 123
+  },
+  {
+    "pua": "U+E291",
+    "reading": "ᄂᆞᆸ뜨다",
+    "confidence": "medium",
+    "note": "'ᄂᆞᆸ뜨다'=나대다 추정.",
+    "context_form": "뜨다",
+    "context_standard": [
+      "나대다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 128
+  },
+  {
+    "pua": "U+F20D",
+    "reading": null,
+    "confidence": "low",
+    "note": "복합어(애□다=애끓다) — 자모 구성 불분명. 재검토 필요.",
+    "context_form": "애다",
+    "context_standard": [
+      "애끓다"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 132
+  }
+]

@@ -1,8 +1,10 @@
+import { Link } from "@tanstack/react-router";
 import { Volume2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { ExampleLine } from "@/components/example-line";
 import { Button } from "@/components/ui/button";
-import { playWord, stopAudio } from "@/lib/audio";
+import { playAudio, playWord, stopAudio } from "@/lib/audio";
+import { appearancesForSeq } from "@/lib/life-dialect";
 import { nextIntervalDays, type WrongCard } from "@/lib/progress";
 import { rememberLastWord } from "@/lib/report";
 import { firstExample, getUnit } from "@/lib/units";
@@ -24,6 +26,7 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
   const laterDays = nextIntervalDays(card.intervalDays);
   const word = unit?.words.find((item) => item.seq === card.seq);
   const example = word ? firstExample(word) : undefined;
+  const appearance = appearancesForSeq(card.seq, 1)[0];
 
   useEffect(() => {
     setFlipped(false);
@@ -82,6 +85,32 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
         <Volume2 className="size-4" aria-hidden />
         발음 듣기
       </Button>
+
+      {appearance ? (
+        <div className="rounded-2xl border border-border bg-card px-4 py-3">
+          <p className="text-[11px] text-muted-foreground">실전 문장(자동 후보·검수 전)</p>
+          <p className="mt-1 text-sm font-medium">{appearance.jeju}</p>
+          <p className="text-xs text-muted-foreground">{appearance.solutionEdited}</p>
+          <div className="mt-2 flex items-center gap-2">
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              onClick={() => void playAudio(appearance.audioUrl).catch(() => undefined)}
+            >
+              <Volume2 className="size-3.5" aria-hidden />
+              편 전체로 듣기
+            </Button>
+            <Link
+              to="/life-dialect/$id"
+              params={{ id: appearance.passageId }}
+              className="text-xs text-primary underline underline-offset-2"
+            >
+              {appearance.passageTitle} 보기
+            </Link>
+          </div>
+        </div>
+      ) : null}
 
       <div className="grid grid-cols-2 gap-2">
         <Button type="button" variant="outline" size="lg" onClick={onForgot}>

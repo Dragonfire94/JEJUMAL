@@ -20,11 +20,51 @@ export type WrongCard = {
   intervalDays: number;
 };
 
+/**
+ * 복습 판정 하나하나의 불변 기록. WrongCard(카드 현재 상태)와 분리해서 쌓는다
+ * — 4차(docs/product-improvement-plan.md "카드 상태 / 복습 로그 분리")의
+ * 선행 작업. 카드 상태는 "지금 간격이 며칠인지"만 알면 되지만, FSRS 같은
+ * 알고리즘을 나중에 검토하려면 "언제 맞혔는지/틀렸는지"의 전체 이력이
+ * 있어야 한다 — 지금 구조에서는 매번 덮어써서 이력이 사라진다.
+ * 이 로그는 판정에 아무 영향을 주지 않는다(순수 기록); 실제 간격 계산은
+ * 여전히 markForgot/markRemembered가 wrongBySeq에서 한다.
+ */
+export type ReviewLogEntry = {
+  seq: string;
+  reviewedAt: number;
+  remembered: boolean;
+  intervalDaysBefore: number;
+  intervalDaysAfter: number;
+};
+
+/** 로컬 저장소에 무한정 쌓이지 않도록 두는 상한. 오래된 것부터 버린다. */
+export const REVIEW_LOG_MAX = 2000;
+
+function appendReviewLog(log: ReviewLogEntry[], entry: ReviewLogEntry): ReviewLogEntry[] {
+  const next = [...log, entry];
+  if (next.length <= REVIEW_LOG_MAX) return next;
+  return next.slice(next.length - REVIEW_LOG_MAX);
+}
+
+/**
+ * 생활방언 파일럿용 숙련도. Lute의 1~5단계는 판단 부담이 크다는 계획서 지적에 따라
+ * 3단계로 시작한다(docs/product-improvement-plan.md P2-1). 처음엔 completedAt만
+ * 찍히고("처음 봄" 상태), 사용자가 직접 고르면 selfRating이 채워진다.
+ */
+export type LifeDialectRating = "reviewing" | "familiar";
+
+export type LifeDialectPassageProgress = {
+  completedAt: number;
+  selfRating: LifeDialectRating | null;
+};
+
 type PersistedProgress = {
   completedUnitIds: string[];
   lastPlayedUnitId: string | null;
   wrongBySeq: Record<string, WrongCard>;
   dailyStats: Record<string, DailyStat>;
+  lifeDialectProgress: Record<string, LifeDialectPassageProgress>;
+  reviewLog: ReviewLogEntry[];
 };
 
 type ProgressState = {
@@ -33,6 +73,8 @@ type ProgressState = {
   lastPlayedUnitId: string | null;
   wrongBySeq: Record<string, WrongCard>;
   dailyStats: Record<string, DailyStat>;
+  lifeDialectProgress: Record<string, LifeDialectPassageProgress>;
+  reviewLog: ReviewLogEntry[];
   markHydrated: () => void;
   isUnlocked: (unitId: string) => boolean;
   isComplete: (unitId: string) => boolean;
@@ -46,6 +88,8 @@ type ProgressState = {
   wrongCards: () => WrongCard[];
   wrongCount: () => number;
   continueUnitId: () => string;
+  completeLifeDialectPassage: (passageId: string) => void;
+  setLifeDialectRating: (passageId: string, rating: LifeDialectRating) => void;
   resetProgress: () => void;
 };
 
@@ -152,17 +196,21 @@ function migrateProgress(persisted: unknown, version: number): PersistedProgress
     lastPlayedUnitId: state.lastPlayedUnitId ?? null,
     wrongBySeq,
     dailyStats: version >= 4 ? (state.dailyStats ?? {}) : {},
+    lifeDialectProgress: version >= 5 ? (state.lifeDialectProgress ?? {}) : {},
+    reviewLog: version >= 6 ? (state.reviewLog ?? []) : [],
   };
 }
 
 export const useProgress = create<ProgressState>()(
   persist(
     (set, get) => ({
-      hydrated: true,
+      hydrated: false,
       completedUnitIds: [],
       lastPlayedUnitId: null,
       wrongBySeq: {},
       dailyStats: {},
+      lifeDialectProgress: {},
+      reviewLog: [],
       markHydrated: () => set({ hydrated: true }),
       isComplete: (unitId) => get().completedUnitIds.includes(unitId),
       isUnlocked: (unitId) =>
@@ -209,26 +257,48 @@ export const useProgress = create<ProgressState>()(
         if (isNew) track("notebook_add", { unitId });
       },
       markForgot: (seq) => {
-        if (!get().wrongBySeq[seq]) return;
+        const current = get().wrongBySeq[seq];
+        if (!current) return;
+        const now = Date.now();
         set((state) => ({
           wrongBySeq: patchCard(state.wrongBySeq, seq, {
             timesMissed: (state.wrongBySeq[seq]?.timesMissed ?? 1) + 1,
-            lastReviewedAt: Date.now(),
+            lastReviewedAt: now,
             intervalDays: 0,
           }),
           dailyStats: patchDailyStat(state.dailyStats, { reviewsForgot: 1 }),
+          reviewLog: appendReviewLog(state.reviewLog, {
+            seq,
+            reviewedAt: now,
+            remembered: false,
+            intervalDaysBefore: current.intervalDays,
+            intervalDaysAfter: 0,
+          }),
         }));
         track("review_done", { remembered: false });
       },
       markRemembered: (seq) => {
         const current = get().wrongBySeq[seq];
         if (!current) return;
+        const now = Date.now();
+        // 예정일(dueAt)에 도달한 경우에만 간격을 다음 단계로 승급한다.
+        // 아직 도래하지 않았는데 반복 클릭하면 간격은 그대로 두고 마지막 복습 시각만 갱신해서,
+        // 같은 날 여러 번 눌러도 한 번에 30일까지 건너뛰지 않게 한다.
+        const isDue = cardIsDue(current, now);
+        const nextInterval = isDue ? nextIntervalDays(current.intervalDays) : current.intervalDays;
         set((state) => ({
           wrongBySeq: patchCard(state.wrongBySeq, seq, {
-            lastReviewedAt: Date.now(),
-            intervalDays: nextIntervalDays(current.intervalDays),
+            lastReviewedAt: now,
+            intervalDays: nextInterval,
           }),
           dailyStats: patchDailyStat(state.dailyStats, { reviewsRemembered: 1 }),
+          reviewLog: appendReviewLog(state.reviewLog, {
+            seq,
+            reviewedAt: now,
+            remembered: true,
+            intervalDaysBefore: current.intervalDays,
+            intervalDaysAfter: nextInterval,
+          }),
         }));
         track("review_done", { remembered: true });
       },
@@ -259,17 +329,40 @@ export const useProgress = create<ProgressState>()(
         }
         return units[0]!.id;
       },
+      completeLifeDialectPassage: (passageId) =>
+        set((state) => {
+          const current = state.lifeDialectProgress[passageId];
+          if (current) return {};
+          return {
+            lifeDialectProgress: {
+              ...state.lifeDialectProgress,
+              [passageId]: { completedAt: Date.now(), selfRating: null },
+            },
+          };
+        }),
+      setLifeDialectRating: (passageId, rating) =>
+        set((state) => {
+          const current = state.lifeDialectProgress[passageId];
+          return {
+            lifeDialectProgress: {
+              ...state.lifeDialectProgress,
+              [passageId]: { completedAt: current?.completedAt ?? Date.now(), selfRating: rating },
+            },
+          };
+        }),
       resetProgress: () =>
         set({
           completedUnitIds: [],
           lastPlayedUnitId: null,
           wrongBySeq: {},
           dailyStats: {},
+          lifeDialectProgress: {},
+          reviewLog: [],
         }),
     }),
     {
       name: "jeju-mal:v2",
-      version: 4,
+      version: 6,
       skipHydration: true,
       storage: createJSONStorage(() => safeStorage),
       migrate: migrateProgress,
@@ -278,6 +371,8 @@ export const useProgress = create<ProgressState>()(
         lastPlayedUnitId: state.lastPlayedUnitId,
         wrongBySeq: state.wrongBySeq,
         dailyStats: state.dailyStats,
+        lifeDialectProgress: state.lifeDialectProgress,
+        reviewLog: state.reviewLog,
       }),
     },
   ),
