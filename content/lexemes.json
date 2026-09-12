@@ -9369,7 +9369,6 @@
     "standard": "밭벼",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p065l-y03881",
@@ -9387,7 +9386,6 @@
     "standard": "찬장",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p065l-y04634",
@@ -9425,7 +9423,6 @@
     "standard": "형님",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p065r-y04159",
@@ -9443,7 +9440,6 @@
     "standard": "세답",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066l-y00586",
@@ -9479,7 +9475,6 @@
     "standard": "부추",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066l-y02077",
@@ -11184,7 +11179,6 @@
     "standard": "내리우다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p078r-y04495",
@@ -12010,7 +12004,6 @@
     "standard": "사르다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p083r-y04223",
@@ -12048,7 +12041,6 @@
     "standard": "수고하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p084l-y02097",
@@ -12066,7 +12058,6 @@
     "standard": "손잡다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p084l-y02844",
@@ -14350,7 +14341,6 @@
     "standard": "살살",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p098r-y02868",
@@ -14369,7 +14359,6 @@
     "standard": "살짝",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p098r-y03618",
@@ -14388,7 +14377,6 @@
     "standard": "아무래도",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p098r-y04404",
@@ -14406,7 +14394,6 @@
     "standard": "아직",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099l-y00586",
@@ -14424,7 +14411,6 @@
     "standard": "일부러",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099l-y01658",
