@@ -407,9 +407,13 @@
         "standard": "너희",
         "soundUrl": "/audio/90119.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "저기 보라, 느네 아방, 어멍 혼디 감쩌.",
+            "standard": "저기 봐라, 너희 아버지, 어머니 함께 가네."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -418,9 +422,13 @@
         "standard": "무엇",
         "soundUrl": "/audio/90120.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "둘이 먹당, 호나 죽어도 몰르는 건 무신거꽈?",
+            "standard": "둘이 먹다가, 한 명이 죽어도 모르는 건 무엇입니까?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -429,9 +437,13 @@
         "standard": "얘",
         "soundUrl": "/audio/90121.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "야이 왜 이러맨?",
+            "standard": "얘 왜 이래?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -505,9 +517,13 @@
         "standard": "언제",
         "soundUrl": "/audio/90122.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "어느제 옵디가?",
+            "standard": "언제 오셨습니까?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -549,9 +565,13 @@
         "standard": "쟤",
         "soundUrl": "/audio/90126.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "자이 누게네 똘?",
+            "standard": "쟤 누구네 딸?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -560,9 +580,13 @@
         "standard": "저쪽",
         "soundUrl": "/audio/90127.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "야 저짝이 삼촌도 외국물 먹은 삼촌이라.",
+            "standard": "야 저쪽 삼촌도 외국물 먹은 삼촌이야."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -1730,9 +1754,13 @@
         "standard": "그냥",
         "soundUrl": "/audio/90283.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "기냥 사당 먹언?",
+            "standard": "그냥 사서 먹었니?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -1841,9 +1869,13 @@
         "standard": "폭삭",
         "soundUrl": "/audio/90291.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "잘 해야지 안 하면 복삭 얻어맞아야지.",
+            "standard": "잘 해야지 안 하면 폭삭 얻어맞아야지."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -1863,9 +1895,13 @@
         "standard": "아무리",
         "soundUrl": "/audio/90293.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아 게 아멩 비싸도 게 상 먹을 건 먹어야주게.",
+            "standard": "아 그래 아무리 비싸도 그래 사서 먹을 건 먹어야지."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3006,9 +3042,13 @@
         "standard": "미역",
         "soundUrl": "/audio/90039.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "메역도 있어.",
+            "standard": "미역도 있어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3017,9 +3057,13 @@
         "standard": "모양",
         "soundUrl": "/audio/90040.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "꼭 그 모냥이라.",
+            "standard": "꼭 그 모양이야."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3028,9 +3072,13 @@
         "standard": "모레",
         "soundUrl": "/audio/90041.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "모리까지 해야 돼.",
+            "standard": "모레까지 해야 돼."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3168,9 +3216,13 @@
         "standard": "고둥",
         "soundUrl": "/audio/90049.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "보말 하나토 어수과?",
+            "standard": "고둥은 하나도 없어요?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -4346,9 +4398,13 @@
         "standard": "쪽",
         "soundUrl": "/audio/90115.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "두 사람이 혼디 다리 두 착 묶어그네양 돋는 거 그거 말 아니?",
+            "standard": "두 사람이 함께 다리 두 쪽 묶어서요 달리는 거 그거 말 아니야?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -4414,9 +4470,13 @@
         "standard": "지렁이",
         "soundUrl": "/audio/90318.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "게우리가 무신거라?",
+            "standard": "지렁이가 뭐야?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -4425,9 +4485,13 @@
         "standard": "구멍",
         "soundUrl": "/audio/90319.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "돌 고냥으로 보라.",
+            "standard": "돌 구멍으로 보아라."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -4447,9 +4511,13 @@
         "standard": "수풀",
         "soundUrl": "/audio/90321.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "그거 고치 절로 강이네 저 고지 잡아그넹 영 왔다갔다 했주게.",
+            "standard": "그거 같이 저리로 가서 저 수풀 잡아서 이렇게 왔다갔다 했지."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -8459,9 +8527,13 @@
         "standard": "자리돔",
         "soundUrl": "/audio/90410.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "그믄 자리도 좀 갖다 줍니까?",
+            "standard": "그러면 자리돔도 좀 갖다 줍니까?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -9555,9 +9627,13 @@
         "standard": "이제야",
         "soundUrl": "/audio/90657.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "나 이제사 졸업함.",
+            "standard": "나 이제야 졸업했어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9566,9 +9642,13 @@
         "standard": "아까",
         "soundUrl": "/audio/90658.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "인칙 부른 거는 해녀 노래.",
+            "standard": "아까 부른 거는 해녀 노래."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9588,9 +9668,13 @@
         "standard": "줄줄",
         "soundUrl": "/audio/90660.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "새미노루는 물 잘잘나는거.",
+            "standard": "새미노루는 물 줄줄 나오는 거야."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9599,9 +9683,13 @@
         "standard": "빨리",
         "soundUrl": "/audio/90661.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "재기 일어상 오지 못해여.",
+            "standard": "빨리 일어서서 오지 못해."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9610,9 +9698,13 @@
         "standard": "겨우",
         "soundUrl": "/audio/90662.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "게난 제우 이름 쯤만 쓰는 거.",
+            "standard": "그러니까 겨우 이름쯤만 쓰는 거야."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9666,9 +9758,13 @@
         "standard": "주렁주렁",
         "soundUrl": "/audio/90665.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "토마토낭 키도 영 별로 안 큰디 그냥 토마토는 지락지락 열었더라고.",
+            "standard": "토마토나무 키도 이렇게 별로 안 큰데 그냥 토마토는 주렁주렁 열었더라고."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9743,9 +9839,13 @@
         "standard": "그럼",
         "soundUrl": "/audio/90672.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "게 뭘로 쓰맨?",
+            "standard": "그럼 뭘로 써?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -10902,9 +11002,13 @@
         "standard": "던지다",
         "soundUrl": "/audio/90486.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "데끼면 잡혀?",
+            "standard": "던지면 잡혀?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {

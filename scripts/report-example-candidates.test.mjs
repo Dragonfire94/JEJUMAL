@@ -6,6 +6,10 @@ import {
   selectWavePendingLexemes,
   attachAudit,
   sortCandidateRows,
+  stripHomographNumber,
+  searchForms,
+  supplementalEvidence,
+  meaningMatches,
 } from "./report-example-candidates.mjs";
 
 test("--wave 없으면 usage/error", () => {
@@ -47,6 +51,99 @@ test("약한 hit -> CHECK_HITS", () => {
 test("0 hit -> SOURCE_GAP", () => {
   assert.equal(recommendedAction({ exactHits: 0, inflectedHits: 0, lifeDialectHits: 0 }), "SOURCE_GAP");
   assert.equal(recommendedAction({}), "SOURCE_GAP");
+});
+
+test("그자1 -> 그자 normalization", () => {
+  assert.equal(stripHomographNumber("그자1"), "그자");
+  assert.equal(stripHomographNumber("튀다1"), "튀다");
+  assert.equal(stripHomographNumber("트다2"), "트다");
+  assert.deepEqual(searchForms({ jeju: "그자1" }), ["그자1", "그자"]);
+});
+
+test("숫자 없는 headword unchanged", () => {
+  assert.equal(stripHomographNumber("게도"), "게도");
+  assert.equal(stripHomographNumber("2층집"), "2층집");
+  assert.deepEqual(searchForms({ jeju: "게도" }), ["게도"]);
+});
+
+test("otherJejuForms hit", () => {
+  const tokens = { ᄀᆞ실: [["가을", 7]] };
+  const extra = supplementalEvidence({
+    jeju: "ᄀᆞ슬",
+    standard: "가을",
+    otherJejuForms: ["ᄀᆞ실"],
+    tokens,
+  });
+  assert.equal(extra.candidateEvidence, "OTHER_FORM");
+  assert.equal(extra.supplementalTokenHits, 7);
+  assert.ok(extra.searchForms.includes("ᄀᆞ실"));
+  assert.equal(
+    recommendedAction({
+      exactHits: 0,
+      inflectedHits: 0,
+      lifeDialectHits: 0,
+      supplementalTokenHits: extra.supplementalTokenHits,
+      candidateEvidence: extra.candidateEvidence,
+    }),
+    "CHECK_HITS",
+  );
+});
+
+test("동형이의 표준어 sense가 다른 hit는 과대평가하지 않음", () => {
+  const tokens = { 상: [["사다", 100], ["사서", 50]] };
+  const extra = supplementalEvidence({
+    jeju: "상",
+    standard: "향",
+    tokens,
+  });
+  assert.equal(extra.supplementalTokenHits, 0);
+  assert.equal(extra.candidateEvidence, "NONE");
+  assert.equal(
+    recommendedAction({
+      exactHits: 0,
+      inflectedHits: 0,
+      lifeDialectHits: 0,
+      supplementalTokenHits: extra.supplementalTokenHits,
+      candidateEvidence: extra.candidateEvidence,
+    }),
+    "SOURCE_GAP",
+  );
+  assert.equal(meaningMatches("향", "사다"), false);
+});
+
+test("그자1 정규화 hit는 CHECK_HITS까지만 올린다", () => {
+  const tokens = { 그자: [["그저", 328], ["그냥", 84]] };
+  const extra = supplementalEvidence({
+    jeju: "그자1",
+    standard: "그저",
+    partOfSpeech: "adverb",
+    tokens,
+  });
+  assert.equal(extra.candidateEvidence, "HEADWORD_NORMALIZED");
+  assert.equal(extra.supplementalTokenHits, 328);
+  assert.equal(
+    recommendedAction({
+      exactHits: 0,
+      inflectedHits: 0,
+      lifeDialectHits: 0,
+      supplementalTokenHits: extra.supplementalTokenHits,
+      candidateEvidence: extra.candidateEvidence,
+    }),
+    "CHECK_HITS",
+  );
+});
+
+test("missing token graceful fallback", () => {
+  const extra = supplementalEvidence({ jeju: "그자1", standard: "그저" });
+  assert.equal(extra.supplementalTokenHits, 0);
+  assert.equal(extra.candidateEvidence, "NONE");
+  const attached = attachAudit(
+    [{ seq: "1", jeju: "그자1", standard: "그저", partOfSpeech: "adverb", otherJejuForms: [] }],
+    new Map(),
+  );
+  assert.equal(attached[0].recommendedAction, "SOURCE_GAP");
+  assert.equal(attached[0].candidateEvidence, "NONE");
+  assert.equal(attached[0].supplementalTokenHits, 0);
 });
 
 const units = [
