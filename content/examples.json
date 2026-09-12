@@ -6455,5 +6455,245 @@
       "naturalness": "provisional",
       "translation": "approved"
     }
+  },
+  {
+    "id": "90279-1",
+    "seq": "90279",
+    "jeju": "게도, 놈 호고 싸울 땐 지네 펜백들멍 싸워 마씀.",
+    "standard": "그래도, 남하고 싸울 때는 자기네 편을 들면서 싸웁니다.",
+    "source": {
+      "type": "official",
+      "sourceId": "life-dialect-38",
+      "originalText": {
+        "jeju": "게도, 놈 호고 싸울 땐\n지네 펜백들멍 싸워 마씀.",
+        "standard": "그래도, 남하고 싸울 때는\n자기네 편을 들면서 싸웁니다."
+      },
+      "editReason": "공식 생활방언 38편 같은 문장의 두 줄을 한 학습 문장으로 붙임. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90280-1",
+    "seq": "90280",
+    "jeju": "경 홉주마! 겐디, 비 옴직 해염쑤다.",
+    "standard": "그렇게 합시다! 그런데, 비가 올 것 같습니다.",
+    "source": {
+      "type": "official",
+      "sourceId": "life-dialect-54"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90108-1",
+    "seq": "90108",
+    "jeju": "오늘랑 우리 밭디 마농 심거 줍서.",
+    "standard": "오늘은 우리 밭에 마늘 심어 주십시오.",
+    "source": {
+      "type": "official",
+      "sourceId": "life-dialect-54"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90110-1",
+    "seq": "90110",
+    "jeju": "이거 따문에 가져?",
+    "standard": "이거 때문에 갈 수 있나?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20002428"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90530-1",
+    "seq": "90530",
+    "jeju": "수눌래 갔댄?",
+    "standard": "품앗이 하러 갔다고?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZJD20000474"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90278-1",
+    "seq": "90278",
+    "jeju": "아 게고 난 필라테스 할래.",
+    "standard": "아 그리고 난 필라테스 할래.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000763",
+      "originalText": {
+        "jeju": "아 게고 난 필라테스 할래",
+        "standard": "아 그리고 난 필라테스 할래"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90281-1",
+    "seq": "90281",
+    "jeju": "그레 나 안가봔.",
+    "standard": "나는 그리로 안 가봤어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20001906",
+      "originalText": {
+        "jeju": "그레 나 안가봔",
+        "standard": "그리로 나 안가봤어"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음. 표준어 어순을 자연스럽게 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90395-1",
+    "seq": "90395",
+    "jeju": "비행기 타고 영 해가면 어머니 수질하고 안 좋잖아.",
+    "standard": "비행기 타고 이렇게 가면 어머니가 멀미해서 안 좋잖아.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000195",
+      "originalText": {
+        "jeju": "거난 육지 나갈 필요 어서. 비행기 타고 영 해가면 어머니 수질하고 안 좋잖아. 오래 못 타네. 여기 제주도 여기를 다 봥으네 돌아다니는 것도 좋읍니다",
+        "standard": "그니까 육지 나갈 필요 없어. 비행기 타고 영 해가면 어머니 멀미하고 안 좋잖아. 오래 못 타네. 여기 제주도 여기를 다 봐서 돌아다니는 것도 좋아요"
+      },
+      "editReason": "긴 발화에서 수질=멀미 절만 추출. 표준어를 자연스러운 한국어로 다듬음. 수질해 오염 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90653-1",
+    "seq": "90653",
+    "jeju": "한 입에 옴막 먹어불라.",
+    "standard": "한 입에 꿀꺽 먹어버려.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000982",
+      "originalText": {
+        "jeju": "한 입에 옴막 먹어불라",
+        "standard": "한 입에 꿀꺽 먹어버려"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 옴막=꿀꺽 의미. 오목 뜻은 쓰지 않음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90655-1",
+    "seq": "90655",
+    "jeju": "꼭 허세 부리멍 이레착저레착 말해부난 그게 문젠거.",
+    "standard": "꼭 허세 부리면서 이래저래 말해버려서 그게 문제야.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002864",
+      "originalText": {
+        "jeju": "꼭 허세 부리멍 이레착저레착 말해부난 그게 문젠거 굳이 말 안 해도 될거를 막 말해부난 가이는",
+        "standard": "꼭 허세 부리면서 이래저래 말해버려서 그게 문젠거 굳이 말 안 해도 될거를 막 말해버리니깐 걔는"
+      },
+      "editReason": "뒤의 설명 절만 덜고 이레착저레착 절을 마침표로 닫음. 표준어 문젠거를 문제야로 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90531-1",
+    "seq": "90531",
+    "jeju": "양말도 신지지말아그넹 그냥 양말도 배낑 자.",
+    "standard": "양말도 신기지 말고 그냥 양말도 벗기고 자.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002985",
+      "originalText": {
+        "jeju": "경 안 행 만약에 막 -끓-끓여불면은 호끔하여가면 애기들게 감기 잘 걸리고 허난게 애기들게 춥게 키우라. 양말도 신지지말아그넹 그냥 양말도 배낑 자. 춥게 애기들은 해사된댄 하는 게",
+        "standard": "그렇게 안 해서 만약에 막 -끓-끓이면 조금 하면 애기들 말이야 감기 잘 걸리고 하니까 애기들 춥게 키우라. 양말도 신기지 말고 그냥 양말도 벗기고 자. 춥게 애기들은 해야 된다고 하는 게"
+      },
+      "editReason": "101자 미완결 장발화에서 신지다=신기다 활용형 신지지말아그넹이 있는 지시 절만 추출. 종결형 창작 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90282-1",
+    "seq": "90282",
+    "jeju": "모따 옛날엔 그자 잘못되면 다 여자 탓이라.",
+    "standard": "몽땅 옛날에는 그저 잘못되면 다 여자 탓이야.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000288",
+      "originalText": {
+        "jeju": "모따 옛날엔 그자 잘못되면 다 여자 탓이라",
+        "standard": "몽땅 옛날에는 그저 잘못되면 다 여자 탓이야"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 그자=그저 의미. 표제어 그자1의 동형이의 번호는 문장에 넣지 않음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90401-1",
+    "seq": "90401",
+    "jeju": "끝에 ᄉ투리좀 씁서게.",
+    "standard": "끝에 사투리 좀 쓰세요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-DZES20000008",
+      "originalText": {
+        "jeju": "끝에 사투리좀 씁서게",
+        "standard": "끝에 사투리좀 쓰세요"
+      },
+      "editReason": "말뭉치 사투리를 2025 표제어 ᄉ투리로 표기만 바꿈. 마침표 보강. 문장 틀은 원문."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
   }
 ]
