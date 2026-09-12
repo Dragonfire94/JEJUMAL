@@ -2663,7 +2663,6 @@
     "standard": "무",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p011l-y00586",
@@ -4081,7 +4080,6 @@
     "standard": "한라산",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p024l-y03931",
@@ -4330,7 +4328,6 @@
     "standard": "걔",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p026l-y00868",
@@ -4348,7 +4345,6 @@
     "standard": "그쪽",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p026l-y02743",
@@ -6242,7 +6238,6 @@
     "standard": "게으르다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p041l-y00586",
@@ -6279,7 +6274,6 @@
     "standard": "곱다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p041l-y02229",
@@ -9403,7 +9397,6 @@
     "standard": "띠",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p065r-y02673",
@@ -9492,7 +9485,6 @@
     "standard": "속옷",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066l-y03883",
@@ -11986,7 +11978,6 @@
     "standard": "빼다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p083r-y02088",
