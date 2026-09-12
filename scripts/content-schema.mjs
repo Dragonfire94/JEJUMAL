@@ -28,6 +28,8 @@ export const LexemeSchema = z.object({
   pendingPlacement: z.boolean().optional(),
   /** true면 표제어에 PUA(사용자 영역) 문자가 섞여 있어 화면에 깨져 보일 수 있음(아래아 등 옛한글 표기 문제). */
   containsPua: z.boolean().optional(),
+  /** 같은 개념을 수동으로 묶거나, 같은 표준어 gloss의 서로 다른 뜻을 분리할 때 쓰는 선택 override. */
+  conceptId: z.string().trim().min(1).optional(),
 });
 
 export const UnitSchema = z.object({
