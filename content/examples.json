@@ -6997,26 +6997,6 @@
     }
   },
   {
-    "id": "90124-1",
-    "seq": "90124",
-    "jeju": "이짝에서 저짝.",
-    "standard": "이쪽에서 저쪽.",
-    "source": {
-      "type": "adapted",
-      "sourceId": "aihub-DZHF20001831",
-      "originalText": {
-        "jeju": "이짝에서 저짝",
-        "standard": "이쪽에서 저쪽"
-      },
-      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
-    },
-    "review": {
-      "meaning": "approved",
-      "naturalness": "provisional",
-      "translation": "approved"
-    }
-  },
-  {
     "id": "90126-1",
     "seq": "90126",
     "jeju": "자이 누게네 똘?",
@@ -7103,26 +7083,6 @@
     "review": {
       "meaning": "approved",
       "naturalness": "approved",
-      "translation": "approved"
-    }
-  },
-  {
-    "id": "90406-1",
-    "seq": "90406",
-    "jeju": "건디 그 예숙제낄락이 처음 그 할망이 내주는 문제는이 재미난 것들이 하났져.",
-    "standard": "그런데 그 수수께끼가 처음 그 할머니가 내주는 문제는 재미있는 것들이 많았어.",
-    "source": {
-      "type": "adapted",
-      "sourceId": "aihub-DZES20000133",
-      "originalText": {
-        "jeju": "건디 그 예숙제낄락이 처음 그 할망이 내주는 문제는이 재미난 것들이 하났져",
-        "standard": "그런데 그 수수께끼가 처음 그 할머니가 내주는 문제는 재미있는 것들이 많았어"
-      },
-      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
-    },
-    "review": {
-      "meaning": "approved",
-      "naturalness": "provisional",
       "translation": "approved"
     }
   },

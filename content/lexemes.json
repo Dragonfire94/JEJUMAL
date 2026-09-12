@@ -4470,6 +4470,7 @@
     "standard": "이쪽",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p027r-y02465",
@@ -9688,6 +9689,7 @@
     "standard": "수수께끼",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p068l-y04365",
