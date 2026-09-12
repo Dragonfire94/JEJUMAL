@@ -733,7 +733,7 @@
         "examples": [
           {
             "jeju": "피디꽈 삼춘?",
-            "standard": "피디예요 어르신?"
+            "standard": "피디예요, 어르신?"
           }
         ],
         "reviewStatus": "provisional",
@@ -832,13 +832,9 @@
         "standard": "넷",
         "soundUrl": "/audio/90131.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [
-          {
-            "jeju": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 너이.",
-            "standard": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 넷."
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -869,13 +865,9 @@
         "standard": "일곱",
         "soundUrl": "/audio/90134.mp3",
         "partOfSpeech": "number",
-        "examples": [
-          {
-            "jeju": "일곱 개 해신디.",
-            "standard": "일곱 개 했는데."
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -3388,7 +3380,7 @@
         "examples": [
           {
             "jeju": "마씀이 좋을거 닮은게 몬딱 심 내게마씀.",
-            "standard": "말씀이 좋을 것 같아요. 모두 힘내요."
+            "standard": "말씀이 좋을 것 같아요. 모두 힘냅시다!"
           }
         ],
         "reviewStatus": "provisional",
@@ -3520,7 +3512,7 @@
         "examples": [
           {
             "jeju": "아덜 마씀!",
-            "standard": "아들 입니다!"
+            "standard": "아들입니다!"
           }
         ],
         "reviewStatus": "provisional",
@@ -7451,8 +7443,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "그거 맛엇댄 이모가 지가 만든게 맛좋댄.",
-            "standard": "그거 맛없대 이모가 자기가 만든게 맛있대."
+            "jeju": "그거 맛엇댄. 이모가 지가 만든 게 맛좋댄.",
+            "standard": "그거 맛없대. 이모가 자기가 만든 게 맛있대."
           }
         ],
         "reviewStatus": "provisional",

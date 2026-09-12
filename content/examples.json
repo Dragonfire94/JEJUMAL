@@ -7175,7 +7175,7 @@
     "id": "90070-1",
     "seq": "90070",
     "jeju": "아덜 마씀!",
-    "standard": "아들 입니다!",
+    "standard": "아들입니다!",
     "source": {
       "type": "official",
       "sourceId": "life-dialect-29"
@@ -7190,7 +7190,7 @@
     "id": "90675-1",
     "seq": "90675",
     "jeju": "피디꽈 삼춘?",
-    "standard": "피디예요 어르신?",
+    "standard": "피디예요, 어르신?",
     "source": {
       "type": "corpus",
       "sourceId": "aihub-DZHF20002232"
@@ -7327,46 +7327,6 @@
     }
   },
   {
-    "id": "90134-1",
-    "seq": "90134",
-    "jeju": "일곱 개 해신디.",
-    "standard": "일곱 개 했는데.",
-    "source": {
-      "type": "adapted",
-      "sourceId": "aihub-DZHF20001030",
-      "originalText": {
-        "jeju": "일곱 개 해신디",
-        "standard": "일곱 개 했는데"
-      },
-      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
-    },
-    "review": {
-      "meaning": "approved",
-      "naturalness": "provisional",
-      "translation": "approved"
-    }
-  },
-  {
-    "id": "90131-1",
-    "seq": "90131",
-    "jeju": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 너이.",
-    "standard": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 넷.",
-    "source": {
-      "type": "adapted",
-      "sourceId": "aihub-DZHF20001653",
-      "originalText": {
-        "jeju": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 너이",
-        "standard": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 넷"
-      },
-      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
-    },
-    "review": {
-      "meaning": "approved",
-      "naturalness": "provisional",
-      "translation": "approved"
-    }
-  },
-  {
     "id": "90325-1",
     "seq": "90325",
     "jeju": "나가 구신이더라.",
@@ -7469,8 +7429,8 @@
   {
     "id": "90238-1",
     "seq": "90238",
-    "jeju": "그거 맛엇댄 이모가 지가 만든게 맛좋댄.",
-    "standard": "그거 맛없대 이모가 자기가 만든게 맛있대.",
+    "jeju": "그거 맛엇댄. 이모가 지가 만든 게 맛좋댄.",
+    "standard": "그거 맛없대. 이모가 자기가 만든 게 맛있대.",
     "source": {
       "type": "adapted",
       "sourceId": "aihub-DZJD20001140",
@@ -7478,7 +7438,7 @@
         "jeju": "그거 맛엇댄 이모가 지가 만든게 맛좋댄",
         "standard": "그거 맛없대 이모가 자기가 만든게 맛있대"
       },
-      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+      "editReason": "말뭉치 원문은 유지하고 학습 문장에서 두 절의 문장부호와 띄어쓰기만 정리함."
     },
     "review": {
       "meaning": "approved",
@@ -7550,7 +7510,7 @@
     "id": "90061-1",
     "seq": "90061",
     "jeju": "마씀이 좋을거 닮은게 몬딱 심 내게마씀.",
-    "standard": "말씀이 좋을 것 같아요. 모두 힘내요.",
+    "standard": "말씀이 좋을 것 같아요. 모두 힘냅시다!",
     "source": {
       "type": "adapted",
       "sourceId": "aihub-DZES20000068",
