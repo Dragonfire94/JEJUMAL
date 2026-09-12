@@ -4595,6 +4595,7 @@
     "standard": "넷",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p028r-y03143",
@@ -4657,6 +4658,7 @@
     "standard": "일곱",
     "partOfSpeech": "number",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p029l-y02160",
