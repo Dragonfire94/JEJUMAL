@@ -8,8 +8,8 @@
   "puaFindings": [
     {
       "id": "culture-12",
-      "jeju_display": "국",
-      "issue": "실제로는 U+E56E(PUA, 미매핑) + U+AD6D 2-codepoint 조합. pua-glyph-mapping.json 81건에 U+E56E 없음."
+      "jeju_display": "ᄆᆞᆷ국",
+      "issue": "3C-3B 시점엔 U+E56E(PUA, 미매핑) + U+AD6D 2-codepoint 조합이었으나, 3C-3B.1 감사(RESOLVED_HIGH)와 3C-3B.2 적용으로 pua-glyph-mapping.json/vocab.json에 U+1106 U+119E U+11B7(ᄆᆞᆷ) 매핑을 반영해 해소됨. docs/3c3b1-pua-e56e-audit.md, docs/3c3b2-apply-pua-e56e.md 참고."
     }
   ],
   "items": [
@@ -226,14 +226,14 @@
       "id": "culture-12",
       "sourceStableId": "jbv2025-p063l-y00581",
       "legacySourceId": "jbv2025-0540",
-      "jeju": "국",
+      "jeju": "ᄆᆞᆷ국",
       "otherJejuForms": [],
       "level": "중급",
       "sourcePosLabel": "명사",
       "definition": "돼지고기를 삶은 육수에 불린 모자반을 넣어 끓인 국.",
       "linguisticType": "JEJU_CULTURAL_TERM",
       "hasStandardEquivalent": false,
-      "containsPua": true,
+      "containsPua": false,
       "usageEvidenceRef": "NONE",
       "hasAudio": false,
       "culturalNote": null,
