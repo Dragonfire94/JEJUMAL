@@ -75,6 +75,7 @@ export function assembleUnits(bundle) {
         if (lexeme.reviewStatus) word.reviewStatus = lexeme.reviewStatus;
         if (lexeme.pendingExample) word.pendingExample = true;
         if (lexeme.containsPua) word.containsPua = true;
+        if (lexeme.conceptId) word.conceptId = lexeme.conceptId;
         word.hasAudio = existsSync(path.join(AUDIO_DIR, `${lexeme.seq}.mp3`));
         return word;
       }),

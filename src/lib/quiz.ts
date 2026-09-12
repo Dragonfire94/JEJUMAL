@@ -61,16 +61,18 @@ function tooSimilar(a: string, b: string): boolean {
   return levenshtein(a, b) / max <= 0.34;
 }
 
-function conceptId(word: Word): string {
-  return word.standard.trim();
+export function conceptKeyForWord(word: Word): string {
+  const explicit = word.conceptId?.trim();
+  if (explicit) return `concept:${explicit}`;
+  return `standard:${word.standard.trim()}`;
 }
 
 function sameConceptTexts(words: Word[], field: "jeju" | "standard", target: Word): Set<string> {
-  const targetConcept = conceptId(target);
+  const targetConcept = conceptKeyForWord(target);
   const texts = new Set<string>();
   for (const word of words) {
     if (word.seq === target.seq) continue;
-    if (conceptId(word) !== targetConcept) continue;
+    if (conceptKeyForWord(word) !== targetConcept) continue;
     texts.add(word[field]);
   }
   return texts;

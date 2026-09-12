@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "vitest";
-import { buildLesson, getLessonQuestionCounts, hasPassed, PASS_PERCENT } from "./quiz";
+import { buildLesson, conceptKeyForWord, getLessonQuestionCounts, hasPassed, PASS_PERCENT } from "./quiz";
 import { units, type Unit, type Word } from "./units";
 
 function fakeWord(patch: Partial<Word> & Pick<Word, "seq">): Word {
@@ -143,4 +143,32 @@ test("getLessonQuestionCounts matches buildLesson kind counts for synthetic unit
   );
   assert.equal(questions.length, counts.total);
   assert.ok(questions.every((q) => q.word.reviewStatus !== "blocked"));
+});
+
+test("conceptKeyForWord: same standard without override share a concept", () => {
+  const a = fakeWord({ seq: "1", standard: "바다" });
+  const b = fakeWord({ seq: "2", standard: "바다" });
+  assert.equal(conceptKeyForWord(a), conceptKeyForWord(b));
+  assert.equal(conceptKeyForWord(a), "standard:바다");
+});
+
+test("conceptKeyForWord: same standard with different conceptId split", () => {
+  const a = fakeWord({ seq: "1", standard: "턱", conceptId: "jaw" });
+  const b = fakeWord({ seq: "2", standard: "턱", conceptId: "reason" });
+  assert.notEqual(conceptKeyForWord(a), conceptKeyForWord(b));
+});
+
+test("conceptKeyForWord: different standard with same conceptId merge", () => {
+  const a = fakeWord({ seq: "1", standard: "어서", conceptId: "come-quickly" });
+  const b = fakeWord({ seq: "2", standard: "빨리 와", conceptId: "come-quickly" });
+  assert.equal(conceptKeyForWord(a), conceptKeyForWord(b));
+  assert.equal(conceptKeyForWord(a), "concept:come-quickly");
+});
+
+test("conceptKeyForWord: fallback standard does not collide with explicit conceptId", () => {
+  const a = fakeWord({ seq: "1", standard: "jaw" });
+  const b = fakeWord({ seq: "2", standard: "무관", conceptId: "jaw" });
+  assert.notEqual(conceptKeyForWord(a), conceptKeyForWord(b));
+  assert.equal(conceptKeyForWord(a), "standard:jaw");
+  assert.equal(conceptKeyForWord(b), "concept:jaw");
 });
