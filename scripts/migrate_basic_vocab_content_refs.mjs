@@ -1,8 +1,16 @@
 #!/usr/bin/env node
-// content/lexemes.json의 2025 기본어휘 출처 참조(bookMeta.bookId) 655건을
+// 3B-1B 당시 mapping(content-migration-mapping-3a.json)으로 확정된
+// **historical 655건 cohort**의 content/lexemes.json 참조(bookMeta.bookId)를
 // 순번 기반 jbv2025-XXXX에서 production stableId(jbv2025-p...-y...)로
 // 옮기고, 구 extractor의 병합 오류로 오염된 bookMeta(definition/
 // otherJejuForms/posLabel/level)만 corrected source 기준으로 정제한다.
+//
+// 중요: 이 655는 "2025 기본어휘 출처 lexeme은 영원히 655개"라는 뜻이
+// 아니라, 3B-1B가 migration해야 했던 당시 historical cohort의 크기다.
+// migration 대상은 mapping 파일의 seq가 정의하며, 이후 3C 등에서 새로
+// 추가되는 2025-source lexeme(예: 삼춘/나냥으로, stable ID로 처음부터
+// 생성됨)은 이 mapping cohort 밖이라 이 스크립트가 건드리지 않는다
+// (3C-3A.1, `docs/basic-vocab-2025-content-reference-migration.md` 참고).
 //
 // 단어 자체(jeju/standard), top-level partOfSpeech, 유닛 배치, 예문,
 // 신규 71개 추가는 이 스크립트가 절대 건드리지 않는다 — 3B-2/3C의 몫.
@@ -62,10 +70,20 @@ export function diffTopLevel(before, after) {
 }
 
 /**
- * 655건의 migration 계획을 세운다. content/lexemes.json을 수정하지 않고
- * 순수하게 계획(plan)만 계산한다 — dry-run/write 둘 다 이 함수를 쓴다.
- * 문제가 있으면(누락된 mapping, stableId가 vocab/registry에 없음,
- * D/F 존재, legacyBookId 불일치 등) 즉시 던진다 — 부분 적용을 허용하지 않는다.
+ * historical migration cohort(mapping 파일의 seq들)의 migration 계획을
+ * 세운다. content/lexemes.json을 수정하지 않고 순수하게 계획(plan)만
+ * 계산한다 — dry-run/write 둘 다 이 함수를 쓴다.
+ *
+ * 대상 선정 기준은 "현재 content/lexemes.json에 있는 모든 2025-source
+ * lexeme"이 아니라 **mapping 파일이 정의하는 historical cohort**다.
+ * 이후(3C 등) 새로 추가되는 2025-source lexeme은 mapping에 없는 게
+ * 정상이므로 이 함수가 무시한다 — 반대로 mapping cohort의 seq가
+ * content/lexemes.json에서 사라지거나 sourceId가 어긋나면 여전히
+ * hard-fail한다(cohort의 integrity는 계속 엄격하게 검사).
+ *
+ * 문제가 있으면(mapping row 수 불일치, mapped seq 누락/sourceId 불일치,
+ * stableId가 vocab/registry에 없음, D/F 존재, legacyBookId 불일치 등)
+ * 즉시 던진다 — 부분 적용을 허용하지 않는다.
  */
 export function planMigration({ lexemes, mapping, vocab, registry, expectedTotal = null }) {
   const stableIdSet = new Set(vocab.entries.map((e) => e.stableId));
@@ -73,11 +91,7 @@ export function planMigration({ lexemes, mapping, vocab, registry, expectedTotal
     registry.entries.filter((r) => r.status === "active").map((r) => r.stableId),
   );
 
-  const refs = lexemes.filter((l) => l.bookMeta?.sourceId === "jeju-basic-vocab-2025");
   if (expectedTotal !== null) {
-    if (refs.length !== expectedTotal) {
-      throw new Error(`content source refs가 ${expectedTotal}가 아닙니다: ${refs.length}`);
-    }
     if (mapping.length !== expectedTotal) {
       throw new Error(`mapping rows가 ${expectedTotal}가 아닙니다: ${mapping.length}`);
     }
@@ -92,13 +106,22 @@ export function planMigration({ lexemes, mapping, vocab, registry, expectedTotal
     throw new Error(`D/F가 0이 아닙니다(D=${dCount}, F=${fCount}) — 다중 후보/대응 없음 항목은 이 스크립트로 자동 처리하지 않는다`);
   }
 
-  const mappingBySeq = new Map(mapping.map((m) => [m.seq, m]));
+  const lexemeBySeq = new Map(lexemes.map((l) => [l.seq, l]));
   const plans = [];
 
-  for (const lexeme of refs) {
-    const m = mappingBySeq.get(lexeme.seq);
-    if (!m) {
-      throw new Error(`UNKNOWN_SEQ: seq ${lexeme.seq}(${lexeme.jeju})에 대한 mapping row가 없습니다`);
+  for (const m of mapping) {
+    const lexeme = lexemeBySeq.get(m.seq);
+    if (!lexeme) {
+      throw new Error(
+        `MAPPED_SEQ_NOT_FOUND: mapping seq ${m.seq}가 content/lexemes.json에 없습니다 — ` +
+        "historical cohort의 lexeme이 삭제되었을 수 있습니다",
+      );
+    }
+    if (lexeme.bookMeta?.sourceId !== "jeju-basic-vocab-2025") {
+      throw new Error(
+        `MAPPED_SEQ_SOURCE_MISMATCH: seq ${m.seq}(${lexeme.jeju})의 bookMeta.sourceId가 ` +
+        "jeju-basic-vocab-2025가 아니거나 bookMeta 자체가 없습니다",
+      );
     }
     if (!stableIdSet.has(m.corrected_stable_id)) {
       throw new Error(

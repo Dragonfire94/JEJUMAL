@@ -52,22 +52,48 @@ function makeFixture(overrides = {}) {
   return { lexemes, mapping, vocab, registry, ...overrides };
 }
 
-test("655 mapping completeness — 실제 production 데이터로 preflight를 통과한다", () => {
+test("historical 655 migration cohort가 현재 production에서도 완전하게 resolve된다", () => {
   const { lexemes, mapping, vocab, registry } = loadInputs();
   const plans = planMigration({ lexemes, mapping, vocab, registry, expectedTotal: 655 });
   assert.equal(plans.length, 655);
   const byConfidence = { A: 0, B: 0, E: 0 };
   for (const p of plans) byConfidence[p.mapping.confidence] += 1;
   assert.deepEqual(byConfidence, { A: 582, B: 42, E: 31 });
+
+  // 현재 production의 2025-source lexeme 총수가 655보다 많아도(3C 등에서
+  // 새로 추가된 lexeme 포함) migration cohort 크기와는 무관하게 통과해야
+  // 한다 — mapping이 정의하는 655개 historical cohort만 대상이다.
+  const totalRefs = lexemes.filter((l) => l.bookMeta?.sourceId === "jeju-basic-vocab-2025").length;
+  assert.ok(
+    totalRefs >= 655,
+    "production 2025-source lexeme 총수는 historical cohort(655) 이상이어야 합니다",
+  );
 });
 
-test("unknown seq(mapping에 없는 lexeme)가 있으면 실패한다", () => {
+test("mapping에 없는 신규 2025-source lexeme이 있어도 historical cohort migration은 영향받지 않는다", () => {
   const fx = makeFixture();
   fx.lexemes.push({
     seq: "999", jeju: "나", standard: "나", partOfSpeech: "noun",
-    bookMeta: { sourceId: "jeju-basic-vocab-2025", bookId: "jbv2025-9999" },
+    reviewStatus: "provisional", pendingExample: true,
+    bookMeta: { sourceId: "jeju-basic-vocab-2025", bookId: "jbv2025-p099l-y09999" },
   });
-  assert.throws(() => planMigration(fx), /UNKNOWN_SEQ/);
+  const plans = planMigration(fx);
+  // mapping cohort 크기(1)만큼만 계획이 생성되고, mapping에 없는 seq 999는
+  // 조용히 무시된다 — 미래 신규 2025 lexeme은 이 스크립트의 scope 밖이다.
+  assert.equal(plans.length, fx.mapping.length);
+  assert.ok(!plans.some((p) => p.lexeme.seq === "999"));
+});
+
+test("mapping row가 가리키는 seq가 content/lexemes.json에서 사라지면 실패한다", () => {
+  const fx = makeFixture();
+  fx.lexemes = fx.lexemes.filter((l) => l.seq !== "1");
+  assert.throws(() => planMigration(fx), /MAPPED_SEQ_NOT_FOUND/);
+});
+
+test("mapping row가 가리키는 seq의 bookMeta.sourceId가 예상과 다르면 실패한다", () => {
+  const fx = makeFixture();
+  fx.lexemes[0].bookMeta.sourceId = "other-source";
+  assert.throws(() => planMigration(fx), /MAPPED_SEQ_SOURCE_MISMATCH/);
 });
 
 test("mapping의 corrected_stable_id가 현재 vocab.json에 없으면 실패한다", () => {
