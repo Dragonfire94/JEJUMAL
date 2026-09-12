@@ -6631,7 +6631,7 @@
         "examples": [
           {
             "jeju": "아니 게을러시믄 열 한명 낭 키와 지크냐?",
-            "standard": "아니 게을렀으면 열 한명 낳아서 키워 지겠냐?"
+            "standard": "아니, 게을렀으면 열한 명 낳아 키울 수 있겠냐?"
           }
         ],
         "reviewStatus": "provisional",
@@ -10582,13 +10582,9 @@
         "standard": "눕다",
         "soundUrl": "/audio/90482.mp3",
         "partOfSpeech": "verb",
-        "examples": [
-          {
-            "jeju": "병원에 아판 눅곡.",
-            "standard": "병원에 아파서 눕고."
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       },
       {

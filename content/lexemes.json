@@ -11153,6 +11153,7 @@
     "standard": "눕다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p078r-y03018",
