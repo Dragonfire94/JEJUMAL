@@ -172,9 +172,9 @@ test("current real dataset conceptId/quizGloss counts and rebuild stay in sync",
   const sourceQuizGloss = bundle.lexemes.filter((l) => l.quizGloss).length;
   const generatedConceptIds = rebuilt.flatMap((u) => u.words).filter((w) => w.conceptId).length;
   const generatedQuizGloss = rebuilt.flatMap((u) => u.words).filter((w) => w.quizGloss).length;
-  assert.equal(sourceConceptIds, 14);
-  assert.equal(sourceQuizGloss, 12);
-  assert.equal(generatedConceptIds, 14);
-  assert.equal(generatedQuizGloss, 12);
+  assert.equal(sourceConceptIds, 26);
+  assert.equal(sourceQuizGloss, 24);
+  assert.equal(generatedConceptIds, 26);
+  assert.equal(generatedQuizGloss, 24);
   assert.deepEqual(rebuilt, committed);
 });
