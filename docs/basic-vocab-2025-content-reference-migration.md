@@ -7,6 +7,14 @@ stableId production 인프라를 이용해, `content/lexemes.json`의 2025
 **단어 자체(jeju/standard), top-level `partOfSpeech`, 유닛 배치,
 예문, 신규 71개 추가는 이번 단계에서 건드리지 않았다.**
 
+> **3C-3A.1 보정**: 이 655는 "2025 기본어휘 출처 lexeme은 영원히
+> 655개"라는 뜻이 아니라, 3B-1B가 migration해야 했던 당시 historical
+> cohort의 크기다. `scripts/migrate_basic_vocab_content_refs.mjs`의
+> migration 대상은 `content-migration-mapping-3a.json`의 seq가
+> 정의하며, 이후 3C 등에서 새로 추가되는 2025-source lexeme(stable
+> ID로 처음부터 생성됨, 예: 삼춘/나냥으로)은 이 mapping cohort 밖이라
+> 이 스크립트가 건드리지 않는다.
+
 ## 1. canonical reference 정책
 
 - `bookMeta.bookId` — 이제부터 **stable source entry id**만 담는다
