@@ -6,7 +6,7 @@ import { QuizView } from "@/components/quiz-view";
 import { WordAppearanceLinks } from "@/components/word-appearance-links";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { playWord } from "@/lib/audio";
+import { hasVerifiedAudio, playWord } from "@/lib/audio";
 import { firstAppearanceForAnySeq } from "@/lib/life-dialect";
 import { rememberLastWord } from "@/lib/report";
 import { track } from "@/lib/track";
@@ -319,23 +319,35 @@ function WordList({ words }: { words: Word[] }) {
     <ul className="stagger-list divide-y divide-border rounded-2xl border border-border bg-card">
       {words.map((word) => {
         const example = firstExample(word);
+        const canPlay = hasVerifiedAudio(word);
         return (
         <li key={word.seq} className="flex items-start gap-3 px-3 py-2.5">
-          <button
-            type="button"
-            className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-lg text-foreground transition-colors duration-[var(--motion-quick)] hover:bg-muted"
-            onClick={() => void play(word)}
-            aria-label={`${word.jeju} 발음 듣기`}
-          >
-            <Volume2 className={cn("size-4", playingSeq === word.seq && "animate-pulse text-primary")} />
-          </button>
+          {canPlay ? (
+            <button
+              type="button"
+              className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-lg text-foreground transition-colors duration-[var(--motion-quick)] hover:bg-muted"
+              onClick={() => void play(word)}
+              aria-label={`${word.jeju} 발음 듣기`}
+            >
+              <Volume2 className={cn("size-4", playingSeq === word.seq && "animate-pulse text-primary")} />
+            </button>
+          ) : (
+            <span
+              className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-lg text-muted-foreground"
+              aria-label="음원 준비 중"
+              title="음원 준비 중"
+            >
+              <Volume2 className="size-4 opacity-40" />
+            </span>
+          )}
           <div className="min-w-0 flex-1">
             <div className="flex items-baseline justify-between gap-3">
               <span className="font-medium">{word.jeju}</span>
-              <span className="shrink-0 text-sm text-muted-foreground">
-                {failedSeq === word.seq ? "재생 안 됨" : word.standard}
-              </span>
+              <span className="shrink-0 text-sm text-muted-foreground">{word.standard}</span>
             </div>
+            {failedSeq === word.seq ? (
+              <p className="mt-0.5 text-[11px] text-muted-foreground">재생 안 됨</p>
+            ) : null}
             {example ? <div className="mt-1"><ExampleLine example={example} /></div> : null}
             <WordAppearanceLinks seq={word.seq} />
           </div>

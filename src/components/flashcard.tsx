@@ -3,7 +3,7 @@ import { Volume2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { ExampleLine } from "@/components/example-line";
 import { Button } from "@/components/ui/button";
-import { playAudio, playWord, stopAudio } from "@/lib/audio";
+import { playAudio, playWord, stopAudio, hasVerifiedAudio } from "@/lib/audio";
 import { appearancesForSeq } from "@/lib/life-dialect";
 import { nextIntervalDays, type WrongCard } from "@/lib/progress";
 import { rememberLastWord } from "@/lib/report";
@@ -27,13 +27,16 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
   const word = unit?.words.find((item) => item.seq === card.seq);
   const example = word ? firstExample(word) : undefined;
   const appearance = appearancesForSeq(card.seq, 1)[0];
+  const canPlay = hasVerifiedAudio(word);
 
   useEffect(() => {
     setFlipped(false);
     rememberLastWord({ seq: card.seq, jeju: card.jeju, standard: card.standard, unitId: card.unitId });
-    void playWord(card).catch(() => undefined);
+    if (canPlay) {
+      void playWord(card).catch(() => undefined);
+    }
     return () => stopAudio();
-  }, [card.seq, card.soundUrl, card.jeju]);
+  }, [card.seq, card.soundUrl, card.jeju, canPlay]);
 
   return (
     <div className="anim-rise flex flex-col gap-5">
@@ -76,15 +79,19 @@ export function Flashcard({ card, dueCount, total, onForgot, onRemembered, onRem
         </div>
       </button>
 
-      <Button
-        type="button"
-        variant="outline"
-        className="w-full"
-        onClick={() => void playWord(card).catch(() => undefined)}
-      >
-        <Volume2 className="size-4" aria-hidden />
-        발음 듣기
-      </Button>
+      {canPlay ? (
+        <Button
+          type="button"
+          variant="outline"
+          className="w-full"
+          onClick={() => void playWord(card).catch(() => undefined)}
+        >
+          <Volume2 className="size-4" aria-hidden />
+          발음 듣기
+        </Button>
+      ) : (
+        <p className="text-center text-xs text-muted-foreground">발음 음원 준비 중</p>
+      )}
 
       {appearance ? (
         <div className="rounded-2xl border border-border bg-card px-4 py-3">
