@@ -7893,9 +7893,13 @@
         "standard": "밭벼",
         "soundUrl": "/audio/90387.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "산디 허젠 허난 여름에 검질 맴수다.",
+            "standard": "밭벼 하려고 해서 여름에 김을 매요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7904,9 +7908,13 @@
         "standard": "찬장",
         "soundUrl": "/audio/90388.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "살레에서 사발을 꺼내수과?",
+            "standard": "찬장에서 사발을 꺼내요?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7915,9 +7923,13 @@
         "standard": "띠",
         "soundUrl": "/audio/90389.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "새밭에서 새를 베엇어라.",
+            "standard": "띠밭에서 띠를 베었어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "conceptId": "띠-grass",
         "quizGloss": "띠(풀)",
         "hasAudio": false
@@ -7928,9 +7940,13 @@
         "standard": "형님",
         "soundUrl": "/audio/90390.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "성님 덕에 배부르게 먹엇주.",
+            "standard": "형님 덕에 배부르게 먹었어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7939,9 +7955,13 @@
         "standard": "세답",
         "soundUrl": "/audio/90391.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "서답을 삶앗저.",
+            "standard": "빨래를 삶았어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7950,9 +7970,13 @@
         "standard": "샘",
         "soundUrl": "/audio/90392.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "세미에서 물을 길어 옵서.",
+            "standard": "샘에서 물을 길어 오세요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7961,9 +7985,13 @@
         "standard": "부추",
         "soundUrl": "/audio/90393.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "국에 세우리도 놓주게.",
+            "standard": "국에 부추도 넣어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7972,9 +8000,13 @@
         "standard": "속옷",
         "soundUrl": "/audio/90394.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "소중의로 갈아입엇우다.",
+            "standard": "속옷으로 갈아입었어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -9196,9 +9228,13 @@
         "standard": "살살",
         "soundUrl": "/audio/90648.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "문을 ᄉᆞᆯᄉᆞᆯ 닫앗주.",
+            "standard": "문을 살살 닫았어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9207,9 +9243,13 @@
         "standard": "살짝",
         "soundUrl": "/audio/90649.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "ᄉᆞᆯ째기 맛만 봐수과?",
+            "standard": "살짝 맛만 봐요?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9218,9 +9258,13 @@
         "standard": "아무래도",
         "soundUrl": "/audio/90650.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아멩헤도 해사 되크라.",
+            "standard": "아무래도 해야 되겠어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9229,9 +9273,13 @@
         "standard": "아직",
         "soundUrl": "/audio/90651.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "손님은 안직 안 왓수다.",
+            "standard": "손님은 아직 안 왔어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9240,9 +9288,13 @@
         "standard": "일부러",
         "soundUrl": "/audio/90652.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "역불로 늦엇게.",
+            "standard": "일부러 늦었어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -10499,9 +10551,13 @@
         "standard": "깔다",
         "soundUrl": "/audio/90481.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "마당에 멍석을 다곡 앉앗주.",
+            "standard": "마당에 멍석을 깔고 앉았어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -10510,9 +10566,13 @@
         "standard": "눕다",
         "soundUrl": "/audio/90482.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "방에 눅엉 쉬엄수과?",
+            "standard": "방에 누워 쉬어요?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -10521,9 +10581,13 @@
         "standard": "내리우다",
         "soundUrl": "/audio/90483.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "값을 호끔 ᄂᆞ리우면 안 되쿠과?",
+            "standard": "값을 조금 내리면 안 돼요?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -11838,9 +11902,13 @@
         "standard": "빼다",
         "soundUrl": "/audio/90525.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "발에서 가시를 빠앗주.",
+            "standard": "발에서 가시를 빼었어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -11849,9 +11917,13 @@
         "standard": "사르다",
         "soundUrl": "/audio/90526.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아궁이에 불 살르멍 밥 짓수과?",
+            "standard": "아궁이에 불 사르면서 밥 지어요?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -11860,9 +11932,13 @@
         "standard": "섞다",
         "soundUrl": "/audio/90527.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "나물이영 참기름을 서끄라.",
+            "standard": "나물과 참기름을 섞으세요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -11871,9 +11947,13 @@
         "standard": "수고하다",
         "soundUrl": "/audio/90528.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "오늘 폭삭 속앗저.",
+            "standard": "오늘 폭삭 수고했어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -11882,9 +11962,13 @@
         "standard": "손잡다",
         "soundUrl": "/audio/90529.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "손심엉 고치 가게.",
+            "standard": "손잡고 같이 가자."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
