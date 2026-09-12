@@ -1,0 +1,102 @@
+{
+  "stage": "3C-3B.1",
+  "status": "audit_only_not_applied",
+  "note": "이 파일은 조사 아티팩트다. pua-glyph-mapping.json, vocab.json 어느 것도 이 단계에서 수정하지 않았다.",
+  "targetPua": "U+E56E",
+  "sourceStableId": "jbv2025-p063l-y00581",
+  "legacySourceId": "jbv2025-0540",
+  "rawCodepoints": [
+    { "char": "", "codepoint": "U+E56E", "isPua": true },
+    { "char": "국", "codepoint": "U+AD6D", "isPua": false, "note": "정상 유니코드 완성형 음절 국" }
+  ],
+  "sourceLocator": {
+    "document": "jeju-basic-vocab-2025",
+    "pdfPage": 63,
+    "pdfPageIndexing": "0-based (doc[63] in PyMuPDF, matches extractor convention)",
+    "half": "left",
+    "yStart": 58.1,
+    "bboxVerified": [42.5, 55.1, 70.1, 77.6],
+    "reviewImage": "data/jeju-basic-vocab-2025/review-images/pua-e56e-crop-p63l.png"
+  },
+  "extractionPipelineNote": "PDF 텍스트 레이어 자체가 U+E56E를 담고 있다(추출기 단계에서 새로 생긴 오류가 아님). vocab.json 전체 재스캔 결과 U+E56E는 이 entry 1건에서만 등장 — occurrences_in_book이 매우 낮아 3A 단계의 81-glyph 스캔 모집단에서 누락된 것으로 보인다.",
+  "candidateMappings": [
+    {
+      "candidate": "ᄆᆞᆷ (초성ㅁ+아래아+종성ㅁ)",
+      "codepoints": ["U+1106", "U+119E", "U+11B7"],
+      "evidenceFor": [
+        "PDF glyph 24배 확대 크롭: 사각형(ㅁ)-점(아래아)-사각형(ㅁ) 3단 구조 명확",
+        "Noto Serif CJK KR 라운드트립 렌더링이 PDF 원본과 구조적으로 일치",
+        "2025 source definition(돼지고기 삶은 육수+불린 모자반+끓인 국)이 '몸국'의 표준 정의와 완전히 일치",
+        "AI Hub tokens.json: 몸국→모자반국 16회, 몸을→모자반을 1회, 몸→모자반 12회(동음이의어 중 최다)",
+        "위키백과 '몸국' 문서: 원표기가 'ᄆᆞᆷ국'이며 'ᄆᆞᆷ'은 모자반을 뜻하는 제주 방언이라고 명시",
+        "나무위키 문서 제목 자체가 옛한글 원문 'ᄆᆞᆷ국'"
+      ],
+      "evidenceAgainst": []
+    },
+    {
+      "candidate": "ᄆᆞᆼ (초성ㅁ+아래아+종성ㅇ)",
+      "codepoints": ["U+1106", "U+119E", "U+11BC"],
+      "evidenceFor": ["초성 형태 유사"],
+      "evidenceAgainst": [
+        "크롭에서 종성이 닫힌 사각형(ㅁ)으로 뚜렷이 보임, 열린 원(ㅇ)이 아님",
+        "외부 자료 어디에도 'ᄆᆞᆼ국' 표기 없음"
+      ]
+    },
+    {
+      "candidate": "종성 없는 ᄆᆞ",
+      "codepoints": ["U+1106", "U+119E"],
+      "evidenceFor": [],
+      "evidenceAgainst": [
+        "크롭에 명확한 세 번째 사각형 블록(종성)이 보여 2-jamo만으로는 glyph를 설명 못함"
+      ]
+    }
+  ],
+  "officialSourceEvidence": [
+    {
+      "source": "위키백과 - 몸국",
+      "url": "https://ko.wikipedia.org/wiki/%EB%AA%B8%EA%B5%AD",
+      "quote": "몸국(제주어: ᄆᆞᆷ국)은 제주도의 향토 음식으로, 돼지고기를 삶아 얻은 국물에 모자반을 넣어 끓인 국이다. 여기서 'ᄆᆞᆷ'은 모자반을 뜻하는 제주 방언이다.",
+      "tier": "encyclopedia"
+    },
+    {
+      "source": "나무위키 - ᄆᆞᆷ국",
+      "url": "https://namu.wiki/w/%E1%84%86%E1%86%9E%E1%86%B7%EA%B5%AD",
+      "quote": "문서 제목 자체가 옛한글 원문 'ᄆᆞᆷ국'으로 등록됨",
+      "tier": "encyclopedia"
+    }
+  ],
+  "glyphEvidence": {
+    "method": "PyMuPDF get_text(\"words\")로 sourceLocator 좌표 재검색 → bbox 확인 → 12배/24배 확대 렌더링 → Noto Serif CJK KR 라운드트립 렌더링 비교",
+    "fontSharingNote": "PDF embedded font 파일 자체는 공유하지 않았다. 크롭 이미지(비트맵)만 저장했다.",
+    "reviewImagePath": "data/jeju-basic-vocab-2025/review-images/pua-e56e-crop-p63l.png"
+  },
+  "corpusEvidence": {
+    "source": "data/aihub/tokens.json",
+    "matches": [
+      { "jejuToken": "몸국", "standardMappings": [["모자반국", 16]] },
+      { "jejuToken": "몸국이지", "standardMappings": [["모자반국이지", 1]] },
+      { "jejuToken": "몸국이랑", "standardMappings": [["몸국이나", 1], ["모자반국이랑", 1]] },
+      { "jejuToken": "몸국이영", "standardMappings": [["몸국이랑", 3]] },
+      { "jejuToken": "몸국이주", "standardMappings": [["몸국이지", 1]] },
+      { "jejuToken": "몸을", "standardMappings": [["메밀", 4], ["모자반을", 1]] },
+      { "jejuToken": "몸", "standardMappings": [["모자반", 12], ["마음", 6], ["미역", 3], ["맘", 2], ["메밀", 1], ["마음에", 1]] }
+    ]
+  },
+  "decision": "RESOLVED_HIGH",
+  "decisionCriteria": [
+    "PDF glyph 구조 일치",
+    "공식/신뢰 자료(위키백과·나무위키) 표기 일치",
+    "2025 source definition 의미 일치",
+    "AI Hub 말뭉치가 애매성 없이 뒷받침",
+    "다른 plausible mapping이 사실상 없음(대안 후보 2개 모두 기각)"
+  ],
+  "recommendedReplacement": "ᄆᆞᆷ국",
+  "recommendedReplacementCodepoints": ["U+1106", "U+119E", "U+11B7", "U+AD6D"],
+  "normalizationNote": "첫가끝(U+1100 Hangul Jamo block) 자모 시퀀스, 기존 프로젝트 관례(ᄒᆞ다: U+1112 U+119E, ᄎᆞᆯ레: U+110E U+119E U+11AF)와 동일한 codepoint 대역·구성 방식. NFC로 완성형 합성 불가(대응 완성형 코드포인트 없음) — 첫가끝 자모 그대로 저장.",
+  "containsPuaRecommendation": {
+    "afterMappingApplied": "false 또는 true 중 Culture Track 구현 단계에서 실제 폰트 렌더링 검증 후 결정 권장 — PUA 자체는 해소되지만 옛한글 자모라 일부 환경에서 렌더링 위험이 남을 수 있음(§9 참고)",
+    "excludeFromMvp": false,
+    "reasoning": "RESOLVED_HIGH이므로 비노출/blocked 처리가 필요하지 않다. 다음 단계에서 매핑을 적용하고 정상 항목으로 진행하면 된다."
+  },
+  "nextAction": "READY_FOR_MAPPING — 사용자 승인 후 pua-glyph-mapping.json/vocab.json에 실제 반영 및 재생성 검증"
+}
