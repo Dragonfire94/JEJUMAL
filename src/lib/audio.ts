@@ -8,15 +8,6 @@ export type Speakable = {
 
 let current: HTMLAudioElement | null = null;
 
-function pickKoreanVoice(): SpeechSynthesisVoice | undefined {
-  const voices = window.speechSynthesis?.getVoices() ?? [];
-  return voices.find((voice) => voice.lang === "ko-KR") ?? voices.find((voice) => voice.lang.startsWith("ko"));
-}
-
-if (typeof window !== "undefined" && window.speechSynthesis) {
-  window.speechSynthesis.getVoices();
-}
-
 function localSrc(word: Speakable): string | null {
   if (word.seq) return `/audio/${word.seq}.mp3`;
   if (word.soundUrl.startsWith("/audio/")) return word.soundUrl;
@@ -38,9 +29,6 @@ function getPlayer(): HTMLAudioElement {
 }
 
 export function stopAudio() {
-  if (typeof window !== "undefined" && window.speechSynthesis) {
-    window.speechSynthesis.cancel();
-  }
   if (!current) return;
   current.pause();
   current.removeAttribute("src");
@@ -74,55 +62,27 @@ function playFile(src: string): Promise<void> {
   });
 }
 
-function speakKorean(text: string): Promise<void> {
-  if (typeof window === "undefined" || !window.speechSynthesis) {
-    return Promise.resolve();
-  }
-  const synth = window.speechSynthesis;
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "ko-KR";
-  utterance.rate = 0.82;
-  const voice = pickKoreanVoice();
-  if (voice) utterance.voice = voice;
-  return new Promise((resolve) => {
-    let finished = false;
-    const done = () => {
-      if (finished) return;
-      finished = true;
-      resolve();
-    };
-    utterance.onend = done;
-    utterance.onerror = done;
-    synth.cancel();
-    synth.speak(utterance);
-    if (synth.paused) synth.resume();
-    window.setTimeout(done, Math.min(4000, 800 + text.length * 350));
-  });
+/** 검증된 로컬 음원이 있을 때만 발음 컨트롤/자동재생을 켠다. */
+export function hasVerifiedAudio(word: { hasAudio?: boolean } | undefined): boolean {
+  return word?.hasAudio === true;
 }
 
 export async function playWord(word: Speakable): Promise<void> {
   stopAudio();
   const src = localSrc(word);
-  let fileError: unknown = null;
-  if (src) {
-    try {
-      await playFile(src);
-      return;
-    } catch (error) {
-      fileError = error;
-    }
+  if (!src) {
+    const error = new Error("audio unavailable");
+    reportError(error, { seq: word.seq ?? "", src: "", reason: "audio-unavailable" });
+    throw error;
   }
-  const canSpeak = typeof window !== "undefined" && Boolean(window.speechSynthesis) && Boolean(word.jeju);
-  if (canSpeak) {
-    await speakKorean(word.jeju);
-    return;
-  }
-  if (fileError) {
-    reportError(fileError, { seq: word.seq ?? "", src: src ?? "", reason: "audio-and-tts-failed" });
-    throw fileError instanceof Error ? fileError : new Error("audio failed");
+  try {
+    await playFile(src);
+  } catch (error) {
+    reportError(error, { seq: word.seq ?? "", src, reason: "audio-failed" });
+    throw error instanceof Error ? error : new Error("audio failed");
   }
 }
 
-export function playAudio(src: string, speak = ""): Promise<void> {
-  return playWord({ soundUrl: src, jeju: speak });
+export function playAudio(src: string, _speak = ""): Promise<void> {
+  return playWord({ soundUrl: src, jeju: "" });
 }
