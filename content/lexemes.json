@@ -2897,7 +2897,6 @@
     "standard": "미역",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p013l-y03463",
@@ -2915,7 +2914,6 @@
     "standard": "모양",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p013r-y01475",
@@ -2933,7 +2931,6 @@
     "standard": "모레",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p013r-y02599",
@@ -3088,7 +3085,6 @@
     "standard": "고둥",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p015l-y04798",
@@ -4308,7 +4304,6 @@
     "standard": "쪽",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p025r-y02072",
@@ -4380,7 +4375,6 @@
     "standard": "너희",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p026r-y00582",
@@ -4400,7 +4394,6 @@
     "standard": "무엇",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p027l-y00573",
@@ -4423,7 +4416,6 @@
     "standard": "얘",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p027l-y01694",
@@ -4441,7 +4433,6 @@
     "standard": "언제",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p027l-y02455",
@@ -4479,7 +4470,6 @@
     "standard": "이쪽",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p027r-y02465",
@@ -4517,7 +4507,6 @@
     "standard": "쟤",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p027r-y04662",
@@ -4535,7 +4524,6 @@
     "standard": "저쪽",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p028l-y01515",
@@ -7459,7 +7447,6 @@
     "standard": "그냥",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p050l-y00581",
@@ -7612,7 +7599,6 @@
     "standard": "폭삭",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p051l-y00586",
@@ -7649,7 +7635,6 @@
     "standard": "아무리",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p051l-y02990",
@@ -8111,7 +8096,6 @@
     "standard": "지렁이",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p055r-y03038",
@@ -8129,7 +8113,6 @@
     "standard": "구멍",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p055r-y03779",
@@ -8168,7 +8151,6 @@
     "standard": "수풀",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p056l-y00586",
@@ -9706,7 +9688,6 @@
     "standard": "수수께끼",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p068l-y04365",
@@ -9781,7 +9762,6 @@
     "standard": "자리돔",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p069l-y04887",
@@ -11219,7 +11199,6 @@
     "standard": "던지다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p079l-y03467",
@@ -14478,7 +14457,6 @@
     "standard": "이제야",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099r-y03517",
@@ -14496,7 +14474,6 @@
     "standard": "아까",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099r-y04260",
@@ -14532,7 +14509,6 @@
     "standard": "줄줄",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p100l-y01337",
@@ -14550,7 +14526,6 @@
     "standard": "빨리",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p100l-y02247",
@@ -14568,7 +14543,6 @@
     "standard": "겨우",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p100l-y03542",
@@ -14622,7 +14596,6 @@
     "standard": "주렁주렁",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p100r-y03006",
@@ -14753,7 +14726,6 @@
     "standard": "그럼",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p101r-y01785",
