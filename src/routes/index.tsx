@@ -90,6 +90,12 @@ function Home() {
               <span className="font-normal opacity-80">실제 대화 10편</span>
             </Link>
           </Button>
+          <Button asChild size="lg" variant="outline" className="w-full justify-between">
+            <Link to="/culture">
+              <span>제주 문화어</span>
+              <span className="font-normal opacity-80">뜻 찾아보기 25개</span>
+            </Link>
+          </Button>
         </CardContent>
       </Card>
 

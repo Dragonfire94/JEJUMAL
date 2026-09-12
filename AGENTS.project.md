@@ -69,6 +69,7 @@ npx eslint .
 npx vitest run                                     # 42개 통과 기대
 node --test 'scripts/**/*.test.mjs'                # 184/193 통과 기대(9개는 기존 실패, og:title 메타 관련, 무관)
 node scripts/audit-word-usage.mjs --out data/aihub/word-usage-audit.json   # 콘텐츠 seq를 바꿨으면 재실행
+node scripts/build-culture.mjs                     # content/culture-items.json을 고쳤으면 재실행
 ```
 
 전부 통과(또는 기존과 동일한 기존 실패만 남음)한 뒤에만 커밋한다.
@@ -120,3 +121,9 @@ node scripts/audit-word-usage.mjs --out data/aihub/word-usage-audit.json   # 콘
   임의 동의어로 만들지 말고, 공식 definition에서 직접 도출한 concise
   learner gloss를 사용하며 no-equivalent provenance를 유지한다
   (`DATA.md`의 "`standard` 필드와 '표준어 대응 없음' 항목" 참고).
+- **제주 문화어(Culture Track)는 `content/culture-items.json`이
+  source of truth다.** main `content/lexemes.json`/`content/units.json`에
+  직접 섞지 않는다 — main 유닛/퀴즈 오답 pool/SRS 복습 큐 어디에도
+  들어가면 안 된다(`docs/3c3b-culture-track-contract.md`,
+  `scripts/culture-isolation.test.mjs` 참고). 새 문화어를 넣을 땐
+  `node scripts/build-culture.mjs`로 검증·재생성한다.

@@ -13,6 +13,8 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as ReviewRouteImport } from './routes/review'
 import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as StatsRouteImport } from './routes/stats'
+import { Route as CultureIndexRouteImport } from './routes/culture.index'
+import { Route as CultureIdRouteImport } from './routes/culture.$id'
 import { Route as LearnUnitIdRouteImport } from './routes/learn.$unitId'
 import { Route as LifeDialectIndexRouteImport } from './routes/life-dialect.index'
 import { Route as LifeDialectIdRouteImport } from './routes/life-dialect.$id'
@@ -37,6 +39,16 @@ const StatsRoute = StatsRouteImport.update({
   path: '/stats',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CultureIndexRoute = CultureIndexRouteImport.update({
+  id: '/culture/',
+  path: '/culture/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CultureIdRoute = CultureIdRouteImport.update({
+  id: '/culture/$id',
+  path: '/culture/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LearnUnitIdRoute = LearnUnitIdRouteImport.update({
   id: '/learn/$unitId',
   path: '/learn/$unitId',
@@ -58,8 +70,10 @@ export interface FileRoutesByFullPath {
   '/review': typeof ReviewRoute
   '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
+  '/culture/$id': typeof CultureIdRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
   '/life-dialect/$id': typeof LifeDialectIdRoute
+  '/culture/': typeof CultureIndexRoute
   '/life-dialect/': typeof LifeDialectIndexRoute
 }
 export interface FileRoutesByTo {
@@ -67,8 +81,10 @@ export interface FileRoutesByTo {
   '/review': typeof ReviewRoute
   '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
+  '/culture/$id': typeof CultureIdRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
   '/life-dialect/$id': typeof LifeDialectIdRoute
+  '/culture': typeof CultureIndexRoute
   '/life-dialect': typeof LifeDialectIndexRoute
 }
 export interface FileRoutesById {
@@ -77,8 +93,10 @@ export interface FileRoutesById {
   '/review': typeof ReviewRoute
   '/settings': typeof SettingsRoute
   '/stats': typeof StatsRoute
+  '/culture/$id': typeof CultureIdRoute
   '/learn/$unitId': typeof LearnUnitIdRoute
   '/life-dialect/$id': typeof LifeDialectIdRoute
+  '/culture/': typeof CultureIndexRoute
   '/life-dialect/': typeof LifeDialectIndexRoute
 }
 export interface FileRouteTypes {
@@ -88,8 +106,10 @@ export interface FileRouteTypes {
     | '/review'
     | '/settings'
     | '/stats'
+    | '/culture/$id'
     | '/learn/$unitId'
     | '/life-dialect/$id'
+    | '/culture/'
     | '/life-dialect/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -97,8 +117,10 @@ export interface FileRouteTypes {
     | '/review'
     | '/settings'
     | '/stats'
+    | '/culture/$id'
     | '/learn/$unitId'
     | '/life-dialect/$id'
+    | '/culture'
     | '/life-dialect'
   id:
     | '__root__'
@@ -106,8 +128,10 @@ export interface FileRouteTypes {
     | '/review'
     | '/settings'
     | '/stats'
+    | '/culture/$id'
     | '/learn/$unitId'
     | '/life-dialect/$id'
+    | '/culture/'
     | '/life-dialect/'
   fileRoutesById: FileRoutesById
 }
@@ -116,8 +140,10 @@ export interface RootRouteChildren {
   ReviewRoute: typeof ReviewRoute
   SettingsRoute: typeof SettingsRoute
   StatsRoute: typeof StatsRoute
+  CultureIdRoute: typeof CultureIdRoute
   LearnUnitIdRoute: typeof LearnUnitIdRoute
   LifeDialectIdRoute: typeof LifeDialectIdRoute
+  CultureIndexRoute: typeof CultureIndexRoute
   LifeDialectIndexRoute: typeof LifeDialectIndexRoute
 }
 
@@ -151,6 +177,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof StatsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/culture/': {
+      id: '/culture/'
+      path: '/culture'
+      fullPath: '/culture/'
+      preLoaderRoute: typeof CultureIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/culture/$id': {
+      id: '/culture/$id'
+      path: '/culture/$id'
+      fullPath: '/culture/$id'
+      preLoaderRoute: typeof CultureIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/learn/$unitId': {
       id: '/learn/$unitId'
       path: '/learn/$unitId'
@@ -180,8 +220,10 @@ const rootRouteChildren: RootRouteChildren = {
   ReviewRoute: ReviewRoute,
   SettingsRoute: SettingsRoute,
   StatsRoute: StatsRoute,
+  CultureIdRoute: CultureIdRoute,
   LearnUnitIdRoute: LearnUnitIdRoute,
   LifeDialectIdRoute: LifeDialectIdRoute,
+  CultureIndexRoute: CultureIndexRoute,
   LifeDialectIndexRoute: LifeDialectIndexRoute,
 }
 export const routeTree = rootRouteImport

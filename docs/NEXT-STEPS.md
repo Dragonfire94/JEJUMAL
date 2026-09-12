@@ -82,9 +82,39 @@ POS 유지 + 정확한 원자료 품사가 필요하면 `bookMeta.posLabel` 사�
 `determiner` 신설)은 지금 하지 않는다 — 26건의 top-level
 `partOfSpeech`도 그대로 둔다.
 
-남은 순서:
+### A-3.6. 3C — 신규 71개 개별 선별 및 반영 — **COMPLETE**
 
-- 3C: 신규 71개 중 실제 앱 핵심 단어로 넣을 것 개별 선별
+`docs/new-71-living-vocab-audit.md`(3C-1~3C-1.2) → `docs/3c2-vocab-integration-design.md`(3C-2) →
+`docs/3c2-1-core-placement-validation.md`(3C-2.1) 순서로 71개
+신규 후보를 감사하고 통합 방식을 설계한 뒤, 다음을 실제 반영했다.
+
+- **CORE_ADD 2개**(`삼춘`, `나냥으로`) — main curriculum에 실제
+  반영 완료(3C-3A). 자리 확보를 위해 `저펜`(90128)·`어느제2`(90294)를
+  하드 삭제하지 않고 `pendingPlacement: true`로 되돌렸다
+  (3C-3A/3C-3A.1). `standard`가 없는 2025 source 항목의 learner
+  gloss 정책도 이때 확정했다(`DATA.md` 참고).
+- **CULTURE_ADD 25개** — main 100유닛에 섞지 않고 별도
+  Culture Track(`content/culture-items.json` → `scripts/build-culture.mjs` →
+  `src/data/culture-items.json` → `/culture`, `/culture/$id`)으로
+  구현 완료(3C-3B 설계 → 3C-3B.1/3C-3B.2 PUA 선행 이슈 해소 →
+  3C-3C 구현). main 유닛/퀴즈/SRS와 완전히 분리돼 있다
+  (`docs/3c3b-culture-track-contract.md`, `docs/3c3c-culture-track-mvp.md`).
+- **HOLD 34개 / DO_NOT_ADD 10개** — 이번 반영 대상 아님(근거는
+  `docs/new-71-living-vocab-audit.md` 참고), 향후 근거가 바뀌면
+  재검토 가능.
+
+**Post-3C backlog**(3C 완료의 blocker 아님, 후속 별도 작업):
+
+- Culture 25개 `learnerGloss` 사람 검수(현재 전부
+  `pendingGloss: true`, 상세 화면은 definition 원문으로 대체)
+- Culture 전용 progress(`cultureProgress`, 열람 여부 저장) 실제 구현
+- Culture 전용 quiz
+- 풍부한 문화 해설(`culturalNote`/`culturalSources` 실채움, 공식
+  출처 확보 필요)
+- 이미지/사진
+- 공식 음원
+- bookmark
+- life-dialect ↔ culture 양방향 UI 통합
 
 ### A-4. (참고용, 액션 불필요) same_meaning_different_form 나머지
 
