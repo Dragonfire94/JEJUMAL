@@ -116,3 +116,7 @@ node scripts/audit-word-usage.mjs --out data/aihub/word-usage-audit.json   # 콘
   되거나, 신규 데이터에서 이 문제가 반복 증가하거나, UI가 세부 품사를
   직접 가르치게 될 때 재검토한다(현재 신규 후보 71개에는 의존명사·
   관형사가 0건이라 스키마를 지금 늘릴 근거가 없다).
+- 2025 source가 `has_standard_equivalent:false`이면 `standard`를
+  임의 동의어로 만들지 말고, 공식 definition에서 직접 도출한 concise
+  learner gloss를 사용하며 no-equivalent provenance를 유지한다
+  (`DATA.md`의 "`standard` 필드와 '표준어 대응 없음' 항목" 참고).
