@@ -45,3 +45,80 @@ test("유닛은 정확히 100개, 유닛당 8~10개, 표제어 원장은 그보�
   const wordsInUnits = bundle.units.reduce((sum, u) => sum + u.wordSeqs.length, 0);
   assert.ok(bundle.lexemes.length >= wordsInUnits);
 });
+
+function syntheticLexeme(seq, reviewStatus) {
+  const lexeme = {
+    seq,
+    jeju: `jeju-${seq}`,
+    standard: `std-${seq}`,
+    partOfSpeech: "noun",
+  };
+  if (reviewStatus) lexeme.reviewStatus = reviewStatus;
+  return lexeme;
+}
+
+function syntheticBundle(lexemes) {
+  return {
+    units: [
+      {
+        id: "u1",
+        title: "synthetic",
+        themeId: "theme",
+        rankIndex: 0,
+        order: 1,
+        wordSeqs: lexemes.map((l) => l.seq),
+      },
+    ],
+    lexemes,
+    examples: [],
+  };
+}
+
+test("assembleUnits omits blocked lexemes from runtime words", () => {
+  const bundle = syntheticBundle([
+    syntheticLexeme("1", "approved"),
+    syntheticLexeme("2", "blocked"),
+    syntheticLexeme("3", "provisional"),
+  ]);
+  const units = assembleUnits(bundle);
+  assert.deepEqual(
+    units[0].words.map((w) => w.seq),
+    ["1", "3"],
+  );
+  assert.equal(units[0].words.filter((w) => w.reviewStatus === "blocked").length, 0);
+});
+
+test("assembleUnits keeps approved, provisional, and unset reviewStatus", () => {
+  const bundle = syntheticBundle([
+    syntheticLexeme("1", "approved"),
+    syntheticLexeme("2", "provisional"),
+    syntheticLexeme("3"),
+  ]);
+  const units = assembleUnits(bundle);
+  assert.deepEqual(
+    units[0].words.map((w) => w.seq),
+    ["1", "2", "3"],
+  );
+  assert.equal(units[0].words[0].reviewStatus, "approved");
+  assert.equal(units[0].words[1].reviewStatus, "provisional");
+  assert.equal(units[0].words[2].reviewStatus, undefined);
+});
+
+test("current real dataset has no blocked runtime words and rebuild stays stable", () => {
+  const bundle = validateBundle(loadContentBundle());
+  const rebuilt = assembleUnits(bundle);
+  const committed = JSON.parse(readFileSync(UNITS_PATH, "utf8"));
+  const sourceBlocked = bundle.lexemes.filter((l) => l.reviewStatus === "blocked").length;
+  const assignedBlocked = bundle.units.reduce(
+    (n, u) => n + u.wordSeqs.filter((seq) => bundle.lexemes.find((l) => l.seq === seq)?.reviewStatus === "blocked").length,
+    0,
+  );
+  const generatedBlocked = rebuilt.flatMap((u) => u.words).filter((w) => w.reviewStatus === "blocked").length;
+  assert.equal(generatedBlocked, 0);
+  if (sourceBlocked === 0 && assignedBlocked === 0) {
+    const assignedWords = bundle.units.reduce((n, u) => n + u.wordSeqs.length, 0);
+    const generatedWords = rebuilt.reduce((n, u) => n + u.words.length, 0);
+    assert.equal(generatedWords, assignedWords);
+    assert.deepEqual(rebuilt, committed);
+  }
+});
