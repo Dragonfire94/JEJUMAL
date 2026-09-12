@@ -7155,5 +7155,455 @@
       "naturalness": "provisional",
       "translation": "approved"
     }
+  },
+  {
+    "id": "90068-1",
+    "seq": "90068",
+    "jeju": "비바리, 씨집 보내키옌 마씀.",
+    "standard": "처녀, 시집 보내겠다고 말합니다.",
+    "source": {
+      "type": "official",
+      "sourceId": "life-dialect-62"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90070-1",
+    "seq": "90070",
+    "jeju": "아덜 마씀!",
+    "standard": "아들 입니다!",
+    "source": {
+      "type": "official",
+      "sourceId": "life-dialect-29"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90675-1",
+    "seq": "90675",
+    "jeju": "피디꽈 삼춘?",
+    "standard": "피디예요 어르신?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20002232"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90055-1",
+    "seq": "90055",
+    "jeju": "어떤 셋아방?",
+    "standard": "어떤 둘째아버지?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20000090"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90412-1",
+    "seq": "90412",
+    "jeju": "아니 게 장개 안 갔나?",
+    "standard": "아니 그러니까 장가 안 갔나?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZJD20000348"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90323-1",
+    "seq": "90323",
+    "jeju": "근데 곤떡이라고 해요?",
+    "standard": "근데 흰떡이라고 해요?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZES20000708"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90336-1",
+    "seq": "90336",
+    "jeju": "무사 집에들 꿰는 어수꽈?",
+    "standard": "왜 집에들 깨는 없습니까?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20002117"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90421-1",
+    "seq": "90421",
+    "jeju": "지름떡도 허여? 지금도?",
+    "standard": "기름떡도 해? 지금도?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20002158"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90159-1",
+    "seq": "90159",
+    "jeju": "눌르믄 된다고?",
+    "standard": "누르면 된다고?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20002991"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90559-1",
+    "seq": "90559",
+    "jeju": "뭐 저 푸더젼?",
+    "standard": "뭐 저 넘어졌어?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20002452"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90297-1",
+    "seq": "90297",
+    "jeju": "아 옆에 탁구공이 이레 들어온 거라게.",
+    "standard": "아 옆에 탁구공이 이리 들어온 거야.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000382",
+      "originalText": {
+        "jeju": "아 옆에 탁구공이 이레 들어온 거라게",
+        "standard": "아 옆에 탁구공이 이리 들어온 거야"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90134-1",
+    "seq": "90134",
+    "jeju": "일곱 개 해신디.",
+    "standard": "일곱 개 했는데.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20001030",
+      "originalText": {
+        "jeju": "일곱 개 해신디",
+        "standard": "일곱 개 했는데"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90131-1",
+    "seq": "90131",
+    "jeju": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 너이.",
+    "standard": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 넷.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20001653",
+      "originalText": {
+        "jeju": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 너이",
+        "standard": "우리 이제 모슬포에 사는 나 위에 오빠하고 나하고 우리 동생하고 넷"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90325-1",
+    "seq": "90325",
+    "jeju": "나가 구신이더라.",
+    "standard": "내가 귀신이더라.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000541",
+      "originalText": {
+        "jeju": "나가 구신이더라",
+        "standard": "내가 귀신이더라"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90341-1",
+    "seq": "90341",
+    "jeju": "우리 옛날에 성님 낭푼에 밥 먹었수게.",
+    "standard": "우리 옛날에 형님 양푼에 밥 먹었잖아요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000896",
+      "originalText": {
+        "jeju": "우리 옛날에 성님 낭푼에 밥 먹었수게",
+        "standard": "우리 옛날에 형님 양푼에 밥 먹었잖아요"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90156-1",
+    "seq": "90156",
+    "jeju": "후라이팬에 한번 끌려.",
+    "standard": "후라이팬에 한번 끓여.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000886",
+      "originalText": {
+        "jeju": "후라이팬에 한번 끌려",
+        "standard": "후라이팬에 한번 끓여"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90157-1",
+    "seq": "90157",
+    "jeju": "에이 고기 나끄는 사람이야.",
+    "standard": "에이 고기 낚는 사람이야.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20001814",
+      "originalText": {
+        "jeju": "에이 고기 나끄는 사람이야",
+        "standard": "에이 고기 낚는 사람이야"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90190-1",
+    "seq": "90190",
+    "jeju": "이제 그러니까 아 나 무슨 말하당 잊어먹었네.",
+    "standard": "이제 그러니까 아 나 무슨 말하다 잊어버렸네.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20001496",
+      "originalText": {
+        "jeju": "이제 그러니까 아 나 무슨 말하당 잊어먹었네",
+        "standard": "이제 그러니까 아 나 무슨 말하다 잊어버렸네"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90238-1",
+    "seq": "90238",
+    "jeju": "그거 맛엇댄 이모가 지가 만든게 맛좋댄.",
+    "standard": "그거 맛없대 이모가 자기가 만든게 맛있대.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20001140",
+      "originalText": {
+        "jeju": "그거 맛엇댄 이모가 지가 만든게 맛좋댄",
+        "standard": "그거 맛없대 이모가 자기가 만든게 맛있대"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90418-1",
+    "seq": "90418",
+    "jeju": "족은집에 가면 또 족은집에 제사로 이어지는 거랜.",
+    "standard": "작은집에 가면 또 작은집에 제사로 이어지는 거래.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002242",
+      "originalText": {
+        "jeju": "족은집에 가면 또 족은집에 제사로 이어지는 거랜",
+        "standard": "작은집에 가면 또 작은집에 제사로 이어지는 거래"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90057-1",
+    "seq": "90057",
+    "jeju": "냉 김치 냉장고 소곱에 담안놔둰.",
+    "standard": "냉 김치 냉장고 속에 담아뒀어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000693",
+      "originalText": {
+        "jeju": "냉 김치 냉장고 소곱에 담안놔둰",
+        "standard": "냉 김치 냉장고 속에 담아뒀어"
+      },
+      "editReason": "말뭉치 원문에 마침표만 보강. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90419-1",
+    "seq": "90419",
+    "jeju": "아이고 나는 주넹이만 잡아서?",
+    "standard": "아이고 나는 지네만 잡았어?",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES21001236",
+      "originalText": {
+        "jeju": "아이고 나는 주넹이만 잡아서? 벌도 잡아그넹 폴았수다. 포 포는 건 아니지만 이거 잡는 방법 알아져?",
+        "standard": "아이고 나는 지네만 잡았어? 벌도 잡아가지고 팔았습니다. 포 파는 건 아니지만 이거 잡는 방법 알아져?"
+      },
+      "editReason": "말뭉치 원문의 첫 질문만 학습 문장으로 씀. 표기 변경 없음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90061-1",
+    "seq": "90061",
+    "jeju": "마씀이 좋을거 닮은게 몬딱 심 내게마씀.",
+    "standard": "말씀이 좋을 것 같아요. 모두 힘내요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000068",
+      "originalText": {
+        "jeju": "마씀이 좋을거 닮은게 몬딱 심 내게마씀",
+        "standard": "마씀이 좋을거 같아요 모두 힘 냅시다"
+      },
+      "editReason": "말뭉치 원문에 마침표를 보강하고, 표준어를 자연스럽게 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90158-1",
+    "seq": "90158",
+    "jeju": "가신디 나 공항에서 깜짝 놀래부런.",
+    "standard": "갔는데 나 공항에서 깜짝 놀랐어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000617",
+      "originalText": {
+        "jeju": "가신디 나 공항에서 깜짝 놀래부런",
+        "standard": "갔는데 나 공항에서 깜짝 놀랬어"
+      },
+      "editReason": "말뭉치 원문에 마침표를 보강하고, 표준어 표기를 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90555-1",
+    "seq": "90555",
+    "jeju": "예 쿰었져.",
+    "standard": "예, 품었어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20001268",
+      "originalText": {
+        "jeju": "예 쿰었져",
+        "standard": "예 품었다"
+      },
+      "editReason": "말뭉치 원문에 마침표를 보강하고, 표준어 종결을 구어로 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
   }
 ]

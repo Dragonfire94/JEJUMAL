@@ -3196,7 +3196,6 @@
     "standard": "둘째아버지",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p017l-y00586",
@@ -3232,7 +3231,6 @@
     "standard": "속",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p017l-y03344",
@@ -3304,7 +3302,6 @@
     "standard": "힘",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p018l-y01331",
@@ -3438,7 +3435,6 @@
     "standard": "시집",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p018r-y03573",
@@ -3475,7 +3471,6 @@
     "standard": "아들",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p019l-y01674",
@@ -4600,7 +4595,6 @@
     "standard": "넷",
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p028r-y03143",
@@ -4663,7 +4657,6 @@
     "standard": "일곱",
     "partOfSpeech": "number",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p029l-y02160",
@@ -5092,7 +5085,6 @@
     "standard": "끓이다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p031l-y04110",
@@ -5110,7 +5102,6 @@
     "standard": "낚다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p031l-y04859",
@@ -5128,7 +5119,6 @@
     "standard": "놀라다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p031r-y01330",
@@ -5148,7 +5138,6 @@
     "standard": "누르다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p031r-y03360",
@@ -5694,7 +5683,6 @@
     "standard": "잊어버리다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p037l-y03833",
@@ -6588,7 +6576,6 @@
     "standard": "맛없다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p043l-y02083",
@@ -7708,7 +7695,6 @@
     "standard": "이리",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p051r-y02835",
@@ -8193,7 +8179,6 @@
     "standard": "흰떡",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p056l-y02997",
@@ -8229,7 +8214,6 @@
     "standard": "귀신",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p056r-y03674",
@@ -8443,7 +8427,6 @@
     "standard": "깨",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p058l-y04399",
@@ -8535,7 +8518,6 @@
     "standard": "양푼",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p059l-y00586",
@@ -9799,7 +9781,6 @@
     "standard": "장가",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p069r-y02270",
@@ -9917,7 +9898,6 @@
     "standard": "작은집",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p070r-y02820",
@@ -9935,7 +9915,6 @@
     "standard": "지네",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p070r-y04521",
@@ -9973,7 +9952,6 @@
     "standard": "기름떡",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p071l-y02995",
@@ -12495,7 +12473,6 @@
     "standard": "품다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p087r-y01322",
@@ -12570,7 +12547,6 @@
     "standard": "넘어지다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p088l-y02268",
@@ -14786,7 +14762,6 @@
     "standard": "삼촌·연장자 호칭",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p016l-y01491",
