@@ -9403,6 +9403,7 @@
     "standard": "띠",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p065r-y02673",
@@ -9456,6 +9457,7 @@
     "standard": "샘",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066l-y01335",
@@ -9490,6 +9492,7 @@
     "standard": "속옷",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066l-y03883",
@@ -11140,6 +11143,7 @@
     "standard": "깔다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p078r-y01333",
@@ -11157,6 +11161,7 @@
     "standard": "눕다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p078r-y03018",
@@ -11981,6 +11986,7 @@
     "standard": "빼다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p083r-y02088",
@@ -12015,6 +12021,7 @@
     "standard": "섞다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p084l-y00594",
