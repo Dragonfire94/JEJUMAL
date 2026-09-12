@@ -9512,6 +9512,7 @@
     "standard": "흉년",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066r-y02591",
@@ -9529,6 +9530,7 @@
     "standard": "제삿집",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p067l-y02358",
@@ -14423,6 +14425,7 @@
     "standard": "시끌벅적",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
+    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099l-y03298",
