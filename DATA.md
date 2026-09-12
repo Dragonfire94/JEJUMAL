@@ -68,6 +68,38 @@ source의 `has_standard_equivalent` 값에 따라 채우는 방법이 다르다.
   각각의 핵심어를 짧게 병기), `나냥으로` → `내 힘으로`(source
   definition "나 자신의 힘으로."를 압축).
 
+## 제주 문화어 (Culture Track) — 메인 1,000단어와 별개
+
+3C-1.2에서 `CULTURE_ADD`로 확정한 25개(오름·올레·테왁·ᄆᆞᆷ국 등)는
+"생활에서 자주 쓰는 말"이 아니라 "제주를 이해하는 데 중요한 문화어"라
+메인 100유닛 curriculum에 넣지 않는다(`docs/3c3b-culture-track-contract.md`
+참고). life-dialect와 같은 패턴으로 완전히 별도 표면이다:
+
+```text
+content/culture-items.json   ← 사람이 고치는 원장(25개)
+        │  node scripts/build-culture.mjs (Zod 검증 + vocab.json provenance 대조
+        │                                    + main units/life-dialect build-time candidate 링크)
+        ▼
+src/data/culture-items.json  ← 빌드 산출물
+        │
+        ▼
+/culture, /culture/$id       ← 열람 전용 라우트
+```
+
+- main 유닛/퀴즈 오답 pool/SRS 복습 큐 어디에도 들어가지 않는다
+  (`src/lib/units.ts`의 `units`에 없음 → `src/lib/quiz.ts`의
+  `allWords`에도 자동으로 없음).
+- 25개 전부 `has_standard_equivalent: false`라 `learnerGloss`는
+  아직 사람 검수 전(`learnerGloss: null`, `pendingGloss: true`) —
+  상세 화면은 이 경우 gloss 영역을 숨기고 2025 source `definition`
+  원문만 보여준다.
+- `hasAudio: false`인 현재 25개는 재생 버튼 자체를 렌더하지 않는다
+  — main처럼 로컬 파일→TTS 폴백으로 넘어가면 옛한글/문화어 발음이
+  일반 한국어 TTS로 근사돼 공식 발음처럼 오인될 위험이 있어서다.
+- main lexeme·life-dialect와의 연결(`relatedMainLexemeSeqs`/
+  `relatedLifeDialectIds`)은 build-time 문자열 매칭으로만 계산하고
+  항상 `status: "candidate"`다 — 레코드를 합치지 않는다.
+
 ### 왜 정확히 1,000개가 아닌가
 
 1,000단어 전부가 "사전에서만 보는 말"이 아니라 실제로 쓰이는 말인지
