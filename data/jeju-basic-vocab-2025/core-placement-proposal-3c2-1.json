@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "stage": "3C-2.1",
+  "status": "proposal_only_not_applied",
+  "note": "이 파일은 제안 아티팩트다. content/lexemes.json, content/units.json에는 아무 변경도 적용하지 않았다.",
+  "capacitySnapshot": {
+    "units": 100,
+    "placed": 989,
+    "pending": 57,
+    "freeSlots": 11,
+    "totalLexemes": 1046
+  },
+  "relocationChainsInvestigated": [
+    {
+      "hypothesis": "자파리(5404, people-4) → life-7(놀이)",
+      "outcome": "rejected",
+      "reason": "life-7의 실제 구성원 9개 중 '놀이/장난' 개념과 일치하는 단어가 0개. 유닛 제목만 같을 뿐 실제 학습 개념 군집이 아님. 자파리 자체도 confirmed(exactHits 13) + 손수 작성된 예문(5404-1) 보유로 이동/제거 비용이 높음."
+    },
+    {
+      "hypothesis": "people-3/people-4의 다른 misfit 단어를 9개 자유 슬롯 유닛으로 이동",
+      "outcome": "rejected",
+      "reason": "9개 자유 슬롯 유닛(people-8/body-2/body-7/food-3/food-7/verbs-8/verbs-9/home(adj-8)/life-7)의 실제 구성원을 전수 확인한 결과 이름과 실제 내용이 이미 어긋나 있어(body-2='몸' 제목인데 마지막/모레/모자/마을 등 무관 단어 7/8, food-7='술' 제목인데 술 관련 단어 0/8) 방향대명사·호칭어와 자연스럽게 맞는 이동처가 없음."
+    },
+    {
+      "hypothesis": "talk-3/talk-4의 다른 misfit 부사를 9개 자유 슬롯 유닛으로 이동",
+      "outcome": "rejected",
+      "reason": "위와 동일한 이유. 자유 슬롯 유닛 어디에도 부사 개념과 자연스럽게 맞는 자리가 없음."
+    }
+  ],
+  "coreWords": [
+    {
+      "candidate": "삼춘",
+      "stableId": "jbv2025-p016l-y01491",
+      "action": "REPLACE_EXISTING",
+      "targetUnit": "people-4",
+      "targetUnitTitle": "별칭",
+      "affectedExistingWord": {
+        "seq": "90128",
+        "jeju": "저펜",
+        "standard": "저편",
+        "disposition": "set pendingPlacement=true (하드 삭제 아님, content/lexemes.json에는 남김)"
+      },
+      "rejectedReplacementCandidates": [
+        { "seq": "5404", "jeju": "자파리", "reason": "confirmed 사용 근거(exactHits 13) + 손수 작성 예문 보유, 단일 근거(주제 애매)만으로 교체 불가" },
+        { "seq": "2733", "jeju": "장시", "reason": "confirmed 사용 근거(exactHits 4) + 손수 작성 예문 보유" }
+      ],
+      "safeReplaceCriteria": {
+        "themeMismatch": true,
+        "duplicateElsewhere": "이짝(90124)/저짝(90126)/이펜(90125)과 '이쪽/저쪽' 개념 중복",
+        "weakUsageEvidence": "unconfirmed, exactHits 0, inflectedHits 0, lifeDialectHits 0",
+        "noInvestedContent": "pendingExample: true, 예문 없음"
+      },
+      "relocateAndAddFeasible": false
+    },
+    {
+      "candidate": "나냥으로",
+      "stableId": "jbv2025-p097l-y02236",
+      "action": "REPLACE_EXISTING",
+      "targetUnit": "talk-3",
+      "targetUnitTitle": "표현",
+      "affectedExistingWord": {
+        "seq": "90294",
+        "jeju": "어느제2",
+        "standard": "언제",
+        "disposition": "set pendingPlacement=true (하드 삭제 아님, content/lexemes.json에는 남김)"
+      },
+      "rejectedReplacementCandidates": [
+        { "seq": "90291", "jeju": "복삭", "reason": "3C-2에서는 약한 후보로 추정했으나 재조사 결과 confirmed(exactHits 17) — 교체 대상에서 제외" },
+        { "seq": "90297", "jeju": "이레1", "reason": "unconfirmed(exact 0)이나 어느제2처럼 원자료 정의가 기존 단어와 동일하다는 확정적 중복 근거는 없음 — 어느제2보다 근거 약함" },
+        { "seq": "90298", "jeju": "저레", "reason": "rare(exact 1), 위와 동일한 이유로 어느제2보다 근거 약함" }
+      ],
+      "safeReplaceCriteria": {
+        "themeMismatch": false,
+        "duplicateElsewhere": "people-3의 어느제1(90122)과 원자료(bookMeta.definition) 정의가 사실상 동일 — 확정적 중복",
+        "weakUsageEvidence": "unconfirmed, exactHits 0",
+        "noInvestedContent": "pendingExample: true, 예문 없음"
+      },
+      "relocateAndAddFeasible": false
+    }
+  ],
+  "projectedCountsIfImplemented": {
+    "softDemoteVariant_recommended": {
+      "placed": 989,
+      "pending": 59,
+      "totalLexemes": 1048
+    },
+    "hardDeleteVariant_notRecommended": {
+      "placed": 989,
+      "pending": 57,
+      "totalLexemes": 1046
+    }
+  }
+}
