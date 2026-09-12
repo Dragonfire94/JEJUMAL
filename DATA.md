@@ -24,7 +24,7 @@ src/data/units.json                     ← 앱이 실제로 읽는 빌드 산�
 - 2차 출처(2025년 추가): 제주학연구센터 <아보카, 제주어 기본어휘>(제주학총서 84) —
   구술 말뭉치 빈도 분석으로 뽑은 초급·중급 어휘. 자세한 내용과 한계는
   `data/jeju-basic-vocab-2025/README.md` 참고.
-- 지금 규모: `content/lexemes.json`에 1,046개 표제어가 있고, 그 중 989개가
+- 지금 규모: `content/lexemes.json`에 1,048개 표제어가 있고, 그 중 989개가
   100유닛(유닛당 8~10개)에 배정돼 실제 화면에 나옵니다. 나머지는 유닛
   배치를 기다리는 대기 상태(`pendingPlacement`)입니다.
 - 발음 파일은 `public/audio/{seq}.mp3`에 받아 두었습니다. 앱은 도청 서버를 부르지 않습니다.
@@ -47,6 +47,26 @@ src/data/units.json                     ← 앱이 실제로 읽는 빌드 산�
   확장할 필요는 없다고 결론지었다(안 C 채택). 향후 품사를 화면에
   표시하게 되면 `bookMeta.posLabel`이 있으면 그걸 우선 쓰고, 없을
   때만 `partOfSpeech`의 한국어 라벨로 대체한다.
+
+### `standard` 필드와 "표준어 대응 없음" 항목
+
+`standard`는 근본적으로 **학습자에게 보여주는 짧은 한국어 의미
+라벨**이다(공식 표준어 사전 대응어 여부와는 별개 개념). 2025 기본어휘
+source의 `has_standard_equivalent` 값에 따라 채우는 방법이 다르다.
+
+- `has_standard_equivalent: true` → source가 제공한 표준어 대응어를
+  그대로 쓴다(지금까지 반영한 655개 대부분이 이 경우).
+- `has_standard_equivalent: false` → source에 1:1 표준어 대응어가
+  없다는 뜻이다. 이때 `standard`에는 **공식 definition에서 직접
+  도출한 짧고 보수적인 한국어 gloss**를 쓴다 — 새 뜻을 지어내거나
+  AI Hub 의미 앵커를 그대로 복사하지 않는다. 이 값을 "공식 표준어
+  대응어"라고 부르지 않는다. `has_standard_equivalent: false`라는
+  source 사실은 `data/jeju-basic-vocab-2025/vocab.json` 원본에
+  그대로 남아 있다 — `bookMeta`에는 이를 저장하는 별도 필드가
+  없으므로 새로 만들지 않고 이 문서로 정책만 남긴다.
+- 예시(3C-3A, 두 사례뿐): `삼춘` → `삼촌·연장자 호칭`(source 두 의미
+  각각의 핵심어를 짧게 병기), `나냥으로` → `내 힘으로`(source
+  definition "나 자신의 힘으로."를 압축).
 
 ### 왜 정확히 1,000개가 아닌가
 

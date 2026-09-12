@@ -693,11 +693,11 @@
         "hasAudio": false
       },
       {
-        "seq": "90128",
-        "jeju": "저펜",
-        "standard": "저편",
-        "soundUrl": "/audio/90128.mp3",
-        "partOfSpeech": "pronoun",
+        "seq": "90675",
+        "jeju": "삼춘",
+        "standard": "삼촌·연장자 호칭",
+        "soundUrl": "/audio/90675.mp3",
+        "partOfSpeech": "noun",
         "examples": [],
         "reviewStatus": "provisional",
         "pendingExample": true,
@@ -1841,10 +1841,10 @@
         "hasAudio": false
       },
       {
-        "seq": "90294",
-        "jeju": "어느제2",
-        "standard": "언제",
-        "soundUrl": "/audio/90294.mp3",
+        "seq": "90676",
+        "jeju": "나냥으로",
+        "standard": "내 힘으로",
+        "soundUrl": "/audio/90676.mp3",
         "partOfSpeech": "adverb",
         "examples": [],
         "reviewStatus": "provisional",
