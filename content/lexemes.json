@@ -639,7 +639,9 @@
     "seq": "2772",
     "jeju": "가달",
     "standard": "다리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "conceptId": "다리-leg",
+    "quizGloss": "다리(신체)"
   },
   {
     "seq": "2803",
@@ -903,7 +905,9 @@
     "seq": "7071",
     "jeju": "씨다",
     "standard": "쓰다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "conceptId": "쓰다-write",
+    "quizGloss": "쓰다(글을 쓰다)"
   },
   {
     "seq": "7061",
@@ -1119,7 +1123,8 @@
     "seq": "7017",
     "jeju": "봉그다",
     "standard": "줍다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "conceptId": "줍다"
   },
   {
     "seq": "7009",
@@ -2745,7 +2750,9 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0041"
     },
-    "containsPua": false
+    "containsPua": false,
+    "conceptId": "다리-bridge",
+    "quizGloss": "다리(교량)"
   },
   {
     "seq": "90030",
@@ -2802,7 +2809,9 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0044"
     },
-    "containsPua": false
+    "containsPua": false,
+    "conceptId": "달-moon",
+    "quizGloss": "달(천체)"
   },
   {
     "seq": "90033",
@@ -3382,7 +3391,9 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0098"
     },
-    "containsPua": false
+    "containsPua": false,
+    "conceptId": "살-flesh",
+    "quizGloss": "살(몸의 살)"
   },
   {
     "seq": "90066",
@@ -4191,7 +4202,9 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0171"
     },
-    "containsPua": false
+    "containsPua": false,
+    "conceptId": "달-month",
+    "quizGloss": "달(한 달)"
   },
   {
     "seq": "90110",
@@ -4285,7 +4298,9 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0176"
     },
-    "containsPua": false
+    "containsPua": false,
+    "conceptId": "살-age",
+    "quizGloss": "살(나이)"
   },
   {
     "seq": "90115",
@@ -5752,7 +5767,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0278"
-    }
+    },
+    "conceptId": "줍다"
   },
   {
     "seq": "90194",
@@ -6467,7 +6483,9 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0325"
     },
-    "containsPua": false
+    "containsPua": false,
+    "conceptId": "달다-sweet",
+    "quizGloss": "달다(맛이 달다)"
   },
   {
     "seq": "90233",
@@ -6831,7 +6849,9 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0348"
-    }
+    },
+    "conceptId": "쓰다-bitter",
+    "quizGloss": "쓰다(맛이 쓰다)"
   },
   {
     "seq": "90252",
@@ -9377,7 +9397,9 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0533"
-    }
+    },
+    "conceptId": "띠-grass",
+    "quizGloss": "띠(풀)"
   },
   {
     "seq": "90390",
@@ -10478,7 +10500,9 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0617"
-    }
+    },
+    "conceptId": "띠-zodiac",
+    "quizGloss": "띠(십이지)"
   },
   {
     "seq": "90448",
@@ -11284,7 +11308,9 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0664"
     },
-    "containsPua": false
+    "containsPua": false,
+    "conceptId": "달다-hang",
+    "quizGloss": "달다(걸어 붙이다)"
   },
   {
     "seq": "90491",
