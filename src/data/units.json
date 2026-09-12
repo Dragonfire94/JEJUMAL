@@ -1624,7 +1624,7 @@
         "examples": [
           {
             "jeju": "그레 나 안가봔.",
-            "standard": "그리로 나 안가봤어."
+            "standard": "나는 그리로 안 가봤어."
           }
         ],
         "reviewStatus": "provisional",
@@ -1638,8 +1638,8 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "그자 오민 밥 먹읍디강?",
-            "standard": "그저 오면 밥 먹었습니까?"
+            "jeju": "모따 옛날엔 그자 잘못되면 다 여자 탓이라.",
+            "standard": "몽땅 옛날에는 그저 잘못되면 다 여자 탓이야."
           }
         ],
         "reviewStatus": "provisional",
@@ -8117,7 +8117,7 @@
         "examples": [
           {
             "jeju": "비행기 타고 영 해가면 어머니 수질하고 안 좋잖아.",
-            "standard": "비행기 타고 이렇게 하면 어머니 멀미하고 안 좋잖아."
+            "standard": "비행기 타고 이렇게 가면 어머니가 멀미해서 안 좋잖아."
           }
         ],
         "reviewStatus": "provisional",
@@ -8129,13 +8129,9 @@
         "standard": "흉년",
         "soundUrl": "/audio/90396.mp3",
         "partOfSpeech": "noun",
-        "examples": [
-          {
-            "jeju": "가난한 사람 갭인년 숭년에도 먹당 남은 게 물이여.",
-            "standard": "가난한 사람 갑인년 흉년에도 먹다가 남은 게 물이에요."
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -8144,13 +8140,9 @@
         "standard": "제삿집",
         "soundUrl": "/audio/90397.mp3",
         "partOfSpeech": "noun",
-        "examples": [
-          {
-            "jeju": "옛날은 식게칩이 그 떡 만 원어치 놓젠허믄 이제는 조근조근 박스에도 낭 댕기는디 그 떡구덕에 구멍 영허게 낭으네 거 무사 그추룩 행?",
-            "standard": "옛날은 제삿집에 그 떡 만 원어치 놓으려고 하면 이제는 조근조근 박스에도 놓고 다니는데 그 떡바구니에 구멍 이렇게 났는데 거 왜 그렇게 해서?"
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -8195,7 +8187,7 @@
         "examples": [
           {
             "jeju": "끝에 ᄉ투리좀 씁서게.",
-            "standard": "끝에 사투리좀 쓰세요."
+            "standard": "끝에 사투리 좀 쓰세요."
           }
         ],
         "reviewStatus": "provisional",
@@ -9489,13 +9481,9 @@
         "standard": "시끌벅적",
         "soundUrl": "/audio/90654.mp3",
         "partOfSpeech": "adverb",
-        "examples": [
-          {
-            "jeju": "잘도 좋다 왕왕작작.",
-            "standard": "잘도 좋다 시끌벅적."
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       },
       {
