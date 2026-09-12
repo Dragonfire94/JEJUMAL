@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "vitest";
-import { buildLesson, conceptKeyForWord, getLessonQuestionCounts, hasPassed, PASS_PERCENT } from "./quiz";
+import { buildLesson, conceptKeyForWord, displayMeaningFor, getLessonQuestionCounts, hasPassed, PASS_PERCENT } from "./quiz";
 import { units, type Unit, type Word } from "./units";
 
 function fakeWord(patch: Partial<Word> & Pick<Word, "seq">): Word {
@@ -62,7 +62,7 @@ test("read questions never offer a synonym of the correct answer as a wrong choi
         checked += 1;
         const synonyms = units
           .flatMap((u) => u.words)
-          .filter((w) => w.seq !== q.word.seq && w.standard.trim() === q.word.standard.trim())
+          .filter((w) => w.seq !== q.word.seq && conceptKeyForWord(w) === conceptKeyForWord(q.word))
           .map((w) => w.jeju);
         for (const choice of q.choices) {
           if (choice === q.answer) continue;
@@ -171,4 +171,97 @@ test("conceptKeyForWord: fallback standard does not collide with explicit concep
   assert.notEqual(conceptKeyForWord(a), conceptKeyForWord(b));
   assert.equal(conceptKeyForWord(a), "standard:jaw");
   assert.equal(conceptKeyForWord(b), "concept:jaw");
+});
+
+test("MERGE HIGH 줍다 shares a concept key and is excluded from the other read choices", () => {
+  const words = units.flatMap((u) => u.words);
+  const a = words.find((w) => w.seq === "7017");
+  const b = words.find((w) => w.seq === "90193");
+  assert.ok(a && b);
+  assert.equal(a.conceptId, "줍다");
+  assert.equal(b.conceptId, "줍다");
+  assert.equal(conceptKeyForWord(a), conceptKeyForWord(b));
+  assert.equal("quizGloss" in a, false);
+  assert.equal("quizGloss" in b, false);
+
+  const unitA = units.find((u) => u.words.some((w) => w.seq === "7017"));
+  const unitB = units.find((u) => u.words.some((w) => w.seq === "90193"));
+  assert.ok(unitA && unitB);
+  for (let round = 0; round < 20; round += 1) {
+    const readA = buildLesson(unitA).find((q) => q.id === "7017-read");
+    const readB = buildLesson(unitB).find((q) => q.id === "90193-read");
+    assert.ok(readA && readB);
+    assert.ok(!readA.choices.includes("줏다"));
+    assert.ok(!readB.choices.includes("봉그다"));
+  }
+});
+
+const splitPairs = [
+  { seqA: "90029", seqB: "2772", glossA: "다리(교량)", glossB: "다리(신체)" },
+  { seqA: "90032", seqB: "90109", glossA: "달(천체)", glossB: "달(한 달)" },
+  { seqA: "90232", seqB: "90490", glossA: "달다(맛이 달다)", glossB: "달다(걸어 붙이다)" },
+  { seqA: "90389", seqB: "90447", glossA: "띠(풀)", glossB: "띠(십이지)" },
+  { seqA: "90065", seqB: "90114", glossA: "살(몸의 살)", glossB: "살(나이)" },
+  { seqA: "7071", seqB: "90251", glossA: "쓰다(글을 쓰다)", glossB: "쓰다(맛이 쓰다)" },
+];
+
+test("SPLIT HIGH pairs have different concept keys, distinct quizGloss, and sense-aware read display", () => {
+  const words = units.flatMap((u) => u.words);
+  for (const pair of splitPairs) {
+    const a = words.find((w) => w.seq === pair.seqA);
+    const b = words.find((w) => w.seq === pair.seqB);
+    assert.ok(a && b, `missing ${pair.seqA}/${pair.seqB}`);
+    assert.notEqual(conceptKeyForWord(a), conceptKeyForWord(b));
+    assert.equal(a.quizGloss, pair.glossA);
+    assert.equal(b.quizGloss, pair.glossB);
+    assert.notEqual(a.quizGloss, b.quizGloss);
+    const unitA = units.find((u) => u.words.some((w) => w.seq === pair.seqA));
+    const unitB = units.find((u) => u.words.some((w) => w.seq === pair.seqB));
+    assert.ok(unitA && unitB);
+    const readA = buildLesson(unitA).find((q) => q.id === `${pair.seqA}-read`);
+    const readB = buildLesson(unitB).find((q) => q.id === `${pair.seqB}-read`);
+    assert.ok(readA && readB);
+    assert.equal(readA.displayMeaning, pair.glossA);
+    assert.equal(readB.displayMeaning, pair.glossB);
+    const listenA = buildLesson(unitA).find((q) => q.id === `${pair.seqA}-listen`);
+    if (listenA) {
+      assert.equal(listenA.answer, a.standard);
+      assert.equal(listenA.displayMeaning, a.standard);
+    }
+  }
+});
+
+test("read displayMeaning uses quizGloss when present and standard otherwise", () => {
+  const withGloss = fakeWord({ seq: "1", standard: "다리", quizGloss: "다리(교량)" });
+  const without = fakeWord({ seq: "2", standard: "바다" });
+  assert.equal(displayMeaningFor(withGloss, "read"), "다리(교량)");
+  assert.equal(displayMeaningFor(without, "read"), "바다");
+  assert.equal(displayMeaningFor(withGloss, "listen"), "다리");
+});
+
+test("split same-standard groups all have distinct quizGloss per concept", () => {
+  const words = units.flatMap((u) => u.words).filter((w) => w.reviewStatus !== "blocked");
+  const byStandard = new Map<string, typeof words>();
+  for (const word of words) {
+    const key = word.standard.trim();
+    const list = byStandard.get(key) ?? [];
+    list.push(word);
+    byStandard.set(key, list);
+  }
+  for (const [standard, group] of byStandard) {
+    if (group.length < 2) continue;
+    const keys = new Set(group.map((w) => conceptKeyForWord(w)));
+    if (keys.size < 2) continue;
+    const glossByConcept = new Map<string, string>();
+    for (const word of group) {
+      const concept = conceptKeyForWord(word);
+      const gloss = word.quizGloss?.trim();
+      assert.ok(gloss, `${standard} / ${word.seq} split without quizGloss`);
+      const prev = glossByConcept.get(concept);
+      if (prev) assert.equal(prev, gloss);
+      glossByConcept.set(concept, gloss);
+    }
+    const glosses = [...glossByConcept.values()];
+    assert.equal(new Set(glosses).size, glosses.length, `${standard} split concepts share a quizGloss`);
+  }
 });

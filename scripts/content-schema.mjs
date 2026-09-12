@@ -30,6 +30,8 @@ export const LexemeSchema = z.object({
   containsPua: z.boolean().optional(),
   /** 같은 개념을 수동으로 묶거나, 같은 표준어 gloss의 서로 다른 뜻을 분리할 때 쓰는 선택 override. */
   conceptId: z.string().trim().min(1).optional(),
+  /** 읽기 퀴즈에서 같은 표준어의 서로 다른 sense를 짧게 구분하는 learner-facing label. */
+  quizGloss: z.string().trim().min(1).optional(),
 });
 
 export const UnitSchema = z.object({

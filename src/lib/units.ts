@@ -33,6 +33,8 @@ export type Word = {
   containsPua?: boolean;
   /** 같은 개념을 수동으로 묶거나, 같은 표준어 gloss의 서로 다른 뜻을 분리할 때 쓰는 선택 override. */
   conceptId?: string;
+  /** 읽기 퀴즈에서 같은 표준어의 서로 다른 sense를 짧게 구분하는 learner-facing label. */
+  quizGloss?: string;
 };
 
 export type Unit = {
