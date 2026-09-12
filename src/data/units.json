@@ -124,9 +124,13 @@
         "standard": "걔",
         "soundUrl": "/audio/90116.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "가이 몇 살이라고?",
+            "standard": "걔 몇 살이라고?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -135,9 +139,13 @@
         "standard": "그쪽",
         "soundUrl": "/audio/90117.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "과수원 할 때라시믄 영 그짝 줄 건디.",
+            "standard": "과수원 할 때였으면 이렇게 그쪽 줄 건데."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -2790,9 +2798,13 @@
         "standard": "무",
         "soundUrl": "/audio/90025.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "어 ᄂᆞᆷ삐 이서.",
+            "standard": "어 무 있어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3994,9 +4006,13 @@
         "standard": "한라산",
         "soundUrl": "/audio/90103.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "할락산에 올랑 봅서.",
+            "standard": "한라산에 올라서 보십시오."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -6612,9 +6628,13 @@
         "standard": "게으르다",
         "soundUrl": "/audio/90219.mp3",
         "partOfSpeech": "adjective",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아니 게을러시믄 열 한명 낭 키와 지크냐?",
+            "standard": "아니, 게을렀으면 열한 명 낳아 키울 수 있겠냐?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -6634,9 +6654,13 @@
         "standard": "곱다",
         "soundUrl": "/audio/90221.mp3",
         "partOfSpeech": "adjective",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아니 성님 학교에 갔다 왔시면 곱닥하게 화장을 해야 될건디 이거 얼굴이 민낯인게?",
+            "standard": "아니 형님 학교에 갔다 왔으면 예쁘게 화장을 해야 될텐데 이거 얼굴이 민낯인데?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7923,9 +7947,13 @@
         "standard": "띠",
         "soundUrl": "/audio/90389.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "짚 일잰 하면 새가 있어.",
+            "standard": "짚 이으려고 하면 띠가 있어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "conceptId": "띠-grass",
         "quizGloss": "띠(풀)",
         "hasAudio": false
@@ -7992,9 +8020,13 @@
         "standard": "속옷",
         "soundUrl": "/audio/90394.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "소중의를 입어봅써.",
+            "standard": "속옷을 입어보세요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -11882,9 +11914,13 @@
         "standard": "빼다",
         "soundUrl": "/audio/90525.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "이 꿀 빠줜.",
+            "standard": "이 꿀 빼줬어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {

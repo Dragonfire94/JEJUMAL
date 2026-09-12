@@ -6285,5 +6285,175 @@
       "naturalness": "approved",
       "translation": "approved"
     }
+  },
+  {
+    "id": "90116-1",
+    "seq": "90116",
+    "jeju": "가이 몇 살이라고?",
+    "standard": "걔 몇 살이라고?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZES20000413"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90103-1",
+    "seq": "90103",
+    "jeju": "할락산에 올랑 봅서.",
+    "standard": "한라산에 올라서 보십시오.",
+    "source": {
+      "type": "authored",
+      "sourceId": "life-dialect-6",
+      "originalText": {
+        "jeju": "한락산에 올랑 봅서.",
+        "standard": "한라산에 올라서 보십시오."
+      },
+      "editReason": "공식 생활방언 6편 1행의 한락산을 2025 표제어 할락산으로 표기만 바꿈. 문장 틀과 표준어 대역은 원문."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90389-1",
+    "seq": "90389",
+    "jeju": "짚 일잰 하면 새가 있어.",
+    "standard": "짚 이으려고 하면 띠가 있어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000669",
+      "originalText": {
+        "jeju": "각다니는 아 예 짚 일잰 하면 새가 있어. 새",
+        "standard": "짦은 띠는 아 예 짚 이으려고 하면 띠가 있어. 띠"
+      },
+      "editReason": "앞의 각다니는 아 예와 뒤의 단독 새만 덜어, 짚 잇는 재료로서의 새=띠 절을 남김. 새(new/bird) 아님."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90525-1",
+    "seq": "90525",
+    "jeju": "이 꿀 빠줜.",
+    "standard": "이 꿀 빼줬어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000518",
+      "originalText": {
+        "jeju": "응 세 통인가 해그넹 하니까 프로폴리스는 안하고 우린 꿀 빨 줄도 모르난 게도 맨 나중에는 저 사촌 아주버님이 와가지고 이 꿀 빠줜",
+        "standard": "응 세 통인가 해서 하니까 프로폴리스는 안하고 우린 꿀 뺄 줄도 모르니까 그래도 맨 나중에는 저 사촌 아주버님이 와가지고 이 꿀 빼줬어"
+      },
+      "editReason": "긴 발화의 끝 절만 추출. 실제 활용형 빠줜을 그대로 씀. 빠앗은 쓰지 않음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90117-1",
+    "seq": "90117",
+    "jeju": "과수원 할 때라시믄 영 그짝 줄 건디.",
+    "standard": "과수원 할 때였으면 이렇게 그쪽 줄 건데.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20001532",
+      "originalText": {
+        "jeju": "그 다음은 이제 구획정리를 안 해영 그 다음으로 이제 집들을 막 지서부난 과수원 할 때라시믄 영 그짝 줄 건디 이제는 집을 몬딱 지서나부난. 그냥 우리 냥으로 그 땅을 이제 호끔 들어온 걸 우리가 가져불랜?",
+        "standard": "그 다음은 이제 구획정리를 안 해서 그 다음으로 이제 집들을 막 지으니까 과수원 할 때였으면 이렇게 그쪽 줄 건데 이제는 집을 전부 지어버려서. 그냥 우리 마음대로 그 땅을 이제 조금 들어온 걸 우리가 가지래?"
+      },
+      "editReason": "구획·집 이야기 앞뒤를 덜고 그짝=그쪽(방향/장소) 절만 마침표로 닫음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90025-1",
+    "seq": "90025",
+    "jeju": "어 ᄂᆞᆷ삐 이서.",
+    "standard": "어 무 있어.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-DZES20000107",
+      "originalText": {
+        "jeju": "어 놈삐 이서",
+        "standard": "어 무 있어"
+      },
+      "editReason": "말뭉치 놈삐 이서를 2025 표제어 ᄂᆞᆷ삐로 표기만 바꿈. 무 의미 동일."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90219-1",
+    "seq": "90219",
+    "jeju": "아니 게을러시믄 열 한명 낭 키와 지크냐?",
+    "standard": "아니, 게을렀으면 열한 명 낳아 키울 수 있겠냐?",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20001092",
+      "originalText": {
+        "jeju": "아니 게을러시믄 열 한명 낭 키와 지크냐? 부지런 허난 열 한명 키와주",
+        "standard": "아니 게을렀으면 열 한명 낳아서 키워 지겠냐? 부지런 하니깐 열 한명 키우지"
+      },
+      "editReason": "뒤 절(부지런 허난…)만 덜어 실제 활용형 게을러시믄이 있는 질문 절을 남김. 활용형 창작 없음. 표준어 대역을 자연스러운 한국어로 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90221-1",
+    "seq": "90221",
+    "jeju": "아니 성님 학교에 갔다 왔시면 곱닥하게 화장을 해야 될건디 이거 얼굴이 민낯인게?",
+    "standard": "아니 형님 학교에 갔다 왔으면 예쁘게 화장을 해야 될텐데 이거 얼굴이 민낯인데?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20000574"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90394-1",
+    "seq": "90394",
+    "jeju": "소중의를 입어봅써.",
+    "standard": "속옷을 입어보세요.",
+    "source": {
+      "type": "authored",
+      "sourceId": "aihub-DZHF20000315",
+      "originalText": {
+        "jeju": "설문대 할마님 혼저 이~ 소중이를 입어봅써 소중이에 -몸이- 몸에 들민 약속대로 -거- 것인 육지광 도리를 놔줍써예",
+        "standard": "설문대 할머님 어서 이~ 속옷을 입어보세요 속옷이 -마음이- 마음에 들면 약속대로 -거- 것인 육지와 다리를 놔주세요"
+      },
+      "editReason": "말뭉치 소중이를 입어봅써를 2025 표제어 소중의로 표기만 바꿈. 갈아입엇우다는 쓰지 않음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
   }
 ]
