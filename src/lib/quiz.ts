@@ -136,24 +136,44 @@ function distractorPools(word: Word, preferred: Word[], field: "jeju" | "standar
   ];
 }
 
-export function buildLesson(unit: Unit): Question[] {
-  const sameUnit = unit.words.filter((word) => word.reviewStatus !== "blocked");
+export type LessonQuestionCounts = {
+  listen: number;
+  read: number;
+  total: number;
+};
 
-  const listen: Question[] = sameUnit
-    .filter((word) => word.hasAudio !== false)
-    .map((word) => {
-      const exclude = sameConceptTexts(allWords, "standard", word);
-      const distractors = pickDistractors(word.standard, distractorPools(word, sameUnit, "standard"), 3, exclude);
-      return {
-        id: `${word.seq}-listen`,
-        kind: "listen" as const,
-        word,
-        unitId: unit.id,
-        prompt: "이 말의 뜻은 무엇일까요?",
-        answer: word.standard,
-        choices: shuffle([word.standard, ...distractors]),
-      };
-    });
+function quizableWords(unit: Unit): Word[] {
+  return unit.words.filter((word) => word.reviewStatus !== "blocked");
+}
+
+function isListenEligible(word: Word): boolean {
+  return word.hasAudio !== false;
+}
+
+/** 인트로 안내와 buildLesson()이 같은 eligibility를 쓰도록 문항 수만 계산한다. */
+export function getLessonQuestionCounts(unit: Unit): LessonQuestionCounts {
+  const quizable = quizableWords(unit);
+  const listen = quizable.filter(isListenEligible).length;
+  const read = quizable.length;
+  return { listen, read, total: listen + read };
+}
+
+export function buildLesson(unit: Unit): Question[] {
+  const sameUnit = quizableWords(unit);
+
+  const listen: Question[] = sameUnit.filter(isListenEligible).map((word) => {
+    const exclude = sameConceptTexts(allWords, "standard", word);
+    const distractors = pickDistractors(word.standard, distractorPools(word, sameUnit, "standard"), 3, exclude);
+    return {
+      id: `${word.seq}-listen`,
+      kind: "listen" as const,
+      word,
+      unitId: unit.id,
+      prompt: "이 말의 뜻은 무엇일까요?",
+      answer: word.standard,
+      choices: shuffle([word.standard, ...distractors]),
+    };
+  });
 
   const read: Question[] = sameUnit.map((word) => {
     const exclude = sameConceptTexts(allWords, "jeju", word);
