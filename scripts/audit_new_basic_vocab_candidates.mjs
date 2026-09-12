@@ -51,7 +51,7 @@ const PREV_3C1 = {
   CORE_ADD: ["삼춘", "그추룩", "이추룩", "저추룩", "봅서", "나냥으로", "요자기", "맛좋다"],
   CULTURE_ADD: [
     "돌담", "빙떡", "숨비소리", "오름", "올레", "가문잔치", "곶자왈", "망사리", "물소중의",
-    "물수건", "물적삼", "국", "반지기밥", "불턱", "빗창", "산담", "신구간", "오메기떡",
+    "물수건", "물적삼", "ᄆᆞᆷ국", "반지기밥", "불턱", "빗창", "산담", "신구간", "오메기떡",
     "오분자기", "웃드르", "정주석", "족은눈", "ᄎᆞᆯ레", "큰눈", "테왁",
   ],
   DO_NOT_ADD: [
@@ -382,9 +382,12 @@ export const CATALOG = {
     extraSearchTerms: ["물적삼"],
     decisionNote: "해녀 잠수 적삼 문화어로 검토한다.",
   },
-  "국": {
+  // 3C-3B.2: PUA U+E56E → ᄆᆞᆷ 매핑 적용 후 원장 표기가 이 형태로
+  // 정정됨(구 표기는 실제로 U+E56E+국 2-codepoint였다). 키만 바꾸고
+  // 내용(meaningTerms/decisionNote 등)은 그대로 둔다.
+  "ᄆᆞᆷ국": {
     ...culture("JEJU_CULTURAL_TERM"),
-    meaningTerms: ["모자반국", "국"],
+    meaningTerms: ["모자반국", "ᄆᆞᆷ국"],
     meaningSource: "2025 definition",
     extraSearchTerms: ["모자반"],
     decisionNote: "모자반 돼지고기 국이라는 제주 음식 문화어로 검토한다.",

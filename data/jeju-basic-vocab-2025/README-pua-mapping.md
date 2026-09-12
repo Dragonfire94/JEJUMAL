@@ -89,3 +89,17 @@
 4. 치환 후 Noto Sans/Serif KR로 다시 렌더링해서 PDF 원본과 비교하는
    round-trip 검증을 자동화해두면, 이후 같은 출판사/폰트 체계를 쓰는
    다른 제주학 자료도 재사용 가능한 자산이 된다.
+
+## 추가 발견 — `U+E56E` (3C-3B.1/3C-3B.2, 2026-09-12)
+
+이 문서가 처음 다룬 81개는 당시 스캔 모집단(초중급 298개 표제어)
+기준이었다. 이후 Culture Track 후보 감사(3C-3B) 중 `vocab.json`
+전체(1,501개 entry)를 다시 스캔해 이 81개 밖에서 **새로운 미매핑
+PUA 1건**(`U+E56E`, 책 전체에서 정확히 1회 등장)을 발견했다.
+PDF 크롭·2025 definition·AI Hub 말뭉치·외부 백과(위키백과/나무위키)
+4개 독립 근거로 `U+E56E → ᄆᆞᆷ`(U+1106 U+119E U+11B7, "몸국"의
+"몸")임을 확정(RESOLVED_HIGH, `docs/3c3b1-pua-e56e-audit.md`)하고
+`pua-glyph-mapping.json`에 82번째 행으로 추가·실제 적용했다
+(`docs/3c3b2-apply-pua-e56e.md`). 현재 `pua-glyph-mapping.json`은
+82행(high 59 / medium 16 / low 7)이고, `vocab.json` 전체 재스캔
+기준 미매핑 unique PUA는 0건이다.
