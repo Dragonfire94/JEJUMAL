@@ -20,6 +20,9 @@ const ACTION_ORDER = {
   SOURCE_GAP: 3,
 };
 
+/** 표제어 끝의 동형이의 번호(ASCII/위첨자)만 벗긴다. 중간 숫자는 건드리지 않는다. */
+const HOMOGRAPH_NUMBER_SUFFIX = /[0-9¹²³⁴⁵⁶⁷⁸⁹⁰]+$/u;
+
 export function parseWaveArg(argv) {
   const idx = argv.indexOf("--wave");
   if (idx === -1) {
@@ -35,13 +38,116 @@ export function parseWaveArg(argv) {
   return { ok: true, wave: Number(raw) };
 }
 
-export function recommendedAction({ exactHits = 0, inflectedHits = 0, lifeDialectHits = 0 } = {}) {
+export function stripHomographNumber(headword) {
+  return String(headword ?? "").replace(HOMOGRAPH_NUMBER_SUFFIX, "");
+}
+
+export function searchForms({ jeju = "", otherJejuForms = [] } = {}) {
+  const out = [];
+  const seen = new Set();
+  const add = (value) => {
+    const form = String(value ?? "").trim();
+    if (!form || seen.has(form)) return;
+    seen.add(form);
+    out.push(form);
+  };
+  add(jeju);
+  for (const form of otherJejuForms ?? []) add(form);
+  add(stripHomographNumber(jeju));
+  for (const form of otherJejuForms ?? []) add(stripHomographNumber(form));
+  return out;
+}
+
+function globCore(standard) {
+  return String(standard ?? "")
+    .split(/[.(]/)[0]
+    .trim();
+}
+
+export function meaningMatches(core, standard, isVerbLike = false) {
+  const c = String(core ?? "").trim();
+  const s = String(standard ?? "").trim();
+  if (!c || !s) return false;
+  if (isVerbLike && c.endsWith("다") && c.length > 1) {
+    const stem = c.slice(0, -1);
+    if (stem && s.startsWith(stem)) return true;
+  }
+  if (c.length <= 1 || s.length <= 1) return c === s;
+  return s.includes(c) || c.includes(s);
+}
+
+function senseMatchedHits(entries, standard, isVerbLike) {
+  if (!Array.isArray(entries) || entries.length === 0) return 0;
+  const core = globCore(standard);
+  let n = 0;
+  for (const row of entries) {
+    const mapped = Array.isArray(row) ? row[0] : row;
+    const count = Array.isArray(row) ? Number(row[1]) || 0 : 0;
+    if (meaningMatches(core, mapped, isVerbLike)) n += count;
+  }
+  return n;
+}
+
+function tokenEntries(tokens, form) {
+  if (!tokens || !form) return [];
+  if (tokens instanceof Map) return tokens.get(form) ?? [];
+  return tokens[form] ?? [];
+}
+
+export function supplementalEvidence({
+  jeju = "",
+  standard = "",
+  otherJejuForms = [],
+  partOfSpeech = "",
+  tokens,
+} = {}) {
+  const isVerbLike = partOfSpeech === "verb" || partOfSpeech === "adjective";
+  const original = String(jeju ?? "").trim();
+  const normalized = stripHomographNumber(original);
+  const others = (otherJejuForms ?? []).map((f) => String(f ?? "").trim()).filter(Boolean);
+
+  let normalizedHits = 0;
+  if (normalized && normalized !== original) {
+    normalizedHits = senseMatchedHits(tokenEntries(tokens, normalized), standard, isVerbLike);
+  }
+
+  const countedOther = new Set([original, normalized]);
+  let otherHits = 0;
+  for (const form of others) {
+    const variants = [form, stripHomographNumber(form)];
+    for (const variant of variants) {
+      if (!variant || countedOther.has(variant)) continue;
+      countedOther.add(variant);
+      otherHits += senseMatchedHits(tokenEntries(tokens, variant), standard, isVerbLike);
+    }
+  }
+
+  const supplementalTokenHits = normalizedHits + otherHits;
+  let candidateEvidence = "NONE";
+  if (normalizedHits > 0) candidateEvidence = "HEADWORD_NORMALIZED";
+  else if (otherHits > 0) candidateEvidence = "OTHER_FORM";
+  return { searchForms: searchForms({ jeju: original, otherJejuForms: others }), supplementalTokenHits, candidateEvidence };
+}
+
+export function recommendedAction({
+  exactHits = 0,
+  inflectedHits = 0,
+  lifeDialectHits = 0,
+  supplementalTokenHits = 0,
+  candidateEvidence = "NONE",
+} = {}) {
   const exact = Number(exactHits) || 0;
   const inflected = Number(inflectedHits) || 0;
   const life = Number(lifeDialectHits) || 0;
   if (life > 0) return "OFFICIAL_FIRST";
   if (exact >= 3 || inflected >= 5) return "CORPUS_FIRST";
   if (exact + inflected > 0) return "CHECK_HITS";
+  // audit가 0이어도 정규화/이형태에서 의미 일치 token이 있으면 조사 대상으로 올린다.
+  // 동형이의어 오염 위험이 있어 raw pair 확인 전 최대 CHECK_HITS.
+  const extra = Number(supplementalTokenHits) || 0;
+  if (extra > 0 && (candidateEvidence === "HEADWORD_NORMALIZED" || candidateEvidence === "OTHER_FORM")) {
+    return "CHECK_HITS";
+  }
   return "SOURCE_GAP";
 }
 
@@ -82,7 +188,7 @@ export function selectWavePendingLexemes(units, lexemes, wave) {
   return rows;
 }
 
-export function attachAudit(rows, auditBySeq) {
+export function attachAudit(rows, auditBySeq, { tokens } = {}) {
   const index = auditBySeq instanceof Map ? auditBySeq : new Map();
   return rows.map((row) => {
     if (row.missingLexeme) {
@@ -92,6 +198,9 @@ export function attachAudit(rows, auditBySeq) {
         inflectedHits: 0,
         lifeDialectHits: 0,
         tier: "unconfirmed",
+        searchForms: [],
+        supplementalTokenHits: 0,
+        candidateEvidence: "NONE",
         recommendedAction: "SOURCE_GAP",
       };
     }
@@ -99,13 +208,33 @@ export function attachAudit(rows, auditBySeq) {
     const exactHits = audit?.exactHits ?? 0;
     const inflectedHits = audit?.inflectedHits ?? 0;
     const lifeDialectHits = audit?.lifeDialectHits ?? 0;
+    const extra = supplementalEvidence({
+      jeju: row.jeju,
+      standard: row.standard,
+      otherJejuForms: row.otherJejuForms,
+      partOfSpeech: row.partOfSpeech,
+      tokens,
+    });
+    let candidateEvidence = extra.candidateEvidence;
+    if ((Number(exactHits) || 0) + (Number(inflectedHits) || 0) + (Number(lifeDialectHits) || 0) > 0) {
+      candidateEvidence = "AUDIT";
+    }
     return {
       ...row,
       exactHits,
       inflectedHits,
       lifeDialectHits,
       tier: audit?.tier ?? "unconfirmed",
-      recommendedAction: recommendedAction({ exactHits, inflectedHits, lifeDialectHits }),
+      searchForms: extra.searchForms,
+      supplementalTokenHits: extra.supplementalTokenHits,
+      candidateEvidence,
+      recommendedAction: recommendedAction({
+        exactHits,
+        inflectedHits,
+        lifeDialectHits,
+        supplementalTokenHits: extra.supplementalTokenHits,
+        candidateEvidence,
+      }),
     };
   });
 }
@@ -144,6 +273,9 @@ export function formatTable(rows) {
     "inflectedHits",
     "lifeDialectHits",
     "tier",
+    "searchForms",
+    "supplementalTokenHits",
+    "candidateEvidence",
     "recommendedAction",
   ];
   const counts = { OFFICIAL_FIRST: 0, CORPUS_FIRST: 0, CHECK_HITS: 0, SOURCE_GAP: 0 };
@@ -170,6 +302,9 @@ export function formatTable(rows) {
         row.inflectedHits,
         row.lifeDialectHits,
         row.tier,
+        forms(row.searchForms),
+        row.supplementalTokenHits ?? 0,
+        row.candidateEvidence ?? "NONE",
         row.recommendedAction,
       ].join("\t"),
     );
@@ -198,15 +333,15 @@ function main(argv = process.argv.slice(2)) {
   }
 
   // tokens.json / 생활방언 source는 감사 산출과 같은 근거 파일이라는 계약.
-  // 히트 숫자는 word-usage-audit.json을 쓴다(재계산하지 않음).
-  loadJson("data/aihub/tokens.json");
+  // audit 숫자는 word-usage-audit.json을 쓰고, 번호 정규화·이형태만 tokens로 보강한다.
+  const tokens = loadJson("data/aihub/tokens.json");
   loadJson("data/life-dialect/items.json");
 
   const units = loadJson("content/units.json");
   const lexemes = loadJson("content/lexemes.json");
   const audit = loadJson("data/aihub/word-usage-audit.json");
   const rows = sortCandidateRows(
-    attachAudit(selectWavePendingLexemes(units, lexemes, parsed.wave), auditIndexFromFile(audit)),
+    attachAudit(selectWavePendingLexemes(units, lexemes, parsed.wave), auditIndexFromFile(audit), { tokens }),
   );
   process.stdout.write(formatTable(rows));
 }
