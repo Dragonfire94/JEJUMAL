@@ -31,6 +31,8 @@ export type Word = {
   pendingExample?: boolean;
   /** true면 표제어에 PUA 문자가 섞여 있어 일부 글꼴에서 깨져 보일 수 있음. */
   containsPua?: boolean;
+  /** 같은 개념을 수동으로 묶거나, 같은 표준어 gloss의 서로 다른 뜻을 분리할 때 쓰는 선택 override. */
+  conceptId?: string;
 };
 
 export type Unit = {

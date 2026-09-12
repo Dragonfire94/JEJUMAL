@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { test } from "node:test";
 import { assembleUnits, loadContentBundle, validateBundle } from "./build-content.mjs";
+import { LexemeSchema } from "./content-schema.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const UNITS_PATH = path.join(ROOT, "src/data/units.json");
@@ -121,4 +122,36 @@ test("current real dataset has no blocked runtime words and rebuild stays stable
     assert.equal(generatedWords, assignedWords);
     assert.deepEqual(rebuilt, committed);
   }
+});
+
+const lexemeBase = { seq: "1", jeju: "느", standard: "너", partOfSpeech: "pronoun" };
+
+test("lexeme schema accepts optional non-empty conceptId", () => {
+  assert.equal(LexemeSchema.safeParse(lexemeBase).success, true);
+  assert.equal(LexemeSchema.safeParse({ ...lexemeBase, conceptId: "come-quickly" }).success, true);
+});
+
+test("lexeme schema rejects empty or whitespace-only conceptId", () => {
+  assert.equal(LexemeSchema.safeParse({ ...lexemeBase, conceptId: "" }).success, false);
+  assert.equal(LexemeSchema.safeParse({ ...lexemeBase, conceptId: "   " }).success, false);
+});
+
+test("assembleUnits copies source conceptId onto the generated word", () => {
+  const withId = syntheticLexeme("1", "approved");
+  withId.conceptId = "sample-concept";
+  const withoutId = syntheticLexeme("2", "approved");
+  const units = assembleUnits(syntheticBundle([withId, withoutId]));
+  assert.equal(units[0].words[0].conceptId, "sample-concept");
+  assert.equal("conceptId" in units[0].words[1], false);
+});
+
+test("current real dataset has no conceptId and rebuild stays stable", () => {
+  const bundle = validateBundle(loadContentBundle());
+  const rebuilt = assembleUnits(bundle);
+  const committed = JSON.parse(readFileSync(UNITS_PATH, "utf8"));
+  const sourceConceptIds = bundle.lexemes.filter((l) => l.conceptId).length;
+  const generatedConceptIds = rebuilt.flatMap((u) => u.words).filter((w) => w.conceptId).length;
+  assert.equal(sourceConceptIds, 0);
+  assert.equal(generatedConceptIds, 0);
+  assert.deepEqual(rebuilt, committed);
 });
