@@ -6382,26 +6382,6 @@
     }
   },
   {
-    "id": "90482-1",
-    "seq": "90482",
-    "jeju": "병원에 아판 눅곡.",
-    "standard": "병원에 아파서 눕고.",
-    "source": {
-      "type": "adapted",
-      "sourceId": "aihub-DZJD20000561",
-      "originalText": {
-        "jeju": "게난 건강을 주변을 보면 건강을 잃은 사람이 얼마나 많으꽈? 병원에 아판 눅곡 보통 할망덜 팔십만 넘어가면 어디 치매 걸려가지고 이렇게 여기저기 어 자식 자식덜안테 이제",
-        "standard": "그러니까 건강을 주변을 보면 건강을 잃은 사람이 얼마나 많아요? 병원에 아파서 눕고 보통 할머니들 팔십만 넘어가면 어디 치매 걸려가지고 이렇게 여기저기 응 자식 자식들한테 이제"
-      },
-      "editReason": "긴 발화에서 눕다 활용형 눅곡이 있는 절만 추출. 눅엉은 쓰지 않음."
-    },
-    "review": {
-      "meaning": "approved",
-      "naturalness": "provisional",
-      "translation": "approved"
-    }
-  },
-  {
     "id": "90025-1",
     "seq": "90025",
     "jeju": "어 ᄂᆞᆷ삐 이서.",
@@ -6425,7 +6405,7 @@
     "id": "90219-1",
     "seq": "90219",
     "jeju": "아니 게을러시믄 열 한명 낭 키와 지크냐?",
-    "standard": "아니 게을렀으면 열 한명 낳아서 키워 지겠냐?",
+    "standard": "아니, 게을렀으면 열한 명 낳아 키울 수 있겠냐?",
     "source": {
       "type": "adapted",
       "sourceId": "aihub-DZES20001092",
@@ -6433,12 +6413,12 @@
         "jeju": "아니 게을러시믄 열 한명 낭 키와 지크냐? 부지런 허난 열 한명 키와주",
         "standard": "아니 게을렀으면 열 한명 낳아서 키워 지겠냐? 부지런 하니깐 열 한명 키우지"
       },
-      "editReason": "뒤 절(부지런 허난…)만 덜어 실제 활용형 게을러시믄이 있는 질문 절을 남김. 활용형 창작 없음."
+      "editReason": "뒤 절(부지런 허난…)만 덜어 실제 활용형 게을러시믄이 있는 질문 절을 남김. 활용형 창작 없음. 표준어 대역을 자연스러운 한국어로 다듬음."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
