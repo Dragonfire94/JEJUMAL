@@ -11,6 +11,8 @@ export type Question = {
   prompt: string;
   answer: string;
   choices: string[];
+  /** 읽기 퀴즈 화면에 보여줄 뜻. quizGloss가 있으면 그것을, 없으면 standard. 듣기 정답 텍스트는 바꾸지 않는다. */
+  displayMeaning: string;
 };
 
 export type QuizResult = {
@@ -65,6 +67,14 @@ export function conceptKeyForWord(word: Word): string {
   const explicit = word.conceptId?.trim();
   if (explicit) return `concept:${explicit}`;
   return `standard:${word.standard.trim()}`;
+}
+
+export function displayMeaningFor(word: Word, kind: QuestionKind): string {
+  if (kind === "read") {
+    const gloss = word.quizGloss?.trim();
+    if (gloss) return gloss;
+  }
+  return word.standard;
 }
 
 function sameConceptTexts(words: Word[], field: "jeju" | "standard", target: Word): Set<string> {
@@ -174,6 +184,7 @@ export function buildLesson(unit: Unit): Question[] {
       prompt: "이 말의 뜻은 무엇일까요?",
       answer: word.standard,
       choices: shuffle([word.standard, ...distractors]),
+      displayMeaning: displayMeaningFor(word, "listen"),
     };
   });
 
@@ -188,6 +199,7 @@ export function buildLesson(unit: Unit): Question[] {
       prompt: "이 뜻을 제주말로 하면?",
       answer: word.jeju,
       choices: shuffle([word.jeju, ...distractors]),
+      displayMeaning: displayMeaningFor(word, "read"),
     };
   });
 

@@ -136,6 +136,16 @@ test("lexeme schema rejects empty or whitespace-only conceptId", () => {
   assert.equal(LexemeSchema.safeParse({ ...lexemeBase, conceptId: "   " }).success, false);
 });
 
+test("lexeme schema accepts optional non-empty quizGloss", () => {
+  assert.equal(LexemeSchema.safeParse(lexemeBase).success, true);
+  assert.equal(LexemeSchema.safeParse({ ...lexemeBase, quizGloss: "다리(교량)" }).success, true);
+});
+
+test("lexeme schema rejects empty or whitespace-only quizGloss", () => {
+  assert.equal(LexemeSchema.safeParse({ ...lexemeBase, quizGloss: "" }).success, false);
+  assert.equal(LexemeSchema.safeParse({ ...lexemeBase, quizGloss: "   " }).success, false);
+});
+
 test("assembleUnits copies source conceptId onto the generated word", () => {
   const withId = syntheticLexeme("1", "approved");
   withId.conceptId = "sample-concept";
@@ -145,13 +155,26 @@ test("assembleUnits copies source conceptId onto the generated word", () => {
   assert.equal("conceptId" in units[0].words[1], false);
 });
 
-test("current real dataset has no conceptId and rebuild stays stable", () => {
+test("assembleUnits copies source quizGloss onto the generated word", () => {
+  const withGloss = syntheticLexeme("1", "approved");
+  withGloss.quizGloss = "다리(교량)";
+  const withoutGloss = syntheticLexeme("2", "approved");
+  const units = assembleUnits(syntheticBundle([withGloss, withoutGloss]));
+  assert.equal(units[0].words[0].quizGloss, "다리(교량)");
+  assert.equal("quizGloss" in units[0].words[1], false);
+});
+
+test("current real dataset conceptId/quizGloss counts and rebuild stay in sync", () => {
   const bundle = validateBundle(loadContentBundle());
   const rebuilt = assembleUnits(bundle);
   const committed = JSON.parse(readFileSync(UNITS_PATH, "utf8"));
   const sourceConceptIds = bundle.lexemes.filter((l) => l.conceptId).length;
+  const sourceQuizGloss = bundle.lexemes.filter((l) => l.quizGloss).length;
   const generatedConceptIds = rebuilt.flatMap((u) => u.words).filter((w) => w.conceptId).length;
-  assert.equal(sourceConceptIds, 0);
-  assert.equal(generatedConceptIds, 0);
+  const generatedQuizGloss = rebuilt.flatMap((u) => u.words).filter((w) => w.quizGloss).length;
+  assert.equal(sourceConceptIds, 14);
+  assert.equal(sourceQuizGloss, 12);
+  assert.equal(generatedConceptIds, 14);
+  assert.equal(generatedQuizGloss, 12);
   assert.deepEqual(rebuilt, committed);
 });
