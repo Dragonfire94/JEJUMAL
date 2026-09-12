@@ -236,6 +236,22 @@ test("PUA 매핑 확정본(confidence: high)이 재추출 후에도 유지된다
   assert.ok(puaCount < 150, `PUA 포함 entry가 ${puaCount}개 — high-confidence 매핑 재적용이 안 된 것으로 보입니다(기존 수준 ~57~60개)`);
 });
 
+// 3C-3B.2(2026-09-12) — U+E56E("ᄆᆞᆷ") 매핑 재적용 고정. PUA 원자 하나만
+// 치환하고 주변 평문("국")은 건드리지 않는다는 원칙(A-3)이 재추출 후에도
+// 지켜지는지 검증한다. 특히 "ᄆᆞᆷ국국"처럼 뒤 글자가 중복되는 회귀를 잡는다.
+test("U+E56E 매핑이 재추출 후에도 정확히 'ᄆᆞᆷ국'으로 유지되고 중복되지 않는다", () => {
+  const { entries } = loadVocab();
+  const target = entries.find((e) => e.id === "jbv2025-0540");
+  assert.ok(target, "jbv2025-0540(구 국 항목)을 찾지 못했습니다");
+  assert.deepEqual(target.jeju_forms, ["ᄆᆞᆷ국"]);
+  assert.equal(target.contains_pua, false);
+  assert.ok(
+    ![...target.jeju_forms[0]].some((ch) => ch.codePointAt(0) >= 0xe000 && ch.codePointAt(0) <= 0xf8ff),
+    "치환 후에도 PUA 문자가 남아있습니다",
+  );
+  assert.ok(!target.jeju_forms[0].includes("국국"), "주변 평문 '국'이 중복 반영됐습니다");
+});
+
 // 3B-1A(2026-09-11) — stable ID production 도입 검증. stableId는 다른
 // 데이터(content/lexemes.json의 bookMeta.bookId)가 영구 참조할 값이다.
 // 순번 기반 id와 달리, PDF 좌표(sourceLocator)로 결정하고

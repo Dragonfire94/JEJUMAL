@@ -21,7 +21,7 @@
     "claimedTotal": 1500,
     "noStandardEquivalentCount": 246,
     "coverageCaveat": "이번 추출은 1501개(공식 1,500개 대비). 상세 수량·품사별 비교는 docs/basic-vocab-2025-extractor-fix.md 참고.",
-    "puaCaveat": "59개 항목(주로 동사·형용사)의 제주어 형태에 PUA(유니코드 사용자 영역, U+E000–F8FF) 문자가 섞여 있다. 이 사전이 쓰는 폰트가 아래아(ㆍ) 등 옛한글 자모를 전용 글리프로 표시해서 생기는, 이 프로젝트에서 이미 확인된 한계다 (data/dictionary/README.md, content/README-life-dialect.md 참고) — 공개된 유니코드 변환표가 없어 원문 그대로 보존했다. contains_pua: true인 항목은 사람이 원본 PDF를 보고 직접 확인해야 한다."
+    "puaCaveat": "58개 항목(주로 동사·형용사)의 제주어 형태에 PUA(유니코드 사용자 영역, U+E000–F8FF) 문자가 섞여 있다. 이 사전이 쓰는 폰트가 아래아(ㆍ) 등 옛한글 자모를 전용 글리프로 표시해서 생기는, 이 프로젝트에서 이미 확인된 한계다 (data/dictionary/README.md, content/README-life-dialect.md 참고) — 공개된 유니코드 변환표가 없어 원문 그대로 보존했다. contains_pua: true인 항목은 사람이 원본 PDF를 보고 직접 확인해야 한다."
   },
   "entries": [
     {
@@ -13587,7 +13587,7 @@
     {
       "standard_raw": null,
       "jeju_forms": [
-        "국"
+        "ᄆᆞᆷ국"
       ],
       "definition": "돼지고기를 삶은 육수에 불린 모자반을 넣어 끓인 국.",
       "level": "중급",
@@ -13595,7 +13595,7 @@
       "chapter_no": 1,
       "pdf_page": 63,
       "id": "jbv2025-0540",
-      "contains_pua": true,
+      "contains_pua": false,
       "standard": [],
       "standard_homograph_no": null,
       "has_standard_equivalent": false,

@@ -971,5 +971,17 @@
     ],
     "occurrences_in_book": 1,
     "sample_page": 132
+  },
+  {
+    "pua": "U+E56E",
+    "reading": "ᄆᆞᆷ",
+    "confidence": "high",
+    "note": "'ᄆᆞᆷ'(모자반, 몸국의 '몸') — 3C-3B.1 감사에서 PDF 크롭(초성ㅁ+아래아+종성ㅁ 3단 구조), 2025 definition('돼지고기를 삶은 육수에 불린 모자반을 넣어 끓인 국'), AI Hub 말뭉치(몸국→모자반국 16회, 몸을→모자반을), 위키백과·나무위키의 원표기 'ᄆᆞᆷ국' 4개 독립 근거로 확정. docs/3c3b1-pua-e56e-audit.md 참고.",
+    "context_form": "국",
+    "context_standard": [
+      "모자반국"
+    ],
+    "occurrences_in_book": 1,
+    "sample_page": 63
   }
 ]
