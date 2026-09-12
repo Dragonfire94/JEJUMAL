@@ -543,13 +543,9 @@
         "standard": "이쪽",
         "soundUrl": "/audio/90124.mp3",
         "partOfSpeech": "pronoun",
-        "examples": [
-          {
-            "jeju": "이짝에서 저짝.",
-            "standard": "이쪽에서 저쪽."
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -8380,13 +8376,9 @@
         "standard": "수수께끼",
         "soundUrl": "/audio/90406.mp3",
         "partOfSpeech": "noun",
-        "examples": [
-          {
-            "jeju": "건디 그 예숙제낄락이 처음 그 할망이 내주는 문제는이 재미난 것들이 하났져.",
-            "standard": "그런데 그 수수께끼가 처음 그 할머니가 내주는 문제는 재미있는 것들이 많았어."
-          }
-        ],
+        "examples": [],
         "reviewStatus": "provisional",
+        "pendingExample": true,
         "hasAudio": false
       },
       {
