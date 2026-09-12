@@ -4175,7 +4175,6 @@
     "standard": "데",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p025l-y00843",
@@ -4214,7 +4213,6 @@
     "standard": "때문",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p025l-y02919",
@@ -7370,7 +7368,6 @@
     "standard": "그리고",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p049l-y01961",
@@ -7390,7 +7387,6 @@
     "standard": "그래도",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p049l-y03830",
@@ -7408,7 +7404,6 @@
     "standard": "그런데",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p049r-y00586",
@@ -7428,7 +7423,6 @@
     "standard": "그리",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p049r-y02632",
@@ -7446,7 +7440,6 @@
     "standard": "그저",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p049r-y03378",
@@ -9502,7 +9495,6 @@
     "standard": "멀미",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066r-y01684",
@@ -9520,7 +9512,6 @@
     "standard": "흉년",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p066r-y02591",
@@ -9538,7 +9529,6 @@
     "standard": "제삿집",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p067l-y02358",
@@ -9620,7 +9610,6 @@
     "standard": "사투리",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p067r-y02460",
@@ -12066,7 +12055,6 @@
     "standard": "품앗이하다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p084l-y03780",
@@ -12084,7 +12072,6 @@
     "standard": "신기다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p084r-y01886",
@@ -14419,7 +14406,6 @@
     "standard": "꿀꺽",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099l-y02402",
@@ -14437,7 +14423,6 @@
     "standard": "시끌벅적",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099l-y03298",
@@ -14455,7 +14440,6 @@
     "standard": "이래저래",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p099r-y01862",
