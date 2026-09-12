@@ -4543,6 +4543,7 @@
     "partOfSpeech": "pronoun",
     "reviewStatus": "provisional",
     "pendingExample": true,
+    "pendingPlacement": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p028l-y02437",
@@ -7642,6 +7643,7 @@
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
     "pendingExample": true,
+    "pendingPlacement": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p051l-y03737",
@@ -14789,5 +14791,41 @@
     },
     "containsPua": false,
     "pendingPlacement": true
+  },
+  {
+    "seq": "90675",
+    "jeju": "삼춘",
+    "standard": "삼촌·연장자 호칭",
+    "partOfSpeech": "noun",
+    "reviewStatus": "provisional",
+    "pendingExample": true,
+    "bookMeta": {
+      "sourceId": "jeju-basic-vocab-2025",
+      "bookId": "jbv2025-p016l-y01491",
+      "level": "초급",
+      "posLabel": "명사",
+      "definition": "1) 부모님의 남자 형제를 이르거나 부르는 말. 2) 나이가 많은 어른을 친근하게 이르거나 부르는 말.",
+      "otherJejuForms": [],
+      "otherStandard": [],
+      "legacyBookId": "jbv2025-0084"
+    }
+  },
+  {
+    "seq": "90676",
+    "jeju": "나냥으로",
+    "standard": "내 힘으로",
+    "partOfSpeech": "adverb",
+    "reviewStatus": "provisional",
+    "pendingExample": true,
+    "bookMeta": {
+      "sourceId": "jeju-basic-vocab-2025",
+      "bookId": "jbv2025-p097l-y02236",
+      "level": "중급",
+      "posLabel": "부사",
+      "definition": "나 자신의 힘으로.",
+      "otherJejuForms": [],
+      "otherStandard": [],
+      "legacyBookId": "jbv2025-0898"
+    }
   }
 ]
