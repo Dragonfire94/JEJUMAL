@@ -6025,5 +6025,365 @@
       "naturalness": "provisional",
       "translation": "approved"
     }
+  },
+  {
+    "id": "90387-1",
+    "seq": "90387",
+    "jeju": "산디 허젠 허난 여름에 검질 맴수다.",
+    "standard": "밭벼 하려고 해서 여름에 김을 매요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000263",
+      "originalText": {
+        "jeju": "아이고 그 산디 허잰허믄 그 여름 땡볕에 검질매레 가그네 나이 어릴 때 검질매러 강으네 기절도 해나서 하도 더웡으네 열사병 걸령으네",
+        "standard": "아이고 그 밭벼 하려면 그 여름 땡볕에 김몌러 가서 나 어릴 때 김몌러 가서 기절도 했었어 하도 더워서 열사병 걸려서"
+      },
+      "editReason": "말뭉치가 산디=밭벼 농사·김매기 맥락을 길게 늘어놓아, 표제어와 여름 김매기만 남긴 짧은 완결 문장으로 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90388-1",
+    "seq": "90388",
+    "jeju": "살레에서 사발을 꺼내수과?",
+    "standard": "찬장에서 사발을 꺼내요?",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90389-1",
+    "seq": "90389",
+    "jeju": "새밭에서 새를 베엇어라.",
+    "standard": "띠밭에서 띠를 베었어.",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90390-1",
+    "seq": "90390",
+    "jeju": "성님 덕에 배부르게 먹엇주.",
+    "standard": "형님 덕에 배부르게 먹었어요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000129",
+      "originalText": {
+        "jeju": "성님 덕에 우리 오늘 혼번 배부르게 먹어보게",
+        "standard": "형님 덕에 우리 오늘 한번 배부르게 먹어보자"
+      },
+      "editReason": "말뭉치 권유형을 학습용 짧은 회상 평서문으로 다듬음. 성님=형님 의미는 원문과 같음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90391-1",
+    "seq": "90391",
+    "jeju": "서답을 삶앗저.",
+    "standard": "빨래를 삶았어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002453",
+      "originalText": {
+        "jeju": "게난양 잚으면 서답도 그것도 막개질 하면 더 고울 거주게 더 고와 게난",
+        "standard": "그니까 삶으면 빨래도 그것도 방망이질 하면 더 고울 거지 더 고와 그니까"
+      },
+      "editReason": "말뭉치의 서답=빨래를 삶는 용법을 짧은 완결 문장으로 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90392-1",
+    "seq": "90392",
+    "jeju": "세미에서 물을 길어 옵서.",
+    "standard": "샘에서 물을 길어 오세요.",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90393-1",
+    "seq": "90393",
+    "jeju": "국에 세우리도 놓주게.",
+    "standard": "국에 부추도 넣어요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000205",
+      "originalText": {
+        "jeju": "세우리도 놓주게",
+        "standard": "부추도 넣지"
+      },
+      "editReason": "말뭉치가 지시 대상 없는 조각 문장이라, 국에 넣는 요리 맥락만 밝혀 학습용 완결 문장으로 다듬음. 세우리=부추 의미 동일."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90394-1",
+    "seq": "90394",
+    "jeju": "소중의로 갈아입엇우다.",
+    "standard": "속옷으로 갈아입었어요.",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90648-1",
+    "seq": "90648",
+    "jeju": "문을 ᄉᆞᆯᄉᆞᆯ 닫앗주.",
+    "standard": "문을 살살 닫았어요.",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90649-1",
+    "seq": "90649",
+    "jeju": "ᄉᆞᆯ째기 맛만 봐수과?",
+    "standard": "살짝 맛만 봐요?",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90650-1",
+    "seq": "90650",
+    "jeju": "아멩헤도 해사 되크라.",
+    "standard": "아무래도 해야 되겠어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000011",
+      "originalText": {
+        "jeju": "야 근디 나 양력으로 아멩헤도 해사 되크라",
+        "standard": "야 근데 나 양력으로 아무래도 해야 되겠어"
+      },
+      "editReason": "앞 부가 설명만 덜어 표제어 아멩헤도=아무래도의 완결 문장으로 다듬음. 원문 의미(아무래도 해야 한다) 유지."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90651-1",
+    "seq": "90651",
+    "jeju": "손님은 안직 안 왓수다.",
+    "standard": "손님은 아직 안 왔어요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20001032",
+      "originalText": {
+        "jeju": "그냥 아 난 좀 기다려야겠다 그 기다리라는 말도 안 해 그냥 안직 안 나왔다 이 말만 핸.",
+        "standard": "그냥 아 난 좀 기다려야겠다 그 기다리라는 말도 안 해 그냥 아직 안 나왔다 이 말만 했어."
+      },
+      "editReason": "말뭉치의 안직=아직 미완료 용법을 손님 기다리는 짧은 완결 문장으로 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90652-1",
+    "seq": "90652",
+    "jeju": "역불로 늦엇게.",
+    "standard": "일부러 늦었어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20001546",
+      "originalText": {
+        "jeju": "또 무사 나한테 겅 햄수과 역불로 겅 하는 거지 지금?",
+        "standard": "또 왜 나한테 그렇게 하나요 일부로 그렇게 하는 거지 지금?"
+      },
+      "editReason": "말뭉치의 역불로=일부러 용법을 늦은 상황의 짧은 완결 문장으로 다듬음. 고의성 의미는 동일."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90481-1",
+    "seq": "90481",
+    "jeju": "마당에 멍석을 다곡 앉앗주.",
+    "standard": "마당에 멍석을 깔고 앉았어요.",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90482-1",
+    "seq": "90482",
+    "jeju": "방에 눅엉 쉬엄수과?",
+    "standard": "방에 누워 쉬어요?",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90483-1",
+    "seq": "90483",
+    "jeju": "값을 호끔 ᄂᆞ리우면 안 되쿠과?",
+    "standard": "값을 조금 내리면 안 돼요?",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20001952",
+      "originalText": {
+        "jeju": "이거 호끔 내리우면 안 되쿠과?",
+        "standard": "이거 조금 내리면 안 돼요?"
+      },
+      "editReason": "말뭉치는 표준형 내리우를 씀. 표제어 ᄂᆞ리우다를 살리고, 정의의 값 내림 의미를 밝혀 학습 문장으로 다듬음."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90525-1",
+    "seq": "90525",
+    "jeju": "발에서 가시를 빠앗주.",
+    "standard": "발에서 가시를 빼었어요.",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90526-1",
+    "seq": "90526",
+    "jeju": "아궁이에 불 살르멍 밥 짓수과?",
+    "standard": "아궁이에 불 사르면서 밥 지어요?",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000933",
+      "originalText": {
+        "jeju": "불 살르멍 행",
+        "standard": "불 사르면서 해서"
+      },
+      "editReason": "말뭉치 파편(불 살르멍)에 아궁이·밥 짓는 생활 맥락을 밝혀 완결 의문문으로 다듬음. 살르다=사르다(불을 피우다) 의미 동일."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90527-1",
+    "seq": "90527",
+    "jeju": "나물이영 참기름을 서끄라.",
+    "standard": "나물과 참기름을 섞으세요.",
+    "source": {
+      "type": "authored"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90528-1",
+    "seq": "90528",
+    "jeju": "오늘 폭삭 속앗저.",
+    "standard": "오늘 폭삭 수고했어요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000048",
+      "originalText": {
+        "jeju": "폭삭 속아수다.",
+        "standard": "완전 고생했어요."
+      },
+      "editReason": "말뭉치의 속다=수고하다 관용 표현(폭삭 속아수다)을 짧은 완결 문장으로 다듬음. 속다(속이다)와 다른 sense."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90529-1",
+    "seq": "90529",
+    "jeju": "손심엉 고치 가게.",
+    "standard": "손잡고 같이 가자.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES21001568",
+      "originalText": {
+        "jeju": "손심엉 고치 가게",
+        "standard": "손잡고 같이 가자"
+      },
+      "editReason": "말뭉치 원문이 거의 완결 문장이라 종결 마침표만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
   }
 ]
