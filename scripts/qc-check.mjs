@@ -157,14 +157,17 @@ export function runChecks(units) {
     }
     const total = [...globalCounts.values()].reduce((a, b) => a + b, 0);
     if (total > 0) {
-      const [topEnding, topCount] = [...globalCounts.entries()].sort((a, b) => b[1] - a[1])[0];
-      const topShare = topCount / total;
-      if (topShare > 0.25) {
-        add(
-          "TOP_ENDING_SHARE",
-          "warn",
-          `최다 종결어미 "-${topEnding}"이(가) 전체의 ${(topShare * 100).toFixed(1)}%(${topCount}/${total})를 차지 (목표: 25% 이하)`,
-        );
+      const known = [...globalCounts.entries()].filter(([e]) => e !== "기타");
+      if (known.length > 0) {
+        const [topEnding, topCount] = known.sort((a, b) => b[1] - a[1])[0];
+        const topShare = topCount / total;
+        if (topShare > 0.25) {
+          add(
+            "TOP_ENDING_SHARE",
+            "warn",
+            `최다 종결어미 "-${topEnding}"이(가) 전체의 ${(topShare * 100).toFixed(1)}%(${topCount}/${total})를 차지 (목표: 25% 이하)`,
+          );
+        }
       }
     }
   }

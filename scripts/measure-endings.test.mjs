@@ -25,3 +25,18 @@ test("unitsUnderThreshold는 종결어미 종류가 threshold 이하인 유닛�
   const flagged = unitsUnderThreshold(units, 2);
   assert.deepEqual(flagged.map((r) => r.id), ["u1"]);
 });
+
+test("ㅂ서 surface forms canonicalize to 읍서", () => {
+  assert.equal(ending("혼저 옵서."), "읍서");
+  assert.equal(ending("이것 좀 봐 줍서."), "읍서");
+  assert.equal(ending("조심헙서."), "읍서");
+  assert.equal(ending("이디 앚입서."), "읍서");
+  assert.equal(ending("여기 놉서."), "읍서");
+  assert.equal(ending("잘 닫읍서."), "읍서");
+});
+
+test("existing known endings stay exact", () => {
+  assert.equal(ending("오늘 옵수다."), "수다");
+  assert.equal(ending("그렇주."), "주");
+  assert.equal(ending("가라."), "라");
+});

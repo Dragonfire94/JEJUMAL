@@ -98,3 +98,46 @@ test("ENDING_DIVERSITY_PER_UNIT warns when a unit uses two or fewer sentence end
   const units = [unit("u1", words)];
   assert.ok(findingsFor("ENDING_DIVERSITY_PER_UNIT", units).length > 0);
 });
+
+function manyWords(startSeq, count, jejuExample) {
+  return Array.from({ length: count }, (_, i) =>
+    word(String(startSeq + i), `제주어${startSeq + i}`, `표준어${startSeq + i}`, `표준어${startSeq + i}는 좋아요.`, jejuExample),
+  );
+}
+
+function packUnits(groups) {
+  const words = groups.flat();
+  const units = [];
+  for (let i = 0; i < words.length; i += 10) {
+    units.push(unit(`u${units.length}`, words.slice(i, i + 10)));
+  }
+  return units;
+}
+
+test("TOP_ENDING_SHARE ignores 기타 even when it exceeds 25%", () => {
+  // 100 examples: 기타 40, 수다 24, 마씸 12, 주 12, 라 12
+  const units = packUnits([
+    manyWords(1, 40, "갔맨."),
+    manyWords(41, 24, "갔수다."),
+    manyWords(65, 12, "갔수다마씸."),
+    manyWords(77, 12, "갔주."),
+    manyWords(89, 12, "가라."),
+  ]);
+  assert.equal(units.flatMap((u) => u.words).length, 100);
+  assert.equal(findingsFor("TOP_ENDING_SHARE", units).length, 0);
+});
+
+test("TOP_ENDING_SHARE fires when a known ending exceeds 25% of all examples", () => {
+  // 100 examples: 수다 30, 기타 20, 마씸 20, 주 15, 라 15
+  const units = packUnits([
+    manyWords(1, 30, "갔수다."),
+    manyWords(31, 20, "갔맨."),
+    manyWords(51, 20, "갔수다마씸."),
+    manyWords(71, 15, "갔주."),
+    manyWords(86, 15, "가라."),
+  ]);
+  assert.equal(units.flatMap((u) => u.words).length, 100);
+  const hits = findingsFor("TOP_ENDING_SHARE", units);
+  assert.ok(hits.length > 0);
+  assert.match(hits[0].message, /수다/);
+});
