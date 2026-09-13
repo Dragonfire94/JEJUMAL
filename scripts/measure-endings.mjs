@@ -22,8 +22,20 @@ export function ending(jeju) {
   for (const e of KNOWN_ENDINGS) {
     if (trimmed.endsWith(e)) return e;
   }
+  if (isBieupSeoSurface(trimmed)) return "읍서";
   return "기타";
 }
+
+/** 문장 끝이 `서`이고 직전 한글 음절 종성이 ㅂ이면 읍서 표면형 (줍서/봅서/옵서 등). */
+function isBieupSeoSurface(trimmed) {
+  if (!trimmed.endsWith("서") || trimmed.length < 2) return false;
+  const prev = trimmed[trimmed.length - 2];
+  const code = prev.charCodeAt(0) - 0xac00;
+  if (code < 0 || code > 11171) return false;
+  const JONGSEONG_BIEUP = 17;
+  return code % 28 === JONGSEONG_BIEUP;
+}
+
 
 export function distribution(sentences) {
   const counts = new Map();
