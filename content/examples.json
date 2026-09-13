@@ -565,63 +565,81 @@
   {
     "id": "647-1",
     "seq": "647",
-    "jeju": "마을 부제가 흉년 든 이웃에게 쌀을 나눴어마씸.",
-    "standard": "마을 부자가 흉년 든 이웃에게 쌀을 나눴어요.",
+    "jeju": "마을 부제가 어려운 집에 쌀을 나눠 줬주.",
+    "standard": "마을 부자가 어려운 집에 쌀을 나눠 줬지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "마을 부제가 흉년 든 이웃에게 쌀을 나눴어마씸.",
+        "standard": "마을 부자가 흉년 든 이웃에게 쌀을 나눴어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "579-1",
     "seq": "579",
-    "jeju": "아기가 어멍 품에서 곤히 잠들었어마씸.",
-    "standard": "아기가 어머니 품에서 곤히 잠들었어요.",
+    "jeju": "아기 자는디 조용히 헙서.",
+    "standard": "아기 자는데 조용히 하세요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아기가 어멍 품에서 곤히 잠들었어마씸.",
+        "standard": "아기가 어머니 품에서 곤히 잠들었어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "472-1",
     "seq": "472",
-    "jeju": "돌챙이가 돌담의 무너진 부분을 다시 쌓았어마씸.",
-    "standard": "석수가 돌담의 무너진 부분을 다시 쌓았어요.",
+    "jeju": "무너진 돌담은 돌챙이가 다시 쌓았수다.",
+    "standard": "무너진 돌담은 석수가 다시 쌓았어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "돌챙이가 돌담의 무너진 부분을 다시 쌓았어마씸.",
+        "standard": "석수가 돌담의 무너진 부분을 다시 쌓았어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5407-1",
     "seq": "5407",
-    "jeju": "이번 둘엔 장게 가는 사름이 하수다.",
-    "standard": "이번 달엔 장가 가는 사람이 많아요.",
+    "jeju": "올봄엔 장게 가는 사름이 하주게.",
+    "standard": "올봄엔 장가가는 사람이 많지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "장게 장게",
-        "standard": "장가 장가"
+        "jeju": "이번 둘엔 장게 가는 사름이 하수다.",
+        "standard": "이번 달엔 장가 가는 사람이 많아요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 19·장가. 생애 사건 일상. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
@@ -703,81 +721,81 @@
   {
     "id": "374-1",
     "seq": "374",
-    "jeju": "저 아이는 간세다리랜 소문 낫수다.",
-    "standard": "저 아이는 게으름뱅이라고 소문이 났어요.",
+    "jeju": "일은 안 허고 누워만 이시민 간세다리 소리 듣주게.",
+    "standard": "일은 안 하고 누워만 있으면 게으름뱅이 소리 듣지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "영 골은 후제 간세다리 소나이는 쇠고치 보지런히 농사지으멍 낭중엔 큰 부재가 되었던호여마씀",
-        "standard": "이렇게 말한 후에 게으름뱅이 남자는 소처럼 부지런히 농사지으면서 나중엔 큰 부자가 되었대요"
+        "jeju": "저 아이는 간세다리랜 소문 낫수다.",
+        "standard": "저 아이는 게으름뱅이라고 소문이 났어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 11·게으름장이. 인물 유형 구어. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "601-1",
     "seq": "601",
-    "jeju": "저 두갓은 밧듸 강 살암수다.",
-    "standard": "저 부부는 밭에 가서 살아요.",
+    "jeju": "저 두갓은 장날마다 혼디 옵주.",
+    "standard": "저 부부는 장날마다 함께 오지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "두갓 두갓이가 두갓이",
-        "standard": "부부 부부이가 부부이"
+        "jeju": "저 두갓은 밧듸 강 살암수다.",
+        "standard": "저 부부는 밭에 가서 살아요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 7·부부. 가족 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "1817-1",
     "seq": "1817",
-    "jeju": "심방이 굿을 헴수다.",
-    "standard": "무당이 굿을 하고 있어요.",
+    "jeju": "마을 굿날엔 심방 소리가 골목까지 들리더라.",
+    "standard": "마을 굿날에는 무당 소리가 골목까지 들리더라.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "할망 말이 심방 말이",
-        "standard": "할머니 말이 무당 말이"
+        "jeju": "심방이 굿을 헴수다.",
+        "standard": "무당이 굿을 하고 있어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 7·무당. 중요도 2이나 제주 무속 정체성 핵심(할망당과 쌍). (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6692-1",
     "seq": "6692",
-    "jeju": "돌하르방 코 문지르민 아들 낳는댄 헙주.",
-    "standard": "돌하르방 코를 문지르면 아들을 낳는다고 해요.",
+    "jeju": "관광객들 돌하르방 앞이서 사진 찍엄수다.",
+    "standard": "관광객들이 돌하르방 앞에서 사진을 찍고 있어요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "돌하르방 코 문지르면 아들 낳는 댄",
-        "standard": "돌하르방 코 문지르면 아들 낳는 대"
+        "jeju": "돌하르방 코 문지르민 아들 낳는댄 헙주.",
+        "standard": "돌하르방 코를 문지르면 아들을 낳는다고 해요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 2·돌하르방. 중요도 1이나 제주 아이콘 정체성. (카테고리 태그 인륜 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
@@ -823,141 +841,201 @@
   {
     "id": "7557-1",
     "seq": "7557",
-    "jeju": "무사 그렇게 급하게 걸어마씸?",
-    "standard": "왜 그렇게 급하게 걸어요?",
+    "jeju": "무사 혼자 먼저 갔맨?",
+    "standard": "왜 혼자 먼저 갔어?",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "무사 그렇게 급하게 걸어마씸?",
+        "standard": "왜 그렇게 급하게 걸어요?"
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7496-1",
     "seq": "7496",
-    "jeju": "오늘은 물을 하영 마셨어마씸.",
-    "standard": "오늘은 물을 많이 마셨어요.",
+    "jeju": "비 오난 물이 하영 불었수다.",
+    "standard": "비가 오니 물이 많이 불었어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "오늘은 물을 하영 마셨어마씸.",
+        "standard": "오늘은 물을 많이 마셨어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7564-1",
     "seq": "7564",
-    "jeju": "옵서, 이쪽으로 앚입서.",
-    "standard": "오세요, 이쪽으로 앉으세요.",
+    "jeju": "혼저 옵서.",
+    "standard": "어서 오십시오.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "옵서, 이쪽으로 앚입서.",
+        "standard": "오세요, 이쪽으로 앉으세요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7554-1",
     "seq": "7554",
-    "jeju": "기여, 이레 옵서.",
-    "standard": "그래, 이쪽으로 오세요.",
+    "jeju": "기여, 경 허민 뒈주.",
+    "standard": "그래, 그렇게 하면 되지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "기여, 이레 옵서.",
+        "standard": "그래, 이쪽으로 오세요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5707-1",
     "seq": "5707",
-    "jeju": "이디 있는 책은 누구 거마씸?",
-    "standard": "여기 있는 책은 누구 거예요?",
+    "jeju": "이디 앚읍서.",
+    "standard": "여기 앉으세요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "이디 있는 책은 누구 거마씸?",
+        "standard": "여기 있는 책은 누구 거예요?"
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5709-1",
     "seq": "5709",
-    "jeju": "저디까지 걸어갔어마씸.",
-    "standard": "저기까지 걸어갔어요.",
+    "jeju": "저디까지 혼자 걸어갔수다.",
+    "standard": "저기까지 혼자 걸어갔어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저디까지 걸어갔어마씸.",
+        "standard": "저기까지 걸어갔어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5704-1",
     "seq": "5704",
-    "jeju": "이거 한번 먹어 봐마씸.",
-    "standard": "이것 한번 먹어 봐요.",
+    "jeju": "이거 먹어 보민 맛있주게.",
+    "standard": "이거 먹어 보면 맛있지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "이거 한번 먹어 봐마씸.",
+        "standard": "이것 한번 먹어 봐요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5696-1",
     "seq": "5696",
-    "jeju": "누게가 그 말을 했어마씸?",
-    "standard": "누가 그 말을 했어요?",
+    "jeju": "누게 이거 놔둔 거우꽈?",
+    "standard": "누가 이거 놔둔 거예요?",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "누게가 그 말을 했어마씸?",
+        "standard": "누가 그 말을 했어요?"
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5718-1",
     "seq": "5718",
-    "jeju": "그중에 싯이 남았어마씸.",
-    "standard": "그중에 셋이 남았어요.",
+    "jeju": "세어 보난 싯이 남았주.",
+    "standard": "세어 보니 셋이 남았지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "그중에 싯이 남았어마씸.",
+        "standard": "그중에 셋이 남았어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5721-1",
     "seq": "5721",
-    "jeju": "그 책을 여답 번 읽었어마씸.",
-    "standard": "그 책을 여덟 번 읽었어요.",
+    "jeju": "사름이 여답이나 왔수과?",
+    "standard": "사람이 여덟이나 왔어요?",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "그 책을 여답 번 읽었어마씸.",
+        "standard": "그 책을 여덟 번 읽었어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
@@ -2397,141 +2475,201 @@
   {
     "id": "6881-1",
     "seq": "6881",
-    "jeju": "아침에 짐을 날라마씸.",
-    "standard": "아침에 짐을 날라요.",
+    "jeju": "이 짐은 혼자 말고 둘이 날라야주.",
+    "standard": "이 짐은 혼자 말고 둘이 날라야지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아침에 짐을 날라마씸.",
+        "standard": "아침에 짐을 날라요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6879-1",
     "seq": "6879",
-    "jeju": "아침에 아이를 나무래어마씸.",
-    "standard": "아침에 아이를 나무래요.",
+    "jeju": "애가 거짓말 헌 걸 알고 어멍이 한참 나무랐주.",
+    "standard": "아이가 거짓말한 걸 알고 엄마가 한참 나무랐지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아침에 아이를 나무래어마씸.",
+        "standard": "아침에 아이를 나무래요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6886-1",
     "seq": "6886",
-    "jeju": "아침에 밥을 냉기어마씸.",
-    "standard": "아침에 밥을 남겨요.",
+    "jeju": "밥 호끔 냉겨 둬, 나중에 먹게.",
+    "standard": "밥 조금 남겨 둬, 나중에 먹게.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아침에 밥을 냉기어마씸.",
+        "standard": "아침에 밥을 남겨요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6883-1",
     "seq": "6883",
-    "jeju": "아침에 쓰레기를 내불어마씸.",
-    "standard": "아침에 쓰레기를 내버려요.",
+    "jeju": "안 쓰는 건 거기 그냥 내불라.",
+    "standard": "안 쓰는 건 거기 그냥 내버려.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아침에 쓰레기를 내불어마씸.",
+        "standard": "아침에 쓰레기를 내버려요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6960-1",
     "seq": "6960",
-    "jeju": "낮에 아이를 맽기어마씸.",
-    "standard": "낮에 아이를 맡겨요.",
+    "jeju": "애기 잠깐 할망한테 맽겨 둬.",
+    "standard": "아기 잠깐 할머니한테 맡겨 둬.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "낮에 아이를 맽기어마씸.",
+        "standard": "낮에 아이를 맡겨요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6966-1",
     "seq": "6966",
-    "jeju": "낮에 구멍을 메꾸어마씸.",
-    "standard": "낮에 구멍을 메워요.",
+    "jeju": "담 고망은 돌로 메꾸라.",
+    "standard": "담 구멍은 돌로 메워.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "낮에 구멍을 메꾸어마씸.",
+        "standard": "낮에 구멍을 메워요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6968-1",
     "seq": "6968",
-    "jeju": "가족 여행 갈 돈을 달마다 메우고 있수다.",
-    "standard": "가족 여행에 쓸 돈을 달마다 모으고 있어요.",
+    "jeju": "여행 갈 돈은 달마다 호끔씩 메우주.",
+    "standard": "여행 갈 돈은 달마다 조금씩 모으지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "가족 여행 갈 돈을 달마다 메우고 있수다.",
+        "standard": "가족 여행에 쓸 돈을 달마다 모으고 있어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6926-1",
     "seq": "6926",
-    "jeju": "낮에 아이가 둥글어마씸.",
-    "standard": "낮에 아이가 뒹굴어요.",
+    "jeju": "강생이가 마당에서 둥글멍 놀암수다.",
+    "standard": "강아지가 마당에서 뒹굴며 놀고 있어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "낮에 아이가 둥글어마씸.",
+        "standard": "낮에 아이가 뒹굴어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7134-1",
     "seq": "7134",
-    "jeju": "낮에 가방이 털어져마씸.",
-    "standard": "낮에 가방이 떨어져요.",
+    "jeju": "가방이 의자에서 털어져 불었주게.",
+    "standard": "가방이 의자에서 떨어져 버렸지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "낮에 가방이 털어져마씸.",
+        "standard": "낮에 가방이 떨어져요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7014-1",
     "seq": "7014",
-    "jeju": "낮에 옷을 벳기어마씸.",
-    "standard": "낮에 옷을 벗겨요.",
+    "jeju": "애 자면 겉옷부터 살살 벳깁서.",
+    "standard": "아이 자면 겉옷부터 살살 벗기세요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "낮에 옷을 벳기어마씸.",
+        "standard": "낮에 옷을 벗겨요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
@@ -2678,337 +2816,481 @@
   {
     "id": "7048-1",
     "seq": "7048",
-    "jeju": "저녁에 명절을 세마씸.",
-    "standard": "저녁에 명절을 쇠어요.",
+    "jeju": "이번 설은 큰집에서 세주.",
+    "standard": "이번 설은 큰집에서 쇠지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 명절을 세마씸.",
+        "standard": "저녁에 명절을 쇠어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7033-1",
     "seq": "7033",
-    "jeju": "저녁에 물을 비우어마씸.",
-    "standard": "저녁에 물을 부어요.",
+    "jeju": "병에 든 물 호끔만 컵에 비우라.",
+    "standard": "병에 든 물 조금만 컵에 부어.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 물을 비우어마씸.",
+        "standard": "저녁에 물을 부어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7030-1",
     "seq": "7030",
-    "jeju": "저녁에 벼를 비어마씸.",
-    "standard": "저녁에 벼를 베어요.",
+    "jeju": "나록 익으민 다 같이 비러 갑주.",
+    "standard": "벼가 익으면 다 같이 베러 가지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 벼를 비어마씸.",
+        "standard": "저녁에 벼를 베어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7024-1",
     "seq": "7024",
-    "jeju": "저녁에 종이가 붙어마씸.",
-    "standard": "저녁에 종이가 붙어요.",
+    "jeju": "젖은 종이가 창문에 부텄수다.",
+    "standard": "젖은 종이가 창문에 붙었어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 종이가 붙어마씸.",
+        "standard": "저녁에 종이가 붙어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7017-1",
     "seq": "7017",
-    "jeju": "저녁에 동전을 봉그어마씸.",
-    "standard": "저녁에 동전을 주워요.",
+    "jeju": "길에 떨어진 동전 하나 봉그라.",
+    "standard": "길에 떨어진 동전 하나 주워.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 동전을 봉그어마씸.",
+        "standard": "저녁에 동전을 주워요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7009-1",
     "seq": "7009",
-    "jeju": "설거지허다가 손이 미끄러져 그릇을 벌랐수다.",
-    "standard": "설거지하다가 손이 미끄러져 그릇을 깼어요.",
+    "jeju": "설거지허당 그릇 하나 벌라불었수다.",
+    "standard": "설거지하다가 그릇 하나 깨 버렸어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "설거지허다가 손이 미끄러져 그릇을 벌랐수다.",
+        "standard": "설거지하다가 손이 미끄러져 그릇을 깼어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7007-1",
     "seq": "7007",
-    "jeju": "저녁에 팔을 벋어마씸.",
-    "standard": "저녁에 팔을 뻗어요.",
+    "jeju": "허리 아프민 팔부터 쭉 벋어 봅서.",
+    "standard": "허리 아프면 팔부터 쭉 뻗어 보세요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 팔을 벋어마씸.",
+        "standard": "저녁에 팔을 뻗어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6956-1",
     "seq": "6956",
-    "jeju": "저녁에 냄새를 맡아마씸.",
-    "standard": "저녁에 냄새를 맡아요.",
+    "jeju": "이 꽃 호끔 마타 봐, 냄새 좋아.",
+    "standard": "이 꽃 조금 맡아 봐, 냄새 좋아.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 냄새를 맡아마씸.",
+        "standard": "저녁에 냄새를 맡아요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6912-1",
     "seq": "6912",
-    "jeju": "저녁에 이불을 더끄어마씸.",
-    "standard": "저녁에 이불을 덮어요.",
+    "jeju": "추우민 이불 더껑 자라.",
+    "standard": "추우면 이불 덮고 자.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 이불을 더끄어마씸.",
+        "standard": "저녁에 이불을 덮어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6909-1",
     "seq": "6909",
-    "jeju": "저녁에 김치를 담어마씸.",
-    "standard": "저녁에 김치를 담가요.",
+    "jeju": "올해 김장은 언제 담을 거우꽈?",
+    "standard": "올해 김장은 언제 담글 거예요?",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 김치를 담어마씸.",
+        "standard": "저녁에 김치를 담가요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6885-1",
     "seq": "6885",
-    "jeju": "저녁에 가시를 내치어마씸.",
-    "standard": "저녁에 가시를 뱉어요.",
+    "jeju": "생선 가시 씹으민 바로 내쳐라.",
+    "standard": "생선 가시를 씹으면 바로 뱉어.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 가시를 내치어마씸.",
+        "standard": "저녁에 가시를 뱉어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "6878-1",
     "seq": "6878",
-    "jeju": "저녁에 물고기를 낚아마씸.",
-    "standard": "저녁에 물고기를 낚아요.",
+    "jeju": "아방은 쉬는 날마다 포구 강 물고기 낚수다.",
+    "standard": "아버지는 쉬는 날마다 포구에 가서 물고기를 낚아요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 물고기를 낚아마씸.",
+        "standard": "저녁에 물고기를 낚아요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7156-1",
     "seq": "7156",
-    "jeju": "저녁에 머리를 흥글어마씸.",
-    "standard": "저녁에 머리를 흔들어요.",
+    "jeju": "먹기 전에 병을 잘 흥글어.",
+    "standard": "먹기 전에 병을 잘 흔들어.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 머리를 흥글어마씸.",
+        "standard": "저녁에 머리를 흔들어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7154-1",
     "seq": "7154",
-    "jeju": "아이한테 약 먹이다가 옷에 호끔 흘쳤수다.",
-    "standard": "아이에게 약을 먹이다가 옷에 조금 흘렸어요.",
+    "jeju": "약 옷에 안 흘치게 조심헙서.",
+    "standard": "약을 옷에 흘리지 않게 조심하세요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아이한테 약 먹이다가 옷에 호끔 흘쳤수다.",
+        "standard": "아이에게 약을 먹이다가 옷에 조금 흘렸어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7153-1",
     "seq": "7153",
-    "jeju": "저녁에 시간이 흘라마씸.",
-    "standard": "저녁에 시간이 흘러요.",
+    "jeju": "비 온 뒤엔 물이 도랑으로 잘 흘르주.",
+    "standard": "비 온 뒤에는 물이 도랑으로 잘 흐르지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 시간이 흘라마씸.",
+        "standard": "저녁에 시간이 흘러요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7112-1",
     "seq": "7112",
-    "jeju": "저녁에 강아지를 질루어마씸.",
-    "standard": "저녁에 강아지를 길러요.",
+    "jeju": "이 강생이는 어릴 때부터 내가 질룬 거라.",
+    "standard": "이 강아지는 어릴 때부터 내가 기른 거야.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "저녁에 강아지를 질루어마씸.",
+        "standard": "저녁에 강아지를 길러요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7102-1",
     "seq": "7102",
-    "jeju": "밤새 개가 주꾸어마씸.",
-    "standard": "밤새 개가 짖었어요.",
+    "jeju": "밤마다 개가 주꾸난 잠을 못 자.",
+    "standard": "밤마다 개가 짖어서 잠을 못 자.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "밤새 개가 주꾸어마씸.",
+        "standard": "밤새 개가 짖었어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7094-1",
     "seq": "7094",
-    "jeju": "지금 옷을 적져마씸.",
-    "standard": "지금 옷을 적셔요.",
+    "jeju": "물장난 허당 옷을 몬딱 적져 불었주.",
+    "standard": "물장난하다가 옷을 몽땅 적셔 버렸지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 옷을 적져마씸.",
+        "standard": "지금 옷을 적셔요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7086-1",
     "seq": "7086",
-    "jeju": "지금 아이에게 옷을 입지어마씸.",
-    "standard": "지금 아이에게 옷을 입혀요.",
+    "jeju": "바람 세난 애기한테 겉옷 하나 더 입지어 줍서.",
+    "standard": "바람이 세니 아기에게 겉옷 하나 더 입혀 주세요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 아이에게 옷을 입지어마씸.",
+        "standard": "지금 아이에게 옷을 입혀요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7083-1",
     "seq": "7083",
-    "jeju": "지금 자꾸 용심나마씸.",
-    "standard": "지금 자꾸 성나요.",
+    "jeju": "무사 또 용심났수과?",
+    "standard": "왜 또 성났어요?",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 자꾸 용심나마씸.",
+        "standard": "지금 자꾸 성나요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7082-1",
     "seq": "7082",
-    "jeju": "지금 산에 올라마씸.",
-    "standard": "지금 산에 올라요.",
+    "jeju": "천천히 올르멍 숨 고르라.",
+    "standard": "천천히 오르면서 숨 골라.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 산에 올라마씸.",
+        "standard": "지금 산에 올라요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7058-1",
     "seq": "7058",
-    "jeju": "지금 일이 심들어마씸.",
-    "standard": "지금 일이 힘들어요.",
+    "jeju": "오늘 일 잘도 심들지?",
+    "standard": "오늘 일 정말 힘들지?",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 일이 심들어마씸.",
+        "standard": "지금 일이 힘들어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7055-1",
     "seq": "7055",
-    "jeju": "어멍이 아이한테 숙제를 먼저 허렌 시겼수다.",
-    "standard": "엄마가 아이에게 숙제를 먼저 하라고 시켰어요.",
+    "jeju": "어멍이 동생보고 방부터 치우렌 시겼수다.",
+    "standard": "엄마가 동생에게 방부터 치우라고 시켰어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "어멍이 아이한테 숙제를 먼저 허렌 시겼수다.",
+        "standard": "엄마가 아이에게 숙제를 먼저 하라고 시켰어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7046-1",
     "seq": "7046",
-    "jeju": "하던 일을 설러마씸.",
-    "standard": "하던 일을 그만두었어요.",
+    "jeju": "심들민 오늘은 일찍 설러도 뒈주.",
+    "standard": "힘들면 오늘은 일찍 그만둬도 되지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "하던 일을 설러마씸.",
+        "standard": "하던 일을 그만두었어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
@@ -3284,113 +3566,161 @@
   {
     "id": "7302-1",
     "seq": "7302",
-    "jeju": "마을에서 포구까지 가는 길이 참 질어마씸.",
-    "standard": "마을에서 포구까지 가는 길이 참 길어요.",
+    "jeju": "포구까지 가는 질이 생각보다 질주게.",
+    "standard": "포구까지 가는 길이 생각보다 길지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "마을에서 포구까지 가는 길이 참 질어마씸.",
+        "standard": "마을에서 포구까지 가는 길이 참 길어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7268-1",
     "seq": "7268",
-    "jeju": "아이가 나이에 비해 역어마씸.",
-    "standard": "아이가 나이에 비해 약삭빨라요.",
+    "jeju": "저 아이 나이에 비해 잘도 역어.",
+    "standard": "저 아이 나이에 비해 정말 약아.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아이가 나이에 비해 역어마씸.",
+        "standard": "아이가 나이에 비해 약삭빨라요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7264-1",
     "seq": "7264",
-    "jeju": "아기가 방에는 엇고 마당에서 놀암수다.",
-    "standard": "아기가 방에는 없고 마당에서 놀고 있어요.",
+    "jeju": "찾아보난 방엔 엇고 마당에 있더라.",
+    "standard": "찾아보니 방에는 없고 마당에 있더라.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "아기가 방에는 엇고 마당에서 놀암수다.",
+        "standard": "아기가 방에는 없고 마당에서 놀고 있어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7171-1",
     "seq": "7171",
-    "jeju": "한라산은 멀리서 봐도 참 높아마씸.",
-    "standard": "한라산은 멀리서 보아도 참 높아요.",
+    "jeju": "여기서 봐도 한라산 진짜 높주.",
+    "standard": "여기서 봐도 한라산 진짜 높지.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "한라산은 멀리서 봐도 참 높아마씸.",
+        "standard": "한라산은 멀리서 보아도 참 높아요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7294-1",
     "seq": "7294",
-    "jeju": "큰 병 앓고 나난 몸이 많이 줄어마씸.",
-    "standard": "큰 병을 앓고 나니 몸이 많이 여위었어요.",
+    "jeju": "큰 병 치르고 몸이 확 줄었수다.",
+    "standard": "큰 병을 치르고 몸이 확 여위었어요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "큰 병 앓고 나난 몸이 많이 줄어마씸.",
+        "standard": "큰 병을 앓고 나니 몸이 많이 여위었어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7292-1",
     "seq": "7292",
-    "jeju": "지금 자세가 졸바라마씸.",
-    "standard": "지금 자세가 발라요.",
+    "jeju": "허리 졸바르게 펴고 앉읍서.",
+    "standard": "허리를 바르게 펴고 앉으세요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 자세가 졸바라마씸.",
+        "standard": "지금 자세가 발라요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7265-1",
     "seq": "7265",
-    "jeju": "지금 그물이 엉기어마씸.",
-    "standard": "지금 그물이 성겨요.",
+    "jeju": "이 그물은 코가 엉겨서 작은 고기가 다 빠져나가.",
+    "standard": "이 그물은 코가 성겨서 작은 고기가 다 빠져나가.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 그물이 엉기어마씸.",
+        "standard": "지금 그물이 성겨요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "7247-1",
     "seq": "7247",
-    "jeju": "지금 손이 실렵어마씸.",
-    "standard": "지금 손이 차가워요.",
+    "jeju": "물에 손 담가 보난 잘도 실렵수다.",
+    "standard": "물에 손을 담가 보니 정말 차가워요.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "지금 손이 실렵어마씸.",
+        "standard": "지금 손이 차가워요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
@@ -3582,245 +3912,261 @@
   {
     "id": "447-1",
     "seq": "447",
-    "jeju": "느렁테가 밭일을 너무 천천히 허난 해 지는 줄도 몰랐수다.",
-    "standard": "느림보가 밭일을 너무 천천히 해서 해가 지는 줄도 몰랐어요.",
+    "jeju": "느렁테랜 재촉 말앙 천천히 허게 놔둬.",
+    "standard": "느림보라고 재촉하지 말고 천천히 하게 놔둬.",
     "source": {
-      "type": "legacy"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "느렁테가 밭일을 너무 천천히 허난 해 지는 줄도 몰랐수다.",
+        "standard": "느림보가 밭일을 너무 천천히 해서 해가 지는 줄도 몰랐어요."
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4342-1",
     "seq": "4342",
-    "jeju": "양애 장아찌 맛이 조수다.",
-    "standard": "양하 장아찌 맛이 좋아요.",
+    "jeju": "양애 장아찌가 향이 참 좋주게.",
+    "standard": "양하 장아찌가 향이 참 좋지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "난 양애 장아찌 맛 조읍디다",
-        "standard": "난 양애 장아찌 맛 좋았어요"
+        "jeju": "양애 장아찌 맛이 조수다.",
+        "standard": "양하 장아찌 맛이 좋아요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 대체 편입. 뜻-예문 일치. 표준 예문에 양하 없어 수정 필요."
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4186-1",
     "seq": "4186",
-    "jeju": "대우리 갈앙 죽 쒀 먹엇수다.",
-    "standard": "귀리를 갈아 죽을 쑤어 먹었어요.",
+    "jeju": "대우리는 갈앙 죽 쒀 먹으민 고소허주.",
+    "standard": "귀리는 갈아 죽 쒀 먹으면 고소하지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "선생님 그 대우리 알아 대우리?",
-        "standard": "선생님 그 귀리 알아 귀리?"
+        "jeju": "대우리 갈앙 죽 쒀 먹엇수다.",
+        "standard": "귀리를 갈아 죽을 쑤어 먹었어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 13·귀리. 곡물. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4295-1",
     "seq": "4295",
-    "jeju": "흐린조로 조밥을 지어 먹엇수다.",
-    "standard": "차조로 조밥을 지어 먹었어요.",
+    "jeju": "오늘 밥엔 흐린조 호끔 섞어 봅서.",
+    "standard": "오늘 밥에는 차조를 조금 섞어 보세요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "맞아 흐린조 그러니까 검은조 그래 모인조 모인조가 저 노란거 아닙니까?",
-        "standard": "맞아 흐린조 그러니까 검은조 그래 메조 메조가 저 노란거 아닙니까?"
+        "jeju": "흐린조로 조밥을 지어 먹엇수다.",
+        "standard": "차조로 조밥을 지어 먹었어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 13·차조. 곡물. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4187-1",
     "seq": "4187",
-    "jeju": "대죽으로 떡을 해 먹엇수다.",
-    "standard": "수수로 떡을 해 먹었어요.",
+    "jeju": "대죽으로 떡도 맹글어 먹수다.",
+    "standard": "수수로 떡도 만들어 먹어요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "대죽 대죽",
-        "standard": "수수 수수"
+        "jeju": "대죽으로 떡을 해 먹엇수다.",
+        "standard": "수수로 떡을 해 먹었어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 수수 따위."
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4334-1",
     "seq": "4334",
-    "jeju": "부루 모종을 심엇수다.",
-    "standard": "상추 모종을 심었어요.",
+    "jeju": "고기 먹을 거난 부루 씻어 놔라.",
+    "standard": "고기 먹을 거니까 상추 씻어 놔.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "부루 모종이 이신가? 노물 모종이 이신가?",
-        "standard": "상추 모종이 있을까요? 나물 모종이 있을까요?"
+        "jeju": "부루 모종을 심엇수다.",
+        "standard": "상추 모종을 심었어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 3·상추. 식탁 채소. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4547-1",
     "seq": "4547",
-    "jeju": "두 사람은 하늘이 정헌 거리로 다시 만났수과?",
-    "standard": "두 사람은 하늘이 정해준 부부의 연으로 다시 만났습니까?",
+    "jeju": "둘 사이는 하늘이 맺어 준 거리주게.",
+    "standard": "둘 사이는 하늘이 맺어 준 부부의 연이지.",
     "source": {
-      "type": "legacy",
-      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "두 사람은 하늘이 정헌 거리로 다시 만났수과?",
+        "standard": "두 사람은 하늘이 정해준 부부의 연으로 다시 만났습니까?"
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "2761-1",
     "seq": "2761",
-    "jeju": "족은어멍이 명절에 조카들 몫의 떡을 챙겼수과?",
-    "standard": "숙모가 명절에 조카들 몫의 떡을 챙겼어요?",
+    "jeju": "명절에 족은어멍이 떡을 하영 맹글어 왔주.",
+    "standard": "명절에 숙모가 떡을 많이 만들어 왔지.",
     "source": {
-      "type": "legacy",
-      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+      "type": "authored",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
+      "originalText": {
+        "jeju": "족은어멍이 명절에 조카들 몫의 떡을 챙겼수과?",
+        "standard": "숙모가 명절에 조카들 몫의 떡을 챙겼어요?"
+      },
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4593-1",
     "seq": "4593",
-    "jeju": "아이덜이 곱을락 햄수과?",
-    "standard": "아이들이 숨바꼭질하고 있어요?",
+    "jeju": "아이덜이 마당이서 곱을락 허멍 놀암주.",
+    "standard": "아이들이 마당에서 숨바꼭질하며 놀고 있지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "응 숨바꼭질하고 곱을락",
-        "standard": "응 숨바꼭질하고 숨바꼭질"
+        "jeju": "아이덜이 곱을락 햄수과?",
+        "standard": "아이들이 숨바꼭질하고 있어요?"
       },
-      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "303-1",
     "seq": "303",
-    "jeju": "메날 새벽에 일어남수과?",
-    "standard": "매일 새벽에 일어나요?",
+    "jeju": "메날 이 시간에 운동허는 거우꽈?",
+    "standard": "매일 이 시간에 운동하는 거예요?",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "게메마시게 저도 뉴스 보난 메날 메날 열 몇 명씩 막 나왐선게만은",
-        "standard": "그러게 말입니다. 저도 뉴스 보난 맨날 맨날 열 몇 명씩 막 나오던데만은"
+        "jeju": "메날 새벽에 일어남수과?",
+        "standard": "매일 새벽에 일어나요?"
       },
-      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5157-1",
     "seq": "5157",
-    "jeju": "겨울엔 산에 사농 다녓수과?",
-    "standard": "겨울엔 산에 사냥 다녔어요?",
+    "jeju": "옛날엔 겨울 되민 산으로 사농 다녔수다.",
+    "standard": "옛날엔 겨울이 되면 산으로 사냥 다녔어요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "씁~ 에~ 사농 어~ 이 사람이 사농 할 때도 있지마는 아~ 그~ 저기 애월",
-        "standard": "씁~ 에~ 사냥 어~ 이 사람이 사냥 할 때도 있지마는 아~ 그~ 저기 애월"
+        "jeju": "겨울엔 산에 사농 다녓수과?",
+        "standard": "겨울엔 산에 사냥 다녔어요?"
       },
-      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "3689-1",
     "seq": "3689",
-    "jeju": "상삐로 밥상 닦앗수과?",
-    "standard": "행주로 밥상을 닦았어요?",
+    "jeju": "상삐 어디 놔뒀수과?",
+    "standard": "행주 어디 놔뒀어요?",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "상삐 몰라. 놈삐는 알아",
-        "standard": "행주 몰라. 무는 알아"
+        "jeju": "상삐로 밥상 닦앗수과?",
+        "standard": "행주로 밥상을 닦았어요?"
       },
-      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4609-1",
     "seq": "4609",
-    "jeju": "애기 지성기 갈아 줬수과?",
-    "standard": "아기 기저귀를 갈아 줬어요?",
+    "jeju": "애기 깨기 전에 지성기 갈아 줍서.",
+    "standard": "아기 깨기 전에 기저귀 갈아 주세요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "그거믄 애기 기저귀 지성기 하는 거 아니?",
-        "standard": "그거면 애기 기저귀 기저귀 하는 거 아니야?"
+        "jeju": "애기 지성기 갈아 줬수과?",
+        "standard": "아기 기저귀를 갈아 줬어요?"
       },
-      "editReason": "종결어미 다양화: 평서문(-수다/-우다)을 대응 의문형(-수과/-우꽈)으로 바꿈(4차)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
@@ -4676,181 +5022,181 @@
   {
     "id": "736-1",
     "seq": "736",
-    "jeju": "굴묵에 불 살랑 방을 데왔수다.",
-    "standard": "아궁이에 불을 지펴 방을 데웠어요.",
+    "jeju": "굴묵에 불 좀 살려 봐.",
+    "standard": "아궁이에 불 좀 살려 봐.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "뭘 가마솥 있는디? 굴묵은 방바닥 밑에 그 불 때는데가 굴묵 구들장 구들장",
-        "standard": "뭘 가마솥 있는데? 굴뚝 방바닥 밑에 그 불 때는데가 굴뚝 구들장 구들장"
+        "jeju": "굴묵에 불 살랑 방을 데왔수다.",
+        "standard": "아궁이에 불을 지펴 방을 데웠어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 47·방고래와 아궁이. 중요도 3이나 전통 주거 정체성. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "3196-1",
     "seq": "3196",
-    "jeju": "고팡에 곡석을 재와 놨수다.",
-    "standard": "광에 곡식을 쟁여 놨어요.",
+    "jeju": "쌀은 고팡에 놔두민 뒈주게.",
+    "standard": "쌀은 광에 놔두면 되지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "고팡 알지 고팡 열쇠",
-        "standard": "광 알지 광 열쇠"
+        "jeju": "고팡에 곡석을 재와 놨수다.",
+        "standard": "광에 곡식을 쟁여 놨어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 31·광(곳간). 집 기본. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "5136-1",
     "seq": "5136",
-    "jeju": "아궁이에 불치 하영 쌓여수다.",
-    "standard": "아궁이에 재가 많이 쌓였어요.",
+    "jeju": "아궁이 불치는 식은 다음 치웠수다.",
+    "standard": "아궁이 재는 식은 다음 치웠어요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "호야 닦을때 뭘로 닦아서 우린 불치로 해서 불치",
-        "standard": "등피 닦을때 뭘로 닦았어 우린 재로 했어 재"
+        "jeju": "아궁이에 불치 하영 쌓여수다.",
+        "standard": "아궁이에 재가 많이 쌓였어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 22·재(灰). 생활 명사. (카테고리 태그 잡류 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "3228-1",
     "seq": "3228",
-    "jeju": "무뚱에 농기구 재와 뒁수다.",
-    "standard": "곁채에 농기구를 쟁여 두었어요.",
+    "jeju": "농기구는 무뚱에 들여놓읍서.",
+    "standard": "농기구는 곁채에 들여놓으세요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "무뚱 무뚱 그런 말 이젠 못해",
-        "standard": "곁채 곁채 그런 말 이젠 못해"
+        "jeju": "무뚱에 농기구 재와 뒁수다.",
+        "standard": "곁채에 농기구를 쟁여 두었어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 대체 편입. QC 통과."
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "1360-1",
     "seq": "1360",
-    "jeju": "허벅 지엉 물 질레 갑서.",
-    "standard": "물동이를 지고 물 길으러 가세요.",
+    "jeju": "옛날엔 허벅 지고 물 질레 갔수다.",
+    "standard": "옛날엔 물동이를 지고 물 길으러 갔어요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "허벅 안 진것만도 다행이주",
-        "standard": "허벅 안 진것만도 다행이지"
+        "jeju": "허벅 지엉 물 질레 갑서.",
+        "standard": "물동이를 지고 물 길으러 가세요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 14·물동이. 중요도 3이나 제주 생활 아이콘. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "1011-1",
     "seq": "1011",
-    "jeju": "낭푼이에 밥을 하영 담앗수다.",
-    "standard": "양푼에 밥을 가득 담았어요.",
+    "jeju": "낭푼이에 밥 호끔만 퍼 줍서.",
+    "standard": "양푼에 밥 조금만 퍼 주세요.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "아니 매깨만 안에 들여놓고 또 거기 놨당 한 낭푼이 가져오고 경 허라게 시원한데 나둬야돼",
-        "standard": "아니 몇 개만 안에 들여놓고 또 거기 놨당 한 양푼 가져오고 그렇게 해라 시원한데 나둬야돼"
+        "jeju": "낭푼이에 밥을 하영 담앗수다.",
+        "standard": "양푼에 밥을 가득 담았어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 빈도 12·양푼. 부엌 기본. 낭푼은 동의라 미채택. (카테고리 태그 때·기후 — 때·기후 태그는 노이즈일 수 있음)"
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "4735-1",
     "seq": "4735",
-    "jeju": "책상에 구둠이 하영 앚앗수다.",
-    "standard": "책상에 먼지가 많이 앉았어요.",
+    "jeju": "창문 여니 구둠이 확 날리더라.",
+    "standard": "창문을 여니 먼지가 확 날리더라.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "저 허미우꽈 구둠 털잰 허미우꽈?",
-        "standard": "저 합니까 먼지 털려고 합니까?"
+        "jeju": "책상에 구둠이 하영 앚앗수다.",
+        "standard": "책상에 먼지가 많이 앉았어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 먼지."
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "873-1",
     "seq": "873",
-    "jeju": "미녕으로 이불을 지엇수다.",
-    "standard": "무명으로 이불을 지었어요.",
+    "jeju": "미녕으로 만든 이불은 여름에 시원허주.",
+    "standard": "무명으로 만든 이불은 여름에 시원하지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "뉘앙스가 있어 할망들이 얘기하는 단어에 그게 있어 가지고 미녕 이런식으로 얘기허진 안해실거라",
-        "standard": "뉘앙스가 있어 할머니들이 얘기하는 단어에 그게 있어 가지고 무명 이런식으로 얘기하진 안했을거야"
+        "jeju": "미녕으로 이불을 지엇수다.",
+        "standard": "무명으로 이불을 지었어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 무명."
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
     "id": "1545-1",
     "seq": "1545",
-    "jeju": "망탱이에 검질 담앙 왔수다.",
-    "standard": "망태기에 잡초를 담아 왔어요.",
+    "jeju": "망탱이 안에 감저가 가득 들었주.",
+    "standard": "망태기 안에 고구마가 가득 들었지.",
     "source": {
       "type": "authored",
-      "sourceId": "aihub-corpus",
+      "sourceId": "p1h-pm-rewrite-2026-09-13",
       "originalText": {
-        "jeju": "가서 망탱이 끌고 오고 그 빈 거 영 탁 던져주고",
-        "standard": "가서 망태기 끌고 오고 그 빈 거 이렇게 탁 던져주고"
+        "jeju": "망탱이에 검질 담앙 왔수다.",
+        "standard": "망태기에 잡초를 담아 왔어요."
       },
-      "editReason": "말뭉치 원문이 구어체 파편이라 완결 문장으로 재작성. 선정 근거: 2차 대체. 망태기."
+      "editReason": "P1-H 종결형·문장틀 감사에서 반복성이 높은 CONTENT_CONTROLLED 예문을 PM 확정 학습 문장으로 재작성함."
     },
     "review": {
       "meaning": "approved",
       "naturalness": "provisional",
-      "translation": "approved"
+      "translation": "provisional"
     }
   },
   {
