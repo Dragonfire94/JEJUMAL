@@ -2547,7 +2547,6 @@
     "standard": "낼모레",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p010l-y04495",
@@ -3491,7 +3490,6 @@
     "standard": "아침",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p019r-y03518",
@@ -3568,7 +3566,6 @@
     "standard": "옛말",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p020r-y00582",
@@ -3586,7 +3583,6 @@
     "standard": "오늘",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p020r-y01705",
@@ -3642,7 +3638,6 @@
     "standard": "외할머니",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p021l-y02080",
@@ -3751,7 +3746,6 @@
     "standard": "조카",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p022l-y02659",
@@ -3921,7 +3915,6 @@
     "standard": "콧구멍",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p023l-y05045",
@@ -3960,7 +3953,6 @@
     "standard": "큰아들",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p023r-y01326",
@@ -6961,7 +6953,6 @@
     "standard": "작다",
     "partOfSpeech": "adjective",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p046l-y02826",
@@ -8909,7 +8900,6 @@
     "standard": "멸치젓",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p061r-y02447",
@@ -9155,7 +9145,6 @@
     "standard": "버선",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p063r-y04406",
@@ -9191,7 +9180,6 @@
     "standard": "봉지",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p064l-y01335",
@@ -9268,7 +9256,6 @@
     "standard": "빗자루",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p064r-y03440",
@@ -10243,7 +10230,6 @@
     "standard": "콩나물",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p073l-y00588",
@@ -10299,7 +10285,6 @@
     "standard": "틈",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p073r-y01499",
@@ -10317,7 +10302,6 @@
     "standard": "쪽파",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p073r-y02244",
@@ -10576,7 +10560,6 @@
     "standard": "모양",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p075r-y02261",
@@ -10634,7 +10617,6 @@
     "standard": "척",
     "partOfSpeech": "noun",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p075r-y04689",
@@ -11585,7 +11567,6 @@
     "standard": "먹이다",
     "partOfSpeech": "verb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p081l-y03382",
@@ -13928,7 +13909,6 @@
     "standard": "벌컥벌컥",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p096r-y01984",
@@ -14060,7 +14040,6 @@
     "standard": "느릿느릿",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p097l-y04644",
@@ -14169,7 +14148,6 @@
     "standard": "별로",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p098l-y00586",
@@ -14225,7 +14203,6 @@
     "standard": "방긋방긋",
     "partOfSpeech": "adverb",
     "reviewStatus": "provisional",
-    "pendingExample": true,
     "bookMeta": {
       "sourceId": "jeju-basic-vocab-2025",
       "bookId": "jbv2025-p098l-y04890",
