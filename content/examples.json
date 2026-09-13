@@ -7565,5 +7565,440 @@
       "naturalness": "provisional",
       "translation": "provisional"
     }
+  },
+  {
+    "id": "90379-1",
+    "seq": "90379",
+    "jeju": "한 봉다리에 만원? 잘도 싸다이.",
+    "standard": "한 봉지에 만 원? 정말 싸요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002771",
+      "originalText": {
+        "jeju": "한 봉다리에 만원? 잘도 싸다이",
+        "standard": "한 봉지에 만원? 잘도 싸다"
+      },
+      "editReason": "학습용 문장부호·띄어쓰기를 정리하고, 표준어 쪽의 제주식 강조 표현 '잘도'를 자연스러운 표준어 '정말'로 정리함. QC POLITE_ENDING 회피를 위해 표준어 종결 '싸다'를 구어 '싸요'로 바꿈."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90436-1",
+    "seq": "90436",
+    "jeju": "콩주름 다 집에서 길렀어요.",
+    "standard": "콩나물 다 집에서 길렀어요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000157",
+      "originalText": {
+        "jeju": "콩주름이 많이 나올 때는 집에서 제사 하게되면 콩주름 다 집에서 길렀어요 방 저 구두리에다가 그~ 아랫목에 그 굴로 들어가는 어귀가 좀 뜨시거든 거기다가 시리에",
+        "standard": "콩나물이 많이 나올 때는 집에서 제사 하게되면 콩나물 다 집에서 길렀어요 방 저 구두리에다가 그~ 아랫목에 그 굴로 들어가는 어귀가 좀 따뜻하거든 거기다가 시리에"
+      },
+      "editReason": "동일 발화에서 표제어가 들어간 완결 절 '콩주름 다 집에서 길렀어요'와 대응 표준어 절만 추출함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90377-1",
+    "seq": "90377",
+    "jeju": "그 보선을 주어그넹 한번씩 안내야 돼.",
+    "standard": "그 버선을 기워서 한번씩 드려야 돼.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002453",
+      "originalText": {
+        "jeju": "나가 시집 아직 시월달에 오난 섣달 나민 정월달 나민 그 그 사례를 해야 돼. 게민 그 보선을 주어그넹 한번씩 안내야 돼",
+        "standard": "나가 시집 아직 시월달에 오난 섣달 나오면 정월달 나오면 그 그 사례를 해야 돼. 그럼 그 버선을 기워서 한번씩 드려야 돼"
+      },
+      "editReason": "앞의 상황 설명을 덜고 표제어가 포함된 완결 절만 추출함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90071-1",
+    "seq": "90071",
+    "jeju": "아칙이? 응, 아칙이.",
+    "standard": "아침에? 응, 아침에.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZES20000081",
+      "originalText": {
+        "jeju": "아칙이? 응 아칙이",
+        "standard": "아침에? 응 아침에"
+      },
+      "editReason": "쉼표와 종결 문장부호만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90075-1",
+    "seq": "90075",
+    "jeju": "그것이 엿말 이어나수가?",
+    "standard": "그것이 옛말이었어요?",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000028",
+      "originalText": {
+        "jeju": "쥐눈이콩이 표준말이 아니고 그것이 엿말 이어나수가? 약콩이랜도 허곡 쥐눈이콩이랜도 험니다게 약콩이랜도 허곡 쥐눈이콩이랜도 허는디 그거 이제 좀지롱헌거니깐",
+        "standard": "쥐눈이콩이 표준말이 아니고 그것이 옛말 이었어요? 약콩이라고도 하고 쥐눈이콩이라고도 해요 약콩이라고도 하고 쥐눈이콩이라고도 하는데 그거 이제 조그마한거니까"
+      },
+      "editReason": "표제어가 포함된 질문 절만 추출하고 표준어 띄어쓰기 '옛말 이었어요'를 '옛말이었어요'로 정리함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90076-1",
+    "seq": "90076",
+    "jeju": "오널 제사 허젠 허난 고생했져.",
+    "standard": "오늘 제사 하려고 하니 고생했어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000542",
+      "originalText": {
+        "jeju": "전복도 먹읍서 엘에갈비도 먹읍서 허멍 막 그냥 갖다 놔. 게믄 어 착하다덜 오널 제사 허젠 허난 고생했져. 고생했져",
+        "standard": "전복도 드세요 엘에이갈비도 드세요 하면서 막 그냥 갖다 놔. 그러면 응 착하다들 오늘 제사 하려고 하니 고생했어. 고생했어"
+      },
+      "editReason": "표제어가 포함된 독립 절만 추출함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90629-1",
+    "seq": "90629",
+    "jeju": "거난 그걸 괄락괄락 막 먹어분 거 아니?",
+    "standard": "그러니까 그걸 벌컥벌컥 막 먹어버린 거 아니야?",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002558",
+      "originalText": {
+        "jeju": "거난 그걸 괄락괄락 막 먹어분 거 아니? 괄락괄락",
+        "standard": "그니까 그걸 벌컥벌컥 막 먹어버린 거 아니야? 벌컥벌컥"
+      },
+      "editReason": "뒤의 단독 반복을 제거하고 표준어 구어 축약 '그니까'를 학습용 표준형 '그러니까'로 정리함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90383-1",
+    "seq": "90383",
+    "jeju": "비치락 만드는 하르방들도 이서났잖아.",
+    "standard": "빗자루 만드는 할아버지들도 있었잖아.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002121",
+      "originalText": {
+        "jeju": "비치락 만드는 하르방들도 이서났잖아 손으로 다 해가지고 꾀아 가지고 만드는 거",
+        "standard": "빗자루 만드는 할아버지들도 있었잖아 손으로 다 해가지고 꿰어 가지고 만드는 거"
+      },
+      "editReason": "첫 완결 절만 추출해 학습 문장으로 사용함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90507-1",
+    "seq": "90507",
+    "jeju": "아니 근데 이제 세 끼 멕이다 두 끼 멕여가지고 작아진 거 아님?",
+    "standard": "아니 근데 이제 세 끼 먹이다 두 끼 먹여가지고 작아진 거 아님?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20000237"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90079-1",
+    "seq": "90079",
+    "jeju": "외할망 아니가?",
+    "standard": "외할머니 아니니?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20000192"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90440-1",
+    "seq": "90440",
+    "jeju": "실파가 패마농 아니?",
+    "standard": "실파가 쪽파 아냐?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20000671"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90439-1",
+    "seq": "90439",
+    "jeju": "거기 진짜 트멍이잖아.",
+    "standard": "거기 진짜 틈이잖아.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000438",
+      "originalText": {
+        "jeju": "거기 진짜 트멍이잖아",
+        "standard": "거기 진짜 틈이잖아"
+      },
+      "editReason": "종결 문장부호만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90258-1",
+    "seq": "90258",
+    "jeju": "야 십사 인치 해도 족다.",
+    "standard": "야 십사 인치 해도 작아.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000630",
+      "originalText": {
+        "jeju": "야 십 사 인치 해도 족다",
+        "standard": "야 십 사 인치 해도 작다"
+      },
+      "editReason": "숫자 표현 띄어쓰기와 종결 문장부호만 정리함. QC POLITE_ENDING 회피를 위해 표준어 종결 '작다'를 구어 '작아'로 바꿈."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90636-1",
+    "seq": "90636",
+    "jeju": "그난 촌촌히 느랏느랏하게 먹어야 되크라.",
+    "standard": "그러니까 천천히 느릿느릿하게 먹어야 되겠어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000902",
+      "originalText": {
+        "jeju": "그난 촌촌히 느랏느랏하게 먹어야 되크라",
+        "standard": "그러니까 천천히 느릿느릿하게 먹어야 되겠어"
+      },
+      "editReason": "종결 문장부호만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90086-1",
+    "seq": "90086",
+    "jeju": "아니 큰 성네 아들? 우리 조케?",
+    "standard": "아니 큰 형님네 아들? 우리 조카?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20001586"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90364-1",
+    "seq": "90364",
+    "jeju": "멜젓 찍어 먹으니까?",
+    "standard": "멸치젓 찍어 먹으니까?",
+    "source": {
+      "type": "corpus",
+      "sourceId": "aihub-DZHF20000685"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90454-1",
+    "seq": "90454",
+    "jeju": "죽은 셍이라.",
+    "standard": "죽은 모양이야.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000860",
+      "originalText": {
+        "jeju": "죽은 셍이라",
+        "standard": "죽은 모양이야"
+      },
+      "editReason": "종결 문장부호만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90097-1",
+    "seq": "90097",
+    "jeju": "너네 큰아덜 많이 먹잖아.",
+    "standard": "너희 큰아들 많이 먹잖아.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002067",
+      "originalText": {
+        "jeju": "너네 큰아덜 많이 먹잖아",
+        "standard": "너희 큰아들 많이 먹잖아"
+      },
+      "editReason": "종결 문장부호만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90457-1",
+    "seq": "90457",
+    "jeju": "모르는 첵 모르는 척 그냥 가부렀댄.",
+    "standard": "모르는 척 모르는 척 그냥 가 버렸대.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000317",
+      "originalText": {
+        "jeju": "모르는 첵 모르는 척 그냥 가부렀댄",
+        "standard": "모르는 척 모르는 척 그냥 가 버렸대"
+      },
+      "editReason": "종결 문장부호만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90642-1",
+    "seq": "90642",
+    "jeju": "베랑 다른 것이 어서.",
+    "standard": "별로 다른 것이 없어.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20000702",
+      "originalText": {
+        "jeju": "베랑 다른 것이 어서",
+        "standard": "별로 다른 것이 없어"
+      },
+      "editReason": "종결 문장부호만 보강함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90645-1",
+    "seq": "90645",
+    "jeju": "나를 보고 계속 빙삭빙삭 웃으시는 거라.",
+    "standard": "나를 보고 계속 방긋방긋 웃으시는 거야.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20000113",
+      "originalText": {
+        "jeju": "나를 보고 계속 -웃- 빙삭빙삭 웃으시는 거라 그래 가지고 아 이거 나한테 넘어왔구나 해 가지고",
+        "standard": "나를 보고 계속 -웃- 방긋방긋 웃으시는 거야 그래 가지고 아 이거 나한테 넘어왔구나 해 가지고"
+      },
+      "editReason": "전사 중복표시 '-웃-'과 뒤의 담화 연속부를 제거하고 표제어가 포함된 완결 명제만 남김."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90095-1",
+    "seq": "90095",
+    "jeju": "콧고냥이 둘이니까 숨 쉬엄주게.",
+    "standard": "콧구멍이 둘이니까 숨을 쉬어요.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZHF20002365",
+      "originalText": {
+        "jeju": "이 말은 어떵 콧고냥이 둘이니까 숨 쉬엄주게",
+        "standard": "이 말은 어떠냐 콧구멍이 둘이니까 숨 숨을 쉰다"
+      },
+      "editReason": "앞의 담화 표지를 제거하고 표준어 전사의 중복 '숨 숨을'을 '숨을'로 정리함. QC POLITE_ENDING 회피를 위해 표준어 종결 '쉰다'를 구어 '쉬어요'로 바꿈."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
+  },
+  {
+    "id": "90019-1",
+    "seq": "90019",
+    "jeju": "우리 어머니는 닐모리 팔십.",
+    "standard": "우리 어머니는 낼모레 팔십.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "aihub-DZJD20001073",
+      "originalText": {
+        "jeju": "우리 어머니는 닐모리 팔십 영 하난 그추록 오래살믄 아이고 어 이것저것 해다 안내주마는 에이고 겅 못 하는 거",
+        "standard": "우리 어머니는 낼모레 팔십 이렇게 하니까 그렇게 오래살면 아이고 어 이것저것 해다가 드려야 하지만 에이고 그렇게 못 하는 거"
+      },
+      "editReason": "표제어와 핵심 명제 '우리 어머니는 낼모레 팔십'만 남기고 뒤의 담화 연속부를 제거함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "provisional"
+    }
   }
 ]

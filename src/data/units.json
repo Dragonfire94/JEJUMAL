@@ -1332,9 +1332,13 @@
         "standard": "낼모레",
         "soundUrl": "/audio/90019.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "우리 어머니는 닐모리 팔십.",
+            "standard": "우리 어머니는 낼모레 팔십."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -2311,9 +2315,13 @@
         "standard": "벌컥벌컥",
         "soundUrl": "/audio/90629.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "거난 그걸 괄락괄락 막 먹어분 거 아니?",
+            "standard": "그러니까 그걸 벌컥벌컥 막 먹어버린 거 아니야?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -2469,9 +2477,13 @@
         "standard": "느릿느릿",
         "soundUrl": "/audio/90636.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "그난 촌촌히 느랏느랏하게 먹어야 되크라.",
+            "standard": "그러니까 천천히 느릿느릿하게 먹어야 되겠어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -2680,9 +2692,13 @@
         "standard": "별로",
         "soundUrl": "/audio/90642.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "베랑 다른 것이 어서.",
+            "standard": "별로 다른 것이 없어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -2713,9 +2729,13 @@
         "standard": "방긋방긋",
         "soundUrl": "/audio/90645.mp3",
         "partOfSpeech": "adverb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "나를 보고 계속 빙삭빙삭 웃으시는 거라.",
+            "standard": "나를 보고 계속 방긋방긋 웃으시는 거야."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3589,9 +3609,13 @@
         "standard": "아침",
         "soundUrl": "/audio/90071.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아칙이? 응, 아칙이.",
+            "standard": "아침에? 응, 아침에."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3633,9 +3657,13 @@
         "standard": "옛말",
         "soundUrl": "/audio/90075.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "그것이 엿말 이어나수가?",
+            "standard": "그것이 옛말이었어요?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3644,9 +3672,13 @@
         "standard": "오늘",
         "soundUrl": "/audio/90076.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "오널 제사 허젠 허난 고생했져.",
+            "standard": "오늘 제사 하려고 하니 고생했어."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -3700,9 +3732,13 @@
         "standard": "외할머니",
         "soundUrl": "/audio/90079.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "외할망 아니가?",
+            "standard": "외할머니 아니니?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3803,9 +3839,13 @@
         "standard": "조카",
         "soundUrl": "/audio/90086.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아니 큰 성네 아들? 우리 조케?",
+            "standard": "아니 큰 형님네 아들? 우리 조카?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3939,9 +3979,13 @@
         "standard": "콧구멍",
         "soundUrl": "/audio/90095.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "콧고냥이 둘이니까 숨 쉬엄주게.",
+            "standard": "콧구멍이 둘이니까 숨을 쉬어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -3961,9 +4005,13 @@
         "standard": "큰아들",
         "soundUrl": "/audio/90097.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "너네 큰아덜 많이 먹잖아.",
+            "standard": "너희 큰아들 많이 먹잖아."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -5158,9 +5206,13 @@
         "standard": "멸치젓",
         "soundUrl": "/audio/90364.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "멜젓 찍어 먹으니까?",
+            "standard": "멸치젓 찍어 먹으니까?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7620,9 +7672,13 @@
         "standard": "버선",
         "soundUrl": "/audio/90377.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "그 보선을 주어그넹 한번씩 안내야 돼.",
+            "standard": "그 버선을 기워서 한번씩 드려야 돼."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -7642,9 +7698,13 @@
         "standard": "봉지",
         "soundUrl": "/audio/90379.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "한 봉다리에 만원? 잘도 싸다이.",
+            "standard": "한 봉지에 만 원? 정말 싸요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -7779,9 +7839,13 @@
         "standard": "빗자루",
         "soundUrl": "/audio/90383.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "비치락 만드는 하르방들도 이서났잖아.",
+            "standard": "빗자루 만드는 할아버지들도 있었잖아."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       }
     ]
@@ -8967,9 +9031,13 @@
         "standard": "콩나물",
         "soundUrl": "/audio/90436.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "콩주름 다 집에서 길렀어요.",
+            "standard": "콩나물 다 집에서 길렀어요."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9009,9 +9077,13 @@
         "standard": "틈",
         "soundUrl": "/audio/90439.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "거기 진짜 트멍이잖아.",
+            "standard": "거기 진짜 틈이잖아."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9020,9 +9092,13 @@
         "standard": "쪽파",
         "soundUrl": "/audio/90440.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "실파가 패마농 아니?",
+            "standard": "실파가 쪽파 아냐?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9213,9 +9289,13 @@
         "standard": "모양",
         "soundUrl": "/audio/90454.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "죽은 셍이라.",
+            "standard": "죽은 모양이야."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -9269,9 +9349,13 @@
         "standard": "척",
         "soundUrl": "/audio/90457.mp3",
         "partOfSpeech": "noun",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "모르는 첵 모르는 척 그냥 가부렀댄.",
+            "standard": "모르는 척 모르는 척 그냥 가 버렸대."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -11751,9 +11835,13 @@
         "standard": "먹이다",
         "soundUrl": "/audio/90507.mp3",
         "partOfSpeech": "verb",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "아니 근데 이제 세 끼 멕이다 두 끼 멕여가지고 작아진 거 아님?",
+            "standard": "아니 근데 이제 세 끼 먹이다 두 끼 먹여가지고 작아진 거 아님?"
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
@@ -13024,9 +13112,13 @@
         "standard": "작다",
         "soundUrl": "/audio/90258.mp3",
         "partOfSpeech": "adjective",
-        "examples": [],
+        "examples": [
+          {
+            "jeju": "야 십사 인치 해도 족다.",
+            "standard": "야 십사 인치 해도 작아."
+          }
+        ],
         "reviewStatus": "provisional",
-        "pendingExample": true,
         "hasAudio": false
       },
       {
