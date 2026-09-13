@@ -201,6 +201,14 @@ function SettingsPage() {
         <h2 className="text-sm font-medium text-foreground">정보</h2>
         <p>발음 출처 · 제주특별자치도 제주어 사전</p>
         <p>예문 출처 · AI-HUB 한국어 방언 발화(제주도)에서 짧은 말만 골랐습니다</p>
+        <p>구술 예문 출처 · 제주특별자치도·제주학연구센터, 제주어 구술자료집(2017–2020)</p>
+        <p>공공누리 제1유형(출처표시) 자료를 이용했습니다.</p>
+        <a className="text-primary underline-offset-4 hover:underline" href="https://www.jeju.go.kr/jedu/map/record.htm" target="_blank" rel="noreferrer">
+          구술자료 원문
+        </a>
+        <a className="text-primary underline-offset-4 hover:underline" href="https://www.kogl.or.kr/info/license.do" target="_blank" rel="noreferrer">
+          공공누리 이용조건
+        </a>
         <a className="text-primary underline-offset-4 hover:underline" href="https://github.com/Dragonfire94/JEJUMAL" target="_blank" rel="noreferrer">
           GitHub
         </a>
