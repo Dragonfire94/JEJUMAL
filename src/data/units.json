@@ -756,8 +756,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "마을 부제가 흉년 든 이웃에게 쌀을 나눴어마씸.",
-            "standard": "마을 부자가 흉년 든 이웃에게 쌀을 나눴어요."
+            "jeju": "마을 부제가 어려운 집에 쌀을 나눠 줬주.",
+            "standard": "마을 부자가 어려운 집에 쌀을 나눠 줬지."
           }
         ],
         "hasAudio": true
@@ -770,8 +770,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "아기가 어멍 품에서 곤히 잠들었어마씸.",
-            "standard": "아기가 어머니 품에서 곤히 잠들었어요."
+            "jeju": "아기 자는디 조용히 헙서.",
+            "standard": "아기 자는데 조용히 하세요."
           }
         ],
         "hasAudio": true
@@ -784,8 +784,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "돌챙이가 돌담의 무너진 부분을 다시 쌓았어마씸.",
-            "standard": "석수가 돌담의 무너진 부분을 다시 쌓았어요."
+            "jeju": "무너진 돌담은 돌챙이가 다시 쌓았수다.",
+            "standard": "무너진 돌담은 석수가 다시 쌓았어요."
           }
         ],
         "hasAudio": true
@@ -798,8 +798,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "이번 둘엔 장게 가는 사름이 하수다.",
-            "standard": "이번 달엔 장가 가는 사람이 많아요."
+            "jeju": "올봄엔 장게 가는 사름이 하주게.",
+            "standard": "올봄엔 장가가는 사람이 많지."
           }
         ],
         "hasAudio": false
@@ -1048,8 +1048,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "저 아이는 간세다리랜 소문 낫수다.",
-            "standard": "저 아이는 게으름뱅이라고 소문이 났어요."
+            "jeju": "일은 안 허고 누워만 이시민 간세다리 소리 듣주게.",
+            "standard": "일은 안 하고 누워만 있으면 게으름뱅이 소리 듣지."
           }
         ],
         "hasAudio": false
@@ -1062,8 +1062,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "저 두갓은 밧듸 강 살암수다.",
-            "standard": "저 부부는 밭에 가서 살아요."
+            "jeju": "저 두갓은 장날마다 혼디 옵주.",
+            "standard": "저 부부는 장날마다 함께 오지."
           }
         ],
         "hasAudio": false
@@ -1076,8 +1076,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "심방이 굿을 헴수다.",
-            "standard": "무당이 굿을 하고 있어요."
+            "jeju": "마을 굿날엔 심방 소리가 골목까지 들리더라.",
+            "standard": "마을 굿날에는 무당 소리가 골목까지 들리더라."
           }
         ],
         "hasAudio": false
@@ -1090,8 +1090,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "돌하르방 코 문지르민 아들 낳는댄 헙주.",
-            "standard": "돌하르방 코를 문지르면 아들을 낳는다고 해요."
+            "jeju": "관광객들 돌하르방 앞이서 사진 찍엄수다.",
+            "standard": "관광객들이 돌하르방 앞에서 사진을 찍고 있어요."
           }
         ],
         "hasAudio": true
@@ -1395,8 +1395,8 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "무사 그렇게 급하게 걸어마씸?",
-            "standard": "왜 그렇게 급하게 걸어요?"
+            "jeju": "무사 혼자 먼저 갔맨?",
+            "standard": "왜 혼자 먼저 갔어?"
           }
         ],
         "hasAudio": true
@@ -1409,8 +1409,8 @@
         "partOfSpeech": "adverb",
         "examples": [
           {
-            "jeju": "오늘은 물을 하영 마셨어마씸.",
-            "standard": "오늘은 물을 많이 마셨어요."
+            "jeju": "비 오난 물이 하영 불었수다.",
+            "standard": "비가 오니 물이 많이 불었어요."
           }
         ],
         "hasAudio": true
@@ -1423,8 +1423,8 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "옵서, 이쪽으로 앚입서.",
-            "standard": "오세요, 이쪽으로 앉으세요."
+            "jeju": "혼저 옵서.",
+            "standard": "어서 오십시오."
           }
         ],
         "hasAudio": true
@@ -1437,8 +1437,8 @@
         "partOfSpeech": "interjection",
         "examples": [
           {
-            "jeju": "기여, 이레 옵서.",
-            "standard": "그래, 이쪽으로 오세요."
+            "jeju": "기여, 경 허민 뒈주.",
+            "standard": "그래, 그렇게 하면 되지."
           }
         ],
         "hasAudio": true
@@ -1451,8 +1451,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "이디 있는 책은 누구 거마씸?",
-            "standard": "여기 있는 책은 누구 거예요?"
+            "jeju": "이디 앚읍서.",
+            "standard": "여기 앉으세요."
           }
         ],
         "hasAudio": true
@@ -1465,8 +1465,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "저디까지 걸어갔어마씸.",
-            "standard": "저기까지 걸어갔어요."
+            "jeju": "저디까지 혼자 걸어갔수다.",
+            "standard": "저기까지 혼자 걸어갔어요."
           }
         ],
         "hasAudio": true
@@ -1479,8 +1479,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "이거 한번 먹어 봐마씸.",
-            "standard": "이것 한번 먹어 봐요."
+            "jeju": "이거 먹어 보민 맛있주게.",
+            "standard": "이거 먹어 보면 맛있지."
           }
         ],
         "hasAudio": true
@@ -1493,8 +1493,8 @@
         "partOfSpeech": "pronoun",
         "examples": [
           {
-            "jeju": "누게가 그 말을 했어마씸?",
-            "standard": "누가 그 말을 했어요?"
+            "jeju": "누게 이거 놔둔 거우꽈?",
+            "standard": "누가 이거 놔둔 거예요?"
           }
         ],
         "hasAudio": true
@@ -1507,8 +1507,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "그중에 싯이 남았어마씸.",
-            "standard": "그중에 셋이 남았어요."
+            "jeju": "세어 보난 싯이 남았주.",
+            "standard": "세어 보니 셋이 남았지."
           }
         ],
         "hasAudio": true
@@ -1521,8 +1521,8 @@
         "partOfSpeech": "number",
         "examples": [
           {
-            "jeju": "그 책을 여답 번 읽었어마씸.",
-            "standard": "그 책을 여덟 번 읽었어요."
+            "jeju": "사름이 여답이나 왔수과?",
+            "standard": "사람이 여덟이나 왔어요?"
           }
         ],
         "hasAudio": true
@@ -5683,8 +5683,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 짐을 날라마씸.",
-            "standard": "아침에 짐을 날라요."
+            "jeju": "이 짐은 혼자 말고 둘이 날라야주.",
+            "standard": "이 짐은 혼자 말고 둘이 날라야지."
           }
         ],
         "hasAudio": true
@@ -5697,8 +5697,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 아이를 나무래어마씸.",
-            "standard": "아침에 아이를 나무래요."
+            "jeju": "애가 거짓말 헌 걸 알고 어멍이 한참 나무랐주.",
+            "standard": "아이가 거짓말한 걸 알고 엄마가 한참 나무랐지."
           }
         ],
         "hasAudio": true
@@ -5711,8 +5711,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 밥을 냉기어마씸.",
-            "standard": "아침에 밥을 남겨요."
+            "jeju": "밥 호끔 냉겨 둬, 나중에 먹게.",
+            "standard": "밥 조금 남겨 둬, 나중에 먹게."
           }
         ],
         "hasAudio": true
@@ -5725,8 +5725,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아침에 쓰레기를 내불어마씸.",
-            "standard": "아침에 쓰레기를 내버려요."
+            "jeju": "안 쓰는 건 거기 그냥 내불라.",
+            "standard": "안 쓰는 건 거기 그냥 내버려."
           }
         ],
         "hasAudio": true
@@ -5822,8 +5822,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 아이를 맽기어마씸.",
-            "standard": "낮에 아이를 맡겨요."
+            "jeju": "애기 잠깐 할망한테 맽겨 둬.",
+            "standard": "아기 잠깐 할머니한테 맡겨 둬."
           }
         ],
         "hasAudio": true
@@ -5836,8 +5836,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 구멍을 메꾸어마씸.",
-            "standard": "낮에 구멍을 메워요."
+            "jeju": "담 고망은 돌로 메꾸라.",
+            "standard": "담 구멍은 돌로 메워."
           }
         ],
         "hasAudio": true
@@ -5850,8 +5850,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "가족 여행 갈 돈을 달마다 메우고 있수다.",
-            "standard": "가족 여행에 쓸 돈을 달마다 모으고 있어요."
+            "jeju": "여행 갈 돈은 달마다 호끔씩 메우주.",
+            "standard": "여행 갈 돈은 달마다 조금씩 모으지."
           }
         ],
         "hasAudio": true
@@ -5864,8 +5864,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 아이가 둥글어마씸.",
-            "standard": "낮에 아이가 뒹굴어요."
+            "jeju": "강생이가 마당에서 둥글멍 놀암수다.",
+            "standard": "강아지가 마당에서 뒹굴며 놀고 있어요."
           }
         ],
         "hasAudio": true
@@ -5878,8 +5878,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 가방이 털어져마씸.",
-            "standard": "낮에 가방이 떨어져요."
+            "jeju": "가방이 의자에서 털어져 불었주게.",
+            "standard": "가방이 의자에서 떨어져 버렸지."
           }
         ],
         "hasAudio": true
@@ -5892,8 +5892,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "낮에 옷을 벳기어마씸.",
-            "standard": "낮에 옷을 벗겨요."
+            "jeju": "애 자면 겉옷부터 살살 벳깁서.",
+            "standard": "아이 자면 겉옷부터 살살 벗기세요."
           }
         ],
         "hasAudio": true
@@ -6249,8 +6249,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 명절을 세마씸.",
-            "standard": "저녁에 명절을 쇠어요."
+            "jeju": "이번 설은 큰집에서 세주.",
+            "standard": "이번 설은 큰집에서 쇠지."
           }
         ],
         "hasAudio": true
@@ -6263,8 +6263,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 물을 비우어마씸.",
-            "standard": "저녁에 물을 부어요."
+            "jeju": "병에 든 물 호끔만 컵에 비우라.",
+            "standard": "병에 든 물 조금만 컵에 부어."
           }
         ],
         "hasAudio": true
@@ -6277,8 +6277,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 벼를 비어마씸.",
-            "standard": "저녁에 벼를 베어요."
+            "jeju": "나록 익으민 다 같이 비러 갑주.",
+            "standard": "벼가 익으면 다 같이 베러 가지."
           }
         ],
         "hasAudio": true
@@ -6291,8 +6291,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 종이가 붙어마씸.",
-            "standard": "저녁에 종이가 붙어요."
+            "jeju": "젖은 종이가 창문에 부텄수다.",
+            "standard": "젖은 종이가 창문에 붙었어요."
           }
         ],
         "hasAudio": true
@@ -6305,8 +6305,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 동전을 봉그어마씸.",
-            "standard": "저녁에 동전을 주워요."
+            "jeju": "길에 떨어진 동전 하나 봉그라.",
+            "standard": "길에 떨어진 동전 하나 주워."
           }
         ],
         "conceptId": "줍다",
@@ -6320,8 +6320,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "설거지허다가 손이 미끄러져 그릇을 벌랐수다.",
-            "standard": "설거지하다가 손이 미끄러져 그릇을 깼어요."
+            "jeju": "설거지허당 그릇 하나 벌라불었수다.",
+            "standard": "설거지하다가 그릇 하나 깨 버렸어요."
           }
         ],
         "hasAudio": true
@@ -6334,8 +6334,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 팔을 벋어마씸.",
-            "standard": "저녁에 팔을 뻗어요."
+            "jeju": "허리 아프민 팔부터 쭉 벋어 봅서.",
+            "standard": "허리 아프면 팔부터 쭉 뻗어 보세요."
           }
         ],
         "hasAudio": true
@@ -6348,8 +6348,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 냄새를 맡아마씸.",
-            "standard": "저녁에 냄새를 맡아요."
+            "jeju": "이 꽃 호끔 마타 봐, 냄새 좋아.",
+            "standard": "이 꽃 조금 맡아 봐, 냄새 좋아."
           }
         ],
         "conceptId": "맡다-smell",
@@ -6364,8 +6364,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 이불을 더끄어마씸.",
-            "standard": "저녁에 이불을 덮어요."
+            "jeju": "추우민 이불 더껑 자라.",
+            "standard": "추우면 이불 덮고 자."
           }
         ],
         "hasAudio": true
@@ -6398,8 +6398,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 김치를 담어마씸.",
-            "standard": "저녁에 김치를 담가요."
+            "jeju": "올해 김장은 언제 담을 거우꽈?",
+            "standard": "올해 김장은 언제 담글 거예요?"
           }
         ],
         "hasAudio": true
@@ -6412,8 +6412,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 가시를 내치어마씸.",
-            "standard": "저녁에 가시를 뱉어요."
+            "jeju": "생선 가시 씹으민 바로 내쳐라.",
+            "standard": "생선 가시를 씹으면 바로 뱉어."
           }
         ],
         "hasAudio": true
@@ -6426,8 +6426,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 물고기를 낚아마씸.",
-            "standard": "저녁에 물고기를 낚아요."
+            "jeju": "아방은 쉬는 날마다 포구 강 물고기 낚수다.",
+            "standard": "아버지는 쉬는 날마다 포구에 가서 물고기를 낚아요."
           }
         ],
         "hasAudio": true
@@ -6440,8 +6440,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 머리를 흥글어마씸.",
-            "standard": "저녁에 머리를 흔들어요."
+            "jeju": "먹기 전에 병을 잘 흥글어.",
+            "standard": "먹기 전에 병을 잘 흔들어."
           }
         ],
         "hasAudio": true
@@ -6454,8 +6454,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "아이한테 약 먹이다가 옷에 호끔 흘쳤수다.",
-            "standard": "아이에게 약을 먹이다가 옷에 조금 흘렸어요."
+            "jeju": "약 옷에 안 흘치게 조심헙서.",
+            "standard": "약을 옷에 흘리지 않게 조심하세요."
           }
         ],
         "hasAudio": true
@@ -6468,8 +6468,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 시간이 흘라마씸.",
-            "standard": "저녁에 시간이 흘러요."
+            "jeju": "비 온 뒤엔 물이 도랑으로 잘 흘르주.",
+            "standard": "비 온 뒤에는 물이 도랑으로 잘 흐르지."
           }
         ],
         "hasAudio": true
@@ -6535,8 +6535,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "저녁에 강아지를 질루어마씸.",
-            "standard": "저녁에 강아지를 길러요."
+            "jeju": "이 강생이는 어릴 때부터 내가 질룬 거라.",
+            "standard": "이 강아지는 어릴 때부터 내가 기른 거야."
           }
         ],
         "hasAudio": true
@@ -6549,8 +6549,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "밤새 개가 주꾸어마씸.",
-            "standard": "밤새 개가 짖었어요."
+            "jeju": "밤마다 개가 주꾸난 잠을 못 자.",
+            "standard": "밤마다 개가 짖어서 잠을 못 자."
           }
         ],
         "hasAudio": true
@@ -6563,8 +6563,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 옷을 적져마씸.",
-            "standard": "지금 옷을 적셔요."
+            "jeju": "물장난 허당 옷을 몬딱 적져 불었주.",
+            "standard": "물장난하다가 옷을 몽땅 적셔 버렸지."
           }
         ],
         "hasAudio": true
@@ -6577,8 +6577,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 아이에게 옷을 입지어마씸.",
-            "standard": "지금 아이에게 옷을 입혀요."
+            "jeju": "바람 세난 애기한테 겉옷 하나 더 입지어 줍서.",
+            "standard": "바람이 세니 아기에게 겉옷 하나 더 입혀 주세요."
           }
         ],
         "hasAudio": true
@@ -6655,8 +6655,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 자꾸 용심나마씸.",
-            "standard": "지금 자꾸 성나요."
+            "jeju": "무사 또 용심났수과?",
+            "standard": "왜 또 성났어요?"
           }
         ],
         "hasAudio": true
@@ -6669,8 +6669,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 산에 올라마씸.",
-            "standard": "지금 산에 올라요."
+            "jeju": "천천히 올르멍 숨 고르라.",
+            "standard": "천천히 오르면서 숨 골라."
           }
         ],
         "hasAudio": true
@@ -6683,8 +6683,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "지금 일이 심들어마씸.",
-            "standard": "지금 일이 힘들어요."
+            "jeju": "오늘 일 잘도 심들지?",
+            "standard": "오늘 일 정말 힘들지?"
           }
         ],
         "hasAudio": true
@@ -6697,8 +6697,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "어멍이 아이한테 숙제를 먼저 허렌 시겼수다.",
-            "standard": "엄마가 아이에게 숙제를 먼저 하라고 시켰어요."
+            "jeju": "어멍이 동생보고 방부터 치우렌 시겼수다.",
+            "standard": "엄마가 동생에게 방부터 치우라고 시켰어요."
           }
         ],
         "hasAudio": true
@@ -6711,8 +6711,8 @@
         "partOfSpeech": "verb",
         "examples": [
           {
-            "jeju": "하던 일을 설러마씸.",
-            "standard": "하던 일을 그만두었어요."
+            "jeju": "심들민 오늘은 일찍 설러도 뒈주.",
+            "standard": "힘들면 오늘은 일찍 그만둬도 되지."
           }
         ],
         "hasAudio": true
@@ -7200,8 +7200,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "마을에서 포구까지 가는 길이 참 질어마씸.",
-            "standard": "마을에서 포구까지 가는 길이 참 길어요."
+            "jeju": "포구까지 가는 질이 생각보다 질주게.",
+            "standard": "포구까지 가는 길이 생각보다 길지."
           }
         ],
         "hasAudio": true
@@ -7214,8 +7214,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아이가 나이에 비해 역어마씸.",
-            "standard": "아이가 나이에 비해 약삭빨라요."
+            "jeju": "저 아이 나이에 비해 잘도 역어.",
+            "standard": "저 아이 나이에 비해 정말 약아."
           }
         ],
         "hasAudio": true
@@ -7228,8 +7228,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "아기가 방에는 엇고 마당에서 놀암수다.",
-            "standard": "아기가 방에는 없고 마당에서 놀고 있어요."
+            "jeju": "찾아보난 방엔 엇고 마당에 있더라.",
+            "standard": "찾아보니 방에는 없고 마당에 있더라."
           }
         ],
         "hasAudio": true
@@ -7242,8 +7242,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "한라산은 멀리서 봐도 참 높아마씸.",
-            "standard": "한라산은 멀리서 보아도 참 높아요."
+            "jeju": "여기서 봐도 한라산 진짜 높주.",
+            "standard": "여기서 봐도 한라산 진짜 높지."
           }
         ],
         "hasAudio": true
@@ -7256,8 +7256,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "큰 병 앓고 나난 몸이 많이 줄어마씸.",
-            "standard": "큰 병을 앓고 나니 몸이 많이 여위었어요."
+            "jeju": "큰 병 치르고 몸이 확 줄었수다.",
+            "standard": "큰 병을 치르고 몸이 확 여위었어요."
           }
         ],
         "hasAudio": true
@@ -7270,8 +7270,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 자세가 졸바라마씸.",
-            "standard": "지금 자세가 발라요."
+            "jeju": "허리 졸바르게 펴고 앉읍서.",
+            "standard": "허리를 바르게 펴고 앉으세요."
           }
         ],
         "hasAudio": true
@@ -7284,8 +7284,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 그물이 엉기어마씸.",
-            "standard": "지금 그물이 성겨요."
+            "jeju": "이 그물은 코가 엉겨서 작은 고기가 다 빠져나가.",
+            "standard": "이 그물은 코가 성겨서 작은 고기가 다 빠져나가."
           }
         ],
         "hasAudio": true
@@ -7298,8 +7298,8 @@
         "partOfSpeech": "adjective",
         "examples": [
           {
-            "jeju": "지금 손이 실렵어마씸.",
-            "standard": "지금 손이 차가워요."
+            "jeju": "물에 손 담가 보난 잘도 실렵수다.",
+            "standard": "물에 손을 담가 보니 정말 차가워요."
           }
         ],
         "hasAudio": true
@@ -7748,8 +7748,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "느렁테가 밭일을 너무 천천히 허난 해 지는 줄도 몰랐수다.",
-            "standard": "느림보가 밭일을 너무 천천히 해서 해가 지는 줄도 몰랐어요."
+            "jeju": "느렁테랜 재촉 말앙 천천히 허게 놔둬.",
+            "standard": "느림보라고 재촉하지 말고 천천히 하게 놔둬."
           }
         ],
         "hasAudio": true
@@ -7762,8 +7762,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "양애 장아찌 맛이 조수다.",
-            "standard": "양하 장아찌 맛이 좋아요."
+            "jeju": "양애 장아찌가 향이 참 좋주게.",
+            "standard": "양하 장아찌가 향이 참 좋지."
           }
         ],
         "hasAudio": false
@@ -7776,8 +7776,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "대우리 갈앙 죽 쒀 먹엇수다.",
-            "standard": "귀리를 갈아 죽을 쑤어 먹었어요."
+            "jeju": "대우리는 갈앙 죽 쒀 먹으민 고소허주.",
+            "standard": "귀리는 갈아 죽 쒀 먹으면 고소하지."
           }
         ],
         "hasAudio": false
@@ -7790,8 +7790,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "흐린조로 조밥을 지어 먹엇수다.",
-            "standard": "차조로 조밥을 지어 먹었어요."
+            "jeju": "오늘 밥엔 흐린조 호끔 섞어 봅서.",
+            "standard": "오늘 밥에는 차조를 조금 섞어 보세요."
           }
         ],
         "hasAudio": false
@@ -7804,8 +7804,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "대죽으로 떡을 해 먹엇수다.",
-            "standard": "수수로 떡을 해 먹었어요."
+            "jeju": "대죽으로 떡도 맹글어 먹수다.",
+            "standard": "수수로 떡도 만들어 먹어요."
           }
         ],
         "hasAudio": false
@@ -7818,8 +7818,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "부루 모종을 심엇수다.",
-            "standard": "상추 모종을 심었어요."
+            "jeju": "고기 먹을 거난 부루 씻어 놔라.",
+            "standard": "고기 먹을 거니까 상추 씻어 놔."
           }
         ],
         "hasAudio": false
@@ -7889,8 +7889,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "두 사람은 하늘이 정헌 거리로 다시 만났수과?",
-            "standard": "두 사람은 하늘이 정해준 부부의 연으로 다시 만났습니까?"
+            "jeju": "둘 사이는 하늘이 맺어 준 거리주게.",
+            "standard": "둘 사이는 하늘이 맺어 준 부부의 연이지."
           }
         ],
         "hasAudio": true
@@ -7903,8 +7903,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "족은어멍이 명절에 조카들 몫의 떡을 챙겼수과?",
-            "standard": "숙모가 명절에 조카들 몫의 떡을 챙겼어요?"
+            "jeju": "명절에 족은어멍이 떡을 하영 맹글어 왔주.",
+            "standard": "명절에 숙모가 떡을 많이 만들어 왔지."
           }
         ],
         "hasAudio": true
@@ -7917,8 +7917,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "아이덜이 곱을락 햄수과?",
-            "standard": "아이들이 숨바꼭질하고 있어요?"
+            "jeju": "아이덜이 마당이서 곱을락 허멍 놀암주.",
+            "standard": "아이들이 마당에서 숨바꼭질하며 놀고 있지."
           }
         ],
         "hasAudio": false
@@ -7931,8 +7931,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "메날 새벽에 일어남수과?",
-            "standard": "매일 새벽에 일어나요?"
+            "jeju": "메날 이 시간에 운동허는 거우꽈?",
+            "standard": "매일 이 시간에 운동하는 거예요?"
           }
         ],
         "hasAudio": false
@@ -7945,8 +7945,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "겨울엔 산에 사농 다녓수과?",
-            "standard": "겨울엔 산에 사냥 다녔어요?"
+            "jeju": "옛날엔 겨울 되민 산으로 사농 다녔수다.",
+            "standard": "옛날엔 겨울이 되면 산으로 사냥 다녔어요."
           }
         ],
         "hasAudio": false
@@ -7959,8 +7959,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "상삐로 밥상 닦앗수과?",
-            "standard": "행주로 밥상을 닦았어요?"
+            "jeju": "상삐 어디 놔뒀수과?",
+            "standard": "행주 어디 놔뒀어요?"
           }
         ],
         "hasAudio": false
@@ -7973,8 +7973,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "애기 지성기 갈아 줬수과?",
-            "standard": "아기 기저귀를 갈아 줬어요?"
+            "jeju": "애기 깨기 전에 지성기 갈아 줍서.",
+            "standard": "아기 깨기 전에 기저귀 갈아 주세요."
           }
         ],
         "hasAudio": false
@@ -10995,8 +10995,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "굴묵에 불 살랑 방을 데왔수다.",
-            "standard": "아궁이에 불을 지펴 방을 데웠어요."
+            "jeju": "굴묵에 불 좀 살려 봐.",
+            "standard": "아궁이에 불 좀 살려 봐."
           }
         ],
         "hasAudio": false
@@ -11009,8 +11009,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "고팡에 곡석을 재와 놨수다.",
-            "standard": "광에 곡식을 쟁여 놨어요."
+            "jeju": "쌀은 고팡에 놔두민 뒈주게.",
+            "standard": "쌀은 광에 놔두면 되지."
           }
         ],
         "hasAudio": false
@@ -11023,8 +11023,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "아궁이에 불치 하영 쌓여수다.",
-            "standard": "아궁이에 재가 많이 쌓였어요."
+            "jeju": "아궁이 불치는 식은 다음 치웠수다.",
+            "standard": "아궁이 재는 식은 다음 치웠어요."
           }
         ],
         "hasAudio": false
@@ -11037,8 +11037,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "무뚱에 농기구 재와 뒁수다.",
-            "standard": "곁채에 농기구를 쟁여 두었어요."
+            "jeju": "농기구는 무뚱에 들여놓읍서.",
+            "standard": "농기구는 곁채에 들여놓으세요."
           }
         ],
         "hasAudio": false
@@ -11051,8 +11051,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "허벅 지엉 물 질레 갑서.",
-            "standard": "물동이를 지고 물 길으러 가세요."
+            "jeju": "옛날엔 허벅 지고 물 질레 갔수다.",
+            "standard": "옛날엔 물동이를 지고 물 길으러 갔어요."
           }
         ],
         "hasAudio": false
@@ -11065,8 +11065,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "낭푼이에 밥을 하영 담앗수다.",
-            "standard": "양푼에 밥을 가득 담았어요."
+            "jeju": "낭푼이에 밥 호끔만 퍼 줍서.",
+            "standard": "양푼에 밥 조금만 퍼 주세요."
           }
         ],
         "hasAudio": false
@@ -11079,8 +11079,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "책상에 구둠이 하영 앚앗수다.",
-            "standard": "책상에 먼지가 많이 앉았어요."
+            "jeju": "창문 여니 구둠이 확 날리더라.",
+            "standard": "창문을 여니 먼지가 확 날리더라."
           }
         ],
         "hasAudio": false
@@ -11093,8 +11093,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "미녕으로 이불을 지엇수다.",
-            "standard": "무명으로 이불을 지었어요."
+            "jeju": "미녕으로 만든 이불은 여름에 시원허주.",
+            "standard": "무명으로 만든 이불은 여름에 시원하지."
           }
         ],
         "hasAudio": false
@@ -11107,8 +11107,8 @@
         "partOfSpeech": "noun",
         "examples": [
           {
-            "jeju": "망탱이에 검질 담앙 왔수다.",
-            "standard": "망태기에 잡초를 담아 왔어요."
+            "jeju": "망탱이 안에 감저가 가득 들었주.",
+            "standard": "망태기 안에 고구마가 가득 들었지."
           }
         ],
         "hasAudio": false
