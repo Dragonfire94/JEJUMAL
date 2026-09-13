@@ -8000,5 +8000,250 @@
       "naturalness": "provisional",
       "translation": "provisional"
     }
+  },
+  {
+    "id": "90437-1",
+    "seq": "90437",
+    "jeju": "그것이 끗나면은 또 탈이라고 허여 가지고예, 탈 타 먹으레 다니고예.",
+    "standard": "그것이 끝나면은 또 딸기라고 하여 가지고요, 딸기 따 먹으러 다니고요.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=2220"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90208-1",
+    "seq": "90208",
+    "jeju": "응. 맨날 물에 카근에, 그릇에 카근에 놓당 보민 벙뎅이가 안 졍 다 헤싸져 불어.",
+    "standard": "응. 맨날 물에 타서, 그릇에 타서 놓다 보면 덩어리가 안 지고 다 흩어져 버려.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=77"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90430-1",
+    "seq": "90430",
+    "jeju": "점복이 바로 이만씩 헤여.",
+    "standard": "전복이 바로 이만씩 해.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=229"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90074-1",
+    "seq": "90074",
+    "jeju": "남저도 허곡, 여저도 허곡. 막 무거운 땐 남저도 강 헤여.",
+    "standard": "남자도 하고, 여자도 하고. 아주 무거울 땐 남자도 가서 해.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=91"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90137-1",
+    "seq": "90137",
+    "jeju": "겨민 또 ᄒᆞᆫ 열 개 더 아졍 가야 뒈지. 올리구정 허민 더 올리고.",
+    "standard": "그러면 또 한 열 개 더 가져 가야 돼지. 올리고 싶으면 더 올리고.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=58"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90209-1",
+    "seq": "90209",
+    "jeju": "그거 타먹으레 뎅여십주.",
+    "standard": "그거 따먹으러 다녔습지요.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=2220"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90210-1",
+    "seq": "90210",
+    "jeju": "혹시나 쉐나 튀어 나와 어디 구석방에 들어신가.",
+    "standard": "혹시나 소나 뛰어 나와 어디 구석 방에 들어갔나.",
+    "source": {
+      "type": "adapted",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=136",
+      "originalText": {
+        "jeju": "또 다른 당번이. 혹시나 쉐나 튀어 나와 어디 구석방에 들어신가 헤영 게난 그건 당번제로 ᄀᆞᆮ곡.",
+        "standard": "또 다른 당번이. 혹시나 소나 뛰어 나와 어디 구석 방에 들어갔나 해서 그러니까 그건 당번제라고 말하고."
+      },
+      "editReason": "표제어의 달리다/빠르게 이동하다 의미가 드러나는 의문절만 떼어 학습 문장으로 사용함."
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "provisional",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90211-1",
+    "seq": "90211",
+    "jeju": "서이는 튀어. 그게 기술적인데.",
+    "standard": "셋은 뛰어. 그게 기술적인데.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=162"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90625-1",
+    "seq": "90625",
+    "jeju": "응. 제라허게 짓는 건 삼 칸. 우리 집은 이거 거자 ᄉᆞ 칸이주.",
+    "standard": "응. 온전하게 짓는 건 삼 칸. 우리 집은 이거 거의 사 칸이지.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=85"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90077-1",
+    "seq": "90077",
+    "jeju": "올리 지금 미깡이 막 못 탑셰게.",
+    "standard": "올해 지금 귤이 막 못 따고 있어.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=77"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90081-1",
+    "seq": "90081",
+    "jeju": "그 우이 올라 아장.",
+    "standard": "그 위에 올라 앉아.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=159"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90353-1",
+    "seq": "90353",
+    "jeju": "더우 깨라고 물 맞는 거예?",
+    "standard": "더위 깨라고 물 맞는 거요?",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=95"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90447-1",
+    "seq": "90447",
+    "jeju": "무신 헤친 보민 안 뒈고 허는 거 잇주예?",
+    "standard": "무슨 띤 보면 안 되고 하는 거 있지요?",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=114"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90469-1",
+    "seq": "90469",
+    "jeju": "어떵 헹 허여? 눈 ᄀᆞᆷ으렌 허영 다 곱앙 ᄎᆞᆽ곡 헷주게.",
+    "standard": "어떻게 해서 해? 눈 감으라고 해서 다 숨어서 찾고 했지.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=100"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90182-1",
+    "seq": "90182",
+    "jeju": "그걸 ᄒᆞᆫ 사름이 넉 줄이나 다섯 줄을 사.",
+    "standard": "그것을 한 사람이 넉 줄이나 다섯 줄을 서.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=135"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
+  },
+  {
+    "id": "90479-1",
+    "seq": "90479",
+    "jeju": "저, 저기 전기 꼽아야주.",
+    "standard": "저, 저기 전기 꽂아야지.",
+    "source": {
+      "type": "official",
+      "sourceId": "https://www.jeju.go.kr/jedu/map/record.htm?page=299"
+    },
+    "review": {
+      "meaning": "approved",
+      "naturalness": "approved",
+      "translation": "approved"
+    }
   }
 ]
