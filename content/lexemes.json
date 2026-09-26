@@ -3,637 +3,743 @@
     "seq": "5697",
     "jeju": "느",
     "standard": "너",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5694",
     "jeju": "너내",
     "standard": "너희",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5691",
     "jeju": "거",
     "standard": "그것",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5708",
     "jeju": "저거",
     "standard": "저것",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "7528",
     "jeju": "무신",
     "standard": "무슨",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5693",
     "jeju": "그디",
     "standard": "거기",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5703",
     "jeju": "요디",
     "standard": "요기",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5714",
     "jeju": "멧",
     "standard": "몇",
-    "partOfSpeech": "number"
+    "partOfSpeech": "number",
+    "pendingExample": true
   },
   {
     "seq": "702",
     "jeju": "아방",
     "standard": "아버지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "713",
     "jeju": "어멍",
     "standard": "어머니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7568",
     "jeju": "하르방",
     "standard": "할아버지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7569",
     "jeju": "할망",
     "standard": "할머니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2695",
     "jeju": "오라방",
     "standard": "오빠",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "544",
     "jeju": "성",
     "standard": "형",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "581",
     "jeju": "아시",
     "standard": "동생",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2748",
     "jeju": "조캐",
     "standard": "조카",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6729",
     "jeju": "큰아방",
     "standard": "큰아버지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "537",
     "jeju": "사름",
     "standard": "사람",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "502",
     "jeju": "메누리",
     "standard": "며느리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "693",
     "jeju": "씨어멍",
     "standard": "시어머니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "692",
     "jeju": "씨아방",
     "standard": "시아버지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "681",
     "jeju": "손지",
     "standard": "손자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "664",
     "jeju": "성제",
     "standard": "형제",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "628",
     "jeju": "물애기",
     "standard": "갓난아이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "90002",
     "jeju": "궨당",
     "standard": "권당",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "690",
     "jeju": "씨누이",
     "standard": "시누이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2710",
     "jeju": "으른",
     "standard": "어른",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "653",
     "jeju": "비바리",
     "standard": "처녀",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5706",
     "jeju": "이녁",
     "standard": "그대",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "439",
     "jeju": "놈",
     "standard": "남",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6730",
     "jeju": "큰어멍",
     "standard": "큰어머니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "704",
     "jeju": "아주망",
     "standard": "아주머니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "679",
     "jeju": "소나이",
     "standard": "사내",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "404",
     "jeju": "괸당",
     "standard": "친척",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "705",
     "jeju": "아주방",
     "standard": "아저씨",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5404",
     "jeju": "자파리",
     "standard": "장난",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2733",
     "jeju": "장시",
     "standard": "장수",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "647",
     "jeju": "부제",
     "standard": "부자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "579",
     "jeju": "아기",
     "standard": "아기",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "472",
     "jeju": "돌챙이",
     "standard": "석수",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5407",
     "jeju": "장게",
     "standard": "장가",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "369",
     "jeju": "가시어멍",
     "standard": "장모",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "368",
     "jeju": "가시아방",
     "standard": "장인",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "90003",
     "jeju": "바깟",
     "standard": "바깥",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "90005",
     "jeju": "드르",
     "standard": "들",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "90004",
     "jeju": "벳",
     "standard": "볕",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "374",
     "jeju": "간세다리",
     "standard": "게으름뱅이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "601",
     "jeju": "두갓",
     "standard": "부부",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1817",
     "jeju": "심방",
     "standard": "무당",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6692",
     "jeju": "돌하르방",
     "standard": "돌하르방",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "324",
     "jeju": "아시날",
     "standard": "그전 날",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4983",
     "jeju": "멩질",
     "standard": "명절",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7557",
     "jeju": "무사",
     "standard": "왜",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7496",
     "jeju": "하영",
     "standard": "많이",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7564",
     "jeju": "옵서",
     "standard": "오세요",
-    "partOfSpeech": "interjection"
+    "partOfSpeech": "interjection",
+    "pendingExample": true
   },
   {
     "seq": "7554",
     "jeju": "기여",
     "standard": "그래",
-    "partOfSpeech": "interjection"
+    "partOfSpeech": "interjection",
+    "pendingExample": true
   },
   {
     "seq": "5707",
     "jeju": "이디",
     "standard": "여기",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5709",
     "jeju": "저디",
     "standard": "저기",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5704",
     "jeju": "이거",
     "standard": "이것",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5696",
     "jeju": "누게",
     "standard": "누구",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "5718",
     "jeju": "싯",
     "standard": "셋",
-    "partOfSpeech": "number"
+    "partOfSpeech": "number",
+    "pendingExample": true
   },
   {
     "seq": "5721",
     "jeju": "여답",
     "standard": "여덟",
-    "partOfSpeech": "number"
+    "partOfSpeech": "number",
+    "pendingExample": true
   },
   {
     "seq": "7560",
     "jeju": "양",
     "standard": "예",
-    "partOfSpeech": "interjection"
+    "partOfSpeech": "interjection",
+    "pendingExample": true
   },
   {
     "seq": "7551",
     "jeju": "게메",
     "standard": "그러게",
-    "partOfSpeech": "interjection"
+    "partOfSpeech": "interjection",
+    "pendingExample": true
   },
   {
     "seq": "7550",
     "jeju": "게",
     "standard": "그래",
-    "partOfSpeech": "interjection"
+    "partOfSpeech": "interjection",
+    "pendingExample": true
   },
   {
     "seq": "7466",
     "jeju": "영판",
     "standard": "아주",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "295",
     "jeju": "닐",
     "standard": "내일",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7482",
     "jeju": "진직",
     "standard": "진작",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7463",
     "jeju": "영",
     "standard": "이렇게",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7364",
     "jeju": "그마니",
     "standard": "그만큼",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7472",
     "jeju": "이레저레",
     "standard": "이리저리",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7480",
     "jeju": "졸바로",
     "standard": "올바르게",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "4531",
     "jeju": "간세",
     "standard": "게으름",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7347",
     "jeju": "거꿀로",
     "standard": "거꾸로",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7358",
     "jeju": "곧작",
     "standard": "곧장",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7355",
     "jeju": "게민",
     "standard": "그러면",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7351",
     "jeju": "게난",
     "standard": "그러니까",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7357",
     "jeju": "경",
     "standard": "그렇게",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7393",
     "jeju": "똑",
     "standard": "꼭",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7535",
     "jeju": "셋",
     "standard": "가운데",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7519",
     "jeju": "다슴",
     "standard": "의붓",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7498",
     "jeju": "곤",
     "standard": "고운",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7493",
     "jeju": "페삭",
     "standard": "바삭",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "5692",
     "jeju": "그거",
     "standard": "그것",
-    "partOfSpeech": "pronoun"
+    "partOfSpeech": "pronoun",
+    "pendingExample": true
   },
   {
     "seq": "7459",
     "jeju": "어서라",
     "standard": "어서",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7417",
     "jeju": "미릇",
     "standard": "미리",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7406",
     "jeju": "막",
     "standard": "아주",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7379",
     "jeju": "너미",
     "standard": "너무",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7365",
     "jeju": "그자",
     "standard": "그저",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7349",
     "jeju": "거저",
     "standard": "거의",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "90007",
     "jeju": "두이",
     "standard": "뒤",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7499",
     "jeju": "곤밥",
     "standard": "흰 밥",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7481",
     "jeju": "죽게",
     "standard": "죽도록",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7476",
     "jeju": "잇당",
     "standard": "있다가",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7456",
     "jeju": "어떵",
     "standard": "어떻게",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7455",
     "jeju": "어떠난",
     "standard": "어째서",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7453",
     "jeju": "아명",
     "standard": "아무렇게",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7422",
     "jeju": "바락",
     "standard": "벌컥",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "90006",
     "jeju": "남저",
     "standard": "남자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2775",
     "jeju": "가심",
     "standard": "가슴",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3139",
     "jeju": "손콥",
     "standard": "손톱",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3138",
     "jeju": "발콥",
     "standard": "발톱",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3089",
     "jeju": "입바위",
     "standard": "입술",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2828",
     "jeju": "귓밥",
     "standard": "귀지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2917",
     "jeju": "모감지",
     "standard": "멱살",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3109",
     "jeju": "종애",
     "standard": "종아리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2772",
@@ -641,265 +747,309 @@
     "standard": "다리",
     "partOfSpeech": "noun",
     "conceptId": "다리-leg",
-    "quizGloss": "다리(신체)"
+    "quizGloss": "다리(신체)",
+    "pendingExample": true
   },
   {
     "seq": "2803",
     "jeju": "꼴랑지",
     "standard": "꼬리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3123",
     "jeju": "천징",
     "standard": "천식",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3027",
     "jeju": "심줄",
     "standard": "힘줄",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2785",
     "jeju": "거슴",
     "standard": "거스러미",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2961",
     "jeju": "벵",
     "standard": "병",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2819",
     "jeju": "꿈",
     "standard": "침",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2811",
     "jeju": "꽝",
     "standard": "뼈",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3087",
     "jeju": "임댕이",
     "standard": "이마",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2787",
     "jeju": "꺼럭",
     "standard": "터럭",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3056",
     "jeju": "양지",
     "standard": "얼굴",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3022",
     "jeju": "쉬염",
     "standard": "수염",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2946",
     "jeju": "베설",
     "standard": "창자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5331",
     "jeju": "오몽",
     "standard": "움직임",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6747",
     "jeju": "소곰",
     "standard": "소금",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3451",
     "jeju": "둠비",
     "standard": "두부",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4300",
     "jeju": "고치",
     "standard": "고추",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6762",
     "jeju": "시리떡",
     "standard": "시루떡",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3419",
     "jeju": "곤죽",
     "standard": "쌀죽",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3423",
     "jeju": "괴기",
     "standard": "고기",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4345",
     "jeju": "지슬",
     "standard": "감자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4607",
     "jeju": "지름",
     "standard": "기름",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6761",
     "jeju": "쉰다리",
     "standard": "단술",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6763",
     "jeju": "식게",
     "standard": "식혜",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6756",
     "jeju": "수에",
     "standard": "순대",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3640",
     "jeju": "바농",
     "standard": "바늘",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1265",
     "jeju": "씰",
     "standard": "실",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1309",
     "jeju": "주전지",
     "standard": "주전자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1232",
     "jeju": "숟구락",
     "standard": "숟가락",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6774",
     "jeju": "언물",
     "standard": "찬물",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4302",
     "jeju": "곱대사니",
     "standard": "마늘",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3568",
     "jeju": "팃물",
     "standard": "쌀뜨물",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3549",
     "jeju": "침떡",
     "standard": "설기",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3545",
     "jeju": "청묵",
     "standard": "청포",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3527",
     "jeju": "조팝",
     "standard": "조밥",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3399",
     "jeju": "개역",
     "standard": "미숫가루",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3404",
     "jeju": "것",
     "standard": "먹이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3600",
     "jeju": "물둠비",
     "standard": "순두부",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3505",
     "jeju": "적갈",
     "standard": "고기적",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3434",
     "jeju": "누넹이",
     "standard": "누룽지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6892",
     "jeju": "놓이다",
     "standard": "놓다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7144",
     "jeju": "페우다",
     "standard": "펴다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7085",
     "jeju": "익다",
     "standard": "읽다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7073",
     "jeju": "앚다",
     "standard": "앉다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7071",
@@ -907,49 +1057,57 @@
     "standard": "쓰다",
     "partOfSpeech": "verb",
     "conceptId": "쓰다-write",
-    "quizGloss": "쓰다(글을 쓰다)"
+    "quizGloss": "쓰다(글을 쓰다)",
+    "pendingExample": true
   },
   {
     "seq": "7061",
     "jeju": "싯다",
     "standard": "씻다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6980",
     "jeju": "무끄다",
     "standard": "묶다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6967",
     "jeju": "메다",
     "standard": "매다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6930",
     "jeju": "들르다",
     "standard": "들다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6919",
     "jeju": "도왜다",
     "standard": "돕다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7026",
     "jeju": "불르다",
     "standard": "부르다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6977",
     "jeju": "몰르다",
     "standard": "모르다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7087",
@@ -957,188 +1115,219 @@
     "standard": "열다",
     "partOfSpeech": "verb",
     "conceptId": "열다-open",
-    "quizGloss": "열다(문 등을 열다)"
+    "quizGloss": "열다(문 등을 열다)",
+    "pendingExample": true
   },
   {
     "seq": "6969",
     "jeju": "멘들다",
     "standard": "만들다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7052",
     "jeju": "쌉다",
     "standard": "싸우다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7130",
     "jeju": "케다",
     "standard": "캐다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6881",
     "jeju": "날르다",
     "standard": "나르다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6879",
     "jeju": "나무래다",
     "standard": "나무라다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6886",
     "jeju": "냉기다",
     "standard": "남기다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6883",
     "jeju": "내불다",
     "standard": "내버리다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6960",
     "jeju": "맽기다",
     "standard": "맡기다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6966",
     "jeju": "메꾸다",
     "standard": "메우다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6968",
     "jeju": "메우다",
     "standard": "모으다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6926",
     "jeju": "둥글다",
     "standard": "뒹굴다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7134",
     "jeju": "털어지다",
     "standard": "떨어지다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7014",
     "jeju": "벳기다",
     "standard": "벗기다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7022",
     "jeju": "부찌다",
     "standard": "붙이다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6987",
     "jeju": "밀리다",
     "standard": "밀다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7001",
     "jeju": "발르다",
     "standard": "바르다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "5845",
     "jeju": "고찌다",
     "standard": "고치다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7108",
     "jeju": "지프(짚으)다",
     "standard": "짚다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7101",
     "jeju": "죄다",
     "standard": "쥐다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7080",
     "jeju": "얼리다",
     "standard": "얼다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7070",
     "jeju": "쏙다",
     "standard": "속다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7057",
     "jeju": "심다",
     "standard": "잡다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7056",
     "jeju": "시끄다",
     "standard": "싣다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7048",
     "jeju": "세다",
     "standard": "쇠다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7033",
     "jeju": "비우다",
     "standard": "붓다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7030",
     "jeju": "비다",
     "standard": "베다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7024",
     "jeju": "부트(붙으)다",
     "standard": "붙다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7017",
     "jeju": "봉그다",
     "standard": "줍다",
     "partOfSpeech": "verb",
-    "conceptId": "줍다"
+    "conceptId": "줍다",
+    "pendingExample": true
   },
   {
     "seq": "7009",
     "jeju": "벌르다",
     "standard": "깨다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7007",
     "jeju": "벋다",
     "standard": "뻗다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6956",
@@ -1146,1213 +1335,1415 @@
     "standard": "맡다",
     "partOfSpeech": "verb",
     "conceptId": "맡다-smell",
-    "quizGloss": "맡다(냄새를 맡다)"
+    "quizGloss": "맡다(냄새를 맡다)",
+    "pendingExample": true
   },
   {
     "seq": "6912",
     "jeju": "더끄다",
     "standard": "덮다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6909",
     "jeju": "담다",
     "standard": "담그다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6885",
     "jeju": "내치다",
     "standard": "뱉다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "6878",
     "jeju": "나끄(낚으)다",
     "standard": "낚다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7156",
     "jeju": "흥글다",
     "standard": "흔든다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7154",
     "jeju": "흘치다",
     "standard": "흘리다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7153",
     "jeju": "흘르다",
     "standard": "흐르다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7112",
     "jeju": "질루다",
     "standard": "기르다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7102",
     "jeju": "주꾸다",
     "standard": "짖다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7094",
     "jeju": "적지다",
     "standard": "적시다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7086",
     "jeju": "입지다",
     "standard": "입히다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7083",
     "jeju": "용심나다",
     "standard": "성나다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7082",
     "jeju": "올르다",
     "standard": "오르다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7058",
     "jeju": "심들다",
     "standard": "힘들다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7055",
     "jeju": "시기다",
     "standard": "시키다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7046",
     "jeju": "설르다",
     "standard": "그만두다",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "pendingExample": true
   },
   {
     "seq": "7157",
     "jeju": "히다",
     "standard": "희다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7329",
     "jeju": "하다",
     "standard": "많다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7299",
     "jeju": "지프다",
     "standard": "깊다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7170",
     "jeju": "넙다",
     "standard": "넓다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7288",
     "jeju": "조랍다",
     "standard": "졸리다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7279",
     "jeju": "요망지다",
     "standard": "똑똑하다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7289",
     "jeju": "족다",
     "standard": "작다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7263",
     "jeju": "얼다",
     "standard": "춥다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7165",
     "jeju": "궂다",
     "standard": "나쁘다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7338",
     "jeju": "훍다",
     "standard": "굵다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7253",
     "jeju": "아깝다",
     "standard": "귀엽다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7248",
     "jeju": "실프다",
     "standard": "싫다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7174",
     "jeju": "달르다",
     "standard": "다르다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7175",
     "jeju": "두덥다",
     "standard": "두껍다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7158",
     "jeju": "가벱다",
     "standard": "가볍다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7209",
     "jeju": "베다",
     "standard": "무겁다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7214",
     "jeju": "보드랍다",
     "standard": "부드럽다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7179",
     "jeju": "두물다",
     "standard": "드물다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7242",
     "jeju": "쎄다",
     "standard": "세다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7302",
     "jeju": "질다",
     "standard": "길다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7268",
     "jeju": "역다",
     "standard": "약다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7264",
     "jeju": "엇다",
     "standard": "없다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7171",
     "jeju": "노프(높으)다",
     "standard": "높다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7294",
     "jeju": "줄다",
     "standard": "여위다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7292",
     "jeju": "졸바르다",
     "standard": "바르다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7265",
     "jeju": "엉기다",
     "standard": "성기다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7247",
     "jeju": "실렵다",
     "standard": "차갑다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7211",
     "jeju": "벨나다",
     "standard": "별나다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7207",
     "jeju": "버치다",
     "standard": "버겁다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7327",
     "jeju": "푸지다",
     "standard": "푸짐하다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7220",
     "jeju": "부치럽다",
     "standard": "부끄럽다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7206",
     "jeju": "버물다",
     "standard": "더러워지다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7238",
     "jeju": "싸다",
     "standard": "그만한 가치가 있다",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "pendingExample": true
   },
   {
     "seq": "7467",
     "jeju": "오고생이",
     "standard": "고스란히",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7501",
     "jeju": "흥창망창",
     "standard": "흥청망청",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "7363",
     "jeju": "그득",
     "standard": "가득",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "5004",
     "jeju": "문세",
     "standard": "문서",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5173",
     "jeju": "살렴",
     "standard": "살림",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "447",
     "jeju": "느렁테",
     "standard": "느림보",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4342",
     "jeju": "양애",
     "standard": "양하",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4186",
     "jeju": "대우리",
     "standard": "귀리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4295",
     "jeju": "흐린조",
     "standard": "차조",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4187",
     "jeju": "대죽",
     "standard": "수수",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4334",
     "jeju": "부루",
     "standard": "상추",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4547",
     "jeju": "거리",
     "standard": "부부의 연",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2761",
     "jeju": "족은어멍",
     "standard": "숙모",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4593",
     "jeju": "곱을락",
     "standard": "숨바꼭질",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "303",
     "jeju": "메날",
     "standard": "매일",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5157",
     "jeju": "사농",
     "standard": "사냥",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3689",
     "jeju": "상삐",
     "standard": "행주",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4609",
     "jeju": "지성기",
     "standard": "기저귀",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3372",
     "jeju": "초집",
     "standard": "초가집",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3296",
     "jeju": "안거리",
     "standard": "안채",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "838",
     "jeju": "치메",
     "standard": "치마",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1421",
     "jeju": "주멩기",
     "standard": "주머니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "753",
     "jeju": "게화",
     "standard": "호주머니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "299",
     "jeju": "돗",
     "standard": "돌",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1914",
     "jeju": "생이",
     "standard": "새",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1361",
     "jeju": "호미",
     "standard": "낫",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3332",
     "jeju": "절간",
     "standard": "가게",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "215",
     "jeju": "질",
     "standard": "길",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "958",
     "jeju": "구덕",
     "standard": "바구니",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4004",
     "jeju": "자왈",
     "standard": "덤불 숲",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2560",
     "jeju": "남",
     "standard": "나무",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4370",
     "jeju": "고장",
     "standard": "꽃",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4484",
     "jeju": "모살",
     "standard": "모래",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "230",
     "jeju": "한질",
     "standard": "큰길",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3319",
     "jeju": "우영",
     "standard": "채전",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3278",
     "jeju": "서리",
     "standard": "서까래",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4576",
     "jeju": "고망",
     "standard": "구멍",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1335",
     "jeju": "친",
     "standard": "끈",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6057",
     "jeju": "글갱이",
     "standard": "갈퀴",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6041",
     "jeju": "돔배",
     "standard": "도마",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "327",
     "jeju": "아적",
     "standard": "아침",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "350",
     "jeju": "저냑",
     "standard": "저녁",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4837",
     "jeju": "내중",
     "standard": "나중",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7471",
     "jeju": "이디저디",
     "standard": "여기저기",
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "pendingExample": true
   },
   {
     "seq": "4536",
     "jeju": "깝",
     "standard": "값",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3335",
     "jeju": "정낭",
     "standard": "대문 대신 뜰 어귀에 가로지르는 나무",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "662",
     "jeju": "새서방",
     "standard": "신랑",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "7530",
     "jeju": "새각시",
     "standard": "신부",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4066",
     "jeju": "촐",
     "standard": "꼴",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1380",
     "jeju": "걸름",
     "standard": "거름",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5345",
     "jeju": "용심",
     "standard": "성",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4284",
     "jeju": "콩꼬질",
     "standard": "콩깍지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4936",
     "jeju": "듸",
     "standard": "데",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4561",
     "jeju": "껀",
     "standard": "건",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1680",
     "jeju": "용시",
     "standard": "농사",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5670",
     "jeju": "회계",
     "standard": "생각",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5549",
     "jeju": "체얌",
     "standard": "처음",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5519",
     "jeju": "지침",
     "standard": "기침",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5410",
     "jeju": "장밭",
     "standard": "장지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5383",
     "jeju": "일후",
     "standard": "이후",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5376",
     "jeju": "일름",
     "standard": "이름",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5242",
     "jeju": "시상",
     "standard": "세상",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5211",
     "jeju": "세",
     "standard": "중매",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5117",
     "jeju": "분시",
     "standard": "분수",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5046",
     "jeju": "방둥이",
     "standard": "장난감",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "90001",
     "jeju": "벵원",
     "standard": "병원",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4906",
     "jeju": "도",
     "standard": "출입구",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3347",
     "jeju": "지둥",
     "standard": "기둥",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1957",
     "jeju": "강생이",
     "standard": "강아지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2020",
     "jeju": "도새기",
     "standard": "돼지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1969",
     "jeju": "고냉이",
     "standard": "고양이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2452",
     "jeju": "베염",
     "standard": "뱀",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3869",
     "jeju": "삭다리",
     "standard": "삭정이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4449",
     "jeju": "졸갱이",
     "standard": "으름",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "351",
     "jeju": "저슬",
     "standard": "겨울",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "736",
     "jeju": "굴묵",
     "standard": "아궁이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3196",
     "jeju": "고팡",
     "standard": "광",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5136",
     "jeju": "불치",
     "standard": "재",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3228",
     "jeju": "무뚱",
     "standard": "곁채",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1360",
     "jeju": "허벅",
     "standard": "물동이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1011",
     "jeju": "낭푼이",
     "standard": "양푼",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4735",
     "jeju": "구둠",
     "standard": "먼지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "873",
     "jeju": "미녕",
     "standard": "무명",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1545",
     "jeju": "망탱이",
     "standard": "망태기",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4109",
     "jeju": "폭낭",
     "standard": "팽나무",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2611",
     "jeju": "가쟁이",
     "standard": "가지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5938",
     "jeju": "먹돌",
     "standard": "차돌",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3874",
     "jeju": "살마",
     "standard": "반하",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4507",
     "jeju": "작지",
     "standard": "돌자갈",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4384",
     "jeju": "돔박",
     "standard": "동백",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2138",
     "jeju": "쇠",
     "standard": "소",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2179",
     "jeju": "여시",
     "standard": "여우",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1909",
     "jeju": "빙애기",
     "standard": "병아리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "335",
     "jeju": "엿날",
     "standard": "옛날",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4169",
     "jeju": "나록",
     "standard": "벼",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "77",
     "jeju": "동카름",
     "standard": "동쪽 동네",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2136",
     "jeju": "송애기",
     "standard": "송아지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "739",
     "jeju": "갈중이",
     "standard": "갈옷 바지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3609",
     "jeju": "덩드렁마께",
     "standard": "짚방망이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1096",
     "jeju": "도치",
     "standard": "도끼",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "950",
     "jeju": "곽살",
     "standard": "성냥개비",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "814",
     "jeju": "세답",
     "standard": "빨래",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4591",
     "jeju": "곰생이",
     "standard": "곰팡이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2375",
     "jeju": "물꾸럭",
     "standard": "문어",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2340",
     "jeju": "각제기",
     "standard": "전갱이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3985",
     "jeju": "우미",
     "standard": "우뭇가사리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4063",
     "jeju": "초기",
     "standard": "표고버섯",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3537",
     "jeju": "짐치",
     "standard": "김치",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4206",
     "jeju": "모멀",
     "standard": "메밀",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4382",
     "jeju": "댕유지",
     "standard": "당유자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2594",
     "jeju": "진독",
     "standard": "진드기",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2427",
     "jeju": "굼벵이",
     "standard": "굼벵이",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2420",
     "jeju": "게여미",
     "standard": "개미",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4640",
     "jeju": "발창",
     "standard": "발바닥",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2882",
     "jeju": "둑지",
     "standard": "어깻죽지",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4992",
     "jeju": "모욕",
     "standard": "목욕",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4998",
     "jeju": "몸질",
     "standard": "몸 뒤척임",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2269",
     "jeju": "멜",
     "standard": "멸치",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1354",
     "jeju": "펭풍",
     "standard": "병풍",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1110",
     "jeju": "두껑",
     "standard": "뚜껑",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2005",
     "jeju": "노리",
     "standard": "노루",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5420",
     "jeju": "적시",
     "standard": "몫",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "76",
     "jeju": "가름",
     "standard": "동네",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6300",
     "jeju": "몰질",
     "standard": "말 길",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "71",
     "jeju": "헤",
     "standard": "해",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "32",
     "jeju": "벨",
     "standard": "별",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "41",
     "jeju": "상고지",
     "standard": "무지개",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "19",
     "jeju": "동곳",
     "standard": "고드름",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2628",
     "jeju": "검질",
     "standard": "잡초",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "70",
     "jeju": "험벅눈",
     "standard": "함박눈",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "261",
     "jeju": "우녁",
     "standard": "위쪽",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "257",
     "jeju": "알",
     "standard": "아래",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3907",
     "jeju": "소낭",
     "standard": "소나무",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3920",
     "jeju": "솔똥",
     "standard": "솔방울",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "148",
     "jeju": "바당",
     "standard": "바다",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "5009",
     "jeju": "물질",
     "standard": "물질",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2254",
     "jeju": "구제기",
     "standard": "소라",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2253",
     "jeju": "구살",
     "standard": "성게",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2347",
     "jeju": "겡이",
     "standard": "게",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2300",
     "jeju": "오징에",
     "standard": "오징어",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2405",
     "jeju": "자리",
     "standard": "자리돔",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "2394",
     "jeju": "셍성",
     "standard": "옥돔",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4163",
     "jeju": "곡석",
     "standard": "곡식",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4348",
     "jeju": "짐",
     "standard": "김",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3958",
     "jeju": "베",
     "standard": "배",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "6025",
     "jeju": "돔박낭",
     "standard": "동백나무",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4297",
     "jeju": "감제",
     "standard": "고구마",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4218",
     "jeju": "방울",
     "standard": "알",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3916",
     "jeju": "속",
     "standard": "쑥",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "4443",
     "jeju": "유지",
     "standard": "유자",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "3850",
     "jeju": "불리",
     "standard": "뿌리",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "1694",
     "jeju": "질메",
     "standard": "길마",
-    "partOfSpeech": "noun"
+    "partOfSpeech": "noun",
+    "pendingExample": true
   },
   {
     "seq": "90008",
@@ -2556,7 +2947,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0027"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90020",
@@ -2672,7 +3064,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0033"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90026",
@@ -2905,7 +3298,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0052"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90040",
@@ -2922,7 +3316,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0055"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90041",
@@ -2939,7 +3334,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0056"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90042",
@@ -3093,7 +3489,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0071"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90050",
@@ -3204,7 +3601,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0083"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90056",
@@ -3239,7 +3637,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0086"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90058",
@@ -3310,7 +3709,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0094"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90062",
@@ -3443,7 +3843,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0103"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90069",
@@ -3482,7 +3883,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0106"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90071",
@@ -3499,7 +3901,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0112"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90072",
@@ -3557,7 +3960,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0118"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90075",
@@ -3574,7 +3978,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0120"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90076",
@@ -3591,7 +3996,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0121"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90077",
@@ -3610,7 +4016,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0123"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90078",
@@ -3645,7 +4052,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0125"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90080",
@@ -3680,7 +4088,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0127"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90082",
@@ -3752,7 +4161,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0137"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90087",
@@ -3923,7 +4333,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0152"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90096",
@@ -3959,7 +4370,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0154"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90098",
@@ -4069,7 +4481,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0163"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90104",
@@ -4164,7 +4577,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0170"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90109",
@@ -4202,7 +4616,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0172"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90111",
@@ -4297,7 +4712,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0177"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90116",
@@ -4314,7 +4730,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0178"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90117",
@@ -4333,7 +4750,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0180"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90118",
@@ -4370,7 +4788,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0182"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90120",
@@ -4392,7 +4811,8 @@
         "뭐"
       ],
       "legacyBookId": "jbv2025-0185"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90121",
@@ -4409,7 +4829,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0186"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90122",
@@ -4426,7 +4847,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0187"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90123",
@@ -4501,7 +4923,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0194"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90127",
@@ -4520,7 +4943,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0196"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90128",
@@ -4714,7 +5138,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0207"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90138",
@@ -5084,7 +5509,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0227"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90157",
@@ -5101,7 +5527,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0228"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90158",
@@ -5120,7 +5547,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0230"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90159",
@@ -5137,7 +5565,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0231"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90160",
@@ -5530,7 +5959,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0261"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90183",
@@ -5683,7 +6113,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0275"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90191",
@@ -6025,7 +6456,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0293"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90209",
@@ -6042,7 +6474,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0294"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90210",
@@ -6059,7 +6492,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0296"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90211",
@@ -6076,7 +6510,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0297"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90212",
@@ -6207,7 +6642,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0309"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90220",
@@ -6246,7 +6682,8 @@
       ],
       "legacyBookId": "jbv2025-0311"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90222",
@@ -6570,7 +7007,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0331"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90239",
@@ -6953,7 +7391,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0357"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90259",
@@ -7339,7 +7778,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0384"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90279",
@@ -7356,7 +7796,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0386"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90280",
@@ -7375,7 +7816,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0387"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90281",
@@ -7392,7 +7834,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0389"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90282",
@@ -7411,7 +7854,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0390"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90283",
@@ -7428,7 +7872,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0391"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90284",
@@ -7580,7 +8025,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0401"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90292",
@@ -7616,7 +8062,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0403"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90294",
@@ -7688,7 +8135,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0409"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90298",
@@ -8076,7 +8524,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0437"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90319",
@@ -8096,7 +8545,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0438"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90320",
@@ -8133,7 +8583,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0440"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90322",
@@ -8172,7 +8623,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0443"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90324",
@@ -8207,7 +8659,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0448"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90326",
@@ -8420,7 +8873,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0463"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90337",
@@ -8511,7 +8965,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0470"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90342",
@@ -8734,7 +9189,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0484"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90354",
@@ -8901,7 +9357,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0498"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90365",
@@ -9144,7 +9601,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0517"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90378",
@@ -9179,7 +9637,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0519"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90380",
@@ -9255,7 +9714,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0525"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90385",
@@ -9309,7 +9769,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0529"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90388",
@@ -9326,7 +9787,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0530"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90389",
@@ -9345,7 +9807,8 @@
       "legacyBookId": "jbv2025-0533"
     },
     "conceptId": "띠-grass",
-    "quizGloss": "띠(풀)"
+    "quizGloss": "띠(풀)",
+    "pendingExample": true
   },
   {
     "seq": "90390",
@@ -9362,7 +9825,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0535"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90391",
@@ -9379,7 +9843,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0536"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90392",
@@ -9414,7 +9879,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0538"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90394",
@@ -9431,7 +9897,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0540"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90395",
@@ -9448,7 +9915,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0543"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90396",
@@ -9566,7 +10034,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0552"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90402",
@@ -9734,7 +10203,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0569"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90411",
@@ -9769,7 +10239,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0572"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90413",
@@ -9886,7 +10357,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0581"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90419",
@@ -9903,7 +10375,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0583"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90420",
@@ -9940,7 +10413,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0587"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90422",
@@ -10115,7 +10589,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0597"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90431",
@@ -10230,7 +10705,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0604"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90437",
@@ -10247,7 +10723,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0606"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90438",
@@ -10282,7 +10759,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0608"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90440",
@@ -10299,7 +10777,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0609"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90441",
@@ -10431,7 +10910,8 @@
       "legacyBookId": "jbv2025-0617"
     },
     "conceptId": "띠-zodiac",
-    "quizGloss": "띠(십이지)"
+    "quizGloss": "띠(십이지)",
+    "pendingExample": true
   },
   {
     "seq": "90448",
@@ -10556,7 +11036,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0626"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90455",
@@ -10613,7 +11094,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0629"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90458",
@@ -10840,7 +11322,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0641"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90470",
@@ -11029,7 +11512,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0651"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90480",
@@ -11101,7 +11585,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0656"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90484",
@@ -11157,7 +11642,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0659"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90487",
@@ -11561,7 +12047,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0681"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90508",
@@ -11905,7 +12392,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0704"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90526",
@@ -11922,7 +12410,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0706"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90527",
@@ -11959,7 +12448,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0709"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90529",
@@ -11976,7 +12466,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0710"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90530",
@@ -11993,7 +12484,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0711"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90531",
@@ -12010,7 +12502,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0713"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90532",
@@ -12450,7 +12943,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0742"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90556",
@@ -12524,7 +13018,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0747"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90560",
@@ -13829,7 +14324,8 @@
       ],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0818"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90626",
@@ -13902,7 +14398,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0823"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90630",
@@ -14033,7 +14530,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0830"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90637",
@@ -14141,7 +14639,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0837"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90643",
@@ -14196,7 +14695,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0840"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90646",
@@ -14251,7 +14751,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0843"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90649",
@@ -14269,7 +14770,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0844"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90650",
@@ -14286,7 +14788,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0845"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90651",
@@ -14303,7 +14806,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0846"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90652",
@@ -14320,7 +14824,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0847"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90653",
@@ -14337,7 +14842,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0848"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90654",
@@ -14372,7 +14878,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0851"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90656",
@@ -14407,7 +14914,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0853"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90658",
@@ -14424,7 +14932,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0854"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90659",
@@ -14459,7 +14968,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0856"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90661",
@@ -14476,7 +14986,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0857"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90662",
@@ -14493,7 +15004,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0858"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90663",
@@ -14546,7 +15058,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0862"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90666",
@@ -14677,7 +15190,8 @@
       "otherStandard": [],
       "legacyBookId": "jbv2025-0869"
     },
-    "containsPua": false
+    "containsPua": false,
+    "pendingExample": true
   },
   {
     "seq": "90673",
@@ -14734,7 +15248,8 @@
       "otherJejuForms": [],
       "otherStandard": [],
       "legacyBookId": "jbv2025-0084"
-    }
+    },
+    "pendingExample": true
   },
   {
     "seq": "90676",
