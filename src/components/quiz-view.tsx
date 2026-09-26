@@ -4,6 +4,7 @@ import { AudioButton } from "@/components/audio-button";
 import { ExampleLine } from "@/components/example-line";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
+import { hasVerifiedAudio } from "@/lib/audio";
 import { useProgress } from "@/lib/progress";
 import type { Question, QuizResult } from "@/lib/quiz";
 import { playSfx } from "@/lib/sfx";
@@ -124,7 +125,13 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
           <>
             <p className="text-sm text-muted-foreground">{question.prompt}</p>
             <p className="font-display text-3xl font-semibold tracking-tight">{question.displayMeaning}</p>
-            {answered ? <AudioButton src={question.word.soundUrl} speak={question.word.jeju} label="발음 듣기" /> : null}
+            {answered ? (
+              hasVerifiedAudio(question.word) ? (
+                <AudioButton src={question.word.soundUrl} speak={question.word.jeju} label="발음 듣기" />
+              ) : (
+                <p className="text-center text-xs text-muted-foreground">발음 음원 준비 중</p>
+              )
+            ) : null}
           </>
         )}
       </div>
