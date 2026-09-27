@@ -19,8 +19,8 @@ function firstN(rankIndex: number, count: number): string[] {
 test("baby rank is open from the start, 하군 is not", () => {
   assert.equal(isRankOpen(0, []), true);
   assert.equal(isRankOpen(1, []), false);
-  assert.equal(isUnitUnlocked("b1-01", []), true);
-  assert.equal(isUnitUnlocked("b1-24", []), false);
+  assert.equal(isUnitUnlocked("greeting-01", []), true);
+  assert.equal(isUnitUnlocked("family-07", []), false);
 });
 
 test("120 words in 애기해녀 opens 하군, not 중군 or 대상군", () => {
@@ -28,8 +28,8 @@ test("120 words in 애기해녀 opens 하군, not 중군 or 대상군", () => {
   assert.equal(isRankOpen(1, done), true);
   assert.equal(isRankOpen(2, done), false);
   assert.equal(isRankOpen(LAST_RANK_INDEX, done), false);
-  assert.equal(isUnitUnlocked("b1-24", done), true);
-  assert.equal(isUnitUnlocked("b2-01", done), false);
+  assert.equal(isUnitUnlocked("family-07", done), true);
+  assert.equal(isUnitUnlocked("time-09", done), false);
 });
 
 test("대상군 stays locked until the first four ranks are fully cleared", () => {
@@ -39,7 +39,7 @@ test("대상군 stays locked until the first four ranks are fully cleared", () =
 
   const cleared = [0, 1, 2, 3].flatMap((rank) => unitIdsInRank(rank));
   assert.equal(isRankOpen(LAST_RANK_INDEX, cleared), true);
-  assert.equal(isUnitUnlocked("b3-01", cleared), true);
+  assert.equal(isUnitUnlocked("food-17", cleared), true);
 });
 
 test("unlock copy counts remaining words to 120, then names 대상군 as a full clear", () => {
@@ -64,10 +64,10 @@ test("unlock copy counts remaining words to 120, then names 대상군 as a full 
 test("status line uses 120 words to the next open rank, not 200", () => {
   assert.equal(nextUnlockStatus([]), "하군까지 120단어");
   assert.equal(nextUnlockStatus(firstN(0, 4)), "하군까지 80단어");
-  assert.equal(nextUnlockStatus(firstN(0, RANK_ADVANCE_UNITS)), "중군까지 120단어");
+  assert.equal(nextUnlockStatus(firstN(0, RANK_ADVANCE_UNITS)), "중군까지 116단어");
   const almostMaster = [0, 1, 2, 3].flatMap((rank) => unitIdsInRank(rank));
   almostMaster.pop();
-  assert.equal(nextUnlockStatus(almostMaster), "대상군까지 10단어");
+  assert.equal(nextUnlockStatus(almostMaster), "대상군까지 9단어");
   assert.equal(nextUnlockStatus([0, 1, 2, 3, 4].flatMap((rank) => unitIdsInRank(rank))), "대상군 마스터");
 });
 

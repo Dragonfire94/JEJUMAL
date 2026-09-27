@@ -78,21 +78,39 @@ export const RANKS: Rank[] = [
   { id: "dae", title: "대상군", subtitle: "이 바당의 대상군이우다", minPercent: 80 },
 ];
 
-export const LEVELS = [
-  { id: "beginner", title: "초급", subtitle: "제주어의 첫 걸음" },
-  { id: "intermediate", title: "중급", subtitle: "말이 트이기 시작해요" },
-  { id: "advanced", title: "고급", subtitle: "진짜 제주 사람처럼" },
+/** 상황 테마 (2025 기본어휘 1,501개 테마 재구성, 2026-09-27). 쉬운 테마부터 순서대로. */
+export const THEMES = [
+  { id: "greeting", title: "기초/인사", subtitle: "제주어의 첫 걸음" },
+  { id: "family", title: "가족/사람", subtitle: "내 사람들과의 말" },
+  { id: "move", title: "이동", subtitle: "가고 오고, 길을 묻다" },
+  { id: "time", title: "시간/방향/수량", subtitle: "때와 방향, 수 세기" },
+  { id: "body", title: "몸/건강", subtitle: "몸 이야기" },
+  { id: "animals", title: "동식물", subtitle: "제주에 사는 것들" },
+  { id: "market", title: "시장에서", subtitle: "오일장에서 장보기" },
+  { id: "food", title: "음식", subtitle: "먹는 이야기" },
+  { id: "nature", title: "자연/날씨", subtitle: "바람과 하늘" },
+  { id: "work", title: "일/노동", subtitle: "일하는 손" },
+  { id: "sea", title: "바다/물질", subtitle: "바당 이야기" },
+  { id: "home", title: "집안일", subtitle: "집에서 쓰는 말" },
+  { id: "farm", title: "농사", subtitle: "밭에서 쓰는 말" },
+  { id: "emotion", title: "감정/성격", subtitle: "마음 이야기" },
 ] as const;
 
-/** 레벨(초급/중급/고급)별 트랙. units.json의 themeId 기준으로 묶는다. */
-export const TRACKS: Track[] = LEVELS.map((level) => ({
-  id: level.id,
-  title: level.title,
-  unitIds: units.filter((unit) => unit.themeId === level.id).map((unit) => unit.id),
+/** 테마별 트랙. units.json의 themeId 기준으로 묶는다. */
+export const TRACKS: Track[] = THEMES.map((theme) => ({
+  id: theme.id,
+  title: theme.title,
+  unitIds: units.filter((unit) => unit.themeId === theme.id).map((unit) => unit.id),
 }));
 
 export const RANK_ADVANCE_UNITS = 12;
-export const RANK_ADVANCE_WORDS = 120;
+
+/** 해당 랭크에서 다음 랭크를 여는 데 필요한 단어 수 = 랭크 앞 12개 유닛의 실제 단어 수 */
+export function rankAdvanceWords(rankIndex: number): number {
+  return unitIdsInRank(rankIndex)
+    .slice(0, RANK_ADVANCE_UNITS)
+    .reduce((sum, id) => sum + (byId.get(id)?.words.length ?? 0), 0);
+}
 export const LAST_RANK_INDEX = RANKS.length - 1;
 
 export function unitIdsInRank(rankIndex: number): string[] {
@@ -227,8 +245,11 @@ export function rankUnlockHint(rankIndex: number, completedIds: string[]): RankU
     if (!next) return null;
     if (isRankOpen(rankIndex + 1, completedIds)) return { kind: "opened", nextTitle: next.title };
     if (rankIndex === LAST_RANK_INDEX - 1) return { kind: "master" };
-    const remain = Math.max(0, RANK_ADVANCE_UNITS - rankCompletedCount(rankIndex, completedIds));
-    return { kind: "advance", remainWords: remain * 10, nextTitle: next.title };
+    const remain = Math.max(
+      0,
+      rankAdvanceWords(rankIndex) - rankCompletedWords(rankIndex, completedIds),
+    );
+    return { kind: "advance", remainWords: remain, nextTitle: next.title };
   }
   if (rankIndex === LAST_RANK_INDEX) {
     return {
@@ -245,7 +266,7 @@ export function rankUnlockHint(rankIndex: number, completedIds: string[]): RankU
     kind: "locked-advance",
     prevTitle: prev.title,
     haveWords: rankCompletedWords(rankIndex - 1, completedIds),
-    needWords: RANK_ADVANCE_WORDS,
+    needWords: rankAdvanceWords(rankIndex - 1),
   };
 }
 
@@ -274,7 +295,10 @@ export function nextUnlockStatus(completedIds: string[]): string {
       );
       return `대상군까지 ${remain}단어`;
     }
-    const remain = Math.max(0, RANK_ADVANCE_WORDS - rankCompletedWords(rankIndex - 1, completedIds));
+    const remain = Math.max(
+      0,
+      rankAdvanceWords(rankIndex - 1) - rankCompletedWords(rankIndex - 1, completedIds),
+    );
     return `${RANKS[rankIndex]!.title}까지 ${remain}단어`;
   }
   return "대상군 마스터";

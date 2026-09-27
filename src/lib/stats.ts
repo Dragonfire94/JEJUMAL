@@ -132,7 +132,10 @@ export function rankMastery(completedIds: string[]): RankMastery[] {
       total,
       wordsDone: rankCompletedWords(index, completedIds),
       wordsTotal: wordsInRank(index),
-      percent: total > 0 ? Math.round((completed / total) * 100) : 0,
+      percent:
+        wordsInRank(index) > 0
+          ? Math.round((rankCompletedWords(index, completedIds) / wordsInRank(index)) * 100)
+          : 0,
       open: isRankOpen(index, completedIds),
     };
   });

@@ -194,6 +194,14 @@ function migrateProgress(persisted: unknown, version: number): PersistedProgress
       reviewLog: [],
     };
   }
+  // v8: 테마 우선 재구성 — 유닛 ID가 b1-01~ → greeting-01~ 체계로 바뀜.
+  // seq(10101~)는 그대로라 오답노트·학습 기록은 유지하고, 유닛 진도만 초기화.
+  let completedUnitIds: string[] = state.completedUnitIds ?? [];
+  let lastPlayedUnitId: string | null = state.lastPlayedUnitId ?? null;
+  if (version < 8) {
+    completedUnitIds = [];
+    lastPlayedUnitId = null;
+  }
   const source = state.wrongBySeq ?? {};
   const wrongBySeq: Record<string, WrongCard> = {};
   for (const [seq, card] of Object.entries(source)) {
@@ -204,8 +212,8 @@ function migrateProgress(persisted: unknown, version: number): PersistedProgress
     };
   }
   return {
-    completedUnitIds: state.completedUnitIds ?? [],
-    lastPlayedUnitId: state.lastPlayedUnitId ?? null,
+    completedUnitIds,
+    lastPlayedUnitId,
     wrongBySeq,
     dailyStats: version >= 4 ? (state.dailyStats ?? {}) : {},
     lifeDialectProgress: version >= 5 ? (state.lifeDialectProgress ?? {}) : {},
@@ -374,7 +382,7 @@ export const useProgress = create<ProgressState>()(
     }),
     {
       name: "jeju-mal:v2",
-      version: 7,
+      version: 8,
       skipHydration: true,
       storage: createJSONStorage(() => safeStorage),
       migrate: migrateProgress,
