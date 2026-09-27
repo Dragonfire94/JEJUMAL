@@ -7,7 +7,8 @@ export type PartOfSpeech =
   | "adverb"
   | "pronoun"
   | "number"
-  | "interjection";
+  | "interjection"
+  | "determiner";
 
 export type Example = {
   jeju: string;
@@ -31,6 +32,10 @@ export type Word = {
   pendingExample?: boolean;
   /** true면 표제어에 PUA 문자가 섞여 있어 일부 글꼴에서 깨져 보일 수 있음. */
   containsPua?: boolean;
+  /** 2025 기본어휘의 상세 뜻풀이. 카드/플래시카드에 표시. */
+  definition?: string;
+  /** 초급/중급/고급 (2025 기본어휘 등급). */
+  level?: "beginner" | "intermediate" | "advanced";
   /** 같은 개념을 수동으로 묶거나, 같은 표준어 gloss의 서로 다른 뜻을 분리할 때 쓰는 선택 override. */
   conceptId?: string;
   /** 읽기 퀴즈에서 같은 표준어의 서로 다른 sense를 짧게 구분하는 learner-facing label. */
@@ -73,61 +78,56 @@ export const RANKS: Rank[] = [
   { id: "dae", title: "대상군", subtitle: "이 바당의 대상군이우다", minPercent: 80 },
 ];
 
-export const TRACKS: Track[] = [
-  { id: "people", title: "사람과 가족", unitIds: ["people-0", "people-1", "people-2", "people-3", "people-4", "people-5", "people-6", "people-7", "people-8", "people-9"] },
-  { id: "talk", title: "말 걸기", unitIds: ["talk-0", "talk-1", "talk-2", "talk-3", "talk-4", "talk-5", "talk-6", "talk-7", "talk-8", "talk-9"] },
-  { id: "body", title: "몸", unitIds: ["body-0", "body-1", "body-2", "body-3", "body-4", "body-5", "body-6", "body-7", "body-8", "body-9"] },
-  { id: "food", title: "음식", unitIds: ["food-0", "food-1", "food-2", "food-3", "food-4", "food-5", "food-6", "food-7", "food-8", "food-9"] },
-  { id: "verbs", title: "움직임", unitIds: ["verbs-0", "verbs-1", "verbs-2", "verbs-3", "verbs-4", "verbs-5", "verbs-6", "verbs-7", "verbs-8", "verbs-9"] },
-  { id: "adj", title: "상태", unitIds: ["adj-0", "adj-1", "adj-2", "adj-3", "adj-4", "adj-5", "adj-6", "adj-7", "adj-8", "adj-9"] },
-  { id: "home", title: "집과 살림", unitIds: ["home-0", "home-1", "home-2", "home-3", "home-4", "home-5", "home-6", "home-7", "home-8", "home-9"] },
-  { id: "life", title: "때와 생활", unitIds: ["life-0", "life-1", "life-2", "life-3", "life-4", "life-5", "life-6", "life-7", "life-8", "life-9"] },
-  { id: "animals", title: "동물", unitIds: ["animals-0", "animals-1", "animals-2", "animals-3", "animals-4", "animals-5", "animals-6", "animals-7", "animals-8", "animals-9"] },
-  { id: "nature", title: "자연", unitIds: ["nature-0", "nature-1", "nature-2", "nature-3", "nature-4", "nature-5", "nature-6", "nature-7", "nature-8", "nature-9"] },
-];
+export const LEVELS = [
+  { id: "beginner", title: "초급", subtitle: "제주어의 첫 걸음" },
+  { id: "intermediate", title: "중급", subtitle: "말이 트이기 시작해요" },
+  { id: "advanced", title: "고급", subtitle: "진짜 제주 사람처럼" },
+] as const;
 
-export const WAVE_COUNT = 10;
-export const UNITS_PER_WAVE = 10;
-export const WORDS_PER_WAVE = 100;
-export const UNITS_PER_RANK = 20;
-export const WORDS_PER_RANK = 200;
+/** 레벨(초급/중급/고급)별 트랙. units.json의 themeId 기준으로 묶는다. */
+export const TRACKS: Track[] = LEVELS.map((level) => ({
+  id: level.id,
+  title: level.title,
+  unitIds: units.filter((unit) => unit.themeId === level.id).map((unit) => unit.id),
+}));
+
 export const RANK_ADVANCE_UNITS = 12;
 export const RANK_ADVANCE_WORDS = 120;
 export const LAST_RANK_INDEX = RANKS.length - 1;
 
-export function unitIdsInWave(waveIndex: number): string[] {
-  return TRACKS.map((track) => track.unitIds[waveIndex]!);
-}
-
-export function unitsInWave(waveIndex: number): Unit[] {
-  return unitIdsInWave(waveIndex)
-    .map((id) => byId.get(id))
-    .filter((unit): unit is Unit => Boolean(unit));
-}
-
-export function isWaveComplete(waveIndex: number, completedIds: string[]): boolean {
-  return unitIdsInWave(waveIndex).every((id) => completedIds.includes(id));
-}
-
-export function openWaveIndex(completedIds: string[]): number {
-  for (let wave = 0; wave < WAVE_COUNT; wave += 1) {
-    if (!isWaveComplete(wave, completedIds)) return wave;
-  }
-  return WAVE_COUNT - 1;
-}
-
-export function rankIndexOfWave(waveIndex: number): number {
-  return Math.min(RANKS.length - 1, Math.floor(waveIndex / 2));
-}
-
 export function unitIdsInRank(rankIndex: number): string[] {
-  return [...unitIdsInWave(rankIndex * 2), ...unitIdsInWave(rankIndex * 2 + 1)];
+  return units.filter((unit) => unit.rankIndex === rankIndex).map((unit) => unit.id);
 }
 
 export function unitsInRank(rankIndex: number): Unit[] {
   return unitIdsInRank(rankIndex)
     .map((id) => byId.get(id))
     .filter((unit): unit is Unit => Boolean(unit));
+}
+
+/** 해당 랭크의 유닛 수 */
+export function unitsCountInRank(rankIndex: number): number {
+  return unitIdsInRank(rankIndex).length;
+}
+
+/** 해당 랭크의 전체 단어 수 */
+export function wordsInRank(rankIndex: number): number {
+  return unitsInRank(rankIndex).reduce((sum, unit) => sum + unit.words.length, 0);
+}
+
+/** 완료한 유닛들의 단어 수 합계 */
+export function completedWords(completedIds: string[]): number {
+  const done = new Set(completedIds);
+  return units.reduce((sum, unit) => sum + (done.has(unit.id) ? unit.words.length : 0), 0);
+}
+
+/** 해당 랭크에서 완료한 단어 수 (정확 집계) */
+export function rankCompletedWords(rankIndex: number, completedIds: string[]): number {
+  const done = new Set(completedIds);
+  return unitsInRank(rankIndex).reduce(
+    (sum, unit) => sum + (done.has(unit.id) ? unit.words.length : 0),
+    0,
+  );
 }
 
 export function isRankComplete(rankIndex: number, completedIds: string[]): boolean {
@@ -206,7 +206,7 @@ export function getTrack(unitId: string): Track | undefined {
 export function isUnitUnlocked(unitId: string, completedIds: string[]): boolean {
   const unit = byId.get(unitId);
   if (!unit) return false;
-  return isRankOpen(rankIndexOfWave(unit.rankIndex), completedIds);
+  return isRankOpen(unit.rankIndex, completedIds);
 }
 
 export type RankUnlockHint =
@@ -235,8 +235,8 @@ export function rankUnlockHint(rankIndex: number, completedIds: string[]): RankU
       kind: "locked-master",
       ranks: RANKS.slice(0, LAST_RANK_INDEX).map((item, index) => ({
         title: item.title,
-        haveWords: rankCompletedCount(index, completedIds) * 10,
-        totalWords: WORDS_PER_RANK,
+        haveWords: rankCompletedWords(index, completedIds),
+        totalWords: wordsInRank(index),
       })),
     };
   }
@@ -244,7 +244,7 @@ export function rankUnlockHint(rankIndex: number, completedIds: string[]): RankU
   return {
     kind: "locked-advance",
     prevTitle: prev.title,
-    haveWords: rankCompletedCount(rankIndex - 1, completedIds) * 10,
+    haveWords: rankCompletedWords(rankIndex - 1, completedIds),
     needWords: RANK_ADVANCE_WORDS,
   };
 }
@@ -269,12 +269,12 @@ export function nextUnlockStatus(completedIds: string[]): string {
     if (isRankOpen(rankIndex, completedIds)) continue;
     if (rankIndex === LAST_RANK_INDEX) {
       const remain = RANKS.slice(0, LAST_RANK_INDEX).reduce(
-        (sum, _, index) => sum + (UNITS_PER_RANK - rankCompletedCount(index, completedIds)) * 10,
+        (sum, _, index) => sum + (wordsInRank(index) - rankCompletedWords(index, completedIds)),
         0,
       );
       return `대상군까지 ${remain}단어`;
     }
-    const remain = Math.max(0, RANK_ADVANCE_WORDS - rankCompletedCount(rankIndex - 1, completedIds) * 10);
+    const remain = Math.max(0, RANK_ADVANCE_WORDS - rankCompletedWords(rankIndex - 1, completedIds));
     return `${RANKS[rankIndex]!.title}까지 ${remain}단어`;
   }
   return "대상군 마스터";
@@ -287,11 +287,7 @@ export function unitsInTrack(track: Track): Unit[] {
 export function nextUnit(id: string): Unit | undefined {
   const unit = byId.get(id);
   if (!unit) return undefined;
-  const ids = unitIdsInWave(unit.rankIndex);
-  const index = ids.indexOf(id);
-  const nextId = ids[index + 1];
-  if (nextId) return byId.get(nextId);
-  return byId.get(unitIdsInWave(unit.rankIndex + 1)[0] ?? "");
+  return units.find((u) => u.order === unit.order + 1);
 }
 
 export function formatUnitNumber(order: number): string {
@@ -309,8 +305,9 @@ export function progressPercent(doneCount: number): number {
   return Math.min(100, Math.round((doneCount / TOTAL_UNITS) * 100));
 }
 
-export function rankFromWave(waveIndex: number): Rank {
-  return RANKS[Math.min(RANKS.length - 1, Math.floor(waveIndex / 2))]!;
+/** 유닛의 rankIndex(0-4, 해녀 등급) → Rank */
+export function rankByIndex(rankIndex: number): Rank {
+  return RANKS[Math.min(RANKS.length - 1, Math.max(0, rankIndex))]!;
 }
 
 export function rankFromPercent(percent: number): Rank {

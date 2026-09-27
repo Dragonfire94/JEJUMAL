@@ -20,7 +20,7 @@ import {
   type Question,
   type QuizResult,
 } from "@/lib/quiz";
-import { formatUnitNumber, getUnit, nextUnit, currentRank, rankFromWave, firstExample, formatRankUnlockHint, rankUnlockHint, rankIndexOfWave, type Word } from "@/lib/units";
+import { formatUnitNumber, getUnit, nextUnit, currentRank, rankByIndex, wordsInRank, firstExample, formatRankUnlockHint, rankUnlockHint, type Word } from "@/lib/units";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/learn/$unitId")({
@@ -53,7 +53,7 @@ function LearnPage() {
   });
   const [promotedTo, setPromotedTo] = useState<string | null>(null);
   const following = unit ? nextUnit(unit.id) : undefined;
-  const pack = unit ? rankFromWave(unit.rankIndex) : undefined;
+  const pack = unit ? rankByIndex(unit.rankIndex) : undefined;
 
   if (!unit) {
     return (
@@ -151,7 +151,7 @@ function LearnPage() {
     return (
       <div className="flex flex-col gap-5">
         <PageHeader
-          kicker={`${pack?.title ?? ""} · 200단어`}
+          kicker={pack ? `${pack.title} · ${wordsInRank(currentUnit.rankIndex)}단어` : ""}
           title={round === "retry" ? "틀린 것만 다시" : "퀴즈"}
         />
         <QuizView
@@ -233,9 +233,9 @@ function LearnPage() {
           {score.passed && following && isUnlocked(following.id) ? (
             <Button asChild size="lg" variant={score.missedQuestions.length > 0 || savedCount > 0 ? "outline" : "default"}>
               <Link to="/learn/$unitId" params={{ unitId: following.id }}>
-                {rankFromWave(following.rankIndex).id === pack?.id
+                {rankByIndex(following.rankIndex).id === pack?.id
                   ? `다음 · ${following.title}`
-                  : `${rankFromWave(following.rankIndex).title} 시작`}
+                  : `${rankByIndex(following.rankIndex).title} 시작`}
               </Link>
             </Button>
           ) : following && !score.passed && !stuck ? (
@@ -245,7 +245,7 @@ function LearnPage() {
           ) : following && !isUnlocked(following.id) ? (
             <p className="text-center text-sm text-muted-foreground">
               {formatRankUnlockHint(
-                rankUnlockHint(rankIndexOfWave(currentUnit.rankIndex), completed) ?? {
+                rankUnlockHint(currentUnit.rankIndex, completed) ?? {
                   kind: "locked-advance",
                   prevTitle: pack?.title ?? "이전 등급",
                   haveWords: 0,
@@ -270,7 +270,7 @@ function LearnPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <PageHeader kicker={pack ? `${pack.title} · 200단어` : `유닛 ${formatUnitNumber(currentUnit.order)}`} title={currentUnit.title} />
+      <PageHeader kicker={pack ? `${pack.title} · ${wordsInRank(currentUnit.rankIndex)}단어` : `유닛 ${formatUnitNumber(currentUnit.order)}`} title={currentUnit.title} />
       <p className="text-sm text-muted-foreground">{introCopy}</p>
       <WordList words={currentUnit.words} />
       <Button size="lg" className="w-full" onClick={start}>

@@ -182,6 +182,18 @@ function patchCard(wrongBySeq: Record<string, WrongCard>, seq: string, patch: Pa
 
 function migrateProgress(persisted: unknown, version: number): PersistedProgress {
   const state = (persisted ?? {}) as Partial<PersistedProgress>;
+  // v7: 2025 기본어휘 기반 전면 재구축 — 유닛 ID(b1-01~)와 seq(10101~) 체계가
+  // 완전히 바뀌어 이전 진도·오답노트는 새 콘텐츠와 매칭되지 않으므로 초기화.
+  if (version < 7) {
+    return {
+      completedUnitIds: [],
+      lastPlayedUnitId: null,
+      wrongBySeq: {},
+      dailyStats: {},
+      lifeDialectProgress: {},
+      reviewLog: [],
+    };
+  }
   const source = state.wrongBySeq ?? {};
   const wrongBySeq: Record<string, WrongCard> = {};
   for (const [seq, card] of Object.entries(source)) {
@@ -362,7 +374,7 @@ export const useProgress = create<ProgressState>()(
     }),
     {
       name: "jeju-mal:v2",
-      version: 6,
+      version: 7,
       skipHydration: true,
       storage: createJSONStorage(() => safeStorage),
       migrate: migrateProgress,

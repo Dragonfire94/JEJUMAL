@@ -14,7 +14,7 @@ import {
   rankMastery,
   type DailyStat,
 } from "./stats";
-import { RANK_ADVANCE_UNITS, unitIdsInRank } from "./units";
+import { RANK_ADVANCE_UNITS, unitIdsInRank, wordsInRank } from "./units";
 
 function stat(date: string, patch: Partial<DailyStat> = {}): DailyStat {
   return { ...emptyDailyStat(date), ...patch, date };
@@ -58,7 +58,7 @@ test("masteryPercent guards 0/0", () => {
   assert.equal(masteryPercent(1, 2), 50);
 });
 
-test("rankMastery reports each haenyeo rank against its own 200 words", () => {
+test("rankMastery reports each haenyeo rank against its own word count", () => {
   const empty = rankMastery([]);
   assert.equal(empty[0]?.id, "baby");
   assert.equal(empty[0]?.percent, 0);
@@ -69,7 +69,7 @@ test("rankMastery reports each haenyeo rank against its own 200 words", () => {
   const baby = twelve.find((item) => item.id === "baby")!;
   const ha = twelve.find((item) => item.id === "ha")!;
   assert.equal(baby.wordsDone, 120);
-  assert.equal(baby.percent, 60);
+  assert.equal(baby.percent, Math.round((120 / wordsInRank(0)) * 100));
   assert.equal(ha.open, true);
   assert.equal(ha.percent, 0);
 });

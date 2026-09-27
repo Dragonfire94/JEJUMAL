@@ -19,8 +19,8 @@ function firstN(rankIndex: number, count: number): string[] {
 test("baby rank is open from the start, 하군 is not", () => {
   assert.equal(isRankOpen(0, []), true);
   assert.equal(isRankOpen(1, []), false);
-  assert.equal(isUnitUnlocked("people-0", []), true);
-  assert.equal(isUnitUnlocked("people-2", []), false);
+  assert.equal(isUnitUnlocked("b1-01", []), true);
+  assert.equal(isUnitUnlocked("b1-24", []), false);
 });
 
 test("120 words in 애기해녀 opens 하군, not 중군 or 대상군", () => {
@@ -28,8 +28,8 @@ test("120 words in 애기해녀 opens 하군, not 중군 or 대상군", () => {
   assert.equal(isRankOpen(1, done), true);
   assert.equal(isRankOpen(2, done), false);
   assert.equal(isRankOpen(LAST_RANK_INDEX, done), false);
-  assert.equal(isUnitUnlocked("people-2", done), true);
-  assert.equal(isUnitUnlocked("people-4", done), false);
+  assert.equal(isUnitUnlocked("b1-24", done), true);
+  assert.equal(isUnitUnlocked("b2-01", done), false);
 });
 
 test("대상군 stays locked until the first four ranks are fully cleared", () => {
@@ -39,7 +39,7 @@ test("대상군 stays locked until the first four ranks are fully cleared", () =
 
   const cleared = [0, 1, 2, 3].flatMap((rank) => unitIdsInRank(rank));
   assert.equal(isRankOpen(LAST_RANK_INDEX, cleared), true);
-  assert.equal(isUnitUnlocked("people-8", cleared), true);
+  assert.equal(isUnitUnlocked("b3-01", cleared), true);
 });
 
 test("unlock copy counts remaining words to 120, then names 대상군 as a full clear", () => {
@@ -80,67 +80,11 @@ test("title follows the highest open rank, not overall percent", () => {
   assert.equal(currentRank([0, 1, 2, 3].flatMap((rank) => unitIdsInRank(rank))).id, "dae");
 });
 
-test("spoken examples only attach to real words and stay short", () => {
-  const seqs = new Set(units.flatMap((unit) => unit.words.map((word) => word.seq)));
-  let count = 0;
+test("launch scope: no examples shipped, every word pending", () => {
   for (const unit of units) {
     for (const word of unit.words) {
-      for (const example of word.examples ?? []) {
-        count += 1;
-        assert.equal(seqs.has(word.seq), true);
-        assert.ok(example.jeju.length >= 4 && example.jeju.length <= 80);
-        assert.ok(example.standard.length >= 2);
-        assert.equal(/x{2,}/i.test(example.jeju), false);
-        assert.equal(/x{2,}/i.test(example.standard), false);
-        assert.equal(/란 말|라는 뜻/.test(example.jeju), false);
-      }
+      assert.equal(word.examples?.length ?? 0, 0);
+      assert.equal(word.pendingExample, true);
     }
   }
-  assert.ok(count >= 380);
-});
-
-test("spoken examples are not dictionary glosses or cut-off fragments", () => {
-  const texts = units.flatMap((unit) =>
-    unit.words.flatMap((word) => (word.examples ?? []).map((example) => example.jeju)),
-  );
-  assert.equal(texts.some((text) => text.startsWith("봉그다.")), false);
-  assert.equal(texts.some((text) => /갑자기 막 어$/.test(text)), false);
-  assert.equal(texts.some((text) => /^이거 .+우다/.test(text)), false);
-  assert.equal(texts.some((text) => /응 줍다 봉그다/.test(text)), false);
-});
-
-test("homographs keep the dictionary meaning", () => {
-  const byJeju = new Map(units.flatMap((unit) => unit.words.map((word) => [word.jeju, word])));
-  const flower = byJeju.get("고장")?.examples ?? [];
-  assert.ok(flower.some((example) => example.standard.includes("꽃")));
-  const shop = byJeju.get("절간")?.examples ?? [];
-  assert.ok(shop.some((example) => example.standard.includes("가게")));
-  const cause = byJeju.get("시기다")?.examples ?? [];
-  assert.ok(cause.some((example) => /시키|시켰/.test(example.standard)));
-});
-
-test("clean examples cover every word and stay readable", () => {
-  const byJeju = new Map(units.flatMap((unit) => unit.words.map((word) => [word.jeju, word])));
-  // pendingExample 단어(2025 기본어휘 대량 반영분)는 "예문은 나중에" 방침으로 아직
-  // 예문이 없다 — 그 경우만 예외로 두고 나머지는 전부 예문이 있어야 한다.
-  assert.equal(
-    units.every((unit) =>
-      unit.words.every((word) => word.pendingExample || (word.examples?.length ?? 0) >= 1),
-    ),
-    true,
-  );
-
-  // 각씨(아내)는 최종 1,000단어 확정(말뭉치/생활방언 confirmed·rare + 2025 기본어휘
-  // 초중급 합집합) 기준에서 둘 다에 해당하지 않아 이번에 앱에서 빠졌다 — 더 이상
-  // 존재하지 않는 단어라 이 테스트도 뺌.
-  const much = byJeju.get("하영")?.examples ?? [];
-  assert.ok(much.some((example) => example.jeju.includes("하영") && example.standard.includes("많이")));
-  assert.equal(much.some((example) => example.jeju.includes("대변")), false);
-
-  const texts = units.flatMap((unit) =>
-    unit.words.flatMap((word) => (word.examples ?? []).map((example) => example.jeju)),
-  );
-  assert.equal(texts.some((text) => /기\?/.test(text)), false);
-  assert.equal(texts.some((text) => /대변/.test(text)), false);
-  assert.equal(new Set(texts).size, texts.length);
 });

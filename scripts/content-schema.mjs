@@ -10,15 +10,24 @@ export const PART_OF_SPEECH = [
   "pronoun",
   "number",
   "interjection",
+  "determiner", // 관형사 (2025 기본어휘)
 ];
 
 export const REVIEW_STATUS = ["approved", "provisional", "blocked"];
+
+export const LEVELS = ["beginner", "intermediate", "advanced"];
 
 export const LexemeSchema = z.object({
   seq: z.string().regex(/^\d+$/, "seq는 숫자 문자열이어야 합니다"),
   jeju: z.string().min(1),
   standard: z.string().min(1),
   partOfSpeech: z.enum(PART_OF_SPEECH),
+  /** 2025 제주학연구센터 기본어휘의 상세 뜻풀이. 카드/플래시카드에 표시. */
+  definition: z.string().min(1).optional(),
+  /** 초급/중급/고급 (2025 기본어휘 등급). */
+  level: z.enum(LEVELS).optional(),
+  /** 표제형 외 변이형 (jeju_forms[1:]). */
+  otherJejuForms: z.array(z.string().min(1)).optional(),
   reviewStatus: z.enum(REVIEW_STATUS).optional(),
   /** true면 아직 예문을 안 붙였다는 뜻 — checkCrossReferences가 "예문 없음" 오류를 면제해준다.
    *  2025 제주학연구센터 기본어휘 대량 반영(90008+) 때 "단어+뜻만 먼저, 예문은 나중에" 방침으로 도입. */

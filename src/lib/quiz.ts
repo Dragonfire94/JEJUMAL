@@ -162,11 +162,23 @@ function isListenEligible(word: Word): boolean {
   return word.hasAudio !== false;
 }
 
+/**
+ * 표준어 대응이 없는 제주 고유어 (마이그레이션에서 standard = jeju 폴백).
+ * 읽기 문항은 문제와 정답이 같은 말이 되어 버리므로 내지 않는다.
+ */
+export function isNativeWord(word: Word): boolean {
+  return word.standard.trim() === word.jeju.trim();
+}
+
+function isReadEligible(word: Word): boolean {
+  return !isNativeWord(word);
+}
+
 /** 인트로 안내와 buildLesson()이 같은 eligibility를 쓰도록 문항 수만 계산한다. */
 export function getLessonQuestionCounts(unit: Unit): LessonQuestionCounts {
   const quizable = quizableWords(unit);
   const listen = quizable.filter(isListenEligible).length;
-  const read = quizable.length;
+  const read = quizable.filter(isReadEligible).length;
   return { listen, read, total: listen + read };
 }
 
@@ -176,19 +188,20 @@ export function buildLesson(unit: Unit): Question[] {
   const listen: Question[] = sameUnit.filter(isListenEligible).map((word) => {
     const exclude = sameConceptTexts(allWords, "standard", word);
     const distractors = pickDistractors(word.standard, distractorPools(word, sameUnit, "standard"), 3, exclude);
+    const native = isNativeWord(word);
     return {
       id: `${word.seq}-listen`,
       kind: "listen" as const,
       word,
       unitId: unit.id,
-      prompt: "이 말의 뜻은 무엇일까요?",
+      prompt: native ? "들은 제주말을 고르세요" : "이 말의 뜻은 무엇일까요?",
       answer: word.standard,
       choices: shuffle([word.standard, ...distractors]),
       displayMeaning: displayMeaningFor(word, "listen"),
     };
   });
 
-  const read: Question[] = sameUnit.map((word) => {
+  const read: Question[] = sameUnit.filter(isReadEligible).map((word) => {
     const exclude = sameConceptTexts(allWords, "jeju", word);
     const distractors = pickDistractors(word.jeju, distractorPools(word, sameUnit, "jeju"), 3, exclude);
     return {

@@ -12,8 +12,11 @@ import {
   RANKS,
   currentRank,
   TOTAL_WORDS,
+  units,
   unitsInRank,
-  WORDS_PER_RANK,
+  wordsInRank,
+  rankCompletedWords,
+  completedWords,
   formatRankUnlockHint,
   nextUnlockStatus,
   rankUnlockHint,
@@ -28,11 +31,11 @@ function Home() {
   const completed = useProgress((state) => state.completedUnitIds);
   const isUnlocked = useProgress((state) => state.isUnlocked);
   const continueId = useProgress((state) => state.continueUnitId());
-  const continueUnit = getUnit(continueId) ?? getUnit("people-0")!;
+  const continueUnit = getUnit(continueId) ?? units[0]!;
   const reviewDue = useProgress((state) => dueCount(state.wrongBySeq));
   const hydrated = useProgress((state) => state.hydrated);
   const doneCount = completed.length;
-  const learnedWords = doneCount * 10;
+  const learnedWords = completedWords(completed);
   const percent = progressPercent(doneCount);
   const rank = currentRank(completed);
   const unlockStatus = nextUnlockStatus(completed);
@@ -47,7 +50,6 @@ function Home() {
   const selectedRank = previewRank;
   const selected = RANKS[selectedRank]!;
   const rankUnits = unitsInRank(selectedRank);
-  const rankDone = rankUnits.filter((unit) => completed.includes(unit.id)).length;
 
   return (
     <div className="flex flex-col gap-5">
@@ -125,9 +127,9 @@ function Home() {
           })}
         </div>
         <div className="flex items-baseline justify-between">
-          <h2 className="font-display text-lg font-semibold">{selected.title} 200단어</h2>
+          <h2 className="font-display text-lg font-semibold">{selected.title} {wordsInRank(selectedRank)}단어</h2>
           <p className="text-xs tabular-nums text-muted-foreground">
-            {rankDone * 10}/{WORDS_PER_RANK}
+            {rankCompletedWords(selectedRank, completed)}/{wordsInRank(selectedRank)}
           </p>
         </div>
         <p className="text-xs text-muted-foreground">{selected.subtitle}</p>

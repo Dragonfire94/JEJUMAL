@@ -172,40 +172,35 @@ test("conceptKeyForWord: fallback standard does not collide with explicit concep
   assert.equal(conceptKeyForWord(a), "standard:jaw");
   assert.equal(conceptKeyForWord(b), "concept:jaw");
 });
-
-test("MERGE HIGH 줍다 shares a concept key and is excluded from the other read choices", () => {
+test("MERGE: same-meaning variants share a concept key and stay out of each other's read choices", () => {
   const words = units.flatMap((u) => u.words);
-  const a = words.find((w) => w.seq === "7017");
-  const b = words.find((w) => w.seq === "90193");
+  const a = words.find((w) => w.seq === "10111"); // 고망 → 구멍
+  const b = words.find((w) => w.seq === "20111"); // 고냥 → 구멍
   assert.ok(a && b);
-  assert.equal(a.conceptId, "줍다");
-  assert.equal(b.conceptId, "줍다");
+  assert.equal(a.conceptId, undefined);
+  assert.equal(b.conceptId, undefined);
   assert.equal(conceptKeyForWord(a), conceptKeyForWord(b));
-  assert.equal("quizGloss" in a, false);
-  assert.equal("quizGloss" in b, false);
 
-  const unitA = units.find((u) => u.words.some((w) => w.seq === "7017"));
-  const unitB = units.find((u) => u.words.some((w) => w.seq === "90193"));
+  const unitA = units.find((u) => u.words.some((w) => w.seq === "10111"));
+  const unitB = units.find((u) => u.words.some((w) => w.seq === "20111"));
   assert.ok(unitA && unitB);
   for (let round = 0; round < 20; round += 1) {
-    const readA = buildLesson(unitA).find((q) => q.id === "7017-read");
-    const readB = buildLesson(unitB).find((q) => q.id === "90193-read");
+    const readA = buildLesson(unitA).find((q) => q.id === "10111-read");
+    const readB = buildLesson(unitB).find((q) => q.id === "20111-read");
     assert.ok(readA && readB);
-    assert.ok(!readA.choices.includes("줏다"));
-    assert.ok(!readB.choices.includes("봉그다"));
+    assert.ok(!readA.choices.includes("고냥"));
+    assert.ok(!readB.choices.includes("고망"));
   }
 });
 
 const splitPairs = [
-  { seqA: "90029", seqB: "2772", glossA: "다리(교량)", glossB: "다리(신체)" },
-  { seqA: "90032", seqB: "90109", glossA: "달(천체)", glossB: "달(한 달)" },
-  { seqA: "90232", seqB: "90490", glossA: "달다(맛이 달다)", glossB: "달다(걸어 붙이다)" },
-  { seqA: "90389", seqB: "90447", glossA: "띠(풀)", glossB: "띠(십이지)" },
-  { seqA: "90065", seqB: "90114", glossA: "살(몸의 살)", glossB: "살(나이)" },
-  { seqA: "7071", seqB: "90251", glossA: "쓰다(글을 쓰다)", glossB: "쓰다(맛이 쓰다)" },
+  { seqA: "10101", seqB: "10143", glossA: "다리(신체)", glossB: "다리(교량)" },
+  { seqA: "10146", seqB: "10284", glossA: "달(하늘의 달)", glossB: "달(한 달)" },
+  { seqA: "10392", seqB: "10393", glossA: "열다(열다)", glossB: "열다(열매가 열리다)" },
+  { seqA: "20376", seqB: "20377", glossA: "맡다(냄새를 맡다)", glossB: "맡다(책임을 맡다)" },
 ];
 
-test("SPLIT HIGH pairs have different concept keys, distinct quizGloss, and sense-aware read display", () => {
+test("SPLIT: true homographs get distinct concept keys and sense-aware read display", () => {
   const words = units.flatMap((u) => u.words);
   for (const pair of splitPairs) {
     const a = words.find((w) => w.seq === pair.seqA);
@@ -214,7 +209,6 @@ test("SPLIT HIGH pairs have different concept keys, distinct quizGloss, and sens
     assert.notEqual(conceptKeyForWord(a), conceptKeyForWord(b));
     assert.equal(a.quizGloss, pair.glossA);
     assert.equal(b.quizGloss, pair.glossB);
-    assert.notEqual(a.quizGloss, b.quizGloss);
     const unitA = units.find((u) => u.words.some((w) => w.seq === pair.seqA));
     const unitB = units.find((u) => u.words.some((w) => w.seq === pair.seqB));
     assert.ok(unitA && unitB);
@@ -223,23 +217,10 @@ test("SPLIT HIGH pairs have different concept keys, distinct quizGloss, and sens
     assert.ok(readA && readB);
     assert.equal(readA.displayMeaning, pair.glossA);
     assert.equal(readB.displayMeaning, pair.glossB);
-    const listenA = buildLesson(unitA).find((q) => q.id === `${pair.seqA}-listen`);
-    if (listenA) {
-      assert.equal(listenA.answer, a.standard);
-      assert.equal(listenA.displayMeaning, a.standard);
-    }
   }
 });
 
-test("read displayMeaning uses quizGloss when present and standard otherwise", () => {
-  const withGloss = fakeWord({ seq: "1", standard: "다리", quizGloss: "다리(교량)" });
-  const without = fakeWord({ seq: "2", standard: "바다" });
-  assert.equal(displayMeaningFor(withGloss, "read"), "다리(교량)");
-  assert.equal(displayMeaningFor(without, "read"), "바다");
-  assert.equal(displayMeaningFor(withGloss, "listen"), "다리");
-});
-
-test("split same-standard groups all have distinct quizGloss per concept", () => {
+test("all 29 book homograph splits stay complete and consistent", () => {
   const words = units.flatMap((u) => u.words).filter((w) => w.reviewStatus !== "blocked");
   const byStandard = new Map<string, typeof words>();
   for (const word of words) {
@@ -248,187 +229,42 @@ test("split same-standard groups all have distinct quizGloss per concept", () =>
     list.push(word);
     byStandard.set(key, list);
   }
+  let splitGroups = 0;
   for (const [standard, group] of byStandard) {
-    if (group.length < 2) continue;
     const keys = new Set(group.map((w) => conceptKeyForWord(w)));
     if (keys.size < 2) continue;
+    splitGroups += 1;
     const glossByConcept = new Map<string, string>();
     for (const word of group) {
-      const concept = conceptKeyForWord(word);
       const gloss = word.quizGloss?.trim();
       assert.ok(gloss, `${standard} / ${word.seq} split without quizGloss`);
+      const concept = conceptKeyForWord(word);
       const prev = glossByConcept.get(concept);
-      if (prev) assert.equal(prev, gloss);
+      if (prev) assert.equal(prev, gloss, `${standard} same concept different gloss`);
       glossByConcept.set(concept, gloss);
     }
-    const glosses = [...glossByConcept.values()];
-    assert.equal(new Set(glosses).size, glosses.length, `${standard} split concepts share a quizGloss`);
+    assert.equal(
+      new Set(glossByConcept.values()).size,
+      glossByConcept.size,
+      `${standard} concepts share a quizGloss`,
+    );
   }
+  assert.equal(splitGroups, 29);
 });
 
-test("remaining HIGH split 열다/맡다 share keys inside sense and split across senses", () => {
+test("native words without a standard equivalent get listen-only lessons", () => {
   const words = units.flatMap((u) => u.words);
-  const bySeq = (seq: string) => words.find((w) => w.seq === seq);
-  const openA = bySeq("7087");
-  const openB = bySeq("90191");
-  const fruit = bySeq("90192");
-  assert.ok(openA && openB && fruit);
-  assert.equal(conceptKeyForWord(openA), conceptKeyForWord(openB));
-  assert.notEqual(conceptKeyForWord(openA), conceptKeyForWord(fruit));
-  assert.equal(openA.quizGloss, openB.quizGloss);
-  assert.equal(openA.quizGloss, "열다(문 등을 열다)");
-  assert.equal(fruit.quizGloss, "열다(열매가 맺히다)");
-
-  const smellA = bySeq("6956");
-  const smellB = bySeq("90503");
-  const charge = bySeq("90504");
-  assert.ok(smellA && smellB && charge);
-  assert.equal(conceptKeyForWord(smellA), conceptKeyForWord(smellB));
-  assert.notEqual(conceptKeyForWord(smellA), conceptKeyForWord(charge));
-  assert.equal(smellA.quizGloss, smellB.quizGloss);
-  assert.equal(smellA.quizGloss, "맡다(냄새를 맡다)");
-  assert.equal(charge.quizGloss, "맡다(책임·일을 맡다)");
-});
-
-const remainingSplitPairs = [
-  { seqA: "90149", seqB: "90150", glossA: "갈다(다른 것으로 바꾸다)", glossB: "갈다(날을 갈다)" },
-  { seqA: "90152", seqB: "90153", glossA: "감다(눈을 감다)", glossB: "감다(머리·몸을 씻다)" },
-  { seqA: "90212", seqB: "90557", glossA: "뜨다(눈을 뜨다)", glossB: "뜨다(물·공중에 뜨다)" },
-];
-
-test("remaining HIGH split pairs have different concept keys and sense-aware read display", () => {
-  const words = units.flatMap((u) => u.words);
-  for (const pair of remainingSplitPairs) {
-    const a = words.find((w) => w.seq === pair.seqA);
-    const b = words.find((w) => w.seq === pair.seqB);
-    assert.ok(a && b, `missing ${pair.seqA}/${pair.seqB}`);
-    assert.notEqual(conceptKeyForWord(a), conceptKeyForWord(b));
-    assert.equal(a.quizGloss, pair.glossA);
-    assert.equal(b.quizGloss, pair.glossB);
-    const unitA = units.find((u) => u.words.some((w) => w.seq === pair.seqA));
-    const unitB = units.find((u) => u.words.some((w) => w.seq === pair.seqB));
-    assert.ok(unitA && unitB);
-    const readA = buildLesson(unitA).find((q) => q.id === `${pair.seqA}-read`);
-    const readB = buildLesson(unitB).find((q) => q.id === `${pair.seqB}-read`);
-    assert.ok(readA && readB);
-    assert.equal(readA.displayMeaning, pair.glossA);
-    assert.equal(readB.displayMeaning, pair.glossB);
-    const listenA = buildLesson(unitA).find((q) => q.id === `${pair.seqA}-listen`);
-    if (listenA) {
-      assert.equal(listenA.answer, a.standard);
-      assert.equal(listenA.displayMeaning, a.standard);
-    }
-  }
-});
-
-const highSplitGroups: { name: string; members: { seq: string; conceptId: string; quizGloss: string }[] }[] = [
-  {
-    name: "다리",
-    members: [
-      { seq: "90029", conceptId: "다리-bridge", quizGloss: "다리(교량)" },
-      { seq: "2772", conceptId: "다리-leg", quizGloss: "다리(신체)" },
-    ],
-  },
-  {
-    name: "달",
-    members: [
-      { seq: "90032", conceptId: "달-moon", quizGloss: "달(천체)" },
-      { seq: "90109", conceptId: "달-month", quizGloss: "달(한 달)" },
-    ],
-  },
-  {
-    name: "달다",
-    members: [
-      { seq: "90232", conceptId: "달다-sweet", quizGloss: "달다(맛이 달다)" },
-      { seq: "90490", conceptId: "달다-hang", quizGloss: "달다(걸어 붙이다)" },
-    ],
-  },
-  {
-    name: "띠",
-    members: [
-      { seq: "90389", conceptId: "띠-grass", quizGloss: "띠(풀)" },
-      { seq: "90447", conceptId: "띠-zodiac", quizGloss: "띠(십이지)" },
-    ],
-  },
-  {
-    name: "살",
-    members: [
-      { seq: "90065", conceptId: "살-flesh", quizGloss: "살(몸의 살)" },
-      { seq: "90114", conceptId: "살-age", quizGloss: "살(나이)" },
-    ],
-  },
-  {
-    name: "쓰다",
-    members: [
-      { seq: "7071", conceptId: "쓰다-write", quizGloss: "쓰다(글을 쓰다)" },
-      { seq: "90251", conceptId: "쓰다-bitter", quizGloss: "쓰다(맛이 쓰다)" },
-    ],
-  },
-  {
-    name: "열다",
-    members: [
-      { seq: "7087", conceptId: "열다-open", quizGloss: "열다(문 등을 열다)" },
-      { seq: "90191", conceptId: "열다-open", quizGloss: "열다(문 등을 열다)" },
-      { seq: "90192", conceptId: "열다-bear-fruit", quizGloss: "열다(열매가 맺히다)" },
-    ],
-  },
-  {
-    name: "갈다",
-    members: [
-      { seq: "90149", conceptId: "갈다-replace", quizGloss: "갈다(다른 것으로 바꾸다)" },
-      { seq: "90150", conceptId: "갈다-sharpen", quizGloss: "갈다(날을 갈다)" },
-    ],
-  },
-  {
-    name: "감다",
-    members: [
-      { seq: "90152", conceptId: "감다-close-eyes", quizGloss: "감다(눈을 감다)" },
-      { seq: "90153", conceptId: "감다-wash", quizGloss: "감다(머리·몸을 씻다)" },
-    ],
-  },
-  {
-    name: "뜨다",
-    members: [
-      { seq: "90212", conceptId: "뜨다-open-eyes", quizGloss: "뜨다(눈을 뜨다)" },
-      { seq: "90557", conceptId: "뜨다-float", quizGloss: "뜨다(물·공중에 뜨다)" },
-    ],
-  },
-  {
-    name: "맡다",
-    members: [
-      { seq: "6956", conceptId: "맡다-smell", quizGloss: "맡다(냄새를 맡다)" },
-      { seq: "90503", conceptId: "맡다-smell", quizGloss: "맡다(냄새를 맡다)" },
-      { seq: "90504", conceptId: "맡다-take-charge", quizGloss: "맡다(책임·일을 맡다)" },
-    ],
-  },
-];
-
-test("all 11 HIGH split groups are complete with consistent quizGloss per concept", () => {
-  assert.equal(highSplitGroups.length, 11);
-  const words = units.flatMap((u) => u.words);
-  for (const group of highSplitGroups) {
-    const members = group.members.map((fixture) => {
-      const word = words.find((w) => w.seq === fixture.seq);
-      assert.ok(word, `${group.name} missing seq ${fixture.seq}`);
-      assert.equal(word.conceptId, fixture.conceptId, `${group.name} ${fixture.seq}`);
-      assert.equal(word.quizGloss, fixture.quizGloss, `${group.name} ${fixture.seq}`);
-      return word;
-    });
-    const conceptIds = new Set(members.map((w) => w.conceptId));
-    assert.ok(conceptIds.size >= 2, `${group.name} is not split`);
-    const glossByConcept = new Map<string, string>();
-    for (const word of members) {
-      const unit = units.find((u) => u.words.some((w) => w.seq === word.seq));
-      assert.ok(unit);
-      const read = buildLesson(unit).find((q) => q.id === `${word.seq}-read`);
-      assert.ok(read);
-      assert.equal(read.displayMeaning, word.quizGloss);
-      const listen = buildLesson(unit).find((q) => q.id === `${word.seq}-listen`);
-      if (listen) assert.equal(listen.answer, word.standard);
-      const prev = glossByConcept.get(word.conceptId!);
-      if (prev) assert.equal(prev, word.quizGloss, `${group.name} same concept different gloss`);
-      glossByConcept.set(word.conceptId!, word.quizGloss!);
-    }
-    assert.equal(new Set(glossByConcept.values()).size, glossByConcept.size, `${group.name} concepts share a quizGloss`);
-  }
+  const native = words.find((w) => w.seq === "20185"); // 물질 (standard == jeju)
+  assert.ok(native && native.standard === native.jeju);
+  const unit = units.find((u) => u.words.some((w) => w.seq === "20185"));
+  assert.ok(unit);
+  const questions = buildLesson(unit);
+  assert.equal(questions.some((q) => q.id === "20185-read"), false);
+  const listen = questions.find((q) => q.id === "20185-listen");
+  assert.ok(listen);
+  assert.equal(listen.prompt, "들은 제주말을 고르세요");
+  assert.equal(listen.answer, native.jeju);
+  const counts = getLessonQuestionCounts(unit);
+  assert.equal(counts.read, questions.filter((q) => q.kind === "read").length);
+  assert.equal(counts.total, questions.length);
 });

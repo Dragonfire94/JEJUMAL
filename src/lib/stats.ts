@@ -1,4 +1,4 @@
-import { RANKS, UNITS_PER_RANK, WORDS_PER_RANK, isRankOpen, rankCompletedCount } from "@/lib/units";
+import { RANKS, isRankOpen, rankCompletedCount, rankCompletedWords, unitsCountInRank, wordsInRank } from "@/lib/units";
 
 export const STATS_KEEP_DAYS = 90;
 export const STATS_CHART_DAYS = 14;
@@ -124,14 +124,15 @@ export function masteryPercent(completed: number, unlocked: number): number | nu
 export function rankMastery(completedIds: string[]): RankMastery[] {
   return RANKS.map((rank, index) => {
     const completed = rankCompletedCount(index, completedIds);
+    const total = unitsCountInRank(index);
     return {
       id: rank.id,
       title: rank.title,
       completed,
-      total: UNITS_PER_RANK,
-      wordsDone: completed * 10,
-      wordsTotal: WORDS_PER_RANK,
-      percent: Math.round((completed / UNITS_PER_RANK) * 100),
+      total,
+      wordsDone: rankCompletedWords(index, completedIds),
+      wordsTotal: wordsInRank(index),
+      percent: total > 0 ? Math.round((completed / total) * 100) : 0,
       open: isRankOpen(index, completedIds),
     };
   });

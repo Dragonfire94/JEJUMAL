@@ -73,6 +73,8 @@ export function assembleUnits(bundle) {
           examples,
         };
         if (lexeme.reviewStatus) word.reviewStatus = lexeme.reviewStatus;
+        if (lexeme.definition) word.definition = lexeme.definition;
+        if (lexeme.level) word.level = lexeme.level;
         if (lexeme.pendingExample) word.pendingExample = true;
         if (lexeme.containsPua) word.containsPua = true;
         if (lexeme.conceptId) word.conceptId = lexeme.conceptId;
