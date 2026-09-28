@@ -32,6 +32,8 @@ export type Word = {
   pendingExample?: boolean;
   /** true면 표제어에 PUA 문자가 섞여 있어 일부 글꼴에서 깨져 보일 수 있음. */
   containsPua?: boolean;
+  /** 아래아(ᆞ)/쌍아래아(ᆢ) 포함 단어의 읽는 법 (예: ᄒᆞ나→허나). */
+  pronunciation?: string;
   /** 2025 기본어휘의 상세 뜻풀이. 카드/플래시카드에 표시. */
   definition?: string;
   /** 초급/중급/고급 (2025 기본어휘 등급). */

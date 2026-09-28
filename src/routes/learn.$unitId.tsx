@@ -301,6 +301,7 @@ function MissedWordRecommendation({ missedSeqs }: { missedSeqs: string[] }) {
 function WordList({ words }: { words: Word[] }) {
   const [playingSeq, setPlayingSeq] = useState<string | null>(null);
   const [failedSeq, setFailedSeq] = useState<string | null>(null);
+  const hasPronunciationGuide = words.some((w) => w.pronunciation);
 
   async function play(word: Word) {
     setFailedSeq(null);
@@ -316,6 +317,12 @@ function WordList({ words }: { words: Word[] }) {
   }
 
   return (
+    <>
+      {hasPronunciationGuide ? (
+        <p className="mb-2 text-xs text-muted-foreground">
+          ㆍ(아래아)는 &lsquo;어&rsquo;처럼 읽어요. [ ] 안이 읽는 법이에요.
+        </p>
+      ) : null}
     <ul className="stagger-list divide-y divide-border rounded-2xl border border-border bg-card">
       {words.map((word) => {
         const example = firstExample(word);
@@ -342,7 +349,14 @@ function WordList({ words }: { words: Word[] }) {
           )}
           <div className="min-w-0 flex-1">
             <div className="flex items-baseline justify-between gap-3">
-              <span className="font-medium">{word.jeju}</span>
+              <span className="font-medium">
+                {word.jeju}
+                {word.pronunciation ? (
+                  <span className="ml-1.5 text-xs font-normal text-muted-foreground">
+                    [{word.pronunciation}]
+                  </span>
+                ) : null}
+              </span>
               <span className="shrink-0 text-sm text-muted-foreground">{word.standard}</span>
             </div>
             {failedSeq === word.seq ? (
@@ -355,6 +369,7 @@ function WordList({ words }: { words: Word[] }) {
         );
       })}
     </ul>
+    </>
   );
 }
 

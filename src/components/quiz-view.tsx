@@ -116,7 +116,12 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
             <p className="text-sm text-muted-foreground">{question.prompt}</p>
             <AudioButton src={question.word.soundUrl} speak={question.word.jeju} large />
             {answered ? (
-              <p className="font-display text-3xl font-semibold tracking-tight">{question.word.jeju}</p>
+              <>
+                <p className="font-display text-3xl font-semibold tracking-tight">{question.word.jeju}</p>
+                {question.word.pronunciation ? (
+                  <p className="-mt-2 text-sm text-muted-foreground">[{question.word.pronunciation}]</p>
+                ) : null}
+              </>
             ) : (
               <p className="text-sm text-muted-foreground">소리를 듣고 뜻을 고르세요</p>
             )}
@@ -125,6 +130,11 @@ export function QuizView({ questions, onFinished }: QuizViewProps) {
           <>
             <p className="text-sm text-muted-foreground">{question.prompt}</p>
             <p className="font-display text-3xl font-semibold tracking-tight">{question.displayMeaning}</p>
+            {answered && question.word.pronunciation ? (
+              <p className="-mt-2 text-sm text-muted-foreground">
+                정답: {question.word.jeju} [{question.word.pronunciation}]
+              </p>
+            ) : null}
             {answered ? (
               hasVerifiedAudio(question.word) ? (
                 <AudioButton src={question.word.soundUrl} speak={question.word.jeju} label="발음 듣기" />

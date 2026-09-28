@@ -203,7 +203,8 @@
     "bookRef": {
       "id": "jbv2025-0015",
       "pdfPage": 9
-    }
+    },
+    "pronunciation": "곤썰"
   },
   {
     "seq": "10116",
@@ -242,7 +243,8 @@
     "bookRef": {
       "id": "jbv2025-0018",
       "pdfPage": 9
-    }
+    },
+    "pronunciation": "거세"
   },
   {
     "seq": "10119",
@@ -258,7 +260,8 @@
     "bookRef": {
       "id": "jbv2025-0019",
       "pdfPage": 9
-    }
+    },
+    "pronunciation": "거슬"
   },
   {
     "seq": "10120",
@@ -384,7 +387,8 @@
     "bookRef": {
       "id": "jbv2025-0028",
       "pdfPage": 10
-    }
+    },
+    "pronunciation": "너단손"
   },
   {
     "seq": "10129",
@@ -397,7 +401,8 @@
     "bookRef": {
       "id": "jbv2025-0029",
       "pdfPage": 10
-    }
+    },
+    "pronunciation": "너단착"
   },
   {
     "seq": "10130",
@@ -410,7 +415,8 @@
     "bookRef": {
       "id": "jbv2025-0030",
       "pdfPage": 10
-    }
+    },
+    "pronunciation": "너단펜"
   },
   {
     "seq": "10131",
@@ -424,11 +430,11 @@
       "ᄂᆞ물",
       "ᄂᆞ"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0031",
       "pdfPage": 10
-    }
+    },
+    "pronunciation": "너멀"
   },
   {
     "seq": "10132",
@@ -441,7 +447,8 @@
     "bookRef": {
       "id": "jbv2025-0032",
       "pdfPage": 10
-    }
+    },
+    "pronunciation": "넘"
   },
   {
     "seq": "10133",
@@ -454,7 +461,8 @@
     "bookRef": {
       "id": "jbv2025-0033",
       "pdfPage": 11
-    }
+    },
+    "pronunciation": "넘삐"
   },
   {
     "seq": "10134",
@@ -467,7 +475,8 @@
     "bookRef": {
       "id": "jbv2025-0034",
       "pdfPage": 11
-    }
+    },
+    "pronunciation": "넛"
   },
   {
     "seq": "10135",
@@ -594,7 +603,8 @@
     "bookRef": {
       "id": "jbv2025-0043",
       "pdfPage": 12
-    }
+    },
+    "pronunciation": "더리"
   },
   {
     "seq": "10144",
@@ -607,7 +617,8 @@
     "bookRef": {
       "id": "jbv2025-0044",
       "pdfPage": 12
-    }
+    },
+    "pronunciation": "덝"
   },
   {
     "seq": "10145",
@@ -620,7 +631,8 @@
     "bookRef": {
       "id": "jbv2025-0045",
       "pdfPage": 12
-    }
+    },
+    "pronunciation": "덝세기"
   },
   {
     "seq": "10146",
@@ -635,7 +647,8 @@
     "bookRef": {
       "id": "jbv2025-0046",
       "pdfPage": 12
-    }
+    },
+    "pronunciation": "덜"
   },
   {
     "seq": "10147",
@@ -648,7 +661,8 @@
     "bookRef": {
       "id": "jbv2025-0047",
       "pdfPage": 12
-    }
+    },
+    "pronunciation": "떨"
   },
   {
     "seq": "10148",
@@ -661,7 +675,8 @@
     "bookRef": {
       "id": "jbv2025-0048",
       "pdfPage": 12
-    }
+    },
+    "pronunciation": "떰"
   },
   {
     "seq": "10149",
@@ -713,7 +728,8 @@
     "bookRef": {
       "id": "jbv2025-0052",
       "pdfPage": 12
-    }
+    },
+    "pronunciation": "말젯떨"
   },
   {
     "seq": "10153",
@@ -861,7 +877,8 @@
     "bookRef": {
       "id": "jbv2025-0063",
       "pdfPage": 13
-    }
+    },
+    "pronunciation": "모저"
   },
   {
     "seq": "10164",
@@ -891,7 +908,8 @@
     "bookRef": {
       "id": "jbv2025-0065",
       "pdfPage": 14
-    }
+    },
+    "pronunciation": "머슬"
   },
   {
     "seq": "10166",
@@ -908,21 +926,22 @@
     "bookRef": {
       "id": "jbv2025-0066",
       "pdfPage": 14
-    }
+    },
+    "pronunciation": "머슴"
   },
   {
     "seq": "10167",
-    "jeju": "",
+    "jeju": "ᄆᆞᆯ",
     "standard": "말",
     "definition": "말과의 포유류.",
     "level": "beginner",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0067",
       "pdfPage": 14
-    }
+    },
+    "pronunciation": "멀"
   },
   {
     "seq": "10168",
@@ -935,7 +954,8 @@
     "bookRef": {
       "id": "jbv2025-0068",
       "pdfPage": 14
-    }
+    },
+    "pronunciation": "멍셍이"
   },
   {
     "seq": "10169",
@@ -1111,7 +1131,8 @@
     "bookRef": {
       "id": "jbv2025-0081",
       "pdfPage": 15
-    }
+    },
+    "pronunciation": "버름"
   },
   {
     "seq": "10182",
@@ -1124,7 +1145,8 @@
     "bookRef": {
       "id": "jbv2025-0082",
       "pdfPage": 15
-    }
+    },
+    "pronunciation": "뻘래"
   },
   {
     "seq": "10183",
@@ -1241,7 +1263,8 @@
     "bookRef": {
       "id": "jbv2025-0091",
       "pdfPage": 16
-    }
+    },
+    "pronunciation": "셋떨"
   },
   {
     "seq": "10192",
@@ -1439,7 +1462,8 @@
     "bookRef": {
       "id": "jbv2025-0106",
       "pdfPage": 18
-    }
+    },
+    "pronunciation": "서미"
   },
   {
     "seq": "10207",
@@ -1452,7 +1476,8 @@
     "bookRef": {
       "id": "jbv2025-0107",
       "pdfPage": 18
-    }
+    },
+    "pronunciation": "서이"
   },
   {
     "seq": "10208",
@@ -1465,7 +1490,8 @@
     "bookRef": {
       "id": "jbv2025-0108",
       "pdfPage": 18
-    }
+    },
+    "pronunciation": "서춘"
   },
   {
     "seq": "10209",
@@ -1480,7 +1506,8 @@
     "bookRef": {
       "id": "jbv2025-0109",
       "pdfPage": 18
-    }
+    },
+    "pronunciation": "설"
   },
   {
     "seq": "10210",
@@ -1574,7 +1601,8 @@
     "bookRef": {
       "id": "jbv2025-0116",
       "pdfPage": 19
-    }
+    },
+    "pronunciation": "썰"
   },
   {
     "seq": "10217",
@@ -1978,7 +2006,8 @@
     "bookRef": {
       "id": "jbv2025-0145",
       "pdfPage": 21
-    }
+    },
+    "pronunciation": "어름"
   },
   {
     "seq": "10246",
@@ -2062,7 +2091,8 @@
     "bookRef": {
       "id": "jbv2025-0151",
       "pdfPage": 22
-    }
+    },
+    "pronunciation": "족은떨"
   },
   {
     "seq": "10252",
@@ -2114,7 +2144,8 @@
     "bookRef": {
       "id": "jbv2025-0155",
       "pdfPage": 22
-    }
+    },
+    "pronunciation": "좁썰"
   },
   {
     "seq": "10256",
@@ -2214,7 +2245,8 @@
     "bookRef": {
       "id": "jbv2025-0162",
       "pdfPage": 23
-    }
+    },
+    "pronunciation": "저석"
   },
   {
     "seq": "10263",
@@ -2227,7 +2259,8 @@
     "bookRef": {
       "id": "jbv2025-0163",
       "pdfPage": 23
-    }
+    },
+    "pronunciation": "점"
   },
   {
     "seq": "10264",
@@ -2269,7 +2302,8 @@
     "bookRef": {
       "id": "jbv2025-0166",
       "pdfPage": 23
-    }
+    },
+    "pronunciation": "큰떨"
   },
   {
     "seq": "10267",
@@ -2334,7 +2368,8 @@
     "bookRef": {
       "id": "jbv2025-0171",
       "pdfPage": 23
-    }
+    },
+    "pronunciation": "턱"
   },
   {
     "seq": "10272",
@@ -2360,7 +2395,8 @@
     "bookRef": {
       "id": "jbv2025-0173",
       "pdfPage": 24
-    }
+    },
+    "pronunciation": "펄"
   },
   {
     "seq": "10274",
@@ -2373,7 +2409,8 @@
     "bookRef": {
       "id": "jbv2025-0174",
       "pdfPage": 24
-    }
+    },
+    "pronunciation": "펏"
   },
   {
     "seq": "10275",
@@ -2461,7 +2498,8 @@
     "bookRef": {
       "id": "jbv2025-0180",
       "pdfPage": 24
-    }
+    },
+    "pronunciation": "허루"
   },
   {
     "seq": "10281",
@@ -2474,7 +2512,8 @@
     "bookRef": {
       "id": "jbv2025-0181",
       "pdfPage": 24
-    }
+    },
+    "pronunciation": "헌잔"
   },
   {
     "seq": "10282",
@@ -2487,7 +2526,8 @@
     "bookRef": {
       "id": "jbv2025-0182",
       "pdfPage": 24
-    }
+    },
+    "pronunciation": "헌착"
   },
   {
     "seq": "10283",
@@ -2515,7 +2555,8 @@
     "bookRef": {
       "id": "jbv2025-0184",
       "pdfPage": 25
-    }
+    },
+    "pronunciation": "덜"
   },
   {
     "seq": "10285",
@@ -2554,7 +2595,8 @@
     "bookRef": {
       "id": "jbv2025-0187",
       "pdfPage": 25
-    }
+    },
+    "pronunciation": "머리"
   },
   {
     "seq": "10288",
@@ -2890,7 +2932,8 @@
     "bookRef": {
       "id": "jbv2025-0211",
       "pdfPage": 28
-    }
+    },
+    "pronunciation": "허나"
   },
   {
     "seq": "10312",
@@ -2972,7 +3015,8 @@
     "bookRef": {
       "id": "jbv2025-0216",
       "pdfPage": 29
-    }
+    },
+    "pronunciation": "여섯"
   },
   {
     "seq": "10317",
@@ -2999,13 +3043,13 @@
       "ᄋᆢ덥1",
       "ᄋᆢ1"
     ],
-    "containsPua": true,
     "conceptId": "여덟#1",
     "quizGloss": "여덟(수)",
     "bookRef": {
       "id": "jbv2025-0218",
       "pdfPage": 29
-    }
+    },
+    "pronunciation": "여답"
   },
   {
     "seq": "10319",
@@ -3127,7 +3171,8 @@
     "bookRef": {
       "id": "jbv2025-0227",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "거르치다"
   },
   {
     "seq": "10328",
@@ -3143,7 +3188,8 @@
     "bookRef": {
       "id": "jbv2025-0228",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "거르키다"
   },
   {
     "seq": "10329",
@@ -3156,7 +3202,8 @@
     "bookRef": {
       "id": "jbv2025-0229",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "거져가다"
   },
   {
     "seq": "10330",
@@ -3169,7 +3216,8 @@
     "bookRef": {
       "id": "jbv2025-0230",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "거져오다"
   },
   {
     "seq": "10331",
@@ -3182,11 +3230,11 @@
     "otherJejuForms": [
       "다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0231",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "거지다"
   },
   {
     "seq": "10332",
@@ -3202,43 +3250,44 @@
     "bookRef": {
       "id": "jbv2025-0232",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "걷다"
   },
   {
     "seq": "10333",
-    "jeju": "다1",
+    "jeju": "ᄀᆞᆯ다1",
     "standard": "갈다",
     "definition": "이미 있는 사물을 다른 것으로 바꾸다.",
     "level": "beginner",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "conceptId": "갈다#1",
     "quizGloss": "갈다(바꾸다)",
     "bookRef": {
       "id": "jbv2025-0233",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "걸다"
   },
   {
     "seq": "10334",
-    "jeju": "다2",
+    "jeju": "ᄀᆞᆯ다2",
     "standard": "갈다",
     "definition": "날을 날카롭게 하기 위하여 다른 물건에 대고 문지르다.",
     "level": "beginner",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "conceptId": "갈다#2",
     "quizGloss": "갈다(날을 갈다)",
     "bookRef": {
       "id": "jbv2025-0234",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "걸다"
   },
   {
     "seq": "10335",
-    "jeju": "르다1",
+    "jeju": "ᄀᆞᆯ르다1",
     "standard": "고르다",
     "definition": "여럿 중에서 어떤 것을 가려내거나 뽑다.",
     "level": "beginner",
@@ -3247,45 +3296,45 @@
     "otherJejuForms": [
       "리다1"
     ],
-    "containsPua": true,
     "conceptId": "고르다#1",
     "quizGloss": "고르다(가려내다)",
     "bookRef": {
       "id": "jbv2025-0235",
       "pdfPage": 30
-    }
+    },
+    "pronunciation": "걸르다"
   },
   {
     "seq": "10336",
-    "jeju": "다1",
+    "jeju": "ᄀᆞᆷ다1",
     "standard": "감다",
     "definition": "눈꺼풀을 내려 눈동자를 덮다.",
     "level": "beginner",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "conceptId": "감다#1",
     "quizGloss": "감다(눈을 감다)",
     "bookRef": {
       "id": "jbv2025-0236",
       "pdfPage": 31
-    }
+    },
+    "pronunciation": "검다"
   },
   {
     "seq": "10337",
-    "jeju": "다2",
+    "jeju": "ᄀᆞᆷ다2",
     "standard": "감다",
     "definition": "머리나 몸을 물로 씻다.",
     "level": "beginner",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "conceptId": "감다#2",
     "quizGloss": "감다(머리를 감다)",
     "bookRef": {
       "id": "jbv2025-0237",
       "pdfPage": 31
-    }
+    },
+    "pronunciation": "검다"
   },
   {
     "seq": "10338",
@@ -3392,7 +3441,8 @@
     "bookRef": {
       "id": "jbv2025-0245",
       "pdfPage": 31
-    }
+    },
+    "pronunciation": "너누다"
   },
   {
     "seq": "10346",
@@ -3405,7 +3455,8 @@
     "bookRef": {
       "id": "jbv2025-0246",
       "pdfPage": 32
-    }
+    },
+    "pronunciation": "너려가다"
   },
   {
     "seq": "10347",
@@ -3418,7 +3469,8 @@
     "bookRef": {
       "id": "jbv2025-0247",
       "pdfPage": 32
-    }
+    },
+    "pronunciation": "너려오다"
   },
   {
     "seq": "10348",
@@ -3431,7 +3483,8 @@
     "bookRef": {
       "id": "jbv2025-0248",
       "pdfPage": 32
-    }
+    },
+    "pronunciation": "너리다"
   },
   {
     "seq": "10349",
@@ -3444,7 +3497,8 @@
     "bookRef": {
       "id": "jbv2025-0249",
       "pdfPage": 32
-    }
+    },
+    "pronunciation": "널다"
   },
   {
     "seq": "10350",
@@ -3552,7 +3606,7 @@
   },
   {
     "seq": "10358",
-    "jeju": "그다",
+    "jeju": "ᄃᆞᆷ그다",
     "standard": "담그다",
     "definition": "1) 액체 속에 넣다. 2) 김치·술·장·젓갈 따위를 만드는 재료를 버무리거나 물을 부어서, 익거나 삭도록 그릇에 넣어 두다.",
     "level": "beginner",
@@ -3561,11 +3615,11 @@
     "otherJejuForms": [
       "그다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0258",
       "pdfPage": 33
-    }
+    },
+    "pronunciation": "덤그다"
   },
   {
     "seq": "10359",
@@ -3650,7 +3704,8 @@
     "bookRef": {
       "id": "jbv2025-0264",
       "pdfPage": 34
-    }
+    },
+    "pronunciation": "머끄다"
   },
   {
     "seq": "10365",
@@ -3663,7 +3718,8 @@
     "bookRef": {
       "id": "jbv2025-0265",
       "pdfPage": 34
-    }
+    },
+    "pronunciation": "머르다"
   },
   {
     "seq": "10366",
@@ -3679,7 +3735,8 @@
     "bookRef": {
       "id": "jbv2025-0266",
       "pdfPage": 34
-    }
+    },
+    "pronunciation": "먼지다"
   },
   {
     "seq": "10367",
@@ -3780,7 +3837,8 @@
     "bookRef": {
       "id": "jbv2025-0273",
       "pdfPage": 35
-    }
+    },
+    "pronunciation": "버르다"
   },
   {
     "seq": "10374",
@@ -3793,7 +3851,8 @@
     "bookRef": {
       "id": "jbv2025-0274",
       "pdfPage": 35
-    }
+    },
+    "pronunciation": "뻘다"
   },
   {
     "seq": "10375",
@@ -3906,7 +3965,8 @@
     "bookRef": {
       "id": "jbv2025-0282",
       "pdfPage": 36
-    }
+    },
+    "pronunciation": "섦다"
   },
   {
     "seq": "10383",
@@ -4044,7 +4104,8 @@
     "bookRef": {
       "id": "jbv2025-0292",
       "pdfPage": 37
-    }
+    },
+    "pronunciation": "얼다"
   },
   {
     "seq": "10393",
@@ -4059,7 +4120,8 @@
     "bookRef": {
       "id": "jbv2025-0293",
       "pdfPage": 37
-    }
+    },
+    "pronunciation": "얼다"
   },
   {
     "seq": "10394",
@@ -4098,7 +4160,8 @@
     "bookRef": {
       "id": "jbv2025-0296",
       "pdfPage": 37
-    }
+    },
+    "pronunciation": "직허다"
   },
   {
     "seq": "10397",
@@ -4111,7 +4174,8 @@
     "bookRef": {
       "id": "jbv2025-0297",
       "pdfPage": 37
-    }
+    },
+    "pronunciation": "저르다"
   },
   {
     "seq": "10398",
@@ -4124,7 +4188,8 @@
     "bookRef": {
       "id": "jbv2025-0298",
       "pdfPage": 37
-    }
+    },
+    "pronunciation": "저미나다"
   },
   {
     "seq": "10399",
@@ -4137,11 +4202,11 @@
     "otherJejuForms": [
       "그다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0299",
       "pdfPage": 38
-    }
+    },
+    "pronunciation": "점그다"
   },
   {
     "seq": "10400",
@@ -4154,7 +4219,8 @@
     "bookRef": {
       "id": "jbv2025-0300",
       "pdfPage": 38
-    }
+    },
+    "pronunciation": "점들다"
   },
   {
     "seq": "10401",
@@ -4208,7 +4274,8 @@
     "bookRef": {
       "id": "jbv2025-0304",
       "pdfPage": 38
-    }
+    },
+    "pronunciation": "첨다"
   },
   {
     "seq": "10405",
@@ -4221,7 +4288,8 @@
     "bookRef": {
       "id": "jbv2025-0305",
       "pdfPage": 38
-    }
+    },
+    "pronunciation": "첮다"
   },
   {
     "seq": "10406",
@@ -4234,7 +4302,8 @@
     "bookRef": {
       "id": "jbv2025-0306",
       "pdfPage": 38
-    }
+    },
+    "pronunciation": "첮아가다"
   },
   {
     "seq": "10407",
@@ -4247,7 +4316,8 @@
     "bookRef": {
       "id": "jbv2025-0307",
       "pdfPage": 38
-    }
+    },
+    "pronunciation": "첮아보다"
   },
   {
     "seq": "10408",
@@ -4260,7 +4330,8 @@
     "bookRef": {
       "id": "jbv2025-0308",
       "pdfPage": 38
-    }
+    },
+    "pronunciation": "첮아오다"
   },
   {
     "seq": "10409",
@@ -4370,7 +4441,8 @@
     "bookRef": {
       "id": "jbv2025-0316",
       "pdfPage": 39
-    }
+    },
+    "pronunciation": "펄다"
   },
   {
     "seq": "10417",
@@ -4425,7 +4497,8 @@
     "bookRef": {
       "id": "jbv2025-0320",
       "pdfPage": 40
-    }
+    },
+    "pronunciation": "허다"
   },
   {
     "seq": "10421",
@@ -4438,7 +4511,8 @@
     "bookRef": {
       "id": "jbv2025-0321",
       "pdfPage": 40
-    }
+    },
+    "pronunciation": "가망허다"
   },
   {
     "seq": "10422",
@@ -4480,7 +4554,8 @@
     "bookRef": {
       "id": "jbv2025-0324",
       "pdfPage": 40
-    }
+    },
+    "pronunciation": "거멍허다"
   },
   {
     "seq": "10425",
@@ -4506,7 +4581,8 @@
     "bookRef": {
       "id": "jbv2025-0326",
       "pdfPage": 41
-    }
+    },
+    "pronunciation": "경허다"
   },
   {
     "seq": "10427",
@@ -4519,7 +4595,8 @@
     "bookRef": {
       "id": "jbv2025-0327",
       "pdfPage": 41
-    }
+    },
+    "pronunciation": "곱닥허다"
   },
   {
     "seq": "10428",
@@ -4532,7 +4609,8 @@
     "bookRef": {
       "id": "jbv2025-0328",
       "pdfPage": 41
-    }
+    },
+    "pronunciation": "거늘다"
   },
   {
     "seq": "10429",
@@ -4548,7 +4626,8 @@
     "bookRef": {
       "id": "jbv2025-0329",
       "pdfPage": 41
-    }
+    },
+    "pronunciation": "거뜨다"
   },
   {
     "seq": "10430",
@@ -4561,7 +4640,8 @@
     "bookRef": {
       "id": "jbv2025-0330",
       "pdfPage": 41
-    }
+    },
+    "pronunciation": "까망허다"
   },
   {
     "seq": "10431",
@@ -4574,7 +4654,8 @@
     "bookRef": {
       "id": "jbv2025-0331",
       "pdfPage": 41
-    }
+    },
+    "pronunciation": "꺼멍허다"
   },
   {
     "seq": "10432",
@@ -4603,7 +4684,8 @@
     "bookRef": {
       "id": "jbv2025-0333",
       "pdfPage": 41
-    }
+    },
+    "pronunciation": "노랑허다"
   },
   {
     "seq": "10434",
@@ -4629,7 +4711,8 @@
     "bookRef": {
       "id": "jbv2025-0335",
       "pdfPage": 42
-    }
+    },
+    "pronunciation": "누렁허다"
   },
   {
     "seq": "10436",
@@ -4644,7 +4727,8 @@
     "bookRef": {
       "id": "jbv2025-0336",
       "pdfPage": 42
-    }
+    },
+    "pronunciation": "넞다"
   },
   {
     "seq": "10437",
@@ -4699,7 +4783,8 @@
     "bookRef": {
       "id": "jbv2025-0340",
       "pdfPage": 42
-    }
+    },
+    "pronunciation": "던던허다"
   },
   {
     "seq": "10441",
@@ -4714,7 +4799,8 @@
     "bookRef": {
       "id": "jbv2025-0341",
       "pdfPage": 42
-    }
+    },
+    "pronunciation": "덜다"
   },
   {
     "seq": "10442",
@@ -4727,7 +4813,8 @@
     "bookRef": {
       "id": "jbv2025-0342",
       "pdfPage": 42
-    }
+    },
+    "pronunciation": "덜코롬허다"
   },
   {
     "seq": "10443",
@@ -4740,21 +4827,22 @@
     "bookRef": {
       "id": "jbv2025-0343",
       "pdfPage": 42
-    }
+    },
+    "pronunciation": "똑거트다"
   },
   {
     "seq": "10444",
-    "jeju": "ᄄᆞᄒᆞ다",
+    "jeju": "ᄄᆞᄄᆞᆺᄒᆞ다",
     "standard": "따뜻하다",
     "definition": "덥지 않을 정도로 온도가 알맞게 높다.",
     "level": "beginner",
     "partOfSpeech": "adjective",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0344",
       "pdfPage": 42
-    }
+    },
+    "pronunciation": "떠떳허다"
   },
   {
     "seq": "10445",
@@ -4767,7 +4855,8 @@
     "bookRef": {
       "id": "jbv2025-0345",
       "pdfPage": 43
-    }
+    },
+    "pronunciation": "만허다"
   },
   {
     "seq": "10446",
@@ -4822,7 +4911,8 @@
     "bookRef": {
       "id": "jbv2025-0349",
       "pdfPage": 43
-    }
+    },
+    "pronunciation": "못허다"
   },
   {
     "seq": "10450",
@@ -4835,7 +4925,8 @@
     "bookRef": {
       "id": "jbv2025-0350",
       "pdfPage": 43
-    }
+    },
+    "pronunciation": "머솝다"
   },
   {
     "seq": "10451",
@@ -4848,7 +4939,8 @@
     "bookRef": {
       "id": "jbv2025-0351",
       "pdfPage": 43
-    }
+    },
+    "pronunciation": "멁다"
   },
   {
     "seq": "10452",
@@ -4861,7 +4953,8 @@
     "bookRef": {
       "id": "jbv2025-0352",
       "pdfPage": 43
-    }
+    },
+    "pronunciation": "벌겅허다"
   },
   {
     "seq": "10453",
@@ -4918,7 +5011,8 @@
     "bookRef": {
       "id": "jbv2025-0356",
       "pdfPage": 44
-    }
+    },
+    "pronunciation": "불펜허다"
   },
   {
     "seq": "10457",
@@ -4931,7 +5025,8 @@
     "bookRef": {
       "id": "jbv2025-0357",
       "pdfPage": 44
-    }
+    },
+    "pronunciation": "벍다"
   },
   {
     "seq": "10458",
@@ -4944,7 +5039,8 @@
     "bookRef": {
       "id": "jbv2025-0358",
       "pdfPage": 44
-    }
+    },
+    "pronunciation": "빨강허다"
   },
   {
     "seq": "10459",
@@ -4957,7 +5053,8 @@
     "bookRef": {
       "id": "jbv2025-0359",
       "pdfPage": 44
-    }
+    },
+    "pronunciation": "뻘겅허다"
   },
   {
     "seq": "10460",
@@ -4973,7 +5070,8 @@
     "bookRef": {
       "id": "jbv2025-0360",
       "pdfPage": 44
-    }
+    },
+    "pronunciation": "뻐르다"
   },
   {
     "seq": "10461",
@@ -5060,7 +5158,8 @@
     "bookRef": {
       "id": "jbv2025-0366",
       "pdfPage": 45
-    }
+    },
+    "pronunciation": "씨원허다"
   },
   {
     "seq": "10467",
@@ -5118,7 +5217,8 @@
     "bookRef": {
       "id": "jbv2025-0370",
       "pdfPage": 45
-    }
+    },
+    "pronunciation": "어떵허다"
   },
   {
     "seq": "10471",
@@ -5160,7 +5260,8 @@
     "bookRef": {
       "id": "jbv2025-0373",
       "pdfPage": 46
-    }
+    },
+    "pronunciation": "영허다"
   },
   {
     "seq": "10474",
@@ -5173,7 +5274,8 @@
     "bookRef": {
       "id": "jbv2025-0374",
       "pdfPage": 46
-    }
+    },
+    "pronunciation": "졍허다"
   },
   {
     "seq": "10475",
@@ -5251,7 +5353,8 @@
     "bookRef": {
       "id": "jbv2025-0380",
       "pdfPage": 46
-    }
+    },
+    "pronunciation": "저미지다"
   },
   {
     "seq": "10481",
@@ -5267,7 +5370,8 @@
     "bookRef": {
       "id": "jbv2025-0381",
       "pdfPage": 46
-    }
+    },
+    "pronunciation": "쩔르다"
   },
   {
     "seq": "10482",
@@ -5280,7 +5384,8 @@
     "bookRef": {
       "id": "jbv2025-0382",
       "pdfPage": 47
-    }
+    },
+    "pronunciation": "파랑허다"
   },
   {
     "seq": "10483",
@@ -5293,7 +5398,8 @@
     "bookRef": {
       "id": "jbv2025-0383",
       "pdfPage": 47
-    }
+    },
+    "pronunciation": "퍼렁허다"
   },
   {
     "seq": "10484",
@@ -5306,7 +5412,8 @@
     "bookRef": {
       "id": "jbv2025-0384",
       "pdfPage": 47
-    }
+    },
+    "pronunciation": "펜안허다"
   },
   {
     "seq": "10485",
@@ -5319,7 +5426,8 @@
     "bookRef": {
       "id": "jbv2025-0385",
       "pdfPage": 47
-    }
+    },
+    "pronunciation": "펜허다"
   },
   {
     "seq": "10486",
@@ -5358,7 +5466,8 @@
     "bookRef": {
       "id": "jbv2025-0388",
       "pdfPage": 47
-    }
+    },
+    "pronunciation": "하양허다"
   },
   {
     "seq": "10489",
@@ -5374,7 +5483,8 @@
     "bookRef": {
       "id": "jbv2025-0389",
       "pdfPage": 47
-    }
+    },
+    "pronunciation": "허영허다"
   },
   {
     "seq": "10490",
@@ -5400,7 +5510,8 @@
     "bookRef": {
       "id": "jbv2025-0391",
       "pdfPage": 48
-    }
+    },
+    "pronunciation": "헌"
   },
   {
     "seq": "10492",
@@ -5413,7 +5524,8 @@
     "bookRef": {
       "id": "jbv2025-0392",
       "pdfPage": 48
-    }
+    },
+    "pronunciation": "헌두"
   },
   {
     "seq": "10493",
@@ -5476,7 +5588,8 @@
     "bookRef": {
       "id": "jbv2025-0396",
       "pdfPage": 48
-    }
+    },
+    "pronunciation": "어섯"
   },
   {
     "seq": "10497",
@@ -5490,13 +5603,13 @@
       "ᄋᆞ덥2",
       "ᄋᆞ2"
     ],
-    "containsPua": true,
     "conceptId": "여덟#2",
     "quizGloss": "여덟(관형사)",
     "bookRef": {
       "id": "jbv2025-0397",
       "pdfPage": 48
-    }
+    },
+    "pronunciation": "어답"
   },
   {
     "seq": "10498",
@@ -5698,7 +5811,8 @@
     "bookRef": {
       "id": "jbv2025-0411",
       "pdfPage": 50
-    }
+    },
+    "pronunciation": "거득"
   },
   {
     "seq": "10512",
@@ -5711,7 +5825,8 @@
     "bookRef": {
       "id": "jbv2025-0412",
       "pdfPage": 50
-    }
+    },
+    "pronunciation": "거만이"
   },
   {
     "seq": "10513",
@@ -5727,7 +5842,8 @@
     "bookRef": {
       "id": "jbv2025-0413",
       "pdfPage": 50
-    }
+    },
+    "pronunciation": "거찌"
   },
   {
     "seq": "10514",
@@ -5753,7 +5869,8 @@
     "bookRef": {
       "id": "jbv2025-0415",
       "pdfPage": 50
-    }
+    },
+    "pronunciation": "떠로"
   },
   {
     "seq": "10516",
@@ -5766,7 +5883,8 @@
     "bookRef": {
       "id": "jbv2025-0416",
       "pdfPage": 50
-    }
+    },
+    "pronunciation": "떠시"
   },
   {
     "seq": "10517",
@@ -5792,7 +5910,8 @@
     "bookRef": {
       "id": "jbv2025-0418",
       "pdfPage": 50
-    }
+    },
+    "pronunciation": "먼딱"
   },
   {
     "seq": "10519",
@@ -5805,7 +5924,8 @@
     "bookRef": {
       "id": "jbv2025-0419",
       "pdfPage": 50
-    }
+    },
+    "pronunciation": "먼저"
   },
   {
     "seq": "10520",
@@ -5831,7 +5951,8 @@
     "bookRef": {
       "id": "jbv2025-0421",
       "pdfPage": 51
-    }
+    },
+    "pronunciation": "벌써"
   },
   {
     "seq": "10522",
@@ -6000,7 +6121,8 @@
     "bookRef": {
       "id": "jbv2025-0434",
       "pdfPage": 52
-    }
+    },
+    "pronunciation": "저주"
   },
   {
     "seq": "10535",
@@ -6015,7 +6137,8 @@
     "bookRef": {
       "id": "jbv2025-0435",
       "pdfPage": 52
-    }
+    },
+    "pronunciation": "첨"
   },
   {
     "seq": "10536",
@@ -6045,7 +6168,8 @@
     "bookRef": {
       "id": "jbv2025-0437",
       "pdfPage": 52
-    }
+    },
+    "pronunciation": "허꼼"
   },
   {
     "seq": "10538",
@@ -6062,7 +6186,8 @@
     "bookRef": {
       "id": "jbv2025-0438",
       "pdfPage": 52
-    }
+    },
+    "pronunciation": "허꼼썩"
   },
   {
     "seq": "10539",
@@ -6075,7 +6200,8 @@
     "bookRef": {
       "id": "jbv2025-0439",
       "pdfPage": 52
-    }
+    },
+    "pronunciation": "헌디"
   },
   {
     "seq": "10540",
@@ -6088,7 +6214,8 @@
     "bookRef": {
       "id": "jbv2025-0440",
       "pdfPage": 52
-    }
+    },
+    "pronunciation": "헌저"
   },
   {
     "seq": "10541",
@@ -6206,17 +6333,17 @@
   },
   {
     "seq": "10549",
-    "jeju": "게",
+    "jeju": "ᄋᆞ게",
     "standard": "응",
     "definition": "1) 나이가 비슷한 사이나 아랫사람의 부름에 대답할 때 쓰는 말. 2) 나이가 비슷한 사이나 아랫사람의 물음 등에 긍정하여 대답할 때 쓰는 말.",
     "level": "beginner",
     "partOfSpeech": "interjection",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0449",
       "pdfPage": 54
-    }
+    },
+    "pronunciation": "어게"
   },
   {
     "seq": "10550",
@@ -6231,7 +6358,8 @@
     "bookRef": {
       "id": "jbv2025-0450",
       "pdfPage": 54
-    }
+    },
+    "pronunciation": "첨"
   },
   {
     "seq": "20101",
@@ -6274,17 +6402,17 @@
   },
   {
     "seq": "20104",
-    "jeju": "갯",
+    "jeju": "갯ᄀᆞᆺ",
     "standard": "갯가",
     "definition": "바닷물이 드나드는 곳의 물가.",
     "level": "intermediate",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0454",
       "pdfPage": 55
-    }
+    },
+    "pronunciation": "갯것"
   },
   {
     "seq": "20105",
@@ -6430,7 +6558,8 @@
     "bookRef": {
       "id": "jbv2025-0464",
       "pdfPage": 56
-    }
+    },
+    "pronunciation": "고칫거루"
   },
   {
     "seq": "20115",
@@ -6596,7 +6725,8 @@
     "bookRef": {
       "id": "jbv2025-0476",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "거루"
   },
   {
     "seq": "20127",
@@ -6609,7 +6739,8 @@
     "bookRef": {
       "id": "jbv2025-0477",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "거뭄"
   },
   {
     "seq": "20128",
@@ -6622,7 +6753,8 @@
     "bookRef": {
       "id": "jbv2025-0478",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "거슬비"
   },
   {
     "seq": "20129",
@@ -6635,53 +6767,54 @@
     "bookRef": {
       "id": "jbv2025-0479",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "거슬버름"
   },
   {
     "seq": "20130",
-    "jeju": "",
+    "jeju": "ᄀᆞᆫ",
     "standard": "간",
     "definition": "음식물에 짠맛을 내는 물질.",
     "level": "intermediate",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0480",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "건"
   },
   {
     "seq": "20131",
-    "jeju": "개비",
+    "jeju": "ᄀᆞᆯ개비",
     "standard": "개구리",
     "definition": "양서강 개구리목의 동물을 통틀어 이르는 말.",
     "level": "intermediate",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0481",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "걸개비"
   },
   {
     "seq": "20132",
-    "jeju": "겡이",
+    "jeju": "ᄀᆞᆯ겡이",
     "standard": "호미",
     "definition": "김을 매거나 감자나 고구마 따위를 캘 때, 또는 바다에서 해산물을 잡을 때 쓰는 쇠로 만든 도구.",
     "level": "intermediate",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0482",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "걸겡이"
   },
   {
     "seq": "20133",
-    "jeju": "레기",
+    "jeju": "ᄀᆞᆯ레기",
     "standard": "쌍둥이",
     "definition": "한 어머니에게서 한꺼번에 태어난 두 아이.",
     "level": "intermediate",
@@ -6690,15 +6823,15 @@
     "otherJejuForms": [
       "루기"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0483",
       "pdfPage": 57
-    }
+    },
+    "pronunciation": "걸레기"
   },
   {
     "seq": "20134",
-    "jeju": "수기",
+    "jeju": "ᄀᆞᆷ수기",
     "standard": "돌고래",
     "definition": "이가 있는 돌고랫과의 포유류를 통틀어 이르는 말.",
     "level": "intermediate",
@@ -6707,11 +6840,11 @@
     "otherJejuForms": [
       "수웨기"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0484",
       "pdfPage": 58
-    }
+    },
+    "pronunciation": "검수기"
   },
   {
     "seq": "20135",
@@ -6974,7 +7107,8 @@
     "bookRef": {
       "id": "jbv2025-0503",
       "pdfPage": 59
-    }
+    },
+    "pronunciation": "눈공저"
   },
   {
     "seq": "20154",
@@ -7003,7 +7137,8 @@
     "bookRef": {
       "id": "jbv2025-0505",
       "pdfPage": 59
-    }
+    },
+    "pronunciation": "너물짐치"
   },
   {
     "seq": "20156",
@@ -7016,7 +7151,8 @@
     "bookRef": {
       "id": "jbv2025-0506",
       "pdfPage": 60
-    }
+    },
+    "pronunciation": "널개"
   },
   {
     "seq": "20157",
@@ -7029,7 +7165,8 @@
     "bookRef": {
       "id": "jbv2025-0507",
       "pdfPage": 60
-    }
+    },
+    "pronunciation": "넘삐짐치"
   },
   {
     "seq": "20158",
@@ -7191,7 +7328,8 @@
     "bookRef": {
       "id": "jbv2025-0519",
       "pdfPage": 61
-    }
+    },
+    "pronunciation": "덜벵이"
   },
   {
     "seq": "20170",
@@ -7207,7 +7345,8 @@
     "bookRef": {
       "id": "jbv2025-0520",
       "pdfPage": 61
-    }
+    },
+    "pronunciation": "덜을락"
   },
   {
     "seq": "20171",
@@ -7304,7 +7443,6 @@
     "otherJejuForms": [
       "모"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0527",
       "pdfPage": 61
@@ -7434,7 +7572,8 @@
     "bookRef": {
       "id": "jbv2025-0536",
       "pdfPage": 62
-    }
+    },
+    "pronunciation": "머음세"
   },
   {
     "seq": "20187",
@@ -7450,7 +7589,8 @@
     "bookRef": {
       "id": "jbv2025-0537",
       "pdfPage": 62
-    }
+    },
+    "pronunciation": "먼지"
   },
   {
     "seq": "20188",
@@ -7463,21 +7603,22 @@
     "bookRef": {
       "id": "jbv2025-0538",
       "pdfPage": 62
-    }
+    },
+    "pronunciation": "먿이"
   },
   {
     "seq": "20189",
-    "jeju": "탈락",
+    "jeju": "ᄆᆞᆯ탈락",
     "standard": "말타기",
     "definition": "막대기나 친구들의 등을 말로 삼아 타고 노는 아이들의 놀이.",
     "level": "intermediate",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0539",
       "pdfPage": 62
-    }
+    },
+    "pronunciation": "멀탈락"
   },
   {
     "seq": "20190",
@@ -7490,7 +7631,8 @@
     "bookRef": {
       "id": "jbv2025-0540",
       "pdfPage": 63
-    }
+    },
+    "pronunciation": "멈국"
   },
   {
     "seq": "20191",
@@ -7730,7 +7872,8 @@
     "bookRef": {
       "id": "jbv2025-0558",
       "pdfPage": 64
-    }
+    },
+    "pronunciation": "비버름"
   },
   {
     "seq": "20209",
@@ -7795,7 +7938,8 @@
     "bookRef": {
       "id": "jbv2025-0563",
       "pdfPage": 65
-    }
+    },
+    "pronunciation": "사발너물"
   },
   {
     "seq": "20214",
@@ -8110,7 +8254,8 @@
     "bookRef": {
       "id": "jbv2025-0586",
       "pdfPage": 67
-    }
+    },
+    "pronunciation": "신버름"
   },
   {
     "seq": "20237",
@@ -8179,7 +8324,8 @@
     "bookRef": {
       "id": "jbv2025-0591",
       "pdfPage": 67
-    }
+    },
+    "pronunciation": "성키"
   },
   {
     "seq": "20242",
@@ -8218,7 +8364,8 @@
     "bookRef": {
       "id": "jbv2025-0594",
       "pdfPage": 68
-    }
+    },
+    "pronunciation": "암턱"
   },
   {
     "seq": "20245",
@@ -8409,7 +8556,8 @@
     "bookRef": {
       "id": "jbv2025-0608",
       "pdfPage": 69
-    }
+    },
+    "pronunciation": "어드레"
   },
   {
     "seq": "20259",
@@ -8780,7 +8928,8 @@
     "bookRef": {
       "id": "jbv2025-0635",
       "pdfPage": 71
-    }
+    },
+    "pronunciation": "저껭이"
   },
   {
     "seq": "20286",
@@ -8793,7 +8942,8 @@
     "bookRef": {
       "id": "jbv2025-0636",
       "pdfPage": 71
-    }
+    },
+    "pronunciation": "저끗"
   },
   {
     "seq": "20287",
@@ -8806,7 +8956,8 @@
     "bookRef": {
       "id": "jbv2025-0637",
       "pdfPage": 71
-    }
+    },
+    "pronunciation": "저록"
   },
   {
     "seq": "20288",
@@ -8819,7 +8970,8 @@
     "bookRef": {
       "id": "jbv2025-0638",
       "pdfPage": 71
-    }
+    },
+    "pronunciation": "저신"
   },
   {
     "seq": "20289",
@@ -8835,7 +8987,8 @@
     "bookRef": {
       "id": "jbv2025-0639",
       "pdfPage": 72
-    }
+    },
+    "pronunciation": "전둥이"
   },
   {
     "seq": "20290",
@@ -8852,7 +9005,8 @@
     "bookRef": {
       "id": "jbv2025-0640",
       "pdfPage": 72
-    }
+    },
+    "pronunciation": "점녀"
   },
   {
     "seq": "20291",
@@ -8910,21 +9064,22 @@
     "bookRef": {
       "id": "jbv2025-0644",
       "pdfPage": 72
-    }
+    },
+    "pronunciation": "초허루"
   },
   {
     "seq": "20295",
-    "jeju": "물",
+    "jeju": "ᄍᆞᆫ물",
     "standard": "짠물",
     "definition": "짠맛이 나는 물.",
     "level": "intermediate",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0645",
       "pdfPage": 72
-    }
+    },
+    "pronunciation": "쩐물"
   },
   {
     "seq": "20296",
@@ -8937,7 +9092,8 @@
     "bookRef": {
       "id": "jbv2025-0646",
       "pdfPage": 72
-    }
+    },
+    "pronunciation": "철레"
   },
   {
     "seq": "20297",
@@ -8950,7 +9106,8 @@
     "bookRef": {
       "id": "jbv2025-0647",
       "pdfPage": 72
-    }
+    },
+    "pronunciation": "첨생이"
   },
   {
     "seq": "20298",
@@ -8963,7 +9120,8 @@
     "bookRef": {
       "id": "jbv2025-0648",
       "pdfPage": 72
-    }
+    },
+    "pronunciation": "첨지름"
   },
   {
     "seq": "20299",
@@ -9099,7 +9257,8 @@
     "bookRef": {
       "id": "jbv2025-0658",
       "pdfPage": 74
-    }
+    },
+    "pronunciation": "펄굽지"
   },
   {
     "seq": "20309",
@@ -9398,7 +9557,8 @@
     "bookRef": {
       "id": "jbv2025-0680",
       "pdfPage": 76
-    }
+    },
+    "pronunciation": "대어슷"
   },
   {
     "seq": "20331",
@@ -9428,11 +9588,11 @@
       "일고ᄋᆞ덥",
       "일고ᄋᆞ"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0682",
       "pdfPage": 76
-    }
+    },
+    "pronunciation": "일고어답"
   },
   {
     "seq": "20333",
@@ -9445,7 +9605,8 @@
     "bookRef": {
       "id": "jbv2025-0683",
       "pdfPage": 76
-    }
+    },
+    "pronunciation": "어남은"
   },
   {
     "seq": "20334",
@@ -9471,7 +9632,8 @@
     "bookRef": {
       "id": "jbv2025-0685",
       "pdfPage": 76
-    }
+    },
+    "pronunciation": "어든"
   },
   {
     "seq": "20336",
@@ -9581,7 +9743,8 @@
     "bookRef": {
       "id": "jbv2025-0693",
       "pdfPage": 77
-    }
+    },
+    "pronunciation": "금착허다"
   },
   {
     "seq": "20344",
@@ -9607,11 +9770,12 @@
     "bookRef": {
       "id": "jbv2025-0695",
       "pdfPage": 77
-    }
+    },
+    "pronunciation": "거물다"
   },
   {
     "seq": "20346",
-    "jeju": "르다2",
+    "jeju": "ᄀᆞᆯ르다2",
     "standard": "고르다",
     "definition": "1) 상태나 모양이 들쑥날쑥하던 것을 규칙적이고 일정하게 만들다. 2) 무엇을 하기에 좋게 다듬거나 손질하다.",
     "level": "intermediate",
@@ -9620,55 +9784,55 @@
     "otherJejuForms": [
       "리다2"
     ],
-    "containsPua": true,
     "conceptId": "고르다#2",
     "quizGloss": "고르다(고르게 하다)",
     "bookRef": {
       "id": "jbv2025-0696",
       "pdfPage": 78
-    }
+    },
+    "pronunciation": "걸르다"
   },
   {
     "seq": "20347",
-    "jeju": "지다",
+    "jeju": "ᄀᆞᆷ지다",
     "standard": "감기다",
     "definition": "머리나 몸 따위를 물로 씻게 하다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0697",
       "pdfPage": 78
-    }
+    },
+    "pronunciation": "검지다"
   },
   {
     "seq": "20348",
-    "jeju": "추다",
+    "jeju": "ᄀᆞᆷ추다",
     "standard": "감추다",
     "definition": "1) 남이 보거나 찾아내지 못하도록 가리거나 숨기다. 2) 어떤 사물이나 현상 따위가 없어지거나 사라지다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0698",
       "pdfPage": 78
-    }
+    },
+    "pronunciation": "검추다"
   },
   {
     "seq": "20349",
-    "jeju": "추다",
+    "jeju": "ᄀᆞᆺ추다",
     "standard": "갖추다",
     "definition": "1) 있어야 할 것을 가지거나 차리다. 2) 필요한 자세나 태도 따위를 취하다. 3) 지켜야 할 도리나 절차를 따르다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0699",
       "pdfPage": 78
-    }
+    },
+    "pronunciation": "것추다"
   },
   {
     "seq": "20350",
@@ -9746,7 +9910,8 @@
     "bookRef": {
       "id": "jbv2025-0705",
       "pdfPage": 78
-    }
+    },
+    "pronunciation": "너리우다"
   },
   {
     "seq": "20356",
@@ -9759,7 +9924,8 @@
     "bookRef": {
       "id": "jbv2025-0706",
       "pdfPage": 79
-    }
+    },
+    "pronunciation": "넞추다"
   },
   {
     "seq": "20357",
@@ -9840,7 +10006,8 @@
     "bookRef": {
       "id": "jbv2025-0712",
       "pdfPage": 79
-    }
+    },
+    "pronunciation": "더투다"
   },
   {
     "seq": "20363",
@@ -9855,7 +10022,8 @@
     "bookRef": {
       "id": "jbv2025-0713",
       "pdfPage": 79
-    }
+    },
+    "pronunciation": "덜다"
   },
   {
     "seq": "20364",
@@ -9868,7 +10036,8 @@
     "bookRef": {
       "id": "jbv2025-0714",
       "pdfPage": 79
-    }
+    },
+    "pronunciation": "덜다"
   },
   {
     "seq": "20365",
@@ -9884,7 +10053,8 @@
     "bookRef": {
       "id": "jbv2025-0715",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "덜려가다"
   },
   {
     "seq": "20366",
@@ -9900,7 +10070,8 @@
     "bookRef": {
       "id": "jbv2025-0716",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "덜려오다"
   },
   {
     "seq": "20367",
@@ -9913,7 +10084,8 @@
     "bookRef": {
       "id": "jbv2025-0717",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "덜아가다"
   },
   {
     "seq": "20368",
@@ -9926,7 +10098,8 @@
     "bookRef": {
       "id": "jbv2025-0718",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "덜아나다"
   },
   {
     "seq": "20369",
@@ -9939,7 +10112,8 @@
     "bookRef": {
       "id": "jbv2025-0719",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "덜아메다"
   },
   {
     "seq": "20370",
@@ -9952,7 +10126,8 @@
     "bookRef": {
       "id": "jbv2025-0720",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "덜아오다"
   },
   {
     "seq": "20371",
@@ -9965,7 +10140,8 @@
     "bookRef": {
       "id": "jbv2025-0721",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "떠라가다"
   },
   {
     "seq": "20372",
@@ -9978,7 +10154,8 @@
     "bookRef": {
       "id": "jbv2025-0722",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "떠라오다"
   },
   {
     "seq": "20373",
@@ -9991,7 +10168,8 @@
     "bookRef": {
       "id": "jbv2025-0723",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "떠리다"
   },
   {
     "seq": "20374",
@@ -10004,7 +10182,8 @@
     "bookRef": {
       "id": "jbv2025-0724",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "떨르다"
   },
   {
     "seq": "20375",
@@ -10017,7 +10196,8 @@
     "bookRef": {
       "id": "jbv2025-0725",
       "pdfPage": 80
-    }
+    },
+    "pronunciation": "떨르다"
   },
   {
     "seq": "20376",
@@ -10073,11 +10253,11 @@
     "otherJejuForms": [
       "말다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0729",
       "pdfPage": 81
-    }
+    },
+    "pronunciation": "말걷다"
   },
   {
     "seq": "20380",
@@ -10132,7 +10312,8 @@
     "bookRef": {
       "id": "jbv2025-0733",
       "pdfPage": 81
-    }
+    },
+    "pronunciation": "멩심허다"
   },
   {
     "seq": "20384",
@@ -10194,33 +10375,33 @@
   },
   {
     "seq": "20388",
-    "jeju": "다",
+    "jeju": "ᄆᆞᆯ다",
     "standard": "말다",
     "definition": "얇고 넓은 물건을 돌돌 감아 한쪽 끝이 안으로 들어가게 하다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "conceptId": "말다#1",
     "quizGloss": "말다(돌돌 감다)",
     "bookRef": {
       "id": "jbv2025-0738",
       "pdfPage": 82
-    }
+    },
+    "pronunciation": "멀다"
   },
   {
     "seq": "20389",
-    "jeju": "리다",
+    "jeju": "ᄆᆞᆯ리다",
     "standard": "말리다",
     "definition": "물기를 다 날려서 없어지게 하다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0739",
       "pdfPage": 82
-    }
+    },
+    "pronunciation": "멀리다"
   },
   {
     "seq": "20390",
@@ -10402,7 +10583,8 @@
     "bookRef": {
       "id": "jbv2025-0752",
       "pdfPage": 83
-    }
+    },
+    "pronunciation": "벌르다"
   },
   {
     "seq": "20403",
@@ -10567,7 +10749,8 @@
     "bookRef": {
       "id": "jbv2025-0764",
       "pdfPage": 84
-    }
+    },
+    "pronunciation": "설지다"
   },
   {
     "seq": "20415",
@@ -10580,35 +10763,36 @@
     "bookRef": {
       "id": "jbv2025-0765",
       "pdfPage": 84
-    }
+    },
+    "pronunciation": "설피다"
   },
   {
     "seq": "20416",
-    "jeju": "다",
+    "jeju": "ᄉᆞᆷ다",
     "standard": "때다",
     "definition": "아궁이 따위에 불을 지펴 타게 하다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0766",
       "pdfPage": 84
-    }
+    },
+    "pronunciation": "섬다"
   },
   {
     "seq": "20417",
-    "jeju": "지다",
+    "jeju": "ᄉᆞᆷ지다",
     "standard": "삼키다",
     "definition": "무엇을 입에 넣어서 목구멍으로 넘기다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0767",
       "pdfPage": 85
-    }
+    },
+    "pronunciation": "섬지다"
   },
   {
     "seq": "20418",
@@ -10894,7 +11078,8 @@
     "bookRef": {
       "id": "jbv2025-0789",
       "pdfPage": 87
-    }
+    },
+    "pronunciation": "저냥허다"
   },
   {
     "seq": "20440",
@@ -10907,7 +11092,8 @@
     "bookRef": {
       "id": "jbv2025-0790",
       "pdfPage": 87
-    }
+    },
+    "pronunciation": "저들다"
   },
   {
     "seq": "20441",
@@ -10920,7 +11106,8 @@
     "bookRef": {
       "id": "jbv2025-0791",
       "pdfPage": 87
-    }
+    },
+    "pronunciation": "저물다"
   },
   {
     "seq": "20442",
@@ -10933,7 +11120,8 @@
     "bookRef": {
       "id": "jbv2025-0792",
       "pdfPage": 87
-    }
+    },
+    "pronunciation": "전디다"
   },
   {
     "seq": "20443",
@@ -10946,7 +11134,8 @@
     "bookRef": {
       "id": "jbv2025-0793",
       "pdfPage": 87
-    }
+    },
+    "pronunciation": "접다"
   },
   {
     "seq": "20444",
@@ -10974,7 +11163,8 @@
     "bookRef": {
       "id": "jbv2025-0795",
       "pdfPage": 87
-    }
+    },
+    "pronunciation": "철리다"
   },
   {
     "seq": "20446",
@@ -11045,17 +11235,17 @@
   },
   {
     "seq": "20451",
-    "jeju": "다",
+    "jeju": "ᄃᆞᆮ다",
     "standard": "뜯다",
     "definition": "붙어 있는 것을 떼거나 떨어지게 하다.",
     "level": "intermediate",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0801",
       "pdfPage": 88
-    }
+    },
+    "pronunciation": "덛다"
   },
   {
     "seq": "20452",
@@ -11110,7 +11300,8 @@
     "bookRef": {
       "id": "jbv2025-0805",
       "pdfPage": 88
-    }
+    },
+    "pronunciation": "헌디허다"
   },
   {
     "seq": "20456",
@@ -11127,7 +11318,8 @@
     "bookRef": {
       "id": "jbv2025-0806",
       "pdfPage": 88
-    }
+    },
+    "pronunciation": "곧작허다"
   },
   {
     "seq": "20457",
@@ -11140,7 +11332,8 @@
     "bookRef": {
       "id": "jbv2025-0807",
       "pdfPage": 88
-    }
+    },
+    "pronunciation": "곱들락허다"
   },
   {
     "seq": "20458",
@@ -11211,7 +11404,8 @@
     "bookRef": {
       "id": "jbv2025-0812",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "거득다"
   },
   {
     "seq": "20463",
@@ -11227,7 +11421,8 @@
     "bookRef": {
       "id": "jbv2025-0813",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "거랍다"
   },
   {
     "seq": "20464",
@@ -11240,7 +11435,8 @@
     "bookRef": {
       "id": "jbv2025-0814",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "겁겁허다"
   },
   {
     "seq": "20465",
@@ -11256,7 +11452,8 @@
     "bookRef": {
       "id": "jbv2025-0815",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "납삭허다"
   },
   {
     "seq": "20466",
@@ -11269,7 +11466,8 @@
     "bookRef": {
       "id": "jbv2025-0816",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "너부작허다"
   },
   {
     "seq": "20467",
@@ -11285,7 +11483,8 @@
     "bookRef": {
       "id": "jbv2025-0817",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "노리롱허다"
   },
   {
     "seq": "20468",
@@ -11314,7 +11513,8 @@
     "bookRef": {
       "id": "jbv2025-0819",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "누리스름허다"
   },
   {
     "seq": "20470",
@@ -11327,7 +11527,8 @@
     "bookRef": {
       "id": "jbv2025-0820",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "느랏허다"
   },
   {
     "seq": "20471",
@@ -11340,7 +11541,8 @@
     "bookRef": {
       "id": "jbv2025-0821",
       "pdfPage": 89
-    }
+    },
+    "pronunciation": "너실다"
   },
   {
     "seq": "20472",
@@ -11355,7 +11557,8 @@
     "bookRef": {
       "id": "jbv2025-0822",
       "pdfPage": 90
-    }
+    },
+    "pronunciation": "너찹다"
   },
   {
     "seq": "20473",
@@ -11371,7 +11574,8 @@
     "bookRef": {
       "id": "jbv2025-0823",
       "pdfPage": 90
-    }
+    },
+    "pronunciation": "동글랑허다"
   },
   {
     "seq": "20474",
@@ -11397,7 +11601,8 @@
     "bookRef": {
       "id": "jbv2025-0825",
       "pdfPage": 90
-    }
+    },
+    "pronunciation": "듬삭허다"
   },
   {
     "seq": "20476",
@@ -11410,11 +11615,12 @@
     "bookRef": {
       "id": "jbv2025-0826",
       "pdfPage": 90
-    }
+    },
+    "pronunciation": "던직허다"
   },
   {
     "seq": "20477",
-    "jeju": "다",
+    "jeju": "ᄃᆞᆺ다",
     "standard": "다습다",
     "definition": "알맞게 따뜻하다.",
     "level": "intermediate",
@@ -11423,25 +11629,25 @@
     "otherJejuForms": [
       "ᄃᆞ시다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0827",
       "pdfPage": 90
-    }
+    },
+    "pronunciation": "덧다"
   },
   {
     "seq": "20478",
-    "jeju": "차다",
+    "jeju": "ᄃᆞᆼ차다",
     "standard": "당차다",
     "definition": "나이나 몸집에 비하여 마음가짐이나 하는 짓이 야무지고 올차다.",
     "level": "intermediate",
     "partOfSpeech": "adjective",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0828",
       "pdfPage": 90
-    }
+    },
+    "pronunciation": "덩차다"
   },
   {
     "seq": "20479",
@@ -11467,11 +11673,11 @@
     "otherJejuForms": [
       "나다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0830",
       "pdfPage": 90
-    }
+    },
+    "pronunciation": "떠나다"
   },
   {
     "seq": "20481",
@@ -11497,7 +11703,8 @@
     "bookRef": {
       "id": "jbv2025-0832",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "맵지롱허다"
   },
   {
     "seq": "20483",
@@ -11510,7 +11717,8 @@
     "bookRef": {
       "id": "jbv2025-0833",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "먹엄직허다"
   },
   {
     "seq": "20484",
@@ -11523,7 +11731,8 @@
     "bookRef": {
       "id": "jbv2025-0834",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "먼먼허다"
   },
   {
     "seq": "20485",
@@ -11536,7 +11745,8 @@
     "bookRef": {
       "id": "jbv2025-0835",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "멍텅허다"
   },
   {
     "seq": "20486",
@@ -11549,7 +11759,8 @@
     "bookRef": {
       "id": "jbv2025-0836",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "멘도롱허다"
   },
   {
     "seq": "20487",
@@ -11562,7 +11773,8 @@
     "bookRef": {
       "id": "jbv2025-0837",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "멘들락허다"
   },
   {
     "seq": "20488",
@@ -11575,7 +11787,8 @@
     "bookRef": {
       "id": "jbv2025-0838",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "멘짝허다"
   },
   {
     "seq": "20489",
@@ -11588,7 +11801,8 @@
     "bookRef": {
       "id": "jbv2025-0839",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "머렵다"
   },
   {
     "seq": "20490",
@@ -11601,7 +11815,8 @@
     "bookRef": {
       "id": "jbv2025-0840",
       "pdfPage": 91
-    }
+    },
+    "pronunciation": "먼먼허다"
   },
   {
     "seq": "20491",
@@ -11655,7 +11870,8 @@
     "bookRef": {
       "id": "jbv2025-0844",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "베롱허다"
   },
   {
     "seq": "20495",
@@ -11668,7 +11884,8 @@
     "bookRef": {
       "id": "jbv2025-0845",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "베지근허다"
   },
   {
     "seq": "20496",
@@ -11694,7 +11911,8 @@
     "bookRef": {
       "id": "jbv2025-0847",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "벨허다"
   },
   {
     "seq": "20498",
@@ -11707,7 +11925,8 @@
     "bookRef": {
       "id": "jbv2025-0848",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "복삭허다"
   },
   {
     "seq": "20499",
@@ -11723,7 +11942,8 @@
     "bookRef": {
       "id": "jbv2025-0849",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "부영허다"
   },
   {
     "seq": "20500",
@@ -11749,7 +11969,8 @@
     "bookRef": {
       "id": "jbv2025-0851",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "버디다"
   },
   {
     "seq": "20502",
@@ -11764,7 +11985,8 @@
     "bookRef": {
       "id": "jbv2025-0852",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "버뜨다"
   },
   {
     "seq": "20503",
@@ -11780,7 +12002,8 @@
     "bookRef": {
       "id": "jbv2025-0853",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "뽕끄랑허다"
   },
   {
     "seq": "20504",
@@ -11793,7 +12016,8 @@
     "bookRef": {
       "id": "jbv2025-0854",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "뻐짝허다"
   },
   {
     "seq": "20505",
@@ -11806,7 +12030,8 @@
     "bookRef": {
       "id": "jbv2025-0855",
       "pdfPage": 92
-    }
+    },
+    "pronunciation": "삭삭허다"
   },
   {
     "seq": "20506",
@@ -11845,7 +12070,8 @@
     "bookRef": {
       "id": "jbv2025-0858",
       "pdfPage": 93
-    }
+    },
+    "pronunciation": "심드렁허다"
   },
   {
     "seq": "20509",
@@ -11858,7 +12084,8 @@
     "bookRef": {
       "id": "jbv2025-0859",
       "pdfPage": 93
-    }
+    },
+    "pronunciation": "써능허다"
   },
   {
     "seq": "20510",
@@ -11903,7 +12130,8 @@
     "bookRef": {
       "id": "jbv2025-0862",
       "pdfPage": 93
-    }
+    },
+    "pronunciation": "왁왁허다"
   },
   {
     "seq": "20513",
@@ -11916,7 +12144,8 @@
     "bookRef": {
       "id": "jbv2025-0863",
       "pdfPage": 93
-    }
+    },
+    "pronunciation": "우상허다"
   },
   {
     "seq": "20514",
@@ -11942,7 +12171,8 @@
     "bookRef": {
       "id": "jbv2025-0865",
       "pdfPage": 93
-    }
+    },
+    "pronunciation": "어망지다"
   },
   {
     "seq": "20516",
@@ -11985,7 +12215,8 @@
     "bookRef": {
       "id": "jbv2025-0868",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "제라허다"
   },
   {
     "seq": "20519",
@@ -12001,7 +12232,8 @@
     "bookRef": {
       "id": "jbv2025-0869",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "조고만허다"
   },
   {
     "seq": "20520",
@@ -12027,7 +12259,8 @@
     "bookRef": {
       "id": "jbv2025-0871",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "좁작허다"
   },
   {
     "seq": "20522",
@@ -12053,7 +12286,8 @@
     "bookRef": {
       "id": "jbv2025-0873",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "절다"
   },
   {
     "seq": "20524",
@@ -12066,7 +12300,8 @@
     "bookRef": {
       "id": "jbv2025-0874",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "점질다"
   },
   {
     "seq": "20525",
@@ -12082,7 +12317,8 @@
     "bookRef": {
       "id": "jbv2025-0875",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "짠짠허다"
   },
   {
     "seq": "20526",
@@ -12098,7 +12334,8 @@
     "bookRef": {
       "id": "jbv2025-0876",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "쪼끌락허다"
   },
   {
     "seq": "20527",
@@ -12111,7 +12348,8 @@
     "bookRef": {
       "id": "jbv2025-0877",
       "pdfPage": 94
-    }
+    },
+    "pronunciation": "쩝지롱허다"
   },
   {
     "seq": "20528",
@@ -12124,7 +12362,8 @@
     "bookRef": {
       "id": "jbv2025-0878",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "코시롱허다"
   },
   {
     "seq": "20529",
@@ -12137,7 +12376,8 @@
     "bookRef": {
       "id": "jbv2025-0879",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "콤콤허다"
   },
   {
     "seq": "20530",
@@ -12150,11 +12390,12 @@
     "bookRef": {
       "id": "jbv2025-0880",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "큰큰허다"
   },
   {
     "seq": "20531",
-    "jeju": "ᄒᆞ다",
+    "jeju": "ᄏᆞᆯᄏᆞᆯᄒᆞ다",
     "standard": "깨끗하다",
     "definition": "1) 때나 찌꺼기 따위가 없다. 2) 가지런히 잘 정돈되어 말끔하다.",
     "level": "intermediate",
@@ -12163,11 +12404,11 @@
     "otherJejuForms": [
       "ᄒᆞ다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0881",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "컬컬허다"
   },
   {
     "seq": "20532",
@@ -12180,7 +12421,8 @@
     "bookRef": {
       "id": "jbv2025-0882",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "턴턴허다"
   },
   {
     "seq": "20533",
@@ -12193,7 +12435,8 @@
     "bookRef": {
       "id": "jbv2025-0883",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "푸리롱허다"
   },
   {
     "seq": "20534",
@@ -12209,7 +12452,8 @@
     "bookRef": {
       "id": "jbv2025-0884",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "한걸허다"
   },
   {
     "seq": "20535",
@@ -12222,7 +12466,8 @@
     "bookRef": {
       "id": "jbv2025-0885",
       "pdfPage": 95
-    }
+    },
+    "pronunciation": "헌엇다"
   },
   {
     "seq": "20536",
@@ -12368,7 +12613,7 @@
   },
   {
     "seq": "20546",
-    "jeju": "사",
+    "jeju": "ᄀᆞᆺ사",
     "standard": "방금",
     "definition": "말하고 있는 시점보다 바로 조금 전에.",
     "level": "intermediate",
@@ -12377,25 +12622,25 @@
     "otherJejuForms": [
       "세"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0896",
       "pdfPage": 97
-    }
+    },
+    "pronunciation": "것사"
   },
   {
     "seq": "20547",
-    "jeju": "닥닥",
+    "jeju": "ᄁᆞᆨ닥ᄁᆞᆨ닥",
     "standard": "까닥까닥",
     "definition": "고개나 손가락을 아래위로 가볍게 되풀이하여 움직이는 모양.",
     "level": "intermediate",
     "partOfSpeech": "adverb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0897",
       "pdfPage": 97
-    }
+    },
+    "pronunciation": "꺽닥꺽닥"
   },
   {
     "seq": "20548",
@@ -12503,17 +12748,17 @@
   },
   {
     "seq": "20556",
-    "jeju": "랑랑",
+    "jeju": "ᄆᆞᆯ랑ᄆᆞᆯ랑",
     "standard": "말랑말랑",
     "definition": "야들야들하게 보드랍고 무른 느낌.",
     "level": "intermediate",
     "partOfSpeech": "adverb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-0906",
       "pdfPage": 97
-    }
+    },
+    "pronunciation": "멀랑멀랑"
   },
   {
     "seq": "20557",
@@ -12620,7 +12865,8 @@
     "bookRef": {
       "id": "jbv2025-0914",
       "pdfPage": 98
-    }
+    },
+    "pronunciation": "설설"
   },
   {
     "seq": "20565",
@@ -12633,7 +12879,8 @@
     "bookRef": {
       "id": "jbv2025-0915",
       "pdfPage": 98
-    }
+    },
+    "pronunciation": "설째기"
   },
   {
     "seq": "20566",
@@ -12906,7 +13153,8 @@
     "bookRef": {
       "id": "jbv2025-0936",
       "pdfPage": 100
-    }
+    },
+    "pronunciation": "저근저근"
   },
   {
     "seq": "20587",
@@ -12919,7 +13167,8 @@
     "bookRef": {
       "id": "jbv2025-0937",
       "pdfPage": 101
-    }
+    },
+    "pronunciation": "처처"
   },
   {
     "seq": "20588",
@@ -12932,7 +13181,8 @@
     "bookRef": {
       "id": "jbv2025-0938",
       "pdfPage": 101
-    }
+    },
+    "pronunciation": "철철"
   },
   {
     "seq": "20589",
@@ -12958,7 +13208,8 @@
     "bookRef": {
       "id": "jbv2025-0940",
       "pdfPage": 101
-    }
+    },
+    "pronunciation": "험치"
   },
   {
     "seq": "20591",
@@ -12971,7 +13222,8 @@
     "bookRef": {
       "id": "jbv2025-0941",
       "pdfPage": 101
-    }
+    },
+    "pronunciation": "거첨"
   },
   {
     "seq": "20592",
@@ -12997,7 +13249,8 @@
     "bookRef": {
       "id": "jbv2025-0943",
       "pdfPage": 101
-    }
+    },
+    "pronunciation": "거만시라"
   },
   {
     "seq": "20594",
@@ -13095,7 +13348,8 @@
     "bookRef": {
       "id": "jbv2025-0950",
       "pdfPage": 102
-    }
+    },
+    "pronunciation": "처마가라"
   },
   {
     "seq": "30101",
@@ -13147,7 +13401,8 @@
     "bookRef": {
       "id": "jbv2025-0954",
       "pdfPage": 103
-    }
+    },
+    "pronunciation": "갈버름"
   },
   {
     "seq": "30105",
@@ -13192,7 +13447,8 @@
     "bookRef": {
       "id": "jbv2025-0957",
       "pdfPage": 103
-    }
+    },
+    "pronunciation": "갯너물"
   },
   {
     "seq": "30108",
@@ -13734,7 +13990,8 @@
     "bookRef": {
       "id": "jbv2025-0996",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "거는대구덕"
   },
   {
     "seq": "30147",
@@ -13747,7 +14004,8 @@
     "bookRef": {
       "id": "jbv2025-0997",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "거레"
   },
   {
     "seq": "30148",
@@ -13760,7 +14018,8 @@
     "bookRef": {
       "id": "jbv2025-0998",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "거메기"
   },
   {
     "seq": "30149",
@@ -13776,7 +14035,8 @@
     "bookRef": {
       "id": "jbv2025-0999",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "거슴"
   },
   {
     "seq": "30150",
@@ -13789,7 +14049,8 @@
     "bookRef": {
       "id": "jbv2025-1000",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "거시락"
   },
   {
     "seq": "30151",
@@ -13805,35 +14066,36 @@
     "bookRef": {
       "id": "jbv2025-1001",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "걱주와기"
   },
   {
     "seq": "30152",
-    "jeju": "물",
+    "jeju": "ᄀᆞᆫ물",
     "standard": "간물",
     "definition": "소금기가 섞인 물.",
     "level": "advanced",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1002",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "건물"
   },
   {
     "seq": "30153",
-    "jeju": "체",
+    "jeju": "ᄀᆞᆯ체",
     "standard": "삼태기",
     "definition": "흙이나 쓰레기 혹은 거름 같은 것을 담아 나르는 데 쓰는 기구.",
     "level": "advanced",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1003",
       "pdfPage": 107
-    }
+    },
+    "pronunciation": "걸체"
   },
   {
     "seq": "30154",
@@ -14150,7 +14412,6 @@
     "otherJejuForms": [
       "가리"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1026",
       "pdfPage": 109
@@ -14358,7 +14619,8 @@
     "bookRef": {
       "id": "jbv2025-1041",
       "pdfPage": 110
-    }
+    },
+    "pronunciation": "더람쥐"
   },
   {
     "seq": "30192",
@@ -14375,7 +14637,8 @@
     "bookRef": {
       "id": "jbv2025-1042",
       "pdfPage": 110
-    }
+    },
+    "pronunciation": "덜마기"
   },
   {
     "seq": "30193",
@@ -14417,7 +14680,8 @@
     "bookRef": {
       "id": "jbv2025-1045",
       "pdfPage": 111
-    }
+    },
+    "pronunciation": "마버름"
   },
   {
     "seq": "30196",
@@ -14714,35 +14978,36 @@
     "bookRef": {
       "id": "jbv2025-1067",
       "pdfPage": 112
-    }
+    },
+    "pronunciation": "머쉬"
   },
   {
     "seq": "30218",
-    "jeju": "마농고장",
+    "jeju": "ᄆᆞᆯ마농고장",
     "standard": "수선화",
     "definition": "잎이 가늘고 길며 긴 꽃대에 희거나 노란 꽃이 피는 식물.",
     "level": "advanced",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1068",
       "pdfPage": 113
-    }
+    },
+    "pronunciation": "멀마농고장"
   },
   {
     "seq": "30219",
-    "jeju": "테우리",
-    "standard": "테우리",
+    "jeju": "ᄆᆞᆯ테우리",
+    "standard": "ᄆᆞᆯ테우리",
     "definition": "방목한 말 떼를 돌보거나 키우는 일을 하는 사람.",
     "level": "advanced",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1069",
       "pdfPage": 113
-    }
+    },
+    "pronunciation": "멀테우리"
   },
   {
     "seq": "30220",
@@ -15183,7 +15448,8 @@
     "bookRef": {
       "id": "jbv2025-1102",
       "pdfPage": 115
-    }
+    },
+    "pronunciation": "버른구덕"
   },
   {
     "seq": "30253",
@@ -15222,7 +15488,8 @@
     "bookRef": {
       "id": "jbv2025-1105",
       "pdfPage": 115
-    }
+    },
+    "pronunciation": "상머루"
   },
   {
     "seq": "30256",
@@ -15303,7 +15570,8 @@
     "bookRef": {
       "id": "jbv2025-1111",
       "pdfPage": 116
-    }
+    },
+    "pronunciation": "선떰"
   },
   {
     "seq": "30262",
@@ -16044,7 +16312,8 @@
     "bookRef": {
       "id": "jbv2025-1166",
       "pdfPage": 120
-    }
+    },
+    "pronunciation": "장덝"
   },
   {
     "seq": "30317",
@@ -16232,7 +16501,8 @@
     "bookRef": {
       "id": "jbv2025-1180",
       "pdfPage": 121
-    }
+    },
+    "pronunciation": "주설"
   },
   {
     "seq": "30331",
@@ -16293,17 +16563,17 @@
   },
   {
     "seq": "30335",
-    "jeju": "질",
+    "jeju": "질ᄀᆞᆺ",
     "standard": "길가",
     "definition": "길의 양쪽 가장자리.",
     "level": "advanced",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1185",
       "pdfPage": 122
-    }
+    },
+    "pronunciation": "질것"
   },
   {
     "seq": "30336",
@@ -16329,7 +16599,8 @@
     "bookRef": {
       "id": "jbv2025-1187",
       "pdfPage": 122
-    }
+    },
+    "pronunciation": "전다니"
   },
   {
     "seq": "30338",
@@ -16342,7 +16613,8 @@
     "bookRef": {
       "id": "jbv2025-1188",
       "pdfPage": 122
-    }
+    },
+    "pronunciation": "전셈"
   },
   {
     "seq": "30339",
@@ -16475,7 +16747,8 @@
     "bookRef": {
       "id": "jbv2025-1198",
       "pdfPage": 123
-    }
+    },
+    "pronunciation": "처마기"
   },
   {
     "seq": "30349",
@@ -16488,7 +16761,8 @@
     "bookRef": {
       "id": "jbv2025-1199",
       "pdfPage": 123
-    }
+    },
+    "pronunciation": "첨"
   },
   {
     "seq": "30350",
@@ -16501,7 +16775,8 @@
     "bookRef": {
       "id": "jbv2025-1200",
       "pdfPage": 123
-    }
+    },
+    "pronunciation": "첨항"
   },
   {
     "seq": "30351",
@@ -16534,17 +16809,17 @@
   },
   {
     "seq": "30353",
-    "jeju": "",
+    "jeju": "ᄏᆞᆨ",
     "standard": "박",
     "definition": "박과의 한해살이 덩굴풀.",
     "level": "advanced",
     "partOfSpeech": "noun",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1203",
       "pdfPage": 123
-    }
+    },
+    "pronunciation": "컥"
   },
   {
     "seq": "30354",
@@ -16639,7 +16914,8 @@
     "bookRef": {
       "id": "jbv2025-1210",
       "pdfPage": 124
-    }
+    },
+    "pronunciation": "풀거레"
   },
   {
     "seq": "30361",
@@ -16704,7 +16980,8 @@
     "bookRef": {
       "id": "jbv2025-1215",
       "pdfPage": 124
-    }
+    },
+    "pronunciation": "험세"
   },
   {
     "seq": "30366",
@@ -16717,7 +16994,8 @@
     "bookRef": {
       "id": "jbv2025-1216",
       "pdfPage": 124
-    }
+    },
+    "pronunciation": "험세다리"
   },
   {
     "seq": "30367",
@@ -16730,7 +17008,8 @@
     "bookRef": {
       "id": "jbv2025-1217",
       "pdfPage": 125
-    }
+    },
+    "pronunciation": "가냥허다"
   },
   {
     "seq": "30368",
@@ -16743,7 +17022,8 @@
     "bookRef": {
       "id": "jbv2025-1218",
       "pdfPage": 125
-    }
+    },
+    "pronunciation": "가달질허다"
   },
   {
     "seq": "30369",
@@ -16756,7 +17036,8 @@
     "bookRef": {
       "id": "jbv2025-1219",
       "pdfPage": 125
-    }
+    },
+    "pronunciation": "간세허다"
   },
   {
     "seq": "30370",
@@ -16782,7 +17063,8 @@
     "bookRef": {
       "id": "jbv2025-1221",
       "pdfPage": 125
-    }
+    },
+    "pronunciation": "거념허다"
   },
   {
     "seq": "30372",
@@ -16934,17 +17216,17 @@
   },
   {
     "seq": "30382",
-    "jeju": "귀추다",
-    "standard": "귀추다",
+    "jeju": "귀ᄀᆞᆺ추다",
+    "standard": "귀ᄀᆞᆺ추다",
     "definition": "사물이나 현상을 딱 맞게 하다. 구색을 갖추다.",
     "level": "advanced",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1232",
       "pdfPage": 126
-    }
+    },
+    "pronunciation": "귀것추다"
   },
   {
     "seq": "30383",
@@ -16970,7 +17252,8 @@
     "bookRef": {
       "id": "jbv2025-1234",
       "pdfPage": 126
-    }
+    },
+    "pronunciation": "금세허다"
   },
   {
     "seq": "30385",
@@ -16996,7 +17279,8 @@
     "bookRef": {
       "id": "jbv2025-1236",
       "pdfPage": 126
-    }
+    },
+    "pronunciation": "거꾸다"
   },
   {
     "seq": "30387",
@@ -17009,7 +17293,8 @@
     "bookRef": {
       "id": "jbv2025-1237",
       "pdfPage": 126
-    }
+    },
+    "pronunciation": "거끼다"
   },
   {
     "seq": "30388",
@@ -17022,7 +17307,8 @@
     "bookRef": {
       "id": "jbv2025-1238",
       "pdfPage": 126
-    }
+    },
+    "pronunciation": "거무끄다"
   },
   {
     "seq": "30389",
@@ -17035,21 +17321,22 @@
     "bookRef": {
       "id": "jbv2025-1239",
       "pdfPage": 126
-    }
+    },
+    "pronunciation": "걱주다"
   },
   {
     "seq": "30390",
-    "jeju": "르다3",
+    "jeju": "ᄀᆞᆯ르다3",
     "standard": "괴다",
     "definition": "우묵한 곳이나 좁은 넓이의 공간에 액체나 냄새, 기체 등이 모이다.",
     "level": "advanced",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1240",
       "pdfPage": 127
-    }
+    },
+    "pronunciation": "걸르다"
   },
   {
     "seq": "30391",
@@ -17062,7 +17349,8 @@
     "bookRef": {
       "id": "jbv2025-1241",
       "pdfPage": 127
-    }
+    },
+    "pronunciation": "겁갈르다"
   },
   {
     "seq": "30392",
@@ -17102,7 +17390,6 @@
       "멀어지다",
       "아지다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1244",
       "pdfPage": 127
@@ -17149,7 +17436,8 @@
     "bookRef": {
       "id": "jbv2025-1247",
       "pdfPage": 127
-    }
+    },
+    "pronunciation": "눈꿀허다"
   },
   {
     "seq": "30398",
@@ -17179,17 +17467,17 @@
   },
   {
     "seq": "30400",
-    "jeju": "뜨다",
+    "jeju": "ᄂᆞᆸ뜨다",
     "standard": "나대다",
     "definition": "깝신거리며 나다니다.",
     "level": "advanced",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1250",
       "pdfPage": 128
-    }
+    },
+    "pronunciation": "넙뜨다"
   },
   {
     "seq": "30401",
@@ -17244,7 +17532,8 @@
     "bookRef": {
       "id": "jbv2025-1254",
       "pdfPage": 128
-    }
+    },
+    "pronunciation": "답달허다"
   },
   {
     "seq": "30405",
@@ -17257,7 +17546,8 @@
     "bookRef": {
       "id": "jbv2025-1255",
       "pdfPage": 128
-    }
+    },
+    "pronunciation": "대움허다"
   },
   {
     "seq": "30406",
@@ -17391,17 +17681,17 @@
   },
   {
     "seq": "30416",
-    "jeju": "사다",
-    "standard": "사다",
+    "jeju": "ᄃᆞᆼ사다",
+    "standard": "ᄃᆞᆼ사다",
     "definition": "곁에 지켜 서다.",
     "level": "advanced",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1266",
       "pdfPage": 129
-    }
+    },
+    "pronunciation": "덩사다"
   },
   {
     "seq": "30417",
@@ -17427,7 +17717,8 @@
     "bookRef": {
       "id": "jbv2025-1268",
       "pdfPage": 129
-    }
+    },
+    "pronunciation": "떨르다"
   },
   {
     "seq": "30419",
@@ -17479,7 +17770,8 @@
     "bookRef": {
       "id": "jbv2025-1272",
       "pdfPage": 129
-    }
+    },
+    "pronunciation": "문작허다"
   },
   {
     "seq": "30423",
@@ -17505,7 +17797,8 @@
     "bookRef": {
       "id": "jbv2025-1274",
       "pdfPage": 130
-    }
+    },
+    "pronunciation": "머르다"
   },
   {
     "seq": "30425",
@@ -17518,7 +17811,8 @@
     "bookRef": {
       "id": "jbv2025-1275",
       "pdfPage": 130
-    }
+    },
+    "pronunciation": "멍케다"
   },
   {
     "seq": "30426",
@@ -17602,7 +17896,8 @@
     "bookRef": {
       "id": "jbv2025-1281",
       "pdfPage": 130
-    }
+    },
+    "pronunciation": "벨착허다"
   },
   {
     "seq": "30432",
@@ -17672,7 +17967,8 @@
     "bookRef": {
       "id": "jbv2025-1286",
       "pdfPage": 130
-    }
+    },
+    "pronunciation": "버뜨다"
   },
   {
     "seq": "30437",
@@ -17685,7 +17981,8 @@
     "bookRef": {
       "id": "jbv2025-1287",
       "pdfPage": 130
-    }
+    },
+    "pronunciation": "버리다"
   },
   {
     "seq": "30438",
@@ -17711,7 +18008,8 @@
     "bookRef": {
       "id": "jbv2025-1289",
       "pdfPage": 131
-    }
+    },
+    "pronunciation": "소도리허다"
   },
   {
     "seq": "30440",
@@ -17737,7 +18035,8 @@
     "bookRef": {
       "id": "jbv2025-1291",
       "pdfPage": 131
-    }
+    },
+    "pronunciation": "속솜허다"
   },
   {
     "seq": "30442",
@@ -17750,7 +18049,8 @@
     "bookRef": {
       "id": "jbv2025-1292",
       "pdfPage": 131
-    }
+    },
+    "pronunciation": "수질허다"
   },
   {
     "seq": "30443",
@@ -17789,7 +18089,8 @@
     "bookRef": {
       "id": "jbv2025-1295",
       "pdfPage": 131
-    }
+    },
+    "pronunciation": "심벡허다"
   },
   {
     "seq": "30446",
@@ -17802,7 +18103,8 @@
     "bookRef": {
       "id": "jbv2025-1296",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "설다"
   },
   {
     "seq": "30447",
@@ -17815,7 +18117,8 @@
     "bookRef": {
       "id": "jbv2025-1297",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "설지다"
   },
   {
     "seq": "30448",
@@ -17828,7 +18131,8 @@
     "bookRef": {
       "id": "jbv2025-1298",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "앙작허다"
   },
   {
     "seq": "30449",
@@ -17841,21 +18145,22 @@
     "bookRef": {
       "id": "jbv2025-1299",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "애덜다"
   },
   {
     "seq": "30450",
-    "jeju": "애다",
+    "jeju": "애ᄌᆞᆾ다",
     "standard": "애끓다",
     "definition": "몹시 답답하거나 안타까워 속이 끓는 듯하다.",
     "level": "advanced",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1300",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "애젗다"
   },
   {
     "seq": "30451",
@@ -17868,7 +18173,8 @@
     "bookRef": {
       "id": "jbv2025-1301",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "엉탁허다"
   },
   {
     "seq": "30452",
@@ -17897,7 +18203,8 @@
     "bookRef": {
       "id": "jbv2025-1303",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "오몽허다"
   },
   {
     "seq": "30454",
@@ -17962,7 +18269,8 @@
     "bookRef": {
       "id": "jbv2025-1308",
       "pdfPage": 132
-    }
+    },
+    "pronunciation": "어끄다"
   },
   {
     "seq": "30459",
@@ -18004,7 +18312,8 @@
     "bookRef": {
       "id": "jbv2025-1311",
       "pdfPage": 133
-    }
+    },
+    "pronunciation": "장석허다"
   },
   {
     "seq": "30462",
@@ -18085,7 +18394,8 @@
     "bookRef": {
       "id": "jbv2025-1317",
       "pdfPage": 133
-    }
+    },
+    "pronunciation": "직산허다"
   },
   {
     "seq": "30468",
@@ -18126,7 +18436,8 @@
     "bookRef": {
       "id": "jbv2025-1320",
       "pdfPage": 133
-    }
+    },
+    "pronunciation": "점다"
   },
   {
     "seq": "30471",
@@ -18139,7 +18450,8 @@
     "bookRef": {
       "id": "jbv2025-1321",
       "pdfPage": 133
-    }
+    },
+    "pronunciation": "점점허다"
   },
   {
     "seq": "30472",
@@ -18165,7 +18477,8 @@
     "bookRef": {
       "id": "jbv2025-1323",
       "pdfPage": 134
-    }
+    },
+    "pronunciation": "추렴허다"
   },
   {
     "seq": "30474",
@@ -18178,7 +18491,8 @@
     "bookRef": {
       "id": "jbv2025-1324",
       "pdfPage": 134
-    }
+    },
+    "pronunciation": "추물락허다"
   },
   {
     "seq": "30475",
@@ -18249,31 +18563,31 @@
   },
   {
     "seq": "30480",
-    "jeju": "라지다",
+    "jeju": "ᄐᆞᆫ라지다",
     "standard": "비뚤어지다",
     "definition": "바르지 아니하고 한쪽으로 기울어지거나 쏠리다.",
     "level": "advanced",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1330",
       "pdfPage": 134
-    }
+    },
+    "pronunciation": "턴라지다"
   },
   {
     "seq": "30481",
-    "jeju": "아지다",
+    "jeju": "ᄃᆞᆮ아지다",
     "standard": "뙤다",
     "definition": "물건의 한 부분이 떨어지다.",
     "level": "advanced",
     "partOfSpeech": "verb",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1331",
       "pdfPage": 134
-    }
+    },
+    "pronunciation": "덛아지다"
   },
   {
     "seq": "30482",
@@ -18354,7 +18668,8 @@
     "bookRef": {
       "id": "jbv2025-1337",
       "pdfPage": 135
-    }
+    },
+    "pronunciation": "가근허다"
   },
   {
     "seq": "30488",
@@ -18367,7 +18682,8 @@
     "bookRef": {
       "id": "jbv2025-1338",
       "pdfPage": 135
-    }
+    },
+    "pronunciation": "각벨허다"
   },
   {
     "seq": "30489",
@@ -18380,7 +18696,8 @@
     "bookRef": {
       "id": "jbv2025-1339",
       "pdfPage": 135
-    }
+    },
+    "pronunciation": "건드렁허다"
   },
   {
     "seq": "30490",
@@ -18408,7 +18725,8 @@
     "bookRef": {
       "id": "jbv2025-1341",
       "pdfPage": 135
-    }
+    },
+    "pronunciation": "고정허다"
   },
   {
     "seq": "30492",
@@ -18421,7 +18739,8 @@
     "bookRef": {
       "id": "jbv2025-1342",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "골착허다"
   },
   {
     "seq": "30493",
@@ -18447,7 +18766,8 @@
     "bookRef": {
       "id": "jbv2025-1344",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "거노롱허다"
   },
   {
     "seq": "30495",
@@ -18460,7 +18780,8 @@
     "bookRef": {
       "id": "jbv2025-1345",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "겁엇다"
   },
   {
     "seq": "30496",
@@ -18473,7 +18794,8 @@
     "bookRef": {
       "id": "jbv2025-1346",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "네큰허다"
   },
   {
     "seq": "30497",
@@ -18486,7 +18808,8 @@
     "bookRef": {
       "id": "jbv2025-1347",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "노고록허다"
   },
   {
     "seq": "30498",
@@ -18499,7 +18822,8 @@
     "bookRef": {
       "id": "jbv2025-1348",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "는착허다"
   },
   {
     "seq": "30499",
@@ -18515,7 +18839,8 @@
     "bookRef": {
       "id": "jbv2025-1349",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "늘크랑허다"
   },
   {
     "seq": "30500",
@@ -18528,7 +18853,8 @@
     "bookRef": {
       "id": "jbv2025-1350",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "니귀반듯허다"
   },
   {
     "seq": "30501",
@@ -18544,7 +18870,8 @@
     "bookRef": {
       "id": "jbv2025-1351",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "너롯허다"
   },
   {
     "seq": "30502",
@@ -18573,7 +18900,8 @@
     "bookRef": {
       "id": "jbv2025-1353",
       "pdfPage": 136
-    }
+    },
+    "pronunciation": "덤방허다"
   },
   {
     "seq": "30504",
@@ -18599,7 +18927,8 @@
     "bookRef": {
       "id": "jbv2025-1355",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "두령청허다"
   },
   {
     "seq": "30506",
@@ -18625,7 +18954,8 @@
     "bookRef": {
       "id": "jbv2025-1357",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "떠락지다"
   },
   {
     "seq": "30508",
@@ -18638,7 +18968,8 @@
     "bookRef": {
       "id": "jbv2025-1358",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "마직허다"
   },
   {
     "seq": "30509",
@@ -18651,7 +18982,8 @@
     "bookRef": {
       "id": "jbv2025-1359",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "말깡허다"
   },
   {
     "seq": "30510",
@@ -18667,7 +18999,8 @@
     "bookRef": {
       "id": "jbv2025-1360",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "모냥넞다"
   },
   {
     "seq": "30511",
@@ -18680,7 +19013,8 @@
     "bookRef": {
       "id": "jbv2025-1361",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "모드락허다"
   },
   {
     "seq": "30512",
@@ -18706,7 +19040,8 @@
     "bookRef": {
       "id": "jbv2025-1363",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "모지직허다"
   },
   {
     "seq": "30514",
@@ -18735,7 +19070,8 @@
     "bookRef": {
       "id": "jbv2025-1365",
       "pdfPage": 137
-    }
+    },
+    "pronunciation": "몰착허다"
   },
   {
     "seq": "30516",
@@ -18764,7 +19100,8 @@
     "bookRef": {
       "id": "jbv2025-1367",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "몽클락허다"
   },
   {
     "seq": "30518",
@@ -18790,7 +19127,8 @@
     "bookRef": {
       "id": "jbv2025-1369",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "무룩허다"
   },
   {
     "seq": "30520",
@@ -18803,7 +19141,8 @@
     "bookRef": {
       "id": "jbv2025-1370",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "무충허다"
   },
   {
     "seq": "30521",
@@ -18816,7 +19155,8 @@
     "bookRef": {
       "id": "jbv2025-1371",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "무큰허다"
   },
   {
     "seq": "30522",
@@ -18832,7 +19172,8 @@
     "bookRef": {
       "id": "jbv2025-1372",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "문들락허다"
   },
   {
     "seq": "30523",
@@ -18848,7 +19189,8 @@
     "bookRef": {
       "id": "jbv2025-1373",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "물락허다"
   },
   {
     "seq": "30524",
@@ -18864,7 +19206,8 @@
     "bookRef": {
       "id": "jbv2025-1374",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "민지락허다"
   },
   {
     "seq": "30525",
@@ -18877,7 +19220,8 @@
     "bookRef": {
       "id": "jbv2025-1375",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "밉상벌르다"
   },
   {
     "seq": "30526",
@@ -18890,7 +19234,8 @@
     "bookRef": {
       "id": "jbv2025-1376",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "반지롱허다"
   },
   {
     "seq": "30527",
@@ -18903,7 +19248,8 @@
     "bookRef": {
       "id": "jbv2025-1377",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "발착허다"
   },
   {
     "seq": "30528",
@@ -18929,7 +19275,8 @@
     "bookRef": {
       "id": "jbv2025-1379",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "번찍허다"
   },
   {
     "seq": "30530",
@@ -18942,7 +19289,8 @@
     "bookRef": {
       "id": "jbv2025-1380",
       "pdfPage": 138
-    }
+    },
+    "pronunciation": "베작허다"
   },
   {
     "seq": "30531",
@@ -18955,7 +19303,8 @@
     "bookRef": {
       "id": "jbv2025-1381",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "벤벤허다"
   },
   {
     "seq": "30532",
@@ -18968,7 +19317,8 @@
     "bookRef": {
       "id": "jbv2025-1382",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "보그락허다"
   },
   {
     "seq": "30533",
@@ -18984,7 +19334,8 @@
     "bookRef": {
       "id": "jbv2025-1383",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "복삭허다"
   },
   {
     "seq": "30534",
@@ -19026,7 +19377,8 @@
     "bookRef": {
       "id": "jbv2025-1386",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "붕탕허다"
   },
   {
     "seq": "30537",
@@ -19039,7 +19391,8 @@
     "bookRef": {
       "id": "jbv2025-1387",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "버랑지다"
   },
   {
     "seq": "30538",
@@ -19052,7 +19405,8 @@
     "bookRef": {
       "id": "jbv2025-1388",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "버짝허다"
   },
   {
     "seq": "30539",
@@ -19065,7 +19419,8 @@
     "bookRef": {
       "id": "jbv2025-1389",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "벌다"
   },
   {
     "seq": "30540",
@@ -19078,7 +19433,8 @@
     "bookRef": {
       "id": "jbv2025-1390",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "산도록허다"
   },
   {
     "seq": "30541",
@@ -19091,7 +19447,8 @@
     "bookRef": {
       "id": "jbv2025-1391",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "석석허다"
   },
   {
     "seq": "30542",
@@ -19107,7 +19464,8 @@
     "bookRef": {
       "id": "jbv2025-1392",
       "pdfPage": 139
-    }
+    },
+    "pronunciation": "섬찌근허다"
   },
   {
     "seq": "30543",
@@ -19136,7 +19494,8 @@
     "bookRef": {
       "id": "jbv2025-1394",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "소랑허다"
   },
   {
     "seq": "30545",
@@ -19152,7 +19511,8 @@
     "bookRef": {
       "id": "jbv2025-1395",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "솜빡허다"
   },
   {
     "seq": "30546",
@@ -19165,7 +19525,8 @@
     "bookRef": {
       "id": "jbv2025-1396",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "수드락허다"
   },
   {
     "seq": "30547",
@@ -19178,7 +19539,8 @@
     "bookRef": {
       "id": "jbv2025-1397",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "숨버릅다"
   },
   {
     "seq": "30548",
@@ -19191,7 +19553,8 @@
     "bookRef": {
       "id": "jbv2025-1398",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "쉬우룽허다"
   },
   {
     "seq": "30549",
@@ -19204,7 +19567,8 @@
     "bookRef": {
       "id": "jbv2025-1399",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "ᄉ락허다"
   },
   {
     "seq": "30550",
@@ -19217,7 +19581,8 @@
     "bookRef": {
       "id": "jbv2025-1400",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "씨우룽허다"
   },
   {
     "seq": "30551",
@@ -19243,7 +19608,8 @@
     "bookRef": {
       "id": "jbv2025-1402",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "어중그랑허다"
   },
   {
     "seq": "30553",
@@ -19256,7 +19622,8 @@
     "bookRef": {
       "id": "jbv2025-1403",
       "pdfPage": 140
-    }
+    },
+    "pronunciation": "어지렁허다"
   },
   {
     "seq": "30554",
@@ -19272,7 +19639,8 @@
     "bookRef": {
       "id": "jbv2025-1404",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "엄부랑허다"
   },
   {
     "seq": "30555",
@@ -19288,7 +19656,8 @@
     "bookRef": {
       "id": "jbv2025-1405",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "옴탕허다"
   },
   {
     "seq": "30556",
@@ -19301,7 +19670,8 @@
     "bookRef": {
       "id": "jbv2025-1406",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "을큰허다"
   },
   {
     "seq": "30557",
@@ -19314,21 +19684,22 @@
     "bookRef": {
       "id": "jbv2025-1407",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "입메절르다"
   },
   {
     "seq": "30558",
-    "jeju": "시록ᄒᆞ다",
-    "standard": "시록ᄒᆞ다",
+    "jeju": "ᄋᆞ시록ᄒᆞ다",
+    "standard": "ᄋᆞ시록ᄒᆞ다",
     "definition": "되바라지지도 번화롭지도 않아서 구석지고 매우 고요하다.",
     "level": "advanced",
     "partOfSpeech": "adjective",
     "pendingExample": true,
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1408",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "어시록허다"
   },
   {
     "seq": "30559",
@@ -19344,7 +19715,8 @@
     "bookRef": {
       "id": "jbv2025-1409",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "잰잰허다"
   },
   {
     "seq": "30560",
@@ -19357,7 +19729,8 @@
     "bookRef": {
       "id": "jbv2025-1410",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "족허다"
   },
   {
     "seq": "30561",
@@ -19373,7 +19746,8 @@
     "bookRef": {
       "id": "jbv2025-1411",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "주짝허다"
   },
   {
     "seq": "30562",
@@ -19386,7 +19760,8 @@
     "bookRef": {
       "id": "jbv2025-1412",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "지깍허다"
   },
   {
     "seq": "30563",
@@ -19399,7 +19774,8 @@
     "bookRef": {
       "id": "jbv2025-1413",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "진진허다"
   },
   {
     "seq": "30564",
@@ -19412,7 +19788,8 @@
     "bookRef": {
       "id": "jbv2025-1414",
       "pdfPage": 141
-    }
+    },
+    "pronunciation": "저골롭다"
   },
   {
     "seq": "30565",
@@ -19425,7 +19802,8 @@
     "bookRef": {
       "id": "jbv2025-1415",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "점상허다"
   },
   {
     "seq": "30566",
@@ -19471,7 +19849,8 @@
     "bookRef": {
       "id": "jbv2025-1418",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "쭌쭌허다"
   },
   {
     "seq": "30569",
@@ -19484,7 +19863,8 @@
     "bookRef": {
       "id": "jbv2025-1419",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "치닥치닥허다"
   },
   {
     "seq": "30570",
@@ -19497,7 +19877,8 @@
     "bookRef": {
       "id": "jbv2025-1420",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "코삿허다"
   },
   {
     "seq": "30571",
@@ -19513,11 +19894,12 @@
     "bookRef": {
       "id": "jbv2025-1421",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "쿠승허다"
   },
   {
     "seq": "30572",
-    "jeju": "뜽ᄒᆞ다",
+    "jeju": "ᄏᆞᆯ뜽ᄒᆞ다",
     "standard": "가지런하다",
     "definition": "여럿이 층이 나지 않고 고르게 되어 있다.",
     "level": "advanced",
@@ -19527,11 +19909,11 @@
       "찡ᄒᆞ다",
       "칭ᄒᆞ다"
     ],
-    "containsPua": true,
     "bookRef": {
       "id": "jbv2025-1422",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "컬뜽허다"
   },
   {
     "seq": "30573",
@@ -19544,7 +19926,8 @@
     "bookRef": {
       "id": "jbv2025-1423",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "툴허다"
   },
   {
     "seq": "30574",
@@ -19557,7 +19940,8 @@
     "bookRef": {
       "id": "jbv2025-1424",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "판찍허다"
   },
   {
     "seq": "30575",
@@ -19586,7 +19970,8 @@
     "bookRef": {
       "id": "jbv2025-1426",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "펜도롱허다"
   },
   {
     "seq": "30577",
@@ -19599,7 +19984,8 @@
     "bookRef": {
       "id": "jbv2025-1427",
       "pdfPage": 142
-    }
+    },
+    "pronunciation": "폭허다"
   },
   {
     "seq": "30578",
@@ -19612,7 +19998,8 @@
     "bookRef": {
       "id": "jbv2025-1428",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "푸지근허다"
   },
   {
     "seq": "30579",
@@ -19625,7 +20012,8 @@
     "bookRef": {
       "id": "jbv2025-1429",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "한한허다"
   },
   {
     "seq": "30580",
@@ -19638,7 +20026,8 @@
     "bookRef": {
       "id": "jbv2025-1430",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "헉삭허다"
   },
   {
     "seq": "30581",
@@ -19651,7 +20040,8 @@
     "bookRef": {
       "id": "jbv2025-1431",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "헌헌허다"
   },
   {
     "seq": "30582",
@@ -19664,7 +20054,8 @@
     "bookRef": {
       "id": "jbv2025-1432",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "헤뚜룩허다"
   },
   {
     "seq": "30583",
@@ -19677,7 +20068,8 @@
     "bookRef": {
       "id": "jbv2025-1433",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "화륵허다"
   },
   {
     "seq": "30584",
@@ -19706,7 +20098,8 @@
     "bookRef": {
       "id": "jbv2025-1435",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "흘락허다"
   },
   {
     "seq": "30586",
@@ -19719,7 +20112,8 @@
     "bookRef": {
       "id": "jbv2025-1436",
       "pdfPage": 143
-    }
+    },
+    "pronunciation": "히여뜩허다"
   },
   {
     "seq": "30587",
@@ -19855,7 +20249,8 @@
     "bookRef": {
       "id": "jbv2025-1446",
       "pdfPage": 144
-    }
+    },
+    "pronunciation": "거슬내낭"
   },
   {
     "seq": "30597",
@@ -19868,7 +20263,8 @@
     "bookRef": {
       "id": "jbv2025-1447",
       "pdfPage": 144
-    }
+    },
+    "pronunciation": "거자"
   },
   {
     "seq": "30598",
@@ -19894,7 +20290,8 @@
     "bookRef": {
       "id": "jbv2025-1449",
       "pdfPage": 145
-    }
+    },
+    "pronunciation": "너시"
   },
   {
     "seq": "30600",
@@ -20124,7 +20521,8 @@
     "bookRef": {
       "id": "jbv2025-1466",
       "pdfPage": 146
-    }
+    },
+    "pronunciation": "버끈"
   },
   {
     "seq": "30617",
@@ -20137,7 +20535,8 @@
     "bookRef": {
       "id": "jbv2025-1467",
       "pdfPage": 146
-    }
+    },
+    "pronunciation": "버들랑버들랑"
   },
   {
     "seq": "30618",
@@ -20348,7 +20747,8 @@
     "bookRef": {
       "id": "jbv2025-1483",
       "pdfPage": 148
-    }
+    },
+    "pronunciation": "어름내낭"
   },
   {
     "seq": "30634",
@@ -20361,7 +20761,8 @@
     "bookRef": {
       "id": "jbv2025-1484",
       "pdfPage": 148
-    }
+    },
+    "pronunciation": "어보록ᄉ보록"
   },
   {
     "seq": "30635",
@@ -20539,7 +20940,8 @@
     "bookRef": {
       "id": "jbv2025-1497",
       "pdfPage": 149
-    }
+    },
+    "pronunciation": "퍼뜰퍼뜰"
   },
   {
     "seq": "30648",
@@ -20578,7 +20980,8 @@
     "bookRef": {
       "id": "jbv2025-1500",
       "pdfPage": 149
-    }
+    },
+    "pronunciation": "허루헤원"
   },
   {
     "seq": "30651",
@@ -20591,6 +20994,7 @@
     "bookRef": {
       "id": "jbv2025-1501",
       "pdfPage": 149
-    }
+    },
+    "pronunciation": "험마"
   }
 ]
